@@ -131,19 +131,19 @@
 	<LocalizationPair Name="%SandboxManpowerStockDescription">Bigger barracks and gargantuan garrisons!</LocalizationPair>
 
 	<!--Increases Fleet Size-->
-	<LocalizationPair Name="%SandboxSuperFleets5Title">Sandbox: Fleet Size +5</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperFleets10Title">Sandbox: Fleet Size +10</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperFleets15Title">Sandbox: Fleet Size +15</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperFleets20Title">Sandbox: Fleet Size +20</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperFleetsDescription">Allows for super sized fleets to be built and makes them upkeep free</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperFleets4Title">Sandbox: Fleet Size +4</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperFleets8Title">Sandbox: Fleet Size +8</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperFleets16Title">Sandbox: Fleet Size +16</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperFleets32Title">Sandbox: Fleet Size +32</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperFleetsDescription">Super-sized fleets at a fraction of the cost!</LocalizationPair>
 
 	<!--Increases Trading Subsidiaries Amount-->
-	<LocalizationPair Name="%SandboxSuperSubsidiaries5Title">Sandbox: Trade Subsidiaries +5</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperSubsidiaries10Title">Sandbox: Trade Subsidiaries +10</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperSubsidiaries50Title">Sandbox: Trade Subsidiaries +50</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperSubsidiaries100Title">Sandbox: Trade Subsidiaries +500</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperSubsidiaries1000Title">Sandbox: Trade Subsidiaries +1000</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperSubsidiariesDescription">Allows for many Trade Subsidiaries</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperSubsidiaries4Title">Sandbox: Trade Subsidiaries +4</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperSubsidiaries16Title">Sandbox: Trade Subsidiaries +16</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperSubsidiaries64Title">Sandbox: Trade Subsidiaries +64</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperSubsidiaries256Title">Sandbox: Trade Subsidiaries +256</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperSubsidiaries1024Title">Sandbox: Trade Subsidiaries +1024</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperSubsidiariesDescription">Allows for many trade subsidiaries.</LocalizationPair>
 
 	<!--Increases Trading Company Profit-->
 	<LocalizationPair Name="%SandboxSuperTrading50Title">Sandbox: Trading Company Leveling and Profit +50%</LocalizationPair>

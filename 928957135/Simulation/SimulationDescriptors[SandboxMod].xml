@@ -293,38 +293,37 @@
 	</SimulationDescriptor>
 
 	<!--Increases Fleet Size-->
-	<SimulationDescriptor Name="SandboxSuperFleets5" Type="FactionTrait">
-		<Modifier TargetProperty="MaximumCommandPoints" Operation="Addition" Value="5" Path="ClassEmpire"/>
-		<Modifier TargetProperty="GarrisonMoneyUpkeep" Operation="Percent" Value="-1.0" Path="ClassEmpire//ClassGarrison/ClassShip"/>
+	<SimulationDescriptor Name="SandboxSuperFleets4" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumCommandPoints" Operation="Addition" Value="4" Path="ClassEmpire"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxSuperFleets10" Type="FactionTrait">
-		<Modifier TargetProperty="MaximumCommandPoints" Operation="Addition" Value="10" Path="ClassEmpire"/>
-		<Modifier TargetProperty="GarrisonMoneyUpkeep" Operation="Percent" Value="-1.0" Path="ClassEmpire//ClassGarrison/ClassShip"/>
+	<SimulationDescriptor Name="SandboxSuperFleets8" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumCommandPoints" Operation="Addition" Value="8" Path="ClassEmpire"/>
+		<Modifier TargetProperty="GarrisonMoneyUpkeep" Operation="Percent" Value="-0.25" Path="ClassEmpire//ClassGarrison/ClassShip"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxSuperFleets15" Type="FactionTrait">
-		<Modifier TargetProperty="MaximumCommandPoints" Operation="Addition" Value="15" Path="ClassEmpire"/>
-		<Modifier TargetProperty="GarrisonMoneyUpkeep" Operation="Percent" Value="-1.0" Path="ClassEmpire//ClassGarrison/ClassShip"/>
+	<SimulationDescriptor Name="SandboxSuperFleets16" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumCommandPoints" Operation="Addition" Value="16" Path="ClassEmpire"/>
+		<Modifier TargetProperty="GarrisonMoneyUpkeep" Operation="Percent" Value="-0.5" Path="ClassEmpire//ClassGarrison/ClassShip"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxSuperFleets20" Type="FactionTrait">
-		<Modifier TargetProperty="MaximumCommandPoints" Operation="Addition" Value="20" Path="ClassEmpire"/>
+	<SimulationDescriptor Name="SandboxSuperFleets32" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumCommandPoints" Operation="Addition" Value="32" Path="ClassEmpire"/>
 		<Modifier TargetProperty="GarrisonMoneyUpkeep" Operation="Percent" Value="-1.0" Path="ClassEmpire//ClassGarrison/ClassShip"/>
 	</SimulationDescriptor>
 
 	<!--Increases Trading Subsidiaries Amount-->
-	<SimulationDescriptor Name="SandboxSuperSubsidiaries5" Type="FactionTrait">
-		<Modifier TargetProperty="MaximumNumberOfTradingCompanySubsidiaries" Operation="Addition" Value="5" Path="ClassEmpire" TooltipHidden="false" />
+	<SimulationDescriptor Name="SandboxSuperSubsidiaries4" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumNumberOfTradingCompanySubsidiaries" Operation="Addition" Value="4" Path="ClassEmpire" TooltipHidden="false" />
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxSuperSubsidiaries10" Type="FactionTrait">
-		<Modifier TargetProperty="MaximumNumberOfTradingCompanySubsidiaries" Operation="Addition" Value="10" Path="ClassEmpire" TooltipHidden="false" />
+	<SimulationDescriptor Name="SandboxSuperSubsidiaries16" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumNumberOfTradingCompanySubsidiaries" Operation="Addition" Value="16" Path="ClassEmpire" TooltipHidden="false" />
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxSuperSubsidiaries50" Type="FactionTrait">
-		<Modifier TargetProperty="MaximumNumberOfTradingCompanySubsidiaries" Operation="Addition" Value="50" Path="ClassEmpire" TooltipHidden="false" />
+	<SimulationDescriptor Name="SandboxSuperSubsidiaries64" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumNumberOfTradingCompanySubsidiaries" Operation="Addition" Value="64" Path="ClassEmpire" TooltipHidden="false" />
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxSuperSubsidiaries100" Type="FactionTrait">
-		<Modifier TargetProperty="MaximumNumberOfTradingCompanySubsidiaries" Operation="Addition" Value="100" Path="ClassEmpire" TooltipHidden="false" />
+	<SimulationDescriptor Name="SandboxSuperSubsidiaries256" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumNumberOfTradingCompanySubsidiaries" Operation="Addition" Value="256" Path="ClassEmpire" TooltipHidden="false" />
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxSuperSubsidiaries1000" Type="FactionTrait">
-		<Modifier TargetProperty="MaximumNumberOfTradingCompanySubsidiaries" Operation="Addition" Value="1000" Path="ClassEmpire" TooltipHidden="false" />
+	<SimulationDescriptor Name="SandboxSuperSubsidiaries1024" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumNumberOfTradingCompanySubsidiaries" Operation="Addition" Value="1024" Path="ClassEmpire" TooltipHidden="false" />
 	</SimulationDescriptor>
 
 	<!--Increases Trading Company Profit-->

@@ -531,29 +531,29 @@
 	</GuiElement>
 
 	<!--Increases Fleet Size-->
-	<GuiElement Name="SandboxSuperFleets5">
-		<Title>%SandboxSuperFleets5Title</Title>
+	<GuiElement Name="SandboxSuperFleets4">
+		<Title>%SandboxSuperFleets4Title</Title>
 		<Description>%SandboxSuperFleetsDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
-	<GuiElement Name="SandboxSuperFleets10">
-		<Title>%SandboxSuperFleets10Title</Title>
+	<GuiElement Name="SandboxSuperFleets8">
+		<Title>%SandboxSuperFleets8Title</Title>
 		<Description>%SandboxSuperFleetsDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
-	<GuiElement Name="SandboxSuperFleets15">
-		<Title>%SandboxSuperFleets15Title</Title>
+	<GuiElement Name="SandboxSuperFleets16">
+		<Title>%SandboxSuperFleets16Title</Title>
 		<Description>%SandboxSuperFleetsDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
-	<GuiElement Name="SandboxSuperFleets20">
-		<Title>%SandboxSuperFleets20Title</Title>
+	<GuiElement Name="SandboxSuperFleets32">
+		<Title>%SandboxSuperFleets32Title</Title>
 		<Description>%SandboxSuperFleetsDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
@@ -561,36 +561,36 @@
 	</GuiElement>
 
 	<!--Increases Trading Subsidiaries Amount-->
-	<GuiElement Name="SandboxSuperSubsidiaries5">
-		<Title>%SandboxSuperSubsidiaries5Title</Title>
+	<GuiElement Name="SandboxSuperSubsidiaries4">
+		<Title>%SandboxSuperSubsidiaries4Title</Title>
 		<Description>%SandboxSuperSubsidiariesDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
-	<GuiElement Name="SandboxSuperSubsidiaries10">
-		<Title>%SandboxSuperSubsidiaries10Title</Title>
+	<GuiElement Name="SandboxSuperSubsidiaries16">
+		<Title>%SandboxSuperSubsidiaries16Title</Title>
 		<Description>%SandboxSuperSubsidiariesDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
-	<GuiElement Name="SandboxSuperSubsidiaries50">
-		<Title>%SandboxSuperSubsidiaries50Title</Title>
+	<GuiElement Name="SandboxSuperSubsidiaries64">
+		<Title>%SandboxSuperSubsidiaries64Title</Title>
 		<Description>%SandboxSuperSubsidiariesDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
-	<GuiElement Name="SandboxSuperSubsidiaries100">
-		<Title>%SandboxSuperSubsidiaries100Title</Title>
+	<GuiElement Name="SandboxSuperSubsidiaries256">
+		<Title>%SandboxSuperSubsidiaries256Title</Title>
 		<Description>%SandboxSuperSubsidiariesDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
-	<GuiElement Name="SandboxSuperSubsidiaries1000">
-		<Title>%SandboxSuperSubsidiaries1000Title</Title>
+	<GuiElement Name="SandboxSuperSubsidiaries1024">
+		<Title>%SandboxSuperSubsidiaries1024Title</Title>
 		<Description>%SandboxSuperSubsidiariesDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
