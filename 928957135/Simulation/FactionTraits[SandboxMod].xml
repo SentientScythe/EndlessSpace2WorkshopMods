@@ -172,45 +172,45 @@
 	</FactionTrait>
 
 	<!--Gives XP, reduces Cost, and heals Heros-->
-	<FactionTrait Name="SandboxSuperHeros5" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperHeros" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperHeros5"/>
+	<FactionTrait Name="SandboxSuperHeros2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperHeros" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperHeros2"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxSuperHeros10" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperHeros" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperHeros10"/>
+	<FactionTrait Name="SandboxSuperHeros8" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperHeros" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperHeros8"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxSuperHeros50" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperHeros" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperHeros50"/>
+	<FactionTrait Name="SandboxSuperHeros32" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperHeros" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperHeros32"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxSuperHeros100" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperHeros" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperHeros100"/>
+	<FactionTrait Name="SandboxSuperHeros128" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperHeros" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperHeros128"/>
 	</FactionTrait>
 
 	<!--Increases Ship Health-->
-	<FactionTrait Name="SandboxHealthyShips50" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxHealthyShips" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxHealthyShips50"/>
-	</FactionTrait>
-	<FactionTrait Name="SandboxHealthyShips100" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxHealthyShips" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	<FactionTrait Name="SandboxHealthyShips100" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxHealthyShips" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<SimulationDescriptorReference Name="SandboxHealthyShips100"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxHealthyShips500" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxHealthyShips" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxHealthyShips500"/>
+	<FactionTrait Name="SandboxHealthyShips200" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxHealthyShips" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxHealthyShips200"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxHealthyShips1000" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxHealthyShips" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxHealthyShips1000"/>
+	<FactionTrait Name="SandboxHealthyShips400" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxHealthyShips" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxHealthyShips400"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxHealthyShips800" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxHealthyShips" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxHealthyShips800"/>
 	</FactionTrait>
 
 	<!--Increases Ship Damage-->
-	<FactionTrait Name="SandboxDeadlyShips50" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxDeadlyShips" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxDeadlyShips50"/>
-	</FactionTrait>
-	<FactionTrait Name="SandboxDeadlyShips100" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxDeadlyShips" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	<FactionTrait Name="SandboxDeadlyShips100" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxDeadlyShips" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<SimulationDescriptorReference Name="SandboxDeadlyShips100"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxDeadlyShips500" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxDeadlyShips" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxDeadlyShips500"/>
+	<FactionTrait Name="SandboxDeadlyShips200" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxDeadlyShips" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxDeadlyShips200"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxDeadlyShips1000" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxDeadlyShips" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxDeadlyShips1000"/>
+	<FactionTrait Name="SandboxDeadlyShips400" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxDeadlyShips" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxDeadlyShips400"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxDeadlyShips800" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxDeadlyShips" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxDeadlyShips800"/>
 	</FactionTrait>
 
 	<!--Decreases Ship Build Cost-->

@@ -351,29 +351,29 @@
 	</GuiElement>
 
 	<!--Gives XP, reduces Cost, and heals Heros-->
-	<GuiElement Name="SandboxSuperHeros5">
-		<Title>%SandboxSuperHeros5Title</Title>
+	<GuiElement Name="SandboxSuperHeros2">
+		<Title>%SandboxSuperHeros2Title</Title>
 		<Description>%SandboxSuperHerosDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
-	<GuiElement Name="SandboxSuperHeros10">
-		<Title>%SandboxSuperHeros10Title</Title>
+	<GuiElement Name="SandboxSuperHeros8">
+		<Title>%SandboxSuperHeros8Title</Title>
 		<Description>%SandboxSuperHerosDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
-	<GuiElement Name="SandboxSuperHeros50">
-		<Title>%SandboxSuperHeros50Title</Title>
+	<GuiElement Name="SandboxSuperHeros32">
+		<Title>%SandboxSuperHeros32Title</Title>
 		<Description>%SandboxSuperHerosDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
-	<GuiElement Name="SandboxSuperHeros100">
-		<Title>%SandboxSuperHeros100Title</Title>
+	<GuiElement Name="SandboxSuperHeros128">
+		<Title>%SandboxSuperHeros128Title</Title>
 		<Description>%SandboxSuperHerosDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
@@ -381,13 +381,6 @@
 	</GuiElement>
 
 	<!--Increases Ship Health-->
-	<GuiElement Name="SandboxHealthyShips50">
-		<Title>%SandboxHealthyShips50Title</Title>
-		<Description>%SandboxHealthyShipsDescription</Description>
-		<Icons>
-			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-		</Icons>
-	</GuiElement>
 	<GuiElement Name="SandboxHealthyShips100">
 		<Title>%SandboxHealthyShips100Title</Title>
 		<Description>%SandboxHealthyShipsDescription</Description>
@@ -395,15 +388,22 @@
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
-	<GuiElement Name="SandboxHealthyShips500">
-		<Title>%SandboxHealthyShips500Title</Title>
+	<GuiElement Name="SandboxHealthyShips200">
+		<Title>%SandboxHealthyShips200Title</Title>
 		<Description>%SandboxHealthyShipsDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
-	<GuiElement Name="SandboxHealthyShips1000">
-		<Title>%SandboxHealthyShips1000Title</Title>
+	<GuiElement Name="SandboxHealthyShips400">
+		<Title>%SandboxHealthyShips400Title</Title>
+		<Description>%SandboxHealthyShipsDescription</Description>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+		</Icons>
+	</GuiElement>
+	<GuiElement Name="SandboxHealthyShips800">
+		<Title>%SandboxHealthyShips800Title</Title>
 		<Description>%SandboxHealthyShipsDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
@@ -411,13 +411,6 @@
 	</GuiElement>
 
 	<!--Increases Ship Damage-->
-	<GuiElement Name="SandboxDeadlyShips50">
-		<Title>%SandboxDeadlyShips50Title</Title>
-		<Description>%SandboxDeadlyShipsDescription</Description>
-		<Icons>
-			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-		</Icons>
-	</GuiElement>
 	<GuiElement Name="SandboxDeadlyShips100">
 		<Title>%SandboxDeadlyShips100Title</Title>
 		<Description>%SandboxDeadlyShipsDescription</Description>
@@ -425,15 +418,22 @@
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
-	<GuiElement Name="SandboxDeadlyShips500">
-		<Title>%SandboxDeadlyShips500Title</Title>
+	<GuiElement Name="SandboxDeadlyShips200">
+		<Title>%SandboxDeadlyShips200Title</Title>
 		<Description>%SandboxDeadlyShipsDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
-	<GuiElement Name="SandboxDeadlyShips1000">
-		<Title>%SandboxDeadlyShips1000Title</Title>
+	<GuiElement Name="SandboxDeadlyShips400">
+		<Title>%SandboxDeadlyShips400Title</Title>
+		<Description>%SandboxDeadlyShipsDescription</Description>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+		</Icons>
+	</GuiElement>
+	<GuiElement Name="SandboxDeadlyShips800">
+		<Title>%SandboxDeadlyShips800Title</Title>
 		<Description>%SandboxDeadlyShipsDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />

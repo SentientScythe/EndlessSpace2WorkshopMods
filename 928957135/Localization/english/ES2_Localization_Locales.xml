@@ -89,32 +89,32 @@
 	<LocalizationPair Name="%SandboxExtraProbesDescription">More of the good kind of probe.</LocalizationPair>
 
 	<!--Gives XP, reduces Cost, and heals Heros-->
-	<LocalizationPair Name="%SandboxSuperHeros5Title">Sandbox: Super Heroes +5XP per turn</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperHeros10Title">Sandbox: Super Heros +10XP per turn</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperHeros50Title">Sandbox: Super Heros +50XP per turn</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperHeros100Title">Sandbox: Super Heros +100XP per turn</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperHerosDescription">Makes heroes free and level up quickly</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperHeros5Title">Sandbox: Super Heroes +2XP per turn</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperHeros10Title">Sandbox: Super Heros +8XP per turn</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperHeros50Title">Sandbox: Super Heros +32XP per turn</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperHeros100Title">Sandbox: Super Heros +128XP per turn</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperHerosDescription">Cheaper, healthier and more skillful heroes.</LocalizationPair>
 
 	<!--Increases Ship Health-->
-	<LocalizationPair Name="%SandboxHealthyShips50Title">Sandbox: Ship Health +50%</LocalizationPair>
 	<LocalizationPair Name="%SandboxHealthyShips100Title">Sandbox: Ship Health +100%</LocalizationPair>
-	<LocalizationPair Name="%SandboxHealthyShips500Title">Sandbox: Ship Health +500%</LocalizationPair>
-	<LocalizationPair Name="%SandboxHealthyShips1000Title">Sandbox: Ship Health +1000%</LocalizationPair>
-	<LocalizationPair Name="%SandboxHealthyShipsDescription">Give Ships extra health</LocalizationPair>
+	<LocalizationPair Name="%SandboxHealthyShips200Title">Sandbox: Ship Health +200%</LocalizationPair>
+	<LocalizationPair Name="%SandboxHealthyShips400Title">Sandbox: Ship Health +400%</LocalizationPair>
+	<LocalizationPair Name="%SandboxHealthyShips800Title">Sandbox: Ship Health +800%</LocalizationPair>
+	<LocalizationPair Name="%SandboxHealthyShipsDescription">Tougher ships.</LocalizationPair>
 
 	<!--Increases Ship Damage-->
-	<LocalizationPair Name="%SandboxDeadlyShips50Title">Sandbox: Ship Weapon Damage +50%</LocalizationPair>
 	<LocalizationPair Name="%SandboxDeadlyShips100Title">Sandbox: Ship Weapon Damage +100%</LocalizationPair>
-	<LocalizationPair Name="%SandboxDeadlyShips500Title">Sandbox: Ship Weapon Damage +500%</LocalizationPair>
-	<LocalizationPair Name="%SandboxDeadlyShips1000Title">Sandbox: Ship Weapon Damage +1000%</LocalizationPair>
-	<LocalizationPair Name="%SandboxDeadlyShipsDescription">Makes you ship weapons Deadly</LocalizationPair>
+	<LocalizationPair Name="%SandboxDeadlyShips200Title">Sandbox: Ship Weapon Damage +200%</LocalizationPair>
+	<LocalizationPair Name="%SandboxDeadlyShips400Title">Sandbox: Ship Weapon Damage +400%</LocalizationPair>
+	<LocalizationPair Name="%SandboxDeadlyShips800Title">Sandbox: Ship Weapon Damage +800%</LocalizationPair>
+	<LocalizationPair Name="%SandboxDeadlyShipsDescription">Stronger ships.</LocalizationPair>
 
 	<!--Decreases Ship Build Cost-->
 	<LocalizationPair Name="%SandboxCheapShips25Title">Sandbox: Ship Costs -25%</LocalizationPair>
 	<LocalizationPair Name="%SandboxCheapShips50Title">Sandbox: Ship Costs -50%</LocalizationPair>
 	<LocalizationPair Name="%SandboxCheapShips75Title">Sandbox: Ship Costs -75%</LocalizationPair>
 	<LocalizationPair Name="%SandboxCheapShips100Title">Sandbox: Ship Costs -100%</LocalizationPair>
-	<LocalizationPair Name="%SandboxCheapShipsDescription">makes ships cheap to build</LocalizationPair>
+	<LocalizationPair Name="%SandboxCheapShipsDescription">Subsidize those ships!</LocalizationPair>
 
 	<!--Increases Infantry Damage + Health-->
 	<LocalizationPair Name="%SandboxSuperInfantry50Title">Sandbox: Infantry Health and Damage +50%</LocalizationPair>

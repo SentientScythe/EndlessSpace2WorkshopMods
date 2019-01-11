@@ -184,61 +184,58 @@
 	</SimulationDescriptor>
 
 	<!--Gives XP, reduces Cost, and heals Heros-->
-	<SimulationDescriptor Name="SandboxSuperHeros5" Type="FactionTrait">
-		<Modifier TargetProperty="HealthPerTurn" Operation="Percent" Value="1.0" Path="ClassEmpire/ClassHero"/>
-		<Modifier TargetProperty="Upkeep" Operation="Percent" Value="-1" Path="ClassEmpire/ClassGarrison/ClassHero"/>
-		<Modifier TargetProperty="Upkeep" Operation="Percent" Value="-1" Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="false"/>
-		<Modifier TargetProperty="ExperiencePerTurn" Operation="Addition" Value="5" Path="ClassEmpire/ClassGarrison/ClassHero"/>
-		<Modifier TargetProperty="ExperiencePerTurn" Operation="Addition" Value="5" Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="false"/>
+	<SimulationDescriptor Name="SandboxSuperHeros2" Type="FactionTrait">
+		<Modifier TargetProperty="ExperiencePerTurn" Operation="Addition" Value="2" Path="ClassEmpire/ClassGarrison/ClassHero"/>
+		<Modifier TargetProperty="ExperiencePerTurn" Operation="Addition" Value="2" Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="false"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxSuperHeros10" Type="FactionTrait">
-		<Modifier TargetProperty="HealthPerTurn" Operation="Percent" Value="1.0" Path="ClassEmpire/ClassHero"/>
-		<Modifier TargetProperty="Upkeep" Operation="Percent" Value="-1" Path="ClassEmpire/ClassGarrison/ClassHero"/>
-		<Modifier TargetProperty="Upkeep" Operation="Percent" Value="-1" Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="false"/>
-		<Modifier TargetProperty="ExperiencePerTurn" Operation="Addition" Value="10" Path="ClassEmpire/ClassGarrison/ClassHero"/>
-		<Modifier TargetProperty="ExperiencePerTurn" Operation="Addition" Value="10" Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="false"/>
+	<SimulationDescriptor Name="SandboxSuperHeros8" Type="FactionTrait">
+		<Modifier TargetProperty="HealthPerTurn" Operation="Percent" Value="0.25" Path="ClassEmpire/ClassHero"/>
+		<Modifier TargetProperty="Upkeep" Operation="Percent" Value="-0.25" Path="ClassEmpire/ClassGarrison/ClassHero"/>
+		<Modifier TargetProperty="Upkeep" Operation="Percent" Value="-0.25" Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="false"/>
+		<Modifier TargetProperty="ExperiencePerTurn" Operation="Addition" Value="8" Path="ClassEmpire/ClassGarrison/ClassHero"/>
+		<Modifier TargetProperty="ExperiencePerTurn" Operation="Addition" Value="8" Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="false"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxSuperHeros50" Type="FactionTrait">
-		<Modifier TargetProperty="HealthPerTurn" Operation="Percent" Value="1.0" Path="ClassEmpire/ClassHero"/>
-		<Modifier TargetProperty="Upkeep" Operation="Percent" Value="-1" Path="ClassEmpire/ClassGarrison/ClassHero"/>
-		<Modifier TargetProperty="Upkeep" Operation="Percent" Value="-1" Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="false"/>
-		<Modifier TargetProperty="ExperiencePerTurn" Operation="Addition" Value="50" Path="ClassEmpire/ClassGarrison/ClassHero"/>
-		<Modifier TargetProperty="ExperiencePerTurn" Operation="Addition" Value="50" Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="false"/>
+	<SimulationDescriptor Name="SandboxSuperHeros32" Type="FactionTrait">
+		<Modifier TargetProperty="HealthPerTurn" Operation="Percent" Value="0.5" Path="ClassEmpire/ClassHero"/>
+		<Modifier TargetProperty="Upkeep" Operation="Percent" Value="-0.5" Path="ClassEmpire/ClassGarrison/ClassHero"/>
+		<Modifier TargetProperty="Upkeep" Operation="Percent" Value="-0.5" Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="false"/>
+		<Modifier TargetProperty="ExperiencePerTurn" Operation="Addition" Value="32" Path="ClassEmpire/ClassGarrison/ClassHero"/>
+		<Modifier TargetProperty="ExperiencePerTurn" Operation="Addition" Value="32" Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="false"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxSuperHeros100" Type="FactionTrait">
+	<SimulationDescriptor Name="SandboxSuperHeros128" Type="FactionTrait">
 		<Modifier TargetProperty="HealthPerTurn" Operation="Percent" Value="1.0" Path="ClassEmpire/ClassHero"/>
 		<Modifier TargetProperty="Upkeep" Operation="Percent" Value="-1" Path="ClassEmpire/ClassGarrison/ClassHero"/>
 		<Modifier TargetProperty="Upkeep" Operation="Percent" Value="-1" Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="false"/>
-		<Modifier TargetProperty="ExperiencePerTurn" Operation="Addition" Value="100" Path="ClassEmpire/ClassGarrison/ClassHero"/>
-		<Modifier TargetProperty="ExperiencePerTurn" Operation="Addition" Value="100" Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="false"/>
+		<Modifier TargetProperty="ExperiencePerTurn" Operation="Addition" Value="128" Path="ClassEmpire/ClassGarrison/ClassHero"/>
+		<Modifier TargetProperty="ExperiencePerTurn" Operation="Addition" Value="128" Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="false"/>
 	</SimulationDescriptor>
 
 	<!--Increases Ship Health-->
-	<SimulationDescriptor Name="SandboxHealthyShips50" Type="FactionTrait">
-		<Modifier TargetProperty="MaximumHealth" Operation="Percent" Value="0.5" Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection,ClassSectionCore"/>
-	</SimulationDescriptor>
 	<SimulationDescriptor Name="SandboxHealthyShips100" Type="FactionTrait">
 		<Modifier TargetProperty="MaximumHealth" Operation="Percent" Value="1.0" Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection,ClassSectionCore"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxHealthyShips500" Type="FactionTrait">
-		<Modifier TargetProperty="MaximumHealth" Operation="Percent" Value="5.0" Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection,ClassSectionCore"/>
+	<SimulationDescriptor Name="SandboxHealthyShip200" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumHealth" Operation="Percent" Value="2.0" Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection,ClassSectionCore"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxHealthyShips1000" Type="FactionTrait">
-		<Modifier TargetProperty="MaximumHealth" Operation="Percent" Value="10.0" Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection,ClassSectionCore"/>
+	<SimulationDescriptor Name="SandboxHealthyShips400" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumHealth" Operation="Percent" Value="4.0" Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection,ClassSectionCore"/>
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="SandboxHealthyShips800" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumHealth" Operation="Percent" Value="8.0" Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection,ClassSectionCore"/>
 	</SimulationDescriptor>
 
 	<!--Increases Ship Damage-->
-	<SimulationDescriptor Name="SandboxDeadlyShips50" Type="FactionTrait">
-		<Modifier TargetProperty="Damage" Operation="Percent" Value="0.5" Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection/ClassModule,ClassModuleWeapon"/>
-	</SimulationDescriptor>
 	<SimulationDescriptor Name="SandboxDeadlyShips100" Type="FactionTrait">
 		<Modifier TargetProperty="Damage" Operation="Percent" Value="1.0" Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection/ClassModule,ClassModuleWeapon"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxDeadlyShips500" Type="FactionTrait">
-		<Modifier TargetProperty="Damage" Operation="Percent" Value="5.0" Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection/ClassModule,ClassModuleWeapon"/>
+	<SimulationDescriptor Name="SandboxDeadlyShips200" Type="FactionTrait">
+		<Modifier TargetProperty="Damage" Operation="Percent" Value="2.0" Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection/ClassModule,ClassModuleWeapon"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxDeadlyShips1000" Type="FactionTrait">
-		<Modifier TargetProperty="Damage" Operation="Percent" Value="10.0" Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection/ClassModule,ClassModuleWeapon"/>
+	<SimulationDescriptor Name="SandboxDeadlyShips400" Type="FactionTrait">
+		<Modifier TargetProperty="Damage" Operation="Percent" Value="4.0" Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection/ClassModule,ClassModuleWeapon"/>
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="SandboxDeadlyShips800" Type="FactionTrait">
+		<Modifier TargetProperty="Damage" Operation="Percent" Value="8.0" Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection/ClassModule,ClassModuleWeapon"/>
 	</SimulationDescriptor>
 
 	<!--Decreases Ship Build Cost-->
