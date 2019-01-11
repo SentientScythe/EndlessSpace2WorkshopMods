@@ -292,28 +292,28 @@
 
 	<!--Increases Ship Movement-->
 	<GuiElement Name="SandboxFastShips1">
-		<Title>%SandboxFastShips5Title</Title>
+		<Title>%SandboxFastShips1Title</Title>
 		<Description>%SandboxFastShipsDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
 	<GuiElement Name="SandboxFastShips4">
-		<Title>%SandboxFastShips10Title</Title>
+		<Title>%SandboxFastShips4Title</Title>
 		<Description>%SandboxFastShipsDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
 	<GuiElement Name="SandboxFastShips16">
-		<Title>%SandboxFastShips50Title</Title>
+		<Title>%SandboxFastShips16Title</Title>
 		<Description>%SandboxFastShipsDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
 	<GuiElement Name="SandboxFastShips64">
-		<Title>%SandboxFastShips1000Title</Title>
+		<Title>%SandboxFastShips64Title</Title>
 		<Description>%SandboxFastShipsDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
@@ -321,29 +321,29 @@
 	</GuiElement>
 
 	<!--Increases Ship probes-->
-	<GuiElement Name="SandboxExtraProbes5">
-		<Title>%SandboxExtraProbes5Title</Title>
+	<GuiElement Name="SandboxExtraProbes1">
+		<Title>%SandboxExtraProbes1Title</Title>
 		<Description>%SandboxExtraProbesDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
-	<GuiElement Name="SandboxExtraProbes10">
-		<Title>%SandboxExtraProbes10Title</Title>
+	<GuiElement Name="SandboxExtraProbes4">
+		<Title>%SandboxExtraProbes4Title</Title>
 		<Description>%SandboxExtraProbesDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
-	<GuiElement Name="SandboxExtraProbes50">
-		<Title>%SandboxExtraProbes50Title</Title>
+	<GuiElement Name="SandboxExtraProbes16">
+		<Title>%SandboxExtraProbes16Title</Title>
 		<Description>%SandboxExtraProbesDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
-	<GuiElement Name="SandboxExtraProbes1000">
-		<Title>%SandboxExtraProbes1000Title</Title>
+	<GuiElement Name="SandboxExtraProbes64">
+		<Title>%SandboxExtraProbes64Title</Title>
 		<Description>%SandboxExtraProbesDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />

@@ -148,39 +148,39 @@
 	</SimulationDescriptor>
 
 	<!--Increases Ship Movement-->
-	<SimulationDescriptor Name="SandboxFastShips5" Type="FactionTrait">
+	<SimulationDescriptor Name="SandboxFastShips1" Type="FactionTrait">
 		<Modifier TargetProperty="MaximumMovement" Operation="Addition" Value="1" Path="ClassEmpire/ClassGarrison/ClassShip"/>
 		<Modifier TargetProperty="MaximumMovement" Operation="Addition" Value="1" Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip" TooltipHidden="false"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxFastShips10" Type="FactionTrait">
+	<SimulationDescriptor Name="SandboxFastShips4" Type="FactionTrait">
 		<Modifier TargetProperty="MaximumMovement" Operation="Addition" Value="4" Path="ClassEmpire/ClassGarrison/ClassShip"/>
 		<Modifier TargetProperty="MaximumMovement" Operation="Addition" Value="4" Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip" TooltipHidden="false"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxFastShips50" Type="FactionTrait">
+	<SimulationDescriptor Name="SandboxFastShips16" Type="FactionTrait">
 		<Modifier TargetProperty="MaximumMovement" Operation="Addition" Value="16" Path="ClassEmpire/ClassGarrison/ClassShip"/>
 		<Modifier TargetProperty="MaximumMovement" Operation="Addition" Value="16" Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip" TooltipHidden="false"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxFastShips1000" Type="FactionTrait">
+	<SimulationDescriptor Name="SandboxFastShips64" Type="FactionTrait">
 		<Modifier TargetProperty="MaximumMovement" Operation="Addition" Value="64" Path="ClassEmpire/ClassGarrison/ClassShip"/>
 		<Modifier TargetProperty="MaximumMovement" Operation="Addition" Value="64" Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip" TooltipHidden="false"/>
 	</SimulationDescriptor>
 
 	<!--Increases Ship probes-->
-	<SimulationDescriptor Name="SandboxExtraProbes5" Type="FactionTrait">
-		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="5" Path="ClassEmpire/ClassGarrison/ClassShip,ShipRoleExploration"/>
-		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="5" Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip,ShipRoleExploration" TooltipHidden="false"/>
+	<SimulationDescriptor Name="SandboxExtraProbes1" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="1" Path="ClassEmpire/ClassGarrison/ClassShip,ShipRoleExploration"/>
+		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="1" Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip,ShipRoleExploration" TooltipHidden="false"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxExtraProbes10" Type="FactionTrait">
-		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="10" Path="ClassEmpire/ClassGarrison/ClassShip,ShipRoleExploration"/>
-		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="10" Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip,ShipRoleExploration" TooltipHidden="false"/>
+	<SimulationDescriptor Name="SandboxExtraProbes4" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="4" Path="ClassEmpire/ClassGarrison/ClassShip,ShipRoleExploration"/>
+		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="4" Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip,ShipRoleExploration" TooltipHidden="false"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxExtraProbes50" Type="FactionTrait">
-		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="50" Path="ClassEmpire/ClassGarrison/ClassShip,ShipRoleExploration"/>
-		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="50" Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip,ShipRoleExploration" TooltipHidden="false"/>
+	<SimulationDescriptor Name="SandboxExtraProbes16" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="16" Path="ClassEmpire/ClassGarrison/ClassShip,ShipRoleExploration"/>
+		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="16" Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip,ShipRoleExploration" TooltipHidden="false"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxExtraProbes1000" Type="FactionTrait">
-		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="1000" Path="ClassEmpire/ClassGarrison/ClassShip,ShipRoleExploration"/>
-		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="1000" Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip,ShipRoleExploration" TooltipHidden="false"/>
+	<SimulationDescriptor Name="SandboxExtraProbes64" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="64" Path="ClassEmpire/ClassGarrison/ClassShip,ShipRoleExploration"/>
+		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="64" Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip,ShipRoleExploration" TooltipHidden="false"/>
 	</SimulationDescriptor>
 
 	<!--Gives XP, reduces Cost, and heals Heros-->
