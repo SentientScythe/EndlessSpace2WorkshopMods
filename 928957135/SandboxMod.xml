@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-
 	<RuntimeModule Name="SandboxMod" Type="Extension" Version="7.0">
 		<Tags>Gameplay</Tags>
-		<Author>Cyrob</Author>
-		<Homepage> </Homepage>
-		<Title>Sandbox Mod</Title>
+
+		<Author>SentientScythe</Author>
+
+		<Homepage/>
+
+		<Title>Sandbox Mod Redux</Title>
+
 		<Description>Adds:
-			- Cheat Traits Giving All Sorts of Bonuses For Custom Empires
-			- Unlocked Minor Faction Citizens Traits
-			- Removed Custom Trait and Population Point Limits
-			- Make A Request if you want a Particular Feature Added
+			- Cheat traits for custom empires
+			- Unlocked minor faction citizen traits
+			- Removed limits on custom traits and population points
 		</Description>
+
 		<ReleaseNotes>Release: 21 Cheat Traits Added
 Update 1: Fixed Localization
 Update 2: Unlocked Minor Faction Citizens Traits
@@ -39,40 +42,33 @@ Update 7: Updated for 1.3.3
                       Added Hero Traits for 6 new Heroes (Including upcoming Vinyl Hero)
                       Allows the new minor trait to be selected simultaneously
                       Adds 4 New traits
-</ReleaseNotes>
+Update 8: Personalization / typos
+		</ReleaseNotes>
+
 		<PreviewImageFile>ModIcon.png</PreviewImageFile>
 
 		<Plugins>
 			<DatabasePlugin DataType="FactionTrait, Assembly-CSharp">
 				<FilePath>Simulation/FactionTraits[SandboxMod].xml</FilePath>
 			</DatabasePlugin>
-
-			<!--<DatabasePlugin DataType="PopulationTrait, Assembly-CSharp">
-                <ExtraTypes>
-                    <ExtraType DataType="PopulationModifiersTrait, Assembly-CSharp"/>
-                </ExtraTypes>
-                <FilePath>Simulation/PopulationModifiersTraits[SandboxMod].xml</FilePath>
-            </DatabasePlugin>-->
-			
 			<DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass">
 				<ExtraTypes>
 					<ExtraType DataType="Amplitude.Unity.Gui.ExtendedGuiElement, Assembly-CSharp-firstpass" />
 				</ExtraTypes>
+
 				<FilePath>Gui/GuiElements[SandboxMod].xml</FilePath>
 			</DatabasePlugin>
-			
 			<DatabasePlugin DataType="Amplitude.Unity.Simulation.SimulationDescriptor, Assembly-CSharp-firstpass">
 				<FilePath>Simulation/SimulationDescriptors[SandboxMod].xml</FilePath>
 			</DatabasePlugin>
-			
+
 			<LocalizationPlugin DefaultLanguage="english">
 				<Directory>Localization</Directory>
 			</LocalizationPlugin>
-			
+
 			<RegistryPlugin>
-                <FilePath>Registry.xml</FilePath>
-            </RegistryPlugin>
-			
+				<FilePath>Registry.xml</FilePath>
+			</RegistryPlugin>
 		</Plugins>
 	</RuntimeModule>
 </Datatable>
