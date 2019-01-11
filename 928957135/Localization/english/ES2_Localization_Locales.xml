@@ -143,35 +143,28 @@
 	<LocalizationPair Name="%SandboxSuperSubsidiaries64Title">Sandbox: Trade Subsidiaries +64</LocalizationPair>
 	<LocalizationPair Name="%SandboxSuperSubsidiaries256Title">Sandbox: Trade Subsidiaries +256</LocalizationPair>
 	<LocalizationPair Name="%SandboxSuperSubsidiaries1024Title">Sandbox: Trade Subsidiaries +1024</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperSubsidiariesDescription">Allows for many trade subsidiaries.</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperSubsidiariesDescription">Increase maximum allowed trade subsidiaries.</LocalizationPair>
 
 	<!--Increases Trading Company Profit-->
-	<LocalizationPair Name="%SandboxSuperTrading50Title">Sandbox: Trading Company Leveling and Profit +50%</LocalizationPair>
 	<LocalizationPair Name="%SandboxSuperTrading100Title">Sandbox: Trading Company Leveling and Profit +100%</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperTrading500Title">Sandbox: Trading Company Leveling and Profit +500%</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperTrading1000Title">Sandbox: Trading Company Leveling and Profit +1000%</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperTradingDescription">Increases Trading Company Leveling and Profit</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperTrading200Title">Sandbox: Trading Company Leveling and Profit +200%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperTrading400Title">Sandbox: Trading Company Leveling and Profit +400%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperTrading800Title">Sandbox: Trading Company Leveling and Profit +800%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperTradingDescription">Increases trading company leveling and profit.</LocalizationPair>
 
 	<!--Add Strategic Resources-->
-	<LocalizationPair Name="%SandboxStrategicResource50Title">Sandbox: Begin with 50 of Each Strategic Resource</LocalizationPair>
-	<LocalizationPair Name="%SandboxStrategicResource100Title">Sandbox: Begin with 100 of Each Strategic Resource</LocalizationPair>
-	<LocalizationPair Name="%SandboxStrategicResource500Title">Sandbox: Begin with 500 of Each Strategic Resource</LocalizationPair>
-	<LocalizationPair Name="%SandboxStrategicResource1000Title">Sandbox: Begin with 1000 of Each Strategic Resource</LocalizationPair>
-	<LocalizationPair Name="%SandboxStrategicResourceDescription">Starts You Off with Some Each Strategic Resource </LocalizationPair>
-
-	<!--Add Strategic Resource Flat Gain-->
-	<LocalizationPair Name="%SandboxStrategicResourceFlatGain50Title">Sandbox: +5 Resources on all Strategic Deposits</LocalizationPair>
-	<LocalizationPair Name="%SandboxStrategicResourceFlatGain100Title">Sandbox: +10 Resources on all Strategic Deposits</LocalizationPair>
-	<LocalizationPair Name="%SandboxStrategicResourceFlatGain500Title">Sandbox: +50 Resources on all Strategic Deposits</LocalizationPair>
-	<LocalizationPair Name="%SandboxStrategicResourceFlatGain1000Title">Sandbox: +100 Resources on all Strategic Deposits</LocalizationPair>
-	<LocalizationPair Name="%SandboxStrategicResourceFlatGainDescription">Increases Strategic Resource Income</LocalizationPair>
+	<LocalizationPair Name="%SandboxStrategicResource32Title">Sandbox: Begin with 32 of Each Strategic Resource</LocalizationPair>
+	<LocalizationPair Name="%SandboxStrategicResource128Title">Sandbox: Begin with 128 of Each Strategic Resource</LocalizationPair>
+	<LocalizationPair Name="%SandboxStrategicResource512Title">Sandbox: Begin with 512 of Each Strategic Resource</LocalizationPair>
+	<LocalizationPair Name="%SandboxStrategicResource2048Title">Sandbox: Begin with 2048 of Each Strategic Resource</LocalizationPair>
+	<LocalizationPair Name="%SandboxStrategicResourceDescription">Start with each strategic resource.</LocalizationPair>
 
 	<!--Add Strategic Resource Gain-->
-	<LocalizationPair Name="%SandboxStrategicResourceGain50Title">Sandbox: +50% Resources on all Strategic Deposits</LocalizationPair>
 	<LocalizationPair Name="%SandboxStrategicResourceGain100Title">Sandbox: +100% Resources on all Strategic Deposits</LocalizationPair>
-	<LocalizationPair Name="%SandboxStrategicResourceGain500Title">Sandbox: +500% Resources on all Strategic Deposits</LocalizationPair>
-	<LocalizationPair Name="%SandboxStrategicResourceGain1000Title">Sandbox: +1000% Resources on all Strategic Deposits</LocalizationPair>
-	<LocalizationPair Name="%SandboxStrategicResourceGainDescription">Increases Strategic Resource Income</LocalizationPair>
+	<LocalizationPair Name="%SandboxStrategicResourceGain200Title">Sandbox: +200% Resources on all Strategic Deposits</LocalizationPair>
+	<LocalizationPair Name="%SandboxStrategicResourceGain400Title">Sandbox: +400% Resources on all Strategic Deposits</LocalizationPair>
+	<LocalizationPair Name="%SandboxStrategicResourceGain800Title">Sandbox: +800% Resources on all Strategic Deposits</LocalizationPair>
+	<LocalizationPair Name="%SandboxStrategicResourceGainDescription">Mine more mythical metals!</LocalizationPair>
 
 	<!--Add Luxury Resources-->
 	<LocalizationPair Name="%SandboxLuxuryResource50Title">Sandbox: Begin with 50 of Each Luxury Resource</LocalizationPair>
@@ -179,13 +172,6 @@
 	<LocalizationPair Name="%SandboxLuxuryResource500Title">Sandbox: Begin with 500 of Each Luxury Resource</LocalizationPair>
 	<LocalizationPair Name="%SandboxLuxuryResource1000Title">Sandbox: Begin with 1000 of Each Luxury Resource</LocalizationPair>
 	<LocalizationPair Name="%SandboxLuxuryResourceDescription">Starts You Off with Some Each Luxury Resource </LocalizationPair>
-
-	<!--Add Luxury Resource Flat Gain-->
-	<LocalizationPair Name="%SandboxLuxuryResourceFlatGain50Title">Sandbox: +5 Resources on all Luxury Deposits</LocalizationPair>
-	<LocalizationPair Name="%SandboxLuxuryResourceFlatGain100Title">Sandbox: +10 Resources on all Luxury Deposits</LocalizationPair>
-	<LocalizationPair Name="%SandboxLuxuryResourceFlatGain500Title">Sandbox: +50 Resources on all Luxury Deposits</LocalizationPair>
-	<LocalizationPair Name="%SandboxLuxuryResourceFlatGain1000Title">Sandbox: +100 Resources on all Luxury Deposits</LocalizationPair>
-	<LocalizationPair Name="%SandboxLuxuryResourceFlatGainDescription">Increases Luxury Resource Income</LocalizationPair>
 
 	<!--Add Luxury Resource Gain-->
 	<LocalizationPair Name="%SandboxLuxuryResourceGain50Title">Sandbox: +50% Resources on all Luxury Deposits</LocalizationPair>

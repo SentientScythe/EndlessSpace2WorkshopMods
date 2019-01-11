@@ -598,13 +598,6 @@
 	</GuiElement>
 
 	<!--Increases Trading Company Profit-->
-	<GuiElement Name="SandboxSuperTrading50">
-		<Title>%SandboxSuperTrading50Title</Title>
-		<Description>%SandboxSuperTradingDescription</Description>
-		<Icons>
-			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-		</Icons>
-	</GuiElement>
 	<GuiElement Name="SandboxSuperTrading100">
 		<Title>%SandboxSuperTrading100Title</Title>
 		<Description>%SandboxSuperTradingDescription</Description>
@@ -612,119 +605,59 @@
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
-	<GuiElement Name="SandboxSuperTrading500">
-		<Title>%SandboxSuperTrading500Title</Title>
+	<GuiElement Name="SandboxSuperTrading200">
+		<Title>%SandboxSuperTrading200Title</Title>
 		<Description>%SandboxSuperTradingDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
-	<GuiElement Name="SandboxSuperTrading1000">
-		<Title>%SandboxSuperTrading1000Title</Title>
+	<GuiElement Name="SandboxSuperTrading400">
+		<Title>%SandboxSuperTrading400Title</Title>
 		<Description>%SandboxSuperTradingDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
-
-	<!--Increases System Science Output by X%-->
-	<GuiElement Name="SandboxSuperScience50">
-		<Title>%SandboxSuperScience50Title</Title>
-		<Description>%SandboxSuperScienceDescription</Description>
-		<Icons>
-			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-		</Icons>
-	</GuiElement>
-	<GuiElement Name="SandboxSuperScience100">
-		<Title>%SandboxSuperScience100Title</Title>
-		<Description>%SandboxSuperScienceDescription</Description>
-		<Icons>
-			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-		</Icons>
-	</GuiElement>
-	<GuiElement Name="SandboxSuperScience500">
-		<Title>%SandboxSuperScience500Title</Title>
-		<Description>%SandboxSuperScienceDescription</Description>
-		<Icons>
-			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-		</Icons>
-	</GuiElement>
-	<GuiElement Name="SandboxSuperScience1000">
-		<Title>%SandboxSuperScience1000Title</Title>
-		<Description>%SandboxSuperScienceDescription</Description>
+	<GuiElement Name="SandboxSuperTrading800">
+		<Title>%SandboxSuperTrading800Title</Title>
+		<Description>%SandboxSuperTradingDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
 
 	<!--Add Strategic Resources-->
-	<GuiElement Name="SandboxStrategicResource50">
-		<Title>%SandboxStrategicResource50Title</Title>
+	<GuiElement Name="SandboxStrategicResource32">
+		<Title>%SandboxStrategicResource32Title</Title>
 		<Description>%SandboxStrategicResourceDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
-	<GuiElement Name="SandboxStrategicResource100">
-		<Title>%SandboxStrategicResource100Title</Title>
+	<GuiElement Name="SandboxStrategicResource128">
+		<Title>%SandboxStrategicResource128Title</Title>
 		<Description>%SandboxStrategicResourceDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
-	<GuiElement Name="SandboxStrategicResource500">
-		<Title>%SandboxStrategicResource500Title</Title>
+	<GuiElement Name="SandboxStrategicResource512">
+		<Title>%SandboxStrategicResource512Title</Title>
 		<Description>%SandboxStrategicResourceDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
-	<GuiElement Name="SandboxStrategicResource1000">
-		<Title>%SandboxStrategicResource1000Title</Title>
+	<GuiElement Name="SandboxStrategicResource2048">
+		<Title>%SandboxStrategicResource2048Title</Title>
 		<Description>%SandboxStrategicResourceDescription</Description>
-		<Icons>
-			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-		</Icons>
-	</GuiElement>
-
-	<!--Add Strategic Resource Flat Gain-->
-	<GuiElement Name="SandboxStrategicResourceFlatGain50">
-		<Title>%SandboxStrategicResourceFlatGain50Title</Title>
-		<Description>%SandboxStrategicResourceFlatGainDescription</Description>
-		<Icons>
-			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-		</Icons>
-	</GuiElement>
-	<GuiElement Name="SandboxStrategicResourceFlatGain100">
-		<Title>%SandboxStrategicResourceFlatGain100Title</Title>
-		<Description>%SandboxStrategicResourceFlatGainDescription</Description>
-		<Icons>
-			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-		</Icons>
-	</GuiElement>
-	<GuiElement Name="SandboxStrategicResourceFlatGain500">
-		<Title>%SandboxStrategicResourceFlatGain500Title</Title>
-		<Description>%SandboxStrategicResourceFlatGainDescription</Description>
-		<Icons>
-			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-		</Icons>
-	</GuiElement>
-	<GuiElement Name="SandboxStrategicResourceFlatGain1000">
-		<Title>%SandboxStrategicResourceFlatGain1000Title</Title>
-		<Description>%SandboxStrategicResourceFlatGainDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
 
 	<!--Add Strategic Resource Gain-->
-	<GuiElement Name="SandboxStrategicResourceGain50">
-		<Title>%SandboxStrategicResourceGain50Title</Title>
-		<Description>%SandboxStrategicResourceGainDescription</Description>
-		<Icons>
-			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-		</Icons>
-	</GuiElement>
 	<GuiElement Name="SandboxStrategicResourceGain100">
 		<Title>%SandboxStrategicResourceGain100Title</Title>
 		<Description>%SandboxStrategicResourceGainDescription</Description>
@@ -732,15 +665,22 @@
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
-	<GuiElement Name="SandboxStrategicResourceGain500">
-		<Title>%SandboxStrategicResourceGain500Title</Title>
+	<GuiElement Name="SandboxStrategicResourceGain200">
+		<Title>%SandboxStrategicResourceGain200Title</Title>
 		<Description>%SandboxStrategicResourceGainDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
-	<GuiElement Name="SandboxStrategicResourceGain1000">
-		<Title>%SandboxStrategicResourceGain1000Title</Title>
+	<GuiElement Name="SandboxStrategicResourceGain400">
+		<Title>%SandboxStrategicResourceGain400Title</Title>
+		<Description>%SandboxStrategicResourceGainDescription</Description>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+		</Icons>
+	</GuiElement>
+	<GuiElement Name="SandboxStrategicResourceGain800">
+		<Title>%SandboxStrategicResourceGain800Title</Title>
 		<Description>%SandboxStrategicResourceGainDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
@@ -772,36 +712,6 @@
 	<GuiElement Name="SandboxLuxuryResource1000">
 		<Title>%SandboxLuxuryResource1000Title</Title>
 		<Description>%SandboxLuxuryResourceDescription</Description>
-		<Icons>
-			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-		</Icons>
-	</GuiElement>
-
-	<!--Add Luxury Resource Flat Gain-->
-	<GuiElement Name="SandboxLuxuryResourceFlatGain50">
-		<Title>%SandboxLuxuryResourceFlatGain50Title</Title>
-		<Description>%SandboxLuxuryResourceFlatGainDescription</Description>
-		<Icons>
-			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-		</Icons>
-	</GuiElement>
-	<GuiElement Name="SandboxLuxuryResourceFlatGain100">
-		<Title>%SandboxLuxuryResourceFlatGain100Title</Title>
-		<Description>%SandboxLuxuryResourceFlatGainDescription</Description>
-		<Icons>
-			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-		</Icons>
-	</GuiElement>
-	<GuiElement Name="SandboxLuxuryResourceFlatGain500">
-		<Title>%SandboxLuxuryResourceFlatGain500Title</Title>
-		<Description>%SandboxLuxuryResourceFlatGainDescription</Description>
-		<Icons>
-			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-		</Icons>
-	</GuiElement>
-	<GuiElement Name="SandboxLuxuryResourceFlatGain1000">
-		<Title>%SandboxLuxuryResourceFlatGain1000Title</Title>
-		<Description>%SandboxLuxuryResourceFlatGainDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>

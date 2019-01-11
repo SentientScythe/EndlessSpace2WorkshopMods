@@ -287,83 +287,69 @@
 	</FactionTrait>
 
 	<!--Increases Trading Company Profit-->
-	<FactionTrait Name="SandboxSuperTrading50" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperTrading" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperTrading50"/>
-	</FactionTrait>
-	<FactionTrait Name="SandboxSuperTrading100" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperTrading" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	<FactionTrait Name="SandboxSuperTrading100" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperTrading" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<SimulationDescriptorReference Name="SandboxSuperTrading100"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxSuperTrading500" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperTrading" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperTrading500"/>
+	<FactionTrait Name="SandboxSuperTrading200" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperTrading" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperTrading200"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxSuperTrading1000" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperTrading" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperTrading1000"/>
+	<FactionTrait Name="SandboxSuperTrading400" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperTrading" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperTrading400"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxSuperTrading800" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperTrading" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperTrading800"/>
 	</FactionTrait>
 
 	<!--Add Strategic Resources-->
-	<FactionTrait Name="SandboxStrategicResource50" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxStrategicResource" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxStrategicResource50"/>
-		<Command Name="TransferResources" Arguments="Strategic1,50"/>
-		<Command Name="TransferResources" Arguments="Strategic2,50"/>
-		<Command Name="TransferResources" Arguments="Strategic3,50"/>
-		<Command Name="TransferResources" Arguments="Strategic4,50"/>
-		<Command Name="TransferResources" Arguments="Strategic5,50"/>
-		<Command Name="TransferResources" Arguments="Strategic6,50"/>
+	<FactionTrait Name="SandboxStrategicResource32" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxStrategicResource" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxStrategicResource32"/>
+		<Command Name="TransferResources" Arguments="Strategic1,32"/>
+		<Command Name="TransferResources" Arguments="Strategic2,32"/>
+		<Command Name="TransferResources" Arguments="Strategic3,32"/>
+		<Command Name="TransferResources" Arguments="Strategic4,32"/>
+		<Command Name="TransferResources" Arguments="Strategic5,32"/>
+		<Command Name="TransferResources" Arguments="Strategic6,32"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxStrategicResource100" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxStrategicResource" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxStrategicResource100"/>
-		<Command Name="TransferResources" Arguments="Strategic1,100"/>
-		<Command Name="TransferResources" Arguments="Strategic2,100"/>
-		<Command Name="TransferResources" Arguments="Strategic3,100"/>
-		<Command Name="TransferResources" Arguments="Strategic4,100"/>
-		<Command Name="TransferResources" Arguments="Strategic5,100"/>
-		<Command Name="TransferResources" Arguments="Strategic6,100"/>
+	<FactionTrait Name="SandboxStrategicResource128" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxStrategicResource" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxStrategicResource128"/>
+		<Command Name="TransferResources" Arguments="Strategic1,128"/>
+		<Command Name="TransferResources" Arguments="Strategic2,128"/>
+		<Command Name="TransferResources" Arguments="Strategic3,128"/>
+		<Command Name="TransferResources" Arguments="Strategic4,128"/>
+		<Command Name="TransferResources" Arguments="Strategic5,128"/>
+		<Command Name="TransferResources" Arguments="Strategic6,128"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxStrategicResource500" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxStrategicResource" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxStrategicResource500"/>
-		<Command Name="TransferResources" Arguments="Strategic1,500"/>
-		<Command Name="TransferResources" Arguments="Strategic2,500"/>
-		<Command Name="TransferResources" Arguments="Strategic3,500"/>
-		<Command Name="TransferResources" Arguments="Strategic4,500"/>
-		<Command Name="TransferResources" Arguments="Strategic5,500"/>
-		<Command Name="TransferResources" Arguments="Strategic6,500"/>
+	<FactionTrait Name="SandboxStrategicResource512" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxStrategicResource" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxStrategicResource512"/>
+		<Command Name="TransferResources" Arguments="Strategic1,512"/>
+		<Command Name="TransferResources" Arguments="Strategic2,512"/>
+		<Command Name="TransferResources" Arguments="Strategic3,512"/>
+		<Command Name="TransferResources" Arguments="Strategic4,512"/>
+		<Command Name="TransferResources" Arguments="Strategic5,512"/>
+		<Command Name="TransferResources" Arguments="Strategic6,512"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxStrategicResource1000" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxStrategicResource" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxStrategicResource1000"/>
-		<Command Name="TransferResources" Arguments="Strategic1,1000"/>
-		<Command Name="TransferResources" Arguments="Strategic2,1000"/>
-		<Command Name="TransferResources" Arguments="Strategic3,1000"/>
-		<Command Name="TransferResources" Arguments="Strategic4,1000"/>
-		<Command Name="TransferResources" Arguments="Strategic5,1000"/>
-		<Command Name="TransferResources" Arguments="Strategic6,1000"/>
+	<FactionTrait Name="SandboxStrategicResource2048" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxStrategicResource" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxStrategicResource2048"/>
+		<Command Name="TransferResources" Arguments="Strategic1,2048"/>
+		<Command Name="TransferResources" Arguments="Strategic2,2048"/>
+		<Command Name="TransferResources" Arguments="Strategic3,2048"/>
+		<Command Name="TransferResources" Arguments="Strategic4,2048"/>
+		<Command Name="TransferResources" Arguments="Strategic5,2048"/>
+		<Command Name="TransferResources" Arguments="Strategic6,2048"/>
 	</FactionTrait>
 
 	<!--Add Strategic Resource Gain-->
-	<!--<FactionTrait Name="SandboxStrategicResourceGain50" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxStrategicResourceGain" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxStrategicResourceGain50"/>
-	</FactionTrait>
-	<FactionTrait Name="SandboxStrategicResourceGain100" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxStrategicResourceGain" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	<FactionTrait Name="SandboxStrategicResourceGain100" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxStrategicResourceGain" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<SimulationDescriptorReference Name="SandboxStrategicResourceGain100"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxStrategicResourceGain500" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxStrategicResourceGain" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxStrategicResourceGain500"/>
+	<FactionTrait Name="SandboxStrategicResourceGain200" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxStrategicResourceGain" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxStrategicResourceGain200"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxStrategicResourceGain1000" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxStrategicResourceGain" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxStrategicResourceGain1000"/>
-	</FactionTrait>-->
-
-	<!--Add Strategic Resource Flat Gain-->
-	<FactionTrait Name="SandboxStrategicResourceFlatGain50" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxStrategicResourceFlatGain" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxStrategicResourceFlatGain50"/>
+	<FactionTrait Name="SandboxStrategicResourceGain400" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxStrategicResourceGain" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxStrategicResourceGain400"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxStrategicResourceFlatGain100" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxStrategicResourceFlatGain" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxStrategicResourceFlatGain100"/>
-	</FactionTrait>
-	<FactionTrait Name="SandboxStrategicResourceFlatGain500" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxStrategicResourceFlatGain" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxStrategicResourceFlatGain500"/>
-	</FactionTrait>
-	<FactionTrait Name="SandboxStrategicResourceFlatGain1000" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxStrategicResourceFlatGain" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxStrategicResourceFlatGain1000"/>
+	<FactionTrait Name="SandboxStrategicResourceGain800" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxStrategicResourceGain" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxStrategicResourceGain800"/>
 	</FactionTrait>
 
 	<!--Add Luxury Resources-->
@@ -477,7 +463,7 @@
 	</FactionTrait>
 
 	<!--Add Luxury Resource Gain-->
-	<!--<FactionTrait Name="SandboxLuxuryResourceGain50" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxLuxuryResourceGain" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	<FactionTrait Name="SandboxLuxuryResourceGain50" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxLuxuryResourceGain" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<SimulationDescriptorReference Name="SandboxLuxuryResourceGain50"/>
 	</FactionTrait>
 	<FactionTrait Name="SandboxLuxuryResourceGain100" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxLuxuryResourceGain" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
@@ -488,20 +474,6 @@
 	</FactionTrait>
 	<FactionTrait Name="SandboxLuxuryResourceGain1000" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxLuxuryResourceGain" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<SimulationDescriptorReference Name="SandboxLuxuryResourceGain1000"/>
-	</FactionTrait>-->
-
-	<!--Add Luxury Resource Flat Gain-->
-	<FactionTrait Name="SandboxLuxuryResourceFlatGain50" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxLuxuryResourceFlatGain" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxLuxuryResourceFlatGain50"/>
-	</FactionTrait>
-	<FactionTrait Name="SandboxLuxuryResourceFlatGain100" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxLuxuryResourceFlatGain" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxLuxuryResourceFlatGain100"/>
-	</FactionTrait>
-	<FactionTrait Name="SandboxLuxuryResourceFlatGain500" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxLuxuryResourceFlatGain" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxLuxuryResourceFlatGain500"/>
-	</FactionTrait>
-	<FactionTrait Name="SandboxLuxuryResourceFlatGain1000" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxLuxuryResourceFlatGain" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxLuxuryResourceFlatGain1000"/>
 	</FactionTrait>
 
 	<!--Add Juggernaut Limit-->
