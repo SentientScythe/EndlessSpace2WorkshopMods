@@ -90,9 +90,9 @@
 
 	<!--Gives XP, reduces Cost, and heals Heros-->
 	<LocalizationPair Name="%SandboxSuperHeros5Title">Sandbox: Super Heroes +2XP per turn</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperHeros10Title">Sandbox: Super Heros +8XP per turn</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperHeros50Title">Sandbox: Super Heros +32XP per turn</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperHeros100Title">Sandbox: Super Heros +128XP per turn</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperHeros10Title">Sandbox: Super Heroes +8XP per turn</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperHeros50Title">Sandbox: Super Heroes +32XP per turn</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperHeros100Title">Sandbox: Super Heroes +128XP per turn</LocalizationPair>
 	<LocalizationPair Name="%SandboxSuperHerosDescription">Cheaper, healthier and more skillful heroes.</LocalizationPair>
 
 	<!--Increases Ship Health-->
@@ -117,18 +117,18 @@
 	<LocalizationPair Name="%SandboxCheapShipsDescription">Subsidize those ships!</LocalizationPair>
 
 	<!--Increases Infantry Damage + Health-->
-	<LocalizationPair Name="%SandboxSuperInfantry50Title">Sandbox: Infantry Health and Damage +50%</LocalizationPair>
 	<LocalizationPair Name="%SandboxSuperInfantry100Title">Sandbox: Infantry Health and Damage +100%</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperInfantry500Title">Sandbox: Infantry Health and Damage +500%</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperInfantry1000Title">Sandbox: Infantry Health and Damage +1000%</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperInfantryDescription">Makes Infantry have tons of health and do tons of damage</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperInfantry200Title">Sandbox: Infantry Health and Damage +200%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperInfantry400Title">Sandbox: Infantry Health and Damage +400%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperInfantry800Title">Sandbox: Infantry Health and Damage +800%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperInfantryDescription">Nothing like a good ol' super soldier program!</LocalizationPair>
 
 	<!--Increases Manpower Cap-->
-	<LocalizationPair Name="%SandboxManpowerStock50Title">Sandbox: Manpower Capacity +50%</LocalizationPair>
 	<LocalizationPair Name="%SandboxManpowerStock100Title">Sandbox: Manpower Capacity +100%</LocalizationPair>
-	<LocalizationPair Name="%SandboxManpowerStock500Title">Sandbox: Manpower Capacity +500%</LocalizationPair>
-	<LocalizationPair Name="%SandboxManpowerStock1000Title">Sandbox: Manpower Capacity +1000%</LocalizationPair>
-	<LocalizationPair Name="%SandboxManpowerStockDescription">Gives Near Infinite Manpower storage</LocalizationPair>
+	<LocalizationPair Name="%SandboxManpowerStock200Title">Sandbox: Manpower Capacity +200%</LocalizationPair>
+	<LocalizationPair Name="%SandboxManpowerStock400Title">Sandbox: Manpower Capacity +400%</LocalizationPair>
+	<LocalizationPair Name="%SandboxManpowerStock800Title">Sandbox: Manpower Capacity +800%</LocalizationPair>
+	<LocalizationPair Name="%SandboxManpowerStockDescription">Bigger barracks and gargantuan garrisons!</LocalizationPair>
 
 	<!--Increases Fleet Size-->
 	<LocalizationPair Name="%SandboxSuperFleets5Title">Sandbox: Fleet Size +5</LocalizationPair>
@@ -212,7 +212,7 @@
 
 	<!--Honour-->
 	<LocalizationPair Name="%SandboxHonourTitle">Sandbox: Super Honourable</LocalizationPair>
-	<LocalizationPair Name="%SandboxHonourDescription">Start With Max honour And Gain +100 Honour Per Turn</LocalizationPair>
+	<LocalizationPair Name="%SandboxHonourDescription">Start with max honour and gain 100 honour / turn.</LocalizationPair>
 
 	<!--########################################-->
 	<!--###          Hero  Traits            ###-->

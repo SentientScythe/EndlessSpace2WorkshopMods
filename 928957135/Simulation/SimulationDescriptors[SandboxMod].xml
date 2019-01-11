@@ -257,39 +257,39 @@
 	</SimulationDescriptor>
 
 	<!--Increases Infantry Damage + Health-->
-	<SimulationDescriptor Name="SandboxSuperInfantry50" Type="FactionTrait">
-		<Modifier TargetProperty="InfantryMinDamages" Operation="Percent" Value="0.5" Path="ClassEmpire"/>
-		<Modifier TargetProperty="InfantryMaxDamages" Operation="Percent" Value="0.5" Path="ClassEmpire"/>
-		<Modifier TargetProperty="InfantryMaxHealth" Operation="Percent" Value="0.5" Path="ClassEmpire"/>
-	</SimulationDescriptor>
 	<SimulationDescriptor Name="SandboxSuperInfantry100" Type="FactionTrait">
 		<Modifier TargetProperty="InfantryMinDamages" Operation="Percent" Value="1.0" Path="ClassEmpire"/>
 		<Modifier TargetProperty="InfantryMaxDamages" Operation="Percent" Value="1.0" Path="ClassEmpire"/>
 		<Modifier TargetProperty="InfantryMaxHealth" Operation="Percent" Value="1.0" Path="ClassEmpire"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxSuperInfantry500" Type="FactionTrait">
-		<Modifier TargetProperty="InfantryMinDamages" Operation="Percent" Value="5.0" Path="ClassEmpire"/>
-		<Modifier TargetProperty="InfantryMaxDamages" Operation="Percent" Value="5.0" Path="ClassEmpire"/>
-		<Modifier TargetProperty="InfantryMaxHealth" Operation="Percent" Value="5.0" Path="ClassEmpire"/>
+	<SimulationDescriptor Name="SandboxSuperInfantry200" Type="FactionTrait">
+		<Modifier TargetProperty="InfantryMinDamages" Operation="Percent" Value="2.0" Path="ClassEmpire"/>
+		<Modifier TargetProperty="InfantryMaxDamages" Operation="Percent" Value="2.0" Path="ClassEmpire"/>
+		<Modifier TargetProperty="InfantryMaxHealth" Operation="Percent" Value="2.0" Path="ClassEmpire"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxSuperInfantry1000" Type="FactionTrait">
-		<Modifier TargetProperty="InfantryMinDamages" Operation="Percent" Value="1.0" Path="ClassEmpire"/>
-		<Modifier TargetProperty="InfantryMaxDamages" Operation="Percent" Value="10.0" Path="ClassEmpire"/>
-		<Modifier TargetProperty="InfantryMaxHealth" Operation="Percent" Value="10.0" Path="ClassEmpire"/>
+	<SimulationDescriptor Name="SandboxSuperInfantry400" Type="FactionTrait">
+		<Modifier TargetProperty="InfantryMinDamages" Operation="Percent" Value="4.0" Path="ClassEmpire"/>
+		<Modifier TargetProperty="InfantryMaxDamages" Operation="Percent" Value="4.0" Path="ClassEmpire"/>
+		<Modifier TargetProperty="InfantryMaxHealth" Operation="Percent" Value="4.0" Path="ClassEmpire"/>
+	</SimulationDescriptor>d
+	<SimulationDescriptor Name="SandboxSuperInfantry800" Type="FactionTrait">
+		<Modifier TargetProperty="InfantryMinDamages" Operation="Percent" Value="8.0" Path="ClassEmpire"/>
+		<Modifier TargetProperty="InfantryMaxDamages" Operation="Percent" Value="8.0" Path="ClassEmpire"/>
+		<Modifier TargetProperty="InfantryMaxHealth" Operation="Percent" Value="8.0" Path="ClassEmpire"/>
 	</SimulationDescriptor>
 
 	<!--Increases Manpower Cap-->
-	<SimulationDescriptor Name="SandboxManpowerStock50" Type="FactionTrait">
-		<Modifier TargetProperty="MaximumEmpireManpowerStock" Operation="Percent" Value="0.5" Path="ClassEmpire"/>
-	</SimulationDescriptor>
 	<SimulationDescriptor Name="SandboxManpowerStock100" Type="FactionTrait">
 		<Modifier TargetProperty="MaximumEmpireManpowerStock" Operation="Percent" Value="1.0" Path="ClassEmpire"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxManpowerStock500" Type="FactionTrait">
-		<Modifier TargetProperty="MaximumEmpireManpowerStock" Operation="Percent" Value="5.0" Path="ClassEmpire"/>
+	<SimulationDescriptor Name="SandboxManpowerStock200" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumEmpireManpowerStock" Operation="Percent" Value="2.0" Path="ClassEmpire"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxManpowerStock1000" Type="FactionTrait">
-		<Modifier TargetProperty="MaximumEmpireManpowerStock" Operation="Percent" Value="10.0" Path="ClassEmpire"/>
+	<SimulationDescriptor Name="SandboxManpowerStock400" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumEmpireManpowerStock" Operation="Percent" Value="4.0" Path="ClassEmpire"/>
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="SandboxManpowerStock800" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumEmpireManpowerStock" Operation="Percent" Value="8.0" Path="ClassEmpire"/>
 	</SimulationDescriptor>
 
 	<!--Increases Fleet Size-->

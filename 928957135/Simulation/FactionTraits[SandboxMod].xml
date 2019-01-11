@@ -228,31 +228,31 @@
 	</FactionTrait>
 
 	<!--Increases Infantry Damage + Health-->
-	<FactionTrait Name="SandboxSuperInfantry50" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperInfantry" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperInfantry50"/>
-	</FactionTrait>
-	<FactionTrait Name="SandboxSuperInfantry100" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperInfantry" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	<FactionTrait Name="SandboxSuperInfantry100" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperInfantry" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<SimulationDescriptorReference Name="SandboxSuperInfantry100"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxSuperInfantry500" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperInfantry" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperInfantry500"/>
+	<FactionTrait Name="SandboxSuperInfantry200" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperInfantry" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperInfantry200"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxSuperInfantry1000" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperInfantry" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperInfantry1000"/>
+	<FactionTrait Name="SandboxSuperInfantry400" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperInfantry" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperInfantry400"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxSuperInfantry800" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperInfantry" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperInfantry800"/>
 	</FactionTrait>
 
 	<!--Increases Manpower Cap-->
-	<FactionTrait Name="SandboxManpowerStock50" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxManpowerStock" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxManpowerStock50"/>
-	</FactionTrait>
-	<FactionTrait Name="SandboxManpowerStock100" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxManpowerStock" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	<FactionTrait Name="SandboxManpowerStock100" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxManpowerStock" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<SimulationDescriptorReference Name="SandboxManpowerStock100"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxManpowerStock500" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxManpowerStock" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxManpowerStock500"/>
+	<FactionTrait Name="SandboxManpowerStock200" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxManpowerStock" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxManpowerStock200"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxManpowerStock1000" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxManpowerStock" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxManpowerStock1000"/>
+	<FactionTrait Name="SandboxManpowerStock400" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxManpowerStock" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxManpowerStock400"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxManpowerStock800" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxManpowerStock" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxManpowerStock800"/>
 	</FactionTrait>
 
 	<!--Increases Fleet Size-->

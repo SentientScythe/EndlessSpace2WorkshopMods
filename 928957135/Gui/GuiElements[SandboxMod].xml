@@ -471,13 +471,6 @@
 	</GuiElement>
 
 	<!--Increases Infantry Damage + Health-->
-	<GuiElement Name="SandboxSuperInfantry50">
-		<Title>%SandboxSuperInfantry50Title</Title>
-		<Description>%SandboxSuperInfantryDescription</Description>
-		<Icons>
-			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-		</Icons>
-	</GuiElement>
 	<GuiElement Name="SandboxSuperInfantry100">
 		<Title>%SandboxSuperInfantry100Title</Title>
 		<Description>%SandboxSuperInfantryDescription</Description>
@@ -485,15 +478,22 @@
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
-	<GuiElement Name="SandboxSuperInfantry500">
-		<Title>%SandboxSuperInfantry500Title</Title>
+	<GuiElement Name="SandboxSuperInfantry200">
+		<Title>%SandboxSuperInfantry200Title</Title>
 		<Description>%SandboxSuperInfantryDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
-	<GuiElement Name="SandboxSuperInfantry1000">
-		<Title>%SandboxSuperInfantry1000Title</Title>
+	<GuiElement Name="SandboxSuperInfantry400">
+		<Title>%SandboxSuperInfantry400Title</Title>
+		<Description>%SandboxSuperInfantryDescription</Description>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+		</Icons>
+	</GuiElement>
+	<GuiElement Name="SandboxSuperInfantry800">
+		<Title>%SandboxSuperInfantry800Title</Title>
 		<Description>%SandboxSuperInfantryDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
@@ -501,13 +501,6 @@
 	</GuiElement>
 
 	<!--Increases Manpower Cap-->
-	<GuiElement Name="SandboxManpowerStock50">
-		<Title>%SandboxManpowerStock50Title</Title>
-		<Description>%SandboxManpowerStockDescription</Description>
-		<Icons>
-			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-		</Icons>
-	</GuiElement>
 	<GuiElement Name="SandboxManpowerStock100">
 		<Title>%SandboxManpowerStock100Title</Title>
 		<Description>%SandboxManpowerStockDescription</Description>
@@ -515,15 +508,22 @@
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
-	<GuiElement Name="SandboxManpowerStock500">
-		<Title>%SandboxManpowerStock500Title</Title>
+	<GuiElement Name="SandboxManpowerStock200">
+		<Title>%SandboxManpowerStock200Title</Title>
 		<Description>%SandboxManpowerStockDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
-	<GuiElement Name="SandboxManpowerStock1000">
-		<Title>%SandboxManpowerStock1000Title</Title>
+	<GuiElement Name="SandboxManpowerStock400">
+		<Title>%SandboxManpowerStock400Title</Title>
+		<Description>%SandboxManpowerStockDescription</Description>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+		</Icons>
+	</GuiElement>
+	<GuiElement Name="SandboxManpowerStock800">
+		<Title>%SandboxManpowerStock800Title</Title>
 		<Description>%SandboxManpowerStockDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
