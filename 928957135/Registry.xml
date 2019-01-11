@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Registry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <Gameplay>
-        <CustomFaction>
-            <!-- Comment out the line to remove the limitation -->
-            <FactionTraitsMaxCount>999</FactionTraitsMaxCount>
-            <PopulationPointPool>999</PopulationPointPool>
-            <!--<MajorPopulationInitialCount>2</MajorPopulationInitialCount>-->
-        </CustomFaction>
-    </Gameplay>
+	<Gameplay>
+		<CustomFaction>
+			<!-- Comment out the line to remove the limitation -->
+			<FactionTraitsMaxCount>999</FactionTraitsMaxCount>
+			<PopulationPointPool>999</PopulationPointPool>
+		</CustomFaction>
+	</Gameplay>
 </Registry>
