@@ -364,23 +364,23 @@
 	</SimulationDescriptor>
 
 	<!--Add Luxury Resources-->
-	<SimulationDescriptor Name="SandboxLuxuryResource50" Type="FactionTrait"/>
-	<SimulationDescriptor Name="SandboxLuxuryResource100" Type="FactionTrait"/>
-	<SimulationDescriptor Name="SandboxLuxuryResource500" Type="FactionTrait"/>
-	<SimulationDescriptor Name="SandboxLuxuryResource1000" Type="FactionTrait"/>
+	<SimulationDescriptor Name="SandboxLuxuryResource32" Type="FactionTrait"/>
+	<SimulationDescriptor Name="SandboxLuxuryResource128" Type="FactionTrait"/>
+	<SimulationDescriptor Name="SandboxLuxuryResource512" Type="FactionTrait"/>
+	<SimulationDescriptor Name="SandboxLuxuryResource2048" Type="FactionTrait"/>
 
 	<!--Add Luxury Resource Gain-->
-	<SimulationDescriptor Name="SandboxLuxuryResourceGain50" Type="FactionTrait">
-		<Modifier TargetProperty="ResourceBonus" Operation="Percent" Value="0.5" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet/ClassResourceDeposit,ResourceTypeLuxury"/>
-	</SimulationDescriptor>
 	<SimulationDescriptor Name="SandboxLuxuryResourceGain100" Type="FactionTrait">
 		<Modifier TargetProperty="ResourceBonus" Operation="Percent" Value="1.0" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet/ClassResourceDeposit,ResourceTypeLuxury"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxLuxuryResourceGain500" Type="FactionTrait">
-		<Modifier TargetProperty="ResourceBonus" Operation="Percent" Value="5.0" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet/ClassResourceDeposit,ResourceTypeLuxury"/>
+	<SimulationDescriptor Name="SandboxLuxuryResourceGain200" Type="FactionTrait">
+		<Modifier TargetProperty="ResourceBonus" Operation="Percent" Value="2.0" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet/ClassResourceDeposit,ResourceTypeLuxury"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxLuxuryResourceGain1000" Type="FactionTrait">
-		<Modifier TargetProperty="ResourceBonus" Operation="Percent" Value="10.0" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet/ClassResourceDeposit,ResourceTypeLuxury"/>
+	<SimulationDescriptor Name="SandboxLuxuryResourceGain400" Type="FactionTrait">
+		<Modifier TargetProperty="ResourceBonus" Operation="Percent" Value="4.0" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet/ClassResourceDeposit,ResourceTypeLuxury"/>
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="SandboxLuxuryResourceGain800" Type="FactionTrait">
+		<Modifier TargetProperty="ResourceBonus" Operation="Percent" Value="8.0" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet/ClassResourceDeposit,ResourceTypeLuxury"/>
 	</SimulationDescriptor>
 
 	<!--Add Juggernaut Limit-->

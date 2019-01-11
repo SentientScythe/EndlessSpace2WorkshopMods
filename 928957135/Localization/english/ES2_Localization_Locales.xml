@@ -167,18 +167,18 @@
 	<LocalizationPair Name="%SandboxStrategicResourceGainDescription">Mine more mythical metals!</LocalizationPair>
 
 	<!--Add Luxury Resources-->
-	<LocalizationPair Name="%SandboxLuxuryResource50Title">Sandbox: Begin with 50 of Each Luxury Resource</LocalizationPair>
-	<LocalizationPair Name="%SandboxLuxuryResource100Title">Sandbox: Begin with 100 of Each Luxury Resource</LocalizationPair>
-	<LocalizationPair Name="%SandboxLuxuryResource500Title">Sandbox: Begin with 500 of Each Luxury Resource</LocalizationPair>
-	<LocalizationPair Name="%SandboxLuxuryResource1000Title">Sandbox: Begin with 1000 of Each Luxury Resource</LocalizationPair>
-	<LocalizationPair Name="%SandboxLuxuryResourceDescription">Starts You Off with Some Each Luxury Resource </LocalizationPair>
+	<LocalizationPair Name="%SandboxLuxuryResource32Title">Sandbox: Begin with 32 of Each Luxury Resource</LocalizationPair>
+	<LocalizationPair Name="%SandboxLuxuryResource128Title">Sandbox: Begin with 128 of Each Luxury Resource</LocalizationPair>
+	<LocalizationPair Name="%SandboxLuxuryResource512Title">Sandbox: Begin with 512 of Each Luxury Resource</LocalizationPair>
+	<LocalizationPair Name="%SandboxLuxuryResource2048Title">Sandbox: Begin with 2048 of Each Luxury Resource</LocalizationPair>
+	<LocalizationPair Name="%SandboxLuxuryResourceDescription">Start with each luxury resource.</LocalizationPair>
 
 	<!--Add Luxury Resource Gain-->
-	<LocalizationPair Name="%SandboxLuxuryResourceGain50Title">Sandbox: +50% Resources on all Luxury Deposits</LocalizationPair>
 	<LocalizationPair Name="%SandboxLuxuryResourceGain100Title">Sandbox: +100% Resources on all Luxury Deposits</LocalizationPair>
-	<LocalizationPair Name="%SandboxLuxuryResourceGain500Title">Sandbox: +500% Resources on all Luxury Deposits</LocalizationPair>
-	<LocalizationPair Name="%SandboxLuxuryResourceGain1000Title">Sandbox: +1000% Resources on all Luxury Deposits</LocalizationPair>
-	<LocalizationPair Name="%SandboxLuxuryResourceGainDescription">Increases Luxury Resource Income</LocalizationPair>
+	<LocalizationPair Name="%SandboxLuxuryResourceGain200Title">Sandbox: +200% Resources on all Luxury Deposits</LocalizationPair>
+	<LocalizationPair Name="%SandboxLuxuryResourceGain400Title">Sandbox: +400% Resources on all Luxury Deposits</LocalizationPair>
+	<LocalizationPair Name="%SandboxLuxuryResourceGain800Title">Sandbox: +800% Resources on all Luxury Deposits</LocalizationPair>
+	<LocalizationPair Name="%SandboxLuxuryResourceGainDescription">Live in the lap of luxury!</LocalizationPair>
 
 	<!--Add Juggernaut Limit-->
 	<LocalizationPair Name="%SandboxMaximumJuggernauts5Title">Sandbox: +5 To Behemoth Limit</LocalizationPair>
