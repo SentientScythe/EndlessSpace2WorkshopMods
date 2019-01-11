@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="Documentation/Schemas/Amplitude.Unity.Runtime.RuntimeModule.xsd">
+
+	<!-- Conversion = add new files, not compatible with other mods. Standalone = replace all files, not compatible with other mods. Extension = add new files, compatible with other mods. // Example : <RuntimeModule Name="ExampleTechnology" Type="Extension" Version="1.1">-->
+  <!-- For the "Name", do not use spaces or special characters (like "&"), otherwise your mod will not load -->
+  <RuntimeModule Name="EndlessMoons" Type="Extension" Version="2.5">
+
+        <Title>Endless Moons 2.5</Title>
+        <Description>Increases the occurrence and significance of moons, while adding many new moon types and additional exploitation options. Includes rare instances of unique lost Endless Moon Temples that provide significant bonuses when restored.
+
+New Planet Improvements (Reductions):
+Explore Moon
+Develop Moon
+Restore Temple
+Upgrade Temple
+
+New System Improvements:
+Lunar Data Network
+Lunar Tourism
+Lunar Colonies
+Moon Exploitation Drones (Vodyani)
+Hunter Guilds (Vodyani)
+
+Temples:
+13 unique Endless Temples can be found.
+
+General Notes:
+Increased the number of visible anomalies in galaxy generation to accommodate moons.
+Increased the number of unique anomalies in galaxy generation to accommodate Endless Temples. (Medium size galaxy required to guarantee at least one Endless Temple.)
+Moonbase Alpha has been removed.
+Vodyani don't explore or develop moons. Instead, they have access to a Vodyani-only moon exploitation, and hunter guilds.
+
+Also, many thanks to the dev MonAmiral at G2G forums whose support has been invaluable.</Description>
+        <Author>Tychonoir</Author>
+        <Homepage></Homepage>
+        <PreviewImageFile>ModIcon.png</PreviewImageFile>
+        <ReleaseNotes>Version History:
+2.5
+Adjusted balancing to moons and system improvements
+Added Moon Exploration ship module
+Added new Temple: Distributed Linkage
+Added new system improvement unlock to Temple: Deep Mind
+Adjusted Temple: Watchmaker upgrade path
+
+2.1
+Compatibility with DLC 2: Supremacy
+Bug Fixes
+
+2.0
+Added more options for temple restoration
+Added more interesting temple benefits including the introduction of temple granted construction options
+Added a new temple
+Added a new Vodyani moon temple technology
+Fixed visible anomaly generation bug
+Rebalanced moon technology unlocks
+Various moon and temple effect balancing
+Spelling and typo corrections
+
+1.0
+Initial Release</ReleaseNotes>
+        <Tags>Moon, Temple, Technology, Improvement</Tags>
+
+		<Plugins>
+			<DatabasePlugin DataType="GalaxyGeneratorWeightTableDefinition, Assembly-CSharp">
+				<FilePath>GalaxyGenerator/EM_WeightTableDefinitions.xml</FilePath>
+			</DatabasePlugin>
+			
+			<DatabasePlugin DataType="AnomalyDefinition, Assembly-CSharp">
+				<FilePath>Simulation/EM_AnomalyDefinitions.xml</FilePath>
+      			<FilePath>Simulation/EM_AnomalyDefinitions[Original].xml</FilePath>
+			</DatabasePlugin>
+			
+			<DatabasePlugin DataType="Generator.Definitions.PlanetaryAnomalyDefinition, Assembly-CSharp-firstpass">
+      			<FilePath>Simulation/EM_AnomalyDefinitions.xml</FilePath>
+			</DatabasePlugin>
+			
+			<DatabasePlugin DataType="AnomalyReductionDefinition, Assembly-CSharp">
+				<FilePath>Simulation/EM_ConstructibleElement_AnomalyReductions.xml</FilePath>
+			</DatabasePlugin>
+			
+			<DatabasePlugin DataType="CuriosityDefinition, Assembly-CSharp">
+				<FilePath>Simulation/EM_CuriosityDefinitions.xml</FilePath>
+			</DatabasePlugin>
+			
+			<DatabasePlugin DataType="Amplitude.Unity.Simulation.SimulationDescriptor, Assembly-CSharp-firstpass">
+				<FilePath>Simulation/EM_SimulationDescriptors[Anomaly].xml</FilePath>
+				<FilePath>Simulation/EM_SimulationDescriptors[OriginalAnomalies].xml</FilePath>
+				<FilePath>Simulation/EM_SimulationDescriptors.xml</FilePath>
+			</DatabasePlugin>
+			
+			<DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass">
+				<FilePath>Gui/EM_GuiElements[Element].xml</FilePath>
+			</DatabasePlugin>
+
+			<DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass">
+				<ExtraTypes>
+					<ExtraType DataType="Amplitude.Unity.Gui.ExtendedGuiElement, Assembly-CSharp-firstpass" />
+				</ExtraTypes>
+				<FilePath>Gui/EM_GuiElements[Extended].xml</FilePath>
+			</DatabasePlugin>
+			
+			<DatabasePlugin DataType="Amplitude.Unity.Gui.GuiTooltipDescription, Assembly-CSharp-firstpass">
+				<FilePath>Gui/EM_GuiTooltipDescriptions.xml</FilePath>
+			</DatabasePlugin>
+			
+			<DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass">
+				<ExtraTypes>
+					<ExtraType DataType="TechnologyGuiElement2, Assembly-CSharp" />
+				</ExtraTypes>
+				<FilePath>Gui/EM_GuiElements[Technology].xml</FilePath>
+			</DatabasePlugin>
+
+			<DatabasePlugin DataType="GameSettingDefinition, Assembly-CSharp">
+				<ExtraTypes>
+					<ExtraType DataType="WorldSettingDefinition, Assembly-CSharp"/>
+				</ExtraTypes>
+        		<FilePath>Settings/EM_WorldSettings.xml</FilePath>
+			</DatabasePlugin>
+
+			<DatabasePlugin DataType="ScienceConstructibleElement, Assembly-CSharp">
+				<ExtraTypes>
+					<ExtraType DataType="TechnologyDefinition, Assembly-CSharp" />
+				</ExtraTypes>
+				<FilePath>Simulation/EM_ConstructableElement_Technology.xml</FilePath>
+			</DatabasePlugin>
+												
+			<DatabasePlugin DataType="IndustryConstructibleElement, Assembly-CSharp">
+				<ExtraTypes>
+					 <ExtraType DataType="PlanetImprovementDefinition, Assembly-CSharp" />
+					 <ExtraType DataType="StarSystemImprovementDefinition, Assembly-CSharp" />
+				</ExtraTypes>
+				<FilePath>Simulation/EM_ConstructableElement[PlanetImprovements].xml</FilePath>
+				<FilePath>Simulation/EM_ConstructableElement[StarSystemImprovements].xml</FilePath>
+			</DatabasePlugin>
+
+			<DatabasePlugin DataType="ModuleDefinition, Assembly-CSharp" Priority="10" >
+				<ExtraTypes>
+					 <ExtraType DataType="SupportModuleDefinition, Assembly-CSharp" />
+				</ExtraTypes>
+				<FilePath>Simulation/EM_ModuleDefinitions.xml</FilePath>
+			</DatabasePlugin>
+
+<!-- 
+			<DatabasePlugin DataType="EntityActionDefinition, Assembly-CSharp" >
+				<ExtraTypes>
+					 <ExtraType DataType="InitiateEmpireActionFleetActionDefinition, Assembly-CSharp" />
+				</ExtraTypes>
+				<FilePath>Simulation/EM_EntityActions.xml</FilePath>
+			</DatabasePlugin>
+ -->
+			
+			
+            <LocalizationPlugin DefaultLanguage="english">
+				<Directory>Localization</Directory>
+			</LocalizationPlugin>
+		</Plugins>
+
+	</RuntimeModule>
+</Datatable>

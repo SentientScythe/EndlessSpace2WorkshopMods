@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+
+	<!-- lilyophelia: Commented Template
+	
+	-->
+	
+	<!-- lilyophelia: Clean Template
+	
+	<QuestGuiElement Name="EndlessRomance_Template">
+        <Title>%EndlessRomance_Template_Title</Title>
+        <Description>%EndlessRomance_Template_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_TradePrincess" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_Template_Title</Title>
+                    <Description>%EndlessRomance_Template_Description</Description>
+                    <Objective Name="ObjectiveTemplate">%EndlessRomance_Template_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_Template_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+                <ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_Template_Title</Title>
+                    <Description>%EndlessRomance_Template_Description</Description>
+                    <Objective Name="ObjectiveTemplate">%EndlessRomance_Template_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_Template_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+				<ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_Template_Title</Title>
+                    <Description>%EndlessRomance_Template_Description</Description>
+                    <Objective Name="ObjectiveTemplate">%EndlessRomance_Template_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_Template_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+	
+	-->	
+
+	<!-- lilyophelia: Endless Romance | Start -->
+	<QuestGuiElement Name="EndlessRomance_Introduction">
+        <Title>%EndlessRomance_Introduction_Title</Title>
+        <Description>%EndlessRomance_Introduction_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_NewUpdate" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_Introduction_Activate_Title</Title>
+                    <Description>%EndlessRomance_Introduction_Activate_Description</Description>
+                    <Objective Name="Activate">%EndlessRomance_Introduction_Activate_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_Introduction_Activate_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+                <ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_Introduction_Disable_Title</Title>
+                    <Description>%EndlessRomance_Introduction_Disable_Description</Description>
+                    <Objective Name="Disable">%EndlessRomance_Introduction_Disable_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_Introduction_Disable_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>	
+
+	<QuestGuiElement Name="EndlessRomance_Warning">
+        <Title>%EndlessRomance_Warning_Title</Title>
+        <Description>%EndlessRomance_Warning_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_Warning" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_Warning_Activate_Title</Title>
+                    <Description>%EndlessRomance_Warning_Activate_Description</Description>
+                    <Objective Name="Activate">%EndlessRomance_Warning_Activate_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_Warning_Activate_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+                <ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_Warning_Disable_Title</Title>
+                    <Description>%EndlessRomance_Warning_Disable_Description</Description>
+                    <Objective Name="Disable">%EndlessRomance_Warning_Disable_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_Warning_Disable_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>	
+	<!-- lilyophelia: Endless Romance | End -->	
+
+</Datatable>

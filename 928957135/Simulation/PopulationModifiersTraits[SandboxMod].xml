@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Documentation/Schemas/PopulationModifiersTrait.xsd">
+	<PopulationModifiersTrait Name="PopulationModifiersTraitSandboxPrimaryFIDSI" SubCategory="Primary" ShowInCustom="true" Cost="0">
+		<!--Contextual Bonus: Sandbox: +10 FIDSI-->
+		<Modifiers>
+			<Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true">
+				<SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitSandboxPrimaryFIDSI"/>
+			</Modifier>
+			<Modifier Class="ClassPopulationPlanet">
+				<!--Tag-->
+				<!--+10 FIDSI per Population-->
+				<SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitSandboxPrimaryFIDSI"/>
+			</Modifier>
+		</Modifiers>
+	</PopulationModifiersTrait>
+
+	<PopulationModifiersTrait Name="PopulationModifiersTraitSandboxSecondaryFIDSI" SubCategory="Secondary" ShowInCustom="true" Cost="0">
+		<!--Contextual Bonus: Sandbox: +10 FIDSI-->
+		<Modifiers>
+			<Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true">
+				<SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitSandboxSecondaryFIDSI"/>
+			</Modifier>
+			<Modifier Class="ClassPopulationPlanet">
+				<!--Tag-->
+				<!--+10 FIDSI per Population-->
+				<SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitSandboxSecondaryFIDSI"/>
+			</Modifier>
+		</Modifiers>
+	</PopulationModifiersTrait>
+</Datatable>

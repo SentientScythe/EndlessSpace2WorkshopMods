@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/GalaxyGeneratorWeightTableDefinition.xsd">
+
+
+    <!-- ########################################################################################################################### -->
+    <!-- ########################################          CURIOSITY       ELEMENTS        ######################################### -->
+    <!-- ########################################################################################################################### -->
+
+    <GalaxyGeneratorWeightTable Name="CuriosityLootTable">
+        <Entry Tag="CuriosityRepartition_Empty"				Weight="1"/>
+        <Entry Tag="CuriosityRepartition_LifeForm"			Weight="7"/>
+        <Entry Tag="CuriosityRepartition_Ruins"				Weight="12"/>
+        <Entry Tag="CuriosityRepartition_Signal"			Weight="7"/>
+        <Entry Tag="CuriosityRepartition_Atmospheric"		Weight="6"/>
+        <Entry Tag="CuriosityRepartition_Underground"		Weight="6"/>
+		<!--<Entry Tag="CuriosityRepartition_TEST"				Weight="1"/>-->
+    </GalaxyGeneratorWeightTable>
+
+    <GalaxyGeneratorWeightTable Name="CuriosityRepartition_Empty">
+        <Entry Tag="Curiosity_Empty_Lifeform"				Weight="1"/>
+        <Entry Tag="Curiosity_Empty_Ruins"					Weight="1"/>
+        <Entry Tag="Curiosity_Empty_Signal"					Weight="1"/>
+        <Entry Tag="Curiosity_Empty_Underground"			Weight="1"/>
+    </GalaxyGeneratorWeightTable>
+
+    <GalaxyGeneratorWeightTable Name="CuriosityRepartition_LifeForm">
+		<Entry Tag="Curiosity_Loot_Lifeform_Era1"			Weight="25"/><!--40-->
+        <Entry Tag="Curiosity_Loot_Lifeform_Era2"			Weight="25"/><!--30-->
+        <Entry Tag="Curiosity_Loot_Lifeform_Era3"			Weight="25"/><!--20-->
+        <Entry Tag="Curiosity_Loot_Lifeform_Era4"			Weight="25"/><!--10-->
+    </GalaxyGeneratorWeightTable>
+
+    <GalaxyGeneratorWeightTable Name="CuriosityRepartition_Ruins">
+        <Entry Tag="Curiosity_Loot_Ruins_Era1"				Weight="25"/>
+        <Entry Tag="Curiosity_Loot_Ruins_Era2"				Weight="25"/>
+        <Entry Tag="Curiosity_Loot_Ruins_Era3"				Weight="25"/>
+		<Entry Tag="Curiosity_Loot_Ruins_Era4"				Weight="25"/>
+    </GalaxyGeneratorWeightTable>
+
+    <GalaxyGeneratorWeightTable Name="CuriosityRepartition_Signal">
+        <Entry Tag="Curiosity_Loot_Signal_Era1"				Weight="25"/>
+        <Entry Tag="Curiosity_Loot_Signal_Era2"				Weight="25"/>
+        <Entry Tag="Curiosity_Loot_Signal_Era3"				Weight="25"/>
+		<Entry Tag="Curiosity_Loot_Signal_Era4"				Weight="25"/>
+    </GalaxyGeneratorWeightTable>
+
+    <GalaxyGeneratorWeightTable Name="CuriosityRepartition_Atmospheric">
+        <Entry Tag="Curiosity_Loot_Atmospheric_Era1"		Weight="25"/>
+        <Entry Tag="Curiosity_Loot_Atmospheric_Era2"		Weight="25"/>
+        <Entry Tag="Curiosity_Loot_Atmospheric_Era3"		Weight="25"/>
+		<Entry Tag="Curiosity_Loot_Atmospheric_Era4"		Weight="25"/>
+    </GalaxyGeneratorWeightTable>
+
+    <GalaxyGeneratorWeightTable Name="CuriosityRepartition_Underground">
+        <Entry Tag="Curiosity_Loot_Underground_Era1"		Weight="25"/>
+        <Entry Tag="Curiosity_Loot_Underground_Era2"		Weight="25"/>
+        <Entry Tag="Curiosity_Loot_Underground_Era3"		Weight="25"/>
+		<Entry Tag="Curiosity_Loot_Underground_Era4"		Weight="25"/>
+    </GalaxyGeneratorWeightTable>
+	
+	<GalaxyGeneratorWeightTable Name="CuriosityRepartition_Guardian">
+        <Entry Tag="Curiosity_PlanetAnomalyGuardian"		Weight="1"/>
+    </GalaxyGeneratorWeightTable>
+
+    <!-- LOOT WEIGHT TABLES -->
+    <GalaxyGeneratorWeightTable Name="LootGeneration_Default">
+        <Entry Tag="CuriosityDroplistRuins_Era1"              Weight="20"/>
+        <Entry Tag="CuriosityDroplistAtmospheric_Era1"        Weight="20"/>
+        <Entry Tag="CuriosityDroplistUnderground_Era1"        Weight="20"/>
+        <Entry Tag="CuriosityDroplistSignal_Era1"             Weight="20"/>
+    </GalaxyGeneratorWeightTable>
+
+</Datatable>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+     
+  <PlanetImprovementDefinition Name="EntertainmentSpec" SubCategory="PlanetImprovementApproval" ScoreProvider="PlanetImprovementBuilt">
+    	<SupervisorGain Name="Approval" Weight="0.5"/>  
+    	<Cost ResourceName="SystemProduction">160</Cost>    
+        <!-- Must have -->
+        <PathPrerequisite       Inverted="false"    Flags="Prerequisite,Discard">./ColonizedStarSystemStateColony</PathPrerequisite>
+		<PathPrerequisite       Inverted="false"	Flags="Prerequisite,Discard">../ClassEmpire/ClassColonizedStarSystem/ET_F</PathPrerequisite>         
+		<!-- Must not have -->
+        <PathPrerequisite       Inverted="true"     Flags="Prerequisite,Discard">ClassColonizedPlanet/EntertainmentSpec,!FastForwardedImprovement</PathPrerequisite>    
+    	<SimulationDescriptorReference Name="EntertainmentSpec" />
+   		<PopulationEvent Name="PopulationPoliticalEventPlanetaryImprovementDust1"/>
+  </PlanetImprovementDefinition>
+    
+   
+</Datatable>

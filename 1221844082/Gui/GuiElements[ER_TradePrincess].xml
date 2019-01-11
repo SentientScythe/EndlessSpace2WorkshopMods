@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+
+	<!-- lilyophelia: Commented Template
+	
+	-->
+	
+	<!-- lilyophelia: Clean Template
+	
+	<QuestGuiElement Name="EndlessRomance_TradePrincess_Template">
+        <Title>%EndlessRomance_TradePrincess_Template_Title</Title>
+        <Description>%EndlessRomance_TradePrincess_Template_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_TradePrincess" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_TradePrincess_Template_ObjectiveTemplate_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_Template_ObjectiveTemplate_Description</Description>
+                    <Objective Name="ObjectiveTemplate">%EndlessRomance_TradePrincess_Template_ObjectiveTemplate_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_Template_ObjectiveTemplate_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+                <ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_TradePrincess_Template_ObjectiveTemplate_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_Template_ObjectiveTemplate_Description</Description>
+                    <Objective Name="ObjectiveTemplate">%EndlessRomance_TradePrincess_Template_ObjectiveTemplate_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_Template_ObjectiveTemplate_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+				<ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_TradePrincess_Template_ObjectiveTemplate_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_Template_ObjectiveTemplate_Description</Description>
+                    <Objective Name="ObjectiveTemplate">%EndlessRomance_TradePrincess_Template_ObjectiveTemplate_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_Template_ObjectiveTemplate_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+	
+	-->	
+	
+	<!-- lilyophelia: Ending Template
+	
+	<QuestGuiElement Name="EndlessRomance_TradePrincess_EndingTemplate">
+        <Title>%EndlessRomance_TradePrincess_EndingTemplate_Title</Title>
+        <Description>%EndlessRomance_TradePrincess_EndingTemplate_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_TradePrincess" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_TradePrincess_EndingTemplate_Ending_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_EndingTemplate_Ending_Description</Description>
+                    <Objective Name="Ending">%EndlessRomance_TradePrincess_EndingTemplate_Ending_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_EndingTemplate_Ending_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+	
+	-->
+
+	<!-- lilyophelia: Endless Romance | Start -->
+	<QuestGuiElement Name="EndlessRomance_TradePrincess_TradeFleetInDanger">
+        <Title>%EndlessRomance_TradePrincess_TradeFleetInDanger_Title</Title>
+        <Description>%EndlessRomance_TradePrincess_TradeFleetInDanger_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_Spaceship" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics03">
+                    <Title>%EndlessRomance_TradePrincess_TradeFleetInDanger_Help_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_TradeFleetInDanger_Help_Description</Description>
+                    <Objective Name="Help">%EndlessRomance_TradePrincess_TradeFleetInDanger_Help_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_TradeFleetInDanger_Help_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+                <ObjectiveSet Politics="Politics06">
+                    <Title>%EndlessRomance_TradePrincess_TradeFleetInDanger_Harvest_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_TradeFleetInDanger_Harvest_Description</Description>
+                    <Objective Name="Harvest">%EndlessRomance_TradePrincess_TradeFleetInDanger_Harvest_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_TradeFleetInDanger_Harvest_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+               <ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_TradePrincess_TradeFleetInDanger_Ignore_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_TradeFleetInDanger_Ignore_Description</Description>
+                    <Objective Name="Ignore">%EndlessRomance_TradePrincess_TradeFleetInDanger_Ignore_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_TradeFleetInDanger_Ignore_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>				
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+	
+	<QuestGuiElement Name="EndlessRomance_TradePrincess_GhostFleetEnding">
+        <Title>%EndlessRomance_TradePrincess_GhostFleetEnding_Title</Title>
+        <Description>%EndlessRomance_TradePrincess_GhostFleetEnding_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_Spaceship" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_TradePrincess_GhostFleetEnding_GhostFleet_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_GhostFleetEnding_GhostFleet_Description</Description>
+                    <Objective Name="GhostFleet">%EndlessRomance_TradePrincess_GhostFleetEnding_GhostFleet_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_GhostFleetEnding_GhostFleet_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+	
+	<QuestGuiElement Name="EndlessRomance_TradePrincess_MeetThePrincess_Hostile">
+        <Title>%EndlessRomance_TradePrincess_MeetThePrincess_Hostile_Title</Title>
+        <Description>%EndlessRomance_TradePrincess_MeetThePrincess_Hostile_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_TradePrincess" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics06">
+                    <Title>%EndlessRomance_TradePrincess_MeetThePrincess_Hostile_Slaves_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_MeetThePrincess_Hostile_Slaves_Description</Description>
+                    <Objective Name="Slaves">%EndlessRomance_TradePrincess_MeetThePrincess_Hostile_Slaves_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_MeetThePrincess_Hostile_Slaves_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+                <ObjectiveSet Politics="Politics06">
+                    <Title>%EndlessRomance_TradePrincess_MeetThePrincess_Hostile_Harvest_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_MeetThePrincess_Hostile_Harvest_Description</Description>
+                    <Objective Name="Harvest">%EndlessRomance_TradePrincess_MeetThePrincess_Hostile_Harvest_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_MeetThePrincess_Hostile_Harvest_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+				<ObjectiveSet Politics="Politics06">
+                    <Title>%EndlessRomance_TradePrincess_MeetThePrincess_Hostile_Abandon_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_MeetThePrincess_Hostile_Abandon_Description</Description>
+                    <Objective Name="Abandon">%EndlessRomance_TradePrincess_MeetThePrincess_Hostile_Abandon_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_MeetThePrincess_Hostile_Abandon_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<QuestGuiElement Name="EndlessRomance_TradePrincess_PrincessBegs">
+        <Title>%EndlessRomance_TradePrincess_PrincessBegs_Title</Title>
+        <Description>%EndlessRomance_TradePrincess_PrincessBegs_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_TradePrincess" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics03">
+                    <Title>%EndlessRomance_TradePrincess_PrincessBegs_Advisor_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_PrincessBegs_Advisor_Description</Description>
+                    <Objective Name="Advisor">%EndlessRomance_TradePrincess_PrincessBegs_Advisor_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_PrincessBegs_Advisor_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+                <ObjectiveSet Politics="Politics06">
+                    <Title>%EndlessRomance_TradePrincess_PrincessBegs_Slave_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_PrincessBegs_Slave_Description</Description>
+                    <Objective Name="Slave">%EndlessRomance_TradePrincess_PrincessBegs_Slave_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_PrincessBegs_Slave_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+				<ObjectiveSet Politics="Politics06">
+                    <Title>%EndlessRomance_TradePrincess_PrincessBegs_Ignore_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_PrincessBegs_Ignore_Description</Description>
+                    <Objective Name="Ignore">%EndlessRomance_TradePrincess_PrincessBegs_Ignore_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_PrincessBegs_Ignore_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<QuestGuiElement Name="EndlessRomance_TradePrincess_PrincessAdapts">
+        <Title>%EndlessRomance_TradePrincess_PrincessAdapts_Title</Title>
+        <Description>%EndlessRomance_TradePrincess_PrincessAdapts_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_TradePrincess" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics06">
+                    <Title>%EndlessRomance_TradePrincess_PrincessAdapts_Intimate_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_PrincessAdapts_Intimate_Description</Description>
+                    <Objective Name="Intimate">%EndlessRomance_TradePrincess_PrincessAdapts_Intimate_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_PrincessAdapts_Intimate_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+                <ObjectiveSet Politics="Politics06">
+                    <Title>%EndlessRomance_TradePrincess_PrincessAdapts_Lover_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_PrincessAdapts_Lover_Description</Description>
+                    <Objective Name="Lover">%EndlessRomance_TradePrincess_PrincessAdapts_Lover_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_PrincessAdapts_Lover_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+				<ObjectiveSet Politics="Politics06">
+                    <Title>%EndlessRomance_TradePrincess_PrincessAdapts_Serve_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_PrincessAdapts_Serve_Description</Description>
+                    <Objective Name="Serve">%EndlessRomance_TradePrincess_PrincessAdapts_Serve_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_PrincessAdapts_Serve_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<QuestGuiElement Name="EndlessRomance_TradePrincess_PrincessDarkServantEnding">
+        <Title>%EndlessRomance_TradePrincess_PrincessDarkServantEnding_Title</Title>
+        <Description>%EndlessRomance_TradePrincess_PrincessDarkServantEnding_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_TradePrincess" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_TradePrincess_PrincessDarkServantEnding_DarkServantEnding_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_PrincessDarkServantEnding_DarkServantEnding_Description</Description>
+                    <Objective Name="DarkServantEnding">%EndlessRomance_TradePrincess_PrincessDarkServantEnding_DarkServantEnding_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_PrincessDarkServantEnding_DarkServantEnding_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<QuestGuiElement Name="EndlessRomance_TradePrincess_PrincessAttemptsToAssassinateEnding">
+        <Title>%EndlessRomance_TradePrincess_PrincessAttemptsToAssassinateEnding_Title</Title>
+        <Description>%EndlessRomance_TradePrincess_PrincessAttemptsToAssassinateEnding_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_SlaveShackles" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_TradePrincess_PrincessAttemptsToAssassinateEnding_Assassination_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_PrincessAttemptsToAssassinateEnding_Assassination_Description</Description>
+                    <Objective Name="Assassination">%EndlessRomance_TradePrincess_PrincessAttemptsToAssassinateEnding_Assassination_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_PrincessAttemptsToAssassinateEnding_Assassination_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+	
+	<QuestGuiElement Name="EndlessRomance_TradePrincess_HarvestPrincessEnding">
+        <Title>%EndlessRomance_TradePrincess_HarvestPrincessEnding_Title</Title>
+        <Description>%EndlessRomance_TradePrincess_HarvestPrincessEnding_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_SlaveShackles" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_TradePrincess_HarvestPrincessEnding_Harvest_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_HarvestPrincessEnding_Harvest_Description</Description>
+                    <Objective Name="Harvest">%EndlessRomance_TradePrincess_HarvestPrincessEnding_Harvest_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_HarvestPrincessEnding_Harvest_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>	
+
+	<QuestGuiElement Name="EndlessRomance_TradePrincess_MeetThePrincess_Friendly">
+        <Title>%EndlessRomance_TradePrincess_MeetThePrincess_Friendly_Title</Title>
+        <Description>%EndlessRomance_TradePrincess_MeetThePrincess_Friendly_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_TradePrincess" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics03">
+                    <Title>%EndlessRomance_TradePrincess_MeetThePrincess_Friendly_Help_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_MeetThePrincess_Friendly_Help_Description</Description>
+                    <Objective Name="Help">%EndlessRomance_TradePrincess_MeetThePrincess_Friendly_Help_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_MeetThePrincess_Friendly_Help_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+                <ObjectiveSet Politics="Politics03">
+                    <Title>%EndlessRomance_TradePrincess_MeetThePrincess_Friendly_Assimilate_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_MeetThePrincess_Friendly_Assimilate_Description</Description>
+                    <Objective Name="Assimilate">%EndlessRomance_TradePrincess_MeetThePrincess_Friendly_Assimilate_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_MeetThePrincess_Friendly_Assimilate_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+				<ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_TradePrincess_MeetThePrincess_Friendly_Abandon_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_MeetThePrincess_Friendly_Abandon_Description</Description>
+                    <Objective Name="Abandon">%EndlessRomance_TradePrincess_MeetThePrincess_Friendly_Abandon_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_MeetThePrincess_Friendly_Abandon_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+	
+	<QuestGuiElement Name="EndlessRomance_TradePrincess_PrincessLeaves">
+        <Title>%EndlessRomance_TradePrincess_PrincessLeaves_Title</Title>
+        <Description>%EndlessRomance_TradePrincess_PrincessLeaves_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_TradePrincess" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet Politics="Politics03">
+                    <Title>%EndlessRomance_TradePrincess_PrincessLeaves_Flirt_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_PrincessLeaves_Flirt_Description</Description>
+                    <Objective Name="Flirt">%EndlessRomance_TradePrincess_PrincessLeaves_Flirt_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_PrincessLeaves_Flirt_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+                <ObjectiveSet Politics="Politics03">
+                    <Title>%EndlessRomance_TradePrincess_PrincessLeaves_Gift_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_PrincessLeaves_Gift_Description</Description>
+                    <Objective Name="Gift">%EndlessRomance_TradePrincess_PrincessLeaves_Gift_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_PrincessLeaves_Gift_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+				<ObjectiveSet Politics="Politics03">
+                    <Title>%EndlessRomance_TradePrincess_PrincessLeaves_Respectful_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_PrincessLeaves_Respectful_Description</Description>
+                    <Objective Name="Respectful">%EndlessRomance_TradePrincess_PrincessLeaves_Respectful_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_PrincessLeaves_Respectful_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<QuestGuiElement Name="EndlessRomance_TradePrincess_LongRangeScanners">
+        <Title>%EndlessRomance_TradePrincess_LongRangeScanners_Title</Title>
+        <Description>%EndlessRomance_TradePrincess_LongRangeScanners_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_Spaceship" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics06">
+                    <Title>%EndlessRomance_TradePrincess_LongRangeScanners_Military_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_LongRangeScanners_Military_Description</Description>
+                    <Objective Name="Military">%EndlessRomance_TradePrincess_LongRangeScanners_Military_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_LongRangeScanners_Military_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+                <ObjectiveSet Politics="Politics03">
+                    <Title>%EndlessRomance_TradePrincess_LongRangeScanners_Diplomatic_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_LongRangeScanners_Diplomatic_Description</Description>
+                    <Objective Name="Diplomatic">%EndlessRomance_TradePrincess_LongRangeScanners_Diplomatic_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_LongRangeScanners_Diplomatic_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<QuestGuiElement Name="EndlessRomance_TradePrincess_TradeDeal">
+        <Title>%EndlessRomance_TradePrincess_TradeDeal_Title</Title>
+        <Description>%EndlessRomance_TradePrincess_TradeDeal_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_TradePrincess" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics03">
+                    <Title>%EndlessRomance_TradePrincess_TradeDeal_Intimate_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_TradeDeal_Intimate_Description</Description>
+                    <Objective Name="Intimate">%EndlessRomance_TradePrincess_TradeDeal_Intimate_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_TradeDeal_Intimate_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+                <ObjectiveSet Politics="Politics03">
+                    <Title>%EndlessRomance_TradePrincess_TradeDeal_Formal_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_TradeDeal_Formal_Description</Description>
+                    <Objective Name="Formal">%EndlessRomance_TradePrincess_TradeDeal_Formal_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_TradeDeal_Formal_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+				<ObjectiveSet Politics="Politics01">
+                    <Title>%EndlessRomance_TradePrincess_TradeDeal_Distant_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_TradeDeal_Distant_Description</Description>
+                    <Objective Name="Distant">%EndlessRomance_TradePrincess_TradeDeal_Distant_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_TradeDeal_Distant_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+	
+	<QuestGuiElement Name="EndlessRomance_TradePrincess_AssimilatePrincess">
+        <Title>%EndlessRomance_TradePrincess_AssimilatePrincess_Title</Title>
+        <Description>%EndlessRomance_TradePrincess_AssimilatePrincess_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_TradePrincess" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics03">
+                    <Title>%EndlessRomance_TradePrincess_AssimilatePrincess_Favor_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_AssimilatePrincess_Favor_Description</Description>
+                    <Objective Name="Favor">%EndlessRomance_TradePrincess_AssimilatePrincess_Favor_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_AssimilatePrincess_Favor_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+                <ObjectiveSet Politics="Politics04">
+                    <Title>%EndlessRomance_TradePrincess_AssimilatePrincess_Equality_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_AssimilatePrincess_Equality_Description</Description>
+                    <Objective Name="Equality">%EndlessRomance_TradePrincess_AssimilatePrincess_Equality_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_AssimilatePrincess_Equality_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<QuestGuiElement Name="EndlessRomance_TradePrincess_HighSociety">
+        <Title>%EndlessRomance_TradePrincess_HighSociety_Title</Title>
+        <Description>%EndlessRomance_TradePrincess_HighSociety_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_TradePrincess" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics03">
+                    <Title>%EndlessRomance_TradePrincess_HighSociety_Summon_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_HighSociety_Summon_Description</Description>
+                    <Objective Name="Summon">%EndlessRomance_TradePrincess_HighSociety_Summon_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_HighSociety_Summon_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+                <ObjectiveSet Politics="Politics03">
+                    <Title>%EndlessRomance_TradePrincess_HighSociety_Permit_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_HighSociety_Permit_Description</Description>
+                    <Objective Name="Permit">%EndlessRomance_TradePrincess_HighSociety_Permit_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_HighSociety_Permit_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+				<ObjectiveSet Politics="Politics06">
+                    <Title>%EndlessRomance_TradePrincess_HighSociety_Exile_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_HighSociety_Exile_Description</Description>
+                    <Objective Name="Exile">%EndlessRomance_TradePrincess_HighSociety_Exile_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_HighSociety_Exile_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<QuestGuiElement Name="EndlessRomance_TradePrincess_LowSociety">
+        <Title>%EndlessRomance_TradePrincess_LowSociety_Title</Title>
+        <Description>%EndlessRomance_TradePrincess_LowSociety_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_TradePrincess" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics03">
+                    <Title>%EndlessRomance_TradePrincess_LowSociety_Summon_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_LowSociety_Summon_Description</Description>
+                    <Objective Name="Summon">%EndlessRomance_TradePrincess_LowSociety_Summon_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_LowSociety_Summon_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+                <ObjectiveSet Politics="Politics03">
+                    <Title>%EndlessRomance_TradePrincess_LowSociety_Permit_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_LowSociety_Permit_Description</Description>
+                    <Objective Name="Permit">%EndlessRomance_TradePrincess_LowSociety_Permit_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_LowSociety_Permit_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+				<ObjectiveSet Politics="Politics06">
+                    <Title>%EndlessRomance_TradePrincess_LowSociety_Exile_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_LowSociety_Exile_Description</Description>
+                    <Objective Name="Exile">%EndlessRomance_TradePrincess_LowSociety_Exile_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_LowSociety_Exile_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<QuestGuiElement Name="EndlessRomance_TradePrincess_PrincessMarriageEnding">
+        <Title>%EndlessRomance_TradePrincess_PrincessMarriageEnding_Title</Title>
+        <Description>%EndlessRomance_TradePrincess_PrincessMarriageEnding_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_TradePrincess" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_TradePrincess_PrincessMarriageEnding_PrincessMarriageEnding_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_PrincessMarriageEnding_PrincessMarriageEnding_Description</Description>
+                    <Objective Name="PrincessMarriageEnding">%EndlessRomance_TradePrincess_PrincessMarriageEnding_PrincessMarriageEnding_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_PrincessMarriageEnding_PrincessMarriageEnding_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<QuestGuiElement Name="EndlessRomance_TradePrincess_CultLeaderEnding">
+        <Title>%EndlessRomance_TradePrincess_CultLeaderEnding_Title</Title>
+        <Description>%EndlessRomance_TradePrincess_CultLeaderEnding_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_TradePrincess" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_TradePrincess_CultLeaderEnding_CultLeaderEnding_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_CultLeaderEnding_CultLeaderEnding_Description</Description>
+                    <Objective Name="CultLeaderEnding">%EndlessRomance_TradePrincess_CultLeaderEnding_CultLeaderEnding_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_CultLeaderEnding_CultLeaderEnding_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<QuestGuiElement Name="EndlessRomance_TradePrincess_ExilePrincessHigh">
+        <Title>%EndlessRomance_TradePrincess_ExilePrincessHigh_Title</Title>
+        <Description>%EndlessRomance_TradePrincess_ExilePrincessHigh_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_TradePrincess" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_TradePrincess_ExilePrincessHigh_Exile_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_ExilePrincessHigh_Exile_Description</Description>
+                    <Objective Name="Exile">%EndlessRomance_TradePrincess_ExilePrincessHigh_Exile_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_ExilePrincessHigh_Exile_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<QuestGuiElement Name="EndlessRomance_TradePrincess_ExilePrincessLow">
+        <Title>%EndlessRomance_TradePrincess_ExilePrincessLow_Title</Title>
+        <Description>%EndlessRomance_TradePrincess_ExilePrincessLow_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_TradePrincess" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_TradePrincess_ExilePrincessLow_Exile_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_ExilePrincessLow_Exile_Description</Description>
+                    <Objective Name="Exile">%EndlessRomance_TradePrincess_ExilePrincessLow_Exile_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_ExilePrincessLow_Exile_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<QuestGuiElement Name="EndlessRomance_TradePrincess_SummonPrincess">
+        <Title>%EndlessRomance_TradePrincess_SummonPrincess_Title</Title>
+        <Description>%EndlessRomance_TradePrincess_SummonPrincess_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_TradePrincess" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics03">
+                    <Title>%EndlessRomance_TradePrincess_SummonPrincess_Advisor_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_SummonPrincess_Advisor_Description</Description>
+                    <Objective Name="Advisor">%EndlessRomance_TradePrincess_SummonPrincess_Advisor_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_SummonPrincess_Advisor_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+                <ObjectiveSet Politics="Politics03">
+                    <Title>%EndlessRomance_TradePrincess_SummonPrincess_Lover_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_SummonPrincess_Lover_Description</Description>
+                    <Objective Name="Lover">%EndlessRomance_TradePrincess_SummonPrincess_Lover_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_SummonPrincess_Lover_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<QuestGuiElement Name="EndlessRomance_TradePrincess_AureliaBecomesAdvisor">
+        <Title>%EndlessRomance_TradePrincess_AureliaBecomesAdvisor_Title</Title>
+        <Description>%EndlessRomance_TradePrincess_AureliaBecomesAdvisor_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_TradePrincess" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics03">
+                    <Title>%EndlessRomance_TradePrincess_AureliaBecomesAdvisor_Intimate_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_AureliaBecomesAdvisor_Intimate_Description</Description>
+                    <Objective Name="Intimate">%EndlessRomance_TradePrincess_AureliaBecomesAdvisor_Intimate_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_AureliaBecomesAdvisor_Intimate_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+                <ObjectiveSet Politics="Politics03">
+                    <Title>%EndlessRomance_TradePrincess_AureliaBecomesAdvisor_Formal_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_AureliaBecomesAdvisor_Formal_Description</Description>
+                    <Objective Name="Formal">%EndlessRomance_TradePrincess_AureliaBecomesAdvisor_Formal_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_AureliaBecomesAdvisor_Formal_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+				<ObjectiveSet Politics="Politics01">
+                    <Title>%EndlessRomance_TradePrincess_AureliaBecomesAdvisor_Distant_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_AureliaBecomesAdvisor_Distant_Description</Description>
+                    <Objective Name="Distant">%EndlessRomance_TradePrincess_AureliaBecomesAdvisor_Distant_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_AureliaBecomesAdvisor_Distant_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<QuestGuiElement Name="EndlessRomance_TradePrincess_PrincessLightServantEnding">
+        <Title>%EndlessRomance_TradePrincess_PrincessLightServantEnding_Title</Title>
+        <Description>%EndlessRomance_TradePrincess_PrincessLightServantEnding_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_TradePrincess" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_TradePrincess_PrincessLightServantEnding_PrincessLightServantEnding_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_PrincessLightServantEnding_PrincessLightServantEnding_Description</Description>
+                    <Objective Name="PrincessLightServantEnding">%EndlessRomance_TradePrincess_PrincessLightServantEnding_PrincessLightServantEnding_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_PrincessLightServantEnding_PrincessLightServantEnding_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<QuestGuiElement Name="EndlessRomance_TradePrincess_IntimateDinner">
+        <Title>%EndlessRomance_TradePrincess_IntimateDinner_Title</Title>
+        <Description>%EndlessRomance_TradePrincess_IntimateDinner_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_TradePrincess" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics03">
+                    <Title>%EndlessRomance_TradePrincess_IntimateDinner_Express_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_IntimateDinner_Express_Description</Description>
+                    <Objective Name="Express">%EndlessRomance_TradePrincess_IntimateDinner_Express_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_IntimateDinner_Express_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+                <ObjectiveSet Politics="Politics03">
+                    <Title>%EndlessRomance_TradePrincess_IntimateDinner_Gift_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_IntimateDinner_Gift_Description</Description>
+                    <Objective Name="Gift">%EndlessRomance_TradePrincess_IntimateDinner_Gift_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_IntimateDinner_Gift_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+				<ObjectiveSet Politics="Politics03">
+                    <Title>%EndlessRomance_TradePrincess_IntimateDinner_Touch_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_IntimateDinner_Touch_Description</Description>
+                    <Objective Name="Touch">%EndlessRomance_TradePrincess_IntimateDinner_Touch_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_IntimateDinner_Touch_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<QuestGuiElement Name="EndlessRomance_TradePrincess_FormalMeeting">
+        <Title>%EndlessRomance_TradePrincess_FormalMeeting_Title</Title>
+        <Description>%EndlessRomance_TradePrincess_FormalMeeting_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_TradePrincess" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics03">
+                    <Title>%EndlessRomance_TradePrincess_FormalMeeting_Accept_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_FormalMeeting_Accept_Description</Description>
+                    <Objective Name="Accept">%EndlessRomance_TradePrincess_FormalMeeting_Accept_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_FormalMeeting_Accept_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+                <ObjectiveSet Politics="Politics01">
+                    <Title>%EndlessRomance_TradePrincess_FormalMeeting_Reject_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_FormalMeeting_Reject_Description</Description>
+                    <Objective Name="Reject">%EndlessRomance_TradePrincess_FormalMeeting_Reject_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_FormalMeeting_Reject_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<QuestGuiElement Name="EndlessRomance_TradePrincess_AureliaBecomesLover">
+        <Title>%EndlessRomance_TradePrincess_AureliaBecomesLover_Title</Title>
+        <Description>%EndlessRomance_TradePrincess_AureliaBecomesLover_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_TradePrincess" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics03">
+                    <Title>%EndlessRomance_TradePrincess_AureliaBecomesLover_Love_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_AureliaBecomesLover_Love_Description</Description>
+                    <Objective Name="Love">%EndlessRomance_TradePrincess_AureliaBecomesLover_Love_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_AureliaBecomesLover_Love_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+                <ObjectiveSet Politics="Politics03">
+                    <Title>%EndlessRomance_TradePrincess_AureliaBecomesLover_Spoil_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_AureliaBecomesLover_Spoil_Description</Description>
+                    <Objective Name="Spoil">%EndlessRomance_TradePrincess_AureliaBecomesLover_Spoil_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_AureliaBecomesLover_Spoil_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+				<ObjectiveSet Politics="Politics06">
+                    <Title>%EndlessRomance_TradePrincess_AureliaBecomesLover_Cheat_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_AureliaBecomesLover_Cheat_Description</Description>
+                    <Objective Name="Cheat">%EndlessRomance_TradePrincess_AureliaBecomesLover_Cheat_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_AureliaBecomesLover_Cheat_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<QuestGuiElement Name="EndlessRomance_TradePrincess_Invitation">
+        <Title>%EndlessRomance_TradePrincess_Invitation_Title</Title>
+        <Description>%EndlessRomance_TradePrincess_Invitation_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_TropicalPlanet" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics04">
+                    <Title>%EndlessRomance_TradePrincess_Invitation_Moon_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_Invitation_Moon_Description</Description>
+                    <Objective Name="Moon">%EndlessRomance_TradePrincess_Invitation_Moon_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_Invitation_Moon_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+				<!--
+                <ObjectiveSet Politics="Politics03">
+                    <Title>%EndlessRomance_TradePrincess_Invitation_City_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_Invitation_City_Description</Description>
+                    <Objective Name="City">%EndlessRomance_TradePrincess_Invitation_City_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_Invitation_City_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+				-->
+               <ObjectiveSet Politics="Politics01">
+                    <Title>%EndlessRomance_TradePrincess_Invitation_Reject_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_Invitation_Reject_Description</Description>
+                    <Objective Name="Reject">%EndlessRomance_TradePrincess_Invitation_Reject_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_Invitation_Reject_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>				
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<QuestGuiElement Name="EndlessRomance_TradePrincess_DyingRomanceGeneralEnding">
+        <Title>%EndlessRomance_TradePrincess_DyingRomanceGeneralEnding_Title</Title>
+        <Description>%EndlessRomance_TradePrincess_DyingRomanceGeneralEnding_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_TradePrincess" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_TradePrincess_DyingRomanceGeneralEnding_Ending_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_DyingRomanceGeneralEnding_Ending_Description</Description>
+                    <Objective Name="Ending">%EndlessRomance_TradePrincess_DyingRomanceGeneralEnding_Ending_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_DyingRomanceGeneralEnding_Ending_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<QuestGuiElement Name="EndlessRomance_TradePrincess_Moon">
+        <Title>%EndlessRomance_TradePrincess_Moon_Title</Title>
+        <Description>%EndlessRomance_TradePrincess_Moon_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_TradePrincess" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics02">
+                    <Title>%EndlessRomance_TradePrincess_Moon_Explore_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_Moon_Explore_Description</Description>
+                    <Objective Name="Explore">%EndlessRomance_TradePrincess_Moon_Explore_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_Moon_Explore_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+                <ObjectiveSet Politics="Politics06">
+                    <Title>%EndlessRomance_TradePrincess_Moon_Hunt_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_Moon_Hunt_Description</Description>
+                    <Objective Name="Hunt">%EndlessRomance_TradePrincess_Moon_Hunt_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_Moon_Hunt_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+				<ObjectiveSet Politics="Politics03">
+                    <Title>%EndlessRomance_TradePrincess_Moon_Relax_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_Moon_Relax_Description</Description>
+                    <Objective Name="Relax">%EndlessRomance_TradePrincess_Moon_Relax_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_Moon_Relax_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+		<QuestGuiElement Name="EndlessRomance_TradePrincess_ExploreMoon">
+        <Title>%EndlessRomance_TradePrincess_ExploreMoon_Title</Title>
+        <Description>%EndlessRomance_TradePrincess_ExploreMoon_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_AureliaCloseWithDress" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics02">
+                    <Title>%EndlessRomance_TradePrincess_ExploreMoon_Experiment_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_ExploreMoon_Experiment_Description</Description>
+                    <Objective Name="Experiment">%EndlessRomance_TradePrincess_ExploreMoon_Experiment_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_ExploreMoon_Experiment_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+                <ObjectiveSet Politics="Politics05">
+                    <Title>%EndlessRomance_TradePrincess_ExploreMoon_Decline_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_ExploreMoon_Decline_Description</Description>
+                    <Objective Name="Decline">%EndlessRomance_TradePrincess_ExploreMoon_Decline_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_ExploreMoon_Decline_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<QuestGuiElement Name="EndlessRomance_TradePrincess_ExploreMoonBonding">
+        <Title>%EndlessRomance_TradePrincess_ExploreMoonBonding_Title</Title>
+        <Description>%EndlessRomance_TradePrincess_ExploreMoonBonding_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_AureliaLover" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics03">
+                    <Title>%EndlessRomance_TradePrincess_ExploreMoonBonding_Bond_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_ExploreMoonBonding_Bond_Description</Description>
+                    <Objective Name="Bond">%EndlessRomance_TradePrincess_ExploreMoonBonding_Bond_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_ExploreMoonBonding_Bond_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+                <ObjectiveSet Politics="Politics01">
+                    <Title>%EndlessRomance_TradePrincess_ExploreMoonBonding_Refuse_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_ExploreMoonBonding_Refuse_Description</Description>
+                    <Objective Name="Refuse">%EndlessRomance_TradePrincess_ExploreMoonBonding_Refuse_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_ExploreMoonBonding_Refuse_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+	
+	<QuestGuiElement Name="EndlessRomance_TradePrincess_HuntMoon">
+        <Title>%EndlessRomance_TradePrincess_HuntMoon_Title</Title>
+        <Description>%EndlessRomance_TradePrincess_HuntMoon_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_AureliaCloseWithDress" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics06">
+                    <Title>%EndlessRomance_TradePrincess_HuntMoon_Protect_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_HuntMoon_Protect_Description</Description>
+                    <Objective Name="Protect">%EndlessRomance_TradePrincess_HuntMoon_Protect_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_HuntMoon_Protect_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+                <ObjectiveSet Politics="Politics01">
+                    <Title>%EndlessRomance_TradePrincess_HuntMoon_Sacrifice_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_HuntMoon_Sacrifice_Description</Description>
+                    <Objective Name="Sacrifice">%EndlessRomance_TradePrincess_HuntMoon_Sacrifice_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_HuntMoon_Sacrifice_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<QuestGuiElement Name="EndlessRomance_TradePrincess_HuntMoonBonding">
+        <Title>%EndlessRomance_TradePrincess_HuntMoonBonding_Title</Title>
+        <Description>%EndlessRomance_TradePrincess_HuntMoonBonding_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_AureliaLover" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics03">
+                    <Title>%EndlessRomance_TradePrincess_HuntMoonBonding_Bond_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_HuntMoonBonding_Bond_Description</Description>
+                    <Objective Name="Bond">%EndlessRomance_TradePrincess_HuntMoonBonding_Bond_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_HuntMoonBonding_Bond_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+                <ObjectiveSet Politics="Politics01">
+                    <Title>%EndlessRomance_TradePrincess_HuntMoonBonding_Refuse_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_HuntMoonBonding_Refuse_Description</Description>
+                    <Objective Name="Refuse">%EndlessRomance_TradePrincess_HuntMoonBonding_Refuse_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_HuntMoonBonding_Refuse_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+		<QuestGuiElement Name="EndlessRomance_TradePrincess_RelaxMoon">
+        <Title>%EndlessRomance_TradePrincess_RelaxMoon_Title</Title>
+        <Description>%EndlessRomance_TradePrincess_RelaxMoon_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_AureliaCloseWithDress" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics03">
+                    <Title>%EndlessRomance_TradePrincess_RelaxMoon_Comfort_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_RelaxMoon_Comfort_Description</Description>
+                    <Objective Name="Comfort">%EndlessRomance_TradePrincess_RelaxMoon_Comfort_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_RelaxMoon_Comfort_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+                <ObjectiveSet Politics="Politics03">
+                    <Title>%EndlessRomance_TradePrincess_RelaxMoon_Servants_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_RelaxMoon_Servants_Description</Description>
+                    <Objective Name="Servants">%EndlessRomance_TradePrincess_RelaxMoon_Servants_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_RelaxMoon_Servants_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<QuestGuiElement Name="EndlessRomance_TradePrincess_RelaxMoonBonding">
+        <Title>%EndlessRomance_TradePrincess_RelaxMoonBonding_Title</Title>
+        <Description>%EndlessRomance_TradePrincess_RelaxMoonBonding_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_AureliaLover" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics03">
+                    <Title>%EndlessRomance_TradePrincess_RelaxMoonBonding_Bond_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_RelaxMoonBonding_Bond_Description</Description>
+                    <Objective Name="Bond">%EndlessRomance_TradePrincess_RelaxMoonBonding_Bond_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_RelaxMoonBonding_Bond_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+                <ObjectiveSet Politics="Politics01">
+                    <Title>%EndlessRomance_TradePrincess_RelaxMoonBonding_Refuse_Title</Title>
+                    <Description>%EndlessRomance_TradePrincess_RelaxMoonBonding_Refuse_Description</Description>
+                    <Objective Name="Refuse">%EndlessRomance_TradePrincess_RelaxMoonBonding_Refuse_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TradePrincess_RelaxMoonBonding_Refuse_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<!-- lilyophelia: Endless Romance | End -->	
+
+</Datatable>

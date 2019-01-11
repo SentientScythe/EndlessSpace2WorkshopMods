@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/QuestDefinition.xsd">
+
+	<!-- lilyophelia: Quest Template
+	<QuestDefinition Name="EndlessRomance_TemporalAnomaly_Template_Wait" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TemporalAnomaly_Template_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="1"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TemporalAnomaly_Template</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TemporalAnomaly_Template" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TemporalAnomaly_Template</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+                <Choice DefaultChoiceIndex="0">
+                    <ChoiceItem ObjectiveSetIndex="0"/>
+					<ChoiceItem ObjectiveSetIndex="1"/>
+					<ChoiceItem ObjectiveSetIndex="2"/>
+				</Choice>
+
+                <ObjectiveSet>
+                    <Objective Name="ObjectiveTemplate">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="OutcomeTemplate"/>
+                        </Sequence>
+                        <Outcome Name="OutcomeTemplate">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>QuestToTrigger</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+	-->
+	
+	<!-- lilyophelia: Ending Template
+	<QuestDefinition Name="EndlessRomance_TemporalAnomaly_Template_Wait" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TemporalAnomaly_Template_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="1"/>
+
+            <Var IsGlobal="true" VarName="$EndlessRomance_IsAdventureInProgress" OverWriteGlobal="true" IntValue="0"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TemporalAnomaly_Template</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TemporalAnomaly_EndingTemplate" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TemporalAnomaly_EndingTemplate</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="Ending">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Ending"/>
+                        </Sequence>
+                        <Outcome Name="Ending">
+                        </Outcome>
+                    </Objective>
+				<Reward Droplist="Droplist_ER_TemporalAnomaly_HistoryTemplate" Picks="1"/>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+	-->
+
+	<!-- lilyophelia: Endless Romance | Start -->
+
+    <QuestDefinition Name="EndlessRomance_TemporalAnomaly_FlashesOfLight" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TemporalAnomaly_FlashesOfLight</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+            <Var IsGlobal="true" VarName="$EndlessRomance_IsAdventureInProgress" OverWriteGlobal="true" IntValue="1"/>
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+                <Choice DefaultChoiceIndex="0">
+                    <ChoiceItem ObjectiveSetIndex="0"/>
+					<ChoiceItem ObjectiveSetIndex="1"/>
+					<ChoiceItem ObjectiveSetIndex="2"/>
+				</Choice>
+
+                <ObjectiveSet>
+                    <Objective Name="Close">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Close"/>
+                        </Sequence>
+                        <Outcome Name="Close">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TemporalAnomaly_SuckedInEnding_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+                <ObjectiveSet>
+                    <Objective Name="Distant">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Distant"/>
+                        </Sequence>
+                        <Outcome Name="Distant">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TemporalAnomaly_GhostShip_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+                <ObjectiveSet>
+                    <Objective Name="Ignore">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Ignore"/>
+                        </Sequence>
+                        <Outcome Name="Ignore">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TemporalAnomaly_ShipVanishesEnding_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+	<QuestDefinition Name="EndlessRomance_TemporalAnomaly_SuckedInEnding_Wait" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TemporalAnomaly_SuckedInEnding_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="6"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TemporalAnomaly_SuckedInEnding</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TemporalAnomaly_SuckedInEnding" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TemporalAnomaly_SuckedInEnding</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+
+            <Var IsGlobal="true" VarName="$EndlessRomance_IsAdventureInProgress" OverWriteGlobal="true" IntValue="0"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="Ending">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Ending"/>
+                        </Sequence>
+                        <Outcome Name="Ending">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TemporalAnomaly_FlashesOfLightEpilogue_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+					<Reward Droplist="Droplist_ER_TemporalAnomaly_SuckedIn" Picks="1"/>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+
+	<QuestDefinition Name="EndlessRomance_TemporalAnomaly_ShipVanishesEnding_Wait" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TemporalAnomaly_ShipVanishesEnding_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="20"/>
+
+            <Var IsGlobal="true" VarName="$EndlessRomance_IsAdventureInProgress" OverWriteGlobal="true" IntValue="0"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TemporalAnomaly_ShipVanishesEnding</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TemporalAnomaly_ShipVanishesEnding" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TemporalAnomaly_ShipVanishesEnding</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="Ending">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Ending"/>
+                        </Sequence>
+                        <Outcome Name="Ending">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TemporalAnomaly_FlashesOfLightEpilogue_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+					<Reward Droplist="Droplist_ER_TemporalAnomaly_ShipVanishes" Picks="1"/>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+
+	<QuestDefinition Name="EndlessRomance_TemporalAnomaly_GhostShip_Wait" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TemporalAnomaly_GhostShip_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="6"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TemporalAnomaly_GhostShip</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TemporalAnomaly_GhostShip" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TemporalAnomaly_GhostShip</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+                <Choice DefaultChoiceIndex="0">
+                    <ChoiceItem ObjectiveSetIndex="0"/>
+					<ChoiceItem ObjectiveSetIndex="1"/>
+				</Choice>
+
+                <ObjectiveSet>
+                    <Objective Name="Investigate">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Investigate"/>
+                        </Sequence>
+                        <Outcome Name="Investigate">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TemporalAnomaly_ScienceVesselTakenEnding_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+                <ObjectiveSet>
+                    <Objective Name="Observe">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Observe"/>
+                        </Sequence>
+                        <Outcome Name="Observe">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>QuestToTrigger</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+	<QuestDefinition Name="EndlessRomance_TemporalAnomaly_ScienceVesselTakenEnding_Wait" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TemporalAnomaly_ScienceVesselTakenEnding_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="4"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TemporalAnomaly_ScienceVesselTakenEnding</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TemporalAnomaly_ScienceVesselTakenEnding" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TemporalAnomaly_ScienceVesselTakenEnding</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+
+            <Var IsGlobal="true" VarName="$EndlessRomance_IsAdventureInProgress" OverWriteGlobal="true" IntValue="0"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="Ending">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Ending"/>
+                        </Sequence>
+                        <Outcome Name="Ending">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TemporalAnomaly_FlashesOfLightEpilogue_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+					<Reward Droplist="Droplist_ER_TemporalAnomaly_ScienceVesselTaken" Picks="1"/>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+
+	<QuestDefinition Name="EndlessRomance_TemporalAnomaly_GhostShipTakenEnding_Wait" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TemporalAnomaly_GhostShipTakenEnding_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="4"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TemporalAnomaly_GhostShipTakenEnding</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TemporalAnomaly_GhostShipTakenEnding" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TemporalAnomaly_GhostShipTakenEnding</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+
+            <Var IsGlobal="true" VarName="$EndlessRomance_IsAdventureInProgress" OverWriteGlobal="true" IntValue="0"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="Ending">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Ending"/>
+                        </Sequence>
+                        <Outcome Name="Ending">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TemporalAnomaly_FlashesOfLightEpilogue_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+					<Reward Droplist="Droplist_ER_TemporalAnomaly_GhostShipTaken" Picks="1"/>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+
+	<QuestDefinition Name="EndlessRomance_TemporalAnomaly_FlashesOfLightEpilogue_Wait" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TemporalAnomaly_FlashesOfLightEpilogue_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="60"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TemporalAnomaly_FlashesOfLightEpilogue</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TemporalAnomaly_FlashesOfLightEpilogue" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TemporalAnomaly_FlashesOfLightEpilogue</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="Ending">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Ending"/>
+                        </Sequence>
+                        <Outcome Name="Ending">
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+
+	<!-- lilyophelia: Endless Romance | End -->
+
+</Datatable>

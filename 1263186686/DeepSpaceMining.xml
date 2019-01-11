@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="Documentation/Schemas/Amplitude.Unity.Runtime.RuntimeModule.xsd">
+
+	<!-- Conversion = add new files, not compatible with other mods. Standalone = replace all files, not compatible with other mods. Extension = add new files, compatible with other mods. // Example : <RuntimeModule Name="ExampleTechnology" Type="Extension" Version="1.1">-->
+  <!-- For the "Name", do not use spaces or special characters (like "&"), otherwise your mod will not load -->
+  <RuntimeModule Name="DeepSpaceMining" Type="Extension" Version="1.3.1">
+
+    
+    <!-- Title as it appears in the workshop // Example : <Title>Example technology</Title>. Here, you can use spaces and special characters (like "&")-->
+        <Title>Deep Space Mining</Title>
+    <!-- Description as it appears in the workshop // Example : <Description>Adds:- Technology - Exclusion technology link - Cost reduction technology link</Description>-->
+        <Description>Adds strategic resources to special nodes (asteroids, nebulas, black holes, etc.)
+		Also increases the dust/science/influence yield slightly.</Description>
+    <!-- Name of the author // Example : <Author>I_AM_ENFER</Author>-->
+        <Author>Timmeh</Author>
+ <!-- Image as it appears in the workshop. Size should be 430x430 pixels // Example : <PreviewImageFile>ModIcon.png</PreviewImageFile>-->
+        <PreviewImageFile>ModIcon.png</PreviewImageFile>
+    <!-- Add more content to this each time you update the mod // Example : <ReleaseNotes>Added XSD validation for easier use.</ReleaseNotes>-->
+        <ReleaseNotes>v1.3.1 Fixed Unfallen not harvesting Strategic1.</ReleaseNotes>
+<!-- Available tags: AI, Art, Buildings, Gameplay, Improvements, MajorFactions, Maps, MinorFactions, Multiplayer, Other, Resources, Technologies, Units // Example : <Tags>Gameplay</Tags>-->
+        <Tags>Gameplay</Tags>
+
+		<!-- XML files to load -->
+		<Plugins>
+			
+			
+			<!-- Simulation Descriptors -->
+			<DatabasePlugin DataType="Amplitude.Unity.Simulation.SimulationDescriptor, Assembly-CSharp-firstpass">
+				<FilePath>Simulation/SimulationDescriptors[*].xml</FilePath>
+			</DatabasePlugin>
+					
+			
+			<!-- SpecialNodeDefinition -->
+			<DatabasePlugin DataType="SpecialNodeDefinition, Assembly-CSharp">
+				<FilePath>Simulation/SpecialNodeDefinitions.xml</FilePath>
+			</DatabasePlugin>
+			
+			<!-- GalaxyGenerator -->
+			<DatabasePlugin DataType="GalaxyGeneratorWeightTableDefinition, Assembly-CSharp">
+				<FilePath>GalaxyGenerator/WeightTableDefinitions.xml</FilePath>
+			</DatabasePlugin>
+			
+
+			<!-- Gui Element -->
+			<DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass">
+				<FilePath>Gui/GuiElements[*].xml</FilePath>
+				<ExtraTypes>
+					<ExtraType DataType="Amplitude.Unity.Gui.ExtendedGuiElement, Assembly-CSharp-firstpass" />
+					<ExtraType DataType="ResourceGuiElement, Assembly-CSharp" />
+				</ExtraTypes>
+			</DatabasePlugin>
+			
+			<DatabasePlugin DataType="Amplitude.Unity.Gui.GuiTooltipDescription, Assembly-CSharp-firstpass">
+				<FilePath>Gui/GuiElements[*].xml</FilePath>
+			</DatabasePlugin>
+			
+			
+			
+		</Plugins>
+	</RuntimeModule>
+</Datatable>

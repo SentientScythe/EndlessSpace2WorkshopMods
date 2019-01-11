@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- lilyophelia: Endless Romance | Start -->
+  <!-- lilyophelia: French localization: archlordluc; shavounet; Marlo -->
+  <!-- lilyophelia: German localization: Ptah -->
+  <!-- lilyophelia: Italian localization: Peshku -->
+  <!-- lilyophelia: Russian localization: BadBecauseMad -->
+
+  <!-- DO  NOT TRANSLATE; TEMPLATES -->
+  <!-- Quest Template -->
+  <!--
+  <LocalizationPair Name="%EndlessRomance_Template_Title">Trade Fleet In Danger</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_Template_Description">A foreign trade fleet is broadcasting a distress signal from the edge of one of your systems. They appear to be badly damaged and they are asking for assistance.</LocalizationPair>
+  
+  <LocalizationPair Name="%EndlessRomance_Template_OptionName_Title">Ignore</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_Template_OptionName_Description">Ignore the distress call.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_Template_OptionName_Objective">Your empire does not have time to deal with this situation. Besides, it might be a trap. Whoever these traders are, they're on their own. [End of Romance]</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_Template_OptionName_ObjectiveTooltip">[End of Romance]</LocalizationPair>
+  -->  
+
+  <!-- TRANSLATE NOW -->   
+  <!-- lilyophelia: normally located in ES2_Localization_Locales.xml -->
+    
+  <LocalizationPair Name="%QuestTypeEndlessRomanceTitle">Endless Romance</LocalizationPair>  
+  
+  <!-- lilyophelia: normally located in ES2_Localization_Quest_Locales.xml -->
+  
+  <!-- Quest -->
+  
+  <LocalizationPair Name="%EndlessRomance_Introduction_Title">Endless Romance</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_Introduction_Description">Endless Romance is a high-quality quest mod that adds a massive amount of new story and depth to your ES2 playthroughs.
+
+------------------
+Features 
+------------------
+
+Character Plot Webs: Adds deep, fleshed out (and romanceable) characters to your ES2 playthroughs. Released Dec 2017.
+
+Adventures: Adds shorter quest lines that inject interesting events, mysteries, stories and dillemas into your ES2 games. Released Dec 2017.
+
+History System: Adds a large assortment of buildable histories, based on your story choices during your playthrough of Endless Romance. Histories are like mini-wonder buildings that provide a thematic bonus (flat + scaling) and make your empire feel more personalized and storied. Adds more than 6 Illustrations. Released Jan 2018.
+
+New Heroes: Recruit the characters you meet in stories to govern your worlds and guide your fleets. Released Jan 2018.
+
+-----------------
+Content
+-----------------
+
+Total Content: adds more than 1 Romanceable Hero, 34 New Events, 85 Unique Choices, 19 Different Endings, 3 Exciting Epilogues, 8 Buildable Histories, and 18 Original Illustrations. 
+
+---
+
+Aurelia: Meet a charming, golden-eyed trade princess and her people. Save--or exploit--her crew when they ask for help. Form a trade alliance, resettle them as refugees on your homeworld, or maybe just process them for food or dust. Take Aurelia on as an advisor or a lover. Visit an uninhabited, primal moon and forge a deep bond based on love, trust and mutual respect. 
+
+New Character Plot Web, adding the new hero, "Aurelia the Lover," and more than 26 Events, 67 Choices, 11 Endings, 0 Histories, and 5 Illustrations. Released Dec 2017
+
+---
+
+Temporal Anomaly: Investigate strange flashes of light at the edge of one of your systems. Do your best to avoid a mysterious black hole. Investigate a derelict, ghost ship.
+
+New Adventure, adding more than 2 Events, 5 Choices, 4 Endings, 1 Epilogue, 4 Histories, and 4 Illustrations. Released Dec 2017
+
+---
+
+The Warship: Hunt down a stealthy enemy shuttle. Capture prisoners and interrogate them for information. Uncover their secret mission and make an important diplomatic choice. Confiscate an advanced vessel of war. Endure a viral outbreak.
+
+New Adventure, adding more than 5 Events, 13 Choices, 4 Endings, 2 Epilogues, 4 Histories and 3 Illustrations. Released Jan 2018
+
+---------------------
+Next Update
+---------------------
+
+Jan 30th @ 2PM PST
+
+- Ziggurat of the Dark Goddess: Free an imprisoned, pagan Vodyani Goddess; a dark and psychic being. New character plot web.
+
+----------------------
+Coming Soon!
+----------------------
+
+New adventures, new histories and new heroes!
+
+Future characters to include: Viktor (Nihilistic War General); a dark Vodyani goddess; a Riftborn developing emotions/personality; a pacifist, vegan Craver scientist who is always hungry; an Unfallen flapper-girl that loves sarcastic poetry
+
+-----------------
+Credits
+-----------------
+
+Story, writing and coding by lilyophelia (project lead/owner)
+Story and artwork by IvyFetish
+French localization by: archlordluc; shavounet; Marlo
+German localization by Ptah; lasersword
+Russian localization by BadBecauseMad (aka BBM); Bin
+
+If you'd like to join one of our wonderful localization teams, please get in touch!</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_Introduction_Activate_Title">Activate</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_Introduction_Activate_Description">Start the Endless Romance Mod.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_Introduction_Activate_Objective">Load the Endless Romance Mod for this playthrough.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_Introduction_Activate_ObjectiveTooltip">New characters and events will periodically appear during your game.</LocalizationPair>
+  
+  <LocalizationPair Name="%EndlessRomance_Introduction_Disable_Title">Disable</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_Introduction_Disable_Description">Disable the Endless Romance Mod.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_Introduction_Disable_Objective">Disable the Endless Romance Mod for this playthrough.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_Introduction_Disable_ObjectiveTooltip">There will be no changes to your game for this playthrough.</LocalizationPair>
+
+ <!-- Quest -->
+
+  <LocalizationPair Name="%EndlessRomance_Warning_Title">Warning! Endless Romance Not Loaded</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_Warning_Description">You need to manually select the Activate option below if you would like to load Endless Romance for this playthrough.
+
+We create this content for players only. This is the only way we can prevent the AI Empires from going on your adventures and romancing your characters!
+
+Sorry for the inconvenience! Please make sure to select Activate below.</LocalizationPair>
+  
+  <LocalizationPair Name="%EndlessRomance_Warning_Activate_Title">Activate</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_Warning_Activate_Description">Start the Endless Romance Mod.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_Warning_Activate_Objective">Load the Endless Romance Mod for this playthrough.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_Warning_Activate_ObjectiveTooltip">New characters and events will periodically appear during your game.</LocalizationPair>
+  
+  <LocalizationPair Name="%EndlessRomance_Warning_Disable_Title">Disable</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_Warning_Disable_Description">Disable the Endless Romance Mod.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_Warning_Disable_Objective">Disable the Endless Romance Mod for this playthrough.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_Warning_Disable_ObjectiveTooltip">There will be no changes to your game for this playthrough.</LocalizationPair>
+
+  <!-- lilyophelia: Endless Romance | End -->
+
+</Datatable>

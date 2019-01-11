@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+
+    <!-- ******************** -->
+    <!-- **		BattleMod		** -->
+    <!-- ******************** -->
+
+	<!-- Changed base evasion of each ship size and added extra bonuses to ship experience -->	
+
+    <!-- ******************** -->
+    <!-- **   SHIP SIZES   ** -->
+    <!-- ******************** -->
+    <SimulationDescriptor Name="ShipSizeMothership"  Type="ShipSize">
+        <Modifier  TargetProperty="MaximumEmpireManpowerStock"          Operation="Addition"  Value="200" Path="../ClassEmpire" />
+
+        <Modifier TargetProperty="VisionRange"      Operation="Addition"  Value="3"        Path="ClassShip"/>
+        <Modifier TargetProperty="CommandPoints"        Operation="Addition"    Value="4"     Path="ClassShip"/>
+        <Modifier TargetProperty="ShieldRadius"         Operation="Addition"    Value="4"     Path="ClassShip"/>
+        <Modifier TargetProperty="ScrapPriority"        Operation="Subtraction" Value="5"     Path="ClassShip"/>
+        <Modifier TargetProperty="VisualImportanceScore" Operation="Addition" Value="500"     Path="ClassShip"/>
+        <Modifier TargetProperty="HullWeakness"         Operation="Addition" Value="500"     Path="ClassShip"/>
+		<Modifier TargetProperty="SizeDamageMultiplierForSquadron" Operation="Addition" Value="1" Path="ClassShip" TooltipHidden="true"/>
+		<Modifier TargetProperty="Evasion"              Operation="Addition"  Value="-0.25"   Path="ClassShip"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ShipSizeLarge"  Type="ShipSize">
+        <Modifier TargetProperty="VisionRange"      Operation="Addition"  Value="1"        Path="ClassShip"/>
+        <Modifier TargetProperty="CommandPoints"        Operation="Addition"    Value="6"     Path="ClassShip"/>
+        <Modifier TargetProperty="ShieldRadius"         Operation="Addition"    Value="2.5"     Path="ClassShip"/>
+        <Modifier TargetProperty="ScrapPriority"        Operation="Subtraction" Value="2"     Path="ClassShip"/>
+        <Modifier TargetProperty="VisualImportanceScore" Operation="Addition" Value="100"     Path="ClassShip"/>
+        <Modifier TargetProperty="HullWeakness"         Operation="Addition" Value="500"     Path="ClassShip"/>
+		<Modifier TargetProperty="SizeDamageMultiplierForSquadron" Operation="Addition" Value="1" Path="ClassShip" TooltipHidden="true"/>
+        <Modifier TargetProperty="Evasion"              Operation="Addition"  Value="-0.1"   Path="ClassShip"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ShipSizeMedium" Type="ShipSize">
+        <Modifier TargetProperty="VisionRange"      Operation="Addition"  Value="0.5"        Path="ClassShip"/>
+        <Modifier TargetProperty="CommandPoints"        Operation="Addition"    Value="3"     Path="ClassShip"/>
+        <Modifier TargetProperty="ShieldRadius"         Operation="Addition"    Value="1"   Path="ClassShip"/>
+        <Modifier TargetProperty="ScrapPriority"        Operation="Addition"    Value="2"     Path="ClassShip"/>
+        <Modifier TargetProperty="VisualImportanceScore" Operation="Addition" Value="50"     Path="ClassShip"/>
+        <Modifier TargetProperty="HullWeakness"         Operation="Addition" Value="150"     Path="ClassShip"/>
+    </SimulationDescriptor>
+	
+
+    <SimulationDescriptor Name="ShipSizeSmall"  Type="ShipSize">
+        <Modifier TargetProperty="VisionRange"          Operation="Addition"  Value="0.25"      Path="ClassShip"/>
+        <Modifier TargetProperty="CommandPoints"        Operation="Addition"  Value="1"     	Path="ClassShip"/>
+        <Modifier TargetProperty="ShieldRadius"         Operation="Addition"    Value="0.3"   	Path="ClassShip"/>
+        <Modifier TargetProperty="ScrapPriority"        Operation="Addition"    Value="4"     	Path="ClassShip"/>
+        <Modifier TargetProperty="VisualImportanceScore" Operation="Addition" Value="10"     	Path="ClassShip"/>
+        <Modifier TargetProperty="Evasion"              Operation="Addition"  Value="0.1"   	Path="ClassShip"/>
+		<Modifier TargetProperty="SizeDamageMultiplierForSquadron" Operation="Addition" Value="-0.5" Path="ClassShip" TooltipHidden="true"/>
+    </SimulationDescriptor>
+
+
+    <!-- ******************** -->
+    <!-- **   SHIP LEVELS  ** -->
+    <!-- ******************** -->
+    <SimulationDescriptor Name="ShipLevel01" Type="ShipLevel" IsSerializable="false">
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ShipLevel02" Type="ShipLevel" IsSerializable="false">
+        <Modifier TargetProperty="MaximumHealth" Operation="Percent"  Value="0.24" 	Path="ClassShip/ClassSectionCore"/>
+        <Modifier TargetProperty="Evasion"       Operation="Addition"  Value="0.01" Path="ClassShip/ClassSectionCore"/>
+		<Modifier TargetProperty="MaximumShield" Operation="Percent"  Value="0.24"  Path="ClassShip/ClassSectionCore"/>
+        <Modifier TargetProperty="Damage"        Operation="Percent" Value="0.04"   Path="ClassShip/ClassSectionCore"/>
+        <Modifier TargetProperty="Cooldown"      Operation="Addition"  Value="-0.02"  Path="ClassShip/ClassSectionCore"/>		
+        <Modifier TargetProperty="ShieldReloadPerPhase" Operation="Percent"  Value="0.01"  Path="ClassShip/ClassSectionCore"/>	
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ShipLevel03" Type="ShipLevel" IsSerializable="false">
+        <Modifier TargetProperty="MaximumHealth" Operation="Percent" Value="0.45" 	Path="ClassShip/ClassSectionCore"/>
+        <Modifier TargetProperty="Evasion"       Operation="Addition"  Value="0.02" Path="ClassShip/ClassSectionCore"/>
+		<Modifier TargetProperty="MaximumShield" Operation="Percent"  Value="0.45"  Path="ClassShip/ClassSectionCore"/>
+        <Modifier TargetProperty="Damage"        Operation="Percent" Value="0.06"   Path="ClassShip/ClassSectionCore"/>
+        <Modifier TargetProperty="Cooldown"      Operation="Addition"  Value="-0.04"  Path="ClassShip/ClassSectionCore"/>				
+        <Modifier TargetProperty="ShieldReloadPerPhase" Operation="Percent"  Value="0.02"  Path="ClassShip/ClassSectionCore"/>			
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ShipLevel04" Type="ShipLevel" IsSerializable="false">
+        <Modifier TargetProperty="MaximumHealth" Operation="Percent" Value="0.65" 	Path="ClassShip/ClassSectionCore"/>
+        <Modifier TargetProperty="Evasion"       Operation="Addition"  Value="0.03" Path="ClassShip/ClassSectionCore"/>
+		<Modifier TargetProperty="MaximumShield" Operation="Percent" Value="0.65"   Path="ClassShip/ClassSectionCore"/>
+        <Modifier TargetProperty="Damage"        Operation="Percent" Value="0.08"   Path="ClassShip/ClassSectionCore"/>
+        <Modifier TargetProperty="Cooldown"      Operation="Addition"  Value="-0.06"  Path="ClassShip/ClassSectionCore"/>				
+        <Modifier TargetProperty="ShieldReloadPerPhase" Operation="Percent"  Value="0.03"  Path="ClassShip/ClassSectionCore"/>			
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ShipLevel05" Type="ShipLevel" IsSerializable="false">
+        <Modifier TargetProperty="MaximumHealth" Operation="Percent" Value="0.83" 	Path="ClassShip/ClassSectionCore"/>
+        <Modifier TargetProperty="Evasion"       Operation="Addition"  Value="0.04" Path="ClassShip/ClassSectionCore"/>
+		<Modifier TargetProperty="MaximumShield" Operation="Percent"  Value="0.83"  Path="ClassShip/ClassSectionCore"/>
+        <Modifier TargetProperty="Damage"        Operation="Percent" Value="0.1"    Path="ClassShip/ClassSectionCore"/>
+        <Modifier TargetProperty="Cooldown"      Operation="Addition"  Value="-0.08"  Path="ClassShip/ClassSectionCore"/>				
+        <Modifier TargetProperty="ShieldReloadPerPhase" Operation="Percent"  Value="0.04"  Path="ClassShip/ClassSectionCore"/>			
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ShipLevel06" Type="ShipLevel" IsSerializable="false">
+        <Modifier TargetProperty="MaximumHealth" Operation="Percent" Value="1.00" 	Path="ClassShip/ClassSectionCore"/>
+        <Modifier TargetProperty="Evasion"       Operation="Addition"  Value="0.05" Path="ClassShip/ClassSectionCore"/>
+		<Modifier TargetProperty="MaximumShield" Operation="Percent"  Value="1.00"  Path="ClassShip/ClassSectionCore"/>
+        <Modifier TargetProperty="Damage"        Operation="Percent" Value="0.12"   Path="ClassShip/ClassSectionCore"/>
+        <Modifier TargetProperty="Cooldown"      Operation="Addition"  Value="-0.1"  Path="ClassShip/ClassSectionCore"/>				
+        <Modifier TargetProperty="ShieldReloadPerPhase" Operation="Percent"  Value="0.05"  Path="ClassShip/ClassSectionCore"/>			
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ShipLevel07" Type="ShipLevel" IsSerializable="false">
+        <Modifier TargetProperty="MaximumHealth" Operation="Percent" Value="1.15" 	Path="ClassShip/ClassSectionCore"/>
+        <Modifier TargetProperty="Evasion"       Operation="Addition"  Value="0.06" Path="ClassShip/ClassSectionCore"/>
+		<Modifier TargetProperty="MaximumShield" Operation="Percent"  Value="1.15"  Path="ClassShip/ClassSectionCore"/>
+        <Modifier TargetProperty="Damage"        Operation="Percent" Value="0.14"   Path="ClassShip/ClassSectionCore"/>
+        <Modifier TargetProperty="Cooldown"      Operation="Addition"  Value="-0.12"  Path="ClassShip/ClassSectionCore"/>				
+        <Modifier TargetProperty="ShieldReloadPerPhase" Operation="Percent"  Value="0.06"  Path="ClassShip/ClassSectionCore"/>			
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ShipLevel08" Type="ShipLevel" IsSerializable="false">
+        <Modifier TargetProperty="MaximumHealth" Operation="Percent" Value="1.30" 	Path="ClassShip/ClassSectionCore"/>
+        <Modifier TargetProperty="Evasion"       Operation="Addition"  Value="0.07" Path="ClassShip/ClassSectionCore"/>
+		<Modifier TargetProperty="MaximumShield" Operation="Percent"  Value="1.30"  Path="ClassShip/ClassSectionCore"/>
+        <Modifier TargetProperty="Damage"        Operation="Percent" Value="0.16"   Path="ClassShip/ClassSectionCore"/>
+        <Modifier TargetProperty="Cooldown"      Operation="Addition"  Value="-0.14"  Path="ClassShip/ClassSectionCore"/>				
+        <Modifier TargetProperty="ShieldReloadPerPhase" Operation="Percent"  Value="0.07"  Path="ClassShip/ClassSectionCore"/>			
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ShipLevel09" Type="ShipLevel" IsSerializable="false">
+        <Modifier TargetProperty="MaximumHealth" Operation="Percent" Value="1.43" 	Path="ClassShip/ClassSectionCore"/>
+        <Modifier TargetProperty="Evasion"       Operation="Addition"  Value="0.08" Path="ClassShip/ClassSectionCore"/>
+		<Modifier TargetProperty="MaximumShield" Operation="Percent"  Value="1.43"  Path="ClassShip/ClassSectionCore"/>
+        <Modifier TargetProperty="Damage"        Operation="Percent" Value="0.18"   Path="ClassShip/ClassSectionCore"/>	
+        <Modifier TargetProperty="Cooldown"      Operation="Addition"  Value="-0.16"  Path="ClassShip/ClassSectionCore"/>				
+        <Modifier TargetProperty="ShieldReloadPerPhase" Operation="Percent"  Value="0.08"  Path="ClassShip/ClassSectionCore"/>			
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ShipLevel10" Type="ShipLevel" IsSerializable="false">
+        <Modifier TargetProperty="MaximumHealth" Operation="Percent" Value="1.55" 	Path="ClassShip/ClassSectionCore"/>
+        <Modifier TargetProperty="Evasion"       Operation="Addition"  Value="0.09" Path="ClassShip/ClassSectionCore"/>
+		<Modifier TargetProperty="MaximumShield" Operation="Percent"  Value="1.55"  Path="ClassShip/ClassSectionCore"/>
+        <Modifier TargetProperty="Damage"        Operation="Percent" Value="0.2"    Path="ClassShip/ClassSectionCore"/>
+        <Modifier TargetProperty="Cooldown"      Operation="Addition"  Value="-0.18"  Path="ClassShip/ClassSectionCore"/>				
+        <Modifier TargetProperty="ShieldReloadPerPhase" Operation="Percent"  Value="0.09"  Path="ClassShip/ClassSectionCore"/>			
+    </SimulationDescriptor>
+
+	<!--Heroes-->
+	<SimulationDescriptor Name="ClassSectionCoreHeroAdministrator" Type="ClassSectionCore">
+		<Modifier TargetProperty="MaximumHealth" Operation="Addition" Value="3000" Path="ClassSection"/>
+        <Modifier TargetProperty="Evasion"       Operation="Addition"  Value="0.2" Path="ClassSection"/>
+        <Modifier TargetProperty="Damage"        Operation="Percent" Value="0.2"    Path="ClassSection"/>		
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="ClassSectionCoreHeroAdmiral" Type="ClassSectionCore">
+		<Modifier TargetProperty="MaximumHealth" Operation="Addition" Value="3500" Path="ClassSection"/>
+        <Modifier TargetProperty="Evasion"       Operation="Addition"  Value="0.2" Path="ClassSection"/>
+        <Modifier TargetProperty="Damage"        Operation="Percent" Value="0.2"    Path="ClassSection"/>	
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="ClassSectionCoreHeroCorporate" Type="ClassSectionCore">
+		<Modifier TargetProperty="MaximumHealth" Operation="Addition" Value="3000" Path="ClassSection"/>
+        <Modifier TargetProperty="Evasion"       Operation="Addition"  Value="0.2" Path="ClassSection"/>
+        <Modifier TargetProperty="Damage"        Operation="Percent" Value="0.2"    Path="ClassSection"/>		
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="ClassSectionCoreHeroAdventurer" Type="ClassSectionCore">
+		<Modifier TargetProperty="MaximumHealth" Operation="Addition" Value="3250" Path="ClassSection"/>
+        <Modifier TargetProperty="Evasion"       Operation="Addition"  Value="0.2" Path="ClassSection"/>
+        <Modifier TargetProperty="Damage"        Operation="Percent" Value="0.2"    Path="ClassSection"/>	
+	</SimulationDescriptor>
+
+	<!--Faction specifics-->
+	<SimulationDescriptor Name="ClassSectionCoreCravers" Type="ClassSectionCore">
+		<Modifier TargetProperty="MaximumHealth" Operation="Percent" Value="-0.2" Path="ClassSection" Priority="1" />
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="ClassSectionCoreTimeLords" Type="ClassSectionCore">
+		<Modifier TargetProperty="MaximumHealth" Operation="Percent" Value="-0.1" Path="ClassSection" Priority="1" />
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="ClassSectionCoreHoratio" Type="ClassSectionCore">
+		<Modifier TargetProperty="MaximumHealth" Operation="Percent" Value="0.1" Path="ClassSection" Priority="1" />
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="ClassSectionCoreSophons" Type="ClassSectionCore">
+		<Modifier TargetProperty="MaximumHealth" Operation="Percent" Value="-0.1" Path="ClassSection" Priority="1" />
+	</SimulationDescriptor>	
+	
+	<!--ClassHulls: infos on ships-->
+	<SimulationDescriptor Name="ClassHullSmallCivilian" Type="ClassHull">
+		<Modifier TargetProperty="MaximumShipManpower" Operation="Addition" Value="40"     Path="ClassShip"/>
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="ClassHullSmallAttack" Type="ClassHull">
+		<Modifier TargetProperty="MaximumShipManpower" Operation="Addition" Value="100" Path="ClassShip"/>
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="ClassHullSmallSupport" Type="ClassHull">
+		<Modifier TargetProperty="MaximumShipManpower" Operation="Addition" Value="150" Path="ClassShip"/>
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="ClassHullMediumAttack" Type="ClassHull">
+		<Modifier TargetProperty="MaximumShipManpower" Operation="Addition" Value="300" Path="ClassShip"/>
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="ClassHullMediumDefense" Type="ClassHull">
+		<Modifier TargetProperty="MaximumShipManpower" Operation="Addition" Value="450" Path="ClassShip"/>
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="ClassHullLargeCarrier" Type="ClassHull">
+		<Modifier TargetProperty="MaximumShipManpower" Operation="Addition" Value="900" Path="ClassShip"/>
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="ClassHullMothership"	Type="ClassHull">
+		<Modifier TargetProperty="MothershipCount"             Operation="Addition" Value="1"       Path="../ClassEmpire,AffinityGameplayVampirilis" />
+		<Modifier TargetProperty="MaximumEmpireLifeforceStock" Operation="Addition" Value="800"     Path="../ClassEmpire,AffinityGameplayVampirilis" />
+        <Modifier TargetProperty="MaximumShipManpower"         Operation="Addition" Value="500"     Path="ClassShip"/>
+	</SimulationDescriptor>
+
+	<!--Faction Specifics-->
+	<SimulationDescriptor Name="ClassHullCravers" Type="ClassHull">
+		<Modifier TargetProperty="MaximumShipManpower"	Operation="Percent"		Value="0.25"		Path="ClassShip" Priority="1" />
+		<Modifier TargetProperty="GarrisonMoneyUpkeep"	Operation="Percent"		Value="-0.15"		Path="ClassShip" Priority="1" />
+        <Modifier TargetProperty="Damage"               Operation="Percent"     Value="0.1"         Path="ClassShip/ClassSection/ClassModuleWeapon" Priority="1" />		
+	</SimulationDescriptor>	
+	
+	<SimulationDescriptor Name="ClassHullHoratio" Type="ClassHull">
+		<Modifier TargetProperty="MaximumShipManpower"	Operation="Percent"		Value="0.15"		Path="ClassShip" Priority="1" />
+		<Modifier TargetProperty="GarrisonMoneyUpkeep"	Operation="Percent"		Value="0.1"			Path="ClassShip" Priority="1" />		
+	</SimulationDescriptor>		
+
+	<SimulationDescriptor Name="ClassHullVampirilis" Type="ClassHull">
+		<Modifier TargetProperty="GarrisonMoneyUpkeep"	Operation="Percent"		Value="-0.25"		Path="ClassShip" Priority="1" />
+		<Modifier TargetProperty="MaximumShipManpower"	Operation="Percent"		Value="-0.25"		Path="ClassShip" Priority="1" />
+	</SimulationDescriptor>	
+
+	<SimulationDescriptor Name="ClassHullSophons" Type="ClassHull">
+		<Modifier TargetProperty="MaximumShipManpower"  Operation="Percent" Value="-0.1"   Path="ClassShip" Priority="2" />
+        <Modifier TargetProperty="Damage"               Operation="Percent" Value="0.1"    Path="ClassShip/ClassSection/ClassModuleWeapon" Priority="1" />
+	</SimulationDescriptor>	
+	
+</Datatable>

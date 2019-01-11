@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<RuntimeModule Name="MoreTraits" Type="Extension">
+		<Tags>Gameplay, Heroes, Balance</Tags>
+		<Author>Redraluin</Author>
+		<Homepage></Homepage>
+		<Title>More Traits</Title>
+<Description>
+Updated with new Population Traits and some balancing.
+I am still working on balancing and adding more traits.
+
+Adds more traits:
+    (+) Legendary Heroes III (-50% upkeep, +5 XP/turn and +5% required to unlock the next Hero)
+	(+) Hero Professions (Only one can be choosen; Effects all Heroes; System effects apply when Hero is governor.)
+        Space Heroes     (+[Hero Level] Dust, Influence Point, Science per destroyed CP, +[Hero Level]% Accuracy, Ship Health, +1 Probe on Hero Ship, +[Hero Level] Target Weight)
+        Governor Heroes  (+[System Level] FIDSI per Population on System with Governors)
+		Defender Heroes  (+200 Damage done to attackers during ground battle)
+    (+) Brilliant Strategist III (+30% Infantry Minimum Damage, +30% Infantry Maximum Damage, +10% Manpower Upgrade Cost)
+    (+) Brilliant Strategist IV (+40% Infantry Minimum Damage, +40% Infantry Maximum Damage, +20% Manpower Upgrade Cost)
+    (+) Brilliant Strategist V (+50% Infantry Minimum Damage, +50% Infantry Maximum Damage, +30% Manpower Upgrade Cost)
+    (-) Poor Strategist III (-30% Infantry Minimum Damage, -30% Infantry Maximum Damage, -10% Manpower Upgrade Cost)
+    (-) Poor Strategist IV (-40% Infantry Minimum Damage, -30% Infantry Maximum Damage, -15% Manpower Upgrade Cost)
+    (-) Poor Strategist V (-50% Infantry Minimum Damage, -30% Infantry Maximum Damage, -20% Manpower Upgrade Cost)
+    (+) Fearless Warriors III (+30% Infantry Health, +10% Manpower Upgrade Cost)
+    (+) Fearless Warriors IV (+40% Infantry Health, +20% Manpower Upgrade Cost)
+    (+) Fearless Warriors V (+50% Infantry Health, +30% Manpower Upgrade Cost)
+    (-) Feable Warriors III (-30% Infantry Health, -10% Manpower Upgrade Cost)
+    (-) Feable Warriors IV (-40% Infantry Health, -15% Manpower Upgrade Cost)
+    (-) Feable Warriors V (-50% Infantry Health, -20% Manpower Upgrade Cost)
+    (-) Black Thumb III (-20% System Growth)
+    (-) Black Thumb IV (-25% System Growth)
+    (-) Black Thumb V (-30% System Growth)
+    (+) Deadly Weapons III (+30% Damage on Weapon Modules, +1% Dust on Ships)
+    (+) Deadly Weapons IV (+40% Damage on Weapon Modules, +3% Dust on Ships)
+    (+) Deadly Weapons V (+50% Damage on Weapon Modules, +5% Dust on Ships)
+    (+) Optimal Defense III (+30% maximum Health on Ships, +1% Ship cost)
+    (+) Optimal Defense IV (+40% maximum Health on Ships, +3% Ship cost)
+    (+) Optimal Defense V (+50% maximum Health on Ships, +5% Ship cost)
+    (+) Unique Design (+5% Damage and +5% Health on ships, but -1 Fleet size)
+    (+) Expert Negotiator (10% Peace Treaty cost reduction)
+    (+) Wonder Builder (20% faster Wonder production)
+    (-) Ancient Architecture (15% slower building production)
+    (+) Ground Battle Tactician I-II (-10% Troop Manpower cost on Empire; -20% Troop Manpower cost on Empire)
+    (+) Virtual Training I-II (+2 XP/turn on Ships; +4 XP/turn on Ships)
+    (-) Mortal Heroes (Heroes won't return)
+Population Traits (New Trait Category)
+    (+) Adaptive Population I (+1 FIDSI per Population)
+    (+) Adaptive Population II (+2 FIDSI per Population)
+    (+) Adaptive Population III (+3 FIDSI per Population)
+    (+) Adaptive Population IV (+4 FIDSI per Population)
+    (+) Adaptive Population V (+5 FIDSI per Population)
+    (+) Banker Citizens I (+1 Dust per Population)
+    (+) Banker Citizens II (+3 Dust per Population)
+    (+) Banker Citizens III (+5 Dust per Population)
+    (+) Loyal Citizens I (+1 Influence per Population)
+    (+) Loyal Citizens II (+3 Influence per Population)
+    (+) Loyal Citizens III (+5 Influence per Population)
+    (+) Productive Citizens I (+1 Production per Population)
+    (+) Productive Citizens II (+3 Production per Population)
+    (+) Productive Citizens III (+5 Production per Population)
+    (+) Thinker Citizens I (+1 Science per Population)
+    (+) Thinker Citizens II (+3 Science per Population)
+    (+) Thinker Citizens III (+5 Science per Population)
+	(+) Merchant Citizens (+1% Star System Trade Value and +1 Dust per Population)
+    (-) Unhappy Population (-1 Happiness per Population)
+	(-) Infamous Citizens (-2 Influence per Population, +10% Peaceful Treaty cost and +10% Diplomacy cost)
+    (-) Weak Population (-5 FIDSI per Population)
+Combined Traits (you will find them among the starting traits.):
+	(-) Luxury Lifestile
+    (+) Influence Buyout (Can use Influence to buyout stuff like the UE)
+    (+) Enhanced Warriors I (+5% Infantry Minimum Damage, +5% Infantry Maximum Damage, +5% Infantry Health, +5% Manpower Upgrade Cost)
+    (+) Enhanced Warriors II (+10% Infantry Minimum Damage, +10% Infantry Maximum Damage, +10% Infantry Health, +10% Manpower Upgrade Cost)
+    (+) Enhanced Warriors III (+15% Infantry Minimum Damage, +15% Infantry Maximum Damage, +15% Infantry Health, +15% Manpower Upgrade Cost)
+    (+) Enhanced Warriors IV (+20% Infantry Minimum Damage, +20% Infantry Maximum Damage, +20% Infantry Health, +20% Manpower Upgrade Cost)
+    (+) Enhanced Warriors V (+25% Infantry Minimum Damage, +25% Infantry Maximum Damage, +25% Infantry Health, +25% Manpower Upgrade Cost)
+    (+) Enhanced Space Ships I (+5% Damage on Weapon Modules, +5% maximum Health on Ships, +2% Ship cost)
+    (+) Enhanced Space Ships II (+10% Damage on Weapon Modules, +10% maximum Health on Ships, +4% Ship cost)
+    (+) Enhanced Space Ships III (+15% Damage on Weapon Modules, +15% maximum Health on Ships, +6% Ship cost)
+    (+) Enhanced Space Ships IV (+20% Damage on Weapon Modules, +20% maximum Health on Ships, +8% Ship cost)
+    (+) Enhanced Space Ships V (+25% Damage on Weapon Modules, +25% maximum Health on Ships, +10% Ship cost)
+    (+) Academy Training I (+1 Skill Point on Heroes, +10% XP on Heroes and +5% Upkeep)
+    (+) Academy Training II (+2 Skill Point on Heroes, +20% XP on Heroes and +10% Upkeep)
+    (+) Academy Training III (+3 Skill Point on Heroes, +30% XP on Heroes and +15% Upkeep)
+    (+) Academy Training IV (+4 Skill Point on Heroes, +40% XP on Heroes and +20% Upkeep)
+    (+) Academy Training V (+5 Skill Point on Heroes, +50% XP on Heroes and +25% Upkeep)
+Extra Hero Traits:
+    Minor Faction Heroes
+    Major Faction Heroes (Starting Heroes, can't choose yours)
+
+Feel free to report bugs or balancing issues. :)
+</Description>
+<ReleaseNotes>
+Changes:
+    Bug fixing: Adaptive Population and Weak Population works too.
+    Added Major Faction heroes to Extra Heroes.
+</ReleaseNotes>
+		<PreviewImageFile>ModIcon.png</PreviewImageFile>
+		<Plugins>
+			<DatabasePlugin DataType="FactionTrait, Assembly-CSharp">
+				<FilePath>Simulation/FactionTraits[MoreTraits].xml</FilePath>
+			</DatabasePlugin>
+			<DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass">
+				<ExtraTypes>
+					<ExtraType DataType="Amplitude.Unity.Gui.ExtendedGuiElement, Assembly-CSharp-firstpass" />
+				</ExtraTypes>
+				<FilePath>Gui/GuiElements[MoreTraits].xml</FilePath>
+			</DatabasePlugin>
+			<DatabasePlugin DataType="Amplitude.Unity.Simulation.SimulationDescriptor, Assembly-CSharp-firstpass">
+				<FilePath>Simulation/SimulationDescriptors[MoreTraits].xml</FilePath>
+			</DatabasePlugin>
+			<DatabasePlugin DataType="FactionTraitCategoryDefinition, Assembly-CSharp">
+				<FilePath>Simulation/FactionTraitCategoryDefinition[MoreTraits].xml</FilePath>
+			</DatabasePlugin>
+			<LocalizationPlugin>
+				<Directory>Localization</Directory>
+			</LocalizationPlugin>			
+		</Plugins>
+	</RuntimeModule>
+</Datatable>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Documentation/Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+    
+	<TechnologyGuiElement2 Name="TechnologyDefinitionEconomyAndTrade8Vampirillis" X="3.5" Y="0">
+		<Title>%TechnologyDefinitionEconomyAndTrade8Title</Title>
+		<Description>%TechnologyDefinitionEconomyAndTrade8Description</Description>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionEconomyAndTrade8Small" />
+    	</Icons>
+	</TechnologyGuiElement2>
+	
+	<TechnologyGuiElement2 Name="TechnologyDefinitionScienceAndExploration4Vampirillis" X="-1" Y="0">
+        <Title>%TechnologyDefinitionScienceAndExploration4Title</Title>
+        <Description>%TechnologyDefinitionScienceAndExploration4Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionScienceAndExploration4Small" />
+        </Icons>
+    </TechnologyGuiElement2>
+    
+	<TechnologyGuiElement2 Name="TechnologyDefinitionEmpireDevelopment6Vampirilis" X="-1.15" Y="0">
+        <Title>%TechnologyDefinitionEmpireDevelopment6Title</Title>
+        <Description>%TechnologyDefinitionEmpireDevelopment6Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionEmpireDevelopment6Small" />
+        </Icons>
+    </TechnologyGuiElement2>
+	
+</Datatable>

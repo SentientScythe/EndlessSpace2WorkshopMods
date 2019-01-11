@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/IndustryConstructibleElement.xsd">
+
+	<!-- History: Template -->
+	<!--
+    <StarSystemImprovementDefinition Name="History_ER_TheWarship_HistoryTemplate" SubCategory="SubCategoryUnique" IsRefundable="true" OncePerWorld="true" ScoreProvider="StarSystemImprovementBuilt">
+        <Tags>Indestructible, Eternal</Tags>
+        <QueuedSimulationDescriptorReference Name="History_ER_TheWarship_HistoryTemplate"/>
+        <Cost ResourceName="SystemProduction">10</Cost>
+
+        <PathPrerequisite Inverted="false" Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Inverted="false" Flags="Prerequisite,Discard">../ClassEmpire/ClassQuests,History_ER_TheWarship_HistoryTemplate</PathPrerequisite>
+        <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard">../ClassEmpire/Uniques,History_ER_TheWarship_HistoryTemplate</PathPrerequisite>
+        <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard">../ClassEmpire/ClassStarSystem/History_ER_TheWarship_HistoryTemplate</PathPrerequisite>
+        <InterpreterPrerequisite Inverted="true" Flags="Prerequisite,Discard">Path(Context,@'../ClassEmpire/ClassStarSystem,History_ER_TheWarship_HistoryTemplate') and not(Path(Context,@'ClassStarSystem,History_ER_TheWarship_HistoryTemplate'))</InterpreterPrerequisite>
+
+        <SimulationDescriptorReference Name="History_ER_TheWarship_HistoryTemplate" />
+        <SimulationDescriptorReference Name="StarSystemImprovementOncePerGalaxy" />
+        <UniqueTags>History_ER_TheWarship_HistoryTemplate</UniqueTags>
+    </StarSystemImprovementDefinition>
+	-->
+
+	<!-- lilyophelia: Endless Romance | Start -->
+
+	<!-- History: Enemy Warship Taken -->
+
+    <StarSystemImprovementDefinition Name="History_ER_TheWarship_ShipTaken" SubCategory="SubCategoryUnique" IsRefundable="true" OncePerWorld="true" ScoreProvider="StarSystemImprovementBuilt">
+        <Tags>Indestructible, Eternal</Tags>
+        <QueuedSimulationDescriptorReference Name="History_ER_TheWarship_ShipTaken"/>
+        <Cost ResourceName="SystemProduction">10</Cost>
+
+        <PathPrerequisite Inverted="false" Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Inverted="false" Flags="Prerequisite,Discard">../ClassEmpire/ClassQuests,History_ER_TheWarship_ShipTaken</PathPrerequisite>
+        <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard">../ClassEmpire/Uniques,History_ER_TheWarship_ShipTaken</PathPrerequisite>
+        <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard">../ClassEmpire/ClassStarSystem/History_ER_TheWarship_ShipTaken</PathPrerequisite>
+        <InterpreterPrerequisite Inverted="true" Flags="Prerequisite,Discard">Path(Context,@'../ClassEmpire/ClassStarSystem,History_ER_TheWarship_ShipTaken') and not(Path(Context,@'ClassStarSystem,History_ER_TheWarship_ShipTaken'))</InterpreterPrerequisite>
+
+        <SimulationDescriptorReference Name="History_ER_TheWarship_ShipTaken" />
+        <SimulationDescriptorReference Name="StarSystemImprovementOncePerGalaxy" />
+        <UniqueTags>History_ER_TheWarship_ShipTaken</UniqueTags>
+    </StarSystemImprovementDefinition>
+
+	<!-- History: Enemy Warship Destroyed -->
+
+    <StarSystemImprovementDefinition Name="History_ER_TheWarship_ShipDestroyed" SubCategory="SubCategoryUnique" IsRefundable="true" OncePerWorld="true" ScoreProvider="StarSystemImprovementBuilt">
+        <Tags>Indestructible, Eternal</Tags>
+        <QueuedSimulationDescriptorReference Name="History_ER_TheWarship_ShipDestroyed"/>
+        <Cost ResourceName="SystemProduction">10</Cost>
+
+        <PathPrerequisite Inverted="false" Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Inverted="false" Flags="Prerequisite,Discard">../ClassEmpire/ClassQuests,History_ER_TheWarship_ShipDestroyed</PathPrerequisite>
+        <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard">../ClassEmpire/Uniques,History_ER_TheWarship_ShipDestroyed</PathPrerequisite>
+        <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard">../ClassEmpire/ClassStarSystem/History_ER_TheWarship_ShipDestroyed</PathPrerequisite>
+        <InterpreterPrerequisite Inverted="true" Flags="Prerequisite,Discard">Path(Context,@'../ClassEmpire/ClassStarSystem,History_ER_TheWarship_ShipDestroyed') and not(Path(Context,@'ClassStarSystem,History_ER_TheWarship_ShipDestroyed'))</InterpreterPrerequisite>
+
+        <SimulationDescriptorReference Name="History_ER_TheWarship_ShipDestroyed" />
+        <SimulationDescriptorReference Name="StarSystemImprovementOncePerGalaxy" />
+        <UniqueTags>History_ER_TheWarship_ShipDestroyed</UniqueTags>
+    </StarSystemImprovementDefinition>
+
+	<!-- History: Rival Warship Returned -->
+
+    <StarSystemImprovementDefinition Name="History_ER_TheWarship_ShipReturned" SubCategory="SubCategoryUnique" IsRefundable="true" OncePerWorld="true" ScoreProvider="StarSystemImprovementBuilt">
+        <Tags>Indestructible, Eternal</Tags>
+        <QueuedSimulationDescriptorReference Name="History_ER_TheWarship_ShipReturned"/>
+        <Cost ResourceName="SystemProduction">10</Cost>
+
+        <PathPrerequisite Inverted="false" Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Inverted="false" Flags="Prerequisite,Discard">../ClassEmpire/ClassQuests,History_ER_TheWarship_ShipReturned</PathPrerequisite>
+        <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard">../ClassEmpire/Uniques,History_ER_TheWarship_ShipReturned</PathPrerequisite>
+        <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard">../ClassEmpire/ClassStarSystem/History_ER_TheWarship_ShipReturned</PathPrerequisite>
+        <InterpreterPrerequisite Inverted="true" Flags="Prerequisite,Discard">Path(Context,@'../ClassEmpire/ClassStarSystem,History_ER_TheWarship_ShipReturned') and not(Path(Context,@'ClassStarSystem,History_ER_TheWarship_ShipReturned'))</InterpreterPrerequisite>
+
+        <SimulationDescriptorReference Name="History_ER_TheWarship_ShipReturned" />
+        <SimulationDescriptorReference Name="StarSystemImprovementOncePerGalaxy" />
+        <UniqueTags>History_ER_TheWarship_ShipReturned</UniqueTags>
+    </StarSystemImprovementDefinition>
+
+	<!-- History: Rival Warship Retrieved -->
+
+    <StarSystemImprovementDefinition Name="History_ER_TheWarship_ShipRetrieved" SubCategory="SubCategoryUnique" IsRefundable="true" OncePerWorld="true" ScoreProvider="StarSystemImprovementBuilt">
+        <Tags>Indestructible, Eternal</Tags>
+        <QueuedSimulationDescriptorReference Name="History_ER_TheWarship_ShipRetrieved"/>
+        <Cost ResourceName="SystemProduction">10</Cost>
+
+        <PathPrerequisite Inverted="false" Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Inverted="false" Flags="Prerequisite,Discard">../ClassEmpire/ClassQuests,History_ER_TheWarship_ShipRetrieved</PathPrerequisite>
+        <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard">../ClassEmpire/Uniques,History_ER_TheWarship_ShipRetrieved</PathPrerequisite>
+        <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard">../ClassEmpire/ClassStarSystem/History_ER_TheWarship_ShipRetrieved</PathPrerequisite>
+        <InterpreterPrerequisite Inverted="true" Flags="Prerequisite,Discard">Path(Context,@'../ClassEmpire/ClassStarSystem,History_ER_TheWarship_ShipRetrieved') and not(Path(Context,@'ClassStarSystem,History_ER_TheWarship_ShipRetrieved'))</InterpreterPrerequisite>
+
+        <SimulationDescriptorReference Name="History_ER_TheWarship_ShipRetrieved" />
+        <SimulationDescriptorReference Name="StarSystemImprovementOncePerGalaxy" />
+        <UniqueTags>History_ER_TheWarship_ShipRetrieved</UniqueTags>
+    </StarSystemImprovementDefinition>
+
+	<!-- lilyophelia: Endless Romance | End -->
+
+</Datatable>

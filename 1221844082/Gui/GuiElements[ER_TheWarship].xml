@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+
+	<!-- lilyophelia: Commented Template
+	
+	-->
+	
+	<!-- lilyophelia: Quest Template
+	
+	<QuestGuiElement Name="EndlessRomance_TheWarship_Template">
+        <Title>%EndlessRomance_TheWarship_Template_Title</Title>
+        <Description>%EndlessRomance_TheWarship_Template_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_Warship" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_TheWarship_Template_ObjectiveTemplate_Title</Title>
+                    <Description>%EndlessRomance_TheWarship_Template_ObjectiveTemplate_Description</Description>
+                    <Objective Name="ObjectiveTemplate">%EndlessRomance_TheWarship_Template_ObjectiveTemplate_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TheWarship_Template_ObjectiveTemplate_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+                <ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_TheWarship_Template_ObjectiveTemplate_Title</Title>
+                    <Description>%EndlessRomance_TheWarship_Template_ObjectiveTemplate_Description</Description>
+                    <Objective Name="ObjectiveTemplate">%EndlessRomance_TheWarship_Template_ObjectiveTemplate_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TheWarship_Template_ObjectiveTemplate_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+				<ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_TheWarship_Template_ObjectiveTemplate_Title</Title>
+                    <Description>%EndlessRomance_TheWarship_Template_ObjectiveTemplate_Description</Description>
+                    <Objective Name="ObjectiveTemplate">%EndlessRomance_TheWarship_Template_ObjectiveTemplate_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TheWarship_Template_ObjectiveTemplate_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+	
+	-->	
+	
+	<!-- lilyophelia: Ending Template
+	
+	<QuestGuiElement Name="EndlessRomance_TheWarship_EndingTemplate">
+        <Title>%EndlessRomance_TheWarship_EndingTemplate_Title</Title>
+        <Description>%EndlessRomance_TheWarship_EndingTemplate_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_Warship" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_TheWarship_EndingTemplate_Ending_Title</Title>
+                    <Description>%EndlessRomance_TheWarship_EndingTemplate_Ending_Description</Description>
+                    <Objective Name="Ending">%EndlessRomance_TheWarship_EndingTemplate_Ending_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TheWarship_EndingTemplate_Ending_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+	
+	-->
+
+	<!-- lilyophelia: Epilogue Template
+	
+	<QuestGuiElement Name="EndlessRomance_TheWarship_EpilogueTemplate">
+        <Title>%EndlessRomance_TheWarship_EpilogueTemplate_Title</Title>
+        <Description>%EndlessRomance_TheWarship_EpilogueTemplate_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_Warship" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_TheWarship_EpilogueTemplate_Epilogue_Title</Title>
+                    <Description>%EndlessRomance_TheWarship_EpilogueTemplate_Epilogue_Description</Description>
+                    <Objective Name="Epilogue">%EndlessRomance_TheWarship_EpilogueTemplate_Epilogue_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TheWarship_EpilogueTemplate_Epilogue_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+	
+	-->
+
+	<!-- lilyophelia: Endless Romance | Start -->
+
+	<QuestGuiElement Name="EndlessRomance_TheWarship_Intruders">
+        <Title>%EndlessRomance_TheWarship_Intruders_Title</Title>
+        <Description>%EndlessRomance_TheWarship_Intruders_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_Spaceship" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics06">
+                    <Title>%EndlessRomance_TheWarship_Intruders_Intercept_Title</Title>
+                    <Description>%EndlessRomance_TheWarship_Intruders_Intercept_Description</Description>
+                    <Objective Name="Intercept">%EndlessRomance_TheWarship_Intruders_Intercept_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TheWarship_Intruders_Intercept_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+                <ObjectiveSet Politics="Politics01">
+                    <Title>%EndlessRomance_TheWarship_Intruders_Ignore_Title</Title>
+                    <Description>%EndlessRomance_TheWarship_Intruders_Ignore_Description</Description>
+                    <Objective Name="Ignore">%EndlessRomance_TheWarship_Intruders_Ignore_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TheWarship_Intruders_Ignore_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<QuestGuiElement Name="EndlessRomance_TheWarship_ShuttleDisabled">
+        <Title>%EndlessRomance_TheWarship_ShuttleDisabled_Title</Title>
+        <Description>%EndlessRomance_TheWarship_ShuttleDisabled_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_Spaceship" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics03">
+                    <Title>%EndlessRomance_TheWarship_ShuttleDisabled_Board_Title</Title>
+                    <Description>%EndlessRomance_TheWarship_ShuttleDisabled_Board_Description</Description>
+                    <Objective Name="Board">%EndlessRomance_TheWarship_ShuttleDisabled_Board_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TheWarship_ShuttleDisabled_Board_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+                <ObjectiveSet Politics="Politics06">
+                    <Title>%EndlessRomance_TheWarship_ShuttleDisabled_Destroy_Title</Title>
+                    <Description>%EndlessRomance_TheWarship_ShuttleDisabled_Destroy_Description</Description>
+                    <Objective Name="Destroy">%EndlessRomance_TheWarship_ShuttleDisabled_Destroy_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TheWarship_ShuttleDisabled_Destroy_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<QuestGuiElement Name="EndlessRomance_TheWarship_EnemyCrew">
+        <Title>%EndlessRomance_TheWarship_EnemyCrew_Title</Title>
+        <Description>%EndlessRomance_TheWarship_EnemyCrew_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_Spaceship" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics02">
+                    <Title>%EndlessRomance_TheWarship_EnemyCrew_Interrogate_Title</Title>
+                    <Description>%EndlessRomance_TheWarship_EnemyCrew_Interrogate_Description</Description>
+                    <Objective Name="Interrogate">%EndlessRomance_TheWarship_EnemyCrew_Interrogate_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TheWarship_EnemyCrew_Interrogate_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+                <ObjectiveSet Politics="Politics06">
+                    <Title>%EndlessRomance_TheWarship_EnemyCrew_Torture_Title</Title>
+                    <Description>%EndlessRomance_TheWarship_EnemyCrew_Torture_Description</Description>
+                    <Objective Name="Torture">%EndlessRomance_TheWarship_EnemyCrew_Torture_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TheWarship_EnemyCrew_Torture_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+				<ObjectiveSet Politics="Politics03">
+                    <Title>%EndlessRomance_TheWarship_EnemyCrew_Release_Title</Title>
+                    <Description>%EndlessRomance_TheWarship_EnemyCrew_Release_Description</Description>
+                    <Objective Name="Release">%EndlessRomance_TheWarship_EnemyCrew_Release_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TheWarship_EnemyCrew_Release_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<QuestGuiElement Name="EndlessRomance_TheWarship_TheWarshipMin">
+        <Title>%EndlessRomance_TheWarship_TheWarshipMin_Title</Title>
+        <Description>%EndlessRomance_TheWarship_TheWarshipMin_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_StealthedWarship" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics01">
+                    <Title>%EndlessRomance_TheWarship_TheWarshipMin_Take_Title</Title>
+                    <Description>%EndlessRomance_TheWarship_TheWarshipMin_Take_Description</Description>
+                    <Objective Name="Take">%EndlessRomance_TheWarship_TheWarshipMin_Take_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TheWarship_TheWarshipMin_Take_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+                <ObjectiveSet Politics="Politics06">
+                    <Title>%EndlessRomance_TheWarship_TheWarshipMin_Destroy_Title</Title>
+                    <Description>%EndlessRomance_TheWarship_TheWarshipMin_Destroy_Description</Description>
+                    <Objective Name="Destroy">%EndlessRomance_TheWarship_TheWarshipMin_Destroy_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TheWarship_TheWarshipMin_Destroy_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+                <ObjectiveSet Politics="Politics03">
+                    <Title>%EndlessRomance_TheWarship_TheWarshipMin_Return_Title</Title>
+                    <Description>%EndlessRomance_TheWarship_TheWarshipMin_Return_Description</Description>
+                    <Objective Name="Return">%EndlessRomance_TheWarship_TheWarshipMin_Return_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TheWarship_TheWarshipMin_Return_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<QuestGuiElement Name="EndlessRomance_TheWarship_TheWarshipFull">
+        <Title>%EndlessRomance_TheWarship_TheWarshipFull_Title</Title>
+        <Description>%EndlessRomance_TheWarship_TheWarshipFull_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_StealthedWarship" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics01">
+                    <Title>%EndlessRomance_TheWarship_TheWarshipFull_Take_Title</Title>
+                    <Description>%EndlessRomance_TheWarship_TheWarshipFull_Take_Description</Description>
+                    <Objective Name="Take">%EndlessRomance_TheWarship_TheWarshipFull_Take_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TheWarship_TheWarshipFull_Take_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+                <ObjectiveSet Politics="Politics06">
+                    <Title>%EndlessRomance_TheWarship_TheWarshipFull_Destroy_Title</Title>
+                    <Description>%EndlessRomance_TheWarship_TheWarshipFull_Destroy_Description</Description>
+                    <Objective Name="Destroy">%EndlessRomance_TheWarship_TheWarshipFull_Destroy_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TheWarship_TheWarshipFull_Destroy_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+                <ObjectiveSet Politics="Politics03">
+                    <Title>%EndlessRomance_TheWarship_TheWarshipFull_Return_Title</Title>
+                    <Description>%EndlessRomance_TheWarship_TheWarshipFull_Return_Description</Description>
+                    <Objective Name="Return">%EndlessRomance_TheWarship_TheWarshipFull_Return_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TheWarship_TheWarshipFull_Return_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<QuestGuiElement Name="EndlessRomance_TheWarship_ShipTakenEnding">
+        <Title>%EndlessRomance_TheWarship_ShipTakenEnding_Title</Title>
+        <Description>%EndlessRomance_TheWarship_ShipTakenEnding_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_Warship" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_TheWarship_ShipTakenEnding_Ending_Title</Title>
+                    <Description>%EndlessRomance_TheWarship_ShipTakenEnding_Ending_Description</Description>
+                    <Objective Name="Ending">%EndlessRomance_TheWarship_ShipTakenEnding_Ending_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TheWarship_ShipTakenEnding_Ending_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<QuestGuiElement Name="EndlessRomance_TheWarship_ShipDestroyedEnding">
+        <Title>%EndlessRomance_TheWarship_ShipDestroyedEnding_Title</Title>
+        <Description>%EndlessRomance_TheWarship_ShipDestroyedEnding_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_Warship" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_TheWarship_ShipDestroyedEnding_Ending_Title</Title>
+                    <Description>%EndlessRomance_TheWarship_ShipDestroyedEnding_Ending_Description</Description>
+                    <Objective Name="Ending">%EndlessRomance_TheWarship_ShipDestroyedEnding_Ending_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TheWarship_ShipDestroyedEnding_Ending_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<QuestGuiElement Name="EndlessRomance_TheWarship_ShipReturnedEnding">
+        <Title>%EndlessRomance_TheWarship_ShipReturnedEnding_Title</Title>
+        <Description>%EndlessRomance_TheWarship_ShipReturnedEnding_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_Warship" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_TheWarship_ShipReturnedEnding_Ending_Title</Title>
+                    <Description>%EndlessRomance_TheWarship_ShipReturnedEnding_Ending_Description</Description>
+                    <Objective Name="Ending">%EndlessRomance_TheWarship_ShipReturnedEnding_Ending_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TheWarship_ShipReturnedEnding_Ending_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<QuestGuiElement Name="EndlessRomance_TheWarship_ShipRetrievedEnding">
+        <Title>%EndlessRomance_TheWarship_ShipRetrievedEnding_Title</Title>
+        <Description>%EndlessRomance_TheWarship_ShipRetrievedEnding_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_Warship" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_TheWarship_ShipRetrievedEnding_Ending_Title</Title>
+                    <Description>%EndlessRomance_TheWarship_ShipRetrievedEnding_Ending_Description</Description>
+                    <Objective Name="Ending">%EndlessRomance_TheWarship_ShipRetrievedEnding_Ending_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TheWarship_ShipRetrievedEnding_Ending_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<QuestGuiElement Name="EndlessRomance_TheWarship_TheRageCloseEpilogue">
+        <Title>%EndlessRomance_TheWarship_TheRageCloseEpilogue_Title</Title>
+        <Description>%EndlessRomance_TheWarship_TheRageCloseEpilogue_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_ZombieMale" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_TheWarship_TheRageCloseEpilogue_Epilogue_Title</Title>
+                    <Description>%EndlessRomance_TheWarship_TheRageCloseEpilogue_Epilogue_Description</Description>
+                    <Objective Name="Epilogue">%EndlessRomance_TheWarship_TheRageCloseEpilogue_Epilogue_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TheWarship_TheRageCloseEpilogue_Epilogue_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<QuestGuiElement Name="EndlessRomance_TheWarship_TheRageDistantEpilogue">
+        <Title>%EndlessRomance_TheWarship_TheRageDistantEpilogue_Title</Title>
+        <Description>%EndlessRomance_TheWarship_TheRageDistantEpilogue_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_ZombieMale" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_TheWarship_TheRageDistantEpilogue_Epilogue_Title</Title>
+                    <Description>%EndlessRomance_TheWarship_TheRageDistantEpilogue_Epilogue_Description</Description>
+                    <Objective Name="Epilogue">%EndlessRomance_TheWarship_TheRageDistantEpilogue_Epilogue_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TheWarship_TheRageDistantEpilogue_Epilogue_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<!-- lilyophelia: Endless Romance | End -->	
+
+</Datatable>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+
+	<!-- History: Template -->
+	<!--
+    <GuiElement Name="History_ER_TemporalAnomaly_HistoryTemplate">
+        <Title>%EndlessRomance_TemporalAnomaly_History_HistoryTemplate_Title</Title>
+        <Description>%EndlessRomance_TemporalAnomaly_History_HistoryTemplate_Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/EndlessRomance_Building_Dust_Small" />
+            <Icon Size="Large" Path="Gui/EndlessRomance_Building_Dust_Large" />
+        </Icons>
+    </GuiElement>
+	-->
+
+	<!-- lilyophelia: Endless Romance | Start -->
+
+	<!-- History: Template -->
+
+    <GuiElement Name="History_ER_TemporalAnomaly_ScienceVesselTaken">
+        <Title>%EndlessRomance_TemporalAnomaly_History_ScienceVesselTaken_Title</Title>
+        <Description>%EndlessRomance_TemporalAnomaly_History_ScienceVesselTaken_Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/EndlessRomance_Building_Dust_Small" />
+            <Icon Size="Large" Path="Gui/EndlessRomance_Building_Dust_Large" />
+        </Icons>
+    </GuiElement>
+
+	<!-- History: Template -->
+
+    <GuiElement Name="History_ER_TemporalAnomaly_ShipVanishes">
+        <Title>%EndlessRomance_TemporalAnomaly_History_ShipVanishes_Title</Title>
+        <Description>%EndlessRomance_TemporalAnomaly_History_ShipVanishes_Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/EndlessRomance_Building_Military_Small" />
+            <Icon Size="Large" Path="Gui/EndlessRomance_Building_Military_Large" />
+        </Icons>
+    </GuiElement>
+
+	<!-- History: Template -->
+
+    <GuiElement Name="History_ER_TemporalAnomaly_SuckedIn">
+        <Title>%EndlessRomance_TemporalAnomaly_History_SuckedIn_Title</Title>
+        <Description>%EndlessRomance_TemporalAnomaly_History_SuckedIn_Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/EndlessRomance_Building_Science_Small" />
+            <Icon Size="Large" Path="Gui/EndlessRomance_Building_Science_Large" />
+        </Icons>
+    </GuiElement>
+
+	<!-- History: Template -->
+
+    <GuiElement Name="History_ER_TemporalAnomaly_GhostShipTaken">
+        <Title>%EndlessRomance_TemporalAnomaly_History_GhostShipTaken_Title</Title>
+        <Description>%EndlessRomance_TemporalAnomaly_History_GhostShipTaken_Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/EndlessRomance_Building_Food_Small" />
+            <Icon Size="Large" Path="Gui/EndlessRomance_Building_Food_Large" />
+        </Icons>
+    </GuiElement>
+
+	<!-- lilyophelia: Endless Romance | End -->	
+
+</Datatable>

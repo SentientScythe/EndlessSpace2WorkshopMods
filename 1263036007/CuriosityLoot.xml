@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="Documentation/Schemas/Amplitude.Unity.Runtime.RuntimeModule.xsd">
+
+	<RuntimeModule Name="CuriosityLoot" Type="Extension" Version="0.2">
+
+        <Title>More Loot</Title>
+        <Description>Adds about 3 times the normal Curiosity Loot, but spreads it out over all 4 Expedition Power Levels.  This gives more chances at ship modules, battle cards, and buildings mid to late game.  No changes were made to the loot drop lists.  The mod "Research Curiosity Awards" is recommended for modified loot drop lists.
+		
+		This mod also adds a custom faction trait at no cost that gives the player one of every Luxury available in the galaxy so they can plan accordingly.  It is available in the "start modifiers" filter.</Description>
+        
+		<Author>tygart</Author>
+        
+		<Homepage></Homepage>
+
+        <PreviewImageFile>CuriosityLoot.png</PreviewImageFile>
+
+		<ReleaseNotes>checked for V1.3.3 S5 Gold-Public no changes to mod</ReleaseNotes>
+        <!-- Available tags: AI, Art, Buildings, Gameplay, Improvements, MajorFactions, Maps, MinorFactions, Multiplayer, Other, Resources, Technologies, Units. -->
+        <Tags>Gameplay,Resources</Tags>
+
+		<Plugins>
+
+			<DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass">
+				<ExtraTypes>
+					<ExtraType DataType="Amplitude.Unity.Gui.ExtendedGuiElement, Assembly-CSharp-firstpass" />
+				</ExtraTypes>
+				<FilePath>Gui/GuiElements[CuriosityLoot].xml</FilePath>
+			</DatabasePlugin>
+
+			<DatabasePlugin DataType="GameSettingDefinition, Assembly-CSharp">
+				<ExtraTypes>
+					<ExtraType DataType="WorldSettingDefinition, Assembly-CSharp"/>
+				</ExtraTypes>
+				<FilePath>Settings/WorldSettingDefinitions.xml</FilePath>
+			</DatabasePlugin>				
+
+			<DatabasePlugin DataType="GalaxyGeneratorWeightTableDefinition, Assembly-CSharp">
+				<FilePath>GalaxyGenerator/WeightTableDefinitions.xml</FilePath>
+			</DatabasePlugin>
+
+			<DatabasePlugin DataType="FactionTrait, Assembly-CSharp" Priority="20" >
+				<ExtraTypes>
+					<ExtraType DataType="FactionAffinity, Assembly-CSharp" />
+				</ExtraTypes>
+				<FilePath>Simulation/FactionTraits[CuriosityLoot].xml</FilePath>
+			</DatabasePlugin>
+
+			<DatabasePlugin DataType="Amplitude.Unity.Simulation.SimulationDescriptor, Assembly-CSharp-firstpass">
+				<FilePath>Simulation/SimulationDescriptors[CuriosityLoot].xml</FilePath>
+			</DatabasePlugin>
+
+            <LocalizationPlugin DefaultLanguage="english">
+                <Directory>Localization</Directory>
+            </LocalizationPlugin>
+			
+		</Plugins>
+
+	</RuntimeModule>
+</Datatable>

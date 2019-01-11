@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="Documentation/Schemas/Amplitude.Unity.Runtime.RuntimeModule.xsd">
+
+	<RuntimeModule Name="TerraformAway" Type="Extension" Version="1.1">
+
+        <Title>Terraform Away</Title>
+        <Description>Mod that alter heavily terraforming, giving much more options with possibility to go backwards or change hot to cold.</Description>
+        <Author>Ninakoru</Author>
+        <Homepage>http://www.ninakoru.com</Homepage>
+        <PreviewImageFile>TerraformAway.png</PreviewImageFile>
+        <ReleaseNotes>Minor fix in Pugins assembly definitions.</ReleaseNotes>
+        <Tags>Gameplay, Buildings, Improvements</Tags>
+
+		<Plugins>
+		
+			<DatabasePlugin DataType="IndustryConstructibleElement, Assembly-CSharp">
+				<ExtraTypes>
+					<ExtraType DataType="PlanetTerraformationDefinition, Assembly-CSharp" />
+				</ExtraTypes>			
+				<FilePath>Public/Simulation/ConstructibleElement_Industry[*].xml</FilePath>
+			</DatabasePlugin>		
+
+			<DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass">	
+				<FilePath>Public/Gui/GuiElements[*].xml</FilePath>
+			</DatabasePlugin>			
+
+		</Plugins>
+
+	</RuntimeModule>
+</Datatable>

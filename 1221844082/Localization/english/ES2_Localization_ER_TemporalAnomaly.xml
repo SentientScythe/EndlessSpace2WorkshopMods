@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- lilyophelia: Endless Romance | Start -->
+  
+  <!-- DO  NOT TRANSLATE; TEMPLATES -->
+  <!-- Quest Template -->
+  <!--
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_Template_Title">Trade Fleet In Danger</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_Template_Description">A foreign trade fleet is broadcasting a distress signal from the edge of one of your systems. They appear to be badly damaged and are asking for assistance.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_Template_OptionName_Title">Ignore</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_Template_OptionName_Description">Ignore the distress call.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_Template_OptionName_Objective">Your empire does not have time to deal with this situation. Besides, it might be a trap. Whoever these traders are, they're on their own.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_Template_OptionName_ObjectiveTooltip">[End of Storyline]</LocalizationPair>
+  -->
+  
+  <!-- Quest Ending Template -->
+  <!--
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_Template_Title">The Ghost Fleet</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_Template_Description">Your civilian vessels make a remarkable discovery. Drifting far outside the interstellar highways, at the edge of one of your systems, they find an ancient fleet of trade vessels. Their ships seem to have lost power at some point. All of the crew appear to have died from exposure to the cold of space.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_Template_Ending_Title">The Ghost Fleet</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_Template_Ending_Description">The Temporal Anomaly storyline has ended.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_Template_Ending_Objective">Narrative event</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_Template_Ending_ObjectiveTooltip">This is one of many possible endings for this storyline.</LocalizationPair>
+  -->
+
+  <!-- TRANSLATE NOW -->
+  <!-- Quest -->
+
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_FlashesOfLight_Title">Flashes of Light</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_FlashesOfLight_Description">Strange readings are being reported by scientists at multiple research facilities. Brilliant flashes of light are appearing in the remote space at the edge of one of your solar systems. These pulses happen only momentarily, but they seem to be moving. 
+
+Some of your researchers believe that the flashes of light may be a coded message. Others have suggested that it might be evidence of someone experimenting with a new and unsanctioned weapon at the edge of your territory. All of them agree that this mystery cannot be solved without more data.
+
+They have come to you asking for resources to launch an expedition to investigate.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_FlashesOfLight_Close_Title">Close</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_FlashesOfLight_Close_Description">Get up close to the phenomenon to take the best readings.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_FlashesOfLight_Close_Objective">Get up close to the phenomenon to take the best readings. Everyone wants answers, and you're not going to risk missing out on a great discovery.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_FlashesOfLight_Close_ObjectiveTooltip">You will get the best readings, but it could be dangerous. Possibly.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_FlashesOfLight_Distant_Title">Distant</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_FlashesOfLight_Distant_Description">Study the phenomenon from a distance.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_FlashesOfLight_Distant_Objective">Study the phenomenon from a distance. You will still get useful data and there should be less risk.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_FlashesOfLight_Distant_ObjectiveTooltip">You will still get useful data from a safe distance. Probably.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_FlashesOfLight_Ignore_Title">Ignore</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_FlashesOfLight_Ignore_Description">Ignore the phenomenon.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_FlashesOfLight_Ignore_Objective">Ignore the phenomenon. Sending an expedition would just be a waste of resources.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_FlashesOfLight_Ignore_ObjectiveTooltip">You won't get many answers, but you will save precious resources.</LocalizationPair>
+
+  <!-- Quest -->
+
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_SuckedInEnding_Title">Sucked In</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_SuckedInEnding_Description">Your science vessel heads directly towards the anomaly, hoping to collect as much data as they can. What are these strange flashes of light and where do they come from?
+
+The earliest clue comes in their first report, where they acknowledge that there definitely is a pattern to occurrences. By taking accurate readings at close range, they are able to pinpoint the exact millisecond that these flashes are occurring. While there could be many hours--or even just a few minutes--between the pulses, they always occur at the same exact millisecond: 137. This discovery makes your scientists extremely excited!
+
+The next clue comes when they are able to predict where the flashes are going to occur next. By analyzing the spectrum of the light flashes, they are able to predict in which direction and how far the anomaly will move with each pulse. This breakthrough confirms several scientific theories your people had developed over the centuries you've been in space. Your researchers are ecstatic!
+
+The final clue comes as your research vessel nears the exact location where the next flash is expected to happen. They are confident that this will give them the answers they need to solve this mystery. 
+
+Their final report is pure chaos. At approximately 22 hours and 17 minutes and 137 milliseconds, the next flash of light appeared; exactly as predicted. The science vessel, however, seemed to act as a catalyst for some kind of reaction. The final video feed shows excitement turning into pure terror as the light arcs off the vessel's hull, and something massive begins to form in the dead of space.
+
+Your distant research stations are able to confirm that a tiny black hole appeared for exactly 7 seconds, starting and ending precisely at 137 milliseconds. Your research vessel appears to have been sucked up by that blackhole, before it suddenly vanished.
+
+Even more curious is that the flashes of light have now stopped. The anomaly appears to be gone.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_SuckedInEnding_Ending_Title">Sucked In</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_SuckedInEnding_Ending_Description">The Temporal Anomaly storyline has ended.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_SuckedInEnding_Ending_Objective">Narrative event</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_SuckedInEnding_Ending_ObjectiveTooltip">This is one of many possible endings for this storyline.</LocalizationPair>
+
+  <!-- Quest -->
+
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_ShipVanishesEnding_Title">Science Vessel Goes Missing</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_ShipVanishesEnding_Description">One of your science vessels has gone missing. The ship was in the middle of a mineral survey when it was consumed by a mysterious flash of light. Even more disturbing, the asteroid field appears to be less dense than it was previously; a large amount of mass has apparently gone missing.
+
+There are whispers that one of your enemies may have developed a new weapon, but they are just rumours...for now.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_ShipVanishesEnding_Ending_Title">Science Vessel Goes Missing</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_ShipVanishesEnding_Ending_Description">The Temporal Anomaly storyline has ended.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_ShipVanishesEnding_Ending_Objective">Narrative event</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_ShipVanishesEnding_Ending_ObjectiveTooltip">This is one of many possible endings for this storyline.</LocalizationPair>
+
+  <!-- Quest -->
+
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_GhostShip_Title">Ghost Ship Appears</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_GhostShip_Description">You do your best to collect data from a distance.
+
+The flashes of light appear at varying intervals--ranging from minutes to hours--and it soon becomes clear that the phenomenon is moving; all attempts to decipher the pattern of the movement fail. Your researchers do their best to predict and chase after the occurrences, but the random jumps--in direction, distance, and time intervals--means that sometimes your vessel ends up far away from the latest event when it happens.
+
+The first, interesting piece of data comes from audio recorded at long-range. Twisted into the static is a garbled message that appears to be in your Empire's native tongue. Very little can be directly understood, but deeper analysis suggests that the speaker was most likely in a state a panic when the signal was broadcast.
+
+The next--and most dramatic clue--is delivered to you when your vessel accidentally drifts into the path of the anomaly. Your researchers, frustrated by weeks of chasing these events, are suddenly thrust right into the middle of one. Explosive white light fills the sky and blinds their sensors. Visual observersations from aboard the ship suggests that something leapt out from the light, streaking across the sky, to strike your vessel.
+
+The flashes of light have now stopped. It's been almost 48 hours since the last event, and your ship's sensory systems are just now coming back online. 
+
+Alarms blare almost immediately, and there are panicked cries from your crew. Just off your ship's starboard bow, there is another ship. A ghost ship. A dead ship.
+
+Encased in a thick layer of ice, the vessel is nearly identical to your own.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_GhostShip_Investigate_Title">Investigate</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_GhostShip_Investigate_Description">Send your vessel in close to investigate the ghost ship.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_GhostShip_Investigate_Objective">Send your vessel in close to investigate the ghost ship. If you can get through the ice, you should be able to discover more.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_GhostShip_Investigate_ObjectiveTooltip">You will get more information if you board the ghost ship.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_GhostShip_Observe_Title">Observe</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_GhostShip_Observe_Description">Observe the ghost ship from a distance.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_GhostShip_Observe_Objective">Observe the ghost ship from a distance. While you might not get very much information, you don't trust this new ship.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_GhostShip_Observe_ObjectiveTooltip">Your people are more likely to be safe if you keep your distance.</LocalizationPair>
+
+  <!-- Quest -->
+
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_ScienceVesselTakenEnding_Title">Sucked In</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_ScienceVesselTakenEnding_Description">You head in to see if you can get answers from this mysterious ghost ship.
+
+The moment the ice is cracked and a docking seal is made, panic begins to spread across your crew. Not only does the ship resemble your own; it soon becomes clear that the ghost ship is--in fact--the same, exact vessel...but from another time or dimension. 
+
+As your forces move from deck to deck, they find their own dead bodies onboard. Most of the corpses seem to have been flash-frozen, their faces covered in horrible terror. 
+
+Your soldiers--accompanied by a handful of science officers--nearly make it to the the bridge when the next flash of light occurs.
+
+Both ships--the derelict and your own science vessel--suddenly vanish from all of your empire's scanners. 
+
+Your research stations will later confirm that this final flash of light was at least seven times more intense than any before it. Even more disturbing are the readings that follow. After months of bickering, your scientists will conclude that--as impossible as it may seem--a tiny black hole formed at the location of the final flash of light for exactly seven seconds. It appears to have sucked both of the ships into it, before it suddenly disappeared.
+
+Additionally, the flashes of light have now stopped. The anomaly appears to be gone.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_ScienceVesselTakenEnding_Ending_Title">Sucked In</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_ScienceVesselTakenEnding_Ending_Description">The Temporal Anomaly storyline has ended.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_ScienceVesselTakenEnding_Ending_Objective">Narrative event</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_ScienceVesselTakenEnding_Ending_ObjectiveTooltip">This is one of many possible endings for this storyline.</LocalizationPair>
+
+  <!-- Quest -->
+
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_GhostShipTakenEnding_Title">Sucked In</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_GhostShipTakenEnding_Description">You keep your vessel at a distance, but your people frantically search for whatever answers they can find. 
+
+All of your scanners and every scientist on board is assigned to analyzing this mysterious, derelict ship. Early analysis suggests that this is one of your own vessels, but no such ship has ever been reported missing.
+
+Where did it come from? Why did it appear now? Is it a danger? There are far more questions than answers.
+
+Your vessel is in the process of running scans on the composition of the ship's hull when the next flash of light occurs. 
+
+Brilliant white, the light seems to open up and arc across the sky, striking the derelict ship. The occurrence is so powerful that it immediately knocks all of your ship's sensors offline. Your crew, however, is able to visually observe what happens next.
+
+As the flash of light fades, it leaves behind a tiny black hole. Next comes a horrible, ripping sound, followed by a pull so strong that it disables the artificial gravity systems of your own ship. The derelict is immediately sucked in, while your crew scrambles to save their own vessel. Ultimately they seem to have been spared by pure luck.
+
+Seven seconds after the tiny black hole forms, it suddenly collapses inwards on itself and is gone.
+
+The flashes of light never occur again and the anomaly appears to have ended.
+
+Your crew returns home. They are deeply shaken and lucky to be alive.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_GhostShipTakenEnding_Ending_Title">Ghost Ship Sucked In</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_GhostShipTakenEnding_Ending_Description">The Temporal Anomaly storyline has ended.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_GhostShipTakenEnding_Ending_Objective">Narrative event</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_GhostShipTakenEnding_Ending_ObjectiveTooltip">This is one of many possible endings for this storyline.</LocalizationPair>
+
+  <!-- Quest -->
+
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_FlashesOfLightEpilogue_Title">Flashes of Light</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_FlashesOfLightEpilogue_Description">Brilliant flashes of light are appearing in the remote space at the edge of one of your solar systems.
+
+You feel like this might have happened before.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_FlashesOfLightEpilogue_Ending_Title">Flashes of Light</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_FlashesOfLightEpilogue_Ending_Description">Epilogue for the Temporal Anomaly storyline.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_FlashesOfLightEpilogue_Ending_Objective">Narrative event</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_FlashesOfLightEpilogue_Ending_ObjectiveTooltip">This final event provides flavor for the quest line.</LocalizationPair>
+
+  <!-- lilyophelia: Endless Romance | End -->
+
+</Datatable>	

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+
+  
+  <!-- DO  NOT TRANSLATE; TEMPLATES -->
+  <!-- History Template -->
+  <!--
+  <LocalizationPair Name="%EndlessRomance_TheWarship_History_HistoryTemplate_Title">History: Example History</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_History_HistoryTemplate_Description">This history comes about because of your story decisions</LocalizationPair>
+  -->
+
+  <!-- TRANSLATE NOW -->  
+  <!-- lilyophelia: Endless Romance | Start -->
+
+  <LocalizationPair Name="%EndlessRomance_TheWarship_History_ShipTaken_Title">History: Enemy Warship Taken</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_History_ShipTaken_Description">A rival empire sent an advanced vessel of war to spy on you. When it became disabled in your sovereign space, you stopped them from recovering the warship and took it for yourself.
+
+Your research teams have learned much from reverse engineering your new prize.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TheWarship_History_ShipDestroyed_Title">History: Enemy Warship Destroyed</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_History_ShipDestroyed_Description">A rival empire sent an advanced vessel of war to spy on you. When it became disabled in your sovereign space, you tracked it down and destroyed the vessel.
+
+Your people will never forget this trespass and they are more eager than ever for war.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TheWarship_History_ShipReturned_Title">History: Rival Ship Returned</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_History_ShipReturned_Description">A rival empire sent an advanced vessel of war to spy on you. When it became disabled in your sovereign space, you returned the ship and put them into your debt.
+
+Your graceful resolution to this crisis has increased your diplomatic capital throughout the galaxy.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TheWarship_History_ShipRetrieved_Title">History: Rival Ship Retrieved</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_History_ShipRetrieved_Description">You receive reports that a rival empire lost contact with a ship in your territory; they have since recovered their vessel.
+
+By keeping your distance from the situation, you were able to preserve your empire's precious resources.</LocalizationPair>
+
+  <!-- lilyophelia: Endless Romance | End -->
+
+</Datatable>	

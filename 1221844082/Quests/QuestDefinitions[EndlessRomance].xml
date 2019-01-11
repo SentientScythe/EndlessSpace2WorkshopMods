@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/QuestDefinition.xsd">
+
+	<!-- lilyophelia: Commented Template
+
+	<QuestDefinition Name="EndlessRomance_Core_00" Category="EndlessRomance" SubCategory="ER_Core" MinimumTurn="2">	
+
+	<QuestDefinition
+	Name="UniqueNameForQuest"
+	Category="ExistingOrNewCategory" // doesn't affect much
+	SubCategory="ExistingOrNewSubCategory" // doesn't affect much
+	MinimumTurn="1" // The minimum turn that the quest will appear
+	>
+	
+        <Tags>BeginTurn</Tags>
+
+        <QuestContextSolo/>
+
+        <RepetitionRules>
+			NumberOfOccurrencesPerGame="0"
+			NumberOfOccurrencesPerEmpire="1"
+			NumberOfConcurrentInstances="0"
+        </RepetitionRules>
+
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+        
+        <Prerequisites Target="$(Empire)">
+            <PathPrerequisite Flags="Prerequisite">EmpireTypeMajor/ClassPopulation,ClassPopulationEmpireAffinityUnfallen,PopulationMajor</PathPrerequisite>
+            <PathPrerequisite Flags="Prerequisite">EmpireTypeMajor/ClassStarSystem,HomeSystem</PathPrerequisite>
+        </Prerequisites>
+		
+        <Steps>
+            <Step Name="Step1">
+                <Choice DefaultChoiceIndex="0">
+                    <ChoiceItem ObjectiveSetIndex="0"/>
+					<ChoiceItem ObjectiveSetIndex="1"/>
+					<ChoiceItem ObjectiveSetIndex="2"/>
+				</Choice>
+
+                <ObjectiveSet>
+                    <StartActions>
+                    </StartActions>
+                    <Objective Name="Objective_00">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Outcome1"/>
+                        </Sequence>	
+                        <Outcome Name="Outcome1">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>UnfallenQuest-Chapter1-Part2</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                     </Objective>
+                    <Reward Droplist="DroplistTechnologyEra2" EvaluationMethod="Dynamic" Picks="1" PreviewLocalizationKey="%UnfallenQuest-Chapter1-Part1.RewardTitle"/>                 
+                </ObjectiveSet>            
+
+                <ObjectiveSet>
+                    <StartActions>
+                    </StartActions>
+                    <Objective Name="Objective_01" StartValue="$Amount00" EndValue="$Amount01">
+                        <AIHint Category="Minimal" MinAutoResolutionTurn="45" MaxAutoResolutionTurn="60" AutoResolutionProbability="1" />
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Outcome1"/>
+                        </Sequence>
+                        <Outcome Name="Outcome1">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>UnfallenQuest-Chapter1-Part2</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                     </Objective>
+                    <Reward Droplist="DroplistTechnologyEra2" EvaluationMethod="Dynamic" Picks="1" PreviewLocalizationKey="%UnfallenQuest-Chapter1-Part1.RewardTitle"/>                 
+                </ObjectiveSet>
+				
+            </Step>            
+        </Steps>
+    </QuestDefinition>			
+	
+	-->
+	
+	<!-- lilyophelia: Clean Template
+    <QuestDefinition Name="EndlessRomance_Template" Category="EndlessRomance" SubCategory="ER_Core" IsInstant="true" MinimumTurn="2">
+
+        <Tags>EndlessRomance_Template</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+                <Choice DefaultChoiceIndex="0">
+                    <ChoiceItem ObjectiveSetIndex="0"/>
+					<ChoiceItem ObjectiveSetIndex="1"/>
+				</Choice>
+
+                <ObjectiveSet>
+                    <StartActions>
+                    </StartActions>
+                    <Objective Name="Activate">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Outcome1"/>
+                        </Sequence>	
+                        <Outcome Name="Outcome1">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>QuestToTrigger</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>            
+
+                <ObjectiveSet>
+                    <StartActions>
+                    </StartActions>
+                    <Objective Name="Disable">
+                        <Sequence>
+                        </Sequence>
+                    </Objective>
+                </ObjectiveSet>
+				
+            </Step>            
+        </Steps>
+    </QuestDefinition>		
+	-->
+	
+	<!-- lilyophelia: Wait Template
+	<QuestDefinition Name="EndlessRomance_Wait" Category="EndlessRomance" SubCategory="ER_Core" IsInstant="true" MinimumTurn="1">
+
+		<Tags>Hidden</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="1"/>
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+              
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_Template</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+				
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+	
+	-->
+
+	<!-- lilyophelia: Endless Romance | Start -->
+	<!--
+	<QuestDefinition Name="EndlessRomance_Test" Category="EndlessRomance" SubCategory="ER_Core" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, BeginTurn</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TemporalAnomaly_GhostShipTakenEnding</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TemporalAnomaly_SuckedInEnding</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TemporalAnomaly_ShipVanishesEnding</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TemporalAnomaly_ScienceVesselTakenEnding</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TheWarship_ShipRetrievedEnding</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TheWarship_ShipReturnedEnding</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+	-->
+	
+    <QuestDefinition Name="EndlessRomance_Introduction" Category="EndlessRomance" SubCategory="ER_Core" IsInstant="true" MinimumTurn="2">
+        <Tags>BeginTurn</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+                <Choice DefaultChoiceIndex="1">
+                    <ChoiceItem ObjectiveSetIndex="0"/>
+					<ChoiceItem ObjectiveSetIndex="1"/>
+				</Choice>
+
+                <ObjectiveSet>
+                    <StartActions>
+                    </StartActions>
+                    <Objective Name="Activate">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Activate"/>
+                        </Sequence>	
+                        <Outcome Name="Activate">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_RomanceManager_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_AdventureManager_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>            
+
+                <ObjectiveSet>
+                    <StartActions>
+                    </StartActions>
+                    <Objective Name="Disable">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Disable"/>
+                        </Sequence>
+                        <Outcome Name="Disable">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_Warning</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+				
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_Warning" Category="EndlessRomance" SubCategory="ER_Core" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_Warning</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+                <Choice DefaultChoiceIndex="1">
+                    <ChoiceItem ObjectiveSetIndex="0"/>
+					<ChoiceItem ObjectiveSetIndex="1"/>
+				</Choice>
+
+                <ObjectiveSet>
+                    <StartActions>
+                    </StartActions>
+                    <Objective Name="Activate">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Activate"/>
+                        </Sequence>	
+                        <Outcome Name="Activate">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_RomanceManager_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_AdventureManager_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>            
+
+                <ObjectiveSet>
+                    <StartActions>
+                    </StartActions>
+                    <Objective Name="Disable">
+                        <Sequence>
+                        </Sequence>
+                    </Objective>
+                </ObjectiveSet>
+				
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+	
+	<QuestDefinition Name="EndlessRomance_RomanceManager_Wait" Category="EndlessRomance" SubCategory="ER_Core" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_RomanceManager_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="10000"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			<Var VarName="$WaitDuration" IntValue="4"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">              
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_RomanceManager</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+				
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+	
+	<QuestDefinition Name="EndlessRomance_RomanceManager" Category="EndlessRomance" SubCategory="ER_Core" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_RomanceManager</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="10000"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">              
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="SelectRomance"/>					
+                        </Sequence>	
+                        <Outcome Name="SelectRomance">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_TradeFleetInDanger</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_RomanceManager_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+	<QuestDefinition Name="EndlessRomance_AdventureManager_Wait" Category="EndlessRomance" SubCategory="ER_Core" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_AdventureManager_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="10000"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			<Var VarName="$WaitDuration" IntValue="10"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">              
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_AdventureManager</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+				
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+	
+	<QuestDefinition Name="EndlessRomance_AdventureManager" Category="EndlessRomance" SubCategory="ER_Core" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_AdventureManager</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="10000"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+            <Var IsGlobal="true" VarName="$EndlessRomance_IsAdventureInProgress" IntValue="0" />
+            <!-- <Var VarName="$Expression01" StringValue="$EndlessRomance_IsAdventureInProgress eq 0"/> -->
+        </Vars>
+        <Steps>
+            <Step Name="Step1">              
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                                <!--
+								<Condition_CheckInterpreter>
+                                    <Input_Context VarName="$CurrentEmpire"/>
+                                    <Input_Expression VarName="$Expression01"/>
+                                </Condition_CheckInterpreter>
+								-->
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="SelectAdventure"/>					
+                        </Sequence>	
+                        <Outcome Name="SelectAdventure">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TemporalAnomaly_FlashesOfLight</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_AdventureManager_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TheWarship_Intruders</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_AdventureManager_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+	
+	<!-- lilyophelia: Endless Romance | End -->
+
+</Datatable>

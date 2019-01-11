@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+
+	<!-- Hero: Template -->
+	<!--
+    <HeroGuiElement Name="EndlessRomance_TradePrincess_HeroTemplate">
+        <Title>%EndlessRomance_TradePrincess_HeroTemplate_Title</Title>
+        <Description>%EndlessRomance_TradePrincess_HeroTemplate_Description</Description>
+        <Icons>
+            <Icon Size="Medium" Path="Gui/EndlessRomance_Hero_HeroTemplate_Medium"/>
+            <Icon Size="Large" Path="Gui/EndlessRomance_Hero_HeroTemplate_Large"/>
+            <Icon Size="Mood" Path="Gui/EndlessRomance_Hero_HeroTemplate_Mood"/>
+        </Icons>
+    </HeroGuiElement>
+	-->
+
+	<!-- lilyophelia: Endless Romance | Start -->
+
+	<!-- Hero: Aurelia The Lover -->
+
+    <HeroGuiElement Name="EndlessRomance_TradePrincess_AureliaTheLover">
+        <Title>%EndlessRomance_TradePrincess_AureliaTheLoverTitle</Title>
+        <Description>%EndlessRomance_TradePrincess_AureliaTheLoverDescription</Description>
+        <Icons>
+            <Icon Size="Medium" Path="Gui/EndlessRomance_Hero_AureliaTheLover_Medium"/>
+            <Icon Size="Large" Path="Gui/EndlessRomance_Hero_AureliaTheLover_Large"/>
+            <Icon Size="Mood" Path="Gui/EndlessRomance_Hero_AureliaTheLover_Mood"/>
+        </Icons>
+    </HeroGuiElement>
+
+
+	<!-- lilyophelia: Endless Romance | End -->	
+
+</Datatable>

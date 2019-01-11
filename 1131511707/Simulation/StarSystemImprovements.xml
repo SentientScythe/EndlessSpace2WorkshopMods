@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Documentation/Schemas/IndustryConstructibleElement.xsd">
+
+  <StarSystemImprovementDefinition Name="StarSystemImprovementResourceFactory1" SubCategory="SubCategoryResourceExploitation" ScoreProvider="StarSystemImprovementBuilt">
+      <SupervisorGain Name="Science" />
+      <Cost ResourceName="SystemProduction">560</Cost>
+      <PathPrerequisite       Inverted="false"    Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
+      <MetaPrerequisite  Operator="Or">
+          <PathPrerequisite   Flags="Prerequisite,Discard">ColonizedStarSystemStateColony/ClassPlanet/ResourceTypeStrategic</PathPrerequisite>
+          <PathPrerequisite   Flags="Prerequisite,Discard">ColonizedStarSystemStateColony/ClassPlanet/ResourceTypeLuxury</PathPrerequisite>
+      </MetaPrerequisite>
+      <PathPrerequisite       Inverted="true"     Flags="Prerequisite,Discard">ClassColonizedStarSystem/StarSystemImprovementResourceFactory1,!FastForwardedImprovement</PathPrerequisite>
+      <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">TechnologyMarketplace1</TechnologyPrerequisite>
+      <SimulationDescriptorReference Name="StarSystemImprovementResourceFactory1" />
+      <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage2Normal" />
+      <PopulationEvent Name="PopulationPoliticalEventBuildingConstructionIndustry1"/>
+  </StarSystemImprovementDefinition>
+
+  <StarSystemImprovementDefinition Name="StarSystemImprovementResourceFactory2" SubCategory="SubCategoryResourceExploitation" ScoreProvider="StarSystemImprovementBuilt">
+      <SupervisorGain Name="Science" />
+      <Cost ResourceName="SystemProduction">1120</Cost>
+      <PathPrerequisite       Inverted="false"    Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
+      <MetaPrerequisite  Operator="Or">
+          <PathPrerequisite   Flags="Prerequisite,Discard">ColonizedStarSystemStateColony/ClassPlanet/ResourceTypeStrategic</PathPrerequisite>
+          <PathPrerequisite   Flags="Prerequisite,Discard">ColonizedStarSystemStateColony/ClassPlanet/ResourceTypeLuxury</PathPrerequisite>
+      </MetaPrerequisite>
+      <PathPrerequisite       Inverted="true"     Flags="Prerequisite,Discard">ClassColonizedStarSystem/StarSystemImprovementResourceFactory2,!FastForwardedImprovement</PathPrerequisite>
+      <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">TechnologyColonizationGasPlanet</TechnologyPrerequisite>
+      <SimulationDescriptorReference Name="StarSystemImprovementResourceFactory2" />
+      <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage3Normal" />
+      <PopulationEvent Name="PopulationPoliticalEventBuildingConstructionIndustry1"/>
+  </StarSystemImprovementDefinition>
+
+</Datatable>

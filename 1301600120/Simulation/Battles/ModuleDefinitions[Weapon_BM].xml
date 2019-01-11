@@ -1,0 +1,2055 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../../Schemas/ModuleDefinition.xsd">
+
+    <!-- ******************** -->
+    <!-- **		BattleMod		** -->
+    <!-- ******************** -->
+
+    <!-- KINETIC -->
+    <WeaponModule Name="ModuleWeaponKinetic1a" Type="Kinetic" Family="KineticBase" Level="1">
+        <Cost ResourceName="SystemProduction">25</Cost>
+		<!-- ** START AI DATA ** -->
+        <!-- Weapons types -->
+        <AIBattleSituations Situation="ProjectileWeapon" Mode="Use" Value="1"/>
+		<!-- Armor types -->
+        <AIBattleSituations Situation="EnergyDefense" Mode="Against" Value="1"/>
+        <AIBattleSituations Situation="ProjectileDefense" Mode="Against" Value="-0.5"/>
+		<!-- Ship Size -->
+		<AIBattleSituations Situation="SmallShip" Mode="Against" Value="0.25"/>
+		<AIBattleSituations Situation="LargeShip" Mode="Against" Value="-0.25"/>				
+		<!-- Specific weapons -->
+		<AIBattleSituations Situation="Kinetic" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Missile" Mode="Against" Value="1"/>
+		<AIBattleSituations Situation="Laser" Mode="Against" Value="-0.25"/>
+		<AIBattleSituations Situation="Beam" Mode="Against" Value="-0.5"/>
+		<AIBattleSituations Situation="Bomber" Mode="Against" Value="0.25"/>
+		<AIBattleSituations Situation="Fighter" Mode="Against" Value="0.25"/>
+		<!-- Ranges -->
+        <AIBattleSituations Situation="Short" Mode="Use" Value="0.85"/>
+		<AIBattleSituations Situation="Medium" Mode="Use" Value="0.5"/>
+		<AIBattleSituations Situation="Long" Mode="Use" Value="0.1"/>
+		<AIBattleSituations Situation="Short" Mode="Against" Value="1"/>
+		<AIBattleSituations Situation="Medium" Mode="Against" Value="0.5"/>
+		<AIBattleSituations Situation="Long" Mode="Against" Value="0.1"/>
+		<!-- ** END AI DATA ** -->
+        <TechnologyPrerequisite Flags="Edition">TechnologyCuriosityModuleWeaponKinetic1a</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Edition" Inverted="true">ClassShip,CannotHaveWeapon</PathPrerequisite>				
+        <PathPrerequisite Flags="ShipHasDestructionModule,Edition,Disable" Inverted="true">ClassShip/ClassSection/ClassModuleDestruction</PathPrerequisite>
+        <SimulationDescriptorReference Name="ClassModuleWeapon"/>
+        <SimulationDescriptorReference Name="ClassModuleFlakExplication"/>
+        <CategorizedSimulationDescriptors Category="CategoryBaseWeapon">
+            <SimulationDescriptorReference Name="ModuleWeaponKinetic1a"/>
+        </CategorizedSimulationDescriptors>
+        <CategorizedSimulationDescriptors Category="CategoryModuleWeaponKinetic">
+            <SimulationDescriptorReference Name="ClassModuleWeaponKinetic"/>
+        </CategorizedSimulationDescriptors>
+        <BattleActionReference Name="Weapon_Initialize"/>
+        <BattleActionReference Name="Weapon_SalvoHitFlotillaShield"/>
+        <BattleActionReference Name="Weapon_SalvoHitShipShield"/>
+        <BattleActionReference Name="Weapon_SalvoApplyShieldDamage"/>
+        <BattleActionReference Name="Weapon_SalvoLaunched"/>
+        <BattleActionReference Name="Weapon_SalvoPrepareHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="WeaponKinetic_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="Weapon_UpdateAccuracyAfterMiss"/>
+
+        <SlaveModule Name="ModuleWeaponFlack1" CategoryForSimulationDescriptors="CategoryWeaponFlack"/>
+        <AttackPathPrerequisite Inverted="true">EncounterEntityStatusDisabled</AttackPathPrerequisite>
+        <SalvoReference Name="SalvoKinetic1"/>
+        <AvailableRange RangeName="Short" PenaltyPropertyName="ShortRangePenalty"/>
+        <AvailableRange RangeName="Medium" PenaltyPropertyName="MediumRangePenalty"/>
+        <AvailableRange RangeName="Long" PenaltyPropertyName="LongRangePenalty"/>
+        <TargetSortingCriterion Name="Type">
+            <ScoreModifier Name="Ship">1</ScoreModifier>
+        </TargetSortingCriterion>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="OffensiveMilitaryPowerIfWeakestTargeting">-1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+        <TargetSortingCriterion Name="Role" ScoreModifiersDefaultValue="1" IgnoredWhenCheckingTargetValidity="true"/>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="TargetersCount">-1</ScoreModifier>
+            <ScoreModifier Name="TargetingWeightBonus">1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+    </WeaponModule>
+
+    <WeaponModule Name="ModuleWeaponKinetic2a" Type="Kinetic" Family="KineticBase" Level="2">
+        <Cost ResourceName="SystemProduction">44</Cost>
+		<!-- ** START AI DATA ** -->
+        <!-- Weapons types -->
+        <AIBattleSituations Situation="ProjectileWeapon" Mode="Use" Value="1"/>
+		<!-- Armor types -->
+        <AIBattleSituations Situation="EnergyDefense" Mode="Against" Value="1"/>
+        <AIBattleSituations Situation="ProjectileDefense" Mode="Against" Value="-0.5"/>
+		<!-- Ship Size -->
+		<AIBattleSituations Situation="SmallShip" Mode="Against" Value="0.25"/>
+		<AIBattleSituations Situation="LargeShip" Mode="Against" Value="-0.25"/>				
+		<!-- Specific weapons -->
+        <AIBattleSituations Situation="Kinetic" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Missile" Mode="Against" Value="1"/>
+        <AIBattleSituations Situation="Laser" Mode="Against" Value="-0.25"/>
+        <AIBattleSituations Situation="Beam" Mode="Against" Value="-0.5"/>
+        <AIBattleSituations Situation="Bomber" Mode="Against" Value="0.25"/>
+        <AIBattleSituations Situation="Fighter" Mode="Against" Value="0.25"/>
+        <!-- Ranges -->
+        <AIBattleSituations Situation="Short" Mode="Use" Value="0.85"/>
+        <AIBattleSituations Situation="Medium" Mode="Use" Value="0.5"/>
+        <AIBattleSituations Situation="Long" Mode="Use" Value="0.1"/>
+        <AIBattleSituations Situation="Short" Mode="Against" Value="1"/>
+        <AIBattleSituations Situation="Medium" Mode="Against" Value="0.5"/>
+        <AIBattleSituations Situation="Long" Mode="Against" Value="0.1"/>
+		<!-- ** END AI DATA ** -->
+        <TechnologyPrerequisite Flags="Edition" >TechnologyCuriosityModuleWeaponKinetic2a</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Edition" Inverted="true">ClassShip,CannotHaveWeapon</PathPrerequisite>
+        <PathPrerequisite Flags="ShipHasDestructionModule,Edition,Disable" Inverted="true">ClassShip/ClassSection/ClassModuleDestruction</PathPrerequisite>
+        <SimulationDescriptorReference Name="ClassModuleWeapon"/>
+        <SimulationDescriptorReference Name="ClassModuleFlakExplication"/>
+        <CategorizedSimulationDescriptors Category="CategoryBaseWeapon">
+            <SimulationDescriptorReference Name="ModuleWeaponKinetic2a"/>
+        </CategorizedSimulationDescriptors>
+        <CategorizedSimulationDescriptors Category="CategoryModuleWeaponKinetic">
+            <SimulationDescriptorReference Name="ClassModuleWeaponKinetic"/>
+        </CategorizedSimulationDescriptors>
+        <BattleActionReference Name="Weapon_Initialize"/>
+        <BattleActionReference Name="Weapon_SalvoHitFlotillaShield"/>
+        <BattleActionReference Name="Weapon_SalvoHitShipShield"/>
+        <BattleActionReference Name="Weapon_SalvoApplyShieldDamage"/>
+        <BattleActionReference Name="Weapon_SalvoLaunched"/>
+        <BattleActionReference Name="Weapon_SalvoPrepareHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="WeaponKinetic_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="Weapon_UpdateAccuracyAfterMiss"/>
+        <SlaveModule Name="ModuleWeaponFlack2" CategoryForSimulationDescriptors="CategoryWeaponFlack"/>
+        <AttackPathPrerequisite Inverted="true">EncounterEntityStatusDisabled</AttackPathPrerequisite>
+        <SalvoReference Name="SalvoKinetic2"/>
+        <AvailableRange RangeName="Short" PenaltyPropertyName="ShortRangePenalty"/>
+        <AvailableRange RangeName="Medium" PenaltyPropertyName="MediumRangePenalty"/>
+        <AvailableRange RangeName="Long" PenaltyPropertyName="LongRangePenalty"/>
+        <TargetSortingCriterion Name="Type">
+            <ScoreModifier Name="Ship">1</ScoreModifier>
+        </TargetSortingCriterion>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="OffensiveMilitaryPowerIfWeakestTargeting">-1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+        <TargetSortingCriterion Name="Role" ScoreModifiersDefaultValue="1" IgnoredWhenCheckingTargetValidity="true"/>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="TargetersCount">-1</ScoreModifier>
+            <ScoreModifier Name="TargetingWeightBonus">1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+    </WeaponModule>	
+
+    <WeaponModule Name="ModuleWeaponKinetic3a" Type="Kinetic" Family="KineticBase" Level="3">
+        <Cost ResourceName="SystemProduction">62</Cost>
+		<!-- ** START AI DATA ** -->
+        <!-- Weapons types -->
+        <AIBattleSituations Situation="ProjectileWeapon" Mode="Use" Value="1"/>
+		<!-- Armor types -->
+        <AIBattleSituations Situation="EnergyDefense" Mode="Against" Value="1"/>
+        <AIBattleSituations Situation="ProjectileDefense" Mode="Against" Value="-0.5"/>
+		<!-- Ship Size -->
+		<AIBattleSituations Situation="SmallShip" Mode="Against" Value="0.25"/>
+		<AIBattleSituations Situation="LargeShip" Mode="Against" Value="-0.25"/>				
+		<!-- Specific weapons -->
+        <AIBattleSituations Situation="Kinetic" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Missile" Mode="Against" Value="1"/>
+        <AIBattleSituations Situation="Laser" Mode="Against" Value="-0.25"/>
+        <AIBattleSituations Situation="Beam" Mode="Against" Value="-0.5"/>
+        <AIBattleSituations Situation="Bomber" Mode="Against" Value="0.25"/>
+        <AIBattleSituations Situation="Fighter" Mode="Against" Value="0.25"/>
+        <!-- Ranges -->
+        <AIBattleSituations Situation="Short" Mode="Use" Value="0.85"/>
+        <AIBattleSituations Situation="Medium" Mode="Use" Value="0.5"/>
+        <AIBattleSituations Situation="Long" Mode="Use" Value="0.1"/>
+        <AIBattleSituations Situation="Short" Mode="Against" Value="1"/>
+        <AIBattleSituations Situation="Medium" Mode="Against" Value="0.5"/>
+        <AIBattleSituations Situation="Long" Mode="Against" Value="0.1"/>
+		<!-- ** END AI DATA ** -->
+        <TechnologyPrerequisite Flags="Edition">TechnologyCuriosityModuleWeaponKinetic3a</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Edition" Inverted="true">ClassShip,CannotHaveWeapon</PathPrerequisite>
+        <PathPrerequisite Flags="ShipHasDestructionModule,Edition,Disable" Inverted="true">ClassShip/ClassSection/ClassModuleDestruction</PathPrerequisite>
+        <SimulationDescriptorReference Name="ClassModuleWeapon"/>
+        <SimulationDescriptorReference Name="ClassModuleFlakExplication"/>
+        <CategorizedSimulationDescriptors Category="CategoryBaseWeapon">
+            <SimulationDescriptorReference Name="ModuleWeaponKinetic3a"/>
+        </CategorizedSimulationDescriptors>
+        <CategorizedSimulationDescriptors Category="CategoryModuleWeaponKinetic">
+            <SimulationDescriptorReference Name="ClassModuleWeaponKinetic"/>
+        </CategorizedSimulationDescriptors>
+        <BattleActionReference Name="Weapon_Initialize"/>
+        <BattleActionReference Name="Weapon_SalvoHitFlotillaShield"/>
+        <BattleActionReference Name="Weapon_SalvoHitShipShield"/>
+        <BattleActionReference Name="Weapon_SalvoApplyShieldDamage"/>
+        <BattleActionReference Name="Weapon_SalvoLaunched"/>
+        <BattleActionReference Name="Weapon_SalvoPrepareHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="WeaponKinetic_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="Weapon_UpdateAccuracyAfterMiss"/>
+        <SlaveModule Name="ModuleWeaponFlack3" CategoryForSimulationDescriptors="CategoryWeaponFlack"/>
+        <AttackPathPrerequisite Inverted="true">EncounterEntityStatusDisabled</AttackPathPrerequisite>
+        <SalvoReference Name="SalvoKinetic3"/>
+        <AvailableRange RangeName="Short" PenaltyPropertyName="ShortRangePenalty"/>
+        <AvailableRange RangeName="Medium" PenaltyPropertyName="MediumRangePenalty"/>
+        <AvailableRange RangeName="Long" PenaltyPropertyName="LongRangePenalty"/>
+        <TargetSortingCriterion Name="Type">
+            <ScoreModifier Name="Ship">1</ScoreModifier>
+        </TargetSortingCriterion>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="OffensiveMilitaryPowerIfWeakestTargeting">-1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+        <TargetSortingCriterion Name="Role" ScoreModifiersDefaultValue="1" IgnoredWhenCheckingTargetValidity="true"/>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="TargetersCount">-1</ScoreModifier>
+            <ScoreModifier Name="TargetingWeightBonus">1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+    </WeaponModule>
+	
+    <WeaponModule Name="ModuleWeaponKinetic4a" Type="Kinetic" Family="KineticBase" Level="4">
+        <Cost ResourceName="SystemProduction">81</Cost>
+		<!-- ** START AI DATA ** -->
+        <!-- Weapons types -->
+        <AIBattleSituations Situation="ProjectileWeapon" Mode="Use" Value="1"/>
+		<!-- Armor types -->
+        <AIBattleSituations Situation="EnergyDefense" Mode="Against" Value="1"/>
+        <AIBattleSituations Situation="ProjectileDefense" Mode="Against" Value="-0.5"/>
+		<!-- Ship Size -->
+		<AIBattleSituations Situation="SmallShip" Mode="Against" Value="0.25"/>
+		<AIBattleSituations Situation="LargeShip" Mode="Against" Value="-0.25"/>				
+		<!-- Specific weapons -->
+        <AIBattleSituations Situation="Kinetic" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Missile" Mode="Against" Value="1"/>
+        <AIBattleSituations Situation="Laser" Mode="Against" Value="-0.25"/>
+        <AIBattleSituations Situation="Beam" Mode="Against" Value="-0.5"/>
+        <AIBattleSituations Situation="Bomber" Mode="Against" Value="0.25"/>
+        <AIBattleSituations Situation="Fighter" Mode="Against" Value="0.25"/>
+        <!-- Ranges -->
+        <AIBattleSituations Situation="Short" Mode="Use" Value="0.85"/>
+        <AIBattleSituations Situation="Medium" Mode="Use" Value="0.5"/>
+        <AIBattleSituations Situation="Long" Mode="Use" Value="0.1"/>
+        <AIBattleSituations Situation="Short" Mode="Against" Value="1"/>
+        <AIBattleSituations Situation="Medium" Mode="Against" Value="0.5"/>
+        <AIBattleSituations Situation="Long" Mode="Against" Value="0.1"/>
+		<!-- ** END AI DATA ** -->
+        <PathPrerequisite Flags="Edition" Inverted="true">ClassShip,CannotHaveWeapon</PathPrerequisite>
+        <TechnologyPrerequisite Flags="Edition">TechnologyCuriosityModuleWeaponKinetic4a</TechnologyPrerequisite>
+        <PathPrerequisite Flags="ShipHasDestructionModule,Edition,Disable" Inverted="true">ClassShip/ClassSection/ClassModuleDestruction</PathPrerequisite>
+        <SimulationDescriptorReference Name="ClassModuleWeapon"/>
+        <SimulationDescriptorReference Name="ClassModuleFlakExplication"/>
+        <CategorizedSimulationDescriptors Category="CategoryBaseWeapon">
+            <SimulationDescriptorReference Name="ModuleWeaponKinetic4"/>
+        </CategorizedSimulationDescriptors>
+        <CategorizedSimulationDescriptors Category="CategoryModuleWeaponKinetic">
+            <SimulationDescriptorReference Name="ClassModuleWeaponKinetic"/>
+        </CategorizedSimulationDescriptors>
+        <BattleActionReference Name="Weapon_Initialize"/>
+        <BattleActionReference Name="Weapon_SalvoHitFlotillaShield"/>
+        <BattleActionReference Name="Weapon_SalvoHitShipShield"/>
+        <BattleActionReference Name="Weapon_SalvoApplyShieldDamage"/>
+        <BattleActionReference Name="Weapon_SalvoLaunched"/>
+        <BattleActionReference Name="Weapon_SalvoPrepareHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="WeaponKinetic_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="Weapon_UpdateAccuracyAfterMiss"/>
+        <SlaveModule Name="ModuleWeaponFlack4" CategoryForSimulationDescriptors="CategoryWeaponFlack"/>
+        <AttackPathPrerequisite Inverted="true">EncounterEntityStatusDisabled</AttackPathPrerequisite>
+        <SalvoReference Name="SalvoKinetic4"/>
+        <AvailableRange RangeName="Short" PenaltyPropertyName="ShortRangePenalty"/>
+        <AvailableRange RangeName="Medium" PenaltyPropertyName="MediumRangePenalty"/>
+        <AvailableRange RangeName="Long" PenaltyPropertyName="LongRangePenalty"/>
+        <TargetSortingCriterion Name="Type">
+            <ScoreModifier Name="Ship">1</ScoreModifier>
+        </TargetSortingCriterion>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="OffensiveMilitaryPowerIfWeakestTargeting">-1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+        <TargetSortingCriterion Name="Role" ScoreModifiersDefaultValue="1" IgnoredWhenCheckingTargetValidity="true"/>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="TargetersCount">-1</ScoreModifier>
+            <ScoreModifier Name="TargetingWeightBonus">1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+    </WeaponModule>
+
+    <WeaponModule Name="ModuleWeaponKinetic5a" Type="Kinetic" Family="KineticBase" Level="5">
+        <Cost ResourceName="SystemProduction">102</Cost>
+		<!-- ** START AI DATA ** -->
+        <!-- Weapons types -->
+        <AIBattleSituations Situation="ProjectileWeapon" Mode="Use" Value="1"/>
+		<!-- Armor types -->
+        <AIBattleSituations Situation="EnergyDefense" Mode="Against" Value="1"/>
+        <AIBattleSituations Situation="ProjectileDefense" Mode="Against" Value="-0.5"/>
+		<!-- Ship Size -->
+		<AIBattleSituations Situation="SmallShip" Mode="Against" Value="0.25"/>
+		<AIBattleSituations Situation="LargeShip" Mode="Against" Value="-0.25"/>				
+		<!-- Specific weapons -->
+        <AIBattleSituations Situation="Kinetic" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Missile" Mode="Against" Value="1"/>
+        <AIBattleSituations Situation="Laser" Mode="Against" Value="-0.25"/>
+        <AIBattleSituations Situation="Beam" Mode="Against" Value="-0.5"/>
+        <AIBattleSituations Situation="Bomber" Mode="Against" Value="0.25"/>
+        <AIBattleSituations Situation="Fighter" Mode="Against" Value="0.25"/>
+        <!-- Ranges -->
+        <AIBattleSituations Situation="Short" Mode="Use" Value="0.85"/>
+        <AIBattleSituations Situation="Medium" Mode="Use" Value="0.5"/>
+        <AIBattleSituations Situation="Long" Mode="Use" Value="0.1"/>
+        <AIBattleSituations Situation="Short" Mode="Against" Value="1"/>
+        <AIBattleSituations Situation="Medium" Mode="Against" Value="0.5"/>
+        <AIBattleSituations Situation="Long" Mode="Against" Value="0.1"/>
+		<!-- ** END AI DATA ** -->
+        <TechnologyPrerequisite Flags="Edition">TechnologyCuriosityModuleWeaponKinetic5a</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Edition" Inverted="true">ClassShip,CannotHaveWeapon</PathPrerequisite>
+        <PathPrerequisite Flags="ShipHasDestructionModule,Edition,Disable" Inverted="true">ClassShip/ClassSection/ClassModuleDestruction</PathPrerequisite>
+        <SimulationDescriptorReference Name="ClassModuleWeapon"/>
+        <SimulationDescriptorReference Name="ClassModuleFlakExplication"/>
+        <CategorizedSimulationDescriptors Category="CategoryBaseWeapon">
+            <SimulationDescriptorReference Name="ModuleWeaponKinetic5a"/>
+        </CategorizedSimulationDescriptors>
+        <CategorizedSimulationDescriptors Category="CategoryModuleWeaponKinetic">
+            <SimulationDescriptorReference Name="ClassModuleWeaponKinetic"/>
+        </CategorizedSimulationDescriptors>
+        <BattleActionReference Name="Weapon_Initialize"/>
+        <BattleActionReference Name="Weapon_SalvoHitFlotillaShield"/>
+        <BattleActionReference Name="Weapon_SalvoHitShipShield"/>
+        <BattleActionReference Name="Weapon_SalvoApplyShieldDamage"/>
+        <BattleActionReference Name="Weapon_SalvoLaunched"/>
+        <BattleActionReference Name="Weapon_SalvoPrepareHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="WeaponKinetic_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="Weapon_UpdateAccuracyAfterMiss"/>
+        <SlaveModule Name="ModuleWeaponFlack5" CategoryForSimulationDescriptors="CategoryWeaponFlack"/>
+        <AttackPathPrerequisite Inverted="true">EncounterEntityStatusDisabled</AttackPathPrerequisite>
+        <SalvoReference Name="SalvoKinetic5"/>
+        <AvailableRange RangeName="Short" PenaltyPropertyName="ShortRangePenalty"/>
+        <AvailableRange RangeName="Medium" PenaltyPropertyName="MediumRangePenalty"/>
+        <AvailableRange RangeName="Long" PenaltyPropertyName="LongRangePenalty"/>
+        <TargetSortingCriterion Name="Type">
+            <ScoreModifier Name="Ship">1</ScoreModifier>
+        </TargetSortingCriterion>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="OffensiveMilitaryPowerIfWeakestTargeting">-1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+        <TargetSortingCriterion Name="Role" ScoreModifiersDefaultValue="1" IgnoredWhenCheckingTargetValidity="true"/>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="TargetersCount">-1</ScoreModifier>
+            <ScoreModifier Name="TargetingWeightBonus">1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+    </WeaponModule>	
+
+    <WeaponModule Name="ModuleWeaponMissile1a" Type="Missile" Family="MissileBase" Level="1">
+        <Cost ResourceName="SystemProduction">22</Cost>
+		<!-- ** START AI DATA ** -->
+        <!-- Weapons types -->
+        <AIBattleSituations Situation="ProjectileWeapon" Mode="Use" Value="1"/>
+		<!-- Armor types -->
+        <AIBattleSituations Situation="EnergyDefense" Mode="Against" Value="1"/>
+        <AIBattleSituations Situation="ProjectileDefense" Mode="Against" Value="-0.5"/>
+		<!-- Ship Size -->
+		<AIBattleSituations Situation="SmallShip" Mode="Against" Value="-0.25"/>
+		<AIBattleSituations Situation="LargeShip" Mode="Against" Value="0.25"/>				
+		<!-- Specific weapons -->
+		<AIBattleSituations Situation="Missile" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Kinetic" Mode="Against" Value="-0.5"/>
+		<AIBattleSituations Situation="Laser" Mode="Against" Value="0.75"/>
+		<AIBattleSituations Situation="Beam" Mode="Against" Value="1"/>
+		<!-- Ranges -->
+        <AIBattleSituations Situation="Short" Mode="Use" Value="0.25"/>
+		<AIBattleSituations Situation="Medium" Mode="Use" Value="0.5"/>
+		<AIBattleSituations Situation="Long" Mode="Use" Value="1"/>
+		<AIBattleSituations Situation="Short" Mode="Against" Value="0.25"/>
+		<AIBattleSituations Situation="Medium" Mode="Against" Value="0.5"/>
+		<AIBattleSituations Situation="Long" Mode="Against" Value="1"/>
+		<!-- ** END AI DATA ** -->
+        <PathPrerequisite Flags="Edition" Inverted="true">ClassShip,CannotHaveWeapon</PathPrerequisite>
+        <TechnologyPrerequisite Flags="Edition">TechnologyCuriosityModuleWeaponMissile1a</TechnologyPrerequisite>
+        <PathPrerequisite Flags="ShipHasDestructionModule,Edition,Disable" Inverted="true">ClassShip/ClassSection/ClassModuleDestruction</PathPrerequisite>
+        <SimulationDescriptorReference Name="ClassModuleWeapon"/>
+        <CategorizedSimulationDescriptors Category="CategoryBaseWeapon">
+            <SimulationDescriptorReference Name="ModuleWeaponMissile1a"/>
+        </CategorizedSimulationDescriptors>
+        <CategorizedSimulationDescriptors Category="CategoryModuleWeaponMissile">
+            <SimulationDescriptorReference Name="ClassModuleWeaponMissile"/>
+        </CategorizedSimulationDescriptors>
+        <BattleActionReference Name="Weapon_Initialize"/>
+        <BattleActionReference Name="Weapon_SalvoHitFlotillaShield"/>
+        <BattleActionReference Name="Weapon_SalvoHitShipShield"/>
+        <BattleActionReference Name="Weapon_SalvoApplyShieldDamage"/>
+        <BattleActionReference Name="Weapon_SalvoLaunched"/>
+        <BattleActionReference Name="Weapon_SalvoPrepareHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="WeaponMissile_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="Weapon_UpdateAccuracyAfterMiss"/>
+        <AttackPathPrerequisite Inverted="true">EncounterEntityStatusDisabled</AttackPathPrerequisite>
+        <SalvoReference Name="SalvoMissile1"/>
+        <AvailableRange RangeName="Short" PenaltyPropertyName="ShortRangePenalty"/>
+        <AvailableRange RangeName="Medium" PenaltyPropertyName="MediumRangePenalty"/>
+        <AvailableRange RangeName="Long" PenaltyPropertyName="LongRangePenalty"/>
+        <TargetSortingCriterion Name="Type">
+            <ScoreModifier Name="Ship">1</ScoreModifier>
+        </TargetSortingCriterion>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="OffensiveMilitaryPowerIfWeakestTargeting">-1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+        <TargetSortingCriterion Name="Role" ScoreModifiersDefaultValue="1" IgnoredWhenCheckingTargetValidity="true"/>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="TargetersCount">-1</ScoreModifier>
+            <ScoreModifier Name="TargetingWeightBonus">1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+    </WeaponModule>
+
+    <WeaponModule Name="ModuleWeaponMissile2a" Type="Missile" Family="MissileBase" Level="2">
+        <Cost ResourceName="SystemProduction">37</Cost>
+		<!-- ** START AI DATA ** -->
+        <!-- Weapons types -->
+        <AIBattleSituations Situation="ProjectileWeapon" Mode="Use" Value="1"/>
+		<!-- Armor types -->
+        <AIBattleSituations Situation="EnergyDefense" Mode="Against" Value="1"/>
+        <AIBattleSituations Situation="ProjectileDefense" Mode="Against" Value="-0.5"/>
+		<!-- Ship Size -->
+		<AIBattleSituations Situation="SmallShip" Mode="Against" Value="-0.25"/>
+		<AIBattleSituations Situation="LargeShip" Mode="Against" Value="0.25"/>				
+		<!-- Specific weapons -->
+        <AIBattleSituations Situation="Missile" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Kinetic" Mode="Against" Value="-0.5"/>
+        <AIBattleSituations Situation="Laser" Mode="Against" Value="0.75"/>
+        <AIBattleSituations Situation="Beam" Mode="Against" Value="1"/>
+        <!-- Ranges -->
+        <AIBattleSituations Situation="Short" Mode="Use" Value="0.25"/>
+        <AIBattleSituations Situation="Medium" Mode="Use" Value="0.5"/>
+        <AIBattleSituations Situation="Long" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Short" Mode="Against" Value="0.25"/>
+        <AIBattleSituations Situation="Medium" Mode="Against" Value="0.5"/>
+        <AIBattleSituations Situation="Long" Mode="Against" Value="1"/>
+		<!-- ** END AI DATA ** -->
+        <PathPrerequisite Flags="Edition" Inverted="true">ClassShip,CannotHaveWeapon</PathPrerequisite>
+        <TechnologyPrerequisite Flags="Edition">TechnologyCuriosityModuleWeaponMissile2a</TechnologyPrerequisite>
+        <PathPrerequisite Flags="ShipHasDestructionModule,Edition,Disable" Inverted="true">ClassShip/ClassSection/ClassModuleDestruction</PathPrerequisite>
+        <SimulationDescriptorReference Name="ClassModuleWeapon"/>
+        <CategorizedSimulationDescriptors Category="CategoryBaseWeapon">
+            <SimulationDescriptorReference Name="ModuleWeaponMissile2a"/>
+        </CategorizedSimulationDescriptors>
+        <CategorizedSimulationDescriptors Category="CategoryModuleWeaponMissile">
+            <SimulationDescriptorReference Name="ClassModuleWeaponMissile"/>
+        </CategorizedSimulationDescriptors>
+        <BattleActionReference Name="Weapon_Initialize"/>
+        <BattleActionReference Name="Weapon_SalvoHitFlotillaShield"/>
+        <BattleActionReference Name="Weapon_SalvoHitShipShield"/>
+        <BattleActionReference Name="Weapon_SalvoApplyShieldDamage"/>
+        <BattleActionReference Name="Weapon_SalvoLaunched"/>
+        <BattleActionReference Name="Weapon_SalvoPrepareHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="WeaponMissile_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="Weapon_UpdateAccuracyAfterMiss"/>
+        <AttackPathPrerequisite Inverted="true">EncounterEntityStatusDisabled</AttackPathPrerequisite>
+        <SalvoReference Name="SalvoMissile2"/>
+        <AvailableRange RangeName="Short" PenaltyPropertyName="ShortRangePenalty"/>
+        <AvailableRange RangeName="Medium" PenaltyPropertyName="MediumRangePenalty"/>
+        <AvailableRange RangeName="Long" PenaltyPropertyName="LongRangePenalty"/>
+        <TargetSortingCriterion Name="Type">
+            <ScoreModifier Name="Ship">1</ScoreModifier>
+        </TargetSortingCriterion>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="OffensiveMilitaryPowerIfWeakestTargeting">-1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+        <TargetSortingCriterion Name="Role" ScoreModifiersDefaultValue="1" IgnoredWhenCheckingTargetValidity="true"/>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="TargetersCount">-1</ScoreModifier>
+            <ScoreModifier Name="TargetingWeightBonus">1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+    </WeaponModule>
+
+    <WeaponModule Name="ModuleWeaponMissile3a" Type="Missile" Family="MissileBase" Level="3">
+        <Cost ResourceName="SystemProduction">54</Cost>
+		<!-- ** START AI DATA ** -->
+        <!-- Weapons types -->
+        <AIBattleSituations Situation="ProjectileWeapon" Mode="Use" Value="1"/>
+		<!-- Armor types -->
+        <AIBattleSituations Situation="EnergyDefense" Mode="Against" Value="1"/>
+        <AIBattleSituations Situation="ProjectileDefense" Mode="Against" Value="-0.5"/>
+		<!-- Ship Size -->
+		<AIBattleSituations Situation="SmallShip" Mode="Against" Value="-0.25"/>
+		<AIBattleSituations Situation="LargeShip" Mode="Against" Value="0.25"/>				
+		<!-- Specific weapons -->
+        <AIBattleSituations Situation="Missile" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Kinetic" Mode="Against" Value="-0.5"/>
+        <AIBattleSituations Situation="Laser" Mode="Against" Value="0.75"/>
+        <AIBattleSituations Situation="Beam" Mode="Against" Value="1"/>
+        <!-- Ranges -->
+        <AIBattleSituations Situation="Short" Mode="Use" Value="0.25"/>
+        <AIBattleSituations Situation="Medium" Mode="Use" Value="0.5"/>
+        <AIBattleSituations Situation="Long" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Short" Mode="Against" Value="0.25"/>
+        <AIBattleSituations Situation="Medium" Mode="Against" Value="0.5"/>
+        <AIBattleSituations Situation="Long" Mode="Against" Value="1"/>
+		<!-- ** END AI DATA ** -->
+        <PathPrerequisite Flags="Edition" Inverted="true">ClassShip,CannotHaveWeapon</PathPrerequisite>
+        <TechnologyPrerequisite Flags="Edition">TechnologyCuriosityModuleWeaponMissile3a</TechnologyPrerequisite>
+        <PathPrerequisite Flags="ShipHasDestructionModule,Edition,Disable" Inverted="true">ClassShip/ClassSection/ClassModuleDestruction</PathPrerequisite>
+        <SimulationDescriptorReference Name="ClassModuleWeapon"/>
+        <CategorizedSimulationDescriptors Category="CategoryBaseWeapon">
+            <SimulationDescriptorReference Name="ModuleWeaponMissile3a"/>
+        </CategorizedSimulationDescriptors>
+        <CategorizedSimulationDescriptors Category="CategoryModuleWeaponMissile">
+            <SimulationDescriptorReference Name="ClassModuleWeaponMissile"/>
+        </CategorizedSimulationDescriptors>
+        <BattleActionReference Name="Weapon_Initialize"/>
+        <BattleActionReference Name="Weapon_SalvoHitFlotillaShield"/>
+        <BattleActionReference Name="Weapon_SalvoHitShipShield"/>
+        <BattleActionReference Name="Weapon_SalvoApplyShieldDamage"/>
+        <BattleActionReference Name="Weapon_SalvoLaunched"/>
+        <BattleActionReference Name="Weapon_SalvoPrepareHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="WeaponMissile_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="Weapon_UpdateAccuracyAfterMiss"/>
+        <AttackPathPrerequisite Inverted="true">EncounterEntityStatusDisabled</AttackPathPrerequisite>
+        <SalvoReference Name="SalvoMissile3"/>
+        <AvailableRange RangeName="Short" PenaltyPropertyName="ShortRangePenalty"/>
+        <AvailableRange RangeName="Medium" PenaltyPropertyName="MediumRangePenalty"/>
+        <AvailableRange RangeName="Long" PenaltyPropertyName="LongRangePenalty"/>
+        <TargetSortingCriterion Name="Type">
+            <ScoreModifier Name="Ship">1</ScoreModifier>
+        </TargetSortingCriterion>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="OffensiveMilitaryPowerIfWeakestTargeting">-1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+        <TargetSortingCriterion Name="Role" ScoreModifiersDefaultValue="1" IgnoredWhenCheckingTargetValidity="true"/>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="TargetersCount">-1</ScoreModifier>
+            <ScoreModifier Name="TargetingWeightBonus">1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+    </WeaponModule>
+
+    <WeaponModule Name="ModuleWeaponMissile4a" Type="Missile" Family="MissileBase" Level="4">
+        <Cost ResourceName="SystemProduction">73</Cost>
+		<!-- ** START AI DATA ** -->
+        <!-- Weapons types -->
+        <AIBattleSituations Situation="ProjectileWeapon" Mode="Use" Value="1"/>
+		<!-- Armor types -->
+        <AIBattleSituations Situation="EnergyDefense" Mode="Against" Value="1"/>
+        <AIBattleSituations Situation="ProjectileDefense" Mode="Against" Value="-0.5"/>
+		<!-- Ship Size -->
+		<AIBattleSituations Situation="SmallShip" Mode="Against" Value="-0.25"/>
+		<AIBattleSituations Situation="LargeShip" Mode="Against" Value="0.25"/>				
+		<!-- Specific weapons -->
+        <AIBattleSituations Situation="Missile" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Kinetic" Mode="Against" Value="-0.5"/>
+        <AIBattleSituations Situation="Laser" Mode="Against" Value="0.75"/>
+        <AIBattleSituations Situation="Beam" Mode="Against" Value="1"/>
+        <!-- Ranges -->
+        <AIBattleSituations Situation="Short" Mode="Use" Value="0.25"/>
+        <AIBattleSituations Situation="Medium" Mode="Use" Value="0.5"/>
+        <AIBattleSituations Situation="Long" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Short" Mode="Against" Value="0.25"/>
+        <AIBattleSituations Situation="Medium" Mode="Against" Value="0.5"/>
+        <AIBattleSituations Situation="Long" Mode="Against" Value="1"/>
+		<!-- ** END AI DATA ** -->
+        <PathPrerequisite Flags="Edition" Inverted="true">ClassShip,CannotHaveWeapon</PathPrerequisite>
+        <TechnologyPrerequisite Flags="Edition">TechnologyCuriosityModuleWeaponMissile4a</TechnologyPrerequisite>
+        <PathPrerequisite Flags="ShipHasDestructionModule,Edition,Disable" Inverted="true">ClassShip/ClassSection/ClassModuleDestruction</PathPrerequisite>
+        <SimulationDescriptorReference Name="ClassModuleWeapon"/>
+        <CategorizedSimulationDescriptors Category="CategoryBaseWeapon">
+            <SimulationDescriptorReference Name="ModuleWeaponMissile4a"/>
+        </CategorizedSimulationDescriptors>
+        <CategorizedSimulationDescriptors Category="CategoryModuleWeaponMissile">
+            <SimulationDescriptorReference Name="ClassModuleWeaponMissile"/>
+        </CategorizedSimulationDescriptors>
+        <BattleActionReference Name="Weapon_Initialize"/>
+        <BattleActionReference Name="Weapon_SalvoHitFlotillaShield"/>
+        <BattleActionReference Name="Weapon_SalvoHitShipShield"/>
+        <BattleActionReference Name="Weapon_SalvoApplyShieldDamage"/>
+        <BattleActionReference Name="Weapon_SalvoLaunched"/>
+        <BattleActionReference Name="Weapon_SalvoPrepareHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="WeaponMissile_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="Weapon_UpdateAccuracyAfterMiss"/>
+        <AttackPathPrerequisite Inverted="true">EncounterEntityStatusDisabled</AttackPathPrerequisite>
+        <SalvoReference Name="SalvoMissile4"/>
+        <AvailableRange RangeName="Short" PenaltyPropertyName="ShortRangePenalty"/>
+        <AvailableRange RangeName="Medium" PenaltyPropertyName="MediumRangePenalty"/>
+        <AvailableRange RangeName="Long" PenaltyPropertyName="LongRangePenalty"/>
+        <TargetSortingCriterion Name="Type">
+            <ScoreModifier Name="Ship">1</ScoreModifier>
+        </TargetSortingCriterion>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="OffensiveMilitaryPowerIfWeakestTargeting">-1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+        <TargetSortingCriterion Name="Role" ScoreModifiersDefaultValue="1" IgnoredWhenCheckingTargetValidity="true"/>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="TargetersCount">-1</ScoreModifier>
+            <ScoreModifier Name="TargetingWeightBonus">1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+    </WeaponModule>
+
+    <WeaponModule Name="ModuleWeaponMissile5a" Type="Missile" Family="MissileBase" Level="5">
+        <Cost ResourceName="SystemProduction">88</Cost>
+		<!-- ** START AI DATA ** -->
+        <!-- Weapons types -->
+        <AIBattleSituations Situation="ProjectileWeapon" Mode="Use" Value="1"/>
+		<!-- Armor types -->
+        <AIBattleSituations Situation="EnergyDefense" Mode="Against" Value="1"/>
+        <AIBattleSituations Situation="ProjectileDefense" Mode="Against" Value="-0.5"/>
+		<!-- Ship Size -->
+		<AIBattleSituations Situation="SmallShip" Mode="Against" Value="-0.25"/>
+		<AIBattleSituations Situation="LargeShip" Mode="Against" Value="0.25"/>				
+		<!-- Specific weapons -->
+        <AIBattleSituations Situation="Missile" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Kinetic" Mode="Against" Value="-0.5"/>
+        <AIBattleSituations Situation="Laser" Mode="Against" Value="0.75"/>
+        <AIBattleSituations Situation="Beam" Mode="Against" Value="1"/>
+        <!-- Ranges -->
+        <AIBattleSituations Situation="Short" Mode="Use" Value="0.25"/>
+        <AIBattleSituations Situation="Medium" Mode="Use" Value="0.5"/>
+        <AIBattleSituations Situation="Long" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Short" Mode="Against" Value="0.25"/>
+        <AIBattleSituations Situation="Medium" Mode="Against" Value="0.5"/>
+        <AIBattleSituations Situation="Long" Mode="Against" Value="1"/>
+		<!-- ** END AI DATA ** -->
+        <PathPrerequisite Flags="Edition" Inverted="true">ClassShip,CannotHaveWeapon</PathPrerequisite>
+        <TechnologyPrerequisite Flags="Edition">TechnologyCuriosityModuleWeaponMissile5a</TechnologyPrerequisite>
+        <PathPrerequisite Flags="ShipHasDestructionModule,Edition,Disable" Inverted="true">ClassShip/ClassSection/ClassModuleDestruction</PathPrerequisite>
+        <SimulationDescriptorReference Name="ClassModuleWeapon"/>
+        <CategorizedSimulationDescriptors Category="CategoryBaseWeapon">
+            <SimulationDescriptorReference Name="ModuleWeaponMissile5a"/>
+        </CategorizedSimulationDescriptors>
+        <CategorizedSimulationDescriptors Category="CategoryModuleWeaponMissile">
+            <SimulationDescriptorReference Name="ClassModuleWeaponMissile"/>
+        </CategorizedSimulationDescriptors>
+        <BattleActionReference Name="Weapon_Initialize"/>
+        <BattleActionReference Name="Weapon_SalvoHitFlotillaShield"/>
+        <BattleActionReference Name="Weapon_SalvoHitShipShield"/>
+        <BattleActionReference Name="Weapon_SalvoApplyShieldDamage"/>
+        <BattleActionReference Name="Weapon_SalvoLaunched"/>
+        <BattleActionReference Name="Weapon_SalvoPrepareHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="WeaponMissile_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="Weapon_UpdateAccuracyAfterMiss"/>
+        <AttackPathPrerequisite Inverted="true">EncounterEntityStatusDisabled</AttackPathPrerequisite>
+        <SalvoReference Name="SalvoMissile5"/>
+        <AvailableRange RangeName="Short" PenaltyPropertyName="ShortRangePenalty"/>
+        <AvailableRange RangeName="Medium" PenaltyPropertyName="MediumRangePenalty"/>
+        <AvailableRange RangeName="Long" PenaltyPropertyName="LongRangePenalty"/>
+        <TargetSortingCriterion Name="Type">
+            <ScoreModifier Name="Ship">1</ScoreModifier>
+        </TargetSortingCriterion>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="OffensiveMilitaryPowerIfWeakestTargeting">-1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+        <TargetSortingCriterion Name="Role" ScoreModifiersDefaultValue="1" IgnoredWhenCheckingTargetValidity="true"/>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="TargetersCount">-1</ScoreModifier>
+            <ScoreModifier Name="TargetingWeightBonus">1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+    </WeaponModule>	
+
+    <WeaponModule Name="ModuleWeaponLaser1a" Type="Laser" Family="LaserBase" Level="1">
+        <Cost ResourceName="SystemProduction">22</Cost>
+		<!-- ** START AI DATA ** -->
+        <!-- Weapons types -->
+        <AIBattleSituations Situation="EnergyWeapon" Mode="Use" Value="1"/>
+		<!-- Armor types -->
+        <AIBattleSituations Situation="EnergyDefense" Mode="Against" Value="-0.4"/>
+        <AIBattleSituations Situation="ProjectileDefense" Mode="Against" Value="1"/>
+		<!-- Ship Size -->
+		<AIBattleSituations Situation="SmallShip" Mode="Against" Value="0.25"/>
+		<AIBattleSituations Situation="LargeShip" Mode="Against" Value="-0.25"/>				
+		<!-- Specific weapons -->
+		<AIBattleSituations Situation="Laser" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Kinetic" Mode="Against" Value="0.75"/>
+		<AIBattleSituations Situation="Missile" Mode="Against" Value="-0.5"/>
+		<AIBattleSituations Situation="Beam" Mode="Against" Value="0.5"/>
+		<!-- Ranges -->
+        <AIBattleSituations Situation="Short" Mode="Use" Value="0.5"/>
+		<AIBattleSituations Situation="Medium" Mode="Use" Value="1"/>
+		<AIBattleSituations Situation="Long" Mode="Use" Value="0.5"/>
+		<AIBattleSituations Situation="Short" Mode="Against" Value="0.75"/>
+		<AIBattleSituations Situation="Medium" Mode="Against" Value="1.25"/>
+		<AIBattleSituations Situation="Long" Mode="Against" Value="0.75"/>
+		<!-- ** END AI DATA ** -->
+        <PathPrerequisite Flags="Edition" Inverted="true">ClassShip,CannotHaveWeapon</PathPrerequisite>
+        <TechnologyPrerequisite Flags="Edition">TechnologyCuriosityModuleWeaponLaser1a</TechnologyPrerequisite>
+        <PathPrerequisite Flags="ShipHasDestructionModule,Edition,Disable" Inverted="true">ClassShip/ClassSection/ClassModuleDestruction</PathPrerequisite>
+        <SimulationDescriptorReference Name="ClassModuleWeapon"/>
+        <CategorizedSimulationDescriptors Category="CategoryBaseWeapon">
+            <SimulationDescriptorReference Name="ModuleWeaponLaser1a"/>
+        </CategorizedSimulationDescriptors>
+        <CategorizedSimulationDescriptors Category="CategoryModuleWeaponLaser">
+            <SimulationDescriptorReference Name="ClassModuleWeaponLaser"/>
+        </CategorizedSimulationDescriptors>
+        <BattleActionReference Name="Weapon_Initialize"/>
+        <BattleActionReference Name="Weapon_SalvoHitFlotillaShield"/>
+        <BattleActionReference Name="Weapon_SalvoHitShipShield"/>
+        <BattleActionReference Name="Weapon_SalvoApplyShieldDamage"/>
+        <BattleActionReference Name="Weapon_SalvoLaunched"/>
+        <BattleActionReference Name="Weapon_SalvoPrepareHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="WeaponLaser_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="Weapon_UpdateAccuracyAfterMiss"/>
+        <AttackPathPrerequisite Inverted="true">EncounterEntityStatusDisabled</AttackPathPrerequisite>
+        <SalvoReference Name="SalvoLaser1"/>
+        <AvailableRange RangeName="Long" PenaltyPropertyName="LongRangePenalty"/>
+        <AvailableRange RangeName="Medium" PenaltyPropertyName="MediumRangePenalty"/>
+        <AvailableRange RangeName="Short" PenaltyPropertyName="ShortRangePenalty"/>
+        <TargetSortingCriterion Name="Type">
+            <ScoreModifier Name="Ship">1</ScoreModifier>
+        </TargetSortingCriterion>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="OffensiveMilitaryPowerIfWeakestTargeting">-1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+        <TargetSortingCriterion Name="Role" ScoreModifiersDefaultValue="1" IgnoredWhenCheckingTargetValidity="true"/>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="TargetersCount">-1</ScoreModifier>
+            <ScoreModifier Name="TargetingWeightBonus">1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+    </WeaponModule>
+
+    <WeaponModule Name="ModuleWeaponLaser2a" Type="Laser" Family="LaserBase" Level="2">
+        <Cost ResourceName="SystemProduction">37</Cost>
+		<!-- ** START AI DATA ** -->
+        <!-- Weapons types -->
+        <AIBattleSituations Situation="EnergyWeapon" Mode="Use" Value="1"/>
+		<!-- Armor types -->
+        <AIBattleSituations Situation="EnergyDefense" Mode="Against" Value="-0.4"/>
+        <AIBattleSituations Situation="ProjectileDefense" Mode="Against" Value="1"/>
+		<!-- Ship Size -->
+		<AIBattleSituations Situation="SmallShip" Mode="Against" Value="0.25"/>
+		<AIBattleSituations Situation="LargeShip" Mode="Against" Value="-0.25"/>				
+		<!-- Specific weapons -->
+        <AIBattleSituations Situation="Laser" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Kinetic" Mode="Against" Value="0.75"/>
+        <AIBattleSituations Situation="Missile" Mode="Against" Value="-0.5"/>
+        <AIBattleSituations Situation="Beam" Mode="Against" Value="0.5"/>
+        <!-- Ranges -->
+        <AIBattleSituations Situation="Short" Mode="Use" Value="0.5"/>
+        <AIBattleSituations Situation="Medium" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Long" Mode="Use" Value="0.5"/>
+        <AIBattleSituations Situation="Short" Mode="Against" Value="0.75"/>
+        <AIBattleSituations Situation="Medium" Mode="Against" Value="1.25"/>
+        <AIBattleSituations Situation="Long" Mode="Against" Value="0.75"/>
+		<!-- ** END AI DATA ** -->
+        <PathPrerequisite Flags="Edition" Inverted="true">ClassShip,CannotHaveWeapon</PathPrerequisite>
+        <TechnologyPrerequisite Flags="Edition">TechnologyCuriosityModuleWeaponLaser2a</TechnologyPrerequisite>
+        <PathPrerequisite Flags="ShipHasDestructionModule,Edition,Disable" Inverted="true">ClassShip/ClassSection/ClassModuleDestruction</PathPrerequisite>
+        <SimulationDescriptorReference Name="ClassModuleWeapon"/>
+        <CategorizedSimulationDescriptors Category="CategoryBaseWeapon">
+            <SimulationDescriptorReference Name="ModuleWeaponLaser2a"/>
+        </CategorizedSimulationDescriptors>
+        <CategorizedSimulationDescriptors Category="CategoryModuleWeaponLaser">
+            <SimulationDescriptorReference Name="ClassModuleWeaponLaser"/>
+        </CategorizedSimulationDescriptors>
+        <BattleActionReference Name="Weapon_Initialize"/>
+        <BattleActionReference Name="Weapon_SalvoHitFlotillaShield"/>
+        <BattleActionReference Name="Weapon_SalvoHitShipShield"/>
+        <BattleActionReference Name="Weapon_SalvoApplyShieldDamage"/>
+        <BattleActionReference Name="Weapon_SalvoLaunched"/>
+        <BattleActionReference Name="Weapon_SalvoPrepareHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="WeaponLaser_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="Weapon_UpdateAccuracyAfterMiss"/>
+        <AttackPathPrerequisite Inverted="true">EncounterEntityStatusDisabled</AttackPathPrerequisite>
+        <SalvoReference Name="SalvoLaser2"/>
+        <AvailableRange RangeName="Long" PenaltyPropertyName="LongRangePenalty"/>
+        <AvailableRange RangeName="Medium" PenaltyPropertyName="MediumRangePenalty"/>
+        <AvailableRange RangeName="Short" PenaltyPropertyName="ShortRangePenalty"/>
+        <TargetSortingCriterion Name="Type">
+            <ScoreModifier Name="Ship">1</ScoreModifier>
+        </TargetSortingCriterion>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="OffensiveMilitaryPowerIfWeakestTargeting">-1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+        <TargetSortingCriterion Name="Role" ScoreModifiersDefaultValue="1" IgnoredWhenCheckingTargetValidity="true"/>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="TargetersCount">-1</ScoreModifier>
+            <ScoreModifier Name="TargetingWeightBonus">1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+    </WeaponModule>
+
+    <WeaponModule Name="ModuleWeaponLaser3a" Type="Laser" Family="LaserBase" Level="3">
+        <Cost ResourceName="SystemProduction">51</Cost>
+		<!-- ** START AI DATA ** -->
+        <!-- Weapons types -->
+        <AIBattleSituations Situation="EnergyWeapon" Mode="Use" Value="1"/>
+		<!-- Armor types -->
+        <AIBattleSituations Situation="EnergyDefense" Mode="Against" Value="-0.4"/>
+        <AIBattleSituations Situation="ProjectileDefense" Mode="Against" Value="1"/>
+		<!-- Ship Size -->
+		<AIBattleSituations Situation="SmallShip" Mode="Against" Value="0.25"/>
+		<AIBattleSituations Situation="LargeShip" Mode="Against" Value="-0.25"/>				
+		<!-- Specific weapons -->
+        <AIBattleSituations Situation="Laser" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Kinetic" Mode="Against" Value="0.75"/>
+        <AIBattleSituations Situation="Missile" Mode="Against" Value="-0.5"/>
+        <AIBattleSituations Situation="Beam" Mode="Against" Value="0.5"/>
+        <!-- Ranges -->
+        <AIBattleSituations Situation="Short" Mode="Use" Value="0.5"/>
+        <AIBattleSituations Situation="Medium" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Long" Mode="Use" Value="0.5"/>
+        <AIBattleSituations Situation="Short" Mode="Against" Value="0.75"/>
+        <AIBattleSituations Situation="Medium" Mode="Against" Value="1.25"/>
+        <AIBattleSituations Situation="Long" Mode="Against" Value="0.75"/>
+		<!-- ** END AI DATA ** -->
+        <TechnologyPrerequisite Flags="Edition">TechnologyCuriosityModuleWeaponLaser3a</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Edition" Inverted="true">ClassShip,CannotHaveWeapon</PathPrerequisite>
+        <PathPrerequisite Flags="ShipHasDestructionModule,Edition,Disable" Inverted="true">ClassShip/ClassSection/ClassModuleDestruction</PathPrerequisite>
+        <SimulationDescriptorReference Name="ClassModuleWeapon"/>
+        <CategorizedSimulationDescriptors Category="CategoryBaseWeapon">
+            <SimulationDescriptorReference Name="ModuleWeaponLaser3a"/>
+        </CategorizedSimulationDescriptors>
+        <CategorizedSimulationDescriptors Category="CategoryModuleWeaponLaser">
+            <SimulationDescriptorReference Name="ClassModuleWeaponLaser"/>
+        </CategorizedSimulationDescriptors>
+        <BattleActionReference Name="Weapon_Initialize"/>
+        <BattleActionReference Name="Weapon_SalvoHitFlotillaShield"/>
+        <BattleActionReference Name="Weapon_SalvoHitShipShield"/>
+        <BattleActionReference Name="Weapon_SalvoApplyShieldDamage"/>
+        <BattleActionReference Name="Weapon_SalvoLaunched"/>
+        <BattleActionReference Name="Weapon_SalvoPrepareHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="WeaponLaser_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="Weapon_UpdateAccuracyAfterMiss"/>
+        <AttackPathPrerequisite Inverted="true">EncounterEntityStatusDisabled</AttackPathPrerequisite>
+        <SalvoReference Name="SalvoLaser3"/>
+        <AvailableRange RangeName="Long" PenaltyPropertyName="LongRangePenalty"/>
+        <AvailableRange RangeName="Medium" PenaltyPropertyName="MediumRangePenalty"/>
+        <AvailableRange RangeName="Short" PenaltyPropertyName="ShortRangePenalty"/>
+        <TargetSortingCriterion Name="Type">
+            <ScoreModifier Name="Ship">1</ScoreModifier>
+        </TargetSortingCriterion>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="OffensiveMilitaryPowerIfWeakestTargeting">-1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+        <TargetSortingCriterion Name="Role" ScoreModifiersDefaultValue="1" IgnoredWhenCheckingTargetValidity="true"/>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="TargetersCount">-1</ScoreModifier>
+            <ScoreModifier Name="TargetingWeightBonus">1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+    </WeaponModule>
+
+    <WeaponModule Name="ModuleWeaponLaser4a" Type="Laser" Family="LaserBase" Level="4">
+        <Cost ResourceName="SystemProduction">68</Cost>
+		<!-- ** START AI DATA ** -->
+        <!-- Weapons types -->
+        <AIBattleSituations Situation="EnergyWeapon" Mode="Use" Value="1"/>
+		<!-- Armor types -->
+        <AIBattleSituations Situation="EnergyDefense" Mode="Against" Value="-0.4"/>
+        <AIBattleSituations Situation="ProjectileDefense" Mode="Against" Value="1"/>
+		<!-- Ship Size -->
+		<AIBattleSituations Situation="SmallShip" Mode="Against" Value="0.25"/>
+		<AIBattleSituations Situation="LargeShip" Mode="Against" Value="-0.25"/>				
+		<!-- Specific weapons -->
+        <AIBattleSituations Situation="Laser" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Kinetic" Mode="Against" Value="0.75"/>
+        <AIBattleSituations Situation="Missile" Mode="Against" Value="-0.5"/>
+        <AIBattleSituations Situation="Beam" Mode="Against" Value="0.5"/>
+        <!-- Ranges -->
+        <AIBattleSituations Situation="Short" Mode="Use" Value="0.5"/>
+        <AIBattleSituations Situation="Medium" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Long" Mode="Use" Value="0.5"/>
+        <AIBattleSituations Situation="Short" Mode="Against" Value="0.75"/>
+        <AIBattleSituations Situation="Medium" Mode="Against" Value="1.25"/>
+        <AIBattleSituations Situation="Long" Mode="Against" Value="0.75"/>
+		<!-- ** END AI DATA ** -->
+        <PathPrerequisite Flags="Edition" Inverted="true">ClassShip,CannotHaveWeapon</PathPrerequisite>
+        <TechnologyPrerequisite Flags="Edition">TechnologyCuriosityModuleWeaponLaser4a</TechnologyPrerequisite>
+        <PathPrerequisite Flags="ShipHasDestructionModule,Edition,Disable" Inverted="true">ClassShip/ClassSection/ClassModuleDestruction</PathPrerequisite>
+        <SimulationDescriptorReference Name="ClassModuleWeapon"/>
+        <CategorizedSimulationDescriptors Category="CategoryBaseWeapon">
+            <SimulationDescriptorReference Name="ModuleWeaponLaser4a"/>
+        </CategorizedSimulationDescriptors>
+        <CategorizedSimulationDescriptors Category="CategoryModuleWeaponLaser">
+            <SimulationDescriptorReference Name="ClassModuleWeaponLaser"/>
+        </CategorizedSimulationDescriptors>
+        <BattleActionReference Name="Weapon_Initialize"/>
+        <BattleActionReference Name="Weapon_SalvoHitFlotillaShield"/>
+        <BattleActionReference Name="Weapon_SalvoHitShipShield"/>
+        <BattleActionReference Name="Weapon_SalvoApplyShieldDamage"/>
+        <BattleActionReference Name="Weapon_SalvoLaunched"/>
+        <BattleActionReference Name="Weapon_SalvoPrepareHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="WeaponLaser_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="Weapon_UpdateAccuracyAfterMiss"/>
+        <AttackPathPrerequisite Inverted="true">EncounterEntityStatusDisabled</AttackPathPrerequisite>
+        <SalvoReference Name="SalvoLaser4"/>
+        <AvailableRange RangeName="Long" PenaltyPropertyName="LongRangePenalty"/>
+        <AvailableRange RangeName="Medium" PenaltyPropertyName="MediumRangePenalty"/>
+        <AvailableRange RangeName="Short" PenaltyPropertyName="ShortRangePenalty"/>
+        <TargetSortingCriterion Name="Type">
+            <ScoreModifier Name="Ship">1</ScoreModifier>
+        </TargetSortingCriterion>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="OffensiveMilitaryPowerIfWeakestTargeting">-1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+        <TargetSortingCriterion Name="Role" ScoreModifiersDefaultValue="1" IgnoredWhenCheckingTargetValidity="true"/>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="TargetersCount">-1</ScoreModifier>
+            <ScoreModifier Name="TargetingWeightBonus">1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+    </WeaponModule>
+
+    <WeaponModule Name="ModuleWeaponLaser5a" Type="Laser" Family="LaserBase" Level="5">
+        <Cost ResourceName="SystemProduction">84</Cost>
+		<!-- ** START AI DATA ** -->
+        <!-- Weapons types -->
+        <AIBattleSituations Situation="EnergyWeapon" Mode="Use" Value="1"/>
+		<!-- Armor types -->
+        <AIBattleSituations Situation="EnergyDefense" Mode="Against" Value="-0.4"/>
+        <AIBattleSituations Situation="ProjectileDefense" Mode="Against" Value="1"/>
+		<!-- Ship Size -->
+		<AIBattleSituations Situation="SmallShip" Mode="Against" Value="0.25"/>
+		<AIBattleSituations Situation="LargeShip" Mode="Against" Value="-0.25"/>				
+		<!-- Specific weapons -->
+        <AIBattleSituations Situation="Laser" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Kinetic" Mode="Against" Value="0.75"/>
+        <AIBattleSituations Situation="Missile" Mode="Against" Value="-0.5"/>
+        <AIBattleSituations Situation="Beam" Mode="Against" Value="0.5"/>
+        <!-- Ranges -->
+        <AIBattleSituations Situation="Short" Mode="Use" Value="0.5"/>
+        <AIBattleSituations Situation="Medium" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Long" Mode="Use" Value="0.5"/>
+        <AIBattleSituations Situation="Short" Mode="Against" Value="0.75"/>
+        <AIBattleSituations Situation="Medium" Mode="Against" Value="1.25"/>
+        <AIBattleSituations Situation="Long" Mode="Against" Value="0.75"/>
+		<!-- ** END AI DATA ** -->
+        <TechnologyPrerequisite Flags="Edition">TechnologyCuriosityModuleWeaponLaser5a</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Edition" Inverted="true">ClassShip,CannotHaveWeapon</PathPrerequisite>
+        <PathPrerequisite Flags="ShipHasDestructionModule,Edition,Disable" Inverted="true">ClassShip/ClassSection/ClassModuleDestruction</PathPrerequisite>
+        <SimulationDescriptorReference Name="ClassModuleWeapon"/>
+        <CategorizedSimulationDescriptors Category="CategoryBaseWeapon">
+            <SimulationDescriptorReference Name="ModuleWeaponLaser5a"/>
+        </CategorizedSimulationDescriptors>
+        <CategorizedSimulationDescriptors Category="CategoryModuleWeaponLaser">
+            <SimulationDescriptorReference Name="ClassModuleWeaponLaser"/>
+        </CategorizedSimulationDescriptors>
+        <BattleActionReference Name="Weapon_Initialize"/>
+        <BattleActionReference Name="Weapon_SalvoHitFlotillaShield"/>
+        <BattleActionReference Name="Weapon_SalvoHitShipShield"/>
+        <BattleActionReference Name="Weapon_SalvoApplyShieldDamage"/>
+        <BattleActionReference Name="Weapon_SalvoLaunched"/>
+        <BattleActionReference Name="Weapon_SalvoPrepareHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="WeaponLaser_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="Weapon_UpdateAccuracyAfterMiss"/>
+        <AttackPathPrerequisite Inverted="true">EncounterEntityStatusDisabled</AttackPathPrerequisite>
+        <SalvoReference Name="SalvoLaser5"/>
+        <AvailableRange RangeName="Long" PenaltyPropertyName="LongRangePenalty"/>
+        <AvailableRange RangeName="Medium" PenaltyPropertyName="MediumRangePenalty"/>
+        <AvailableRange RangeName="Short" PenaltyPropertyName="ShortRangePenalty"/>
+        <TargetSortingCriterion Name="Type">
+            <ScoreModifier Name="Ship">1</ScoreModifier>
+        </TargetSortingCriterion>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="OffensiveMilitaryPowerIfWeakestTargeting">-1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+        <TargetSortingCriterion Name="Role" ScoreModifiersDefaultValue="1" IgnoredWhenCheckingTargetValidity="true"/>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="TargetersCount">-1</ScoreModifier>
+            <ScoreModifier Name="TargetingWeightBonus">1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+    </WeaponModule>
+
+    <!-- ******************** -->
+    <!-- **Base BEAM Weapons** -->
+    <!-- ******************** -->
+
+    <WeaponModule Name="ModuleWeaponBeam1a" Type="Beam" Family="BeamBase" Level="1">
+        <Cost ResourceName="SystemProduction">25</Cost>
+		<!-- ** START AI DATA ** -->
+        <!-- Weapons types -->
+        <AIBattleSituations Situation="EnergyWeapon" Mode="Use" Value="1"/>
+		<!-- Armor types -->
+        <AIBattleSituations Situation="EnergyDefense" Mode="Against" Value="-0.4"/>
+        <AIBattleSituations Situation="ProjectileDefense" Mode="Against" Value="1"/>
+		<!-- Ship Size -->
+		<AIBattleSituations Situation="SmallShip" Mode="Against" Value="-0.25"/>
+		<AIBattleSituations Situation="LargeShip" Mode="Against" Value="0.25"/>				
+		<!-- Specific weapons -->
+		<AIBattleSituations Situation="Beam" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Kinetic" Mode="Against" Value="0.5"/>
+		<AIBattleSituations Situation="Missile" Mode="Against" Value="-0.75"/>
+		<AIBattleSituations Situation="Laser" Mode="Against" Value="-0.75"/>
+		<!-- Ranges -->
+        <AIBattleSituations Situation="Short" Mode="Use" Value="1"/>
+		<AIBattleSituations Situation="Medium" Mode="Use" Value="1"/>
+		<AIBattleSituations Situation="Long" Mode="Use" Value="1"/>
+		<AIBattleSituations Situation="Short" Mode="Against" Value="1.25"/>
+		<AIBattleSituations Situation="Medium" Mode="Against" Value="1.125"/>
+		<AIBattleSituations Situation="Long" Mode="Against" Value="1"/>
+		<!-- ** END AI DATA ** -->
+        <PathPrerequisite Flags="Edition" Inverted="true">ClassShip,CannotHaveWeapon</PathPrerequisite>
+        <TechnologyPrerequisite Flags="Edition">TechnologyCuriosityModuleWeaponBeam1a</TechnologyPrerequisite>
+        <PathPrerequisite Flags="ShipHasDestructionModule,Edition,Disable" Inverted="true">ClassShip/ClassSection/ClassModuleDestruction</PathPrerequisite>
+        <SimulationDescriptorReference Name="ClassModuleWeapon"/>
+        <CategorizedSimulationDescriptors Category="CategoryBaseWeapon">
+            <SimulationDescriptorReference Name="ModuleWeaponBeam1a"/>
+        </CategorizedSimulationDescriptors>
+        <CategorizedSimulationDescriptors Category="CategoryModuleWeaponBeam">
+            <SimulationDescriptorReference Name="ClassModuleWeaponBeam"/>
+        </CategorizedSimulationDescriptors>
+        <BattleActionReference Name="Weapon_Initialize"/>
+        <BattleActionReference Name="Weapon_SalvoHitFlotillaShield"/>
+        <BattleActionReference Name="Weapon_SalvoHitShipShield"/>
+        <BattleActionReference Name="Weapon_SalvoApplyShieldDamage"/>
+        <BattleActionReference Name="Weapon_SalvoLaunched"/>
+        <BattleActionReference Name="Weapon_SalvoPrepareHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="WeaponBeam_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="Weapon_UpdateAccuracyAfterMiss"/>
+        <AttackPathPrerequisite Inverted="true">EncounterEntityStatusDisabled</AttackPathPrerequisite>
+        <SalvoReference Name="SalvoBeam1"/>
+        <AvailableRange RangeName="Long" PenaltyPropertyName="LongRangePenalty"/>
+        <AvailableRange RangeName="Medium" PenaltyPropertyName="MediumRangePenalty"/>
+        <AvailableRange RangeName="Short" PenaltyPropertyName="ShortRangePenalty"/>
+        <TargetSortingCriterion Name="Type">
+            <ScoreModifier Name="Ship">1</ScoreModifier>
+        </TargetSortingCriterion>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="OffensiveMilitaryPowerIfWeakestTargeting">-1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+        <TargetSortingCriterion Name="Role" ScoreModifiersDefaultValue="1" IgnoredWhenCheckingTargetValidity="true"/>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="TargetersCount">-1</ScoreModifier>
+            <ScoreModifier Name="TargetingWeightBonus">1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+    </WeaponModule>
+	
+    <WeaponModule Name="ModuleWeaponBeam2a" Type="Beam" Family="BeamBase" Level="2">
+        <Cost ResourceName="SystemProduction">43</Cost>
+		<!-- ** START AI DATA ** -->
+        <!-- Weapons types -->
+        <AIBattleSituations Situation="EnergyWeapon" Mode="Use" Value="1"/>
+		<!-- Armor types -->
+        <AIBattleSituations Situation="EnergyDefense" Mode="Against" Value="-0.4"/>
+        <AIBattleSituations Situation="ProjectileDefense" Mode="Against" Value="1"/>
+		<!-- Ship Size -->
+		<AIBattleSituations Situation="SmallShip" Mode="Against" Value="-0.25"/>
+		<AIBattleSituations Situation="LargeShip" Mode="Against" Value="0.25"/>				
+		<!-- Specific weapons -->
+        <AIBattleSituations Situation="Beam" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Kinetic" Mode="Against" Value="0.5"/>
+        <AIBattleSituations Situation="Missile" Mode="Against" Value="-0.25"/>
+        <AIBattleSituations Situation="Laser" Mode="Against" Value="-0.75"/>
+        <!-- Ranges -->
+        <AIBattleSituations Situation="Short" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Medium" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Long" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Short" Mode="Against" Value="1.25"/>
+        <AIBattleSituations Situation="Medium" Mode="Against" Value="1.125"/>
+        <AIBattleSituations Situation="Long" Mode="Against" Value="1"/>
+		<!-- ** END AI DATA ** -->
+        <PathPrerequisite Flags="Edition" Inverted="true">ClassShip,CannotHaveWeapon</PathPrerequisite>
+        <TechnologyPrerequisite Flags="Edition">TechnologyCuriosityModuleWeaponBeam2a</TechnologyPrerequisite>
+        <PathPrerequisite Flags="ShipHasDestructionModule,Edition,Disable" Inverted="true">ClassShip/ClassSection/ClassModuleDestruction</PathPrerequisite>
+        <SimulationDescriptorReference Name="ClassModuleWeapon"/>
+        <CategorizedSimulationDescriptors Category="CategoryBaseWeapon">
+            <SimulationDescriptorReference Name="ModuleWeaponBeam2a"/>
+        </CategorizedSimulationDescriptors>
+        <CategorizedSimulationDescriptors Category="CategoryModuleWeaponBeam">
+            <SimulationDescriptorReference Name="ClassModuleWeaponBeam"/>
+        </CategorizedSimulationDescriptors>
+        <BattleActionReference Name="Weapon_Initialize"/>
+        <BattleActionReference Name="Weapon_SalvoHitFlotillaShield"/>
+        <BattleActionReference Name="Weapon_SalvoHitShipShield"/>
+        <BattleActionReference Name="Weapon_SalvoApplyShieldDamage"/>
+        <BattleActionReference Name="Weapon_SalvoLaunched"/>
+        <BattleActionReference Name="Weapon_SalvoPrepareHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="WeaponBeam_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="Weapon_UpdateAccuracyAfterMiss"/>
+        <AttackPathPrerequisite Inverted="true">EncounterEntityStatusDisabled</AttackPathPrerequisite>
+        <SalvoReference Name="SalvoBeam2"/>
+        <AvailableRange RangeName="Long" PenaltyPropertyName="LongRangePenalty"/>
+        <AvailableRange RangeName="Medium" PenaltyPropertyName="MediumRangePenalty"/>
+        <AvailableRange RangeName="Short" PenaltyPropertyName="ShortRangePenalty"/>
+        <TargetSortingCriterion Name="Type">
+            <ScoreModifier Name="Ship">1</ScoreModifier>
+        </TargetSortingCriterion>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="OffensiveMilitaryPowerIfWeakestTargeting">-1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+        <TargetSortingCriterion Name="Role" ScoreModifiersDefaultValue="1" IgnoredWhenCheckingTargetValidity="true"/>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="TargetersCount">-1</ScoreModifier>
+            <ScoreModifier Name="TargetingWeightBonus">1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+    </WeaponModule>	
+
+    <WeaponModule Name="ModuleWeaponBeam3a" Type="Beam" Family="BeamBase" Level="3">
+        <Cost ResourceName="SystemProduction">62</Cost>
+		<!-- ** START AI DATA ** -->
+        <!-- Weapons types -->
+        <AIBattleSituations Situation="EnergyWeapon" Mode="Use" Value="1"/>
+		<!-- Armor types -->
+        <AIBattleSituations Situation="EnergyDefense" Mode="Against" Value="-0.4"/>
+        <AIBattleSituations Situation="ProjectileDefense" Mode="Against" Value="1"/>
+		<!-- Ship Size -->
+		<AIBattleSituations Situation="SmallShip" Mode="Against" Value="-0.25"/>
+		<AIBattleSituations Situation="LargeShip" Mode="Against" Value="0.25"/>				
+		<!-- Specific weapons -->
+        <AIBattleSituations Situation="Beam" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Kinetic" Mode="Against" Value="0.5"/>
+        <AIBattleSituations Situation="Missile" Mode="Against" Value="-0.25"/>
+        <AIBattleSituations Situation="Laser" Mode="Against" Value="-0.75"/>
+        <!-- Ranges -->
+        <AIBattleSituations Situation="Short" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Medium" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Long" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Short" Mode="Against" Value="1.25"/>
+        <AIBattleSituations Situation="Medium" Mode="Against" Value="1.125"/>
+        <AIBattleSituations Situation="Long" Mode="Against" Value="1"/>
+		<!-- ** END AI DATA ** -->
+        <PathPrerequisite Flags="Edition" Inverted="true">ClassShip,CannotHaveWeapon</PathPrerequisite>
+        <TechnologyPrerequisite Flags="Edition">TechnologyCuriosityModuleWeaponBeam3a</TechnologyPrerequisite>
+        <PathPrerequisite Flags="ShipHasDestructionModule,Edition,Disable" Inverted="true">ClassShip/ClassSection/ClassModuleDestruction</PathPrerequisite>
+        <SimulationDescriptorReference Name="ClassModuleWeapon"/>
+        <CategorizedSimulationDescriptors Category="CategoryBaseWeapon">
+            <SimulationDescriptorReference Name="ModuleWeaponBeam3a"/>
+        </CategorizedSimulationDescriptors>
+        <CategorizedSimulationDescriptors Category="CategoryModuleWeaponBeam">
+            <SimulationDescriptorReference Name="ClassModuleWeaponBeam"/>
+        </CategorizedSimulationDescriptors>
+        <BattleActionReference Name="Weapon_Initialize"/>
+        <BattleActionReference Name="Weapon_SalvoHitFlotillaShield"/>
+        <BattleActionReference Name="Weapon_SalvoHitShipShield"/>
+        <BattleActionReference Name="Weapon_SalvoApplyShieldDamage"/>
+        <BattleActionReference Name="Weapon_SalvoLaunched"/>
+        <BattleActionReference Name="Weapon_SalvoPrepareHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="WeaponBeam_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="Weapon_UpdateAccuracyAfterMiss"/>
+        <AttackPathPrerequisite Inverted="true">EncounterEntityStatusDisabled</AttackPathPrerequisite>
+        <SalvoReference Name="SalvoBeam3"/>
+        <AvailableRange RangeName="Long" PenaltyPropertyName="LongRangePenalty"/>
+        <AvailableRange RangeName="Medium" PenaltyPropertyName="MediumRangePenalty"/>
+        <AvailableRange RangeName="Short" PenaltyPropertyName="ShortRangePenalty"/>
+        <TargetSortingCriterion Name="Type">
+            <ScoreModifier Name="Ship">1</ScoreModifier>
+        </TargetSortingCriterion>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="OffensiveMilitaryPowerIfWeakestTargeting">-1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+        <TargetSortingCriterion Name="Role" ScoreModifiersDefaultValue="1" IgnoredWhenCheckingTargetValidity="true"/>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="TargetersCount">-1</ScoreModifier>
+            <ScoreModifier Name="TargetingWeightBonus">1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+    </WeaponModule>
+	
+    <WeaponModule Name="ModuleWeaponBeam4a" Type="Beam" Family="BeamBase" Level="4">
+        <Cost ResourceName="SystemProduction">83</Cost>
+		<!-- ** START AI DATA ** -->
+        <!-- Weapons types -->
+        <AIBattleSituations Situation="EnergyWeapon" Mode="Use" Value="1"/>
+		<!-- Armor types -->
+        <AIBattleSituations Situation="EnergyDefense" Mode="Against" Value="-0.4"/>
+        <AIBattleSituations Situation="ProjectileDefense" Mode="Against" Value="1"/>
+		<!-- Ship Size -->
+		<AIBattleSituations Situation="SmallShip" Mode="Against" Value="-0.25"/>
+		<AIBattleSituations Situation="LargeShip" Mode="Against" Value="0.25"/>				
+		<!-- Specific weapons -->
+        <AIBattleSituations Situation="Beam" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Kinetic" Mode="Against" Value="0.5"/>
+        <AIBattleSituations Situation="Missile" Mode="Against" Value="-0.25"/>
+        <AIBattleSituations Situation="Laser" Mode="Against" Value="-0.75"/>
+        <!-- Ranges -->
+        <AIBattleSituations Situation="Short" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Medium" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Long" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Short" Mode="Against" Value="1.25"/>
+        <AIBattleSituations Situation="Medium" Mode="Against" Value="1.125"/>
+        <AIBattleSituations Situation="Long" Mode="Against" Value="1"/>
+		<!-- ** END AI DATA ** -->
+        <PathPrerequisite Flags="Edition" Inverted="true">ClassShip,CannotHaveWeapon</PathPrerequisite>
+        <TechnologyPrerequisite Flags="Edition">TechnologyCuriosityModuleWeaponBeam4a</TechnologyPrerequisite>
+        <PathPrerequisite Flags="ShipHasDestructionModule,Edition,Disable" Inverted="true">ClassShip/ClassSection/ClassModuleDestruction</PathPrerequisite>
+        <SimulationDescriptorReference Name="ClassModuleWeapon"/>
+        <CategorizedSimulationDescriptors Category="CategoryBaseWeapon">
+            <SimulationDescriptorReference Name="ModuleWeaponBeam4a"/>
+        </CategorizedSimulationDescriptors>
+        <CategorizedSimulationDescriptors Category="CategoryModuleWeaponBeam">
+            <SimulationDescriptorReference Name="ClassModuleWeaponBeam"/>
+        </CategorizedSimulationDescriptors>
+        <BattleActionReference Name="Weapon_Initialize"/>
+        <BattleActionReference Name="Weapon_SalvoHitFlotillaShield"/>
+        <BattleActionReference Name="Weapon_SalvoHitShipShield"/>
+        <BattleActionReference Name="Weapon_SalvoApplyShieldDamage"/>
+        <BattleActionReference Name="Weapon_SalvoLaunched"/>
+        <BattleActionReference Name="Weapon_SalvoPrepareHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="WeaponBeam_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="Weapon_UpdateAccuracyAfterMiss"/>
+        <AttackPathPrerequisite Inverted="true">EncounterEntityStatusDisabled</AttackPathPrerequisite>
+        <SalvoReference Name="SalvoBeam4"/>
+        <AvailableRange RangeName="Long" PenaltyPropertyName="LongRangePenalty"/>
+        <AvailableRange RangeName="Medium" PenaltyPropertyName="MediumRangePenalty"/>
+        <AvailableRange RangeName="Short" PenaltyPropertyName="ShortRangePenalty"/>
+        <TargetSortingCriterion Name="Type">
+            <ScoreModifier Name="Ship">1</ScoreModifier>
+        </TargetSortingCriterion>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="OffensiveMilitaryPowerIfWeakestTargeting">-1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+        <TargetSortingCriterion Name="Role" ScoreModifiersDefaultValue="1" IgnoredWhenCheckingTargetValidity="true"/>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="TargetersCount">-1</ScoreModifier>
+            <ScoreModifier Name="TargetingWeightBonus">1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+    </WeaponModule>
+
+    <WeaponModule Name="ModuleWeaponBeam5a" Type="Beam" Family="BeamBase" Level="5">
+        <Cost ResourceName="SystemProduction">105</Cost>
+		<!-- ** START AI DATA ** -->
+        <!-- Weapons types -->
+        <AIBattleSituations Situation="EnergyWeapon" Mode="Use" Value="1"/>
+		<!-- Armor types -->
+        <AIBattleSituations Situation="EnergyDefense" Mode="Against" Value="-0.4"/>
+        <AIBattleSituations Situation="ProjectileDefense" Mode="Against" Value="1"/>
+		<!-- Ship Size -->
+		<AIBattleSituations Situation="SmallShip" Mode="Against" Value="-0.25"/>
+		<AIBattleSituations Situation="LargeShip" Mode="Against" Value="0.25"/>				
+		<!-- Specific weapons -->
+        <AIBattleSituations Situation="Beam" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Kinetic" Mode="Against" Value="0.5"/>
+        <AIBattleSituations Situation="Missile" Mode="Against" Value="-0.25"/>
+        <AIBattleSituations Situation="Laser" Mode="Against" Value="-0.75"/>
+        <!-- Ranges -->
+        <AIBattleSituations Situation="Short" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Medium" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Long" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Short" Mode="Against" Value="1.25"/>
+        <AIBattleSituations Situation="Medium" Mode="Against" Value="1.125"/>
+        <AIBattleSituations Situation="Long" Mode="Against" Value="1"/>
+		<!-- ** END AI DATA ** -->
+        <PathPrerequisite Flags="Edition" Inverted="true">ClassShip,CannotHaveWeapon</PathPrerequisite>
+        <TechnologyPrerequisite Flags="Edition">TechnologyCuriosityModuleWeaponBeam5a</TechnologyPrerequisite>
+        <PathPrerequisite Flags="ShipHasDestructionModule,Edition,Disable" Inverted="true">ClassShip/ClassSection/ClassModuleDestruction</PathPrerequisite>
+        <SimulationDescriptorReference Name="ClassModuleWeapon"/>
+        <CategorizedSimulationDescriptors Category="CategoryBaseWeapon">
+            <SimulationDescriptorReference Name="ModuleWeaponBeam5a"/>
+        </CategorizedSimulationDescriptors>
+        <CategorizedSimulationDescriptors Category="CategoryModuleWeaponBeam">
+            <SimulationDescriptorReference Name="ClassModuleWeaponBeam"/>
+        </CategorizedSimulationDescriptors>
+        <BattleActionReference Name="Weapon_Initialize"/>
+        <BattleActionReference Name="Weapon_SalvoHitFlotillaShield"/>
+        <BattleActionReference Name="Weapon_SalvoHitShipShield"/>
+        <BattleActionReference Name="Weapon_SalvoApplyShieldDamage"/>
+        <BattleActionReference Name="Weapon_SalvoLaunched"/>
+        <BattleActionReference Name="Weapon_SalvoPrepareHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="WeaponBeam_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="Weapon_UpdateAccuracyAfterMiss"/>
+        <AttackPathPrerequisite Inverted="true">EncounterEntityStatusDisabled</AttackPathPrerequisite>
+        <SalvoReference Name="SalvoBeam5"/>
+        <AvailableRange RangeName="Long" PenaltyPropertyName="LongRangePenalty"/>
+        <AvailableRange RangeName="Medium" PenaltyPropertyName="MediumRangePenalty"/>
+        <AvailableRange RangeName="Short" PenaltyPropertyName="ShortRangePenalty"/>
+        <TargetSortingCriterion Name="Type">
+            <ScoreModifier Name="Ship">1</ScoreModifier>
+        </TargetSortingCriterion>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="OffensiveMilitaryPowerIfWeakestTargeting">-1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+        <TargetSortingCriterion Name="Role" ScoreModifiersDefaultValue="1" IgnoredWhenCheckingTargetValidity="true"/>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="TargetersCount">-1</ScoreModifier>
+            <ScoreModifier Name="TargetingWeightBonus">1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+    </WeaponModule>
+
+    <!--##########################-->
+    <!--###   Swarm Missile    ###-->
+    <!--##########################-->	
+	
+    <WeaponModule Name="ModuleWeaponMissileSwarm1a" Type="Missile" Family="MissileSwarm" Level="2">
+        <Cost ResourceName="SystemProduction">33</Cost>
+        <!-- ** START AI DATA ** -->
+        <!-- Weapons types -->
+        <AIBattleSituations Situation="ProjectileWeapon" Mode="Use" Value="1"/>
+        <!-- Armor types -->
+        <AIBattleSituations Situation="EnergyDefense" Mode="Against" Value="1"/>
+        <AIBattleSituations Situation="ProjectileDefense" Mode="Against" Value="-0.5"/>
+		<!-- Ship Size -->
+		<AIBattleSituations Situation="SmallShip" Mode="Against" Value="0.35"/>
+	<!--	<AIBattleSituations Situation="LargeShip" Mode="Against" Value="0"/>	-->			
+		<!-- Specific weapons -->
+        <AIBattleSituations Situation="Missile" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Laser" Mode="Against" Value="0.5"/>
+        <AIBattleSituations Situation="Beam" Mode="Against" Value="0.75"/>
+        <!-- Ranges -->
+        <AIBattleSituations Situation="Short" Mode="Use" Value="0.25"/>
+        <AIBattleSituations Situation="Medium" Mode="Use" Value="0.5"/>
+        <AIBattleSituations Situation="Long" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Short" Mode="Against" Value="0.25"/>
+        <AIBattleSituations Situation="Medium" Mode="Against" Value="0.5"/>
+        <AIBattleSituations Situation="Long" Mode="Against" Value="1"/>
+        <!-- ** END AI DATA ** -->
+        <DownloadableContentPrerequisite Flags="Prerequisite,Edition,UnlockAvailability">Update5</DownloadableContentPrerequisite>
+        <TechnologyPrerequisite Flags="Edition">TechnologyCuriosityModuleWeaponMissileSwarm1a</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Edition" Inverted="true">ClassShip,CannotHaveWeapon</PathPrerequisite>
+        <PathPrerequisite Flags="ShipHasDestructionModule,Edition,Disable" Inverted="true">ClassShip/ClassSection/ClassModuleDestruction</PathPrerequisite>
+        <SimulationDescriptorReference Name="ClassModuleWeapon"/>
+        <SimulationDescriptorReference Name="ClassModuleWeaponMissileSwarm"/>
+        <SimulationDescriptorReference Name="ModuleWeaponMissileSwarm1a"/>
+        <SimulationDescriptorReference Name="ClassModuleSwarmMissilesExplication"/>
+        <BattleActionReference Name="Weapon_Initialize"/>
+        <BattleActionReference Name="WeaponSwarm_Initialize"/>
+        <BattleActionReference Name="Weapon_SalvoHitFlotillaShield"/>
+        <BattleActionReference Name="Weapon_SalvoHitShipShield"/>
+        <BattleActionReference Name="Weapon_SalvoApplyShieldDamage"/>
+        <BattleActionReference Name="Weapon_SalvoLaunched"/>
+        <BattleActionReference Name="WeaponSwarm_SwarmLaunched"/>
+        <BattleActionReference Name="Weapon_SalvoPrepareHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="WeaponMissileSwarm_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="Weapon_UpdateAccuracyAfterMiss"/>
+        <AttackPathPrerequisite Inverted="true">EncounterEntityStatusDisabled</AttackPathPrerequisite>
+        <SalvoReference Name="SalvoMissileSwarm1"/>
+        <AvailableRange RangeName="Short" PenaltyPropertyName="ShortRangePenalty"/>
+        <AvailableRange RangeName="Medium" PenaltyPropertyName="MediumRangePenalty"/>
+        <AvailableRange RangeName="Long" PenaltyPropertyName="LongRangePenalty"/>
+        <TargetSortingCriterion Name="Type">
+            <ScoreModifier Name="Ship">1</ScoreModifier>
+        </TargetSortingCriterion>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="OffensiveMilitaryPowerIfWeakestTargeting">-1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+        <TargetSortingCriterion Name="Role" ScoreModifiersDefaultValue="1" IgnoredWhenCheckingTargetValidity="true"/>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="TargetersCount">-1</ScoreModifier>
+            <ScoreModifier Name="TargetingWeightBonus">1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+    </WeaponModule>
+
+
+    <WeaponModule Name="ModuleWeaponMissileSwarm2a" Type="Missile" Family="MissileSwarm" Level="3">
+        <Cost ResourceName="SystemProduction">55</Cost>
+        <!-- ** START AI DATA ** -->
+        <!-- Weapons types -->
+        <AIBattleSituations Situation="ProjectileWeapon" Mode="Use" Value="1"/>
+        <!-- Armor types -->
+        <AIBattleSituations Situation="EnergyDefense" Mode="Against" Value="1"/>
+        <AIBattleSituations Situation="ProjectileDefense" Mode="Against" Value="-0.5"/>
+		<!-- Ship Size -->
+		<AIBattleSituations Situation="SmallShip" Mode="Against" Value="0.35"/>
+	<!--	<AIBattleSituations Situation="LargeShip" Mode="Against" Value="0"/>	-->			
+		<!-- Specific weapons -->
+        <AIBattleSituations Situation="Missile" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Laser" Mode="Against" Value="0.5"/>
+        <AIBattleSituations Situation="Beam" Mode="Against" Value="0.75"/>
+        <!-- Ranges -->
+        <AIBattleSituations Situation="Short" Mode="Use" Value="0.25"/>
+        <AIBattleSituations Situation="Medium" Mode="Use" Value="0.5"/>
+        <AIBattleSituations Situation="Long" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Short" Mode="Against" Value="0.25"/>
+        <AIBattleSituations Situation="Medium" Mode="Against" Value="0.5"/>
+        <AIBattleSituations Situation="Long" Mode="Against" Value="1"/>
+        <!-- ** END AI DATA ** -->
+        <DownloadableContentPrerequisite Flags="Prerequisite,Edition,UnlockAvailability">Update5</DownloadableContentPrerequisite>
+        <TechnologyPrerequisite Flags="Edition">TechnologyCuriosityModuleWeaponMissileSwarm2a</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Edition" Inverted="true">ClassShip,CannotHaveWeapon</PathPrerequisite>
+        <PathPrerequisite Flags="ShipHasDestructionModule,Edition,Disable" Inverted="true">ClassShip/ClassSection/ClassModuleDestruction</PathPrerequisite>
+        <SimulationDescriptorReference Name="ClassModuleWeapon"/>
+        <SimulationDescriptorReference Name="ClassModuleWeaponMissileSwarm"/>
+        <SimulationDescriptorReference Name="ModuleWeaponMissileSwarm2a"/>
+        <SimulationDescriptorReference Name="ClassModuleSwarmMissilesExplication"/>
+        <BattleActionReference Name="Weapon_Initialize"/>
+        <BattleActionReference Name="WeaponSwarm_Initialize"/>
+        <BattleActionReference Name="Weapon_SalvoHitFlotillaShield"/>
+        <BattleActionReference Name="Weapon_SalvoHitShipShield"/>
+        <BattleActionReference Name="Weapon_SalvoApplyShieldDamage"/>
+        <BattleActionReference Name="Weapon_SalvoLaunched"/>
+        <BattleActionReference Name="WeaponSwarm_SwarmLaunched"/>
+        <BattleActionReference Name="Weapon_SalvoPrepareHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="WeaponMissileSwarm_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="Weapon_UpdateAccuracyAfterMiss"/>
+        <AttackPathPrerequisite Inverted="true">EncounterEntityStatusDisabled</AttackPathPrerequisite>
+        <SalvoReference Name="SalvoMissileSwarm2"/>
+        <AvailableRange RangeName="Short" PenaltyPropertyName="ShortRangePenalty"/>
+        <AvailableRange RangeName="Medium" PenaltyPropertyName="MediumRangePenalty"/>
+        <AvailableRange RangeName="Long" PenaltyPropertyName="LongRangePenalty"/>
+        <TargetSortingCriterion Name="Type">
+            <ScoreModifier Name="Ship">1</ScoreModifier>
+        </TargetSortingCriterion>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="OffensiveMilitaryPowerIfWeakestTargeting">-1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+        <TargetSortingCriterion Name="Role" ScoreModifiersDefaultValue="1" IgnoredWhenCheckingTargetValidity="true"/>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="TargetersCount">-1</ScoreModifier>
+            <ScoreModifier Name="TargetingWeightBonus">1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+    </WeaponModule>
+
+
+    <WeaponModule Name="ModuleWeaponMissileSwarm3a" Type="Missile" Family="MissileSwarm" Level="4">
+        <Cost ResourceName="SystemProduction">83</Cost>
+        <!-- ** START AI DATA ** -->
+        <!-- Weapons types -->
+        <AIBattleSituations Situation="ProjectileWeapon" Mode="Use" Value="1"/>
+        <!-- Armor types -->
+        <AIBattleSituations Situation="EnergyDefense" Mode="Against" Value="1"/>
+        <AIBattleSituations Situation="ProjectileDefense" Mode="Against" Value="-0.5"/>
+		<!-- Ship Size -->
+		<AIBattleSituations Situation="SmallShip" Mode="Against" Value="0.35"/>
+	<!--	<AIBattleSituations Situation="LargeShip" Mode="Against" Value="0"/>	-->			
+		<!-- Specific weapons -->
+        <AIBattleSituations Situation="Missile" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Laser" Mode="Against" Value="0.5"/>
+        <AIBattleSituations Situation="Beam" Mode="Against" Value="0.75"/>
+        <!-- Ranges -->
+        <AIBattleSituations Situation="Short" Mode="Use" Value="0.25"/>
+        <AIBattleSituations Situation="Medium" Mode="Use" Value="0.5"/>
+        <AIBattleSituations Situation="Long" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Short" Mode="Against" Value="0.25"/>
+        <AIBattleSituations Situation="Medium" Mode="Against" Value="0.5"/>
+        <AIBattleSituations Situation="Long" Mode="Against" Value="1"/>
+        <!-- ** END AI DATA ** -->
+        <DownloadableContentPrerequisite Flags="Prerequisite,Edition,UnlockAvailability">Update5</DownloadableContentPrerequisite>
+        <TechnologyPrerequisite Flags="Edition">TechnologyCuriosityModuleWeaponMissileSwarm3a</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Edition" Inverted="true">ClassShip,CannotHaveWeapon</PathPrerequisite>
+        <PathPrerequisite Flags="ShipHasDestructionModule,Edition,Disable" Inverted="true">ClassShip/ClassSection/ClassModuleDestruction</PathPrerequisite>
+        <SimulationDescriptorReference Name="ClassModuleWeapon"/>
+        <SimulationDescriptorReference Name="ClassModuleWeaponMissileSwarm"/>
+        <SimulationDescriptorReference Name="ModuleWeaponMissileSwarm3a"/>
+        <SimulationDescriptorReference Name="ClassModuleSwarmMissilesExplication"/>
+        <BattleActionReference Name="Weapon_Initialize"/>
+        <BattleActionReference Name="WeaponSwarm_Initialize"/>
+        <BattleActionReference Name="Weapon_SalvoHitFlotillaShield"/>
+        <BattleActionReference Name="Weapon_SalvoHitShipShield"/>
+        <BattleActionReference Name="Weapon_SalvoApplyShieldDamage"/>
+        <BattleActionReference Name="Weapon_SalvoLaunched"/>
+        <BattleActionReference Name="WeaponSwarm_SwarmLaunched"/>
+        <BattleActionReference Name="Weapon_SalvoPrepareHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="WeaponMissileSwarm_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="Weapon_UpdateAccuracyAfterMiss"/>
+        <AttackPathPrerequisite Inverted="true">EncounterEntityStatusDisabled</AttackPathPrerequisite>
+        <SalvoReference Name="SalvoMissileSwarm3"/>
+        <AvailableRange RangeName="Short" PenaltyPropertyName="ShortRangePenalty"/>
+        <AvailableRange RangeName="Medium" PenaltyPropertyName="MediumRangePenalty"/>
+        <AvailableRange RangeName="Long" PenaltyPropertyName="LongRangePenalty"/>
+        <TargetSortingCriterion Name="Type">
+            <ScoreModifier Name="Ship">1</ScoreModifier>
+        </TargetSortingCriterion>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="OffensiveMilitaryPowerIfWeakestTargeting">-1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+        <TargetSortingCriterion Name="Role" ScoreModifiersDefaultValue="1" IgnoredWhenCheckingTargetValidity="true"/>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="TargetersCount">-1</ScoreModifier>
+            <ScoreModifier Name="TargetingWeightBonus">1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+    </WeaponModule>
+
+    <!--#####################-->
+    <!--###    RAILGUN    ###-->
+    <!--#####################-->
+    <WeaponModule Name="ModuleWeaponKineticRailgun1a" Type="KineticRailgun" Family="KineticRailgun" Level="3">
+        <Cost ResourceName="SystemProduction">110</Cost>
+        <!-- ** START AI DATA ** -->
+        <!-- Weapons types -->
+        <AIBattleSituations Situation="ProjectileWeapon" Mode="Use" Value="1"/>
+        <!-- Armor types -->
+        <AIBattleSituations Situation="EnergyDefense" Mode="Against" Value="1"/>
+        <AIBattleSituations Situation="ProjectileDefense" Mode="Against" Value="1"/>
+		<!-- Ship Size -->
+		<AIBattleSituations Situation="SmallShip" Mode="Against" Value="-0.15"/>
+		<AIBattleSituations Situation="LargeShip" Mode="Against" Value="0.5"/>	
+		<!-- Specific weapons -->
+        <AIBattleSituations Situation="Kinetic" Mode="Against" Value="1"/>
+        <AIBattleSituations Situation="Missile" Mode="Against" Value="0.25"/>
+        <AIBattleSituations Situation="Laser" Mode="Against" Value="0.5"/>
+        <AIBattleSituations Situation="Beam" Mode="Against" Value="0.5"/>
+        <!-- Ranges -->
+        <AIBattleSituations Situation="Short" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Medium" Mode="Use" Value="0.5"/>
+        <AIBattleSituations Situation="Long" Mode="Use" Value="0.1"/>
+        <AIBattleSituations Situation="Short" Mode="Against" Value="1"/>
+        <AIBattleSituations Situation="Medium" Mode="Against" Value="0.5"/>
+        <AIBattleSituations Situation="Long" Mode="Against" Value="0.1"/>
+        <!-- ** END AI DATA ** -->
+        <DownloadableContentPrerequisite Flags="Prerequisite,Edition,UnlockAvailability">Update5</DownloadableContentPrerequisite>
+        <TechnologyPrerequisite Flags="Edition">TechnologyCuriosityModuleWeaponKineticRailgun1a</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Edition" Inverted="true">ClassShip,CannotHaveWeapon</PathPrerequisite>				
+        <InterpreterPrerequisite Flags="Edition,Discard" Inverted="true">Path(Context, @ClassHullSmallSupport) or Path(Context, @ShipRoleColonizer) or Path(Context, @ShipRoleLeecher)</InterpreterPrerequisite>	
+        <PathPrerequisite Flags="ShipHasDestructionModule,Edition,Disable" Inverted="true">ClassShip/ClassSection/ClassModuleDestruction</PathPrerequisite>
+        <SimulationDescriptorReference Name="ClassModuleWeapon"/>
+        <SimulationDescriptorReference Name="ClassModuleWeaponKineticRailgun"/>
+        <SimulationDescriptorReference Name="ModuleWeaponKineticRailgun1a"/>
+        <SimulationDescriptorReference Name="ClassModuleIgnoresDefenses"/>
+        <BattleActionReference Name="Weapon_Initialize"/>
+        <BattleActionReference Name="Weapon_SalvoLaunched"/>
+        <BattleActionReference Name="WeaponRailgun_SalvoPrepareHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="WeaponRailgun_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="Weapon_UpdateAccuracyAfterMiss"/>
+        <AttackPathPrerequisite Inverted="true">EncounterEntityStatusDisabled</AttackPathPrerequisite>
+        <SalvoReference Name="SalvoKineticRailgun1"/>
+        <AvailableRange RangeName="Short" PenaltyPropertyName="ShortRangePenalty"/>
+        <AvailableRange RangeName="Medium" PenaltyPropertyName="MediumRangePenalty"/>
+        <AvailableRange RangeName="Long" PenaltyPropertyName="LongRangePenalty"/>
+        <TargetSortingCriterion Name="Type">
+            <ScoreModifier Name="Ship">1</ScoreModifier>
+        </TargetSortingCriterion>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="OffensiveMilitaryPowerIfWeakestTargeting">-1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+        <TargetSortingCriterion Name="Role" ScoreModifiersDefaultValue="1" IgnoredWhenCheckingTargetValidity="true"/>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="TargetersCount">-1</ScoreModifier>
+            <ScoreModifier Name="TargetingWeightBonus">1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+    </WeaponModule>
+    
+    <WeaponModule Name="ModuleWeaponKineticRailgun2a" Type="KineticRailgun" Family="KineticRailgun" Level="4">
+        <Cost ResourceName="SystemProduction">198</Cost>
+        <!-- ** START AI DATA ** -->
+        <!-- Weapons types -->
+        <AIBattleSituations Situation="ProjectileWeapon" Mode="Use" Value="1"/>
+        <!-- Armor types -->
+        <AIBattleSituations Situation="EnergyDefense" Mode="Against" Value="1"/>
+        <AIBattleSituations Situation="ProjectileDefense" Mode="Against" Value="1"/>
+		<!-- Ship Size -->
+		<AIBattleSituations Situation="SmallShip" Mode="Against" Value="-0.15"/>
+		<AIBattleSituations Situation="LargeShip" Mode="Against" Value="0.5"/>	
+		<!-- Specific weapons -->
+        <AIBattleSituations Situation="Kinetic" Mode="Against" Value="1"/>
+        <AIBattleSituations Situation="Missile" Mode="Against" Value="0.25"/>
+        <AIBattleSituations Situation="Laser" Mode="Against" Value="0.5"/>
+        <AIBattleSituations Situation="Beam" Mode="Against" Value="0.5"/>
+        <!-- Ranges -->
+        <AIBattleSituations Situation="Short" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Medium" Mode="Use" Value="0.5"/>
+        <AIBattleSituations Situation="Long" Mode="Use" Value="0.1"/>
+        <AIBattleSituations Situation="Short" Mode="Against" Value="1"/>
+        <AIBattleSituations Situation="Medium" Mode="Against" Value="0.5"/>
+        <AIBattleSituations Situation="Long" Mode="Against" Value="0.1"/>
+        <!-- ** END AI DATA ** -->
+        <DownloadableContentPrerequisite Flags="Prerequisite,Edition,UnlockAvailability">Update5</DownloadableContentPrerequisite>
+        <TechnologyPrerequisite Flags="Edition">TechnologyCuriosityModuleWeaponKineticRailgun2a</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Edition" Inverted="true">ClassShip,CannotHaveWeapon</PathPrerequisite>				
+        <InterpreterPrerequisite Flags="Edition,Discard" Inverted="true">Path(Context, @ClassHullSmallSupport) or Path(Context, @ShipRoleColonizer) or Path(Context, @ShipRoleLeecher)</InterpreterPrerequisite>	
+        <PathPrerequisite Flags="ShipHasDestructionModule,Edition,Disable" Inverted="true">ClassShip/ClassSection/ClassModuleDestruction</PathPrerequisite>
+        <SimulationDescriptorReference Name="ClassModuleWeapon"/>
+        <SimulationDescriptorReference Name="ClassModuleWeaponKineticRailgun"/>
+        <SimulationDescriptorReference Name="ModuleWeaponKineticRailgun2a"/>
+        <SimulationDescriptorReference Name="ClassModuleIgnoresDefenses"/>
+        <BattleActionReference Name="Weapon_Initialize"/>
+        <BattleActionReference Name="Weapon_SalvoLaunched"/>
+        <BattleActionReference Name="WeaponRailgun_SalvoPrepareHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="WeaponRailgun_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="Weapon_UpdateAccuracyAfterMiss"/>
+        <AttackPathPrerequisite Inverted="true">EncounterEntityStatusDisabled</AttackPathPrerequisite>
+        <SalvoReference Name="SalvoKineticRailgun2"/>
+        <AvailableRange RangeName="Short" PenaltyPropertyName="ShortRangePenalty"/>
+        <AvailableRange RangeName="Medium" PenaltyPropertyName="MediumRangePenalty"/>
+        <AvailableRange RangeName="Long" PenaltyPropertyName="LongRangePenalty"/>
+        <TargetSortingCriterion Name="Type">
+            <ScoreModifier Name="Ship">1</ScoreModifier>
+        </TargetSortingCriterion>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="OffensiveMilitaryPowerIfWeakestTargeting">-1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+        <TargetSortingCriterion Name="Role" ScoreModifiersDefaultValue="1" IgnoredWhenCheckingTargetValidity="true"/>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="TargetersCount">-1</ScoreModifier>
+            <ScoreModifier Name="TargetingWeightBonus">1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+    </WeaponModule>
+    
+    <WeaponModule Name="ModuleWeaponKineticRailgun3a" Type="KineticRailgun" Family="KineticRailgun" Level="5">
+        <Cost ResourceName="SystemProduction">286</Cost>
+        <!-- ** START AI DATA ** -->
+        <!-- Weapons types -->
+        <AIBattleSituations Situation="ProjectileWeapon" Mode="Use" Value="1"/>
+        <!-- Armor types -->
+        <AIBattleSituations Situation="EnergyDefense" Mode="Against" Value="1"/>
+        <AIBattleSituations Situation="ProjectileDefense" Mode="Against" Value="1"/>
+		<!-- Ship Size -->
+		<AIBattleSituations Situation="SmallShip" Mode="Against" Value="-0.15"/>
+		<AIBattleSituations Situation="LargeShip" Mode="Against" Value="0.5"/>	
+		<!-- Specific weapons -->
+        <AIBattleSituations Situation="Kinetic" Mode="Against" Value="1"/>
+        <AIBattleSituations Situation="Missile" Mode="Against" Value="0.25"/>
+        <AIBattleSituations Situation="Laser" Mode="Against" Value="0.5"/>
+        <AIBattleSituations Situation="Beam" Mode="Against" Value="0.5"/>
+        <!-- Ranges -->
+        <AIBattleSituations Situation="Short" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Medium" Mode="Use" Value="0.5"/>
+        <AIBattleSituations Situation="Long" Mode="Use" Value="0.1"/>
+        <AIBattleSituations Situation="Short" Mode="Against" Value="1"/>
+        <AIBattleSituations Situation="Medium" Mode="Against" Value="0.5"/>
+        <AIBattleSituations Situation="Long" Mode="Against" Value="0.1"/>
+        <!-- ** END AI DATA ** -->
+        <DownloadableContentPrerequisite Flags="Prerequisite,Edition,UnlockAvailability">Update5</DownloadableContentPrerequisite>
+        <TechnologyPrerequisite Flags="Edition">TechnologyCuriosityModuleWeaponKineticRailgun3a</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Edition" Inverted="true">ClassShip,CannotHaveWeapon</PathPrerequisite>				
+        <InterpreterPrerequisite Flags="Edition,Discard" Inverted="true">Path(Context, @ClassHullSmallSupport) or Path(Context, @ShipRoleColonizer) or Path(Context, @ShipRoleLeecher)</InterpreterPrerequisite>	
+        <PathPrerequisite Flags="ShipHasDestructionModule,Edition,Disable" Inverted="true">ClassShip/ClassSection/ClassModuleDestruction</PathPrerequisite>
+        <SimulationDescriptorReference Name="ClassModuleWeapon"/>
+        <SimulationDescriptorReference Name="ClassModuleWeaponKineticRailgun"/>
+        <SimulationDescriptorReference Name="ModuleWeaponKineticRailgun3a"/>
+        <SimulationDescriptorReference Name="ClassModuleIgnoresDefenses"/>
+        <BattleActionReference Name="Weapon_Initialize"/>
+        <BattleActionReference Name="Weapon_SalvoLaunched"/>
+        <BattleActionReference Name="WeaponRailgun_SalvoPrepareHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="WeaponRailgun_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="Weapon_UpdateAccuracyAfterMiss"/>
+        <AttackPathPrerequisite Inverted="true">EncounterEntityStatusDisabled</AttackPathPrerequisite>
+        <SalvoReference Name="SalvoKineticRailgun3"/>
+        <AvailableRange RangeName="Short" PenaltyPropertyName="ShortRangePenalty"/>
+        <AvailableRange RangeName="Medium" PenaltyPropertyName="MediumRangePenalty"/>
+        <AvailableRange RangeName="Long" PenaltyPropertyName="LongRangePenalty"/>
+        <TargetSortingCriterion Name="Type">
+            <ScoreModifier Name="Ship">1</ScoreModifier>
+        </TargetSortingCriterion>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="OffensiveMilitaryPowerIfWeakestTargeting">-1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+        <TargetSortingCriterion Name="Role" ScoreModifiersDefaultValue="1" IgnoredWhenCheckingTargetValidity="true"/>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="TargetersCount">-1</ScoreModifier>
+            <ScoreModifier Name="TargetingWeightBonus">1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+    </WeaponModule>
+
+    <!--#####################-->
+    <!--###    Helix Gun    ###-->
+    <!--#####################-->
+	
+    <WeaponModule Name="ModuleWeaponKineticHelix1" Type="Kinetic" Family="Kinetic" Level="3">
+        <Cost ResourceName="SystemProduction">82</Cost>
+		<!-- ** START AI DATA ** -->
+        <!-- Weapons types -->
+        <AIBattleSituations Situation="ProjectileWeapon" Mode="Use" Value="1"/>
+		<!-- Armor types -->
+        <AIBattleSituations Situation="EnergyDefense" Mode="Against" Value="1"/>
+        <AIBattleSituations Situation="ProjectileDefense" Mode="Against" Value="-0.3"/>
+		<!-- Ship Size -->
+		<AIBattleSituations Situation="SmallShip" Mode="Against" Value="-0.15"/>
+		<AIBattleSituations Situation="LargeShip" Mode="Against" Value="0.15"/>	
+		<!-- Specific weapons -->
+        <AIBattleSituations Situation="Kinetic" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Missile" Mode="Against" Value="1"/>
+        <AIBattleSituations Situation="Laser" Mode="Against" Value="-0.25"/>
+        <AIBattleSituations Situation="Beam" Mode="Against" Value="-0.5"/>
+        <!-- Ranges -->
+        <AIBattleSituations Situation="Short" Mode="Use" Value="0.65"/>
+        <AIBattleSituations Situation="Medium" Mode="Use" Value="0.85"/>
+        <AIBattleSituations Situation="Long" Mode="Use" Value="0.4"/>
+        <AIBattleSituations Situation="Short" Mode="Against" Value="1"/>
+        <AIBattleSituations Situation="Medium" Mode="Against" Value="0.75"/>
+        <AIBattleSituations Situation="Long" Mode="Against" Value="0.4"/>
+		<!-- ** END AI DATA ** -->
+        <TechnologyPrerequisite Flags="Edition">TechnologyCuriosityModuleWeaponKineticHelix1</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Edition" Inverted="true">ClassShip,CannotHaveWeapon</PathPrerequisite>
+        <PathPrerequisite Flags="ShipHasDestructionModule,Edition,Disable" Inverted="true">ClassShip/ClassSection/ClassModuleDestruction</PathPrerequisite>
+        <SimulationDescriptorReference Name="ClassModuleWeapon"/>
+        <CategorizedSimulationDescriptors Category="CategoryBaseWeapon">
+            <SimulationDescriptorReference Name="ModuleWeaponKineticHelix1"/>
+        </CategorizedSimulationDescriptors>
+        <CategorizedSimulationDescriptors Category="CategoryModuleWeaponKinetic">
+            <SimulationDescriptorReference Name="ClassModuleWeaponKinetic"/>
+        </CategorizedSimulationDescriptors>
+        <BattleActionReference Name="Weapon_Initialize"/>
+        <BattleActionReference Name="Weapon_SalvoHitFlotillaShield"/>
+        <BattleActionReference Name="Weapon_SalvoHitShipShield"/>
+        <BattleActionReference Name="Weapon_SalvoApplyShieldDamage"/>
+        <BattleActionReference Name="Weapon_SalvoLaunched"/>
+        <BattleActionReference Name="Weapon_SalvoPrepareHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="WeaponKinetic_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="Weapon_UpdateAccuracyAfterMiss"/>
+        <AttackPathPrerequisite Inverted="true">EncounterEntityStatusDisabled</AttackPathPrerequisite>
+        <SalvoReference Name="SalvoKinetic4Strategic3"/>
+        <AvailableRange RangeName="Short" PenaltyPropertyName="ShortRangePenalty"/>
+        <AvailableRange RangeName="Medium" PenaltyPropertyName="MediumRangePenalty"/>
+        <AvailableRange RangeName="Long" PenaltyPropertyName="LongRangePenalty"/>
+        <TargetSortingCriterion Name="Type">
+            <ScoreModifier Name="Ship">1</ScoreModifier>
+        </TargetSortingCriterion>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="OffensiveMilitaryPowerIfWeakestTargeting">-1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+        <TargetSortingCriterion Name="Role" ScoreModifiersDefaultValue="1" IgnoredWhenCheckingTargetValidity="true"/>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="TargetersCount">-1</ScoreModifier>
+            <ScoreModifier Name="TargetingWeightBonus">1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+    </WeaponModule>
+	
+    <WeaponModule Name="ModuleWeaponKineticHelix2" Type="Kinetic" Family="Kinetic" Level="4">
+        <Cost ResourceName="SystemProduction">101</Cost>
+		<!-- ** START AI DATA ** -->
+        <!-- Weapons types -->
+        <AIBattleSituations Situation="ProjectileWeapon" Mode="Use" Value="1"/>
+		<!-- Armor types -->
+        <AIBattleSituations Situation="EnergyDefense" Mode="Against" Value="1"/>
+        <AIBattleSituations Situation="ProjectileDefense" Mode="Against" Value="-0.5"/>
+		<!-- Ship Size -->
+		<AIBattleSituations Situation="SmallShip" Mode="Against" Value="-0.15"/>
+		<AIBattleSituations Situation="LargeShip" Mode="Against" Value="0.15"/>	
+		<!-- Specific weapons -->
+        <AIBattleSituations Situation="Kinetic" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Missile" Mode="Against" Value="1"/>
+        <AIBattleSituations Situation="Laser" Mode="Against" Value="-0.25"/>
+        <AIBattleSituations Situation="Beam" Mode="Against" Value="-0.5"/>
+        <!-- Ranges -->
+        <AIBattleSituations Situation="Short" Mode="Use" Value="0.65"/>
+        <AIBattleSituations Situation="Medium" Mode="Use" Value="0.85"/>
+        <AIBattleSituations Situation="Long" Mode="Use" Value="0.4"/>
+        <AIBattleSituations Situation="Short" Mode="Against" Value="1"/>
+        <AIBattleSituations Situation="Medium" Mode="Against" Value="0.75"/>
+        <AIBattleSituations Situation="Long" Mode="Against" Value="0.4"/>
+		<!-- ** END AI DATA ** -->
+        <PathPrerequisite Flags="Edition" Inverted="true">ClassShip,CannotHaveWeapon</PathPrerequisite>
+        <TechnologyPrerequisite Flags="Edition">TechnologyCuriosityModuleWeaponKineticHelix2</TechnologyPrerequisite>
+        <PathPrerequisite Flags="ShipHasDestructionModule,Edition,Disable" Inverted="true">ClassShip/ClassSection/ClassModuleDestruction</PathPrerequisite>
+        <SimulationDescriptorReference Name="ClassModuleWeapon"/>
+        <CategorizedSimulationDescriptors Category="CategoryBaseWeapon">
+            <SimulationDescriptorReference Name="ModuleWeaponKineticHelix2"/>
+        </CategorizedSimulationDescriptors>
+        <CategorizedSimulationDescriptors Category="CategoryModuleWeaponKinetic">
+            <SimulationDescriptorReference Name="ClassModuleWeaponKinetic"/>
+        </CategorizedSimulationDescriptors>
+        <BattleActionReference Name="Weapon_Initialize"/>
+        <BattleActionReference Name="Weapon_SalvoHitFlotillaShield"/>
+        <BattleActionReference Name="Weapon_SalvoHitShipShield"/>
+        <BattleActionReference Name="Weapon_SalvoApplyShieldDamage"/>
+        <BattleActionReference Name="Weapon_SalvoLaunched"/>
+        <BattleActionReference Name="Weapon_SalvoPrepareHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="WeaponKinetic_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="Weapon_UpdateAccuracyAfterMiss"/>
+        <AttackPathPrerequisite Inverted="true">EncounterEntityStatusDisabled</AttackPathPrerequisite>
+        <SalvoReference Name="SalvoKinetic4Strategic3"/>
+        <AvailableRange RangeName="Short" PenaltyPropertyName="ShortRangePenalty"/>
+        <AvailableRange RangeName="Medium" PenaltyPropertyName="MediumRangePenalty"/>
+        <AvailableRange RangeName="Long" PenaltyPropertyName="LongRangePenalty"/>
+        <TargetSortingCriterion Name="Type">
+            <ScoreModifier Name="Ship">1</ScoreModifier>
+        </TargetSortingCriterion>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="OffensiveMilitaryPowerIfWeakestTargeting">-1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+        <TargetSortingCriterion Name="Role" ScoreModifiersDefaultValue="1" IgnoredWhenCheckingTargetValidity="true"/>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="TargetersCount">-1</ScoreModifier>
+            <ScoreModifier Name="TargetingWeightBonus">1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+    </WeaponModule>
+
+    <WeaponModule Name="ModuleWeaponKineticHelix3" Type="Kinetic" Family="Kinetic" Level="5">
+        <Cost ResourceName="SystemProduction">122</Cost>
+		<!-- ** START AI DATA ** -->
+        <!-- Weapons types -->
+        <AIBattleSituations Situation="ProjectileWeapon" Mode="Use" Value="1"/>
+		<!-- Armor types -->
+        <AIBattleSituations Situation="EnergyDefense" Mode="Against" Value="1"/>
+        <AIBattleSituations Situation="ProjectileDefense" Mode="Against" Value="-0.5"/>
+		<!-- Ship Size -->
+		<AIBattleSituations Situation="SmallShip" Mode="Against" Value="-0.15"/>
+		<AIBattleSituations Situation="LargeShip" Mode="Against" Value="0.15"/>	
+		<!-- Specific weapons -->
+        <AIBattleSituations Situation="Kinetic" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Missile" Mode="Against" Value="1"/>
+        <AIBattleSituations Situation="Laser" Mode="Against" Value="-0.25"/>
+        <AIBattleSituations Situation="Beam" Mode="Against" Value="-0.5"/>
+        <!-- Ranges -->
+        <AIBattleSituations Situation="Short" Mode="Use" Value="0.65"/>
+        <AIBattleSituations Situation="Medium" Mode="Use" Value="0.85"/>
+        <AIBattleSituations Situation="Long" Mode="Use" Value="0.4"/>
+        <AIBattleSituations Situation="Short" Mode="Against" Value="1"/>
+        <AIBattleSituations Situation="Medium" Mode="Against" Value="0.75"/>
+        <AIBattleSituations Situation="Long" Mode="Against" Value="0.4"/>
+		<!-- ** END AI DATA ** -->
+        <TechnologyPrerequisite Flags="Edition">TechnologyCuriosityModuleWeaponKineticHelix3</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Edition" Inverted="true">ClassShip,CannotHaveWeapon</PathPrerequisite>
+        <PathPrerequisite Flags="ShipHasDestructionModule,Edition,Disable" Inverted="true">ClassShip/ClassSection/ClassModuleDestruction</PathPrerequisite>
+        <SimulationDescriptorReference Name="ClassModuleWeapon"/>
+        <CategorizedSimulationDescriptors Category="CategoryBaseWeapon">
+            <SimulationDescriptorReference Name="ModuleWeaponKineticHelix3"/>
+        </CategorizedSimulationDescriptors>
+        <CategorizedSimulationDescriptors Category="CategoryModuleWeaponKinetic">
+            <SimulationDescriptorReference Name="ClassModuleWeaponKinetic"/>
+        </CategorizedSimulationDescriptors>
+        <BattleActionReference Name="Weapon_Initialize"/>
+        <BattleActionReference Name="Weapon_SalvoHitFlotillaShield"/>
+        <BattleActionReference Name="Weapon_SalvoHitShipShield"/>
+        <BattleActionReference Name="Weapon_SalvoApplyShieldDamage"/>
+        <BattleActionReference Name="Weapon_SalvoLaunched"/>
+        <BattleActionReference Name="Weapon_SalvoPrepareHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="WeaponKinetic_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="Weapon_UpdateAccuracyAfterMiss"/>
+        <AttackPathPrerequisite Inverted="true">EncounterEntityStatusDisabled</AttackPathPrerequisite>
+        <SalvoReference Name="SalvoKinetic4Strategic3"/>
+        <AvailableRange RangeName="Short" PenaltyPropertyName="ShortRangePenalty"/>
+        <AvailableRange RangeName="Medium" PenaltyPropertyName="MediumRangePenalty"/>
+        <AvailableRange RangeName="Long" PenaltyPropertyName="LongRangePenalty"/>
+        <TargetSortingCriterion Name="Type">
+            <ScoreModifier Name="Ship">1</ScoreModifier>
+        </TargetSortingCriterion>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="OffensiveMilitaryPowerIfWeakestTargeting">-1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+        <TargetSortingCriterion Name="Role" ScoreModifiersDefaultValue="1" IgnoredWhenCheckingTargetValidity="true"/>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="TargetersCount">-1</ScoreModifier>
+            <ScoreModifier Name="TargetingWeightBonus">1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+    </WeaponModule>		
+
+    <!--#####################-->
+    <!--###    PLASMA BOLT    ###-->
+    <!--#####################-->
+	
+    <WeaponModule Name="ModuleWeaponLaserBlaster1" Type="Laser" Family="Laser" Level="3">
+        <Cost ResourceName="SystemProduction">65</Cost>
+		<!-- ** START AI DATA ** -->
+        <!-- Weapons types -->
+        <AIBattleSituations Situation="EnergyWeapon" Mode="Use" Value="1"/>
+		<!-- Armor types -->
+        <AIBattleSituations Situation="EnergyDefense" Mode="Against" Value="-0.6"/>
+        <AIBattleSituations Situation="ProjectileDefense" Mode="Against" Value="1"/>
+		<!-- Ship Size -->
+		<AIBattleSituations Situation="SmallShip" Mode="Against" Value="0.35"/>
+		<AIBattleSituations Situation="LargeShip" Mode="Against" Value="-0.35"/>	
+		<!-- Specific weapons -->
+        <AIBattleSituations Situation="Laser" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Laser" Mode="Against" Value="0.5"/>		
+        <AIBattleSituations Situation="Kinetic" Mode="Against" Value="0.75"/>
+        <AIBattleSituations Situation="Missile" Mode="Against" Value="-0.25"/>
+        <AIBattleSituations Situation="Beam" Mode="Against" Value="0.4"/>
+        <!-- Ranges -->
+        <AIBattleSituations Situation="Short" Mode="Use" Value="1.25"/>
+        <AIBattleSituations Situation="Medium" Mode="Use" Value="0.5"/>
+        <AIBattleSituations Situation="Long" Mode="Use" Value="0.2"/>
+        <AIBattleSituations Situation="Short" Mode="Against" Value="1.0"/>
+        <AIBattleSituations Situation="Medium" Mode="Against" Value="0.5"/>
+        <AIBattleSituations Situation="Long" Mode="Against" Value="-0.25"/>
+		<!-- ** END AI DATA ** -->
+        <TechnologyPrerequisite Flags="Edition">TechnologyCuriosityModuleWeaponLaserBlaster1</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Edition" Inverted="true">ClassShip,CannotHaveWeapon</PathPrerequisite>
+        <PathPrerequisite Flags="ShipHasDestructionModule,Edition,Disable" Inverted="true">ClassShip/ClassSection/ClassModuleDestruction</PathPrerequisite>
+        <SimulationDescriptorReference Name="ClassModuleWeapon"/>
+        <CategorizedSimulationDescriptors Category="CategoryBaseWeapon">
+            <SimulationDescriptorReference Name="ModuleWeaponLaserBlaster1"/>
+        </CategorizedSimulationDescriptors>
+        <CategorizedSimulationDescriptors Category="CategoryModuleWeaponLaser">
+            <SimulationDescriptorReference Name="ClassModuleWeaponLaser"/>
+        </CategorizedSimulationDescriptors>
+        <BattleActionReference Name="Weapon_Initialize"/>
+        <BattleActionReference Name="Weapon_SalvoHitFlotillaShield"/>
+        <BattleActionReference Name="Weapon_SalvoHitShipShield"/>
+        <BattleActionReference Name="Weapon_SalvoApplyShieldDamage"/>
+        <BattleActionReference Name="Weapon_SalvoLaunched"/>
+        <BattleActionReference Name="Weapon_SalvoPrepareHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="WeaponLaser_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="Weapon_UpdateAccuracyAfterMiss"/>
+        <AttackPathPrerequisite Inverted="true">EncounterEntityStatusDisabled</AttackPathPrerequisite>
+        <SalvoReference Name="SalvoLaser3Strategic2"/>
+        <AvailableRange RangeName="Long" PenaltyPropertyName="LongRangePenalty"/>
+        <AvailableRange RangeName="Medium" PenaltyPropertyName="MediumRangePenalty"/>
+        <AvailableRange RangeName="Short" PenaltyPropertyName="ShortRangePenalty"/>
+        <TargetSortingCriterion Name="Type">
+            <ScoreModifier Name="Ship">1</ScoreModifier>
+        </TargetSortingCriterion>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="OffensiveMilitaryPowerIfWeakestTargeting">-1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+        <TargetSortingCriterion Name="Role" ScoreModifiersDefaultValue="1" IgnoredWhenCheckingTargetValidity="true"/>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="TargetersCount">-1</ScoreModifier>
+            <ScoreModifier Name="TargetingWeightBonus">1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+    </WeaponModule>
+
+    <WeaponModule Name="ModuleWeaponLaserBlaster2" Type="Laser" Family="Laser" Level="4">
+        <Cost ResourceName="SystemProduction">82</Cost>
+		<!-- ** START AI DATA ** -->
+        <!-- Weapons types -->
+        <AIBattleSituations Situation="EnergyWeapon" Mode="Use" Value="1"/>
+		<!-- Armor types -->
+        <AIBattleSituations Situation="EnergyDefense" Mode="Against" Value="-0.6"/>
+        <AIBattleSituations Situation="ProjectileDefense" Mode="Against" Value="1"/>
+		<!-- Ship Size -->
+		<AIBattleSituations Situation="SmallShip" Mode="Against" Value="0.35"/>
+		<AIBattleSituations Situation="LargeShip" Mode="Against" Value="-0.35"/>	
+		<!-- Specific weapons -->
+        <AIBattleSituations Situation="Laser" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Laser" Mode="Against" Value="0.5"/>		
+        <AIBattleSituations Situation="Kinetic" Mode="Against" Value="0.75"/>
+        <AIBattleSituations Situation="Missile" Mode="Against" Value="-0.25"/>
+        <AIBattleSituations Situation="Beam" Mode="Against" Value="0.4"/>
+        <!-- Ranges -->
+        <AIBattleSituations Situation="Short" Mode="Use" Value="1.25"/>
+        <AIBattleSituations Situation="Medium" Mode="Use" Value="0.5"/>
+        <AIBattleSituations Situation="Long" Mode="Use" Value="0.2"/>
+        <AIBattleSituations Situation="Short" Mode="Against" Value="1.0"/>
+        <AIBattleSituations Situation="Medium" Mode="Against" Value="0.5"/>
+        <AIBattleSituations Situation="Long" Mode="Against" Value="-0.25"/>
+		<!-- ** END AI DATA ** -->
+        <PathPrerequisite Flags="Edition" Inverted="true">ClassShip,CannotHaveWeapon</PathPrerequisite>
+        <TechnologyPrerequisite Flags="Edition">TechnologyCuriosityModuleWeaponLaserBlaster2</TechnologyPrerequisite>
+        <PathPrerequisite Flags="ShipHasDestructionModule,Edition,Disable" Inverted="true">ClassShip/ClassSection/ClassModuleDestruction</PathPrerequisite>
+        <SimulationDescriptorReference Name="ClassModuleWeapon"/>
+        <CategorizedSimulationDescriptors Category="CategoryBaseWeapon">
+            <SimulationDescriptorReference Name="ModuleWeaponLaserBlaster2"/>
+        </CategorizedSimulationDescriptors>
+        <CategorizedSimulationDescriptors Category="CategoryModuleWeaponLaser">
+            <SimulationDescriptorReference Name="ClassModuleWeaponLaser"/>
+        </CategorizedSimulationDescriptors>
+        <BattleActionReference Name="Weapon_Initialize"/>
+        <BattleActionReference Name="Weapon_SalvoHitFlotillaShield"/>
+        <BattleActionReference Name="Weapon_SalvoHitShipShield"/>
+        <BattleActionReference Name="Weapon_SalvoApplyShieldDamage"/>
+        <BattleActionReference Name="Weapon_SalvoLaunched"/>
+        <BattleActionReference Name="Weapon_SalvoPrepareHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="WeaponLaser_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="Weapon_UpdateAccuracyAfterMiss"/>
+        <AttackPathPrerequisite Inverted="true">EncounterEntityStatusDisabled</AttackPathPrerequisite>
+        <SalvoReference Name="SalvoLaser3Strategic2"/>
+        <AvailableRange RangeName="Long" PenaltyPropertyName="LongRangePenalty"/>
+        <AvailableRange RangeName="Medium" PenaltyPropertyName="MediumRangePenalty"/>
+        <AvailableRange RangeName="Short" PenaltyPropertyName="ShortRangePenalty"/>
+        <TargetSortingCriterion Name="Type">
+            <ScoreModifier Name="Ship">1</ScoreModifier>
+        </TargetSortingCriterion>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="OffensiveMilitaryPowerIfWeakestTargeting">-1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+        <TargetSortingCriterion Name="Role" ScoreModifiersDefaultValue="1" IgnoredWhenCheckingTargetValidity="true"/>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="TargetersCount">-1</ScoreModifier>
+            <ScoreModifier Name="TargetingWeightBonus">1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+    </WeaponModule>
+
+    <WeaponModule Name="ModuleWeaponLaserBlaster3" Type="Laser" Family="Laser" Level="5">
+        <Cost ResourceName="SystemProduction">100</Cost>
+		<!-- ** START AI DATA ** -->
+        <!-- Weapons types -->
+        <AIBattleSituations Situation="EnergyWeapon" Mode="Use" Value="1"/>
+		<!-- Armor types -->
+        <AIBattleSituations Situation="EnergyDefense" Mode="Against" Value="-0.6"/>
+        <AIBattleSituations Situation="ProjectileDefense" Mode="Against" Value="1"/>
+		<!-- Ship Size -->
+		<AIBattleSituations Situation="SmallShip" Mode="Against" Value="0.35"/>
+		<AIBattleSituations Situation="LargeShip" Mode="Against" Value="-0.35"/>	
+		<!-- Specific weapons -->
+        <AIBattleSituations Situation="Laser" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="Laser" Mode="Against" Value="0.5"/>		
+        <AIBattleSituations Situation="Kinetic" Mode="Against" Value="0.75"/>
+        <AIBattleSituations Situation="Missile" Mode="Against" Value="-0.25"/>
+        <AIBattleSituations Situation="Beam" Mode="Against" Value="0.4"/>
+        <!-- Ranges -->
+        <AIBattleSituations Situation="Short" Mode="Use" Value="1.25"/>
+        <AIBattleSituations Situation="Medium" Mode="Use" Value="0.5"/>
+        <AIBattleSituations Situation="Long" Mode="Use" Value="0.2"/>
+        <AIBattleSituations Situation="Short" Mode="Against" Value="1.0"/>
+        <AIBattleSituations Situation="Medium" Mode="Against" Value="0.5"/>
+        <AIBattleSituations Situation="Long" Mode="Against" Value="-0.25"/>
+		<!-- ** END AI DATA ** -->
+        <TechnologyPrerequisite Flags="Edition">TechnologyCuriosityModuleWeaponLaserBlaster3</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Edition" Inverted="true">ClassShip,CannotHaveWeapon</PathPrerequisite>
+        <PathPrerequisite Flags="ShipHasDestructionModule,Edition,Disable" Inverted="true">ClassShip/ClassSection/ClassModuleDestruction</PathPrerequisite>
+        <SimulationDescriptorReference Name="ClassModuleWeapon"/>
+        <CategorizedSimulationDescriptors Category="CategoryBaseWeapon">
+            <SimulationDescriptorReference Name="ModuleWeaponLaserBlaster3"/>
+        </CategorizedSimulationDescriptors>
+        <CategorizedSimulationDescriptors Category="CategoryModuleWeaponLaser">
+            <SimulationDescriptorReference Name="ClassModuleWeaponLaser"/>
+        </CategorizedSimulationDescriptors>
+        <BattleActionReference Name="Weapon_Initialize"/>
+        <BattleActionReference Name="Weapon_SalvoHitFlotillaShield"/>
+        <BattleActionReference Name="Weapon_SalvoHitShipShield"/>
+        <BattleActionReference Name="Weapon_SalvoApplyShieldDamage"/>
+        <BattleActionReference Name="Weapon_SalvoLaunched"/>
+        <BattleActionReference Name="Weapon_SalvoPrepareHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget"/>
+        <BattleActionReference Name="Weapon_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="WeaponLaser_SalvoPostHitTarget_StatisticsRecording"/>
+        <BattleActionReference Name="Weapon_UpdateAccuracyAfterMiss"/>
+        <AttackPathPrerequisite Inverted="true">EncounterEntityStatusDisabled</AttackPathPrerequisite>
+        <SalvoReference Name="SalvoLaser3Strategic2"/>
+        <AvailableRange RangeName="Long" PenaltyPropertyName="LongRangePenalty"/>
+        <AvailableRange RangeName="Medium" PenaltyPropertyName="MediumRangePenalty"/>
+        <AvailableRange RangeName="Short" PenaltyPropertyName="ShortRangePenalty"/>
+        <TargetSortingCriterion Name="Type">
+            <ScoreModifier Name="Ship">1</ScoreModifier>
+        </TargetSortingCriterion>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="OffensiveMilitaryPowerIfWeakestTargeting">-1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+        <TargetSortingCriterion Name="Role" ScoreModifiersDefaultValue="1" IgnoredWhenCheckingTargetValidity="true"/>
+        <TargetSortingCriterion_PropertyMultiplier Name="PropertyMultiplier">
+            <ScoreModifier Name="TargetersCount">-1</ScoreModifier>
+            <ScoreModifier Name="TargetingWeightBonus">1</ScoreModifier>
+        </TargetSortingCriterion_PropertyMultiplier>
+    </WeaponModule>	
+    
+</Datatable>

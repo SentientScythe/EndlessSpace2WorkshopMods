@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- lilyophelia: Endless Romance | Start -->
+  <!-- lilyophelia: normally located in ES2_Localization_Locales.xml -->
+  <!-- lilyophelia: normally located in ES2_Localization_Quest_Locales.xml -->
+  
+  <!-- DO  NOT TRANSLATE; TEMPLATES -->
+  <!-- Quest Template -->
+  <!--
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_Template_Title">Trade Fleet In Danger</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_Template_Description">A foreign trade fleet is broadcasting a distress signal from the edge of one of your systems. They appear to be badly damaged and are asking for assistance.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_Template_OptionName_Title">Ignore</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_Template_OptionName_Description">Ignore the distress call.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_Template_OptionName_Objective">Your empire does not have time to deal with this situation. Besides, it might be a trap. Whoever these traders are, they're on their own.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_Template_OptionName_ObjectiveTooltip">[End of Storyline]</LocalizationPair>
+  -->
+  
+  <!-- Quest Ending Template -->
+  <!--
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_Template_Title">The Ghost Fleet</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_Template_Description">Your civilian vessels make a remarkable discovery. Drifting far outside the interstellar highways, at the edge of one of your systems, they find an ancient fleet of trade vessels. Their ships seem to have lost power at some point. All of the crew appear to have died from exposure to the cold of space.</LocalizationPair>
+  
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_Template_Ending_Title">The Ghost Fleet</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_Template_Ending_Description">The trade princess storyline has ended.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_Template_Ending_Objective">Narrative event</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_Template_Ending_ObjectiveTooltip">This is one of many possible endings for this storyline.</LocalizationPair>
+  -->
+  
+  <!-- TRANSLATE NOW -->
+  <!-- Quest -->  
+  
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_TradeFleetInDanger_Title">Handelsflotte in Gefahr</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_TradeFleetInDanger_Description">Eine fremde Flotte sendet ein Notsignal vom Ende einer deiner Systeme aus. Er scheint, als wäre sie stark beschädigt und fragt um Hilfe</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_TradeFleetInDanger_Help_Title">Hilfe</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_TradeFleetInDanger_Help_Description">Sende deine Schiffe aus um der Handelsflotte zu helfen.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_TradeFleetInDanger_Help_Objective">Das ist eine Chance. Sende deine Schiffe aus, um nachzusehen und der Handelsflotte zu helfen..</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_TradeFleetInDanger_Help_ObjectiveTooltip">Das ist eine freundliche Aktion</LocalizationPair>
+  
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_TradeFleetInDanger_Harvest_Title">Einsammeln</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_TradeFleetInDanger_Harvest_Description">Befiel deinen Schiffen alle Ressourcen der Flotte einzusammeln</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_TradeFleetInDanger_Harvest_Objective">Diese Händler sind leichte Beute. Sende deine Flotte aus um alle Ressourcen der Handelsflotte zu beschlagnahmen. Du hast auch die Möglichkeit die Besatzung als Nahrung oder Sklaven zu verwenden.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_TradeFleetInDanger_Harvest_ObjectiveTooltip">Das ist eine feindselige Aktion</LocalizationPair>  
+  
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_TradeFleetInDanger_Ignore_Title">Ignorieren</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_TradeFleetInDanger_Ignore_Description">Ignoriere den Hilferuf</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_TradeFleetInDanger_Ignore_Objective">Dein Imperium hat nicht die Zeit, um sich damit zu beschäftigen, außerdem könnte es sich um eine Falle handeln. Wer auch immer diese Händler sind, sie sind auf sich selbst gestellt..</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_TradeFleetInDanger_Ignore_ObjectiveTooltip">Niemand kann wissen, wer das Notsignal abgegeben hat.</LocalizationPair>
+  
+  <!-- Quest -->
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_GhostFleetEnding_Title">Die Geisterflotte</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_GhostFleetEnding_Description">Deine zivilen Schiffe machen eine bemerkenswerte Entdeckung. Weit ausserhalb der interstellaren Wege, am Rande eines deiner Systeme, treibt eine alte Flotte von Handelsschiffen. Die Schiffe scheinen irgendwann den Antrieb verloren zu haben. Die gesamte Flotte scheint durch den Kontakt mit der Kälte des Weltraums gestorben zu sein.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_GhostFleetEnding_GhostFleet_Title">Die Geisterflotte</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_GhostFleetEnding_GhostFleet_Description">Die Geschichte der Handelsprinzessin ist zu Ende.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_GhostFleetEnding_GhostFleet_Objective">Erzählendes Ereignis
+</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_GhostFleetEnding_GhostFleet_ObjectiveTooltip">Das ist ein mögliches Ende der Geschichte.</LocalizationPair>
+
+  <!-- Quest -->
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_MeetThePrincess_Hostile_Title">Lumerische Handelsprinzessin</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_MeetThePrincess_Hostile_Description">
+Die Schiffe scheinen eine Handelflotte zu bilden and die Besatzung ist schlecht vorbereitet um enterte Gruppen abzuwehren. Anfänglichem Widerstand wird hart begegnet. Die Händler sind bald geschlagen und eingeschüchtert.
+
+Deine Truppen verwenden die nächsten Wochen dazu, um die Ladung und Ressourcen der Schiffe zu plündern, bis nur noch die Frage übrigbleibt, wie nun mit den Leuten verfahren werden soll.
+
+Die Anführerin, eine lumerische Handelsprinzessin, names Aurelia, kommt zu dir und fleht um Gnade.
+
+Ihre goldenen Augen sind schwarz eingerahmt, die Farbe hinterlässt schwarze Spuren, die ihre blauhäutigen Wagen hinunterfließen.
+
+Ihre Stimme ist klar und trotzig und sie spricht deine Sprache flüssig. „Ihr habt uns alles weggenommen! Grausam und ohne Gnade“: spuckt sie die Worte aus, bevor ihre Stimme weicher wird.
+
+Ihre wütenden Lippen, ein reizender Pfirsichton, verwandeln sich plötzlich in ein weites, zweideutiges Lächeln. „Bitte, ihr seid groß und wir sind sehr schwach. Das haben wir jetzt eingesehen.“ Ihr Stimme wird noch etwas weicher, fast wie das Schnurren einer Geliebten. „Bitte, habt Gnade mit mir….und meinen Leuten. Lasst uns nicht hier zwischen den Sternen sterben."</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_MeetThePrincess_Hostile_Slaves_Title">Sklaven</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_MeetThePrincess_Hostile_Slaves_Description">Nimm die Prinzessin und ihre Mannschaft als Sklaven.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_MeetThePrincess_Hostile_Slaves_Objective">Prinzessin Aurelia und ihre Leute können noch immer ihren Zweck erfüllen. Du befielst deinen Truppen nur die Jungen und Gesunden zu nehmen.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_MeetThePrincess_Hostile_Slaves_ObjectiveTooltip">Die Prinzessin wird dankbar sein, dass ihre Leute weiterleben dürfen.</LocalizationPair>
+  
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_MeetThePrincess_Hostile_Harvest_Title">Ernte</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_MeetThePrincess_Hostile_Harvest_Description">Verarbeite sie zu Nahrung oder Dust.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_MeetThePrincess_Hostile_Harvest_Objective">Sie müssen nicht unbedingt am Leben zu sein, um nützlich zu sein. Das Fleisch an ihren Rippen, oder das Leben in ihrem Blut kann dein großes Imperium erhalten.
+</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_MeetThePrincess_Hostile_Harvest_ObjectiveTooltip">Die Prinzessin wird von so einem Verhalten entsetzt sein.</LocalizationPair>
+  
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_MeetThePrincess_Hostile_Abandon_Title">Im Stich lassen</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_MeetThePrincess_Hostile_Abandon_Description">Lass sie zum Sterben zurück</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_MeetThePrincess_Hostile_Abandon_Objective">Du hast alles was du brauchst von diesen Händlern. Lass sie ihr zwangsläufiges Schicksal erleiden, nämlich dass das das kalte, dunkle All sie und ihre Schiffe verschlingt.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_MeetThePrincess_Hostile_Abandon_ObjectiveTooltip">Die Handelsprinzessin und ihre Leute werden sicherlich untergehen.</LocalizationPair>
+
+  <!-- Quest -->
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessBegs_Title">Das Flehen der Prinzessin</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessBegs_Description">
+Als sie von deiner Entscheidung hört, kommt Aurelia wieder zu dir, diesmal um um ihr eigenes Leben zu bitten.
+
+Beides, die kochende Wut und die versteckte Anmut sind verschwunden; jetzt ist nur Angst und Verzweiflung in ihren geschwollenen, roten Augen.
+
+Sich tief verneigend wählt sie ihre Worte mit Bedacht: „Bitte! Ich weiß, dass ich nichts mehr für meine Leute tun kann. Ich habe sie geführt, so gut es mir möglich war.“ Sie sieht auf, direkt zu dir and fleht: „Aber ich kann noch immer nützlich sein. Gebt mir die Chance!“
+
+Aurelia macht eine Pause, so als würde sie die richtigen Worte in deiner Sprache suchen. „Vielleicht, als eine Beraterin? Ich kenne mich aus mit Verträgen und mit Dust. Erlaubt mir euch, euch mit Ratschlägen zu unterstützen. Bitte, lasst eure Interessen meine eigenen werden.“
+
+Sie senkt den Blick, ihre Augen unglaublich demütig und verspricht dir, dass sie ihr Leben im Dienst an dir verdienen wird.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessBegs_Advisor_Title">Ratgeber</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessBegs_Advisor_Description">Mach sie zum Ratgeber</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessBegs_Advisor_Objective">Sie hat etwas an sich. Es kann sein, dass sie diese Ehre nicht verdient, aber du möchtest ihr die Chance geben sich zu beweisen.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessBegs_Advisor_ObjectiveTooltip">Die Prinzessin wird dankbar sein, dass du ihr Leben verschont hast.</LocalizationPair>
+  
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessBegs_Slave_Title">Sklave</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessBegs_Slave_Description">Beanspruche sie als deine persönliche Sklavin.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessBegs_Slave_Objective">Sie wird dienen, aber sicherlich nicht als Ratgeber. Von Prinzessin zur Sklavin; sie wird die restliche Zeit ihres Lebens als deine persönliche Dienerin verbringen.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessBegs_Slave_ObjectiveTooltip">Die Prinzessin wird wutentbrannt ob dieser Erniedrigung sein.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessBegs_Ignore_Title">Ignorieren</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessBegs_Ignore_Description">Lehne ihre letzte Bitte ab</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessBegs_Ignore_Objective">Sie hat schon zuviel deiner Zeit verschwendet. Führe diese „Prinzessin“ demselben Ende zu wie die anderen ihrer Art.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessBegs_Ignore_ObjectiveTooltip">Die Prinzessin erleidet das Schicksal ihrer Leute.</LocalizationPair>  
+
+  <!-- Quest -->
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessAdapts_Title">Aurelia paßt sich an</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessAdapts_Description">Deine Kultur ist dunkel und deine Gesellschaft ist brutal; du hast nicht damit gerechnet, dass eine so scheinbar zierliche Blume wie Aurelia überleben kann.
+
+Und doch tut sie mehr als das: Aurelia blüht auf. Die frühere Prinzessin braucht ein paar Monate bis sie Fuß fasst, aber bald kann ihr Einfluss in jedem wichtigen Plan oder Handlung entdeckt werden. Obwohl sie deine nächsten Berater unterstützt, die alles tun, um ihre Beiträge kleinzureden, spürst du ihre dunkle Brillianz überall.
+
+Der Befehl aufsässige Minenarbeiter auf einem rauhen Mond umzubringen, eine schnelle Eskalation, die nicht einmal deine Topgeneräle so forsch vorgeschlagen hätten, unterdrückt eine potentielle Rebellion bevor sie ausbrechen kann.
+
+Der Völkermord an der gesamten, eingeborenen Bevölkerung in den Slums deiner Hauptstadt, Abermillionen Leben, gibt Ressourcen für eine weitere Kriegsfront frei.
+
+Aurelia wird einflussreicher und verändert sich, sie wird jeden Tag dunkler und immer grausamer- das fasziniert dich..</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessAdapts_Intimate_Title">Vertrautheit</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessAdapts_Intimate_Description">Verlange ihre Anwesenheit bei einem privaten Abendessen.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessAdapts_Intimate_Objective">Verlange ihre Anwesenheit bei einem privaten Abendessen Du wirst Aurelia hegen und pflegen und beobachten wie diese dunkle Blume wächst.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessAdapts_Intimate_ObjectiveTooltip">Aurelia wird sehr interessiert sein an dieser Gelegenheit.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessAdapts_Lover_Title">Geliebte</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessAdapts_Lover_Description">Verlange, dass sie deine Geliebte wird</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessAdapts_Lover_Objective">Verlange, dass sie deine Geliebte wird. Durch ihre neu entdeckte Grausamkeit hat sich Aurelia das Recht erworben deine Gefährtin zu sein.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessAdapts_Lover_ObjectiveTooltip">Aurelia begehrt die große Macht, die ihr dieses geben wird.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessAdapts_Serve_Title">Dienen</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessAdapts_Serve_Description">Erlaube Aurelia weiterhin zu dienen.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessAdapts_Serve_Objective">Erlaube Aurelia weiterhin deinem großen Imperium zu dienen. Sie ist einer von vielen, die deinen Willen im Kosmos durchsetzen wird.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessAdapts_Serve_ObjectiveTooltip">Dein Interesse wird bald woandershin schweifen.</LocalizationPair>
+
+  <!-- Quest -->
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessDarkServantEnding_Title">Aurelia ist tot.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessDarkServantEnding_Description">Aurelia dient deinem grossen Imperiumg für die nächsten Jahre.
+
+Ihre Ideen sind oft revolutionär. Ihre Pläne sind überraschend für ihre Feinde. Aber es ist ihre grausame Effizient, die zur Legende wird.
+
+Einer nach dem anderen werden deine Ratgeber entfernt. Der eine fällt durch eine Intrige, der andere durch einen Mordanschlag. Jeder weiss, dass Aurelia hier ihre Hände im Spiel hat, aber es gibt nie einen Beweis dafür.
+
+Natürlich gibt es Gegenangriffe; es gibt viele Attentate auf sie, aber es endet immer auf die gleiche Weise: ihr schöner lumeischer Körper ist rot bedeckt durch das Blut ihres Angreifers.
+
+Ihr Glück wächst und fällt in all diesen Jahren, aber sie kämpft weiterhin. Und in diesem Kampf sie wird wahrhaftig mehr: ein schönes Monster.
+
+Und das ist dann letztendlich ihr Untergang. Sie entfernt sich so weit von der jungen Frau, die du vor all der Zeit getroffen hast. Sie ist zu schwach um zu akkzeptieren wie perfekt sie eigentlich geworden ist.
+
+Ihre Sklaven finden sie einen morgens tot, augenscheinlich durch ihre eigene Hand.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessDarkServantEnding_DarkServantEnding_Title">Aurelia ist tot</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessDarkServantEnding_DarkServantEnding_Description">Die Geschichte der Handelsprinzessin ist zu Ende..</LocalizationPair>  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessDarkServantEnding_DarkServantEnding_Objective">Erzählendes Ereignis</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessDarkServantEnding_DarkServantEnding_ObjectiveTooltip">Das ist ein mögliches Ende der Geschichte.</LocalizationPair>
+
+  <!-- Quest -->
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessAttemptsToAssassinateEnding_Title">Mordanschlag</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessAttemptsToAssassinateEnding_Description">Am Anfang konntest du oft Trotz in ihren Augen sehen; den Hass, den sie für dich und deine Grausamkeit empfand. Allerdings scheint das mit der Zeit zu verschwinden. Ihre Stimme wurde lieblicher und ihr Wesen wurde fügsam. Sie schien ihren Platz zu kennen.
+
+Aber all das war eine Lüge.
+
+Du erwachst aus deinem Schlaf eines Nachts, sie ist über dir, eine gestohlene Klinge in ihrer Hand. Sie stößt sie dir fast in den Hals bevor du ihre Handgelenke zu fassen bekommst und die Waffe zu ihr umdrehst. In dem Moment, indem sie bemerkt, dass sie den Kampf verloren hat, werden ihre Augen dunkel und plötzlich spürst du, dass sie ihre Kraft mit deiner vereinigt; die Klinge dringt tief in ihren Brustkorb- warmes, rotes Blut spritzt heraus und ist überall.
+
+“Endlich bin ich frei!”"</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessAttemptsToAssassinateEnding_Assassination_Title">Mordanschlag</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessAttemptsToAssassinateEnding_Assassination_Description">Die Geschichte der Handelsprinzessin ist zu Ende</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessAttemptsToAssassinateEnding_Assassination_Objective">Erzählendes Ereignis</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessAttemptsToAssassinateEnding_Assassination_ObjectiveTooltip">Das ist ein mögliches Ende der Geschichte.</LocalizationPair>
+
+  <!-- Quest -->
+  
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_HarvestPrincessEnding_Title">Aurelia ist tot.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_HarvestPrincessEnding_Description">Du erfährst, dass die Handelsprinzessin tot ist. Aufsässig bist zum Schluss, hat sie ihren eigenen Ausgang gefunden.
+
+Sie wurde von einem Transportschiff zu einer militärischen Abfertigungsanlage gebracht, als sie einen der Soldaten entwaffnete. Bevor Aurelia gestoppt werden konnte, hatte sie bereits fünfzehn deiner Leute getötet, sie hat außerdem einige ihrer eigenen Leute umgebracht. Zum Schluss hat sie die Waffe auf sich selbst gerichtet.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_HarvestPrincessEnding_Harvest_Title">Aurelia ist tot</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_HarvestPrincessEnding_Harvest_Description"> Die Geschichte der Handelsprinzessin ist zu Ende.
+.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_HarvestPrincessEnding_Harvest_Objective">Erzählendes Ereignis</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_HarvestPrincessEnding_Harvest_ObjectiveTooltip">Das ist ein mögliches Ende der Geschichte.</LocalizationPair>
+  
+  <!-- Quest -->
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_MeetThePrincess_Friendly_Title">Lumerische Handelsprinzessin</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_MeetThePrincess_Friendly_Description">Dein Schiff hat einige Woche damit zugebracht den Fremden zu helfen. Sie scheinen unterwegs zu sein um zu erforschen, sammeln, zu handeln und auch einen diplomatischen Auftrag gehabt zu haben. Es scheint, als hätten Grenzpiraten die Schiffe angegriffen.
+
+Die Mannschaft besteht aus verschiedenen Rassen und sie werden angeführt von einer lumerischen Handelsprinzessin namens Aurelia.
+
+“Ich grüße euch herzlich und danke Euch dass ihr zu unserer Rettung gekommen seid!“: beginnt sie. Ihre Stimme ist klar und lebhaft und sie spricht deine Sprache flüssig.
+
+Goldene Augen begegnen kurz deinem Blick. Sie sind schwarz umrahmt und schimmern durch ein mit Dust versetztes Pigment; sie lassen ihre große Intelligenz erahnen.
+
+Ihre Lippen weiten sich zu einem warmen und natürlichen Lächeln. „Unsere Schiffe,“ sagt sie: „werden die Rückreise zu unserer Heimatwelt nicht schaffen. Ihr wart bereits so freundlich, aber können wir euch nochmals um eure Großzügigkeit bitten?“</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_MeetThePrincess_Friendly_Help_Title">Hilfe</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_MeetThePrincess_Friendly_Help_Description">Finde neue Schiffe, damit die Mannschaft und ihre Ladung nach Hause kommen.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_MeetThePrincess_Friendly_Help_Objective">Finde neue Schiffe, damit die Mannschaft und ihre Ladung nach Hause kommen. Aurelia wird ihren Handelsauftrag weiterführen; es ist klar, dass sie zu den Sternen gehört.
+</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_MeetThePrincess_Friendly_Help_ObjectiveTooltip">Die Handelsprinzessin wird äußerst erfreut sein.</LocalizationPair>
+  
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_MeetThePrincess_Friendly_Assimilate_Title">Assimilierung</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_MeetThePrincess_Friendly_Assimilate_Description">Lade Aurelia und ihre Leute dazu ein, sich auf deiner Heimatwelt anzusiedeln.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_MeetThePrincess_Friendly_Assimilate_Objective">Du würdest dich geehrt fühlen sie unter deinen Leuten willkommen zu heißen. Wenn ihre Schiffe sie nicht mehr durch die Galaxie reisen lassen, dann kann Aurelia und ihre Crew sich vielleicht ein neues Leben auf deinem Heimatplaneten aufbauen</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_MeetThePrincess_Friendly_Assimilate_ObjectiveTooltip">The Handelsprinzessin wäre sehr dankbar.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_MeetThePrincess_Friendly_Abandon_Title">Im Stich lassen</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_MeetThePrincess_Friendly_Abandon_Description">Überlasse Aurelia und ihre Leute ihrem Schicksal.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_MeetThePrincess_Friendly_Abandon_Objective">Du hast alles für Aurelia und ihre Leute getan, was du bereit zu tun warst. Jetzt müssen sie sich um sich selbst kümmern.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_MeetThePrincess_Friendly_Abandon_ObjectiveTooltip">Die Handelsprinzessin und ihre Leute werden wahrscheinlich nicht überleben. </LocalizationPair>
+
+  <!-- Quest -->
+  
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessLeaves_Title">Aurelia reist ab</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessLeaves_Description">
+Es war nicht leicht. Du hast extrem viel Zeit, Energie und Ressourcen aufgewandt, um für Aurelia und ihre Leute eine Flotte zusammenzustellen, aber das war es wert.
+
+Deine Belohnung waren all die Tage, die du mit dieser verführerischen lumerischen Frau verbringen konntest. Nachmittage und Abendessen ihnen denen über alle kleinen Details besprochen wurden, wurden nur noch zum Vorwand um mehr Zeit zum Reden und zum Zusammensein zu haben. Eine erblühende Freundschaft wurde zu mehr; und am Ende sah es aus, als würde sie gar nicht mehr gehen.
+
+Und doch war es klar, dass dieser Tag kommen würde, der Tag an dem du Lebewohl zu Aurelia sagen mußt.
+
+Du stehts am Hangar. Er sieht viel zu gewöhnlich aus, um der Hintergund für so ein monumentales Ereignis zu sein.
+
+Der Kontrast ist um so schlimmer, als dann Aurelia erscheint. Ihr schlanker aber kurvenreicher Körper ist in rote Seide gehüllt und ihre goldenen Augen sind schwarz umrandet, so wie du ihr das erste Mal begegnet bist.
+
+Eure Blicke treffen sich und ihr Beide wisst, dass nun der Zeitpunkt da ist um Lebewohl zu sagen.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessLeaves_Flirt_Title">Geständnis</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessLeaves_Flirt_Description">Gestehe der Handelsprinzessin deine Gefühle</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessLeaves_Flirt_Objective">
+Es kann sein, dass du Aurelia nie mehr wiedersiehst. Du fühlst die bemüßigt ihr deine Gefühle zu gestehen. Es kann sein, dass sie nicht bleiben kann, aber zumindestens wird sie wissen, wie sehr du sie vermissen wirst.
+</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessLeaves_Flirt_ObjectiveTooltip">Die Handelsprinzessin wird durch dein Geständnis sehr geschmeichelt sein.</LocalizationPair>
+  
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessLeaves_Gift_Title">Geschenk</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessLeaves_Gift_Description">Biete der Handelsprinzessin ein großes und teures Geschenk an.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessLeaves_Gift_Objective">Es war von Anfang an klar, dass Aurelia die besten Dinge im Leben wertschätzt. Du hast dich für ein großes und teures Geschenk entschieden, das deine große Zuneigung ihr gegenüber zum Ausdruck bringen soll.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessLeaves_Gift_ObjectiveTooltip">Die Handelsprinzessin wird tief bewegt von deinem Geschenk sein.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessLeaves_Respectful_Title">Respektvol</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessLeaves_Respectful_Description">Behalte deine Gefühle, wenn du welche hast, für dich.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessLeaves_Respectful_Objective">Was auch immer du empfindest, es Aurelia jetzt gegenüber zu erwähnen erscheint grausam und unfair. Du sagst der Prinzessin freundlich, aber respektvoll Lebewohl./LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessLeaves_Respectful_ObjectiveTooltip">Die Handelsprinzessin wird niemals wissen, was du für sie empfunden hast.</LocalizationPair>  
+  
+  <!-- Quest -->
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_LongRangeScanners_Title">Weite-Reichweiten Scanner</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_LongRangeScanners_Description">
+Deine Schiffe und entfernte Überwachungsposten entdecken eine große Flotte die in hoher Geschwindigkeit zu deinem Heimatsystem unterwegs sind. In dieser Entfernung ist es unmöglich zu sagen, ob es eine Kriegsflotte ist.
+
+Deine Wissenschaftler schätzen, dass sie vor dem Ablauf von drei Wochen da sein werden.
+
+Deine Ratgeber würden gerne Schiffe aussenden um die Fremden abzufangen.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_LongRangeScanners_Military_Title">Militärisch</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_LongRangeScanners_Military_Description"Schicke eine Kriegsflotte, um sie abzufangen.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_LongRangeScanners_Military_Objective">Du weißt nicht, wer diese Fremden sind. Lass deine Generäle eine große Flotte zusammenstellen um der Flotte am Rand deines Imperiums zu begegnen.
+</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_LongRangeScanners_Military_ObjectiveTooltip">Du könntest damit unbeabsichtigt einen Konflikt provozieren.</LocalizationPair>  
+  
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_LongRangeScanners_Diplomatic_Title">Diplomatisch</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_LongRangeScanners_Diplomatic_Description">Schick eine diplomatische Flotte, um die Fremden zu grüßen.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_LongRangeScanners_Diplomatic_Objective">Du wirst keinen gewalttätigen ersten Eindruck hinterlassen. Sende eine diplomatische Flotte aus, um diese Fremden zu begrüßen.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_LongRangeScanners_Diplomatic_ObjectiveTooltip">Du könntest deine Leute in Gefahr bringen. .</LocalizationPair>    
+
+  <!-- Quest -->
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_TradeDeal_Title">Die Rückkehr der Handelsprinzessin</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_TradeDeal_Description">Es scheint als wären deine Befürchtungen unbegründet. Obwohl die neue Flotte gut bewaffnet ist, mit einer eindrucksvollen Anzahl an Kanonenschiffen, ist der wahre Zweck der Handel.
+
+Sie werden von einem bekannten Gesicht angeführt: die lumerische Handelsprinzessin Aurelia.
+
+Sie begrüßt dich am selben Hangar an dem ihr einst Lebewohl gesagt habt, vor all diesen Jahren. Sie trägt das selbe rote Gewand. Wie immer sind ihre goldenen Augen schwarz umrandet und doch scheint sie verwandelt, melancholisch irgendwie.
+
+“Ich habe die Geschichte eurer großen Großmütigkeit meinem Vater, meiner Familie erzählt. Meine Leute sind sehr dankbar für alles was ihr uns… mir erwiesen habt!“, sagt sie zu dir. „Wenn ihr es wünscht, haben wir ein Angebot für eine Handelsallianz. Es wird unser beider Nationen sehr reich machen und…“ Ihre Stimme verliert sich für einen Moment und sie bricht den Augenkontakt.
+
+Als sie wieder deinen Blick erwidert, zittern ihre Pfirsichlippen ganz leicht, der einzige Hinweis auf ihre Gefühle in dem noch immer jungen Gesicht. „Wenn ihr es wünscht, hat meine Familie vorgeschlagen, dass ich hier bleibe. Das ich hier als Repräsentant stationiert bin- für den Handel.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_TradeDeal_Intimate_Title">Vertrautheit</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_TradeDeal_Intimate_Description">Lade Aurelia zu einem privaten und intimen Essen ein..</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_TradeDeal_Intimate_Objective">Lade Aurelia zu einem privaten und intimen Abendessen ein, um ihre Zukunft hier bei dir zu besprechen..</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_TradeDeal_Intimate_ObjectiveTooltip">Die Prinzessin wird diese Einladung sehr schätzen.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_TradeDeal_Formal_Title">Formell</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_TradeDeal_Formal_Description">Biete Aurelia ein formelles Meeting an, um diese Angelegenheit zu besprechen.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_TradeDeal_Formal_Objective">Das ist etwas, das in einem formellen Meeting mit deinen Ratgebern besprochen werden sollte, zusammen können alle Details für diese neue Handelsallianz besprochen werden.
+</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_TradeDeal_Formal_ObjectiveTooltip">Die Handelsprinzessin wäre geehrt durch diese Audienz.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_TradeDeal_Distant_Title">Distanziert</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_TradeDeal_Distant_Description">Lasse sie die Details mit deinen Beratern besprechen.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_TradeDeal_Distant_Objective">Lasse sie die Details mit deinen Beratern besprechen. Du hast einfach keine Zeit, um dich persönlich mit ihr zu treffen.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_TradeDeal_Distant_ObjectiveTooltip">Dieses Handeln ist unpersönlich und wird Aurelias Gefühle verletzen. </LocalizationPair>
+
+  <!-- Quest -->
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_AssimilatePrincess_Title">Assimiliere die Händler</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_AssimilatePrincess_Description">Es ist eine lange und emotionale Reise für Aurelia und ihre Leute.
+
+Bevor du gekommen bist, hatten sie schon fast ihre Ende akkzeptiert gehabt. Wenn du ein etwas feinseliges Wesen gehabt hättest, dann wären sie jetzt tot, oder schlimmeres.
+
+Und jetzt zusammengedrängt an Bord deiner Transportschiffe, nur mit dem was sie tragen können, werden diese Flüchtlinge ein komplett neues Leben auf deinem Heimatplaneten beginnen.
+
+Der Ernst ihrer Lage wird dir während einem der vielen Gespräche mit der Handelsprinzessin klar.
+
+Sie werden überleben, das ist keine Frage, aber werden sie auch gut und erfolgreich leben? Sie müssen einen Weg finden, sich in deine Gesellschaft zu integrieren. Es mag nicht so leicht sein, wie du es dir gerne wünschen würdest.
+
+Du blickst tief in Aurelias schwarzumrandete Augen während einer deiner letzten Treffen mit ihr. Du erkennst, dass egal was du auch tun wirst, um ihnen zu helfen, es wird dir unmöglich sein, sie vor der den kommenden Beschwernissen zu retten.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_AssimilatePrincess_Favor_Title">Begünstigung</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_AssimilatePrincess_Favor_Description">Begünstige Aurelia und ihre Leute.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_AssimilatePrincess_Favor_Objective">Begünstige Aurelia und ihre Leute. Finde für sie angenehme Arbeit und die besten Wohnungen; mach alles, damit der Übergang für sie so leicht wie möglich wird  LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_AssimilatePrincess_Favor_ObjectiveTooltip">Deine einheimische Bevölkerung wird sich geringgeschätzt fühlen.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_AssimilatePrincess_Equality_Title">Gleichberechtigung</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_AssimilatePrincess_Equality_Description">Lass die Händler ihren natürlichen Platz in deiner Gesellschaft finden.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_AssimilatePrincess_Equality_Objective">Lass die Händler ihren natürlichen Platz in deiner Gesellschaft finden. Schlussendlich müssen sie die Fähigkeiten entwickeln, die sie in ihrem neuen zu Hause überleben lassen werden.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_AssimilatePrincess_Equality_ObjectiveTooltip">Aurelia und ihre Leute werden kämpfen müssen, um zu überleben.</LocalizationPair>
+
+  <!-- Quest -->
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_HighSociety_Title">Rote Häuser</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_HighSociety_Description">Du hast es Aurelia und ihren Leuten leicht gemacht. Vielleicht etwas zu leicht.
+
+Die lumerische Handelsprinzessin ist in the letzten Jahren reich geworden. Naturgemäß gewitzt und talentiert in Sprachen und sozialen Umgangsformen haben sich ihre Leute im Handel und um Dienstleistungssektor ausgebreitet. Jetzt haben sie viele der begehrten Jobs in deiner Wirtschaft eingenommen und es sieht nicht so aus, als würden sie hier auhören.
+
+Kürzlich hat Aurelia ihre jetzt berüchtigten Rote Häuser aufgemacht. Schlupfwinkel des Vergnügens und exklusive Clubs, die sogar von den höchsten Beamten deiner Regierung besucht werden. Obwohl die frühere Handelsprinzessin und ihre wachsende Clique ihre Steuern zahlen und damit einen hohen Gewinn an Dust für dein Imperium, gibt es jetzt auch Erpressung, Bestechung und andere illegale Skandale. Alles lässt sich zu ihr zurückverfolgen,</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_HighSociety_Summon_Title">Summon</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_HighSociety_Summon_Description">Summon Aurelia to solve this problem.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_HighSociety_Summon_Objective">Summon Aurelia to solve this problem. Surely there is some other place for her in your empire; a role that is less disruptive.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_HighSociety_Summon_ObjectiveTooltip">Aurelia will be intrigued by your summons.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_HighSociety_Permit_Title">Permit</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_HighSociety_Permit_Description">Allow Aurelia to continue with her plans.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_HighSociety_Permit_Objective">Allow Aurelia to continue with her plans. She has done well for her people, and she generates a tremendous amount of dust for your empire.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_HighSociety_Permit_ObjectiveTooltip">Aurelia will gradually drift away from you.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_HighSociety_Exile_Title">Exile</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_HighSociety_Exile_Description">Exile Aurelia from your homeworld.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_HighSociety_Exile_Objective">Exile Aurelia from your homeworld. It was a mistake to allow her to settle here, and she now has the wealth to remove herself from your worlds.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_HighSociety_Exile_ObjectiveTooltip">Aurelia will be very angry with this decision.</LocalizationPair>
+  
+  <!-- Quest -->
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_LowSociety_Title">The Red House</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_LowSociety_Description">You didn't make it easy for Aurelia and her people. 
+
+In the early days of their resettlement, the traders did their best to find honest jobs. They labored, gathered, and provided service work. Some of them found positions in your diplomatic corps, while the most skilled went to work in your research labs.
+
+But poverty weighed heavy on Aurelia and her people. Isolated--and not entirely welcomed--by your native population, they turned to an easier life and sold a more base commodity: pleasure.
+
+From the slums of your great capital, Aurelia now runs a wide-ranging operation. Blue-skinned urchins sell pleasure drugs on street corners. Lumeris dancers--barely clad and possessed of an exotic beauty--now dominate your culture's social clubs. Even other, minority races rally behind the trade princess; she has become a beacon for the "other" in your society.
+
+The center of their collective--commonly called the Red House--is a large building in the heart of your slums. Countless vagrants, migrants and homeless people of all races gather there. While some of your advisors condemn it as a blight on your great city, there is an order to their community. Everyone at the Red House has a job and a purpose; everyone has a safe place to sleep at the Red House; and everyone eats.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_LowSociety_Summon_Title">Summon</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_LowSociety_Summon_Description">Summon Aurelia to solve this problem.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_LowSociety_Summon_Objective">Summon Aurelia to solve this problem. Surely there is some other place for her in your empire; a role that is less disruptive.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_LowSociety_Summon_ObjectiveTooltip">Aurelia will be intrigued by your summons.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_LowSociety_Permit_Title">Permit</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_LowSociety_Permit_Description">Allow Aurelia to do what is best for her people.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_LowSociety_Permit_Objective">Allow Aurelia to do what is best for her people. It was always going to be a struggle for them; you will not judge.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_LowSociety_Permit_ObjectiveTooltip">Aurelia will gradually drift away from you.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_LowSociety_Exile_Title">Exile</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_LowSociety_Exile_Description">Exile Aurelia from your homeworld.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_LowSociety_Exile_Objective">Exile Aurelia from your homeworld. It was a mistake to allow her to settle here; force them from your capital city.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_LowSociety_Exile_ObjectiveTooltip">Aurelia will be very angry with this decision.</LocalizationPair>
+  
+  <!-- Quest -->
+  
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessMarriageEnding_Title">Aurelia is Wed</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessMarriageEnding_Description">Aurelia does well over the years. Her pleasure dens remain a mainstay of your empire's culture, and before too long they have spread throughout your colonies and into space itself. At last count she owned twelve great luxury liners, ferrying the richest and most influential individuals to and from your home system.
+
+And her Red Houses have expanded their services as well. Originally they offered simple pleasure drugs and exotic dancers; but now almost any desire--from high-stakes gambling to the most deviant acts of passion--can be fulfilled in one of Aurelia's houses.
+
+There was talk, for a time, that Aurelia might eventually set sail on one of her great ships; that she would travel back into the stars from which she came.
+
+But then you hear of her wedding to one of the wealthiest ship-building magnates in your empire. It's nearly impossible to avoid the news. Aurelia has become a social darling in your culture, and her wedding is branded as the most luxurious event in a generation.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessMarriageEnding_PrincessMarriageEnding_Title">Aurelia is Wed</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessMarriageEnding_PrincessMarriageEnding_Description">The trade princess storyline has ended.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessMarriageEnding_PrincessMarriageEnding_Objective">Narrative event</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessMarriageEnding_PrincessMarriageEnding_ObjectiveTooltip">This is one of many possible endings for this storyline.</LocalizationPair>  
+
+  <!-- Quest -->
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_CultLeaderEnding_Title">Cult of the Red Flower</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_CultLeaderEnding_Description">Aurelia continues to nurture and grow her Red House in the slums. The building--originally a condemned warehouse--is gradually repaired. And as the years pass, the old structure becomes the center of a new and rising district. It starts with the nearby blocks, but it quickly spreads from there.
+Violence disappears. There is an eerie calm in the streets. Those who live in the area can only describe it as a philosophy of thought; something that just clicks in the mind one day.
+Aurelia's followers are everywhere. They are the same lost souls that followed her so many years ago, in the beginning. But now, instead of being poor and homeless and forgotten, they live in a plain sort of comfort. Decrepit houses and crumbling buildings have been rebuilt with the help of the entire community; now there is food and shelter for everyone. 
+Aurelia herself is rarely seen these days. As her territory grew, she became more and more reclusive. Some say her followers have constructed tunnels beneath the city, and that Aurelia now lives in a secret, undergound complex. 
+Others claim she is dead and some even whisper that she has become a divine being; a saint.
+A cult springs up around Aurelia and a red flower--symbolic of a popular, plant-based pleasure drug that is widely sold on the streets of your capital--becomes her symbol.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_CultLeaderEnding_CultLeaderEnding_Title">Cult of the Red Flower</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_CultLeaderEnding_CultLeaderEnding_Description">The trade princess storyline has ended.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_CultLeaderEnding_CultLeaderEnding_Objective">Narrative event</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_CultLeaderEnding_CultLeaderEnding_ObjectiveTooltip">This is one of many possible endings for this storyline.</LocalizationPair>
+
+  <!-- Quest -->
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_ExilePrincessHigh_Title">The Red Queen</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_ExilePrincessHigh_Description">Aurelia uses her accumulated wealth, combined with extensive use of blackmail and her considerable political capital, to buy a massive fleet of ships. Most of them are older trade and military vessels, but one among them stands out: The Red Queen.
+
+The largest and most advanced of your empire's privately-owned vessels, Aurelia somehow manages to acquire this ship. She immediately rebrands and retrofits it to her desires.
+
+"For my protection," she says seductively, when confronted about the purchase.
+
+Months later, Aurelia and her people disembark. The were ostensibly headed back to their system of origin, but you should have known better. Taking most of her people--as well as some of your own--Aurelia instead settles in and around the dense asteroid field of a nearby system, where she reportedly establishes a pirate's den. You send spies to investigate, and they tell you that she rules this new haven with a serpent's tongue.
+
+Pleasure drugs and illicit goods--dark things of value--continue to flow freely into your empire, and you are powerless to stop it. Apparently Aurelia left her own network of spies and criminals behind when she left. 
+
+Though the pirate queen may be exiled, her presence is felt everywhere. Again and again, her ships launch surgical strikes on your trade and transport vessels; almost as if she were being fed information. Some of your closest advisors are soon revealed to be spies, long ago turned by the dark secrets she kept on them. And worst of all, your native people clamor for the seductive narcotics only she manages to smuggle in.
+
+Aurelia has you beat.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_ExilePrincessHigh_Exile_Title">The Pirate Queen</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_ExilePrincessHigh_Exile_Description">The trade princess storyline has ended.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_ExilePrincessHigh_Exile_Objective">Narrative event</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_ExilePrincessHigh_Exile_ObjectiveTooltip">This is one of many possible endings for this storyline.</LocalizationPair>
+
+  <!-- Quest -->
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_ExilePrincessLow_Title">The Red Queen</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_ExilePrincessLow_Description">You want Aurelia and her people gone. You want the blight of the Red House removed from your capital. 
+
+Aurelia accepts your decision with an eerie grace. "As you wish," she promises, her smile saccharine sweet. "But please. Just a few more days to make our plans?"
+
+It seems reasonable at the time, but it soon becomes clear that she never intended to leave.
+
+Shortly before Aurelia is scheduled to depart with her closest advisors, they all suddenly go missing. When you send your troops into the slums to search for her, they find the Red House empty and abandoned. And no matter how high you set the bounty on her head, no one ever comes forward with her whereabouts. 
+
+It's as if Aurelia and her people simply disappeared. But the pleasure drugs never stop flowing. And other substances---darker, more dangerous things--soon join them on the streets.
+
+And then come the scandals erupting across your empire. Stories of blackmail, bribery, addiction and adultery begin to dominate your empire's news networks. It feels inescapable and inevitable; it feels like everything is falling apart.
+
+But perhaps the most bizarre thing of all is the newly-coined myth of the Red Queen. Your people say her name in reverant whispers; some among them even begin to pray to her, as if she were a god. The Red Queen, protector of the poor and the keeper of secrets. She who is said to despise tyranny; she who lurks in the darkest shadows.
+
+Aurelia has become invisble; but her presence can be felt everywhere.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_ExilePrincessLow_Exile_Title">The Red Queen</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_ExilePrincessLow_Exile_Description">The trade princess storyline has ended.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_ExilePrincessLow_Exile_Objective">Narrative event</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_ExilePrincessLow_Exile_ObjectiveTooltip">This is one of many possible endings for this storyline.</LocalizationPair>
+  
+  <!-- Quest -->
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_SummonPrincess_Title">Summon Aurelia</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_SummonPrincess_Description">You send word to Aurelia that you would like an audience.
+
+She arrives in a dazzling show of red silk and dust-infused glamour.
+
+Her golden eyes seem to brighten the moment they find you. "It has been too long. I am so pleased to be here with you once more." Her lips--sheening brightly with golden dust--spread wide and easy. "Please, tell me. What may Aurelia do for you?"
+
+Everything feels intimate and close; as if your last conversation had been only yesterday.
+
+And the years have been very generous to Aurelia. It's hard to find signs of age in her gloriously graceful Lumeris body; but you can feel it in her soul. She seems even more composed, and her confidence and grace has grown exponentially. 
+
+And perhaps most alarming is the deeply seductive quality to her every word and action. You can feel yourself being slowly drawn in by Aurelia's charm.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_SummonPrincess_Advisor_Title">Advisor</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_SummonPrincess_Advisor_Description">Ask Aurelia to become your advisor.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_SummonPrincess_Advisor_Objective">Ask Aurelia to become your advisor. She is socially talented and a natural deal-maker.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_SummonPrincess_Advisor_ObjectiveTooltip">Aurelia would be delighted to be included in your government.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_SummonPrincess_Lover_Title">Lover</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_SummonPrincess_Lover_Description">Ask Aurelia to become your lover.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_SummonPrincess_Lover_Objective">Ask Aurelia to become your lover. You can't help it; you find yourself deeply entranced by this beautiful being. And as they say, fortune favors the bold!</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_SummonPrincess_Lover_ObjectiveTooltip">Aurelia would probably agree to be your lover.</LocalizationPair>  
+
+  <!-- Quest -->
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_AureliaBecomesAdvisor_Title">Aurelia Becomes Your Advisor</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_AureliaBecomesAdvisor_Description">Everything becomes so much easier once Aurelia is involved. Deals that had been difficult to negotiate are quickly resolved. Your government's trade, industry and economy take off, far exceeding everyone's wildest projections. And even your goals and personal projects--some of them mere fantasies before Aurelia--now seem possible and within reach.
+
+By keeping her as an advisor, you get to witness Aurelia's talents firsthand. Her tongue drips with honeyed words. Her charisma is overwhelming and addictive. But most of all, she is supremely smart and tactical in everything she does. She listens, she studies, and when she finally acts, it is always with extreme ease and grace.
+
+This continues for several years, until one day Aurelia comes to you with an idea. You've always kept her well-rewarded for her work, but she has never before asked you for anything specific. And yet this request seems very important to her.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_AureliaBecomesAdvisor_Intimate_Title">Intimate</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_AureliaBecomesAdvisor_Intimate_Description">Invite Aurelia to a private and intimate dinner.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_AureliaBecomesAdvisor_Intimate_Objective">Invite Aurelia to a private and intimate dinner to discuss her request.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_AureliaBecomesAdvisor_Intimate_ObjectiveTooltip">Aurelia would greatly appreciate your attention.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_AureliaBecomesAdvisor_Formal_Title">Formal</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_AureliaBecomesAdvisor_Formal_Description">Offer Aurelia a formal meeting to discuss her proposition.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_AureliaBecomesAdvisor_Formal_Objective">This calls for a formal meeting with all of your advisors; together, you will work out the details of Aurelia's plan.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_AureliaBecomesAdvisor_Formal_ObjectiveTooltip">Aurelia would be honored to present her idea to your advisors.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_AureliaBecomesAdvisor_Distant_Title">Distant</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_AureliaBecomesAdvisor_Distant_Description">Have her work the details out with your other advisors.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_AureliaBecomesAdvisor_Distant_Objective">Have her work the details out with the rest of your advisors. You simply don't have the time to personally meet with her.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_AureliaBecomesAdvisor_Distant_ObjectiveTooltip">This action is impersonal and would hurt Aurelia's feelings.</LocalizationPair>
+
+  <!-- Quest -->
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessLightServantEnding_Title">A Wedding</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessLightServantEnding_Description">A few years pass, and Aurelia seems genuinely happy with her life on your homeworld. She contributes much to your empire, and forges deep connections among the elite.
+It comes as a bit of a surprise, then, when she annouces her plans to wed a mogul from the private sector. The first you hear of it is in the invitation that arrives; her plot spelled out in embossed, golden lettering on a rich, cream stock.
+The ceremony is a luxurious affair, blending Lumeris customs with the traditions of your own people. The guest list reads as a who's who of politics and power in your empire.
+Aurelia has done well for herself through association with your government, and now it appears that she plans to move on.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessLightServantEnding_PrincessLightServantEnding_Title">A Wedding</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessLightServantEnding_PrincessLightServantEnding_Description">The trade princess storyline has ended.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessLightServantEnding_PrincessLightServantEnding_Objective">Narrative event</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_PrincessLightServantEnding_PrincessLightServantEnding_ObjectiveTooltip">This is one of many possible endings for this storyline.</LocalizationPair>
+    
+  <!-- Quest -->
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_IntimateDinner_Title">Essen mit Aurelia</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_IntimateDinner_Description">Wunderbare Blumen schmücken im Überfluss die große Tafel, die Delikatessen gedeckt ist. Da ist viel mehr da, als ihr zwei essen könnt, aber deine Befehle diesen Morgen waren absolut klar. Alles, alles was sie sie sich vielleicht wünschen könnte, muss da sein. Was auch immer ihr Geschmack ist, ihr Lieblingsduft, es muss da sein.
+
+Der ganze Abend ist dazu da um deine Anziehung zu Aurelia zu zeigen.
+
+Eine Anziehung, die sie ganz klar erwidert. Das kannst du in ihren goldenen Augen lesen. Normalerweise klein und verführerisch, sind nun ihre Pupillen weit und voll, wie die Zwillingsmonde an deinem Nachthimmel. Ihr Körper, umhüllt mit einem dünnen, luxeriösen Kleid, zieht deinen Blick immer wieder an. Du kannst nicht damit aufhören Aurelia anzusehen und sie bemerkt das.
+
+Sie lacht, sie lacht viel. Ein dunkles, silbernes Lachen, das ihre Freude ausdrückt, aus ihrem ausdrucksstarkem Mund. Ein leichtes Zittern ihrer Pfirsichlippen, das einzige was ihr Innerstes ausdrücken mag.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_IntimateDinner_Express_Title">Zum Ausdruck bringen</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_IntimateDinner_Express_Description">Erzähle Aurelia wasdu für sie fühlst.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_IntimateDinner_Express_Objective">Erzähle  Aurelia was du für sie empfindest. Du kannst es keine Sekunde länger für dich behalten.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_IntimateDinner_Express_ObjectiveTooltip">Aurelias Herz wird bewegt sein von deinem Bekenntnis.</LocalizationPair>  
+  
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_IntimateDinner_Gift_Title">Geschenk</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_IntimateDinner_Gift_Description">Biete Aurelia ein großartiges Geschenk an.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_IntimateDinner_Gift_Objective">Biete Aurelia ein großartiges Geschenk an, damit sie versteht wie wertvoll sie für dich ist.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_IntimateDinner_Gift_ObjectiveTooltip">Aurelia wird erfreut sein zu wissen, wie sehr du sie schätzt.</LocalizationPair>    
+  
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_IntimateDinner_Touch_Title">Berührung</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_IntimateDinner_Touch_Description">Zeige deine Zuneigung für Aurelia durch eine sinnliche Berührung.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_IntimateDinner_Touch_Objective">Zeige deine Zunneigung für Aurelia durch eine sinnliche Berührung. Du verzehrst dich nach dem Gefühl ihre warme, blaue Haut an dir zu spüren.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_IntimateDinner_Touch_ObjectiveTooltip">Aurelia begehrt deine Berührung..</LocalizationPair>
+
+  <!-- Quest -->
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_FormalMeeting_Title">Aurelia Seduces You</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_FormalMeeting_Description">One by one, Aurelia wins over each of your advisors with her seductive charm. Her words are intelligent, and her arguments are carefully prepared; but ultimately, Aurelia's success comes in the elegance of her delivery.
+During one of your longer breaks, Aurelia approaches you in private. "Things are going well, it seems." She offers the words, but you can sense a deeper meaning. Her smile slowly widens, full of mystery and pleasure.
+"I like it here," she murmurs, giving you a long gaze, golden eyes studying you deeply; intently. And then her playful smile returns again. "Would you be angry if I told you that this is really not very important to me at all?"
+You ask her what she means, and she just laughs; the sound delicious to your ears. "What I really want," she starts, and then raising her arms wide, asks, "All of this?" You can't help but see the shape of her body as she spreads her hands up into the air; beneath her semi-sheer, golden robes, her form is firm and lithe and long, but full of gentle curves. And then she looks back down to you, bringing her arms around in a graceful sweep so that her palms are up; together; pointing at you.
+"All of this, when all I want is you," she says finally, her face awash in a gentle glow; her sweet and honest eyes unguarded.
+  
+  </LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_FormalMeeting_Accept_Title">Accept</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_FormalMeeting_Accept_Description">Accept Aurelia's love.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_FormalMeeting_Accept_Objective">Accept Aurelia's confession of love. She is extremely lovely and her feelings are very sweet </LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_FormalMeeting_Accept_ObjectiveTooltip">Aurelia will become your lover.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_FormalMeeting_Reject_Title">Reject</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_FormalMeeting_Reject_Description">Reject Aurelia.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_FormalMeeting_Reject_Objective">Reject Aurelia. Whether it was her initial deceit, or simply a case of unrequited love, you have no desire to pursue a romance with her.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_FormalMeeting_Reject_ObjectiveTooltip">Aurelia's feelings would be very injured.</LocalizationPair>
+
+  <!-- Quest -->
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_AureliaBecomesLover_Title">Aurelia wird deine Geliebte</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_AureliaBecomesLover_Description">Aurelia antwortet mit einem einfachen, anmutigen Kuss. Ihre Lippen sind honigsüß; und jede Berührung läßt dich hungernd nach mehr zurück. Ihr Mund ist fest auf deinen gedrückt. Ihr Körper ist nah bei dir. Ihr nach Dust duftender Körper ist in jedem kurzem Atemzug. Du fühlst dich übermütig, berrauscht, abhängig.
+
+Und nach diesem ersten Rendez wird Aurelia zu einer fast perfekten Geliebten. Ihre Augen und ihre Gedanken scheinen immer bei dir zu sein. So als würde sie dich studieren; als würde sie lernen und sich anzupassen, um eine perfekte Gefährtin zu werden.
+
+Sie ist so suchterzeugend und charismatisch. Irgendwann machst du den Witz, dass sie dich wohl unter Drogen setzt. Ihre Antwort ist ein schauriges Lachen,  ein erhaben göttliches und mißtönedes Lachen auf einmal.
+
+Trotzdem kümmert dich das nicht. Es würde dich auch nicht kümmern, wenn es das wirklich täte. Du fühlst dich als würdest du in goldenen Vergnügen ertrinken.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_AureliaBecomesLover_Love_Title">Liebe</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_AureliaBecomesLover_Love_Description">Liebe Aurelia  zutiefst und inning.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_AureliaBecomesLover_Love_Objective">Liebe Aurelia  zutiefst und inning. Du kämpfst damit dein Imperium zu regieren, weil sie deine Welt geworden ist.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_AureliaBecomesLover_Love_ObjectiveTooltip">Aurelia ist hoch erfreut über deine HIngebung.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_AureliaBecomesLover_Spoil_Title">Verwöhnen</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_AureliaBecomesLover_Spoil_Description">Verwöhne Aurelia mit allem was ihr Herz begehrt.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_AureliaBecomesLover_Spoil_Objective">Verwöhne Aurelia mit allem was ihr Herz begehrt. Sie ist berauschend und süchtig machend und du würdest ihr alles geben, um einen weiteren Moment in ihrer Gesellschaft zu verbringen. </LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_AureliaBecomesLover_Spoil_ObjectiveTooltip">Aurelia wird die Luxusartikel, die du ihr zuteil werden lässt innig lieben.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_AureliaBecomesLover_Cheat_Title">Betrug</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_AureliaBecomesLover_Cheat_Description">Betrüge Aurelia.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_AureliaBecomesLover_Cheat_Objective">Betrüge Aurelia. Keine andere Geliebte kann ihr das Wasser reichen, aber du willst weiterhin auch woanders suchen.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_AureliaBecomesLover_Cheat_ObjectiveTooltip">Aurelia wird es niemals erfahren, oder!?</LocalizationPair>
+  
+  <!-- Quest Template -->
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_Invitation_Title">Aurelia's Invitation</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_Invitation_Description">Your relationship with Aurelia springs into full blossom. She is unlike any lover you've had before. She is sweet and addictive. Her nature is dark, but playful and inquisitive. And when it comes to intimacy, Aurelia is as wicked and unconventional as lovers come.
+But more than that, you realize that Aurelia is opening herself up to you; her dark petals cautiously unfurling. There is so much depth that she keeps hidden away. Like a golden mirror, Aurelia shines back what others want to see; but as you grow closer to this exotic flower, you find a deep and golden well at her core.
+She's gazing at you lovingly after your latest tryst, her golden eyes melting and dripping with emotion she doesn't try to hide.
+"Let's go away," she murmurs lovingly. "From all of this. For just a little while."</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_Invitation_Moon_Title">Moon</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_Invitation_Moon_Description">Take Aurelia to a wild and unihabited moon.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_Invitation_Moon_Objective">Take Aurelia to a wild and unihabited moon on the edge of your empire's territory. You will explore the lush jungles together.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_Invitation_Moon_ObjectiveTooltip">Aurelia would absolutely love the adventure!</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_Invitation_City_Title">City</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_Invitation_City_Description">Visit the great capital of a nearby empire.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_Invitation_City_Objective">Visit the great capital of a nearby empire. Aurelia is a creature of society and culture, and you want to drown her in new experiences.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_Invitation_City_ObjectiveTooltip">Aurelia would be overjoyed with the trip!</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_Invitation_Reject_Title">Decline</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_Invitation_Reject_Description">Decline her invitation.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_Invitation_Reject_Objective">Decline her invitation. There is so much work to do and you can enjoy each other just fine on your homeworld.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_Invitation_Reject_ObjectiveTooltip">Aurelia would be extremely disappointed with your answer.</LocalizationPair>
+
+  <!-- Quest -->
+  
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_DyingRomanceGeneralEnding_Title">Dying Romance</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_DyingRomanceGeneralEnding_Description">Over time, the intensity of your relationship with Aurelia seems to fade. 
+Everything was so intense and passionate in the beginning; her every glance left you titillated and excited. 
+But now it seems that all you ever talk about is work. Trade. Industry. The Empire.
+You both find excuses to spend time apart. You see each other less and less, and when you are together, the time feels lonely and uninspired.
+And deep down, you have this nagging suspicion that Aurelia's attention might have drifted elsewhere.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_DyingRomanceGeneralEnding_Ending_Title">Dying Romance</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_DyingRomanceGeneralEnding_Ending_Description">The trade princess storyline has ended.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_DyingRomanceGeneralEnding_Ending_Objective">Narrative event</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_DyingRomanceGeneralEnding_Ending_ObjectiveTooltip">This is one of many possible endings for this storyline.</LocalizationPair>
+  
+  <!-- Quest -->
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_Moon_Title">Tropical Moon</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_Moon_Description">The moment you choose this wild and uninhabited jungle moon for your vacation, Aurelia lights up with excitement.
+"Really? A moon? A jungle moon!" she exclaims, pouncing on top of you in disbelief before she lets out a little shriek of joy. Her reaction is so honest and intimate. Only you ever get to see her like this; she is wholly yours in these moments.
+Aurelia prepares for your trip with gusto. She orders a nearby science vessel to take fresh scans of the moon, and then she spends weeks poring over them. She plots out how best to allocate the limited time you will have together on the pristine beaches and in the wild jungles.
+Finally, she brings her plans to you. "What shall we do, my love?" she asks, her golden eyes awash in a jubilant glow.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_Moon_Explore_Title">Explore</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_Moon_Explore_Description">Explore the jungles.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_Moon_Explore_Objective">Explore the wild and diverse jungles. There must be all sorts of new plants and flowers for you to discover.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_Moon_Explore_ObjectiveTooltip">Aurelia would be delighted to go exploring with you.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_Moon_Hunt_Title">Hunt</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_Moon_Hunt_Description">Hunt together.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_Moon_Hunt_Objective">Hunt down new and exotic creatures. You and Aurelia will bond together as predators in the verdant jungles.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_Moon_Hunt_ObjectiveTooltip">You and Aurelia would forge a deep bond through a shared hunt.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_Moon_Relax_Title">Relax</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_Moon_Relax_Description">Relax together on sunny beaches.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_Moon_Relax_Objective">Relax together on sunny beaches. You and Aurelia will have plenty of time to talk and touch and enjoy one another.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_Moon_Relax_ObjectiveTooltip">Aurelia seems to take great joy in swimming and sunbathing.</LocalizationPair>
+
+  <!-- Quest -->
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_ExploreMoon_Title">Flower of Bliss</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_ExploreMoon_Description">From orbit, the moon looks small, but vibrant. There is a singular continent on the planet-facing side of the tidally-locked moon. The landmass overflows with dense green jungles; it is punctuated by twisting rivers and a cascade of great lakes. Aqua blue, coastal shallows line the edges of this paradise.
+But while they look beautiful from orbit, the jungles are terrifying in person. The canopy of the trees and the thick bush before you are alive with the squawks, chirps, roars, rustles and the buzzings of countless living creatures. In the distance, you even spot some hungry thing moving beneath the sun-baked sand.
+Naturally, Aurelia runs ahead of you as soon as you land, her fingers touching this leafy thing and then that flower. "Come on! We have to explore!" she calls out across the windswept beach.
+The dangers of the moon are quickly forgotten against Aurelia's pleasure. She begins to strip down almost immediately, so that the ferns and the flowers can brush against her naked skin. It would be embarassing if you didn't already know her so well from your private interactions. As she rubs her face and nose into a massive, glorious bloom, her eyes purr with pleasure.
+"This one," she murmurs, dripping her long, slender fingers into a silky-clear nectar, "...is full of bliss." She looks up at you seductively, her face flooded in euphoria. "Try this...with me?" she begs, her words a slur of pleasure.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_ExploreMoon_Experiment_Title">Experiment</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_ExploreMoon_Experiment_Description">Experiment with Aurelia.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_ExploreMoon_Experiment_Objective">Experiment with Aurelia. It might not be smart, or safe, but you will chase all the pleasures of this existence with her.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_ExploreMoon_Experiment_ObjectiveTooltip">This will show Aurelia that you are kindred spirits.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_ExploreMoon_Decline_Title">Abstain</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_ExploreMoon_Decline_Description">Refuse to try Aurelia's flower.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_ExploreMoon_Decline_Objective">Abstain from Aurelia's reckless experimentation. It might be fun to watch her indulge, but you will not put yourself at risk.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_ExploreMoon_Decline_ObjectiveTooltip">Aurelia will find you very dry and dull.</LocalizationPair>
+  
+  <!-- Quest -->
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_ExploreMoonBonding_Title">The Bonding</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_ExploreMoonBonding_Description">The substance tastes sweet and otherworldly. From the moment it touches your tongue, your mind flies free. You spend days writhing in pleasure with Aurelia on the hot, sandy beaches. You wade into the warm waters together. You laugh and you giggle like children playing. Everything seems so happy and delerious. So lost. It's as if time just stops. You stop to think about that for what seems like...forever, and then you feel dizzy and then you realize that you're sitting beside a great, roaring fire with Aurelia.
+The psychedelic high is wearing off now. Aurelia stares at you, her mind already clean and clear. How long has she been looking at you like that? How long will she continue to stare into your very soul, lost in a blissful peace.
+"I love you," she says simply. It lacks all the gild and glimmer that normally adorns her words, but it is perfect this way. "I love you," she says again.
+And then with a great big smile--a happy smile--she pulls something from an old, leather satchel that she brought with her to the moon. You've seen this bag before--in her private chambers--but she has never let you look inside it.
+From the ancient leather, Aurelia pulls a dust-infused fern frond. In the dark of the night, it glows like a great torch, even brighter than the bonfire at your side. Sparkles of ancient gold drip like embers from its feathery leaves.
+"This," she says, with a seductive smile, "is an ancient and rare thing. It comes from my homeworld. This plant is all but extinct now." She chuckles a bit, as she runs one finger across a brittle, glowing leaf. "A love fern. A dust fern. The essence of this thing has so much power." She pauses for a moment, as if lost in deep thought. "The power, even, to join two souls. Two bodies," she says, now looking directly at you. "If you do this with me, you will feel as I do. And I will always know your pleasures and your pains. For all the rest of our days, we will be as one."</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_ExploreMoonBonding_Bond_Title">Bond</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_ExploreMoonBonding_Bond_Description">Share a dust bond with Aurelia.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_ExploreMoonBonding_Bond_Objective">Share a dust bond with Aurelia. This will link your nervous systems together; whatever happens to one of you will be felt by the other. Forever.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_ExploreMoonBonding_Bond_ObjectiveTooltip">Aurelia loves you; she wants to share this bond with you.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_ExploreMoonBonding_Refuse_Title">Refuse</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_ExploreMoonBonding_Refuse_Description">Refuse the dust bond.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_ExploreMoonBonding_Refuse_Objective">Refuse the dust bond. It's a very big commitment, and you're not willing to make it at this time.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_ExploreMoonBonding_Refuse_ObjectiveTooltip">Aurelia would feel deeply rejected.</LocalizationPair>
+  
+  <!-- Quest -->
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_HuntMoon_Title">Dangers Of The Hunt</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_HuntMoon_Description">From orbit, the moon looks small, but vibrant. There is a singular continent on the planet-facing side of the tidally-locked moon. The landmass overflows with dense green jungles; it is punctuated by twisting rivers and a cascade of great lakes. Aqua blue, coastal shallows line the edges of this paradise.
+But while they look beautiful from orbit, the jungles are even more terrifying in person. The canopy of the trees and the thick bush before you are alive with the squawks, chirps, roars, rustles and the buzzings of countless living creatures. In the distance, you even spot some hungry thing moving beneath the sun-baked sand.
+You are here to share a hunt with Aurelia, and already you can see the lust in her eyes as she takes the weapon that you offer. "Nothing but the biggest and most dangerous prey will do," she exclaims, her golden eyes shining with enthusiasm.
+You spend days moving through the thickets, following a winding river to a great, wide lake. You teach her how to move and stalk her prey, and on the second day she manages to take down a larger bird. You cook and eat it together. 
+You see so many new species of animals as you travel and explore, but none strike you as worthy trophies until you stumble onto the trail of an apex predator. For days you hunt the beast, which looks to be some sort of great cat. It roams a very large territory, and as you reach one of its many dens--the floor covered in bleached-white bones--you can see that the hunt has taken a toll on Aurelia. She tries to carry on, but she is exhausted.
+It is at that moment that the cat strikes. She never even sees it coming. Massive and covered in an inky black fur, it leaps at Aurelia, intending to take her down.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_HuntMoon_Protect_Title">Protect</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_HuntMoon_Protect_Description">Protect Aurelia from the great cat.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_HuntMoon_Protect_Objective">Protect Aurelia from the great cat by putting yourself in harm's way. You have moments to react and you choose to protect her.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_HuntMoon_Protect_ObjectiveTooltip">Aurelia will be deeply moved by your sacrifice.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_HuntMoon_Sacrifice_Title">Sacrifice</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_HuntMoon_Sacrifice_Description">Sacrifice Aurelia if you must.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_HuntMoon_Sacrifice_Objective">Sacrifice Aurelia if you must. This predator is dangerous, and you must maintain every advantage if you hope to survive this hunt.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_HuntMoon_Sacrifice_ObjectiveTooltip">If Aurelia survives, she will never trust you with her safety again.</LocalizationPair>
+  
+  <!-- Quest -->
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_HuntMoonBonding_Title">The Bonding</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_HuntMoonBonding_Description">You slip in and out of consciousness. Your dreams are angry and wild. Great, gaping maws filled with ivory teeth. The sweep of deathly-white claws across your chest. Your spear driving deep; driving home into the cat's chest, past thick bone and into bloody organs deep inside.
+"Shh. Quiet now, my love," you hear Aurelia coo to you through the darkness. It takes a week for your fever to break, and then a few days more before you've regained most of your strength. She has been there, the entire time, nursing you back from the edge.
+"It was a great fight," she tells you, describing in awe how you threw her out of harm's way and took on that monstrous cat to protect her. 
+She tended your wounds, built a fire, and butchered that cat. The past week she has nursed you on its blood and meat. And while you rested, Aurelia cleaned its skin, just as you taught her.
+On the night before you're set to head back to the shuttle, when your strength is nearly restored, Aurelia makes love to you. It is the most passionate and intense experience that you've ever shared with her. And at the end, she stares down at you, overwhelmed with emotion.
+"I love you," she says simply. It lacks all the gild and glimmer that normally adorns her words, but it is perfect this way. "I love you," she says again.
+And then with a great big smile--a happy smile--she pulls something from an old, leather satchel that she brought with her to the moon. You've seen this bag before--in her private chambers--but she has never let you look inside it.
+From the ancient leather, Aurelia pulls a dust-infused fern frond. In the dark of the night, it glows like a great torch, even brighter than the bonfire at your side. Sparkles of ancient gold drip like embers from its feathery leaves.
+"This," she says, with a seductive smile, "is an ancient and rare thing. It comes from my homeworld. This plant is all but extinct now." She chuckles a bit, as she runs one finger across a brittle, glowing leaf. "A love fern. A dust fern. The essence of this thing has so much power." She pauses for a moment, as if lost in deep thought. "The power, even, to join two souls. Two bodies," she says, now looking directly at you. "If you do this with me, you will feel as I do. And I will always know your pleasures...and your pains." She runs her free hand across your chest--across the wound there--as if to make a point. "For all the rest of our days, we will be as one."</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_HuntMoonBonding_Bond_Title">Bond</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_HuntMoonBonding_Bond_Description">Share a dust bond with Aurelia.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_HuntMoonBonding_Bond_Objective">Share a dust bond with Aurelia. This will link your nervous systems together; whatever happens to one of you will be felt by the other. Forever.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_HuntMoonBonding_Bond_ObjectiveTooltip">Aurelia loves you; she wants to share this bond with you.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_HuntMoonBonding_Refuse_Title">Refuse</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_HuntMoonBonding_Refuse_Description">Refuse the dust bond.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_HuntMoonBonding_Refuse_Objective">Refuse the dust bond. It's a very big commitment, and you're not willing to make it at this time.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_HuntMoonBonding_Refuse_ObjectiveTooltip">Aurelia would feel deeply rejected.</LocalizationPair>
+
+  <!-- Quest -->
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_RelaxMoon_Title">Aurelia and the Servants</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_RelaxMoon_Description">From orbit, the moon looks small, but vibrant. There is a singular continent on the planet-facing side of the tidally-locked moon. The landmass overflows with dense green jungles; it is punctuated by twisting rivers and a cascade of great lakes. Aqua blue, coastal shallows line the edges of this paradise.
+But while the jungle looks beautiful from orbit, it is terrifying in person. The canopy of the trees and the thick bush before you is alive with the squawks, chirps, roars, rustles and the buzzings of countless living creatures. In the distance, you even spot some hungry thing moving beneath the sun-baked sand.
+You are relieved that you and Aurelia have decided to spend your time together relaxing in comfort on the warm beaches.
+Servants set up great, covered tents and serve food and drinks. Aurelia looks absolutely gorgeous in her newest swimming gown, but you can tell that she's not quite comfortable. In your time together you've come to understand that your lover prefers to be nude whenever possible. Unfortunately, it can be a little bit awkward and embarassing, especially with all of these servants around.
+"Shall we go swimming," she suggests with a warm smile as an ocean breeze washes over you both.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_RelaxMoon_Comfort_Title">Comfort</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_RelaxMoon_Comfort_Description">Send the servants away so Aurelia can swim in the nude.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_RelaxMoon_Comfort_Objective">Aurelia's comfort is all that matters. Send the servants away; you don't need them to enjoy these pristine beaches with the woman you love.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_RelaxMoon_Comfort_ObjectiveTooltip">Aurelia will be greatly moved by your consideration for her comfort.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_RelaxMoon_Servants_Title">Conformity</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_RelaxMoon_Servants_Description">Aurelia better keep her swimsuit on!</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_RelaxMoon_Servants_Objective">Keep your servants nearby, in case you need them. You'd feel very uncomfortable if Aurelia were to swim and sunbathe in the nude.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_RelaxMoon_Servants_ObjectiveTooltip">Aurelia will be dissappointed when she realizes that you don't truly accept her.</LocalizationPair>
+
+    <!-- Quest -->
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_RelaxMoonBonding_Title">The Bonding</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_RelaxMoonBonding_Description">"Really!" she asks, laughing in disbelief, when you tell her that you've sent all the servants away.
+"The whole planet? All of it? It's just ours," she asks again, incredulous, as you help her out of her swimming gown. The moment it slips off her firm, lithe body, Aurelia seems so much more free and happy. It's easy to see that you made the right choice.
+The two of you spend hours on the beaches and in the warm water. There are so many fish--some alarmingly big--and eventually you walk up and down the shoreline, collecting shells.
+"This reminds me of my home," she tells you as she gazes wistfully across the horizon. "My old home," she corrects herself, now looking at you. "You're my home now! Wherever you go, I will follow," she says seductively, before a thought suddenly occurs to her.
+"A fire! I wanted to build a fire, tonight." She gazes at you lovingly. "I have something to show you." She laughs, giving you a playful, reprimanding look, "but you had to go and be sweet to me and send all the servants away, and now I guess we'll just have to build it ourselves, now won't we?"
+She laughs as she pulls you off without even waiting for a reply. She leads you towards the edge of the jungle to look for dead wood, to build her bonfire. She's so flattered that she can't stop smiling at you. She understands now that you would never deny her anything.
+Hours later, you're sore and exhausted, but the fire is built. It rises high up into the dark sky. You stand with Aurelia against the roaring heat. 
+"I love you," she says simply. It lacks all the gild and glimmer that normally adorns her words, but it is perfect this way. "I love you," she says again.
+And then with a great big smile--a happy smile--she pulls something from an old, leather satchel that she brought with her to the moon. You've seen this bag before--in her private chambers--but she has never let you look inside it.
+From the ancient leather, Aurelia pulls a dust-infused fern frond. In the dark of the night, it glows like a great torch, even brighter than the bonfire at your side. Sparkles of ancient gold drip like embers from its feathery leaves.
+"This," she says, with a seductive smile, "is an ancient and rare thing. It comes from my homeworld. This plant is all but extinct now." She chuckles a bit, as she runs one finger across a brittle, glowing leaf. "A love fern. A dust fern. The essence of this thing has so much power." She pauses for a moment, as if lost in deep thought. "The power, even, to join two souls. Two bodies," she says, now looking directly at you. "If you do this with me, you will feel as I do. And I will always know your pleasures and your pains. For all the rest of our days, we will be as one."</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_RelaxMoonBonding_Bond_Title">Bond</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_RelaxMoonBonding_Bond_Description">Share a dust bond with Aurelia.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_RelaxMoonBonding_Bond_Objective">Share a dust bond with Aurelia. This will link your nervous systems together; whatever happens to one of you will be felt by the other. Forever.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_RelaxMoonBonding_Bond_ObjectiveTooltip">Aurelia loves you; she wants to share this bond with you.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_RelaxMoonBonding_Refuse_Title">Refuse</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_RelaxMoonBonding_Refuse_Description">Refuse the dust bond.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_RelaxMoonBonding_Refuse_Objective">Refuse the dust bond. It's a very big commitment, and you're not willing to make it at this time.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_RelaxMoonBonding_Refuse_ObjectiveTooltip">Aurelia would feel deeply rejected.</LocalizationPair>
+
+  <!-- lilyophelia: Endless Romance | End -->
+
+</Datatable>

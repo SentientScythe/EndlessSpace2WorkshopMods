@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RuntimeModule Name="RichColors" Type="Extension">
+    
+    <Tags>Art</Tags>
+    <Author>Suspense</Author>
+    <Homepage></Homepage>
+    <Title>Rich Colors</Title>
+    <Description>Swap out the old palette with shiny colors of precious stones and metals. 
+	Includes 15 unique major faction colors and 3 improved minor faction colors.
+	DO NOT USE WITH OTHER PALETTE MODS
+			Major Factions
+			-Silver
+			-Platinum
+			-Sapphire
+			-Lapis Lazuli
+			-Turquoise
+			-Aquamarine
+			-Emerald
+			-Viridian
+			-Shiny Gold
+			-Doubloon
+			-Copper
+			-Fire Opal
+			-Blood Ruby
+			-Queen Diamond
+			-Amethyst
+			
+			
+			Minor Empire
+			- Pearl
+			Lesser Empire
+			- Obsidian
+			Pirate Empire
+			-Rust
+	</Description>
+    <ReleaseNotes>
+		5/19/2017 First Release
+	</ReleaseNotes>
+    <PreviewImageFile>RichColors.jpg</PreviewImageFile>
+
+		<!-- XML files to load -->
+		<Plugins>
+      <!-- Mapping -->
+
+		<DatabasePlugin DataType="Palette, Assembly-CSharp">
+			<FilePath>Mapping/Palettes.xml</FilePath>
+		</DatabasePlugin>
+		
+		</Plugins>
+	
+	</RuntimeModule>
+</Datatable>

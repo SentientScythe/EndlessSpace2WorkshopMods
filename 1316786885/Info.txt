@@ -1,0 +1,70 @@
+Endless Moons by Tychonoir. (Version 2.5)
+Increases the occurrence and significance of moons, while adding many new moon types and additional exploitation options. Includes rare instances of unique lost Endless Moon Temples that provide significant bonuses when restored.
+
+Moon Types:
+Small, Medium, Large, Frozen, Volcanic, Fertile, Binary, Multiple
+Different concentrations of resources within each type
+
+Planet Improvements (Reductions):
+Explore Moon - Baryonic Shielding (Science 2)
+	Cost: 1 turn
+Develop Moon - Maximized Exploitation (Industry 3)
+	Cost: 2 turns, 280-560 Production, 5-20 Titanium, 5-20 Hyperium
+Restore Temple - Xeno Anthropology (Empire 3)
+	Cost: 3 turns, 1120 Production, 15 Adamantian,  15 Antimatter
+Upgrade Temple - (Various Tier 4 Technologies: SLC Methods -OR- Ultratough Materials -OR- N-Dimensional Topoligies -OR- Deniable Operations)
+	Cost: 2 turns, 1120 Production, 10 Orichalcix, 10 Quadrinix
+
+System Improvements:
+Lunar Data Network - Compact Warp Methods (Science 3) - ( For Vodyani - Evaporation Inhibitors (Science 3) )
+	Cost: 1120 Production
+	Effects: +25 Science per Lunar Anomaly, +5 Science per Anomaly
+Lunar Tourism - Impactless Sites (Trade 3)
+	Cost: 1120 Production
+	Effects: +20 Dust per Lunar Anomaly, +5 Happiness per Lunar Anomaly, +5 Influence per Lunar Anomaly
+Lunar Colonies - Adaptive Colonies (Science 4)
+	Cost: 2240 Production
+	Effects: +1 Population on planets with a Lunar Anomaly.
+Moon Exploitation Drones (Vodyani) - Maximized Exploitation (Industry 3)
+	Cost: 1120 Production
+	Effects: +30 Production per Lunar Anomaly, +10 Science per Lunar Anomaly, +10 Dust per Lunar Anomaly
+Hunter Guilds (Vodyani) - Xeno Anthropology (Empire 3)
+	Cost: 480 Production
+	Effects: +75 Essence per Undiscovered Moon Temple, +10 Influence per Undiscovered Moon Temple, +20 Science per Undiscovered Moon Temple, +30 Dust per Undiscovered Moon Temple
+
+Temples:
+13 unique Endless Temples can be found.
+Effects: ???
+
+General Notes:
+Increased the number of visible anomalies in galaxy generation to accommodate moons.
+Increased the number of unique anomalies in galaxy generation to accommodate Endless Temples. (Medium size galaxy required to guarantee at least one Endless Temple.)
+Moonbase Alpha has been removed.
+Vodyani don't explore or develop moons. Instead, they have access to a Vodyani-only moon exploitation, and hunter guilds.
+
+Also, many thanks to the dev MonAmiral at G2G forums whose support has been invaluable.
+
+Version History:
+2.5
+Adjusted balancing to moons and system improvements
+Added Moon Exploration ship module
+Added new Temple: Distributed Linkage
+Added new system improvement unlock to Temple: Deep Mind
+Adjusted Temple: Watchmaker upgrade path
+
+2.1
+Compatibility with DLC 2: Supremacy
+Bug Fixes
+
+2.0
+Added more options for temple restoration
+Added more interesting temple benefits including the introduction of temple granted construction options
+Added a new temple
+Added a new Vodyani moon temple technology
+Fixed visible anomaly generation bug
+Rebalanced moon technology unlocks
+Various moon and temple effect balancing
+Spelling and typo corrections
+
+1.0
+Initial Release

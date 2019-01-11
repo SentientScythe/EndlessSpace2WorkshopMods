@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+
+    <!-- ############################# -->
+    <!-- ######## CURIOSITY ########## -->
+    <!-- ############################# -->
+
+	
+	<!-- MUST be declared or else tech won't show up in game -->	
+	
+    <!-- Weapon Modules -->
+    <SimulationDescriptor Name="TechnologyCuriosityModuleWeaponKinetic1a"          Type="Technology" IsSerializable="false"/>
+    <SimulationDescriptor Name="TechnologyCuriosityModuleWeaponKinetic2a"          Type="Technology" IsSerializable="false"/>
+    <SimulationDescriptor Name="TechnologyCuriosityModuleWeaponKinetic3a"          Type="Technology" IsSerializable="false"/>
+    <SimulationDescriptor Name="TechnologyCuriosityModuleWeaponKinetic4a"          Type="Technology" IsSerializable="false"/>    
+    <SimulationDescriptor Name="TechnologyCuriosityModuleWeaponKinetic5a"          Type="Technology" IsSerializable="false"/>
+	
+    <SimulationDescriptor Name="TechnologyCuriosityModuleWeaponKineticHelix1"          Type="Technology" IsSerializable="false"/>
+    <SimulationDescriptor Name="TechnologyCuriosityModuleWeaponKineticHelix2"          Type="Technology" IsSerializable="false"/>    
+    <SimulationDescriptor Name="TechnologyCuriosityModuleWeaponKineticHelix3"          Type="Technology" IsSerializable="false"/>	
+	
+
+    <SimulationDescriptor Name="TechnologyCuriosityModuleWeaponMissile1a"          Type="Technology" IsSerializable="false"/>
+    <SimulationDescriptor Name="TechnologyCuriosityModuleWeaponMissile2a"          Type="Technology" IsSerializable="false"/>
+    <SimulationDescriptor Name="TechnologyCuriosityModuleWeaponMissile3a"          Type="Technology" IsSerializable="false"/>
+    <SimulationDescriptor Name="TechnologyCuriosityModuleWeaponMissile4a"          Type="Technology" IsSerializable="false"/>
+    <SimulationDescriptor Name="TechnologyCuriosityModuleWeaponMissile5a"          Type="Technology" IsSerializable="false"/>
+
+    <SimulationDescriptor Name="TechnologyCuriosityModuleWeaponLaser1a"          Type="Technology" IsSerializable="false"/>
+    <SimulationDescriptor Name="TechnologyCuriosityModuleWeaponLaser2a"          Type="Technology" IsSerializable="false"/>
+    <SimulationDescriptor Name="TechnologyCuriosityModuleWeaponLaser3a"          Type="Technology" IsSerializable="false"/>
+    <SimulationDescriptor Name="TechnologyCuriosityModuleWeaponLaser4a"          Type="Technology" IsSerializable="false"/>
+    <SimulationDescriptor Name="TechnologyCuriosityModuleWeaponLaser5a"          Type="Technology" IsSerializable="false"/>
+	
+    <SimulationDescriptor Name="TechnologyCuriosityModuleWeaponLaserBlaster1"          Type="Technology" IsSerializable="false"/>
+    <SimulationDescriptor Name="TechnologyCuriosityModuleWeaponLaserBlaster2"          Type="Technology" IsSerializable="false"/>
+    <SimulationDescriptor Name="TechnologyCuriosityModuleWeaponLaserBlaster3"          Type="Technology" IsSerializable="false"/>	
+
+    <SimulationDescriptor Name="TechnologyCuriosityModuleWeaponBeam1a"          Type="Technology" IsSerializable="false"/>
+    <SimulationDescriptor Name="TechnologyCuriosityModuleWeaponBeam2a"          Type="Technology" IsSerializable="false"/>
+    <SimulationDescriptor Name="TechnologyCuriosityModuleWeaponBeam3a"          Type="Technology" IsSerializable="false"/>
+    <SimulationDescriptor Name="TechnologyCuriosityModuleWeaponBeam4a"          Type="Technology" IsSerializable="false"/>
+    <SimulationDescriptor Name="TechnologyCuriosityModuleWeaponBeam5a"          Type="Technology" IsSerializable="false"/>
+
+    <SimulationDescriptor Name="TechnologyCuriosityModuleWeaponMissileSwarm1a"          Type="Technology" IsSerializable="false"/>
+    <SimulationDescriptor Name="TechnologyCuriosityModuleWeaponMissileSwarm2a"          Type="Technology" IsSerializable="false"/>
+    <SimulationDescriptor Name="TechnologyCuriosityModuleWeaponMissileSwarm3a"          Type="Technology" IsSerializable="false"/>
+
+    <SimulationDescriptor Name="TechnologyCuriosityModuleWeaponKineticRailgun1a"          Type="Technology" IsSerializable="false"/>
+    <SimulationDescriptor Name="TechnologyCuriosityModuleWeaponKineticRailgun2a"          Type="Technology" IsSerializable="false"/>
+    <SimulationDescriptor Name="TechnologyCuriosityModuleWeaponKineticRailgun3a"          Type="Technology" IsSerializable="false"/>
+
+   <SimulationDescriptor Name="TechnologyCuriosityModuleDefenseHullPlating1a"                    Type="Technology" IsSerializable="false"/>
+   <SimulationDescriptor Name="TechnologyCuriosityModuleDefenseHullPlating2a"                    Type="Technology" IsSerializable="false"/>
+   <SimulationDescriptor Name="TechnologyCuriosityModuleDefenseHullPlating3a"                    Type="Technology" IsSerializable="false"/>
+   <SimulationDescriptor Name="TechnologyCuriosityModuleDefenseHullPlating4a"                    Type="Technology" IsSerializable="false"/>
+   <SimulationDescriptor Name="TechnologyCuriosityModuleDefenseHullPlating5a"                    Type="Technology" IsSerializable="false"/>
+
+    <SimulationDescriptor Name="TechnologyCuriosityModuleDefenseShield1a"          Type="Technology" IsSerializable="false"/>
+    <SimulationDescriptor Name="TechnologyCuriosityModuleDefenseShield2a"          Type="Technology" IsSerializable="false"/>
+    <SimulationDescriptor Name="TechnologyCuriosityModuleDefenseShield3a"          Type="Technology" IsSerializable="false"/>
+    <SimulationDescriptor Name="TechnologyCuriosityModuleDefenseShield4a"          Type="Technology" IsSerializable="false"/>
+    <SimulationDescriptor Name="TechnologyCuriosityModuleDefenseShield5a"          Type="Technology" IsSerializable="false"/>
+
+
+</Datatable>

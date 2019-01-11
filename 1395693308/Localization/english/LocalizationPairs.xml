@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../../Documentation/Schemas/Amplitude.Unity.Localization.LocalizationDatatableElement.xsd">
+
+    <!--Contains the new texts for the mod. If there is just English language (or whatever you marked as DefaultLanguage), it will be use for all localizations -->
+    <LocalizationPair Name="%PlanetTypeEdenTitle">Eden</LocalizationPair>
+    <LocalizationPair Name="%PlanetTypeEdenDescription">Eden is a Perfect planet. </LocalizationPair>
+    <LocalizationPair Name="%UniquePlanetDeuzTitle">Deuz</LocalizationPair>
+    <LocalizationPair Name="%UniquePlanetDeuzDescription">Deuz, the neutral commercial center of the galaxy </LocalizationPair>
+    <LocalizationPair Name="%PlanetTypeEdenColonizationTitle">Colonize Eden</LocalizationPair>
+    <LocalizationPair Name="%PlanetTypeEdenColonizationDescription">Colonization Eden </LocalizationPair>
+  <LocalizationPair Name="%UniquePlanetCustom02Title">the Earth</LocalizationPair>
+    <LocalizationPair Name="%UniquePlanetCustom02Description">Earth, our forgotten homeworld </LocalizationPair>
+    
+
+
+	<LocalizationPair Name="%PlnaetPlussTitle">PlnaetPluss : Planet Slots +6</LocalizationPair>
+	<LocalizationPair Name="%PlnaetPlussDescription">Gives the maximum number of population slots on each planet</LocalizationPair>
+
+<LocalizationPair Name="%FactionTraitHomePlanetPlanetTypeEdenTitle">Eden</LocalizationPair>   
+<LocalizationPair Name="%PlanetTerraformationToEdenDescription">Make the perfect world by our hands</LocalizationPair>
+<LocalizationPair Name="%PlanetTerraformationToEdenTitle">Terraform to Eden</LocalizationPair>
+
+
+ 
+</Datatable>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+
+	<!-- lilyophelia: Commented Template
+	
+	-->
+	
+	<!-- lilyophelia: Clean Template
+	
+	<QuestGuiElement Name="EndlessRomance_TemporalAnomaly_Template">
+        <Title>%EndlessRomance_TemporalAnomaly_Template_Title</Title>
+        <Description>%EndlessRomance_TemporalAnomaly_Template_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_BlackHole" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_TemporalAnomaly_Template_ObjectiveTemplate_Title</Title>
+                    <Description>%EndlessRomance_TemporalAnomaly_Template_ObjectiveTemplate_Description</Description>
+                    <Objective Name="ObjectiveTemplate">%EndlessRomance_TemporalAnomaly_Template_ObjectiveTemplate_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TemporalAnomaly_Template_ObjectiveTemplate_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+                <ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_TemporalAnomaly_Template_ObjectiveTemplate_Title</Title>
+                    <Description>%EndlessRomance_TemporalAnomaly_Template_ObjectiveTemplate_Description</Description>
+                    <Objective Name="ObjectiveTemplate">%EndlessRomance_TemporalAnomaly_Template_ObjectiveTemplate_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TemporalAnomaly_Template_ObjectiveTemplate_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+				<ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_TemporalAnomaly_Template_ObjectiveTemplate_Title</Title>
+                    <Description>%EndlessRomance_TemporalAnomaly_Template_ObjectiveTemplate_Description</Description>
+                    <Objective Name="ObjectiveTemplate">%EndlessRomance_TemporalAnomaly_Template_ObjectiveTemplate_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TemporalAnomaly_Template_ObjectiveTemplate_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+	
+	-->	
+	
+	<!-- lilyophelia: Ending Template
+	
+	<QuestGuiElement Name="EndlessRomance_TemporalAnomaly_EndingTemplate">
+        <Title>%EndlessRomance_TemporalAnomaly_EndingTemplate_Title</Title>
+        <Description>%EndlessRomance_TemporalAnomaly_EndingTemplate_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_BlackHole" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_TemporalAnomaly_EndingTemplate_Ending_Title</Title>
+                    <Description>%EndlessRomance_TemporalAnomaly_EndingTemplate_Ending_Description</Description>
+                    <Objective Name="Ending">%EndlessRomance_TemporalAnomaly_EndingTemplate_Ending_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TemporalAnomaly_EndingTemplate_Ending_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+	
+	-->
+
+	<!-- lilyophelia: Endless Romance | Start -->
+
+	<QuestGuiElement Name="EndlessRomance_TemporalAnomaly_FlashesOfLight">
+        <Title>%EndlessRomance_TemporalAnomaly_FlashesOfLight_Title</Title>
+        <Description>%EndlessRomance_TemporalAnomaly_FlashesOfLight_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_FlashOfLight" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics02">
+                    <Title>%EndlessRomance_TemporalAnomaly_FlashesOfLight_Close_Title</Title>
+                    <Description>%EndlessRomance_TemporalAnomaly_FlashesOfLight_Close_Description</Description>
+                    <Objective Name="Close">%EndlessRomance_TemporalAnomaly_FlashesOfLight_Close_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TemporalAnomaly_FlashesOfLight_Close_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+                <ObjectiveSet Politics="Politics04">
+                    <Title>%EndlessRomance_TemporalAnomaly_FlashesOfLight_Distant_Title</Title>
+                    <Description>%EndlessRomance_TemporalAnomaly_FlashesOfLight_Distant_Description</Description>
+                    <Objective Name="Distant">%EndlessRomance_TemporalAnomaly_FlashesOfLight_Distant_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TemporalAnomaly_FlashesOfLight_Distant_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+				<ObjectiveSet Politics="Politics01">
+                    <Title>%EndlessRomance_TemporalAnomaly_FlashesOfLight_Ignore_Title</Title>
+                    <Description>%EndlessRomance_TemporalAnomaly_FlashesOfLight_Ignore_Description</Description>
+                    <Objective Name="Ignore">%EndlessRomance_TemporalAnomaly_FlashesOfLight_Ignore_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TemporalAnomaly_FlashesOfLight_Ignore_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<QuestGuiElement Name="EndlessRomance_TemporalAnomaly_SuckedInEnding">
+        <Title>%EndlessRomance_TemporalAnomaly_SuckedInEnding_Title</Title>
+        <Description>%EndlessRomance_TemporalAnomaly_SuckedInEnding_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_BlackHoleSmall" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_TemporalAnomaly_SuckedInEnding_Ending_Title</Title>
+                    <Description>%EndlessRomance_TemporalAnomaly_SuckedInEnding_Ending_Description</Description>
+                    <Objective Name="Ending">%EndlessRomance_TemporalAnomaly_SuckedInEnding_Ending_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TemporalAnomaly_SuckedInEnding_Ending_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<QuestGuiElement Name="EndlessRomance_TemporalAnomaly_ShipVanishesEnding">
+        <Title>%EndlessRomance_TemporalAnomaly_ShipVanishesEnding_Title</Title>
+        <Description>%EndlessRomance_TemporalAnomaly_ShipVanishesEnding_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_EmptySpace" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_TemporalAnomaly_ShipVanishesEnding_Ending_Title</Title>
+                    <Description>%EndlessRomance_TemporalAnomaly_ShipVanishesEnding_Ending_Description</Description>
+                    <Objective Name="Ending">%EndlessRomance_TemporalAnomaly_ShipVanishesEnding_Ending_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TemporalAnomaly_ShipVanishesEnding_Ending_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<QuestGuiElement Name="EndlessRomance_TemporalAnomaly_GhostShip">
+        <Title>%EndlessRomance_TemporalAnomaly_GhostShip_Title</Title>
+        <Description>%EndlessRomance_TemporalAnomaly_GhostShip_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_FrozenShip" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics02">
+                    <Title>%EndlessRomance_TemporalAnomaly_GhostShip_Investigate_Title</Title>
+                    <Description>%EndlessRomance_TemporalAnomaly_GhostShip_Investigate_Description</Description>
+                    <Objective Name="Investigate">%EndlessRomance_TemporalAnomaly_GhostShip_Investigate_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TemporalAnomaly_GhostShip_Investigate_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+                <ObjectiveSet Politics="Politics04">
+                    <Title>%EndlessRomance_TemporalAnomaly_GhostShip_Observe_Title</Title>
+                    <Description>%EndlessRomance_TemporalAnomaly_GhostShip_Observe_Description</Description>
+                    <Objective Name="Observe">%EndlessRomance_TemporalAnomaly_GhostShip_Observe_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TemporalAnomaly_GhostShip_Observe_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<QuestGuiElement Name="EndlessRomance_TemporalAnomaly_ScienceVesselTakenEnding">
+        <Title>%EndlessRomance_TemporalAnomaly_ScienceVesselTakenEnding_Title</Title>
+        <Description>%EndlessRomance_TemporalAnomaly_ScienceVesselTakenEnding_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_BlackHoleSmall" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_TemporalAnomaly_ScienceVesselTakenEnding_Ending_Title</Title>
+                    <Description>%EndlessRomance_TemporalAnomaly_ScienceVesselTakenEnding_Ending_Description</Description>
+                    <Objective Name="Ending">%EndlessRomance_TemporalAnomaly_ScienceVesselTakenEnding_Ending_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TemporalAnomaly_ScienceVesselTakenEnding_Ending_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<QuestGuiElement Name="EndlessRomance_TemporalAnomaly_GhostShipTakenEnding">
+        <Title>%EndlessRomance_TemporalAnomaly_GhostShipTakenEnding_Title</Title>
+        <Description>%EndlessRomance_TemporalAnomaly_GhostShipTakenEnding_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_BlackHoleSmall" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_TemporalAnomaly_GhostShipTakenEnding_Ending_Title</Title>
+                    <Description>%EndlessRomance_TemporalAnomaly_GhostShipTakenEnding_Ending_Description</Description>
+                    <Objective Name="Ending">%EndlessRomance_TemporalAnomaly_GhostShipTakenEnding_Ending_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TemporalAnomaly_GhostShipTakenEnding_Ending_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<QuestGuiElement Name="EndlessRomance_TemporalAnomaly_FlashesOfLightEpilogue">
+        <Title>%EndlessRomance_TemporalAnomaly_FlashesOfLightEpilogue_Title</Title>
+        <Description>%EndlessRomance_TemporalAnomaly_FlashesOfLightEpilogue_Description</Description>
+        <Icons>
+            <Icon Path="Gui/EndlessRomance_FlashOfLight" Size="Quest" />
+        </Icons>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet Politics="Politics00">
+                    <Title>%EndlessRomance_TemporalAnomaly_FlashesOfLightEpilogue_Ending_Title</Title>
+                    <Description>%EndlessRomance_TemporalAnomaly_FlashesOfLightEpilogue_Ending_Description</Description>
+                    <Objective Name="Ending">%EndlessRomance_TemporalAnomaly_FlashesOfLightEpilogue_Ending_Objective</Objective>
+                    <TooltipDescription>%EndlessRomance_TemporalAnomaly_FlashesOfLightEpilogue_Ending_ObjectiveTooltip</TooltipDescription>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestGuiElement>
+
+	<!-- lilyophelia: Endless Romance | End -->	
+
+</Datatable>

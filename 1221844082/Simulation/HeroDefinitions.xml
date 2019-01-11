@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/HeroDefinition.xsd">
+   
+	<!-- Hero Template -->
+	<!--
+    <HeroDefinition Name="HeroExample">
+		<Skill Name="HeroSkillExample01"/>
+		<Skill Name="HeroSkillExample02"/>
+
+        <Affinity Name="HeroAffinityVenetians"/>
+        <Class Name="HeroClassCorporate"/>
+        <Politics Name="HeroPolitics03"/>
+
+		<ShipDesign Name="ShipDesignHeroSmall04Defender"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeVenetians"/>
+        <SkillTree Name="HeroSkillTreeAdministrator"/>
+
+		<LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+	-->
+
+	<!-- lilyophelia: Endless Romance | Start -->
+
+	<!-- Hero: Aurelia the Lover -->
+
+    <HeroDefinition Name="EndlessRomance_TradePrincess_AureliaTheLover">
+		<Skill Name="HeroSkill02Venetians03"/>
+		<Skill Name="HeroSkill02Venetians04"/>
+
+        <Affinity Name="HeroAffinityVenetians"/>
+        <Class Name="HeroClassCorporate"/>
+        <Politics Name="HeroPolitics03"/>
+
+		<ShipDesign Name="ShipDesignHeroSmall03Supporter"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeVenetians"/>
+        <SkillTree Name="HeroSkillTreeCorporate"/>
+
+		<LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+
+	<!-- lilyophelia: Endless Romance | End -->
+
+</Datatable>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+
+	<!-- History Template
+    <GuiElement Name="History_ER_TheWarship_HistoryTemplate">
+        <Title>%EndlessRomance_TheWarship_History_HistoryTemplate_Title</Title>
+        <Description>%EndlessRomance_TheWarship_History_HistoryTemplate_Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/EndlessRomance_Building_Dust_Small" />
+            <Icon Size="Large" Path="Gui/EndlessRomance_Building_Dust_Large" />
+        </Icons>
+    </GuiElement>
+	-->
+
+	<!-- lilyophelia: Endless Romance | Start -->
+
+    <GuiElement Name="History_ER_TheWarship_ShipTaken">
+        <Title>%EndlessRomance_TheWarship_History_ShipTaken_Title</Title>
+        <Description>%EndlessRomance_TheWarship_History_ShipTaken_Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/EndlessRomance_Building_Science_Small" />
+            <Icon Size="Large" Path="Gui/EndlessRomance_Building_Science_Large" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="History_ER_TheWarship_ShipDestroyed">
+        <Title>%EndlessRomance_TheWarship_History_ShipDestroyed_Title</Title>
+        <Description>%EndlessRomance_TheWarship_History_ShipDestroyed_Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/EndlessRomance_Building_Military_Small" />
+            <Icon Size="Large" Path="Gui/EndlessRomance_Building_Military_Large" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="History_ER_TheWarship_ShipReturned">
+        <Title>%EndlessRomance_TheWarship_History_ShipReturned_Title</Title>
+        <Description>%EndlessRomance_TheWarship_History_ShipReturned_Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/EndlessRomance_Building_Influence_Small" />
+            <Icon Size="Large" Path="Gui/EndlessRomance_Building_Influence_Large" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="History_ER_TheWarship_ShipRetrieved">
+        <Title>%EndlessRomance_TheWarship_History_ShipRetrieved_Title</Title>
+        <Description>%EndlessRomance_TheWarship_History_ShipRetrieved_Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/EndlessRomance_Building_Industry_Small" />
+            <Icon Size="Large" Path="Gui/EndlessRomance_Building_Industry_Large" />
+        </Icons>
+    </GuiElement>
+
+	<!-- lilyophelia: Endless Romance | End -->	
+
+</Datatable>

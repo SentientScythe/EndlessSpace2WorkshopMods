@@ -1,0 +1,1581 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/IndustryConstructibleElement.xsd">
+
+    <!-- LAVA -->
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromLavaToAsh" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="DustGain"/>
+
+        <SupervisorGain Name="Food"     Weight="0"/>
+        <SupervisorGain Name="Industry" Weight="-0.5"/>
+        <SupervisorGain Name="Science"  Weight="0"/>
+        <SupervisorGain Name="Dust"     Weight="0.5"/>
+        <SupervisorGain Name="Approval" Weight="1"/>
+
+        <Cost ResourceName="SystemProduction">750</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeLava,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeAsh"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+	
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromAshToLava" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="IndustryGain"/>
+
+        <SupervisorGain Name="Food"     Weight="0"/>
+        <SupervisorGain Name="Industry" Weight="0.5"/>
+        <SupervisorGain Name="Science"  Weight="0"/>
+        <SupervisorGain Name="Dust"     Weight="-0.5"/>
+        <SupervisorGain Name="Approval" Weight="-1"/>
+
+        <Cost ResourceName="SystemProduction">750</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeAsh,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeLava"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+	
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromLavaToDesert" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="ScienceGain"/>
+        <SupervisorGain Name="Food"     Weight="1"/>
+        <SupervisorGain Name="Industry" Weight="-1"/>
+        <SupervisorGain Name="Science"  Weight="0"/>
+        <SupervisorGain Name="Dust"     Weight="1"/>
+        <SupervisorGain Name="Approval" Weight="1"/>
+
+        <Cost ResourceName="SystemProduction">1250</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeLava,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeDesert"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+	
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromDesertToLava" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="IndustryGain"/>
+
+        <SupervisorGain Name="Food"     Weight="-1"/>
+        <SupervisorGain Name="Industry" Weight="1"/>
+        <SupervisorGain Name="Science"  Weight="0"/>
+        <SupervisorGain Name="Dust"     Weight="-1"/>
+        <SupervisorGain Name="Approval" Weight="-1"/>
+
+        <Cost ResourceName="SystemProduction">1250</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeDesert,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeLava"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+	
+    <!-- BARREN -->
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromBarrenToIce" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="DustGain"/>
+
+        <SupervisorGain Name="Food"     Weight="0"/>
+        <SupervisorGain Name="Industry" Weight="0"/>
+        <SupervisorGain Name="Science"  Weight="-0.5"/>
+        <SupervisorGain Name="Dust"     Weight="0.5"/>
+        <SupervisorGain Name="Approval" Weight="1"/>
+
+        <Cost ResourceName="SystemProduction">750</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeBarren,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeIce"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+	
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromIceToBarren" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="ScienceGain"/>
+
+        <SupervisorGain Name="Food"     Weight="0"/>
+        <SupervisorGain Name="Industry" Weight="0"/>
+        <SupervisorGain Name="Science"  Weight="0.5"/>
+        <SupervisorGain Name="Dust"     Weight="-0.5"/>
+        <SupervisorGain Name="Approval" Weight="-1"/>
+
+        <Cost ResourceName="SystemProduction">750</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeIce,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeBarren"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromBarrenToArctic" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="DustGain"/>
+        <SupervisorGain Name="Food"     Weight="1"/>
+        <SupervisorGain Name="Industry" Weight="0"/>
+        <SupervisorGain Name="Science"  Weight="-1"/>
+        <SupervisorGain Name="Dust"     Weight="1"/>
+        <SupervisorGain Name="Approval" Weight="1"/>
+
+        <Cost ResourceName="SystemProduction">1250</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeBarren,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeArctic"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromArticToBarren" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="ScienceGain"/>
+
+        <SupervisorGain Name="Food"     Weight="-1"/>
+        <SupervisorGain Name="Industry" Weight="0"/>
+        <SupervisorGain Name="Science"  Weight="1"/>
+        <SupervisorGain Name="Dust"     Weight="-1"/>
+        <SupervisorGain Name="Approval" Weight="-1"/>
+
+        <Cost ResourceName="SystemProduction">1250</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeArctic,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeBarren"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>	
+	
+    <!-- ASH -->
+	
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromAshToDesert" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="DustGain"/>
+        <SupervisorGain Name="Food"     Weight="1"/>
+        <SupervisorGain Name="Industry" Weight="-0.5"/>
+        <SupervisorGain Name="Science"  Weight="0"/>
+        <SupervisorGain Name="Dust"     Weight="0.5"/>
+        <SupervisorGain Name="Approval" Weight="0.5"/>
+
+        <Cost ResourceName="SystemProduction">750</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeAsh,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeDesert"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+	
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromDesertToAsh" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="IndustryGain"/>
+
+        <SupervisorGain Name="Food"     Weight="-1"/>
+        <SupervisorGain Name="Industry" Weight="0.5"/>
+        <SupervisorGain Name="Science"  Weight="0"/>
+        <SupervisorGain Name="Dust"     Weight="-0.5"/>
+        <SupervisorGain Name="Approval" Weight="-0.5"/>
+
+        <Cost ResourceName="SystemProduction">750</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeDesert,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeAsh"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+	
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromAshToArid" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="FoodGain"/>
+
+        <SupervisorGain Name="Food"     Weight="0.5"/>
+        <SupervisorGain Name="Industry" Weight="-1"/>
+        <SupervisorGain Name="Science"  Weight="0"/>
+        <SupervisorGain Name="Dust"     Weight="0"/>
+        <SupervisorGain Name="Approval" Weight="1"/>
+
+        <Cost ResourceName="SystemProduction">1250</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeAsh,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeArid"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>	
+	
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromAridToAshNtl" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="FoodGain"/>
+        <AIGain RessourceName="IndustryGain"/>
+
+        <SupervisorGain Name="Food"     Weight="-0.5"/>
+        <SupervisorGain Name="Industry" Weight="1"/>
+        <SupervisorGain Name="Science"  Weight="0"/>
+        <SupervisorGain Name="Dust"     Weight="0"/>
+        <SupervisorGain Name="Approval" Weight="-1"/>
+
+        <Cost ResourceName="SystemProduction">1250</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeArid,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeAsh"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>	
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromAshToIce" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="ScienceGain"/>
+
+        <SupervisorGain Name="Food"     Weight="0"/>
+        <SupervisorGain Name="Industry" Weight="-1"/>
+        <SupervisorGain Name="Science"  Weight="1"/>
+        <SupervisorGain Name="Dust"     Weight="0"/>
+        <SupervisorGain Name="Approval" Weight="0"/>
+
+        <Cost ResourceName="SystemProduction">1750</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeAsh,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeIce"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+	
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromIceToAsh" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="IndustryGain"/>
+
+        <SupervisorGain Name="Food"     Weight="0"/>
+        <SupervisorGain Name="Industry" Weight="1"/>
+        <SupervisorGain Name="Science"  Weight="-1"/>
+        <SupervisorGain Name="Dust"     Weight="0"/>
+        <SupervisorGain Name="Approval" Weight="0"/>
+
+        <Cost ResourceName="SystemProduction">1750</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeIce,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeAsh"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>	
+	
+    <!-- ICE -->
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromIceToArctic" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="DustGain"/>
+        <SupervisorGain Name="Food"     Weight="1"/>
+        <SupervisorGain Name="Industry" Weight="0"/>
+        <SupervisorGain Name="Science"  Weight="-0.5"/>
+        <SupervisorGain Name="Dust"     Weight="0.5"/>
+        <SupervisorGain Name="Approval" Weight="0.5"/>
+        
+        <Cost ResourceName="SystemProduction">750</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeIce,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeArctic"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+	
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromArticToIce" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="ScienceGain"/>
+        <SupervisorGain Name="Food"     Weight="-1"/>
+        <SupervisorGain Name="Industry" Weight="0"/>
+        <SupervisorGain Name="Science"  Weight="0.5"/>
+        <SupervisorGain Name="Dust"     Weight="-0.5"/>
+        <SupervisorGain Name="Approval" Weight="-0.5"/>
+
+        <Cost ResourceName="SystemProduction">750</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeArctic,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeIce"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromIceToSnow" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="FoodGain"/>
+        <SupervisorGain Name="Food"     Weight="1"/>
+        <SupervisorGain Name="Industry" Weight="0"/>
+        <SupervisorGain Name="Science"  Weight="-1"/>
+        <SupervisorGain Name="Dust"     Weight="0"/>
+        <SupervisorGain Name="Approval" Weight="1"/>
+
+        <Cost ResourceName="SystemProduction">1250</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeIce,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeSnow"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>	
+	
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromSnowToIceNtl" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="ScienceGain"/>
+        <SupervisorGain Name="Food"     Weight="-1"/>
+        <SupervisorGain Name="Industry" Weight="0"/>
+        <SupervisorGain Name="Science"  Weight="1"/>
+        <SupervisorGain Name="Dust"     Weight="0"/>
+        <SupervisorGain Name="Approval" Weight="-1"/>
+
+        <Cost ResourceName="SystemProduction">1250</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeSnow,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeIce"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+
+    <!-- DESERT -->
+	
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromDesertToArid" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="FoodGain"/>
+
+        <SupervisorGain Name="Food"     Weight="1"/>
+        <SupervisorGain Name="Industry" Weight="0"/>
+        <SupervisorGain Name="Science"  Weight="0"/>
+        <SupervisorGain Name="Dust"     Weight="-0.5"/>
+        <SupervisorGain Name="Approval" Weight="0.5"/>
+
+        <Cost ResourceName="SystemProduction">750</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeDesert,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeArid"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromAridToDesertNtl" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="DustGain"/>
+
+        <SupervisorGain Name="Food"     Weight="-1"/>
+        <SupervisorGain Name="Industry" Weight="0"/>
+        <SupervisorGain Name="Science"  Weight="0"/>
+        <SupervisorGain Name="Dust"     Weight="0.5"/>
+        <SupervisorGain Name="Approval" Weight="-0.5"/>
+
+        <Cost ResourceName="SystemProduction">750</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeArid,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeDesert"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>	
+	
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromDesertToTropical" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="FoodGain"/>
+
+        <SupervisorGain Name="Food"     Weight="1.5"/>
+        <SupervisorGain Name="Industry" Weight="-0.5"/>
+        <SupervisorGain Name="Dust"     Weight="-0.5"/>
+        <SupervisorGain Name="Science"  Weight="0"/>
+        <SupervisorGain Name="Approval" Weight="1"/>
+        
+        <Cost ResourceName="SystemProduction">1250</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeDesert,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeTropical"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+	
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromTropicalToDesert" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="DustGain"/>
+
+        <SupervisorGain Name="Food"     Weight="-1.5"/>
+        <SupervisorGain Name="Industry" Weight="0.5"/>
+        <SupervisorGain Name="Dust"     Weight="0.5"/>
+        <SupervisorGain Name="Science"  Weight="0"/>
+        <SupervisorGain Name="Approval" Weight="-1"/>
+
+        <Cost ResourceName="SystemProduction">1250</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeTropical,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeDesert"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>		
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromDesertToArctic" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="ScienceGain"/>
+        <SupervisorGain Name="Food"     Weight="0"/>
+        <SupervisorGain Name="Industry" Weight="-1.5"/>
+        <SupervisorGain Name="Science"  Weight="1.5"/>
+        <SupervisorGain Name="Dust"     Weight="0"/>
+        <SupervisorGain Name="Approval" Weight="0"/>
+        
+        <Cost ResourceName="SystemProduction">1750</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeDesert,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeArctic"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+	
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromArcticToDesert" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="IndustryGain"/>
+        <SupervisorGain Name="Food"     Weight="0"/>
+        <SupervisorGain Name="Industry" Weight="1.5"/>
+        <SupervisorGain Name="Science"  Weight="-1.5"/>
+        <SupervisorGain Name="Dust"     Weight="0"/>
+        <SupervisorGain Name="Approval" Weight="0"/>
+
+        <Cost ResourceName="SystemProduction">1750</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeArctic,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeDesert"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>	
+
+    <!-- ARCTIC -->
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromArcticToSnow" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="FoodGain"/>
+        <SupervisorGain Name="Food"     Weight="1"/>
+        <SupervisorGain Name="Industry" Weight="0"/>
+        <SupervisorGain Name="Science"  Weight="0"/>
+        <SupervisorGain Name="Dust"     Weight="-0.5"/>
+        <SupervisorGain Name="Approval" Weight="0.5"/>
+
+        <Cost ResourceName="SystemProduction">750</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeArctic,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeSnow"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+	
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromSnowToArcticNtl" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="DustGain"/>
+        <SupervisorGain Name="Food"     Weight="-1"/>
+        <SupervisorGain Name="Industry" Weight="0"/>
+        <SupervisorGain Name="Science"  Weight="0"/>
+        <SupervisorGain Name="Dust"     Weight="0.5"/>
+        <SupervisorGain Name="Approval" Weight="-0.5"/>
+
+        <Cost ResourceName="SystemProduction">750</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeSnow,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeArctic"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromArcticToTundra" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="FoodGain"/>
+        <AIGain RessourceName="IndustryGain"/>
+
+        <SupervisorGain Name="Food"     Weight="1"/>
+        <SupervisorGain Name="Industry" Weight="0"/>
+        <SupervisorGain Name="Dust"     Weight="-0.5"/>
+        <SupervisorGain Name="Science"  Weight="-0.25"/>
+        <SupervisorGain Name="Approval" Weight="1"/>
+
+        <Cost ResourceName="SystemProduction">1250</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeArctic,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeTundra"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+	
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromTundraToArctic" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="DustGain"/>
+        <SupervisorGain Name="Food"     Weight="-1"/>
+        <SupervisorGain Name="Industry" Weight="0"/>
+        <SupervisorGain Name="Dust"     Weight="0.5"/>
+        <SupervisorGain Name="Science"  Weight="0.25"/>
+        <SupervisorGain Name="Approval" Weight="-1"/>
+
+        <Cost ResourceName="SystemProduction">1250</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeTundra,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeArctic"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>	
+
+    <!-- ARID -->
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromAridToTropical" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="FoodGain"/>
+
+        <SupervisorGain Name="Food"     Weight="1"/>
+        <SupervisorGain Name="Industry" Weight="-0.5"/>
+        <SupervisorGain Name="Dust"     Weight="-0.25"/>
+        <SupervisorGain Name="Science"  Weight="0"/>
+        <SupervisorGain Name="Approval" Weight="1"/>
+        
+        <Cost ResourceName="SystemProduction">1000</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeArid,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeTropical"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>	
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromTropicalToAridNtl" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="IndustryGain"/>
+
+        <SupervisorGain Name="Food"     Weight="-1"/>
+        <SupervisorGain Name="Industry" Weight="0.5"/>
+        <SupervisorGain Name="Dust"     Weight="0.25"/>
+        <SupervisorGain Name="Science"  Weight="0"/>
+        <SupervisorGain Name="Approval" Weight="-1"/>
+
+        <Cost ResourceName="SystemProduction">1000</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeTropical,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeArid"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromAridToVeldt" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="ScienceGain"/>
+        <AIGain RessourceName="FoodGain"/>
+
+        <SupervisorGain Name="Food"     Weight="1"/>
+        <SupervisorGain Name="Industry" Weight="-1"/>
+        <SupervisorGain Name="Science"  Weight="0.5"/>
+        <SupervisorGain Name="Dust"     Weight="0.25"/>
+        <SupervisorGain Name="Approval" Weight="1"/>
+
+        <Cost ResourceName="SystemProduction">1750</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeArid,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeVeldt"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>	
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromVeldtToAridNtl" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="FoodGain"/>
+        <AIGain RessourceName="IndustryGain"/>
+
+        <SupervisorGain Name="Food"     Weight="-1"/>
+        <SupervisorGain Name="Industry" Weight="1"/>
+        <SupervisorGain Name="Science"  Weight="-0.5"/>
+        <SupervisorGain Name="Dust"     Weight="-0.25"/>
+        <SupervisorGain Name="Approval" Weight="-1"/>
+
+        <Cost ResourceName="SystemProduction">1750</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeVeldt,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeArid"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>	
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromAridToSnow" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="ScienceGain"/>
+        <SupervisorGain Name="Food"     Weight="0"/>
+        <SupervisorGain Name="Industry" Weight="-1.5"/>
+        <SupervisorGain Name="Science"  Weight="1.5"/>
+        <SupervisorGain Name="Dust"     Weight="0"/>
+        <SupervisorGain Name="Approval" Weight="0"/>
+
+        <Cost ResourceName="SystemProduction">1750</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeArid,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeSnow"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>	
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromSnowToArid" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="IndustryGain"/>
+
+        <SupervisorGain Name="Food"     Weight="0"/>
+        <SupervisorGain Name="Industry" Weight="1.5"/>
+        <SupervisorGain Name="Science"  Weight="-1.5"/>
+        <SupervisorGain Name="Dust"     Weight="0"/>
+        <SupervisorGain Name="Approval" Weight="0"/>
+
+        <Cost ResourceName="SystemProduction">1750</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeSnow,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeArid"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>		
+
+    <!-- SNOW -->
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromSnowToTundra" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="FoodGain"/>
+
+        <SupervisorGain Name="Food"     Weight="1"/>
+        <SupervisorGain Name="Industry" Weight="0"/>
+        <SupervisorGain Name="Dust"     Weight="-0.25"/>
+        <SupervisorGain Name="Science"  Weight="-0.5"/>
+        <SupervisorGain Name="Approval" Weight="1"/>
+
+        <Cost ResourceName="SystemProduction">1000</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeSnow,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeTundra"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>	
+	
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromTundraToSnowNtl" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="ScienceGain"/>
+
+        <SupervisorGain Name="Food"     Weight="-1"/>
+        <SupervisorGain Name="Industry" Weight="0"/>
+        <SupervisorGain Name="Dust"     Weight="0.25"/>
+        <SupervisorGain Name="Science"  Weight="0.5"/>
+        <SupervisorGain Name="Approval" Weight="-1"/>
+
+        <Cost ResourceName="SystemProduction">1000</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeTundra,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeSnow"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromSnowToSteppes" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="FoodGain"/>
+        <AIGain RessourceName="IndustryGain"/>
+
+        <SupervisorGain Name="Food"     Weight="0.5"/>
+        <SupervisorGain Name="Industry" Weight="0.5"/>
+        <SupervisorGain Name="Science"  Weight="-0.5"/>
+        <SupervisorGain Name="Dust"     Weight="0.25"/>
+        <SupervisorGain Name="Approval" Weight="1"/>
+
+        <Cost ResourceName="SystemProduction">1750</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeSnow,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeSteppes"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+    
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromSteppesToSnowNtl" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="ScienceGain"/>
+
+        <SupervisorGain Name="Food"     Weight="-0.5"/>
+        <SupervisorGain Name="Industry" Weight="-0.5"/>
+        <SupervisorGain Name="Science"  Weight="0.5"/>
+        <SupervisorGain Name="Dust"     Weight="-0.25"/>
+        <SupervisorGain Name="Approval" Weight="-1"/>
+
+        <Cost ResourceName="SystemProduction">1750</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeSteppes,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeSnow"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>	
+	
+    <!-- SWAMP -->	
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromSwampToSteppes" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="FoodGain"/>
+        <AIGain RessourceName="ScienceGain"/>
+
+        <SupervisorGain Name="Food"     Weight="1"/>
+        <SupervisorGain Name="Industry" Weight="0"/>
+        <SupervisorGain Name="Science"  Weight="0.25"/>
+        <SupervisorGain Name="Dust"     Weight="-0.25"/>
+        <SupervisorGain Name="Approval" Weight="2"/>
+
+        <Cost ResourceName="SystemProduction">2000</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeSwamp,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeSteppes"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+	
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromSwampToVeldt" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="FoodGain"/>
+        <AIGain RessourceName="IndustryGain"/>
+
+        <SupervisorGain Name="Food"     Weight="1"/>
+        <SupervisorGain Name="Industry" Weight="0.25"/>
+        <SupervisorGain Name="Science"  Weight="0"/>
+        <SupervisorGain Name="Dust"     Weight="-0.25"/>
+        <SupervisorGain Name="Approval" Weight="2"/>
+
+        <Cost ResourceName="SystemProduction">2000</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeSwamp,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeVeldt"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>	
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromSwampToMonsoon" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="FoodGain"/>
+
+        <SupervisorGain Name="Food"     Weight="1.5"/>
+        <SupervisorGain Name="Industry" Weight="0"/>
+        <SupervisorGain Name="Science"  Weight="0"/>
+        <SupervisorGain Name="Dust"     Weight="-0.5"/>
+        <SupervisorGain Name="Approval" Weight="2"/>
+
+        <Cost ResourceName="SystemProduction">2000</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeSwamp,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeMonsoon"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+	
+    <!-- MEDITERRANEAN -->	
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromTropicalToJungle" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="DustGain"/>
+        <AIGain RessourceName="FoodGain"/>
+
+
+        <SupervisorGain Name="Food"     Weight="0"/>
+        <SupervisorGain Name="Industry" Weight="-0.25"/>
+        <SupervisorGain Name="Science"  Weight="0"/>
+        <SupervisorGain Name="Dust"     Weight="0"/>
+        <SupervisorGain Name="Approval" Weight="1"/>
+
+        <Cost ResourceName="SystemProduction">2000</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeTropical,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeJungle"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>	
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromJungleToTropicalNtl" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="IndustryGain"/>
+
+        <SupervisorGain Name="Food"     Weight="0"/>
+        <SupervisorGain Name="Industry" Weight="0.25"/>
+        <SupervisorGain Name="Science"  Weight="0"/>
+        <SupervisorGain Name="Dust"     Weight="0"/>
+        <SupervisorGain Name="Approval" Weight="-1"/>
+		
+        <Cost ResourceName="SystemProduction">2000</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeJungle,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeTropical"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>	
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromTropicalToVeldtNtl" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="DustGain"/>
+        <AIGain RessourceName="ScienceGain"/>
+
+        <SupervisorGain Name="Food"     Weight="-0.25"/>
+        <SupervisorGain Name="Industry" Weight="-0.5"/>
+        <SupervisorGain Name="Dust"     Weight="0.5"/>
+        <SupervisorGain Name="Science"  Weight="0.5"/>
+        <SupervisorGain Name="Approval" Weight="0"/>
+
+        <Cost ResourceName="SystemProduction">2000</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeTropical,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeVeldt"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>	
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromVeldtToTropical" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="IndustryGain"/>
+        <AIGain RessourceName="FoodGain"/>
+		
+        <SupervisorGain Name="Food"     Weight="0.25"/>
+        <SupervisorGain Name="Industry" Weight="0.5"/>
+        <SupervisorGain Name="Dust"     Weight="-0.5"/>
+        <SupervisorGain Name="Science"  Weight="-0.5"/>
+        <SupervisorGain Name="Approval" Weight="0"/>
+		
+        <Cost ResourceName="SystemProduction">2000</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeVeldt,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeTropical"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>		
+	
+	<!-- TUNDRA -->
+	
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromTundraToBoreal" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="DustGain"/>
+        <AIGain RessourceName="FoodGain"/>
+
+        <SupervisorGain Name="Food"     Weight="0"/>
+        <SupervisorGain Name="Industry" Weight="0"/>
+        <SupervisorGain Name="Science"  Weight="-0.25"/>
+        <SupervisorGain Name="Dust"     Weight="0"/>
+        <SupervisorGain Name="Approval" Weight="1"/>
+        
+        <Cost ResourceName="SystemProduction">2000</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeTundra,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeBoreal"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromBorealToTundraNtl" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="ScienceGain"/>
+
+        <SupervisorGain Name="Food"     Weight="0"/>
+        <SupervisorGain Name="Industry" Weight="0"/>
+        <SupervisorGain Name="Dust"     Weight="0"/>
+        <SupervisorGain Name="Science"  Weight="0.25"/>
+        <SupervisorGain Name="Approval" Weight="-1"/>
+
+        <Cost ResourceName="SystemProduction">2000</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeBoreal,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeTundra"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromTundraToSteppesNtl" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="DustGain"/>
+        <AIGain RessourceName="IndustryGain"/>
+
+        <SupervisorGain Name="Food"     Weight="-0.25"/>
+        <SupervisorGain Name="Industry" Weight="0.5"/>
+        <SupervisorGain Name="Dust"     Weight="0.5"/>
+        <SupervisorGain Name="Science"  Weight="-0.5"/>
+        <SupervisorGain Name="Approval" Weight="0"/>
+
+        <Cost ResourceName="SystemProduction">2000</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeTundra,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeSteppes"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromSteppesToTundra" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="ScienceGain"/>
+		<AIGain RessourceName="FoodGain"/>
+		
+        <SupervisorGain Name="Food"     Weight="0.25"/>
+        <SupervisorGain Name="Industry" Weight="-0.5"/>
+        <SupervisorGain Name="Dust"     Weight="-0.5"/>
+        <SupervisorGain Name="Science"  Weight="0.5"/>
+        <SupervisorGain Name="Approval" Weight="0"/>
+
+        <Cost ResourceName="SystemProduction">2000</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeSteppes,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeTundra"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+	
+	<!-- JUNGLE -->
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromJungleToForest" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="FoodGain"/>
+        <AIGain RessourceName="ScienceGain"/>
+
+        <SupervisorGain Name="Food"     Weight="0.5"/>
+        <SupervisorGain Name="Industry" Weight="-0.25"/>
+        <SupervisorGain Name="Science"  Weight="0.5"/>
+        <SupervisorGain Name="Dust"     Weight="0"/>
+        <SupervisorGain Name="Approval" Weight="0"/>
+
+        <Cost ResourceName="SystemProduction">2000</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeJungle,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeForest"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+	
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromForestToJungle" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="IndustryGain"/>
+
+
+        <SupervisorGain Name="Food"     Weight="-0.5"/>
+        <SupervisorGain Name="Industry" Weight="0.25"/>
+        <SupervisorGain Name="Science"  Weight="-0.5"/>
+        <SupervisorGain Name="Dust"     Weight="0"/>
+        <SupervisorGain Name="Approval" Weight="0"/>
+
+        <Cost ResourceName="SystemProduction">2000</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeForest,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeJungle"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>	
+
+	<!-- BOREAL -->
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromBorealToTerran" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="FoodGain"/>
+        <AIGain RessourceName="IndustryGain"/>
+
+        <SupervisorGain Name="Food"     Weight="0.5"/>
+        <SupervisorGain Name="Industry" Weight="0.5"/>
+        <SupervisorGain Name="Science"  Weight="1"/>
+        <SupervisorGain Name="Dust"     Weight="-0.25"/>
+        <SupervisorGain Name="Approval" Weight="0"/>
+
+        <Cost ResourceName="SystemProduction">2000</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeBoreal,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeTerran"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+	
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromTerranToBoreal" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="DustGain"/>
+
+        <SupervisorGain Name="Food"     Weight="-0.5"/>
+        <SupervisorGain Name="Industry" Weight="-0.25"/>
+        <SupervisorGain Name="Science"  Weight="-1"/>
+        <SupervisorGain Name="Dust"     Weight="0.25"/>
+        <SupervisorGain Name="Approval" Weight="0"/>
+
+        <Cost ResourceName="SystemProduction">2000</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeTerran,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeBoreal"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>	
+	
+	<!-- SAVANNAH -->
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromVeldtToMonsoon" SubCategory="PlanetTerraformationDust">
+        <!-- Actually, for now, you lose 1 dust and one Industry for no food gain... -->
+        <AIGain RessourceName="FoodGain"/>
+
+        <SupervisorGain Name="Food"     Weight="1"/>
+        <SupervisorGain Name="Industry" Weight="-0.25"/>
+        <SupervisorGain Name="Science"  Weight="-0.25"/>
+        <SupervisorGain Name="Dust"     Weight="0"/>
+        <SupervisorGain Name="Approval" Weight="0"/>
+
+        <Cost ResourceName="SystemProduction">1500</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeVeldt,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeMonsoon"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>	
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromMonsoonToVeldtNtl" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="ScienceGain"/>
+        <AIGain RessourceName="IndustryGain"/>
+
+        <SupervisorGain Name="Food"     Weight="-1"/>
+        <SupervisorGain Name="Industry" Weight="0.25"/>
+        <SupervisorGain Name="Science"  Weight="0.25"/>
+        <SupervisorGain Name="Dust"     Weight="0"/>
+        <SupervisorGain Name="Approval" Weight="0"/>
+
+        <Cost ResourceName="SystemProduction">1500</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeMonsoon,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeVeldt"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromVeldtToForest" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="FoodGain"/>
+        <AIGain RessourceName="ScienceGain"/>
+        <AIGain RessourceName="IndustryGain"/>
+
+        <SupervisorGain Name="Food"     Weight="1"/>
+        <SupervisorGain Name="Industry" Weight="0.5"/>
+        <SupervisorGain Name="Science"  Weight="0.5"/>
+        <SupervisorGain Name="Dust"     Weight="-0.25"/>
+        <SupervisorGain Name="Approval" Weight="1"/>
+
+        <Cost ResourceName="SystemProduction">2000</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeVeldt,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeForest"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromForestToVeldt" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="DustGain"/>
+
+        <SupervisorGain Name="Food"     Weight="-1"/>
+        <SupervisorGain Name="Industry" Weight="-0.5"/>
+        <SupervisorGain Name="Science"  Weight="-0.5"/>
+        <SupervisorGain Name="Dust"     Weight="0.25"/>
+        <SupervisorGain Name="Approval" Weight="-1"/>
+        <Cost ResourceName="SystemProduction">2000</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeForest,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeVeldt"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromVeldtToAtoll" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="FoodGain"/>
+        <AIGain RessourceName="IndustryGain"/>
+
+        <SupervisorGain Name="Food"     Weight="1"/>
+        <SupervisorGain Name="Industry" Weight="1"/>
+        <SupervisorGain Name="Science"  Weight="0"/>
+        <SupervisorGain Name="Dust"     Weight="-0.25"/>
+        <SupervisorGain Name="Approval" Weight="0"/>
+
+        <Cost ResourceName="SystemProduction">2000</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeVeldt,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeAtoll"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromAtollToVeldt" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="DustGain"/>
+
+        <SupervisorGain Name="Food"     Weight="-1"/>
+        <SupervisorGain Name="Industry" Weight="-1"/>
+        <SupervisorGain Name="Science"  Weight="0"/>
+        <SupervisorGain Name="Dust"     Weight="0.25"/>
+        <SupervisorGain Name="Approval" Weight="0"/>
+        <Cost ResourceName="SystemProduction">2000</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeAtoll,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeVeldt"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+
+	<!-- STEPPES -->
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromSteppesToMonsoon" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="FoodGain"/>
+
+        <SupervisorGain Name="Food"     Weight="0.5"/>
+        <SupervisorGain Name="Industry" Weight="0"/>
+        <SupervisorGain Name="Science"  Weight="-0.25"/>
+        <SupervisorGain Name="Dust"     Weight="-0.25"/>
+        <SupervisorGain Name="Approval" Weight="0"/>
+
+        <Cost ResourceName="SystemProduction">1500</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeSteppes,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeMonsoon"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromMonsoonToSteppesNtl" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="ScienceGain"/>
+        <AIGain RessourceName="DustGain"/>
+
+        <SupervisorGain Name="Food"     Weight="-0.5"/>
+        <SupervisorGain Name="Industry" Weight="0"/>
+        <SupervisorGain Name="Science"  Weight="0.25"/>
+        <SupervisorGain Name="Dust"     Weight="0.25"/>
+        <SupervisorGain Name="Approval" Weight="0"/>
+
+        <Cost ResourceName="SystemProduction">1500</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeMonsoon,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeSteppes"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromSteppesToTerran" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="FoodGain"/>
+        <AIGain RessourceName="IndustryGain"/>
+        <AIGain RessourceName="ScienceGain"/>
+		
+        <SupervisorGain Name="Food"     Weight="1"/>
+        <SupervisorGain Name="Industry" Weight="0.25"/>
+        <SupervisorGain Name="Science"  Weight="0.25"/>
+        <SupervisorGain Name="Dust"     Weight="-0.25"/>
+        <SupervisorGain Name="Approval" Weight="0.5"/>
+
+        <Cost ResourceName="SystemProduction">2000</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeSteppes,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeTerran"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+	
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromTerranToSteppes" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="DustGain"/>
+
+        <SupervisorGain Name="Food"     Weight="-1"/>
+        <SupervisorGain Name="Industry" Weight="-0.25"/>
+        <SupervisorGain Name="Science"  Weight="-0.25"/>
+        <SupervisorGain Name="Dust"     Weight="0.25"/>
+        <SupervisorGain Name="Approval" Weight="-0.5"/>
+
+        <Cost ResourceName="SystemProduction">2000</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeTerran,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeSteppes"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+	
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromSteppesToOcean" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="FoodGain"/>
+        <AIGain RessourceName="ScienceGain"/>
+
+        <SupervisorGain Name="Food"     Weight="1"/>
+        <SupervisorGain Name="Industry" Weight="0"/>
+        <SupervisorGain Name="Science"  Weight="0.5"/>
+        <SupervisorGain Name="Dust"     Weight="-0.25"/>
+        <SupervisorGain Name="Approval" Weight="0.5"/>
+
+        <Cost ResourceName="SystemProduction">2000</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeSteppes,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeOcean"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>	
+	
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromOceanToSteppes" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="DustGain"/>
+
+        <SupervisorGain Name="Food"     Weight="-1"/>
+        <SupervisorGain Name="Industry" Weight="0"/>
+        <SupervisorGain Name="Science"  Weight="-0.5"/>
+        <SupervisorGain Name="Dust"     Weight="0.25"/>
+        <SupervisorGain Name="Approval" Weight="-0.5"/>
+
+        <Cost ResourceName="SystemProduction">2000</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeOcean,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeSteppes"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>	
+	
+	<!-- MONSOON -->
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromMonsoonToAtoll" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="FoodGain"/>
+        <AIGain RessourceName="IndustryGain"/>
+
+        <SupervisorGain Name="Food"     Weight="0.5"/>
+        <SupervisorGain Name="Industry" Weight="1"/>
+        <SupervisorGain Name="Science"  Weight="0"/>
+        <SupervisorGain Name="Dust"     Weight="0"/>
+        <SupervisorGain Name="Approval" Weight="0.5"/>
+
+        <Cost ResourceName="SystemProduction">2000</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeMonsoon,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeAtoll"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+	
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromAtollToMonsoon" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="DustGain"/>
+
+        <SupervisorGain Name="Food"     Weight="-0.5"/>
+        <SupervisorGain Name="Industry" Weight="-1"/>
+        <SupervisorGain Name="Science"  Weight="0"/>
+        <SupervisorGain Name="Dust"     Weight="0"/>
+        <SupervisorGain Name="Approval" Weight="-0.5"/>
+
+        <Cost ResourceName="SystemProduction">2000</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeAtoll,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeMonsoon"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromMonsoonToOcean" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="FoodGain"/>
+        <AIGain RessourceName="ScienceGain"/>
+
+        <SupervisorGain Name="Food"     Weight="0.5"/>
+        <SupervisorGain Name="Industry" Weight="0"/>
+        <SupervisorGain Name="Science"  Weight="1"/>
+        <SupervisorGain Name="Dust"     Weight="0"/>
+        <SupervisorGain Name="Approval" Weight="0.5"/>
+
+        <Cost ResourceName="SystemProduction">2000</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeMonsoon,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeOcean"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTeeming"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromOceanToMonsoon" SubCategory="PlanetTerraformationDust">
+        <AIGain RessourceName="DustGain"/>
+
+        <SupervisorGain Name="Food"     Weight="-0.5"/>
+        <SupervisorGain Name="Industry" Weight="0"/>
+        <SupervisorGain Name="Science"  Weight="-1"/>
+        <SupervisorGain Name="Dust"     Weight="0"/>
+        <SupervisorGain Name="Approval" Weight="-0.5"/>
+
+        <Cost ResourceName="SystemProduction">2000</Cost>
+
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">PlanetTypeOcean,!IsUniquePlanet</PathPrerequisite>
+
+        <SimulationDescriptorReference Name="PlanetTypeMonsoon"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+
+        <RemovedType>PlanetType</RemovedType>
+        <RemovedType>PlanetGameplayType</RemovedType>
+    </PlanetTerraformationDefinition>
+
+	
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromArcticToSteppes" SubCategory="PlanetTerraformationDust">
+        <PathPrerequisite Flags="Prerequisite,Discard">false</PathPrerequisite>	
+    </PlanetTerraformationDefinition>
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromDesertToVeldt" SubCategory="PlanetTerraformationDust">
+        <PathPrerequisite Flags="Prerequisite,Discard">false</PathPrerequisite>	
+    </PlanetTerraformationDefinition>
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromSnowToBoreal" SubCategory="PlanetTerraformationDust">
+         <PathPrerequisite Flags="Prerequisite,Discard">false</PathPrerequisite>	
+   </PlanetTerraformationDefinition>
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromAridToJungle" SubCategory="PlanetTerraformationDust">
+         <PathPrerequisite Flags="Prerequisite,Discard">false</PathPrerequisite>	
+   </PlanetTerraformationDefinition>
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromBorealToForest" SubCategory="PlanetTerraformationDust">
+        <PathPrerequisite Flags="Prerequisite,Discard">false</PathPrerequisite>	
+    </PlanetTerraformationDefinition>
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromTundraToForest" SubCategory="PlanetTerraformationDust">
+        <PathPrerequisite Flags="Prerequisite,Discard">false</PathPrerequisite>	
+    </PlanetTerraformationDefinition>
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromMonsoonToForest" SubCategory="PlanetTerraformationDust">
+        <PathPrerequisite Flags="Prerequisite,Discard">false</PathPrerequisite>	
+    </PlanetTerraformationDefinition>
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromTropicalToTerran" SubCategory="PlanetTerraformationDust">
+        <PathPrerequisite Flags="Prerequisite,Discard">false</PathPrerequisite>	
+    </PlanetTerraformationDefinition>
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromJungleToTerran" SubCategory="PlanetTerraformationDust">
+        <PathPrerequisite Flags="Prerequisite,Discard">false</PathPrerequisite>	
+    </PlanetTerraformationDefinition>
+
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromMonsoonToTerran" SubCategory="PlanetTerraformationDust">
+        <PathPrerequisite Flags="Prerequisite,Discard">false</PathPrerequisite>	
+    </PlanetTerraformationDefinition>
+    
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromBorealToOcean" SubCategory="PlanetTerraformationDust">
+        <PathPrerequisite Flags="Prerequisite,Discard">false</PathPrerequisite>	
+    </PlanetTerraformationDefinition>
+    
+    <PlanetTerraformationDefinition Name="PlanetTerraformationFromJungleToAtoll" SubCategory="PlanetTerraformationDust">
+        <PathPrerequisite Flags="Prerequisite,Discard">false</PathPrerequisite>	
+    </PlanetTerraformationDefinition>
+
+</Datatable>

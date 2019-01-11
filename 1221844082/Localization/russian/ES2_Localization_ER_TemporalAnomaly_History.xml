@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+
+  
+  <!-- DO  NOT TRANSLATE; TEMPLATES -->
+  <!-- History: Template -->
+  <!--
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_History_HistoryTemplate_Title">History: Example History</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_History_HistoryTemplate_Description">This history comes about because of your story decisions.
+
+Then explain why the bonus makes sense.</LocalizationPair>
+  -->
+
+  <!-- TRANSLATE NOW -->  
+  <!-- lilyophelia: Endless Romance | Start -->
+
+  <!-- History: Template -->
+
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_History_ScienceVesselTaken_Title">History: The Ghost Story</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_History_ScienceVesselTaken_Description">Shortly before one of your science vessels went missing, they described finding a ghost ship. According to their final missive, this derelict seemed to be the exact same vessel as their own, but from another time or reality. There are even whispers that your crew found their own, lifeless bodies on board, before both ships suddenly vanished.
+
+The story quickly becomes an intergalactic legend and the tale generates substantial tourism from the curiousity of travelers.</LocalizationPair>
+
+  <!-- History: Template -->
+
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_History_ShipVanishes_Title">History: The Treacherous Neighbor</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_History_ShipVanishes_Description">When one of your most prominent science vessels go missing, public opinion blames a neighboring empire. Your experts all agree that they must be developing a powerful, new weapon. They must be stopped before it's too late!
+
+Military recruitment soars, and the lost vessel becomes a rallying cry for war against your neighbors.</LocalizationPair>
+
+  <!-- History: Template -->
+
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_History_SuckedIn_Title">History: Heroes of Science</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_History_SuckedIn_Description">The story of the brave scientists who lost their lives quickly becomes memorialized among your people. They were fearless in their pursuit of the truth, no matter the risk.
+
+Their tale inspires a generation of young scientists to take to the stars.</LocalizationPair>
+
+  <!-- History: Template -->
+
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_History_GhostShipTaken_Title">History: Beware the Stars</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TemporalAnomaly_History_GhostShipTaken_Description">Most of the crew involved in the incident come back broken--in one way or another--from their experience. The overwhelming narrative is that space ripped open, like a hungry mouth, and tried to devour them.
+
+The stories have a chilling effect on space exploration, and a generation of young scientists devote themselves to more terrestial knowledge instead.</LocalizationPair>
+
+  <!-- lilyophelia: Endless Romance | End -->
+
+</Datatable>	

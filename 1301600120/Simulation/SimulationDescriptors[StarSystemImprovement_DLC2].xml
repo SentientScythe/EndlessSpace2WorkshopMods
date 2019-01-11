@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+
+    <SimulationDescriptor Name="StarSystemImprovementInfluenceSpecialHisshos" Type="StarSystemImprovement">
+        <Modifier TargetProperty="NetSystemEmpirePoint"         Operation="Addition" Value="5" Path="./ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="StarSystemImprovementApproval2MajorHisshos" Type="StarSystemImprovement">
+        <BinaryModifier TargetProperty="InfluenceConversionMultiplier" Operation="Addition" Right="0.1" BinaryOperation="Multiplication" Left="$(SystemLevel)" SearchValueFromPath="true" Path="./ClassColonizedStarSystem" />
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="BuildingStarSystemImprovementUniqueMajorHisshos" Type="BuildingStarSystemImprovement"/>
+
+    <SimulationDescriptor Name="StarSystemImprovementUniqueMajorHisshos" Type="StarSystemImprovement">
+        <Modifier TargetProperty="ShipProductionCostReduction"                   Operation="Subtraction" Value="0.10" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="ShipProductionCostReduction"                   Operation="Subtraction" Value="0.10" Path="./ClassColonizedStarSystem,ObedienceStatusStarSystem3"/>
+        <Modifier TargetProperty="ShipProductionCostReduction"                   Operation="Subtraction" Value="0.20" Path="./ClassColonizedStarSystem,ObedienceStatusStarSystem4"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="StarSystemImprovementQuestUnitedEmpire12Alternative" Type="StarSystemImprovement">
+        <BinaryModifier TargetProperty="SystemEmpirePoint"	  Operation="Addition"     Left="5"     BinaryOperation="Multiplication" Right="$(NumberOfScienceImprovementsBuilt)"		    Path="./ClassColonizedStarSystem" SearchValueFromPath="true"  TooltipOverride="%StarSystemImprovementQuestUnitedEmpire12AlternativeOverride"/>
+    </SimulationDescriptor>    
+
+    <SimulationDescriptor Name="StarSystemImprovementQuestHoratio06Alternative" Type="StarSystemImprovement">
+        <Modifier TargetProperty="PlanetRawFood"        Operation="Addition" Value="3"   Path="./ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true" />
+        <Modifier TargetProperty="PlanetRawFood"        Operation="Addition" Value="3"   Path="./ClassColonizedStarSystem"  />
+        <Modifier TargetProperty="SystemEmpirePoint"    Operation="Percent"  Value="0.15" Path="./ClassColonizedStarSystem"  />
+    </SimulationDescriptor>
+    
+     <SimulationDescriptor Name="StarSystemImprovementQuestHoratio07Alternative" Type="StarSystemImprovement">
+        <Modifier TargetProperty="PlanetRawPrestige"        Operation="Addition" Value="2"   Path="./ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true" />
+        <Modifier TargetProperty="PlanetRawPrestige"        Operation="Addition" Value="2"   Path="./ClassColonizedStarSystem"  />
+        <Modifier TargetProperty="SystemGrowth"             Operation="Percent"  Value="0.15" Path="./ClassColonizedStarSystem"  />
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="StarSystemImprovementQuestHoratio08Alternative" Type="StarSystemImprovement">
+        <Modifier TargetProperty="PlanetRawIndustry"        Operation="Addition" Value="3" Path="./ClassColonizedStarSystem/ClassColonizedPlanet" TooltipHidden="true" />
+        <Modifier TargetProperty="PlanetRawIndustry"        Operation="Addition" Value="3" Path="./ClassColonizedStarSystem"  />
+        <Modifier TargetProperty="SystemEmpirePoint"    Operation="Percent"  Value="0.15" Path="./ClassColonizedStarSystem"  />
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="StarSystemImprovementBoostHomeSystem" Type="StarSystemImprovement"/>
+    <SimulationDescriptor Name="StarSystemImprovementBoostHomeSystemEffect" Type="StarSystemImprovement">
+        <!--<Modifier TargetProperty="SystemFIDSPercent"                   Operation="Addition"     Value="-0.5"    Path="ClassColonizedStarSystem" TooltipHidden="true"/>-->
+        <Modifier TargetProperty="NetSystemGrowth"                     Operation="Percent"      Value="-0.5"    Path="ClassColonizedStarSystem" TooltipHidden="true"/>
+        <Modifier TargetProperty="NetSystemProduction"                 Operation="Percent"      Value="-0.5"    Path="ClassColonizedStarSystem" TooltipHidden="true"/>
+        <Modifier TargetProperty="AmountToTransferInfiniteHissho"      Operation="Addition"     Value="0.25"    Path="ClassColonizedStarSystem" TooltipHidden="true"/>
+        <Modifier TargetProperty="SystemCountForHisshoLaw"             Operation="Subtraction"  Value="1"      Path="../ClassEmpire" TooltipHidden="true"/>
+        <BinaryModifier TargetProperty="SystemProductionFromProductionConversion"    Operation="Addition" Left="-1"     BinaryOperation="Multiplication" Right="$(SystemProduction)"  Path="ClassColonizedStarSystem" TooltipHidden="true"/>
+    </SimulationDescriptor>
+
+    <!-- ######## TIMELORDS ######## -->
+    <SimulationDescriptor Name="StarSystemImprovementQuestTimeLords01Alternative" Type="StarSystemImprovement">
+        <BinaryModifier TargetProperty="SystemEmpirePoint"          Operation="Addition" Left="15"      BinaryOperation="Multiplication" Right="$(HasNonMajorPopulation)" Path="./ClassColonizedStarSystem" SearchValueFromPath="true" TooltipOverride="%StarSystemImprovementQuestTimeLords01AlternativeTooltipsEffect"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="StarSystemImprovementQuestUnfallen05Alternative" Type="StarSystemImprovement">
+        <BinaryModifier TargetProperty="SystemEmpirePoint"	  Operation="Addition"     Left="7"     BinaryOperation="Multiplication" Right="$(PopulationType)"		    Path="./ClassColonizedStarSystem" SearchValueFromPath="true" TooltipOverride="%StarSystemImprovementQuestUnfallen05AlternativeTooltipsEffect"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="StarSystemImprovementSacrificeGuardian2MajorHisshos"     	Type="StarSystemImprovement"/>
+    <SimulationDescriptor Name="StarSystemImprovementSacrificeGuardian2MajorHisshosQueued" Type="StarSystemImprovement">
+        <Modifier TargetProperty="OnGoingSacrifice" Operation="Addition" Value="1"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="StarSystemImprovementDefenseQuestHisshos03" Type="StarSystemImprovement">     
+        <Modifier TargetProperty="GroundBattleRoundPopulationDestructionProbability"    Operation="Addition"    Value="-0.5"    Path="./ColonizedStarSystemStateColony,ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="MaximumSystemManpower"                                Operation="Addition"    Value="300"     Path="./ColonizedStarSystemStateColony,ClassColonizedStarSystem"/>
+        <BinaryModifier TargetProperty="MaximumSystemManpower"	Operation="Addition"		Left="150"    BinaryOperation="Multiplication" Right="$(OwnedPlanets)"		Path="./ClassColonizedStarSystem" SearchValueFromPath="true"/>			
+        <Modifier TargetProperty="GroundBattleDefenderManpowerLimit"                    Operation="Addition"    Value="100"     Path="./ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="StarSystemImprovementInfluenceQuestHisshos04" Type="StarSystemImprovement">
+        <Modifier TargetProperty="SystemEmpirePoint" Operation="Addition"  Value="10" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="SystemEmpirePoint" Operation="Addition"  Value="30" Path="./ClassColonizedStarSystem,ObedienceStatusStarSystem3"/>
+        <Modifier TargetProperty="SystemEmpirePoint" Operation="Addition"  Value="30" Path="./ClassColonizedStarSystem,ObedienceStatusStarSystem4"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="StarSystemImprovementInfluenceQuestHisshos04Bis" Type="StarSystemImprovement">
+        <Modifier TargetProperty="SystemEmpirePoint" Operation="Addition"  Value="10" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="SystemEmpirePoint" Operation="Addition"  Value="30" Path="./ClassColonizedStarSystem,HappinessStatusStarSystem3"/>
+        <Modifier TargetProperty="SystemEmpirePoint" Operation="Addition"  Value="30" Path="./ClassColonizedStarSystem,HappinessStatusStarSystem4"/>
+    </SimulationDescriptor>
+
+
+    <SimulationDescriptor Name="StarSystemImprovementHisshosSacrificeQueued" Type="StarSystemImprovement">
+        <Modifier TargetProperty="OnGoingSacrifice" Operation="Addition" Value="1"/>
+    </SimulationDescriptor>
+    
+    <SimulationDescriptor Name="StarSystemImprovementHisshosZoneEffectHonor" Type="StarSystemImprovement">
+        <Modifier TargetProperty="BonusHonorOnInfluencedFleets" Operation="Addition" Value="0.5" Path="./ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="StarSystemImprovementOverExpansion1Hissho" Type="StarSystemImprovement">
+        <Modifier TargetProperty="OverColonizationThresholdHissho"    Operation="Addition"    Value="1"   Path="../ClassEmpire"  TooltipHidden="false" />
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="StarSystemImprovementUniqueStartingImprovementMajorHissho" Type="StarSystemImprovement">
+        <Modifier TargetProperty="PlanetRawFIDSI"       Operation="Addition"     Value="2"  Path="./ClassColonizedStarSystem/ClassPlanet"    />
+        <Modifier TargetProperty="SystemEmpirePoint"    Operation="Addition"     Value="10"  Path="./ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="StarSystemImprovementTrade2Hisshos" Type="StarSystemImprovement">
+        <Modifier TargetProperty="TradingRouteIncomeModifier"   Operation="Percent"   Value="0.25" Path="./ClassColonizedStarSystem"/>
+        <BinaryModifier TargetProperty="Happiness"              Operation="Addition"  Left="5" BinaryOperation="Multiplication" Right="$(NumberOfTradingCompanies)" Path="./ClassColonizedStarSystem" SearchValueFromPath="true"/>
+        <BinaryModifier TargetProperty="SystemEmpirePointFromHisshoBonus"              Operation="Addition"  Left="5" BinaryOperation="Multiplication" Right="$(NumberOfTradingCompanies)" Path="./ClassColonizedStarSystem" SearchValueFromPath="true"/>
+    </SimulationDescriptor>
+</Datatable>

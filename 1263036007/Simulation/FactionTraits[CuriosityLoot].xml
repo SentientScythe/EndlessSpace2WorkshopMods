@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/FactionTrait.xsd">
+
+    <!-- ########################################## -->
+    <!-- ######      Luxuries in Galaxy      ###### -->
+    <!-- ########################################## -->
+
+	<FactionTrait Name="LuxuryInGalaxy" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitCategoryStartModifiersLuxuryInGalaxy"  Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	
+		<Command Name="TransferResources"               Arguments="Luxury1,1"/>
+		<Command Name="TransferResources"               Arguments="Luxury2,1"/>
+		<Command Name="TransferResources"               Arguments="Luxury3,1"/>
+		<Command Name="TransferResources"               Arguments="Luxury4,1"/>
+		<Command Name="TransferResources"               Arguments="Luxury5,1"/>
+		<Command Name="TransferResources"               Arguments="Luxury6,1"/>
+		<Command Name="TransferResources"               Arguments="Luxury7,1"/>
+		<Command Name="TransferResources"               Arguments="Luxury8,1"/>
+		<Command Name="TransferResources"               Arguments="Luxury9,1"/>
+		<Command Name="TransferResources"               Arguments="Luxury10,1"/>
+		<Command Name="TransferResources"               Arguments="Luxury11,1"/>
+		<Command Name="TransferResources"               Arguments="Luxury12,1"/>
+		<Command Name="TransferResources"               Arguments="Luxury13,1"/>
+		<Command Name="TransferResources"               Arguments="Luxury14,1"/>
+		<Command Name="TransferResources"               Arguments="Luxury15,1"/>
+		<Command Name="TransferResources"               Arguments="Luxury16,1"/>
+		<Command Name="TransferResources"               Arguments="Luxury17,1"/>
+		<Command Name="TransferResources"               Arguments="Luxury18,1"/>
+		<Command Name="TransferResources"               Arguments="Luxury19,1"/>
+		<Command Name="TransferResources"               Arguments="Luxury20,1"/>
+		<Command Name="TransferResources"               Arguments="Luxury21,1"/>
+		<Command Name="TransferResources"               Arguments="Luxury22,1"/>
+		<Command Name="TransferResources"               Arguments="Luxury23,1"/>
+		<Command Name="TransferResources"               Arguments="Luxury24,1"/>
+
+		<SimulationDescriptorReference Name="LuxuryInGalaxy"/>
+		
+	</FactionTrait>
+
+</Datatable>

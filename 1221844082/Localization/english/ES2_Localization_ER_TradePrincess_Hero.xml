@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- lilyophelia: Endless Romance | Start -->
+    
+  <!-- DO  NOT TRANSLATE; TEMPLATES -->
+  <!-- Hero: Template -->
+  <!--
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_HeroTemplateTitle">Name Of Hero</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_HeroTemplateDescription">Flavor text for new hero</LocalizationPair>
+  -->
+
+  <!-- TRANSLATE NOW -->
+  
+  <!-- Hero: Aurelia the Lover -->
+
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_AureliaTheLoverTitle">Aurelia the Lover</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TradePrincess_AureliaTheLoverDescription">Aurelia was an intergalactic trader in her previous life; before she met you.
+
+Clever, seductive and supremely graceful, this amazing creature has managed to win your heart with her many charms. You've somehow managed to hold her attention--and affections--but you know that keeping up with this charming and mercurial soul will be a lifelong adventure.</LocalizationPair>
+
+  <!-- lilyophelia: Endless Romance | End -->
+
+</Datatable>

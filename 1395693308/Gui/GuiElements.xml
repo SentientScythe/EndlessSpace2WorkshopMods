@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Documentation/Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+
+    <!-- GuiElements link gameplay data and images&text together! -->
+    <!-- There are some "improved" types of GuiElements such as ExtendedGuiElements which provide with more data like Movies in this case. -->
+    <ExtendedGuiElement Name="PlanetTypeCustom11">
+        <Title>%PlanetTypeEdenTitle</Title>
+        <Description>%PlanetTypeEdenDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="PlanetType"/> <!-- 'Small' is an icon somewhere, I forgot. It doesn't have a path because it uses the game's Atlased assets. It still needs to be here. -->
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Planets/PlanetTypeJungleLarge"/> <!-- 'Large' is for the planet's tooltip. -->
+            <Icon Size="Planetoid" Path="Bitmaps/Dynamic/Planets/PlanetTypeJunglePlanetoid"/> <!-- 'Planetoid' is the image used in the Empire screen's System tab, when planets are clicked. -->
+        </Icons>
+        <!-- It's possible to add colonization videos but it's a mess with paths and stuff... -->
+        <Movies>
+            <Movie Path="Movies/Colonization/Terran.mp4" Type="Default" />
+        </Movies>
+    </ExtendedGuiElement>
+
+    <GuiElement Name="UniquePlanetCustom007">
+        <Title>%UniquePlanetDeuzTitle</Title>
+        <Description>%UniquePlanetDeuzDescription</Description>
+        <Icons>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Planets/PlanetTypeBarrenLarge" /> <!-- 'Large' is the tooltip image. ###### -->
+            <Icon Size="Mood" Path="Bitmaps/Dynamic/Notifications/NotificationUniquePlanetVeilLarge" /> <!-- 'Mood' is the discovery notification image. ####### -->
+            <Icon Size="Planetoid" Path="Bitmaps/Dynamic/Planets/PlanetTypeBarrenPlanetoid"/> <!-- 'Planetoid' is the image used in the Empire screen's System tab, when planets are clicked. ####### -->
+        </Icons>
+    </GuiElement>
+
+
+    <GuiElement Name="UniquePlanetCustom002">
+        <Title>%UniquePlanetCustom002Title</Title>
+        <Description>%UniquePlanetCustom002Description</Description>
+        <Icons>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Planets/PlanetTypeTerranLarge" /> <!-- 'Large' is the tooltip image.### -->
+            <Icon Size="Mood" Path="Bitmaps/Dynamic/Notifications/NotificationUniquePlanetRaiaLarge" /> <!-- 'Mood' is the discovery notification image.### -->
+            <Icon Size="Planetoid" Path="Bitmaps/Dynamic/Planets/PlanetTypeTerranPlanetoid"/> <!-- 'Planetoid' is the image used in the Empire screen's System tab, when planets are clicked. #### -->
+        </Icons>
+    </GuiElement>
+
+
+    <GuiElement Name="PlanetTypeCustom11Colonization">
+        <Title>%PlanetTypeEdenColonizationTitle</Title>
+        <Description>%PlanetTypeEdenColonizationDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/Colonization/ColonizationTerranSmall" /> <!-- 'Small' is for constructibles list and construction queue image. ### -->
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/Colonization/ColonizationTerranLarge" /> <!-- 'Large' is for tooltip image.### -->
+        </Icons>
+    </GuiElement>
+
+ <GuiElement Name="FactionTraitHomePlanetPlanetTypeCustom11">
+    <Title>%FactionTraitHomePlanetPlanetTypeEdenTitle</Title>
+    <Description>
+            %FactionTraitHomePlanetPlanetTypeEden
+    </Description>
+    <Icons>
+            <Icon Size="Small" Path="Bitmaps\Atlased\Categories\CategoryPlanetImprovementSmall"/>
+    </Icons>
+  </GuiElement>
+
+
+	<GuiElement Name="PlnaetPluss">
+        <Title>%PlnaetPlussTitle</Title>
+        <Description>%PlnaetPlussDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+
+<!-- #### Terraformation imasss ###### -->
+
+    <GuiElement Name="PlanetTerraformationFromForestToCustom11">
+        <Title>%PlanetTerraformationToEdenTitle</Title>
+        <Description>%PlanetTerraformationToEdenDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/Colonization/ColonizationForestSmall" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/Colonization/ColonizationForestLarge" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="PlanetTerraformationFromTerranToCustom11">
+        <Title>%PlanetTerraformationToEdenTitle</Title>
+        <Description>%PlanetTerraformationToEdenDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/Colonization/ColonizationForestSmall" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/Colonization/ColonizationForestLarge" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="PlanetTerraformationFromOceanToCustom11">
+        <Title>%PlanetTerraformationToEdenTitle</Title>
+        <Description>%PlanetTerraformationToEdenDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/Colonization/ColonizationForestSmall" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/Colonization/ColonizationForestLarge" />
+        </Icons>
+    </GuiElement>
+
+
+    <GuiElement Name="PlanetTerraformationFromAtollToCustom11">
+        <Title>%PlanetTerraformationToEdenTitle</Title>
+        <Description>%PlanetTerraformationToEdenDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/Colonization/ColonizationForestSmall" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/Colonization/ColonizationForestLarge" />
+        </Icons>
+    </GuiElement>
+
+</Datatable>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+
+	<!-- History: Template (All) -->
+	<!--
+	<SimulationDescriptor Name="History_ER_TheWarship_HistoryTemplate" Type="StarSystemImprovement">
+        <Modifier TargetProperty="Happiness" Operation="Addition" Value="5" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="SystemGrowth" Operation="Addition" Value="20" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="SystemGrowth" Operation="Percent" Value="0.01" Path="./ClassColonizedStarSystem" />
+        <Modifier TargetProperty="SystemMoney" Operation="Addition" Value="15" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="SystemMoney" Operation="Percent" Value="0.01" Path="./ClassColonizedStarSystem" />
+        <Modifier TargetProperty="SystemProduction" Operation="Addition" Value="10" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="SystemProduction" Operation="Percent" Value="0.01" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="SystemResearch" Operation="Addition" Value="15" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="SystemResearch" Operation="Percent" Value="0.01" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="SystemEmpirePoint" Operation="Addition" Value="10" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="SystemEmpirePoint" Operation="Percent" Value="0.01" Path="./ClassColonizedStarSystem" />
+		<Modifier TargetProperty="ExperienceAtShipCreation" Operation="Addition" Value="10" Path="./ColonizedStarSystemStateColony,ClassColonizedStarSystem/ClassGarrison"/>
+        <Modifier TargetProperty="NetSystemManpower" Operation="Addition" Value="10" Path="./ColonizedStarSystemStateColony,ClassColonizedStarSystem"/>
+	</SimulationDescriptor>
+	-->
+
+
+	<!-- History: FoodTemplate -->
+	<!--
+	<SimulationDescriptor Name="History_ER_TheWarship_HistoryTemplate" Type="StarSystemImprovement">
+        <Modifier TargetProperty="Happiness" Operation="Addition" Value="10" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="SystemGrowth" Operation="Addition" Value="20" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="SystemGrowth" Operation="Percent" Value="0.01" Path="./ClassColonizedStarSystem" />
+	</SimulationDescriptor>
+	-->
+
+	<!-- History: IndustryTemplate -->
+	<!--
+	<SimulationDescriptor Name="History_ER_TheWarship_HistoryTemplate" Type="StarSystemImprovement">
+        <Modifier TargetProperty="SystemProduction" Operation="Addition" Value="10" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="SystemProduction" Operation="Percent" Value="0.01" Path="./ClassColonizedStarSystem"/>
+	</SimulationDescriptor>
+	-->
+
+	<!-- History: DustTemplate -->
+	<!--
+	<SimulationDescriptor Name="History_ER_TheWarship_HistoryTemplate" Type="StarSystemImprovement">
+        <Modifier TargetProperty="SystemMoney" Operation="Addition" Value="15" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="SystemMoney" Operation="Percent" Value="0.01" Path="./ClassColonizedStarSystem" />
+	</SimulationDescriptor>
+	-->
+
+	<!-- History: ScienceTemplate -->
+	<!--
+	<SimulationDescriptor Name="History_ER_TheWarship_HistoryTemplate" Type="StarSystemImprovement">
+        <Modifier TargetProperty="SystemResearch" Operation="Addition" Value="15" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="SystemResearch" Operation="Percent" Value="0.01" Path="./ClassColonizedStarSystem"/>
+	</SimulationDescriptor>
+	-->
+
+	<!-- History: Influence -->
+	<!--
+	<SimulationDescriptor Name="History_ER_TheWarship_HistoryTemplate" Type="StarSystemImprovement">
+        <Modifier TargetProperty="SystemEmpirePoint" Operation="Addition" Value="10" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="SystemEmpirePoint" Operation="Percent" Value="0.01" Path="./ClassColonizedStarSystem" />
+	</SimulationDescriptor>
+	-->
+
+	<!-- History: MilitaryTemplate -->
+	<!--
+	<SimulationDescriptor Name="History_ER_TheWarship_HistoryTemplate" Type="StarSystemImprovement">
+        <Modifier TargetProperty="Happiness" Operation="Addition" Value="5" Path="./ClassColonizedStarSystem"/>
+		<Modifier TargetProperty="ExperienceAtShipCreation" Operation="Addition" Value="10" Path="./ColonizedStarSystemStateColony,ClassColonizedStarSystem/ClassGarrison"/>
+        <Modifier TargetProperty="NetSystemManpower" Operation="Addition" Value="10" Path="./ColonizedStarSystemStateColony,ClassColonizedStarSystem"/>
+	</SimulationDescriptor>
+	-->
+
+	<!-- lilyophelia: Endless Romance | Start -->
+
+    <SimulationDescriptor Name="History_ER_TheWarship_ShipTaken" Type="StarSystemImprovement">
+        <Modifier TargetProperty="SystemResearch" Operation="Addition" Value="15" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="SystemResearch" Operation="Percent" Value="0.01" Path="./ClassColonizedStarSystem"/>
+	</SimulationDescriptor>
+
+    <SimulationDescriptor Name="History_ER_TheWarship_ShipDestroyed" Type="StarSystemImprovement">
+        <Modifier TargetProperty="Happiness" Operation="Addition" Value="10" Path="./ClassColonizedStarSystem"/>
+		<Modifier TargetProperty="ExperienceAtShipCreation" Operation="Addition" Value="10" Path="./ColonizedStarSystemStateColony,ClassColonizedStarSystem/ClassGarrison"/>
+        <Modifier TargetProperty="NetSystemManpower" Operation="Addition" Value="10" Path="./ColonizedStarSystemStateColony,ClassColonizedStarSystem"/>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="History_ER_TheWarship_ShipReturned" Type="StarSystemImprovement">
+        <Modifier TargetProperty="SystemEmpirePoint" Operation="Addition" Value="10" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="SystemEmpirePoint" Operation="Percent" Value="0.01" Path="./ClassColonizedStarSystem" />
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="History_ER_TheWarship_ShipRetrieved" Type="StarSystemImprovement">
+        <Modifier TargetProperty="SystemProduction" Operation="Addition" Value="10" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="SystemProduction" Operation="Percent" Value="0.01" Path="./ClassColonizedStarSystem"/>
+	</SimulationDescriptor>
+
+
+	<!-- lilyophelia: Endless Romance | End -->	
+
+</Datatable>

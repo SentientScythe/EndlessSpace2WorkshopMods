@@ -1,0 +1,1169 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/QuestDefinition.xsd">
+
+	<!-- Quest Template
+	<QuestDefinition Name="EndlessRomance_TheWarship_Template_Wait" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TheWarship_Template_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="1"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TheWarship_Template</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TheWarship_Template" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TheWarship_Template</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+                <Choice DefaultChoiceIndex="0">
+                    <ChoiceItem ObjectiveSetIndex="0"/>
+					<ChoiceItem ObjectiveSetIndex="1"/>
+					<ChoiceItem ObjectiveSetIndex="2"/>
+				</Choice>
+
+                <ObjectiveSet>
+                    <Objective Name="ObjectiveTemplate">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="OutcomeTemplate"/>
+                        </Sequence>
+                        <Outcome Name="OutcomeTemplate">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>QuestToTrigger</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+	-->
+	
+	<!-- Ending Template
+	<QuestDefinition Name="EndlessRomance_TheWarship_EndingTemplate_Wait" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TheWarship_EndingTemplate_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			<Var VarName="$WaitDuration" IntValue="1"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TheWarship_Template</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TheWarship_EndingTemplate" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TheWarship_EndingTemplate</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+            <Var IsGlobal="true" VarName="$EndlessRomance_IsAdventureInProgress" OverWriteGlobal="true" IntValue="0"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="Ending">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Ending"/>
+                        </Sequence>
+                        <Outcome Name="Ending">
+                            <Triggers Weight="1">							
+                                <QuestTrigger>
+                                    <Tags>EpilogueToTriggerOrDeleteTriggers</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+				<Reward Droplist="Droplist_ER_TheWarship_HistoryTemplate" Picks="1"/>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+	-->
+
+	<!-- Epilogue Template
+	<QuestDefinition Name="EndlessRomance_TheWarship_EpilogueTemplate_Wait" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TheWarship_EpilogueTemplate_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="1"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TheWarship_EpilogueTemplate</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TheWarship_EpilogueTemplate" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TheWarship_EpilogueTemplate</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="Ending">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Ending"/>
+                        </Sequence>
+                        <Outcome Name="Ending">
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+	-->
+
+	<!-- lilyophelia: Endless Romance | Start -->
+
+	<!-- Quest: Intruders -->
+
+    <QuestDefinition Name="EndlessRomance_TheWarship_Intruders" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TheWarship_Intruders</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+            <Var IsGlobal="true" VarName="$EndlessRomance_IsAdventureInProgress" OverWriteGlobal="true" IntValue="1"/>
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+                <Choice DefaultChoiceIndex="0">
+                    <ChoiceItem ObjectiveSetIndex="0"/>
+					<ChoiceItem ObjectiveSetIndex="1"/>
+				</Choice>
+
+                <ObjectiveSet>
+                    <Objective Name="Intercept">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Intercept"/>
+                        </Sequence>
+                        <Outcome Name="Intercept">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TheWarship_ShuttleDisabled_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+                <ObjectiveSet>
+                    <Objective Name="Ignore">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Ignore"/>
+                        </Sequence>
+                        <Outcome Name="Ignore">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TheWarship_ShipRetrievedEnding_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+	<!-- Quest: Shuttle Disabled -->
+
+	<QuestDefinition Name="EndlessRomance_TheWarship_ShuttleDisabled_Wait" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TheWarship_ShuttleDisabled_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="6"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TheWarship_ShuttleDisabled</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TheWarship_ShuttleDisabled" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TheWarship_ShuttleDisabled</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+                <Choice DefaultChoiceIndex="0">
+                    <ChoiceItem ObjectiveSetIndex="0"/>
+					<ChoiceItem ObjectiveSetIndex="1"/>
+				</Choice>
+
+                <ObjectiveSet>
+                    <Objective Name="Board">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Board"/>
+                        </Sequence>
+                        <Outcome Name="Board">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TheWarship_EnemyCrew_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+                <ObjectiveSet>
+                    <Objective Name="Destroy">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Destroy"/>
+                        </Sequence>
+                        <Outcome Name="Destroy">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TheWarship_ShipRetrievedEnding_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+	<!-- Quest: Enemy Crew -->
+
+	<QuestDefinition Name="EndlessRomance_TheWarship_EnemyCrew_Wait" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TheWarship_EnemyCrew_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="1"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TheWarship_EnemyCrew</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TheWarship_EnemyCrew" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TheWarship_EnemyCrew</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+                <Choice DefaultChoiceIndex="0">
+                    <ChoiceItem ObjectiveSetIndex="0"/>
+					<ChoiceItem ObjectiveSetIndex="1"/>
+					<ChoiceItem ObjectiveSetIndex="2"/>
+				</Choice>
+
+                <ObjectiveSet>
+                    <Objective Name="Interrogate">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Interrogate"/>
+                        </Sequence>
+                        <Outcome Name="Interrogate">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TheWarship_TheWarshipMin_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+                <ObjectiveSet>
+                    <Objective Name="Torture">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Torture"/>
+                        </Sequence>
+                        <Outcome Name="Torture">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TheWarship_TheWarshipFull_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+                <ObjectiveSet>
+                    <Objective Name="Release">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Release"/>
+                        </Sequence>
+                        <Outcome Name="Release">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TheWarship_ShipRetrievedEnding_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+	<!-- Quest: The Warship - Minimum -->
+
+	<QuestDefinition Name="EndlessRomance_TheWarship_TheWarshipMin_Wait" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TheWarship_TheWarshipMin_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="8"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TheWarship_TheWarshipMin</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TheWarship_TheWarshipMin" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TheWarship_TheWarshipMin</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+                <Choice DefaultChoiceIndex="0">
+                    <ChoiceItem ObjectiveSetIndex="0"/>
+					<ChoiceItem ObjectiveSetIndex="1"/>
+					<ChoiceItem ObjectiveSetIndex="2"/>
+				</Choice>
+
+                <ObjectiveSet>
+                    <Objective Name="Take">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Take"/>
+                        </Sequence>
+                        <Outcome Name="Take">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TheWarship_ShipTakenEnding_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+                <ObjectiveSet>
+                    <Objective Name="Destroy">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Destroy"/>
+                        </Sequence>
+                        <Outcome Name="Destroy">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TheWarship_ShipDestroyedEnding_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+                <ObjectiveSet>
+                    <Objective Name="Return">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Return"/>
+                        </Sequence>
+                        <Outcome Name="Return">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TheWarship_ShipReturnedEnding_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+	<!-- Quest: The Warship - Full -->
+
+	<QuestDefinition Name="EndlessRomance_TheWarship_TheWarshipFull_Wait" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TheWarship_TheWarshipFull_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="8"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TheWarship_TheWarshipFull</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TheWarship_TheWarshipFull" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TheWarship_TheWarshipFull</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+                <Choice DefaultChoiceIndex="0">
+                    <ChoiceItem ObjectiveSetIndex="0"/>
+					<ChoiceItem ObjectiveSetIndex="1"/>
+					<ChoiceItem ObjectiveSetIndex="2"/>
+				</Choice>
+
+                <ObjectiveSet>
+                    <Objective Name="Take">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Take"/>
+                        </Sequence>
+                        <Outcome Name="Take">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TheWarship_ShipTakenEnding_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+                <ObjectiveSet>
+                    <Objective Name="Destroy">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Destroy"/>
+                        </Sequence>
+                        <Outcome Name="Destroy">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TheWarship_ShipDestroyedEnding_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+                <ObjectiveSet>
+                    <Objective Name="Return">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Return"/>
+                        </Sequence>
+                        <Outcome Name="Return">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TheWarship_ShipReturnedEnding_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+	<!-- Ending: Ship Taken -->
+
+	<QuestDefinition Name="EndlessRomance_TheWarship_ShipTakenEnding_Wait" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TheWarship_ShipTakenEnding_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="8"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TheWarship_ShipTakenEnding</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TheWarship_ShipTakenEnding" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TheWarship_ShipTakenEnding</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+            <Var IsGlobal="true" VarName="$EndlessRomance_IsAdventureInProgress" OverWriteGlobal="true" IntValue="0"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="Ending">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Ending"/>
+                        </Sequence>
+                        <Outcome Name="Ending">
+                            <Triggers Weight="1">							
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TheWarship_TheRageCloseEpilogue_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+				<Reward Droplist="Droplist_ER_TheWarship_ShipTaken" Picks="1"/>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+
+	<!-- Ending: Ship Destroyed -->
+
+	<QuestDefinition Name="EndlessRomance_TheWarship_ShipDestroyedEnding_Wait" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TheWarship_ShipDestroyedEnding_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="8"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TheWarship_ShipDestroyedEnding</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TheWarship_ShipDestroyedEnding" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TheWarship_ShipDestroyedEnding</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+            <Var IsGlobal="true" VarName="$EndlessRomance_IsAdventureInProgress" OverWriteGlobal="true" IntValue="0"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="Ending">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Ending"/>
+                        </Sequence>
+                        <Outcome Name="Ending">
+                        </Outcome>
+                    </Objective>
+				<Reward Droplist="Droplist_ER_TheWarship_ShipDestroyed" Picks="1"/>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+
+	<!-- Ending: Ship Returned -->
+
+	<QuestDefinition Name="EndlessRomance_TheWarship_ShipReturnedEnding_Wait" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TheWarship_ShipReturnedEnding_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="8"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TheWarship_ShipReturnedEnding</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TheWarship_ShipReturnedEnding" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TheWarship_ShipReturnedEnding</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+            <Var IsGlobal="true" VarName="$EndlessRomance_IsAdventureInProgress" OverWriteGlobal="true" IntValue="0"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="Ending">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Ending"/>
+                        </Sequence>
+                        <Outcome Name="Ending">
+                            <Triggers Weight="1">							
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TheWarship_TheRageDistantEpilogue_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+				<Reward Droplist="Droplist_ER_TheWarship_ShipReturned" Picks="1"/>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+
+	<!-- Ending: Ship Retrieved -->
+
+	<QuestDefinition Name="EndlessRomance_TheWarship_ShipRetrievedEnding_Wait" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TheWarship_ShipRetrievedEnding_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="12"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TheWarship_ShipRetrievedEnding</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TheWarship_ShipRetrievedEnding" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TheWarship_ShipRetrievedEnding</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+            <Var IsGlobal="true" VarName="$EndlessRomance_IsAdventureInProgress" OverWriteGlobal="true" IntValue="0"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="Ending">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Ending"/>
+                        </Sequence>
+                        <Outcome Name="Ending">
+                            <Triggers Weight="1">							
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TheWarship_TheRageDistantEpilogue_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+				<Reward Droplist="Droplist_ER_TheWarship_ShipRetrieved" Picks="1"/>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+
+	<!-- Epilogue: The Rage - Close  -->
+
+	<QuestDefinition Name="EndlessRomance_TheWarship_TheRageCloseEpilogue_Wait" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TheWarship_TheRageCloseEpilogue_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="20"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TheWarship_TheRageCloseEpilogue</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TheWarship_TheRageCloseEpilogue" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TheWarship_TheRageCloseEpilogue</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="Ending">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Ending"/>
+                        </Sequence>
+                        <Outcome Name="Ending">
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+
+	<!-- Epilogue: The Rage - Distant  -->
+
+	<QuestDefinition Name="EndlessRomance_TheWarship_TheRageDistantEpilogue_Wait" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TheWarship_TheRageDistantEpilogue_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="20"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TheWarship_TheRageDistantEpilogue</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TheWarship_TheRageDistantEpilogue" Category="EndlessRomance" SubCategory="ER_Adventures" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TheWarship_TheRageDistantEpilogue</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="Ending">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Ending"/>
+                        </Sequence>
+                        <Outcome Name="Ending">
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+
+	<!-- lilyophelia: Endless Romance | End -->
+
+</Datatable>

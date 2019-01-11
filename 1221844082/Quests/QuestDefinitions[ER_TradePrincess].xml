@@ -1,0 +1,3378 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/QuestDefinition.xsd">
+
+	<!-- lilyophelia: Quest Template
+	<QuestDefinition Name="EndlessRomance_TradePrincess_Template_Wait" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TradePrincess_Template_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="1"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_Template</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TradePrincess_Template" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TradePrincess_Template</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+                <Choice DefaultChoiceIndex="0">
+                    <ChoiceItem ObjectiveSetIndex="0"/>
+					<ChoiceItem ObjectiveSetIndex="1"/>
+					<ChoiceItem ObjectiveSetIndex="2"/>
+				</Choice>
+
+                <ObjectiveSet>
+                    <Objective Name="ObjectiveTemplate">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="OutcomeTemplate"/>
+                        </Sequence>
+                        <Outcome Name="OutcomeTemplate">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>QuestToTrigger</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+	-->
+	
+	<!-- lilyophelia: Ending Template
+	<QuestDefinition Name="EndlessRomance_TradePrincess_Template_Wait" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TradePrincess_Template_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="1"/>
+
+            <Var IsGlobal="true" VarName="$EndlessRomance_IsRomanceInProgress" OverWriteGlobal="true" IntValue="0"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_Template</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TradePrincess_EndingTemplate" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TradePrincess_EndingTemplate</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="Ending">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Ending"/>
+                        </Sequence>
+                        <Outcome Name="Ending">
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+	-->
+
+	<!-- lilyophelia: Endless Romance | Start -->
+
+    <QuestDefinition Name="EndlessRomance_TradePrincess_TradeFleetInDanger" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="1">
+        <Tags>EndlessRomance_TradePrincess_TradeFleetInDanger</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+            <Var IsGlobal="true" VarName="$EndlessRomance_IsRomanceInProgress" OverWriteGlobal="true" IntValue="1"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+                <Choice DefaultChoiceIndex="0">
+                    <ChoiceItem ObjectiveSetIndex="0"/>
+					<ChoiceItem ObjectiveSetIndex="1"/>
+					<ChoiceItem ObjectiveSetIndex="2"/>					
+				</Choice>
+
+                <ObjectiveSet>
+                    <Objective Name="Help">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Help"/>
+                        </Sequence>	
+                        <Outcome Name="Help">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_MeetThePrincess_Friendly_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>            
+
+                <ObjectiveSet>
+                    <Objective Name="Harvest">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Harvest"/>
+                        </Sequence>	
+                        <Outcome Name="Harvest">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_MeetThePrincess_Hostile_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet> 
+				
+                <ObjectiveSet>
+                    <StartActions>
+                    </StartActions>
+                    <Objective Name="Ignore">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Ignore"/>
+                        </Sequence>	
+                        <Outcome Name="Ignore">
+                            <Triggers Weight="1">
+								<QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_GhostFleetEnding_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet> 				
+				
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+	
+	<QuestDefinition Name="EndlessRomance_TradePrincess_GhostFleetEnding_Wait" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TradePrincess_GhostFleetEnding_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+            <Var IsGlobal="true" VarName="$EndlessRomance_IsRomanceInProgress" IntValue="0"/>
+			
+			<Var VarName="$WaitDuration" IntValue="20"/>
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_GhostFleetEnding</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+	
+    <QuestDefinition Name="EndlessRomance_TradePrincess_GhostFleetEnding" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="2">
+
+        <Tags>EndlessRomance_TradePrincess_GhostFleetEnding</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="GhostFleet">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="GhostFleet"/>
+                        </Sequence>
+                        <Outcome Name="GhostFleet">
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>           
+				
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+	<QuestDefinition Name="EndlessRomance_TradePrincess_MeetThePrincess_Hostile_Wait" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TradePrincess_MeetThePrincess_Hostile_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="1"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_MeetThePrincess_Hostile</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+	
+    <QuestDefinition Name="EndlessRomance_TradePrincess_MeetThePrincess_Hostile" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TradePrincess_MeetThePrincess_Hostile</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+                <Choice DefaultChoiceIndex="0">
+                    <ChoiceItem ObjectiveSetIndex="0"/>
+					<ChoiceItem ObjectiveSetIndex="1"/>
+					<ChoiceItem ObjectiveSetIndex="2"/>
+				</Choice>
+                <ObjectiveSet>
+                    <Objective Name="Slaves">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Slaves"/>
+                        </Sequence>
+                        <Outcome Name="Slaves">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_PrincessBegs_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+                <ObjectiveSet>
+                    <Objective Name="Harvest">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Harvest"/>
+                        </Sequence>
+                        <Outcome Name="Harvest">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_PrincessBegs_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+                <ObjectiveSet>
+                    <Objective Name="Abandon">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Abandon"/>
+                        </Sequence>
+                        <Outcome Name="Abandon">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_GhostFleetEnding_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+				
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+	<QuestDefinition Name="EndlessRomance_TradePrincess_PrincessBegs_Wait" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="1">
+
+		<Tags>Hidden, EndlessRomance_TradePrincess_PrincessBegs_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="1"/>
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_PrincessBegs</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TradePrincess_PrincessBegs" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="2">
+
+        <Tags>EndlessRomance_TradePrincess_PrincessBegs</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+                <Choice DefaultChoiceIndex="0">
+                    <ChoiceItem ObjectiveSetIndex="0"/>
+					<ChoiceItem ObjectiveSetIndex="1"/>
+					<ChoiceItem ObjectiveSetIndex="2"/>					
+				</Choice>
+
+                <ObjectiveSet>
+                    <Objective Name="Advisor">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Advisor"/>
+                        </Sequence>
+                        <Outcome Name="Advisor">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_PrincessAdapts_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+				
+                <ObjectiveSet>
+                    <Objective Name="Slave">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Slave"/>
+                        </Sequence>
+                        <Outcome Name="Slave">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_PrincessAttemptsToAssassinateEnding_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+                <ObjectiveSet>
+                    <Objective Name="Ignore">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Ignore"/>
+                        </Sequence>
+                        <Outcome Name="Ignore">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_HarvestPrincessEnding_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+				
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+	<QuestDefinition Name="EndlessRomance_TradePrincess_PrincessAdapts_Wait" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TradePrincess_PrincessAdapts_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="10"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_PrincessAdapts</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+	<QuestDefinition Name="EndlessRomance_TradePrincess_PrincessAdapts" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TradePrincess_PrincessAdapts</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+                <Choice DefaultChoiceIndex="0">
+                    <ChoiceItem ObjectiveSetIndex="0"/>
+					<ChoiceItem ObjectiveSetIndex="1"/>
+					<ChoiceItem ObjectiveSetIndex="2"/>
+				</Choice>
+
+                <ObjectiveSet>
+                    <Objective Name="Intimate">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Intimate"/>
+                        </Sequence>
+                        <Outcome Name="Intimate">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_IntimateDinner_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+                <ObjectiveSet>
+                    <Objective Name="Lover">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Lover"/>
+                        </Sequence>
+                        <Outcome Name="Lover">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_AureliaBecomesLover_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+                <ObjectiveSet>
+                    <Objective Name="Serve">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Serve"/>
+                        </Sequence>
+                        <Outcome Name="Serve">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_PrincessDarkServantEnding_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+	<QuestDefinition Name="EndlessRomance_TradePrincess_PrincessDarkServantEnding_Wait" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TradePrincess_PrincessDarkServantEnding_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="10"/>
+
+            <Var IsGlobal="true" VarName="$EndlessRomance_IsRomanceInProgress" OverWriteGlobal="true" IntValue="0"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_PrincessDarkServantEnding</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+	
+    <QuestDefinition Name="EndlessRomance_TradePrincess_PrincessDarkServantEnding" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TradePrincess_PrincessDarkServantEnding</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="DarkServantEnding">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="DarkServantEnding"/>
+                        </Sequence>
+                        <Outcome Name="DarkServantEnding">
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+	
+	<QuestDefinition Name="EndlessRomance_TradePrincess_PrincessAttemptsToAssassinateEnding_Wait" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TradePrincess_PrincessAttemptsToAssassinateEnding_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="10"/>
+			
+            <Var IsGlobal="true" VarName="$EndlessRomance_IsRomanceInProgress" OverWriteGlobal="true" IntValue="0"/>			
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_PrincessAttemptsToAssassinateEnding</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+	
+    <QuestDefinition Name="EndlessRomance_TradePrincess_PrincessAttemptsToAssassinateEnding" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TradePrincess_PrincessAttemptsToAssassinateEnding</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="Assassination">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Assassination"/>
+                        </Sequence>
+                        <Outcome Name="Assassination">
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+	
+	<QuestDefinition Name="EndlessRomance_TradePrincess_HarvestPrincessEnding_Wait" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TradePrincess_HarvestPrincessEnding_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="3"/>
+			
+            <Var IsGlobal="true" VarName="$EndlessRomance_IsRomanceInProgress" OverWriteGlobal="true" IntValue="0"/>			
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_HarvestPrincessEnding</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+	
+    <QuestDefinition Name="EndlessRomance_TradePrincess_HarvestPrincessEnding" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TradePrincess_HarvestPrincessEnding</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="Harvest">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Harvest"/>
+                        </Sequence>
+                        <Outcome Name="Harvest">
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+
+	<QuestDefinition Name="EndlessRomance_TradePrincess_MeetThePrincess_Friendly_Wait" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TradePrincess_MeetThePrincess_Friendly_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="1"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">         
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_MeetThePrincess_Friendly</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TradePrincess_MeetThePrincess_Friendly" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TradePrincess_MeetThePrincess_Friendly</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+                <Choice DefaultChoiceIndex="0">
+                    <ChoiceItem ObjectiveSetIndex="0"/>
+					<ChoiceItem ObjectiveSetIndex="1"/>
+					<ChoiceItem ObjectiveSetIndex="2"/>					
+				</Choice>
+
+                <ObjectiveSet>
+                    <Objective Name="Help">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Help"/>
+                        </Sequence>
+                        <Outcome Name="Help">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_PrincessLeaves_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>				
+				
+                <ObjectiveSet>
+                    <Objective Name="Assimilate">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Assimilate"/>
+                        </Sequence>
+                        <Outcome Name="Assimilate">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_AssimilatePrincess_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+				
+                <ObjectiveSet>
+                     <Objective Name="Abandon">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Abandon"/>
+                        </Sequence>
+                        <Outcome Name="Abandon">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_GhostFleetEnding_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>				
+				
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+	<QuestDefinition Name="EndlessRomance_TradePrincess_PrincessLeaves_Wait" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TradePrincess_PrincessLeaves_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="5"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_PrincessLeaves</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TradePrincess_PrincessLeaves" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TradePrincess_PrincessLeaves</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+                <Choice DefaultChoiceIndex="0">
+                    <ChoiceItem ObjectiveSetIndex="0"/>
+					<ChoiceItem ObjectiveSetIndex="1"/>
+					<ChoiceItem ObjectiveSetIndex="2"/>					
+				</Choice>
+
+                <ObjectiveSet>
+                    <Objective Name="Flirt">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Flirt"/>
+                        </Sequence>
+                        <Outcome Name="Flirt">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_LongRangeScanners_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+                <ObjectiveSet>
+                    <Objective Name="Gift">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Gift"/>
+                        </Sequence>
+                        <Outcome Name="Gift">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_LongRangeScanners_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+                <ObjectiveSet>
+                    <Objective Name="Respectful">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Respectful"/>
+                        </Sequence>
+                        <Outcome Name="Respectful">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_LongRangeScanners_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+	
+	<QuestDefinition Name="EndlessRomance_TradePrincess_LongRangeScanners_Wait" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TradePrincess_LongRangeScanners_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="10"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_LongRangeScanners</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>	
+	
+    <QuestDefinition Name="EndlessRomance_TradePrincess_LongRangeScanners" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TradePrincess_LongRangeScanners</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+                <Choice DefaultChoiceIndex="0">
+                    <ChoiceItem ObjectiveSetIndex="0"/>
+					<ChoiceItem ObjectiveSetIndex="1"/>
+				</Choice>
+
+                <ObjectiveSet>
+                    <Objective Name="Military">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Military"/>
+                        </Sequence>
+                        <Outcome Name="Military">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_TradeDeal_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+                <ObjectiveSet>
+                    <Objective Name="Diplomatic">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Diplomatic"/>
+                        </Sequence>
+                        <Outcome Name="Diplomatic">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_TradeDeal_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+	<QuestDefinition Name="EndlessRomance_TradePrincess_TradeDeal_Wait" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TradePrincess_TradeDeal_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="3"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_TradeDeal</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TradePrincess_TradeDeal" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TradePrincess_TradeDeal</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+                <Choice DefaultChoiceIndex="0">
+                    <ChoiceItem ObjectiveSetIndex="0"/>
+					<ChoiceItem ObjectiveSetIndex="1"/>
+					<ChoiceItem ObjectiveSetIndex="2"/>
+				</Choice>
+
+                <ObjectiveSet>
+                    <Objective Name="Intimate">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Intimate"/>
+                        </Sequence>
+                        <Outcome Name="Intimate">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_IntimateDinner_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+                <ObjectiveSet>
+                    <Objective Name="Formal">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Formal"/>
+                        </Sequence>
+                        <Outcome Name="Formal">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_FormalMeeting_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+                <ObjectiveSet>
+                    <Objective Name="Distant">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Distant"/>
+                        </Sequence>
+                        <Outcome Name="Distant">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_PrincessLightServantEnding_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+	
+	<QuestDefinition Name="EndlessRomance_TradePrincess_AssimilatePrincess_Wait" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TradePrincess_AssimilatePrincess_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="3"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_AssimilatePrincess</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TradePrincess_AssimilatePrincess" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TradePrincess_AssimilatePrincess</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+                <Choice DefaultChoiceIndex="0">
+                    <ChoiceItem ObjectiveSetIndex="0"/>
+					<ChoiceItem ObjectiveSetIndex="1"/>
+				</Choice>
+
+                <ObjectiveSet>
+                    <Objective Name="Favor">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Favor"/>
+                        </Sequence>
+                        <Outcome Name="Favor">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_HighSociety_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+                <ObjectiveSet>
+                    <Objective Name="Equality">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Equality"/>
+                        </Sequence>
+                        <Outcome Name="Equality">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_LowSociety_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+	<QuestDefinition Name="EndlessRomance_TradePrincess_HighSociety_Wait" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TradePrincess_HighSociety_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="10"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_HighSociety</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TradePrincess_HighSociety" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TradePrincess_HighSociety</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+                <Choice DefaultChoiceIndex="0">
+                    <ChoiceItem ObjectiveSetIndex="0"/>
+					<ChoiceItem ObjectiveSetIndex="1"/>
+					<ChoiceItem ObjectiveSetIndex="2"/>
+				</Choice>
+
+                <ObjectiveSet>
+                    <Objective Name="Summon">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Summon"/>
+                        </Sequence>
+                        <Outcome Name="Summon">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_SummonPrincess_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+                <ObjectiveSet>
+                    <Objective Name="Permit">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Permit"/>
+                        </Sequence>
+                        <Outcome Name="Permit">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_PrincessMarriageEnding_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>				
+
+                <ObjectiveSet>
+                    <Objective Name="Exile">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Exile"/>
+                        </Sequence>
+                        <Outcome Name="Exile">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_ExilePrincessHigh_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+	<QuestDefinition Name="EndlessRomance_TradePrincess_LowSociety_Wait" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TradePrincess_LowSociety_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="10"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_LowSociety</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TradePrincess_LowSociety" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TradePrincess_LowSociety</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+                <Choice DefaultChoiceIndex="0">
+                    <ChoiceItem ObjectiveSetIndex="0"/>
+					<ChoiceItem ObjectiveSetIndex="1"/>
+					<ChoiceItem ObjectiveSetIndex="2"/>
+				</Choice>
+
+                <ObjectiveSet>
+                    <Objective Name="Summon">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Summon"/>
+                        </Sequence>
+                        <Outcome Name="Summon">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_SummonPrincess_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+                <ObjectiveSet>
+                    <Objective Name="Permit">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Permit"/>
+                        </Sequence>
+                        <Outcome Name="Permit">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_CultLeaderEnding_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+                <ObjectiveSet>
+                    <Objective Name="Exile">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Exile"/>
+                        </Sequence>
+                        <Outcome Name="Exile">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_ExilePrincessLow_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+	<QuestDefinition Name="EndlessRomance_TradePrincess_PrincessMarriageEnding_Wait" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TradePrincess_PrincessMarriageEnding_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+
+            <Var IsGlobal="true" VarName="$EndlessRomance_IsRomanceInProgress" OverWriteGlobal="true" IntValue="0"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="10"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_PrincessMarriageEnding</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TradePrincess_PrincessMarriageEnding" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TradePrincess_PrincessMarriageEnding</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="PrincessMarriageEnding">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="PrincessMarriageEnding"/>
+                        </Sequence>
+                        <Outcome Name="PrincessMarriageEnding">
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+
+	<QuestDefinition Name="EndlessRomance_TradePrincess_CultLeaderEnding_Wait" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TradePrincess_CultLeaderEnding_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="10"/>
+
+            <Var IsGlobal="true" VarName="$EndlessRomance_IsRomanceInProgress" OverWriteGlobal="true" IntValue="0"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_CultLeaderEnding</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+	
+    <QuestDefinition Name="EndlessRomance_TradePrincess_CultLeaderEnding" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TradePrincess_CultLeaderEnding</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="CultLeaderEnding">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="CultLeaderEnding"/>
+                        </Sequence>
+                        <Outcome Name="CultLeaderEnding">
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+
+	<QuestDefinition Name="EndlessRomance_TradePrincess_ExilePrincessHigh_Wait" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TradePrincess_ExilePrincessHigh_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="10"/>
+			
+            <Var IsGlobal="true" VarName="$EndlessRomance_IsRomanceInProgress" OverWriteGlobal="true" IntValue="0"/>			
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_ExilePrincessHigh</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TradePrincess_ExilePrincessHigh" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TradePrincess_ExilePrincessHigh</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="Exile">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Exile"/>
+                        </Sequence>
+                        <Outcome Name="Exile">
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+
+	<QuestDefinition Name="EndlessRomance_TradePrincess_ExilePrincessLow_Wait" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TradePrincess_ExilePrincessLow_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="3"/>
+
+            <Var IsGlobal="true" VarName="$EndlessRomance_IsRomanceInProgress" OverWriteGlobal="true" IntValue="0"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_ExilePrincessLow</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TradePrincess_ExilePrincessLow" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TradePrincess_ExilePrincessLow</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="Exile">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Exile"/>
+                        </Sequence>
+                        <Outcome Name="Exile">
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+
+	<QuestDefinition Name="EndlessRomance_TradePrincess_SummonPrincess_Wait" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TradePrincess_SummonPrincess_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="3"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_SummonPrincess</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TradePrincess_SummonPrincess" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TradePrincess_SummonPrincess</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+                <Choice DefaultChoiceIndex="0">
+                    <ChoiceItem ObjectiveSetIndex="0"/>
+					<ChoiceItem ObjectiveSetIndex="1"/>
+				</Choice>
+
+                <ObjectiveSet>
+                    <Objective Name="Advisor">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Advisor"/>
+                        </Sequence>
+                        <Outcome Name="Advisor">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_AureliaBecomesAdvisor_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+                <ObjectiveSet>
+                    <Objective Name="Lover">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Lover"/>
+                        </Sequence>
+                        <Outcome Name="Lover">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_AureliaBecomesLover_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+	<QuestDefinition Name="EndlessRomance_TradePrincess_AureliaBecomesAdvisor_Wait" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TradePrincess_AureliaBecomesAdvisor_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="3"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_AureliaBecomesAdvisor</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TradePrincess_AureliaBecomesAdvisor" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TradePrincess_AureliaBecomesAdvisor</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+                <Choice DefaultChoiceIndex="0">
+                    <ChoiceItem ObjectiveSetIndex="0"/>
+					<ChoiceItem ObjectiveSetIndex="1"/>
+					<ChoiceItem ObjectiveSetIndex="2"/>
+				</Choice>
+
+                <ObjectiveSet>
+                    <Objective Name="Intimate">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Intimate"/>
+                        </Sequence>
+                        <Outcome Name="Intimate">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_IntimateDinner_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+                <ObjectiveSet>
+                    <Objective Name="Formal">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Formal"/>
+                        </Sequence>
+                        <Outcome Name="Formal">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_FormalMeeting_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+                <ObjectiveSet>
+                    <Objective Name="Distant">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Distant"/>
+                        </Sequence>
+                        <Outcome Name="Distant">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_PrincessLightServantEnding_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+	<QuestDefinition Name="EndlessRomance_TradePrincess_PrincessLightServantEnding_Wait" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TradePrincess_PrincessLightServantEnding_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="10"/>
+
+            <Var IsGlobal="true" VarName="$EndlessRomance_IsRomanceInProgress" OverWriteGlobal="true" IntValue="0"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_PrincessLightServantEnding</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TradePrincess_PrincessLightServantEnding" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TradePrincess_PrincessLightServantEnding</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="PrincessLightServantEnding">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="PrincessLightServantEnding"/>
+                        </Sequence>
+                        <Outcome Name="PrincessLightServantEnding">
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+
+	<QuestDefinition Name="EndlessRomance_TradePrincess_IntimateDinner_Wait" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TradePrincess_IntimateDinner_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="1"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_IntimateDinner</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>	
+	
+    <QuestDefinition Name="EndlessRomance_TradePrincess_IntimateDinner" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TradePrincess_IntimateDinner</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+                <Choice DefaultChoiceIndex="0">
+                    <ChoiceItem ObjectiveSetIndex="0"/>
+					<ChoiceItem ObjectiveSetIndex="1"/>
+					<ChoiceItem ObjectiveSetIndex="2"/>
+				</Choice>
+
+                <ObjectiveSet>
+                    <Objective Name="Express">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Express"/>
+                        </Sequence>
+                        <Outcome Name="Express">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_AureliaBecomesLover_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+                <ObjectiveSet>
+                    <Objective Name="Gift">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Gift"/>
+                        </Sequence>
+                        <Outcome Name="Gift">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_AureliaBecomesLover_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+                <ObjectiveSet>
+                    <Objective Name="Touch">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Touch"/>
+                        </Sequence>
+                        <Outcome Name="Touch">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_AureliaBecomesLover_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+	<QuestDefinition Name="EndlessRomance_TradePrincess_FormalMeeting_Wait" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TradePrincess_FormalMeeting_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="3"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_FormalMeeting</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TradePrincess_FormalMeeting" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TradePrincess_FormalMeeting</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+                <Choice DefaultChoiceIndex="0">
+                    <ChoiceItem ObjectiveSetIndex="0"/>
+					<ChoiceItem ObjectiveSetIndex="1"/>
+				</Choice>
+
+                <ObjectiveSet>
+                    <Objective Name="Accept">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Accept"/>
+                        </Sequence>
+                        <Outcome Name="Accept">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_AureliaBecomesLover_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+                <ObjectiveSet>
+                    <Objective Name="Reject">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Reject"/>
+                        </Sequence>
+                        <Outcome Name="Reject">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_PrincessLightServantEnding_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+	<QuestDefinition Name="EndlessRomance_TradePrincess_AureliaBecomesLover_Wait" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TradePrincess_AureliaBecomesLover_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="1"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_AureliaBecomesLover</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TradePrincess_AureliaBecomesLover" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TradePrincess_AureliaBecomesLover</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+                <Choice DefaultChoiceIndex="0">
+                    <ChoiceItem ObjectiveSetIndex="0"/>
+					<ChoiceItem ObjectiveSetIndex="1"/>
+					<ChoiceItem ObjectiveSetIndex="2"/>
+				</Choice>
+
+                <ObjectiveSet>
+                    <Objective Name="Love">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Love"/>
+                        </Sequence>
+                        <Outcome Name="Love">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_Invitation_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+               <ObjectiveSet>
+                    <Objective Name="Spoil">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Spoil"/>
+                        </Sequence>
+                        <Outcome Name="Spoil">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_Invitation_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+               <ObjectiveSet>
+                    <Objective Name="Cheat">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Cheat"/>
+                        </Sequence>
+                        <Outcome Name="Cheat">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_Invitation_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+	<QuestDefinition Name="EndlessRomance_TradePrincess_Invitation_Wait" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TradePrincess_Invitation_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="10"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_Invitation</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TradePrincess_Invitation" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TradePrincess_Invitation</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+                <Choice DefaultChoiceIndex="0">
+                    <ChoiceItem ObjectiveSetIndex="0"/>
+					<ChoiceItem ObjectiveSetIndex="1"/>
+					<!-- <ChoiceItem ObjectiveSetIndex="2"/> -->
+				</Choice>
+
+                <ObjectiveSet>
+                    <Objective Name="Moon">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Moon"/>
+                        </Sequence>
+                        <Outcome Name="Moon">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_Moon_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+				<!--
+                <ObjectiveSet>
+                    <Objective Name="City">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="City"/>
+                        </Sequence>
+                        <Outcome Name="City">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>QuestToTrigger</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+				-->
+
+                <ObjectiveSet>
+                    <Objective Name="Reject">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Reject"/>
+                        </Sequence>
+                        <Outcome Name="Reject">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_DyingRomanceGeneralEnding_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+	<QuestDefinition Name="EndlessRomance_TradePrincess_DyingRomanceGeneralEnding_Wait" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TradePrincess_DyingRomanceGeneralEnding_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="10"/>
+
+            <Var IsGlobal="true" VarName="$EndlessRomance_IsRomanceInProgress" OverWriteGlobal="true" IntValue="0"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_DyingRomanceGeneralEnding</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TradePrincess_DyingRomanceGeneralEnding" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TradePrincess_DyingRomanceGeneralEnding</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="Ending">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Ending"/>
+                        </Sequence>
+                        <Outcome Name="Ending">
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+
+	<QuestDefinition Name="EndlessRomance_TradePrincess_Moon_Wait" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TradePrincess_Moon_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="3"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_Moon</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TradePrincess_Moon" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TradePrincess_Moon</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+                <Choice DefaultChoiceIndex="0">
+                    <ChoiceItem ObjectiveSetIndex="0"/>
+					<ChoiceItem ObjectiveSetIndex="1"/>
+					<ChoiceItem ObjectiveSetIndex="2"/>
+				</Choice>
+
+                <ObjectiveSet>
+                    <Objective Name="Explore">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Explore"/>
+                        </Sequence>
+                        <Outcome Name="Explore">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_ExploreMoon_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+                <ObjectiveSet>
+                    <Objective Name="Hunt">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Hunt"/>
+                        </Sequence>
+                        <Outcome Name="Hunt">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_HuntMoon_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+                <ObjectiveSet>
+                    <Objective Name="Relax">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Relax"/>
+                        </Sequence>
+                        <Outcome Name="Relax">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_RelaxMoon_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+	<QuestDefinition Name="EndlessRomance_TradePrincess_ExploreMoon_Wait" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TradePrincess_ExploreMoon_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="3"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_ExploreMoon</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TradePrincess_ExploreMoon" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TradePrincess_ExploreMoon</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+                <Choice DefaultChoiceIndex="0">
+                    <ChoiceItem ObjectiveSetIndex="0"/>
+					<ChoiceItem ObjectiveSetIndex="1"/>
+				</Choice>
+
+                <ObjectiveSet>
+                    <Objective Name="Experiment">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Experiment"/>
+                        </Sequence>
+                        <Outcome Name="Experiment">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_ExploreMoonBonding_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+                <ObjectiveSet>
+                    <Objective Name="Decline">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Decline"/>
+                        </Sequence>
+                        <Outcome Name="Decline">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_DyingRomanceGeneralEnding_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+		<QuestDefinition Name="EndlessRomance_TradePrincess_ExploreMoonBonding_Wait" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TradePrincess_ExploreMoonBonding_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="1"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_Template</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TradePrincess_ExploreMoonBonding" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TradePrincess_ExploreMoonBonding</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+                <Choice DefaultChoiceIndex="0">
+                    <ChoiceItem ObjectiveSetIndex="0"/>
+					<ChoiceItem ObjectiveSetIndex="1"/>
+				</Choice>
+
+                <ObjectiveSet>
+                    <Objective Name="Bond">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Bond"/>
+                        </Sequence>
+                        <Outcome Name="Bond">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>QuestToTrigger</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+					<Reward Droplist="Droplist_ER_TradePrincess_AureliaTheLover" Picks="1"/>
+                </ObjectiveSet>
+
+                <ObjectiveSet>
+                    <Objective Name="Refuse">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Refuse"/>
+                        </Sequence>
+                        <Outcome Name="Refuse">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_DyingRomanceGeneralEnding</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+	<QuestDefinition Name="EndlessRomance_TradePrincess_HuntMoon_Wait" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TradePrincess_HuntMoon_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="3"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_HuntMoon</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TradePrincess_HuntMoon" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TradePrincess_HuntMoon</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+                <Choice DefaultChoiceIndex="0">
+                    <ChoiceItem ObjectiveSetIndex="0"/>
+					<ChoiceItem ObjectiveSetIndex="1"/>
+				</Choice>
+
+                <ObjectiveSet>
+                    <Objective Name="Protect">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Protect"/>
+                        </Sequence>
+                        <Outcome Name="Protect">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_HuntMoonBonding_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+                <ObjectiveSet>
+                    <Objective Name="Sacrifice">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Sacrifice"/>
+                        </Sequence>
+                        <Outcome Name="Sacrifice">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_DyingRomanceGeneralEnding</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+	<QuestDefinition Name="EndlessRomance_TradePrincess_HuntMoonBonding_Wait" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TradePrincess_HuntMoonBonding_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="1"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_HuntMoonBonding</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TradePrincess_HuntMoonBonding" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TradePrincess_HuntMoonBonding</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+                <Choice DefaultChoiceIndex="0">
+                    <ChoiceItem ObjectiveSetIndex="0"/>
+					<ChoiceItem ObjectiveSetIndex="1"/>
+				</Choice>
+
+                <ObjectiveSet>
+                    <Objective Name="Bond">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Bond"/>
+                        </Sequence>
+                        <Outcome Name="Bond">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>QuestToTrigger</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+					<Reward Droplist="Droplist_ER_TradePrincess_AureliaTheLover" Picks="1"/>
+                </ObjectiveSet>
+
+                <ObjectiveSet>
+                    <Objective Name="Refuse">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Refuse"/>
+                        </Sequence>
+                        <Outcome Name="Refuse">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_DyingRomanceGeneralEnding</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+	<QuestDefinition Name="EndlessRomance_TradePrincess_RelaxMoon_Wait" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TradePrincess_RelaxMoon_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="3"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_RelaxMoon</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TradePrincess_RelaxMoon" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TradePrincess_RelaxMoon</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+                <Choice DefaultChoiceIndex="0">
+                    <ChoiceItem ObjectiveSetIndex="0"/>
+					<ChoiceItem ObjectiveSetIndex="1"/>
+				</Choice>
+
+                <ObjectiveSet>
+                    <Objective Name="Comfort">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Comfort"/>
+                        </Sequence>
+                        <Outcome Name="Comfort">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_RelaxMoonBonding_Wait</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+                <ObjectiveSet>
+                    <Objective Name="Servants">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Servants"/>
+                        </Sequence>
+                        <Outcome Name="Servants">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_DyingRomanceGeneralEnding</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+	<QuestDefinition Name="EndlessRomance_TradePrincess_RelaxMoonBonding_Wait" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="1">
+		<Tags>Hidden, EndlessRomance_TradePrincess_RelaxMoonBonding_Wait</Tags>	   
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+			
+			<Var VarName="$WaitDuration" IntValue="1"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+				<ObjectiveSet>
+                    <Objective Name="Objective">
+                        <Sequence>
+                            <Decorator_Wait>
+								<Input_WaitDuration VarName="$WaitDuration"/>
+                            </Decorator_Wait>
+                            <Action_ChooseOutcome Name="Outcome"/>							
+                        </Sequence>	
+                        <Outcome Name="Outcome">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_RelaxMoonBonding</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+    <QuestDefinition Name="EndlessRomance_TradePrincess_RelaxMoonBonding" Category="EndlessRomance" SubCategory="ER_TradePrincess" IsInstant="true" MinimumTurn="2">
+        <Tags>EndlessRomance_TradePrincess_RelaxMoonBonding</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                          NumberOfOccurrencesPerEmpire="1"
+                          NumberOfConcurrentInstances="0"/>		
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+
+        <Steps>
+            <Step Name="Step1">
+                <Choice DefaultChoiceIndex="0">
+                    <ChoiceItem ObjectiveSetIndex="0"/>
+					<ChoiceItem ObjectiveSetIndex="1"/>
+				</Choice>
+
+                <ObjectiveSet>
+                    <Objective Name="Bond">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Bond"/>
+                        </Sequence>
+                        <Outcome Name="Bond">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>QuestToTrigger</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+					<Reward Droplist="Droplist_ER_TradePrincess_AureliaTheLover" Picks="1"/>
+                </ObjectiveSet>
+
+                <ObjectiveSet>
+                    <Objective Name="Refuse">
+                        <Sequence>
+                            <Decorator_BeginTurn>
+                            </Decorator_BeginTurn>
+                            <Action_ChooseOutcome Name="Refuse"/>
+                        </Sequence>
+                        <Outcome Name="Refuse">
+                            <Triggers Weight="1">
+                                <QuestTrigger>
+                                    <Tags>EndlessRomance_TradePrincess_DyingRomanceGeneralEnding</Tags>
+                                    <QuestContextSolo ParticipantsVarName="$CurrentEmpire"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+
+            </Step>            
+        </Steps>
+    </QuestDefinition>
+
+	<!-- lilyophelia: Endless Romance | End -->
+
+</Datatable>

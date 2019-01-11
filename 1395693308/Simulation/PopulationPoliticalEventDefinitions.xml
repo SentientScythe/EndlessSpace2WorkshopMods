@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Documentation/Schemas/PopulationEventDefinition.xsd">
+
+    <!-- This population event is triggered when the planet is colonized. -->
+    <!-- Scale: it will affect only the system (could affect the whole empire). -->
+    <!-- Duration & power: it will give +40 support to Politics01 for 1 turn, then stop. -->
+    <PopulationPoliticalEventDefinition Name="PopulationPoliticalEventColonizationCustom11"  Category="PoliticalEventColonization" Scale="System" Duration="4" Power="0">
+        <Politics Name="Politics01"/>
+    </PopulationPoliticalEventDefinition>
+
+</Datatable>

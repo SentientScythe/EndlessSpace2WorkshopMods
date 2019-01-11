@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="Documentation/Schemas/Amplitude.Unity.Runtime.RuntimeModule.xsd">
+
+	<!-- Conversion = add new files, not compatible with other mods. Standalone = replace all files, not compatible with other mods. Extension = add new files, compatible with other mods. // Example : <RuntimeModule Name="ExampleTechnology" Type="Extension" Version="1.1">-->
+  <!-- For the "Name", do not use spaces or special characters (like "&"), otherwise your mod will not load -->
+  <RuntimeModule Name="LOQuestsEndlessRomance" Type="Extension" Version="1.0">
+    <!-- Title as it appears in the workshop // Example : <Title>Example technology</Title>. Here, you can use spaces and special characters (like "&")-->
+        <Title>Endless Romance</Title>
+    <!-- Description as it appears in the workshop // Example : <Description>Adds:- Technology - Exclusion technology link - Cost reduction technology link</Description>-->
+        <Description>Endless Romance is a high-quality quest mod that adds a massive amount of new story and depth to your ES2 playthroughs.
+
+------------------
+Features 
+------------------
+
+Character Plot Webs: Adds deep, fleshed out (and romanceable) characters to your ES2 playthroughs. Released Dec 2017.
+
+Adventures: Adds shorter quest lines that inject interesting events, mysteries, stories and dillemas into your ES2 games. Released Dec 2017.
+
+History System: Adds a large assortment of buildable histories, based on your story choices during your playthrough of Endless Romance. Histories are like mini-wonder buildings that provide a thematic bonus (flat + scaling) and make your empire feel more personalized and storied. Adds more than 6 Illustrations. Released Jan 2018.
+
+New Heroes: Recruit the characters you meet in stories to govern your worlds and guide your fleets. Released Jan 2018.
+
+-----------------
+Content
+-----------------
+
+Total Content: adds more than 1 Romanceable Hero, 34 New Events, 85 Unique Choices, 19 Different Endings, 3 Exciting Epilogues, 8 Buildable Histories, and 18 Original Illustrations. 
+
+---
+
+Aurelia: Meet a charming, golden-eyed trade princess and her people. Save--or exploit--her crew when they ask for help. Form a trade alliance, resettle them as refugees on your homeworld, or maybe just process them for food or dust. Take Aurelia on as an advisor or a lover. Visit an uninhabited, primal moon and forge a deep bond based on love, trust and mutual respect. 
+
+New Character Plot Web, adding the new hero, "Aurelia the Lover," and more than 26 Events, 67 Choices, 11 Endings, 0 Histories, and 5 Illustrations. Released Dec 2017
+
+---
+
+Temporal Anomaly: Investigate strange flashes of light at the edge of one of your systems. Do your best to avoid a mysterious black hole. Investigate a derelict, ghost ship.
+
+New Adventure, adding more than 2 Events, 5 Choices, 4 Endings, 1 Epilogue, 4 Histories, and 4 Illustrations. Released Dec 2017
+
+---
+
+The Warship: Hunt down a stealthy enemy shuttle. Capture prisoners and interrogate them for information. Uncover their secret mission and make an important diplomatic choice. Confiscate an advanced vessel of war. Endure a viral outbreak.
+
+New Adventure, adding more than 5 Events, 13 Choices, 4 Endings, 2 Epilogues, 4 Histories and 3 Illustrations. Released Jan 2018
+
+---------------------
+Next Update
+---------------------
+
+Jan 30th @ 2PM PST
+
+- Ziggurat of the Dark Goddess: Free an imprisoned, pagan Vodyani Goddess; a dark and psychic being. New character plot web.
+
+----------------------
+Coming Soon!
+----------------------
+
+New adventures, new histories and new heroes!
+
+Future characters to include: Viktor (Nihilistic War General); a dark Vodyani goddess; a Riftborn developing emotions/personality; a pacifist, vegan Craver scientist who is always hungry; an Unfallen flapper-girl that loves sarcastic poetry
+
+-----------------
+Credits
+-----------------
+
+Story, writing and coding by lilyophelia (project lead/owner)
+Story and artwork by IvyFetish
+French localization by: archlordluc; shavounet; Marlo
+German localization by Ptah; lasersword
+Russian localization by BadBecauseMad (aka BBM); Bin
+
+If you'd like to join one of our wonderful localization teams, please get in touch!</Description>
+    <!-- Name of the author // Example : <Author>I_AM_ENFER</Author>-->
+        <Author>lilyophelia</Author>
+    <!-- Link to your other work // Example : <Homepage>https://www.games2gether.com/</Homepage>-->
+        <Homepage>https://www.games2gether.com/endless-space-2/forums/75-modding/threads/28595-lo-mods-flotilla-accuracy</Homepage>
+    <!-- Image as it appears in the workshop. Size should be 430x430 pixels // Example : <PreviewImageFile>ModIcon.png</PreviewImageFile>-->
+        <PreviewImageFile>ModIcon.png</PreviewImageFile>
+    <!-- Add more content to this each time you update the mod // Example : <ReleaseNotes>Added XSD validation for easier use.</ReleaseNotes>-->
+        <ReleaseNotes>Latest change: v1.4 - The History Update
+
+- Histories added for all current adventures. Adding more than 8 Histories.
+- New hero, Aurelia the Lover, added as a reward to the Aurelia character plot web.
+</ReleaseNotes>
+    <!-- Available tags: AI, Art, Buildings, Gameplay, Improvements, MajorFactions, Maps, MinorFactions, Multiplayer, Other, Resources, Technologies, Units // Example : <Tags>Gameplay</Tags>-->
+        <Tags>Gameplay</Tags>
+
+		<Plugins>
+		<!-- lilyophelia: Plugins are listed to match the order of the files in the file directory -->
+			
+			<DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass">
+				<ExtraTypes>
+				<!-- lilyophelia: Including all the extra types because it can't hurt to include them, but it can hurt to omit one I might need -->
+					<ExtraType DataType="Amplitude.Unity.Gui.ExtendedGuiElement, Assembly-CSharp-firstpass" />
+					<ExtraType DataType="AffinityGuiElement, Assembly-CSharp" />
+					<ExtraType DataType="ResourceGuiElement, Assembly-CSharp" />
+					<ExtraType DataType="HeroGuiElement, Assembly-CSharp" />
+					<ExtraType DataType="HeroClassGuiElement, Assembly-CSharp" />
+					<ExtraType DataType="PoliticsGuiElement, Assembly-CSharp" />
+					<ExtraType DataType="WindowGuiElement, Assembly-CSharp" />
+					<ExtraType DataType="LoadingWindowGuiElement, Assembly-CSharp" />
+					<ExtraType DataType="MainMenuScreenGuiElement, Assembly-CSharp" />
+					<ExtraType DataType="NewGameScreenGuiElement, Assembly-CSharp" />
+					<ExtraType DataType="ControlBannerGuiElement, Assembly-CSharp" />
+					<ExtraType DataType="TechnologyScreenGuiElement, Assembly-CSharp" />
+					<ExtraType DataType="TechnologyQuadrantGuiElement, Assembly-CSharp" />
+					<ExtraType DataType="EconomyScreenGuiElement, Assembly-CSharp" />
+					<ExtraType DataType="FleetsScreenGuiElement, Assembly-CSharp" />
+					<ExtraType DataType="TechnologyGuiElement2, Assembly-CSharp" />
+					<ExtraType DataType="TableGuiElement, Assembly-CSharp" />
+					<ExtraType DataType="LawGuiElement, Assembly-CSharp" />
+					 <!-- lilyophelia: QuestGuiElement is definitely needed -->
+					<ExtraType DataType="QuestGuiElement, Assembly-CSharp" />
+					<ExtraType DataType="TutorialGuiElement, Assembly-CSharp" />
+					<ExtraType DataType="GovernmentGuiElement, Assembly-CSharp" />
+					<ExtraType DataType="RecipeSlotGuiElement, Assembly-CSharp" />
+					<ExtraType DataType="EmpireActionGuiElement, Assembly-CSharp" />
+					<ExtraType DataType="EmpireDiplomaticActionGuiElement, Assembly-CSharp" />
+					<ExtraType DataType="ScanViewWindowGuiElement, Assembly-CSharp" />
+					<ExtraType DataType="ScanViewCaptionGroupGuiElement, Assembly-CSharp" />
+					<ExtraType DataType="AllianceGuiElement, Assembly-CSharp" />
+					<!-- <ExtraType DataType="PlanetLabel_SystemDiscoveryGuiElement, Assembly-CSharp" /> -->
+					<ExtraType DataType="DiplomaticTermGuiElement, Assembly-CSharp" />
+					<ExtraType DataType="CuriosityTypeGuiElement, Assembly-CSharp" />
+					<ExtraType DataType="StarSystemResourceImprovementGuiElement, Assembly-CSharp" />
+					<ExtraType DataType="TradableSectionGuiElement, Assembly-CSharp" />
+					<ExtraType DataType="MinorFactionDiplomacyModalWindowGuiElement, Assembly-CSharp" />
+					<ExtraType DataType="VictoryScreenGuiElement, Assembly-CSharp" />
+					<ExtraType DataType="StarSystemOverviewScanViewGuiElement, Assembly-CSharp" />
+					<ExtraType DataType="DamageDataGuiElement, Assembly-CSharp" />						
+				</ExtraTypes>
+                <FilePath>Gui/GuiElements[*].xml</FilePath>
+				<!-- lilyophelia: list of files
+				Gui/GuiElements[*].xml
+				Gui/GuiElements[Quests]: contains the GUI for quests
+			
+				[Not Used] Gui/Screens/GuiElements[*].xml
+				-->							
+			</DatabasePlugin>
+
+            <DatabasePlugin DataType="HeroDefinition, Assembly-CSharp">
+                <FilePath>Simulation/HeroDefinitions.xml</FilePath>
+            </DatabasePlugin>
+
+            <DatabasePlugin DataType="HeroSkillDefinition, Assembly-CSharp">
+                <FilePath>Simulation/HeroSkillDefinitions[*].xml</FilePath>
+            </DatabasePlugin>
+			
+			<LocalizationPlugin DefaultLanguage="english">
+				<Directory>Localization</Directory>
+				<!-- lilyophelia: list of files
+				Localization/english/ES2_Localization_Quest_Locales.xml: contains the english localization text for quests
+				-->
+			</LocalizationPlugin>
+			
+			<DatabasePlugin DataType="QuestDefinition, Assembly-CSharp">
+				<ExtraTypes>
+					<ExtraType DataType="TutorialDefinition, Assembly-CSharp" />
+				</ExtraTypes>
+                <Overrides>
+                    <Override Name="Prerequisites" DataType="Amplitude.Query.Xml.XmlQueryPrerequisites, Assembly-CSharp-firstpass">
+                        <ExtraType Name="FilterConstellationByDistance" DataType="QuestFilterConstellationByDistance, Assembly-CSharp" />
+                        <ExtraType Name="FilterSystemByStatus" DataType="QuestFilterSystemByStatus, Assembly-CSharp" />
+                        <ExtraType Name="FilterSystemByDistance" DataType="QuestFilterSystemByDistance, Assembly-CSharp" />
+                        <ExtraType Name="FilterSystemByCuriosity" DataType="QuestFilterSystemByCuriosity, Assembly-CSharp" />
+                        <ExtraType Name="FilterPlanetByCuriosity" DataType="QuestFilterPlanetByCuriosity, Assembly-CSharp" />
+                        <ExtraType Name="FilterShipDesignByModule" DataType="QuestFilterShipDesignByModule, Assembly-CSharp" />
+                        <ExtraType Name="FilterByStringValue" DataType="QuestFilterByStringValue, Assembly-CSharp" />
+                        <ExtraType Name="IsNot" DataType="QuestFilterDifferentEntity, Assembly-CSharp" />
+                    </Override>
+                    <Override Name="Sorter" DataType="Amplitude.Query.Xml.XmlQuerySorter, Assembly-CSharp-firstpass">
+                        <ExtraType Name="SortConstellationByDistance" DataType="QuestSorterConstellationByDistance, Assembly-CSharp" />
+                        <ExtraType Name="SortSystemByDistance" DataType="QuestSorterSystemByDistance, Assembly-CSharp" />
+                    </Override>
+                </Overrides>
+                <FilePath>Quests/QuestDefinitions[*].xml</FilePath>
+				<!-- lilyophelia: list of files
+				Quests/QuestDefinitions[*].xml
+				Quests/QuestDefinitions[EndlessRomance]: contains the core quest data for the mod to function
+				Quests/QuestDefinitions[ER_TradePrincess]: contains quest data related to the trade princess
+				
+				[Not Used] Tutorials/TutorialDefinitions[*].xml
+				-->
+            </DatabasePlugin>
+			
+ 			<DatabasePlugin DataType="Droplist, Assembly-CSharp">
+				<FilePath>Quests/Droplists/Droplists[*].xml</FilePath>
+				<!-- lilyophelia: list of files
+				Quests/Droplists/Droplists[*].xml: contains droplists for the various module rewards
+				-->
+			</DatabasePlugin>
+
+ 			<DatabasePlugin DataType="IndustryConstructibleElement, Assembly-CSharp">
+				<ExtraTypes>
+					<ExtraType DataType="StarSystemImprovementDefinition, Assembly-CSharp" />
+					<ExtraType DataType="PlanetImprovementDefinition, Assembly-CSharp" />
+					<ExtraType DataType="PlanetTerraformationDefinition, Assembly-CSharp" />
+					<ExtraType DataType="PlanetActionImprovementDefinition, Assembly-CSharp" />
+					<ExtraType DataType="StarSystemResourceImprovementDefinition, Assembly-CSharp" />
+					<ExtraType DataType="StarSystemDecolonizeImprovementDefinition, Assembly-CSharp" />
+					<ExtraType DataType="PlanetColonizationConstructibleElement, Assembly-CSharp" />
+					<ExtraType DataType="StarSystemPopulationTransformImprovementDefinition, Assembly-CSharp" />
+					<ExtraType DataType="TradeCompanyHeadquartersStarSystemImprovementDefinition, Assembly-CSharp" />
+					<ExtraType DataType="TradeCompanySubsidiaryStarSystemImprovementDefinition, Assembly-CSharp" />
+					<ExtraType DataType="StarSystemTimeBubbleImprovementDefinition, Assembly-CSharp" />
+				</ExtraTypes>
+				<FilePath>Simulation/ConstructibleElement_Industry[*].xml</FilePath>
+				<!-- lilyophelia: list of files
+				Simulation/ConstructibleElement_Industry[*].xml: 
+				-->
+			</DatabasePlugin>
+
+			<!--
+ 			<DatabasePlugin DataType="QuestEffectDefinition, Assembly-CSharp">
+				<ExtraTypes>
+					<ExtraType DataType="QuestEffectAddDescriptorsDefinition, Assembly-CSharp" />
+				</ExtraTypes>			
+				<FilePath>Quests/Effects/QuestEffectDefinitions[*].xml</FilePath>
+			</DatabasePlugin>
+			-->
+			
+ 			<DatabasePlugin DataType="Amplitude.Unity.Simulation.SimulationDescriptor, Assembly-CSharp-firstpass">
+				<FilePath>Simulation/SimulationDescriptors[*].xml</FilePath>
+				<!-- lilyophelia: list of files
+				Simulation/SimulationDescriptors[*].xml
+				Simulation/SimulationDescriptors[QuestEffects]: describe effects that are applied by quests
+				
+				-->
+			</DatabasePlugin>
+			
+		</Plugins>
+	</RuntimeModule>
+</Datatable>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="Documentation/Schemas/Amplitude.Unity.Runtime.RuntimeModule.xsd">
+
+	<!-- Conversion = add new files, not compatible with other mods. Standalone = replace all files, not compatible with other mods. Extension = add new files, compatible with other mods. // Example : <RuntimeModule Name="ExampleTechnology" Type="Extension" Version="1.1">-->
+  <RuntimeModule Name="AnomalyImmersion" Type="Extension" Version="1.1">
+
+    <!-- Title as it appears in the workshop // Example : <Title>Example technology</Title>-->
+        <Title>Anomaly Immersion</Title>
+    <!-- Description as it appears in the workshop // Example : <Description>Adds:- Technology - Exclusion technology link - Cost reduction technology link</Description>-->
+		<Description>Increase Immersion by restricting the planets and categories of planets certain anomalies spawn on.
+			
+Changelog
+
+1.2 added version changes to description so steam doesn't erase them with an update			
+1.1 - remove permanent monsoon from desert
+1.0 - created: removed ice-10 and coral reefs from lava; made high and low gravity exclusive; made poor and rich soil exclusive; removed Komatiite Volcano from cold and fertile</Description>
+    <!-- Name of the author // Example : <Author>I_AM_ENFER</Author>-->
+        <Author>Psike</Author>
+    <!-- Link to your other work // Example : <Homepage>https://www.games2gether.com/</Homepage>-->
+        <Homepage>https://www.patreon.com/Psike - http://steamcommunity.com/id/brandonjohnson/myworkshopfiles/?appid=392110</Homepage>
+    <!-- Image as it appears in the workshop. Size should be 430x430 pixels // Example : <PreviewImageFile>ModIcon.png</PreviewImageFile>-->
+        <PreviewImageFile>Acid Rain.png</PreviewImageFile>
+    <!-- Add more content to this each time you update the mod // Example : <ReleaseNotes>Added XSD validation for easier use.</ReleaseNotes>-->
+		<ReleaseNotes>1.2 added version changes to description so steam doesn't erase them with an update</ReleaseNotes>
+    <!-- Available tags: AI, Art, Buildings, Gameplay, Improvements, MajorFactions, Maps, MinorFactions, Multiplayer, Other, Resources, Technologies, Units // Example : <Tags>Gameplay</Tags>-->
+        <Tags>Anomaly, Immersion</Tags>
+
+		<!-- XML files to load -->
+		<Plugins>
+
+			<DatabasePlugin DataType="AnomalyDefinition, Assembly-CSharp">
+				<FilePath>Simulation/AnomalyDefinitions.xml</FilePath>
+			</DatabasePlugin>
+			
+		</Plugins>
+
+	</RuntimeModule>
+</Datatable>

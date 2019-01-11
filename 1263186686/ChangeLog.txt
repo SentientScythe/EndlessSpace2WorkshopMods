@@ -1,0 +1,27 @@
+v1.2 Vaulters Update
+
+Adjusted Values:
+
+Increased Hyperium on Solar Nebula.
+
+Added Quadrinix to all Black Hole nodes.
+
+Removed Quadrinix from Collapsing Star.
+Added Titanium to Collapsing Star.
+
+Removed Adamantium from Neutron Star.
+Added Anti-Matter to Neutron Star.
+Added Orchalix to Neutron Star.
+
+Tweaked spawn ratios.
+
+Added new hidden Black Hole nodes.
+
+New Vaulters Node:
+Set Dust bonus to 250.
+Added 1 Anti-Matter, 1 Quadrinix.
+
+Bug fixes:
+
+Fixed bug where Special node resources would override system resource generation.
+Fixed bug allowing resources to be collected without technology prerequisite.

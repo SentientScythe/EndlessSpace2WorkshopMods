@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../../Documentation/Schemas/Amplitude.Unity.Localization.LocalizationDatatableElement.xsd">
+
+    <LocalizationPair Name="%PlanetTypeEdenTitle">에덴</LocalizationPair>
+    <LocalizationPair Name="%PlanetTypeEdenDescription">해양형, 지구형, 산호형의 행성은 생명이 살기에 적합한 조건을 지니고 있습니다. 그리고... 아주 특별한 어떠한 행성들은 그 모든 특성을 고루 지니고 있기도 합니다. 과연, 천국 '에덴'이라고 칭할만 하군요!  </LocalizationPair>
+    <LocalizationPair Name="%FactionTraitHomePlanetPlanetTypeEdenTitle">시작 행성:에덴</LocalizationPair>   
+    <LocalizationPair Name="%PlanetTerraformationToEdenDescription">완벽한 세상, 완벽한 행성을 위한 프로젝트, 행성 에덴화를 실시합니다. 완벽한 행성을 최첨단 과학과 기술로 갈아엎어, 물속, 땅위, 거대한 나무 등 어떠한 환경에 사는 생물이라도 만족할만한 행성을 만드는, 행성 단위의 거대 프로젝트지요! 물론 이러한 프로젝트에는 어마어마한 단위의 자원과 산업력, 그리고 인력과, 그 모든 것을 모으는 영향력이 필요하겠지요. </LocalizationPair>
+    <LocalizationPair Name="%PlanetTerraformationToEdenTitle">행성 에덴화</LocalizationPair>
+  
+</Datatable>

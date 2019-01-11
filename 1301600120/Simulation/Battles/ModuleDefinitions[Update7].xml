@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../../Schemas/ModuleDefinition.xsd">
+
+    
+    <DefenseModule Name="ModuleDefenseHullPlatingQuest2" Family="HullPlatingStrategic4" Level="4" GuiCategory="CategoryStrategic4">
+        <Cost ResourceName="SystemProduction">35</Cost>
+        <Cost ResourceName="Strategic4" Instant="true">1</Cost>
+        <AIBattleSituations Situation="ProjectileDefense" Mode="Use" Value="1"/>
+        <AIBattleSituations Situation="ProjectileWeapon" Mode="Against" Value="1"/>
+        <AIBattleSituations Situation="EnergyDefense" Mode="Use" Value="-0.3"/>
+        <AIBattleSituations Situation="EnergyWeapon" Mode="Against" Value="-0.4"/>		
+        <PathPrerequisite Flags="Edition" Inverted="false">../ClassEmpire/ClassQuests,CompletedQuestPopulation16C1-Reward</PathPrerequisite>       
+        <SimulationDescriptorReference Name="ClassModuleDefense"/>
+        <CategorizedSimulationDescriptors Category="CategoryBaseDefense">
+            <SimulationDescriptorReference Name="ModuleDefenseHullPlatingQuest2"/>
+        </CategorizedSimulationDescriptors>
+        <CategorizedSimulationDescriptors Category="CategoryDefenseHull">
+        </CategorizedSimulationDescriptors>
+        <CategorizedSimulationDescriptors Category="CategoryDefenseStrategic4">
+            <SimulationDescriptorReference Name="ModuleDefenseStrategic4"/>
+        </CategorizedSimulationDescriptors>
+    </DefenseModule>
+
+   
+</Datatable>

@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="Documentation/Schemas/Amplitude.Unity.Runtime.RuntimeModule.xsd">
+
+	<!-- Conversion = add new files, not compatible with other mods. Standalone = replace all files, not compatible with other mods. Extension = add new files, compatible with other mods. -->
+	<RuntimeModule Name="PlanetTypeEden" Type="Extension" Version="3.0">
+
+        <!-- Title as it appears in the workshop -->
+      <Title>PlanetTypeEden</Title>
+        <!-- Description as it appears in the workshop -->
+      <Description>
+        Add new planet type, EDEN, the perfect one.
+
+        Terraform type terran/atoll/forest/ocean to EDEN with 60Titanium, 60 Hyperium, 10 Adamantian, 10 Antimatter, 3 Orichalcix and 3 Quadrinix
+
+        now you need also 1000 manpower.
+
+
+        Teeming, Temperate, Cold and Hot Types. ++ed pop slots
+
+
+        Tech from Colonization1 -> Colonization2
+
+
+
+        you can also start with homeplanet EDEN. (yeah It's OP...)
+
+
+
+        ver2.0 : now only at Dyson and Artificial systems can have EDEN from the biggining of game.
+        Dyson : rarely / Artifical : barely
+
+        ver3.0 : HARDER to terraform planets to EDEN. (*1.5 indus, +3 3rd tech resources, +500 manpower AND tech to COL2)
+
+        EDEN now produce less happiness (+2 -> +1) and less pop slots (+3 -> +2) but +1 influeces per pop(0 -> +1)
+
+
+
+        English is not my first language. plz report any strange/nonsense sentence to me!
+        and Thank you for playing my mod!
+
+
+        Colonization bug fixed! FINIALLY!!! _071418
+        한국어 됩니당! _071418
+
+        ver3.0 : 테라포밍 어렵게, 에덴 밸런스 조정. _080718
+      </Description>
+        <!-- Name of the author -->
+      <Author>LyuMir</Author>
+        <!-- Link to your other work -->
+      <Homepage>_/</Homepage>
+
+        <!-- Image as it appears in the workshop. Size should be 430x430 pixels -->
+      <PreviewImageFile>ModIcon.jpg</PreviewImageFile>
+        <!-- Add more content to this each time you update the mod -->
+      <ReleaseNotes>Ver. 2.0</ReleaseNotes>
+        <!-- Available tags: AI, Art, Buildings, Gameplay, Improvements, MajorFactions, Maps, MinorFactions, Multiplayer, Other, Resources, Technologies, Units -->
+      <Tags>Maps,Gameplay</Tags>
+
+		<!-- XML files to load -->
+		<Plugins>
+		
+			<!-- Add one DatabasePlugin for each type you modify. -->
+            <!-- You can find the current existing DatabasePlugins on the G2G forum (in the modding guide I think) or an out-of-date version in this mod's Documentation. -->
+            
+            <!-- This entry allows you to reskin planets (custom visuals look bad so you override them) -->
+			<DatabasePlugin DataType="PlanetRemappingDefinition, Assembly-CSharp">
+				<!-- Path leading to the files, starting from the location of this XML file. Note that you can use * to include several files at once (eg. EntityActions[*].xml) -->
+				<FilePath>Mapping/PlanetRemappingDefinitions.xml</FilePath>
+			</DatabasePlugin>
+
+            <!-- SimulationDescriptors are gameplay effects applied on elements such as planets, empire, or systems. -->
+            <DatabasePlugin DataType="Amplitude.Unity.Simulation.SimulationDescriptor, Assembly-CSharp-firstpass">
+                <FilePath>Simulation/SimulationDescriptors[Firsttt].xml</FilePath>
+            </DatabasePlugin>
+
+            <!-- These entries are required to include the new planet type in the galaxy generation. -->
+            <DatabasePlugin DataType="GalaxyGeneratorWeightTableDefinition, Assembly-CSharp">
+                <FilePath>GalaxyGenerator/WeightTableDefinitions.xml</FilePath>
+            </DatabasePlugin>
+
+
+            <DatabasePlugin DataType="Generator.Definitions.PlanetGameplayTypeDefinition, Assembly-CSharp-firstpass">
+                <FilePath>GalaxyGenerator/PlanetGameplayTypeDefinitions.xml</FilePath>
+            </DatabasePlugin>
+
+            <DatabasePlugin DataType="Generator.Definitions.PlanetTemperatureDefinition, Assembly-CSharp-firstpass">
+                <FilePath>GalaxyGenerator/PlanetTemperatureDefinitions.xml</FilePath>
+            </DatabasePlugin>
+
+            <!-- Colonization constructible -->
+            <DatabasePlugin DataType="IndustryConstructibleElement, Assembly-CSharp">
+                <ExtraTypes>
+                    <ExtraType DataType="PlanetColonizationConstructibleElement, Assembly-CSharp" />
+                    <ExtraType DataType="PlanetTerraformationDefinition, Assembly-CSharp" />
+                </ExtraTypes>
+                <FilePath>Simulation/PlanetColonizationConstructibleElementss.xml</FilePath>
+            </DatabasePlugin>
+
+      <!-- These must be defined in the list of "stuff a system can build" (IndustryConstructibleElement) and "stuff that can decide whether a planet is colonizable or not" (PlanetColonizationConstructibleElement). -->
+      <DatabasePlugin DataType="PlanetColonizationConstructibleElement, Assembly-CSharp">
+        <FilePath>Simulation/PlanetColonizationOverEden.xml</FilePath>
+      </DatabasePlugin>
+
+
+      <!-- GuiElements bind the gameplay ugly names like PlanetTypeCustom01 to images and player-friendly text like "Arctic" -->
+            <DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass">
+                <ExtraTypes>
+                    <ExtraType DataType="Amplitude.Unity.Gui.ExtendedGuiElement, Assembly-CSharp-firstpass"/>
+                    <ExtraType DataType="AffinityGuiElement, Assembly-CSharp"/>
+                </ExtraTypes>
+                <FilePath>Gui/GuiElements.xml</FilePath>
+            </DatabasePlugin>
+
+            <!-- Scanview data -->
+            <DatabasePlugin DataType="GuiPlanetTypeBaseStats, Assembly-CSharp">
+                <FilePath>Gui/GuiPlanetTypeBaseStats.xml</FilePath>
+            </DatabasePlugin>
+
+            <!-- Minor empire planetary improvement binding -->
+            <DatabasePlugin DataType="PlanetImprovementMappingDefinition, Assembly-CSharp">
+                <FilePath>Simulation/PlanetImprovementMappingDefinitions.xml</FilePath>
+            </DatabasePlugin>
+
+            <!-- Population political events. -->
+            <DatabasePlugin DataType="PopulationEventDefinition, Assembly-CSharp">
+                <ExtraTypes>
+                    <ExtraType DataType="PopulationPoliticalEventDefinition, Assembly-CSharp" />
+                </ExtraTypes>
+                <FilePath>Simulation/PopulationPoliticalEventDefinitions.xml</FilePath>
+            </DatabasePlugin>
+
+      <DatabasePlugin DataType="FactionTrait, Assembly-CSharp">
+        <FilePath>Simulation/FactionTraits[HomePlanetsUnlocked].xml</FilePath>
+      </DatabasePlugin>
+
+
+            <!-- NOT yet
+      <DatabasePlugin DataType="MarketplaceEventDefinition">
+        <FilePath>Simulation/MarketWWHresp.xml</FilePath>
+      </DatabasePlugin>
+             -->
+            <!-- Localization (transform "%UniquePlanetCustom01Title" into "Custom planet #1") -->
+            <LocalizationPlugin DefaultLanguage="english">
+                <Directory>Localization</Directory>
+            </LocalizationPlugin>
+            
+        </Plugins>
+	
+	</RuntimeModule>
+</Datatable>

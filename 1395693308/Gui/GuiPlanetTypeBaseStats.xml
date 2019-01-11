@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Documentation/Schemas/GuiPlanetTypeBaseStats.xsd">
+
+    <!-- Scientific data for the Planet scan view. -->
+    <GuiPlanetTypeBaseStats Name="PlanetTypeCustom11">
+        <Stat Name="MeanRadius" Min="6000" Max="7000" />
+        <Stat Name="Mass" Min="5" Max="9" />
+        <Stat Name="SurfaceGravity" Min="9" Max="12" />
+        <Stat Name="OrbitalPeriod" Min="150" Max="290" />
+        <Stat Name="RotationPeriod" Min="0.8" Max="1.4" />
+        <Stat Name="AtmosphereComposition">
+            <StatDetail Name="N₂" Min="70" Max="90" />
+            <StatDetail Name="O₂" Min="15" Max="25" />
+            <StatDetail Name="Ar" Min="1" Max="3" />
+            <StatDetail Name="H₂" Min="0" Max="1" />
+            <StatDetail Name="H₂O" Min="1" Max="2" />
+            <StatDetail Name="CO₂" Min="0" Max="1" />
+            <StatDetail Name="SO₂" Min="0" Max="1" />
+            <StatDetail Name="CH₄" Min="0" Max="1" />
+        </Stat>
+        <Stat Name="AtmospherePressure" Min="0.9" Max="1.1" />
+        <Stat Name="AtmosphereTemperature" Min="290" Max="295" />
+        <Stat Name="PlanetMainElements">
+            <StatDetail Name="Fe" Min="30" Max="40" />
+            <StatDetail Name="O" Min="25" Max="35" />
+            <StatDetail Name="Si" Min="25" Max="35" />
+            <StatDetail Name="Mg" Min="10" Max="20" />
+            <StatDetail Name="S" Min="1" Max="3" />
+            <StatDetail Name="Ni" Min="1" Max="3" />
+            <StatDetail Name="Ca" Min="1" Max="2" />
+            <StatDetail Name="Al" Min="1" Max="2" />
+        </Stat >
+        <Stat Name="CoreType" Value="%PlanetCoreTypeMetallicTitle" />
+    </GuiPlanetTypeBaseStats>
+    
+</Datatable>

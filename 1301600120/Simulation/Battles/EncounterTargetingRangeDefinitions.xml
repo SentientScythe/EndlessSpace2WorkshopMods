@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../../Schemas/EncounterTargetingRangeDefinition.xsd">
+
+    <!-- ******************** -->
+    <!-- **		BattleMod		** -->
+    <!-- ******************** -->
+
+	<!-- Range = Number of squares in the battle view -->
+	<!-- Range = Equivalent to 10 units in FlotillaMatch Definitions -->
+	<!-- Increased range so my new paths UI range would match the actual weapon range -->
+	
+    <!--Simulation Descriptors will be added to salvos upon being fired-->
+    <EncounterTargetingRangeDefinition Name="Long" MinValue="50" MaxValue="150">
+        <SimulationDescriptorReference Name="LongRange"/>
+    </EncounterTargetingRangeDefinition>
+    <EncounterTargetingRangeDefinition Name="Medium" MinValue="25" MaxValue="50">
+        <SimulationDescriptorReference Name="MediumRange"/>
+    </EncounterTargetingRangeDefinition>
+    <EncounterTargetingRangeDefinition Name="Short" MinValue="0" MaxValue="25">
+        <SimulationDescriptorReference Name="ShortRange"/>
+    </EncounterTargetingRangeDefinition>
+	<!-- Range doubled BUT reduced accuracy of flaks to 60% base -->
+    <EncounterTargetingRangeDefinition Name="Flak" MinValue="0" MaxValue="5" Hidden="true"> 
+        <SimulationDescriptorReference Name="FlakRange"/>
+    </EncounterTargetingRangeDefinition>
+
+</Datatable>

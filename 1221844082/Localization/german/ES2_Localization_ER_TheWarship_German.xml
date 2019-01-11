@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- lilyophelia: Endless Romance | Start -->
+  
+  <!-- DO  NOT TRANSLATE; TEMPLATES -->
+  <!-- Quest Template -->
+  <!--
+  <LocalizationPair Name="%EndlessRomance_TheWarship_Template_Title">Trade Fleet In Danger</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_Template_Description">A foreign trade fleet is broadcasting a distress signal from the edge of one of your systems. They appear to be badly damaged and are asking for assistance.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TheWarship_Template_OptionName_Title">Ignore</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_Template_OptionName_Description">Ignore the distress call.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_Template_OptionName_Objective">Your empire does not have time to deal with this situation. Besides, it might be a trap. Whoever these traders are, they're on their own.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_Template_OptionName_ObjectiveTooltip">[End of Storyline]</LocalizationPair>
+  -->
+  
+  <!-- Ending Template -->
+  <!--
+  <LocalizationPair Name="%EndlessRomance_TheWarship_Template_Title">The Ghost Fleet</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_Template_Description">Your civilian vessels make a remarkable discovery. Drifting far outside the interstellar highways, at the edge of one of your systems, they find an ancient fleet of trade vessels. Their ships seem to have lost power at some point. All of the crew appear to have died from exposure to the cold of space.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TheWarship_Template_Ending_Title">The Ghost Fleet</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_Template_Ending_Description">The Warship storyline has ended.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_Template_Ending_Objective">Narrative event</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_Template_Ending_ObjectiveTooltip">This is one of many possible endings for this storyline.</LocalizationPair>
+  -->
+
+  <!-- Epilogue Template -->
+  <!--
+  <LocalizationPair Name="%EndlessRomance_TheWarship_EpilogueTemplate_Title">Flashes of Light</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_EpilogueTemplate_Description">Brilliant flashes of light are appearing in the remote space at the edge of one of your solar systems.
+
+You feel like this might have happened before.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TheWarship_EpilogueTemplate_Epilogue_Title">Flashes of Light</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_EpilogueTemplate_Epilogue_Description">Epilogue for The Warship storyline.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_EpilogueTemplate_Epilogue_Objective">Narrative event</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_EpilogueTemplate_Epilogue_ObjectiveTooltip">This final event provides flavor for the quest line.</LocalizationPair>
+  -->
+
+  <!-- TRANSLATE NOW -->
+
+  <!-- Quest: Intruders -->
+
+  <LocalizationPair Name="%EndlessRomance_TheWarship_Intruders_Title">Intruders</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_Intruders_Description">A small vessel has just been picked up on your long-range scanners. It is moving at extremely high speeds--far exceeding the capabilities of most civillian ships--and it seems to be in a hurry to reach its destination.
+
+While you can't be sure, the vessel appears to have entered your space from foreign territory.
+  </LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TheWarship_Intruders_Intercept_Title">Intercept</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_Intruders_Intercept_Description">Intercept the ship.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_Intruders_Intercept_Objective">Divert one of your patrolling warships to intercept the vessel.
+  </LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_Intruders_Intercept_ObjectiveTooltip">You will learn more about the vessel.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TheWarship_Intruders_Ignore_Title">Ignore</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_Intruders_Ignore_Description">Ignore the ship.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_Intruders_Ignore_Objective">Ignore the vessel. Keep your warships on patrol at your borders.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_Intruders_Ignore_ObjectiveTooltip">You will conserve your resources for more dangerous threats.</LocalizationPair>
+
+  <!-- Quest: Shuttle Disabled -->
+
+  <LocalizationPair Name="%EndlessRomance_TheWarship_ShuttleDisabled_Title">Shuttle Disabled</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_ShuttleDisabled_Description">Your warship breaks from the border to intercept this mysterious intruder.
+
+At first, they try to outrun you; the vessel--a small, military-grade shuttle--makes a beeline towards some point deeper in your empire's space. When it becomes clear that you're going to catch up, the shuttle then alters course and tries to hide behind a moon. When you find them, the shuttle makes one final, desperate race out of the system before they are disabled by the superior firepower of your warship.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TheWarship_ShuttleDisabled_Board_Title">Board</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_ShuttleDisabled_Board_Description">Board the shuttle and take prisoners.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_ShuttleDisabled_Board_Objective">Board the shuttle and take prisoners. You want to know where they came from and why they were in your space.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_ShuttleDisabled_Board_ObjectiveTooltip">You will learn more about the shuttle.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TheWarship_ShuttleDisabled_Destroy_Title">Destroy</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_ShuttleDisabled_Destroy_Description">Destroy the shuttle.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_ShuttleDisabled_Destroy_Objective">Order your warship to destroy the helpless vessel. You will send a message to your enemies about the dangers of trespassing in your territory.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_ShuttleDisabled_Destroy_ObjectiveTooltip">Your enemies will think twice before trespassing.</LocalizationPair>
+
+  <!-- Quest: Enemy Crew -->
+
+  <LocalizationPair Name="%EndlessRomance_TheWarship_EnemyCrew_Title">Enemy Crew Captured</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_EnemyCrew_Description">There is a brief firefight as you take the shuttle and its crew. Two enemy space marines are killed when you board and you manage to take another three after they surrender. They also have a female, civilian scientist on board.
+
+They immediately identify themselves as citizens of a neighboring, rival empire. This civilization is quite powerful, although they have been duplicitous towards you in the past.
+
+Mere hours after they are captured, you recieve a formal diplomatic message from their empire. According to their government, this shuttle was responding to an emergency on the other side of your territory, outside of your sovereign space. They apologize for the misunderstanding and request that their citizens are immediately returned to them.
+
+Meanwhile, your soldiers have been questioning the prisoners and they believe that there is more to this story.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TheWarship_EnemyCrew_Interrogate_Title">Interrogate</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_EnemyCrew_Interrogate_Description">Continue to interrogate the prisoners.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_EnemyCrew_Interrogate_Objective">Continue to interrogate the prisoners. You want to know the truth behind their secret mission.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_EnemyCrew_Interrogate_ObjectiveTooltip">You will learn more about their mission, but their empire will be upset.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TheWarship_EnemyCrew_Torture_Title">Torture</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_EnemyCrew_Torture_Description">Torture the prisoners.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_EnemyCrew_Torture_Objective">Torture the prisoners until they break. Order your soliders to apply increasingly harsh methods until they get everything from the space marines and their female charge.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_EnemyCrew_Torture_ObjectiveTooltip">You will learn everything, but their empire will be extremely angry.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TheWarship_EnemyCrew_Release_Title">Release</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_EnemyCrew_Release_Description">Release the prisoners.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_EnemyCrew_Release_Objective">Release the prisoners. Keeping the peace is most important to you.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_EnemyCrew_Release_ObjectiveTooltip">The other empire will be very grateful.</LocalizationPair>
+
+  <!-- Quest: The Warship - Minimum -->
+
+  <LocalizationPair Name="%EndlessRomance_TheWarship_TheWarshipMin_Title">The Warship</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_TheWarshipMin_Description">You question your prisoners again and again, and gradually the truth comes out.
+
+Apparently, their empire has been sending a vessel into your territory to spy on you. One of the most advanced vessels they possess, this warship is outfitted with a stealth technology that makes it invisible to your sensors.
+
+Even more distrubing, the ship was in the process of testing a new weapon--deep inside your territory--when it suddenly went silent. The ship is still broadcasting a location, however, on an encrypted channel.
+
+The shuttle that you captured was on their way to rendezvous with the cloaked warship. The scientist is an expert in biological weapons; she claims that the stealthed vessel is not safe to board and that it should be returned to her empire immediately.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TheWarship_TheWarshipMin_Take_Title">Take</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_TheWarshipMin_Take_Description">Take the warship.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_TheWarshipMin_Take_Objective">Take the warship. You will learn a lot by studying the weapons of your enemy.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_TheWarshipMin_Take_ObjectiveTooltip">You will learn a lot by studying the ship.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TheWarship_TheWarshipMin_Destroy_Title">Destroy</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_TheWarshipMin_Destroy_Description">Destroy the vessel.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_TheWarshipMin_Destroy_Objective">Destroy the vessel. You will remove the threat while simultaneously punishing your enemy for their deception.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_TheWarshipMin_Destroy_ObjectiveTooltip">You will neutralize any possible threat from the vessel.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TheWarship_TheWarshipMin_Return_Title">Return</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_TheWarshipMin_Return_Description">Return the ship.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_TheWarshipMin_Return_Objective">Return the ship to the offending empire with the understanding that they better respect your sovereign space in the future.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_TheWarshipMin_Return_ObjectiveTooltip">The rival empire will be humbled by the return of their vessel.</LocalizationPair>
+
+  <!-- Quest: The Warship - Full -->
+
+  <LocalizationPair Name="%EndlessRomance_TheWarship_TheWarshipFull_Title">The Warship</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_TheWarshipFull_Description">The marines are able to take an excessive amount of punishment. The scientist ends up being their weakness, however. When you threaten to do her harm, one of the marines breaks down and confesses everything.
+
+Apparently, their empire has been sending a vessel into your territory for quite some time; months, if not years.
+
+They have been using a stealthed warship--the most advanced vessel they possess--to collect information about your systems and your fleets.
+
+They were testing a new weapon--deep inside your territory--when the ship suddenly went silent. Their listening stations have been trying to make contact with the vessel for three days now, but there has been no response. The ship is still broadcasting a location, however, on an encrypted channel.
+
+The shuttle that you captured was on their way to rendezvous with the cloaked warship. The scientist is an expert in biological weapons; she claims that the stealthed vessel is not safe to board and that it should be returned to her empire immediately.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TheWarship_TheWarshipFull_Take_Title">Take</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_TheWarshipFull_Take_Description">Take the warship.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_TheWarshipFull_Take_Objective">Take the warship. You will learn a lot by studying the weapons of your enemy.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_TheWarshipFull_Take_ObjectiveTooltip">You will learn a lot by studying the ship.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TheWarship_TheWarshipFull_Destroy_Title">Destroy</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_TheWarshipFull_Destroy_Description">Destroy the vessel.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_TheWarshipFull_Destroy_Objective">Destroy the vessel. You will remove the threat while simultaneously punishing your enemy for their deception.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_TheWarshipFull_Destroy_ObjectiveTooltip">You will neutralize any possible threat from the vessel.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TheWarship_TheWarshipFull_Return_Title">Return</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_TheWarshipFull_Return_Description">Return the ship.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_TheWarshipFull_Return_Objective">Return the ship to the offending empire with the understanding that they better respect your sovereign space in the future.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_TheWarshipFull_Return_ObjectiveTooltip">The rival empire will be humbled by the return of their vessel.</LocalizationPair>
+
+  <!-- Ending: Ship Taken -->
+
+  <LocalizationPair Name="%EndlessRomance_TheWarship_ShipTakenEnding_Title">Warship Taken</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_ShipTakenEnding_Description">You arrive at the coordinates that the enemy scientist provides. The cloaking technology is so advanced that it takes several days just to locate the vessel.
+
+When your soldiers board the warship, they are confronted with a gruesome scene. Most of the enemy crew is dead; and the ones that are still alive seem to be infected by some sort of viral pathogen. Their blood has darkened--turning nearly black--and they seem consumed by a mindless rage. The walls are splashed with the gore and viscera of their former crewmates.
+
+Regardless, the warship is now yours. 
+
+After a lengthy quarantine, you have the vessel towed to one of your nearest research labs. It will be studied and the foreign technology will be assimilated.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TheWarship_ShipTakenEnding_Ending_Title">Warship Taken</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_ShipTakenEnding_Ending_Description">The Warship storyline has ended.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_ShipTakenEnding_Ending_Objective">Narrative event</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_ShipTakenEnding_Ending_ObjectiveTooltip">This is one of many possible endings for this storyline.</LocalizationPair>
+
+  <!-- Ending: Ship Destroyed -->
+
+  <LocalizationPair Name="%EndlessRomance_TheWarship_ShipDestroyedEnding_Title">Warship Destroyed</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_ShipDestroyedEnding_Description">You arrive at the coordinates that the enemy scientist provides. The cloaking technology is so advanced that it takes several days just to locate the vessel. 
+
+A few well-placed blasts disable the stealth drive, and you get your first look at their flagship. Long, sleek lines fade into powerful engines and cannons. In a battle, this vessel would be a deadly challenge. But in it's current state--defenseless and unresponsive--it's easy work to obliterate the warship.
+
+Shortly after the vessel is destroyed, you receive angry and threatening messages from the rival empire. They promise retribution when you least expect it.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TheWarship_ShipDestroyedEnding_Ending_Title">Warship Destroyed</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_ShipDestroyedEnding_Ending_Description">The Warship storyline has ended.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_ShipDestroyedEnding_Ending_Objective">Narrative event</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_ShipDestroyedEnding_Ending_ObjectiveTooltip">This is one of many possible endings for this storyline.</LocalizationPair>
+
+  <!-- Ending: Ship Returned -->
+
+  <LocalizationPair Name="%EndlessRomance_TheWarship_ShipReturnedEnding_Title">Warship Returned</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_ShipReturnedEnding_Description">You arrive at the coordinates that the enemy scientist provides. The cloaking technology is so advanced that you never would have discovered the vessel without her help. 
+
+While you secretly record her process, you allow the scientist to broadcast an encrypted signal from your ship's systems. The stealthed warship responds by automatically decloaking. Your military research teams are sure to appreciate the codes and data that you forward to them.
+
+There is minimal gunfire once their team is on board, and they quickly take control of the warship. They waste no time in powering up the vessel and setting course back to their home system.
+
+You receive a final message through diplomatic channels. Their ambassador--deeply embarrassed by the incident--thanks you for your understanding and promises to avoid future misunderstandings.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TheWarship_ShipReturnedEnding_Ending_Title">Warship Returned</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_ShipReturnedEnding_Ending_Description">The Warship storyline has ended.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_ShipReturnedEnding_Ending_Objective">Narrative event</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_ShipReturnedEnding_Ending_ObjectiveTooltip">This is one of many possible endings for this storyline.</LocalizationPair>
+
+  <!-- Ending: Ship Retrieved -->
+
+  <LocalizationPair Name="%EndlessRomance_TheWarship_ShipRetrievedEnding_Title">Foreign Agents</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_ShipRetrievedEnding_Description">Your intelligence agencies inform you that foreign agents are up to something in your space. Multiple groups have been tracked to one of your smaller colonies. Unfortunately, they are already gone when your soldiers and war vessels arrive.
+
+Residual traces suggest that a large, military vessel was recently in the area, but none of your scanning facilities ever picked up anything on their screens.
+
+Whatever they were doing, the foreign agents are now gone.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TheWarship_ShipRetrievedEnding_Ending_Title">Warship Retrieved</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_ShipRetrievedEnding_Ending_Description">The Warship storyline has ended.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_ShipRetrievedEnding_Ending_Objective">Narrative event</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_ShipRetrievedEnding_Ending_ObjectiveTooltip">This is one of many possible endings for this storyline.</LocalizationPair>
+
+  <!-- Epilogue: The Rage - Close  -->
+
+  <LocalizationPair Name="%EndlessRomance_TheWarship_TheRageCloseEpilogue_Title">The Rage</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_TheRageCloseEpilogue_Description">There is an incident at one of your military research facilities.
+
+It appears that someone kept information from you. Years prior--when you captured an advanced, enemy warship--one of your soldiers did not make it out of quarantine. He became infected with a viral pathogen that caused him to halucinate and grow violent. 
+
+Your advisors come to you and show you the video of his transformation. Black veins sprawling across his skin. Eyes glazed over in total darkness. His mind becomes incoherent and he soon loses the ability to speak; to eat; or to function in any normal way. He screams and screams, clawing at the walls until the skin is torn from the bones of his hands.
+
+You scientists have been studying him for years now, trying to isolate the infection. Somehow the virus escaped containment, and it seems that you've lost contact with the entire research facility where it was being studied. No one from the orbital research station is responding to your messages.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TheWarship_TheRageCloseEpilogue_Epilogue_Title">The Rage</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_TheRageCloseEpilogue_Epilogue_Description">Epilogue for The Warship storyline.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_TheRageCloseEpilogue_Epilogue_Objective">Narrative event</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_TheRageCloseEpilogue_Epilogue_ObjectiveTooltip">This final event provides flavor for the quest line.</LocalizationPair>
+  -->
+
+  <!-- Epilogue: The Rage - Distant  -->
+
+  <LocalizationPair Name="%EndlessRomance_TheWarship_TheRageDistantEpilogue_Title">The Rage</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_TheRageDistantEpilogue_Description">Your spies hear talk of a disaster in one of your neighboring empires; something to do with a biological weapon.
+
+Their news networks suggest that the colony suffered a terrorist attack, but your operatives tell you that this is just a cover story. A weaponized virus was released by their government--either intentionally or by accident--on the small, border outpost. No one seems to have survived, and the area is now under strict quarantine.</LocalizationPair>
+
+  <LocalizationPair Name="%EndlessRomance_TheWarship_TheRageDistantEpilogue_Epilogue_Title">The Rage</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_TheRageDistantEpilogue_Epilogue_Description">Epilogue for The Warship storyline.</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_TheRageDistantEpilogue_Epilogue_Objective">Narrative event</LocalizationPair>
+  <LocalizationPair Name="%EndlessRomance_TheWarship_TheRageDistantEpilogue_Epilogue_ObjectiveTooltip">This final event provides flavor for the quest line.</LocalizationPair>
+  -->
+
+  <!-- lilyophelia: Endless Romance | End -->
+
+</Datatable>	

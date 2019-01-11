@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../../Schemas/Droplist.xsd">
+
+	<!-- History Template
+    <Droplist Name="Droplist_ER_TheWarship_HistoryTemplate">
+        <Unlock Name="History_ER_TheWarship_HistoryTemplate" SimulationTag="History_ER_TheWarship_HistoryTemplate"/>        
+    </Droplist>
+	-->
+
+	<!-- lilyophelia: Endless Romance | Start -->
+
+    <Droplist Name="Droplist_ER_TheWarship_ShipTaken">
+        <Unlock Name="History_ER_TheWarship_ShipTaken" SimulationTag="History_ER_TheWarship_ShipTaken"/>        
+    </Droplist>
+
+    <Droplist Name="Droplist_ER_TheWarship_ShipDestroyed">
+        <Unlock Name="History_ER_TheWarship_ShipDestroyed" SimulationTag="History_ER_TheWarship_ShipDestroyed"/>        
+    </Droplist>
+
+    <Droplist Name="Droplist_ER_TheWarship_ShipReturned">
+        <Unlock Name="History_ER_TheWarship_ShipReturned" SimulationTag="History_ER_TheWarship_ShipReturned"/>        
+    </Droplist>
+
+    <Droplist Name="Droplist_ER_TheWarship_ShipRetrieved">
+        <Unlock Name="History_ER_TheWarship_ShipRetrieved" SimulationTag="History_ER_TheWarship_ShipRetrieved"/>        
+    </Droplist>
+
+	<!-- lilyophelia: Endless Romance | End -->	
+
+</Datatable>

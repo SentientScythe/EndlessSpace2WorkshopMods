@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/PopulationPoliticalTraitDefinition.xsd">
+	
+        <!--Disabled untill I can mod it in a better way
+    <PopulationPoliticalTraitDefinition Name="PopulationPoliticalTraitIndustrialist" Type="Major" PoliticalType="Politics01" Cost="-150">
+        <SimulationDescriptorReference Name="PoliticalProfileIndustrialist"/>
+    </PopulationPoliticalTraitDefinition>
+    <PopulationPoliticalTraitDefinition Name="PopulationPoliticalTraitPacifist" Type="Major" PoliticalType="Politics03" Cost="-150">
+        <SimulationDescriptorReference Name="PoliticalProfilePacifist"/>
+    </PopulationPoliticalTraitDefinition>
+    <PopulationPoliticalTraitDefinition Name="PopulationPoliticalTraitScientist" Type="Major" PoliticalType="Politics02" Cost="-150">
+        <SimulationDescriptorReference Name="PoliticalProfileScientist"/>
+    </PopulationPoliticalTraitDefinition>
+    <PopulationPoliticalTraitDefinition Name="PopulationPoliticalTraitReligious" Type="Major" PoliticalType="Politics05" Cost="-150">
+        <SimulationDescriptorReference Name="PoliticalProfileReligious"/>
+    </PopulationPoliticalTraitDefinition>
+    <PopulationPoliticalTraitDefinition Name="PopulationPoliticalTraitMilitarist" Type="Major" PoliticalType="Politics06" Cost="-150">
+        <SimulationDescriptorReference Name="PoliticalProfileMilitarist"/>
+    </PopulationPoliticalTraitDefinition>
+    <PopulationPoliticalTraitDefinition Name="PopulationPoliticalTraitEcologist" Type="Major" PoliticalType="Politics04" Cost="-150">
+        <SimulationDescriptorReference Name="PoliticalProfileEcologist"/>
+    </PopulationPoliticalTraitDefinition>-->
+	
+</Datatable>

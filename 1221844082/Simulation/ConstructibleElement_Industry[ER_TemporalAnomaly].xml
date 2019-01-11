@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/IndustryConstructibleElement.xsd">
+
+	<!-- History: Template -->
+	<!--
+    <StarSystemImprovementDefinition Name="History_ER_TemporalAnomaly_HistoryTemplate" SubCategory="SubCategoryUnique" IsRefundable="true" OncePerWorld="true" ScoreProvider="StarSystemImprovementBuilt">
+        <Tags>Indestructible, Eternal</Tags>
+        <QueuedSimulationDescriptorReference Name="History_ER_TemporalAnomaly_HistoryTemplate"/>
+        <Cost ResourceName="SystemProduction">10</Cost>
+
+        <PathPrerequisite Inverted="false" Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Inverted="false" Flags="Prerequisite,Discard">../ClassEmpire/ClassQuests,History_ER_TemporalAnomaly_HistoryTemplate</PathPrerequisite>
+        <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard">../ClassEmpire/Uniques,History_ER_TemporalAnomaly_HistoryTemplate</PathPrerequisite>
+        <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard">../ClassEmpire/ClassStarSystem/History_ER_TemporalAnomaly_HistoryTemplate</PathPrerequisite>
+        <InterpreterPrerequisite Inverted="true" Flags="Prerequisite,Discard">Path(Context,@'../ClassEmpire/ClassStarSystem,History_ER_TemporalAnomaly_HistoryTemplate') and not(Path(Context,@'ClassStarSystem,History_ER_TemporalAnomaly_HistoryTemplate'))</InterpreterPrerequisite>
+
+        <SimulationDescriptorReference Name="History_ER_TemporalAnomaly_HistoryTemplate" />
+        <SimulationDescriptorReference Name="StarSystemImprovementOncePerGalaxy" />
+        <UniqueTags>History_ER_TemporalAnomaly_HistoryTemplate</UniqueTags>
+    </StarSystemImprovementDefinition>
+	-->
+
+	<!-- lilyophelia: Endless Romance | Start -->
+
+	<!-- History: Enemy Warship Taken -->
+
+	<!-- History: Template -->
+
+    <StarSystemImprovementDefinition Name="History_ER_TemporalAnomaly_ScienceVesselTaken" SubCategory="SubCategoryUnique" IsRefundable="true" OncePerWorld="true" ScoreProvider="StarSystemImprovementBuilt">
+        <Tags>Indestructible, Eternal</Tags>
+        <QueuedSimulationDescriptorReference Name="History_ER_TemporalAnomaly_ScienceVesselTaken"/>
+        <Cost ResourceName="SystemProduction">10</Cost>
+
+        <PathPrerequisite Inverted="false" Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Inverted="false" Flags="Prerequisite,Discard">../ClassEmpire/ClassQuests,History_ER_TemporalAnomaly_ScienceVesselTaken</PathPrerequisite>
+        <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard">../ClassEmpire/Uniques,History_ER_TemporalAnomaly_ScienceVesselTaken</PathPrerequisite>
+        <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard">../ClassEmpire/ClassStarSystem/History_ER_TemporalAnomaly_ScienceVesselTaken</PathPrerequisite>
+        <InterpreterPrerequisite Inverted="true" Flags="Prerequisite,Discard">Path(Context,@'../ClassEmpire/ClassStarSystem,History_ER_TemporalAnomaly_ScienceVesselTaken') and not(Path(Context,@'ClassStarSystem,History_ER_TemporalAnomaly_ScienceVesselTaken'))</InterpreterPrerequisite>
+
+        <SimulationDescriptorReference Name="History_ER_TemporalAnomaly_ScienceVesselTaken" />
+        <SimulationDescriptorReference Name="StarSystemImprovementOncePerGalaxy" />
+        <UniqueTags>History_ER_TemporalAnomaly_ScienceVesselTaken</UniqueTags>
+    </StarSystemImprovementDefinition>
+
+	<!-- History: Template -->
+
+    <StarSystemImprovementDefinition Name="History_ER_TemporalAnomaly_ShipVanishes" SubCategory="SubCategoryUnique" IsRefundable="true" OncePerWorld="true" ScoreProvider="StarSystemImprovementBuilt">
+        <Tags>Indestructible, Eternal</Tags>
+        <QueuedSimulationDescriptorReference Name="History_ER_TemporalAnomaly_ShipVanishes"/>
+        <Cost ResourceName="SystemProduction">10</Cost>
+
+        <PathPrerequisite Inverted="false" Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Inverted="false" Flags="Prerequisite,Discard">../ClassEmpire/ClassQuests,History_ER_TemporalAnomaly_ShipVanishes</PathPrerequisite>
+        <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard">../ClassEmpire/Uniques,History_ER_TemporalAnomaly_ShipVanishes</PathPrerequisite>
+        <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard">../ClassEmpire/ClassStarSystem/History_ER_TemporalAnomaly_ShipVanishes</PathPrerequisite>
+        <InterpreterPrerequisite Inverted="true" Flags="Prerequisite,Discard">Path(Context,@'../ClassEmpire/ClassStarSystem,History_ER_TemporalAnomaly_ShipVanishes') and not(Path(Context,@'ClassStarSystem,History_ER_TemporalAnomaly_ShipVanishes'))</InterpreterPrerequisite>
+
+        <SimulationDescriptorReference Name="History_ER_TemporalAnomaly_ShipVanishes" />
+        <SimulationDescriptorReference Name="StarSystemImprovementOncePerGalaxy" />
+        <UniqueTags>History_ER_TemporalAnomaly_ShipVanishes</UniqueTags>
+    </StarSystemImprovementDefinition>
+
+	<!-- History: Template -->
+
+    <StarSystemImprovementDefinition Name="History_ER_TemporalAnomaly_SuckedIn" SubCategory="SubCategoryUnique" IsRefundable="true" OncePerWorld="true" ScoreProvider="StarSystemImprovementBuilt">
+        <Tags>Indestructible, Eternal</Tags>
+        <QueuedSimulationDescriptorReference Name="History_ER_TemporalAnomaly_SuckedIn"/>
+        <Cost ResourceName="SystemProduction">10</Cost>
+
+        <PathPrerequisite Inverted="false" Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Inverted="false" Flags="Prerequisite,Discard">../ClassEmpire/ClassQuests,History_ER_TemporalAnomaly_SuckedIn</PathPrerequisite>
+        <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard">../ClassEmpire/Uniques,History_ER_TemporalAnomaly_SuckedIn</PathPrerequisite>
+        <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard">../ClassEmpire/ClassStarSystem/History_ER_TemporalAnomaly_SuckedIn</PathPrerequisite>
+        <InterpreterPrerequisite Inverted="true" Flags="Prerequisite,Discard">Path(Context,@'../ClassEmpire/ClassStarSystem,History_ER_TemporalAnomaly_SuckedIn') and not(Path(Context,@'ClassStarSystem,History_ER_TemporalAnomaly_SuckedIn'))</InterpreterPrerequisite>
+
+        <SimulationDescriptorReference Name="History_ER_TemporalAnomaly_SuckedIn" />
+        <SimulationDescriptorReference Name="StarSystemImprovementOncePerGalaxy" />
+        <UniqueTags>History_ER_TemporalAnomaly_SuckedIn</UniqueTags>
+    </StarSystemImprovementDefinition>
+
+	<!-- History: Template -->
+
+    <StarSystemImprovementDefinition Name="History_ER_TemporalAnomaly_GhostShipTaken" SubCategory="SubCategoryUnique" IsRefundable="true" OncePerWorld="true" ScoreProvider="StarSystemImprovementBuilt">
+        <Tags>Indestructible, Eternal</Tags>
+        <QueuedSimulationDescriptorReference Name="History_ER_TemporalAnomaly_GhostShipTaken"/>
+        <Cost ResourceName="SystemProduction">10</Cost>
+
+        <PathPrerequisite Inverted="false" Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite Inverted="false" Flags="Prerequisite,Discard">../ClassEmpire/ClassQuests,History_ER_TemporalAnomaly_GhostShipTaken</PathPrerequisite>
+        <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard">../ClassEmpire/Uniques,History_ER_TemporalAnomaly_GhostShipTaken</PathPrerequisite>
+        <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard">../ClassEmpire/ClassStarSystem/History_ER_TemporalAnomaly_GhostShipTaken</PathPrerequisite>
+        <InterpreterPrerequisite Inverted="true" Flags="Prerequisite,Discard">Path(Context,@'../ClassEmpire/ClassStarSystem,History_ER_TemporalAnomaly_GhostShipTaken') and not(Path(Context,@'ClassStarSystem,History_ER_TemporalAnomaly_GhostShipTaken'))</InterpreterPrerequisite>
+
+        <SimulationDescriptorReference Name="History_ER_TemporalAnomaly_GhostShipTaken" />
+        <SimulationDescriptorReference Name="StarSystemImprovementOncePerGalaxy" />
+        <UniqueTags>History_ER_TemporalAnomaly_GhostShipTaken</UniqueTags>
+    </StarSystemImprovementDefinition>
+
+
+	<!-- lilyophelia: Endless Romance | End -->
+
+</Datatable>

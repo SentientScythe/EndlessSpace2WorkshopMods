@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../../Schemas/Droplist.xsd">
+
+	<!-- History Template
+    <Droplist Name="Droplist_ER_TemporalAnomaly_HistoryTemplate">
+        <Unlock Name="History_ER_TemporalAnomaly_HistoryTemplate" SimulationTag="History_ER_TemporalAnomaly_HistoryTemplate"/>        
+    </Droplist>
+	-->
+
+	<!-- lilyophelia: Endless Romance | Start -->
+
+    <Droplist Name="Droplist_ER_TemporalAnomaly_ScienceVesselTaken">
+        <Unlock Name="History_ER_TemporalAnomaly_ScienceVesselTaken" SimulationTag="History_ER_TemporalAnomaly_ScienceVesselTaken"/>        
+    </Droplist>
+
+    <Droplist Name="Droplist_ER_TemporalAnomaly_ShipVanishes">
+        <Unlock Name="History_ER_TemporalAnomaly_ShipVanishes" SimulationTag="History_ER_TemporalAnomaly_ShipVanishes"/>        
+    </Droplist>
+
+    <Droplist Name="Droplist_ER_TemporalAnomaly_SuckedIn">
+        <Unlock Name="History_ER_TemporalAnomaly_SuckedIn" SimulationTag="History_ER_TemporalAnomaly_SuckedIn"/>        
+    </Droplist>
+
+    <Droplist Name="Droplist_ER_TemporalAnomaly_GhostShipTaken">
+        <Unlock Name="History_ER_TemporalAnomaly_GhostShipTaken" SimulationTag="History_ER_TemporalAnomaly_GhostShipTaken"/>        
+    </Droplist>
+
+	<!-- lilyophelia: Endless Romance | End -->	
+
+</Datatable>
