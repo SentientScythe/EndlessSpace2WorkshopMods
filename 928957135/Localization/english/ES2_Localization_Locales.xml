@@ -181,20 +181,20 @@
 	<LocalizationPair Name="%SandboxLuxuryResourceGainDescription">Live in the lap of luxury!</LocalizationPair>
 
 	<!--Add Juggernaut Limit-->
-	<LocalizationPair Name="%SandboxMaximumJuggernauts5Title">Sandbox: +5 To Behemoth Limit</LocalizationPair>
-	<LocalizationPair Name="%SandboxMaximumJuggernauts10Title">Sandbox: +10 To Behemoth Limit</LocalizationPair>
-	<LocalizationPair Name="%SandboxMaximumJuggernauts50Title">Sandbox: +50 To Behemoth Limit</LocalizationPair>
-	<LocalizationPair Name="%SandboxMaximumJuggernauts100Title">Sandbox: +100 To Behemoth Limit</LocalizationPair>
-	<LocalizationPair Name="%SandboxMaximumJuggernauts500Title">Sandbox: +500 To Behemoth Limit</LocalizationPair>
-	<LocalizationPair Name="%SandboxMaximumJuggernautsDescription">Increases Behemoth Limit</LocalizationPair>
+	<LocalizationPair Name="%SandboxMaximumJuggernauts2Title">Sandbox: +2 To Behemoth Limit</LocalizationPair>
+	<LocalizationPair Name="%SandboxMaximumJuggernauts8Title">Sandbox: +8 To Behemoth Limit</LocalizationPair>
+	<LocalizationPair Name="%SandboxMaximumJuggernauts32Title">Sandbox: +32 To Behemoth Limit</LocalizationPair>
+	<LocalizationPair Name="%SandboxMaximumJuggernauts128Title">Sandbox: +128 To Behemoth Limit</LocalizationPair>
+	<LocalizationPair Name="%SandboxMaximumJuggernauts512Title">Sandbox: +512 To Behemoth Limit</LocalizationPair>
+	<LocalizationPair Name="%SandboxMaximumJuggernautsDescription">Nothing better than bountiful behemoths!</LocalizationPair>
 
 	<!--No Juggernaut Upkeep-->
 	<LocalizationPair Name="%SandboxNoJuggernautUpkeepTitle">Sandbox: No Behemoth Upkeep</LocalizationPair>
-	<LocalizationPair Name="%SandboxNoJuggernautUpkeepDescription">Removes Behemoth Dust Upkeep Costs</LocalizationPair>
+	<LocalizationPair Name="%SandboxNoJuggernautUpkeepDescription">Free behemoth upkeep.</LocalizationPair>
 
 	<!--Shield System-->
 	<LocalizationPair Name="%SandboxSystemShield2Title">Sandbox: Shield All Systems</LocalizationPair>
-	<LocalizationPair Name="%SandboxSystemShield2Description">Gives Obliterator Immunity To All Owned Systems</LocalizationPair>
+	<LocalizationPair Name="%SandboxSystemShield2Description">All owned systems have immunity to Obliterator fire. </LocalizationPair>
 
 	<!--Honour-->
 	<LocalizationPair Name="%SandboxHonourTitle">Sandbox: Super Honourable</LocalizationPair>

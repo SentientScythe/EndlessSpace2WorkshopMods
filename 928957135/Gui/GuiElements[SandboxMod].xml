@@ -748,36 +748,36 @@
 	</GuiElement>
 
 	<!--Add Juggernaut Limit-->
-	<GuiElement Name="SandboxMaximumJuggernauts5">
-		<Title>%SandboxMaximumJuggernauts5Title</Title>
+	<GuiElement Name="SandboxMaximumJuggernauts2">
+		<Title>%SandboxMaximumJuggernauts2Title</Title>
 		<Description>%SandboxMaximumJuggernautsDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
-	<GuiElement Name="SandboxMaximumJuggernauts10">
-		<Title>%SandboxMaximumJuggernauts10Title</Title>
+	<GuiElement Name="SandboxMaximumJuggernauts8">
+		<Title>%SandboxMaximumJuggernauts8Title</Title>
 		<Description>%SandboxMaximumJuggernautsDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
-	<GuiElement Name="SandboxMaximumJuggernauts50">
-		<Title>%SandboxMaximumJuggernauts50Title</Title>
+	<GuiElement Name="SandboxMaximumJuggernauts32">
+		<Title>%SandboxMaximumJuggernauts32Title</Title>
 		<Description>%SandboxMaximumJuggernautsDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
-	<GuiElement Name="SandboxMaximumJuggernauts100">
-		<Title>%SandboxMaximumJuggernauts100Title</Title>
+	<GuiElement Name="SandboxMaximumJuggernauts128">
+		<Title>%SandboxMaximumJuggernauts128Title</Title>
 		<Description>%SandboxMaximumJuggernautsDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
-	<GuiElement Name="SandboxMaximumJuggernauts500">
-		<Title>%SandboxMaximumJuggernauts500Title</Title>
+	<GuiElement Name="SandboxMaximumJuggernauts512">
+		<Title>%SandboxMaximumJuggernauts512Title</Title>
 		<Description>%SandboxMaximumJuggernautsDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />

@@ -477,20 +477,20 @@
 	</FactionTrait>
 
 	<!--Add Juggernaut Limit-->
-	<FactionTrait Name="SandboxMaximumJuggernauts5" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxMaximumJuggernauts" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxMaximumJuggernauts5"/>
+	<FactionTrait Name="SandboxMaximumJuggernauts2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxMaximumJuggernauts" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxMaximumJuggernauts2"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxMaximumJuggernauts10" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxMaximumJuggernauts" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxMaximumJuggernauts10"/>
+	<FactionTrait Name="SandboxMaximumJuggernauts8" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxMaximumJuggernauts" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxMaximumJuggernauts8"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxMaximumJuggernauts50" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxMaximumJuggernauts" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxMaximumJuggernauts50"/>
+	<FactionTrait Name="SandboxMaximumJuggernauts32" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxMaximumJuggernauts" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxMaximumJuggernauts32"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxMaximumJuggernauts100" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxMaximumJuggernauts" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxMaximumJuggernauts100"/>
+	<FactionTrait Name="SandboxMaximumJuggernauts128" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxMaximumJuggernauts" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxMaximumJuggernauts128"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxMaximumJuggernauts500" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxMaximumJuggernauts" Family="FactionTraitFamilyStartModifiers" Level="5" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxMaximumJuggernauts500"/>
+	<FactionTrait Name="SandboxMaximumJuggernauts512" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxMaximumJuggernauts" Family="FactionTraitFamilyStartModifiers" Level="5" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxMaximumJuggernauts512"/>
 	</FactionTrait>
 
 	<!--No Juggernaut Upkeep-->

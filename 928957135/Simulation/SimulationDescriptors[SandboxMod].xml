@@ -384,20 +384,20 @@
 	</SimulationDescriptor>
 
 	<!--Add Juggernaut Limit-->
-	<SimulationDescriptor Name="SandboxMaximumJuggernauts5" Type="FactionTrait">
-		<Modifier TargetProperty="MaximumJuggernauts" Operation="Addition" Value="5" Path="ClassEmpire" Priority="20" />
+	<SimulationDescriptor Name="SandboxMaximumJuggernauts2" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumJuggernauts" Operation="Addition" Value="2" Path="ClassEmpire" Priority="20" />
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxMaximumJuggernauts10" Type="FactionTrait">
-		<Modifier TargetProperty="MaximumJuggernauts" Operation="Addition" Value="10" Path="ClassEmpire" Priority="20" />
+	<SimulationDescriptor Name="SandboxMaximumJuggernauts8" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumJuggernauts" Operation="Addition" Value="8" Path="ClassEmpire" Priority="20" />
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxMaximumJuggernauts50" Type="FactionTrait">
-		<Modifier TargetProperty="MaximumJuggernauts" Operation="Addition" Value="50" Path="ClassEmpire" Priority="20" />
+	<SimulationDescriptor Name="SandboxMaximumJuggernauts32" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumJuggernauts" Operation="Addition" Value="32" Path="ClassEmpire" Priority="20" />
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxMaximumJuggernauts100" Type="FactionTrait">
-		<Modifier TargetProperty="MaximumJuggernauts" Operation="Addition" Value="100" Path="ClassEmpire" Priority="20" />
+	<SimulationDescriptor Name="SandboxMaximumJuggernauts128" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumJuggernauts" Operation="Addition" Value="128" Path="ClassEmpire" Priority="20" />
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxMaximumJuggernauts500" Type="FactionTrait">
-		<Modifier TargetProperty="MaximumJuggernauts" Operation="Addition" Value="500" Path="ClassEmpire" Priority="20" />
+	<SimulationDescriptor Name="SandboxMaximumJuggernauts512" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumJuggernauts" Operation="Addition" Value="512" Path="ClassEmpire" Priority="20" />
 	</SimulationDescriptor>
 
 	<!--No Juggernaut Upkeep-->
@@ -440,7 +440,7 @@
 	</SimulationDescriptor>
 	<SimulationDescriptor Name="SandboxSuperInfluence" Type="FactionTrait">
 		<Modifier TargetProperty="SystemEmpirePoint" Operation="Percent" Value="1.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
-		<!--Tons Of infulece-->
+		<!--Tons Of influence-->
 	</SimulationDescriptor>	
 	<SimulationDescriptor Name="SandboxSuperHappy" Type="FactionTrait">
 		<Modifier TargetProperty="Happiness" Operation="Addition" Value="1000" Path="ClassEmpire/ClassColonizedStarSystem"/>
@@ -451,7 +451,7 @@
 	</SimulationDescriptor>	
 	<SimulationDescriptor Name="SandboxLargeEmpires" Type="FactionTrait">
 		<Modifier TargetProperty="OverPopulationPenaltiesReduction" Value="-1.00" Operation="Addition" Path="ClassEmpire/ClassColonizedStarSystem"/>
-		<!--No over-expeandsion Pelenty-->
+		<!--No over-expansion penalty-->
 	</SimulationDescriptor>	
 	<SimulationDescriptor Name="SandboxFastShips" Type="FactionTrait">
 		<Modifier TargetProperty="MaximumMovement" Operation="Addition" Value="10000" Path="ClassEmpire/ClassGarrison/ClassShip"/>
@@ -503,7 +503,6 @@
 	</SimulationDescriptor>
 
 	<!-- Population Traits -->
-
 	<SimulationDescriptor Name="WithPopulationPlanetModifiersTraitSandboxPrimaryFIDSI" Type="WithPopulationPlanet">
 		<Modifier TargetProperty="BonusPopulationFIDSI" Operation="Addition" Value="10" Priority="-3" Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassPlanet/ClassPopulationPlanetModifiersTraitSandboxPrimaryFIDSI,ClassPopulation"/>
 	</SimulationDescriptor>
