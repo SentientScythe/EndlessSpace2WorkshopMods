@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-
-<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Documentation/Schemas/Generator.Definitions.PlanetTemperatureDefinition.xsd">
-
-    <!-- Used by galaxy generator for temperature repartition thingy, just put anything in here. -->
-    <PlanetTemperatureDefinition PlanetType="PlanetTypeCustom11"        Temperature="1"/>
-
-</Datatable>
