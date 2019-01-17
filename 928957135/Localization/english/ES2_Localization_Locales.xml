@@ -89,11 +89,11 @@
 	<LocalizationPair Name="%SandboxExtraProbesDescription">More of the good kind of probe.</LocalizationPair>
 
 	<!--Gives XP, reduces Cost, and heals Heros-->
-	<LocalizationPair Name="%SandboxSuperHeros5Title">Sandbox: Super Heroes +2XP per turn</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperHeros10Title">Sandbox: Super Heroes +8XP per turn</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperHeros50Title">Sandbox: Super Heroes +32XP per turn</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperHeros100Title">Sandbox: Super Heroes +128XP per turn</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperHerosDescription">Cheaper, healthier and more skillful heroes.</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperHeros2Title">Sandbox: Super Heroes +2XP per turn</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperHeros8Title">Sandbox: Super Heroes +8XP per turn</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperHeros32Title">Sandbox: Super Heroes +32XP per turn</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperHeros128Title">Sandbox: Super Heroes +128XP per turn</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperHerosDescription">Cheaper, healthier and more "super" heroes.</LocalizationPair>
 
 	<!--Increases Ship Health-->
 	<LocalizationPair Name="%SandboxHealthyShips100Title">Sandbox: Ship Health +100%</LocalizationPair>
