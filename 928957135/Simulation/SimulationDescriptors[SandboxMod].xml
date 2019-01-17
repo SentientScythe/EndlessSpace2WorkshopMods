@@ -344,10 +344,10 @@
 	</SimulationDescriptor>
 
 	<!--Add Strategic Resources-->
-	<SimulationDescriptor Name="SandboxStrategicResource32" Type="FactionTrait"/>
-	<SimulationDescriptor Name="SandboxStrategicResource128" Type="FactionTrait"/>
-	<SimulationDescriptor Name="SandboxStrategicResource512" Type="FactionTrait"/>
-	<SimulationDescriptor Name="SandboxStrategicResource2048" Type="FactionTrait"/>
+	<SimulationDescriptor Name="SandboxStrategicResource16" Type="FactionTrait"/>
+	<SimulationDescriptor Name="SandboxStrategicResource62" Type="FactionTrait"/>
+	<SimulationDescriptor Name="SandboxStrategicResource250" Type="FactionTrait"/>
+	<SimulationDescriptor Name="SandboxStrategicResource999" Type="FactionTrait"/>
 
 	<!--Add Strategic Resource Gain-->
 	<SimulationDescriptor Name="SandboxStrategicResourceGain100" Type="FactionTrait">
@@ -364,10 +364,10 @@
 	</SimulationDescriptor>
 
 	<!--Add Luxury Resources-->
-	<SimulationDescriptor Name="SandboxLuxuryResource32" Type="FactionTrait"/>
-	<SimulationDescriptor Name="SandboxLuxuryResource128" Type="FactionTrait"/>
-	<SimulationDescriptor Name="SandboxLuxuryResource512" Type="FactionTrait"/>
-	<SimulationDescriptor Name="SandboxLuxuryResource2048" Type="FactionTrait"/>
+	<SimulationDescriptor Name="SandboxLuxuryResource16" Type="FactionTrait"/>
+	<SimulationDescriptor Name="SandboxLuxuryResource62" Type="FactionTrait"/>
+	<SimulationDescriptor Name="SandboxLuxuryResource250" Type="FactionTrait"/>
+	<SimulationDescriptor Name="SandboxLuxuryResource999" Type="FactionTrait"/>
 
 	<!--Add Luxury Resource Gain-->
 	<SimulationDescriptor Name="SandboxLuxuryResourceGain100" Type="FactionTrait">
