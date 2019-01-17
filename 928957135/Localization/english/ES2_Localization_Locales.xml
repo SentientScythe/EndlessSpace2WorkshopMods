@@ -82,10 +82,10 @@
 	<LocalizationPair Name="%SandboxFastShipsDescription">Gotta go faster!</LocalizationPair>
 
 	<!--Increases Ship probes-->
-	<LocalizationPair Name="%SandboxExtraProbes1Title">Sandbox: Ship Probes +1</LocalizationPair>
-	<LocalizationPair Name="%SandboxExtraProbes4Title">Sandbox: Ship Probes +4</LocalizationPair>
-	<LocalizationPair Name="%SandboxExtraProbes16Title">Sandbox: Ship Probes +16</LocalizationPair>
-	<LocalizationPair Name="%SandboxExtraProbes64Title">Sandbox: Ship Probes +64</LocalizationPair>
+	<LocalizationPair Name="%SandboxExtraProbes1Title">Sandbox: Ship Probes +2</LocalizationPair>
+	<LocalizationPair Name="%SandboxExtraProbes4Title">Sandbox: Ship Probes +8</LocalizationPair>
+	<LocalizationPair Name="%SandboxExtraProbes16Title">Sandbox: Ship Probes +32</LocalizationPair>
+	<LocalizationPair Name="%SandboxExtraProbes64Title">Sandbox: Ship Probes +128</LocalizationPair>
 	<LocalizationPair Name="%SandboxExtraProbesDescription">More of the good kind of probe.</LocalizationPair>
 
 	<!--Gives XP, reduces Cost, and heals Heros-->
