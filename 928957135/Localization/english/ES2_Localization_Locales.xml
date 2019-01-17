@@ -153,10 +153,10 @@
 	<LocalizationPair Name="%SandboxSuperTradingDescription">Increases trading company leveling and profit.</LocalizationPair>
 
 	<!--Add Strategic Resources-->
-	<LocalizationPair Name="%SandboxStrategicResource32Title">Sandbox: Begin with 32 of Each Strategic Resource</LocalizationPair>
-	<LocalizationPair Name="%SandboxStrategicResource128Title">Sandbox: Begin with 128 of Each Strategic Resource</LocalizationPair>
-	<LocalizationPair Name="%SandboxStrategicResource512Title">Sandbox: Begin with 512 of Each Strategic Resource</LocalizationPair>
-	<LocalizationPair Name="%SandboxStrategicResource2048Title">Sandbox: Begin with 2048 of Each Strategic Resource</LocalizationPair>
+	<LocalizationPair Name="%SandboxStrategicResource16Title">Sandbox: Begin with 16 of Each Strategic Resource</LocalizationPair>
+	<LocalizationPair Name="%SandboxStrategicResource62Title">Sandbox: Begin with 62 of Each Strategic Resource</LocalizationPair>
+	<LocalizationPair Name="%SandboxStrategicResource250Title">Sandbox: Begin with 250 of Each Strategic Resource</LocalizationPair>
+	<LocalizationPair Name="%SandboxStrategicResource999Title">Sandbox: Begin with 999 of Each Strategic Resource</LocalizationPair>
 	<LocalizationPair Name="%SandboxStrategicResourceDescription">Start with each strategic resource.</LocalizationPair>
 
 	<!--Add Strategic Resource Gain-->
@@ -167,10 +167,10 @@
 	<LocalizationPair Name="%SandboxStrategicResourceGainDescription">Mine more mythical metals!</LocalizationPair>
 
 	<!--Add Luxury Resources-->
-	<LocalizationPair Name="%SandboxLuxuryResource32Title">Sandbox: Begin with 32 of Each Luxury Resource</LocalizationPair>
-	<LocalizationPair Name="%SandboxLuxuryResource128Title">Sandbox: Begin with 128 of Each Luxury Resource</LocalizationPair>
-	<LocalizationPair Name="%SandboxLuxuryResource512Title">Sandbox: Begin with 512 of Each Luxury Resource</LocalizationPair>
-	<LocalizationPair Name="%SandboxLuxuryResource2048Title">Sandbox: Begin with 2048 of Each Luxury Resource</LocalizationPair>
+	<LocalizationPair Name="%SandboxLuxuryResource16Title">Sandbox: Begin with 16 of Each Luxury Resource</LocalizationPair>
+	<LocalizationPair Name="%SandboxLuxuryResource62Title">Sandbox: Begin with 62 of Each Luxury Resource</LocalizationPair>
+	<LocalizationPair Name="%SandboxLuxuryResource250Title">Sandbox: Begin with 250 of Each Luxury Resource</LocalizationPair>
+	<LocalizationPair Name="%SandboxLuxuryResource999Title">Sandbox: Begin with 999 of Each Luxury Resource</LocalizationPair>
 	<LocalizationPair Name="%SandboxLuxuryResourceDescription">Start with each luxury resource.</LocalizationPair>
 
 	<!--Add Luxury Resource Gain-->
