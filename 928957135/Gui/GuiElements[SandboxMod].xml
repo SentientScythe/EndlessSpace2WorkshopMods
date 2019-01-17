@@ -628,29 +628,29 @@
 	</GuiElement>
 
 	<!--Add Strategic Resources-->
-	<GuiElement Name="SandboxStrategicResource32">
-		<Title>%SandboxStrategicResource32Title</Title>
+	<GuiElement Name="SandboxStrategicResource16">
+		<Title>%SandboxStrategicResource16Title</Title>
 		<Description>%SandboxStrategicResourceDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
-	<GuiElement Name="SandboxStrategicResource128">
-		<Title>%SandboxStrategicResource128Title</Title>
+	<GuiElement Name="SandboxStrategicResource62">
+		<Title>%SandboxStrategicResource62Title</Title>
 		<Description>%SandboxStrategicResourceDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
-	<GuiElement Name="SandboxStrategicResource512">
-		<Title>%SandboxStrategicResource512Title</Title>
+	<GuiElement Name="SandboxStrategicResource250">
+		<Title>%SandboxStrategicResource250Title</Title>
 		<Description>%SandboxStrategicResourceDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
-	<GuiElement Name="SandboxStrategicResource2048">
-		<Title>%SandboxStrategicResource2048Title</Title>
+	<GuiElement Name="SandboxStrategicResource999">
+		<Title>%SandboxStrategicResource999Title</Title>
 		<Description>%SandboxStrategicResourceDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
@@ -688,29 +688,29 @@
 	</GuiElement>
 
 	<!--Add Luxury Resources-->
-	<GuiElement Name="SandboxLuxuryResource32">
-		<Title>%SandboxLuxuryResource32Title</Title>
+	<GuiElement Name="SandboxLuxuryResource16">
+		<Title>%SandboxLuxuryResource16Title</Title>
 		<Description>%SandboxLuxuryResourceDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
-	<GuiElement Name="SandboxLuxuryResource128">
-		<Title>%SandboxLuxuryResource128Title</Title>
+	<GuiElement Name="SandboxLuxuryResource62">
+		<Title>%SandboxLuxuryResource62Title</Title>
 		<Description>%SandboxLuxuryResourceDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
-	<GuiElement Name="SandboxLuxuryResource512">
-		<Title>%SandboxLuxuryResource512Title</Title>
+	<GuiElement Name="SandboxLuxuryResource250">
+		<Title>%SandboxLuxuryResource250Title</Title>
 		<Description>%SandboxLuxuryResourceDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
 		</Icons>
 	</GuiElement>
-	<GuiElement Name="SandboxLuxuryResource2048">
-		<Title>%SandboxLuxuryResource2048Title</Title>
+	<GuiElement Name="SandboxLuxuryResource999">
+		<Title>%SandboxLuxuryResource999Title</Title>
 		<Description>%SandboxLuxuryResourceDescription</Description>
 		<Icons>
 			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
