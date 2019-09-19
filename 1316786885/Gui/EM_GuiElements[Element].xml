@@ -2,7 +2,16 @@
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
  
  <!-- System Improvements -->
-     <GuiElement Name="StarSystemImprovementMoonExploitation1"> <!-- Lunar Data Network -->
+	 <GuiElement Name="LunarInfrastructure"> 
+        <Title>%LunarInfrastructure_Title</Title>
+        <Description>%LunarInfrastructure_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/LunarInfrastructure_Small" />
+            <Icon Size="Large" Path="Gui/LunarInfrastructure_Large" />
+        </Icons>
+    </GuiElement>
+    
+     <GuiElement Name="LunarDataNetwork"> 
         <Title>%LunarDataNetwork_Title</Title>
         <Description>%LunarDataNetwork_Desc</Description>
         <Icons>
@@ -46,6 +55,25 @@
             <Icon Size="Large" Path="Gui/HunterGuilds_Large" />
         </Icons>
     </GuiElement>
+    
+     <GuiElement Name="LunarSanctuaries"> 
+        <Title>%LunarSanctuaries_Title</Title>
+        <Description>%LunarSanctuaries_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/LunarDataNetwork_Small" />
+            <Icon Size="Large" Path="Gui/LunarDataNetwork_Large" />
+        </Icons>
+    </GuiElement>
+
+     <GuiElement Name="EndlessTechInfiltration"> 
+        <Title>%EndlessTechInfiltration_Title</Title>
+        <Description>%EndlessTechInfiltration_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/InfiltrationGateway_Small" />
+            <Icon Size="Large" Path="Gui/InfiltrationGateway_Large" />
+        </Icons>
+    </GuiElement>
+
     
 <!-- Temple Granted Improvements -->
     <GuiElement Name="HistoricalEnclave">
@@ -192,8 +220,23 @@
         </Icons>
     </GuiElement>
 
+    <GuiElement Name="CoreStackRouter">
+        <Title>%CoreStackRouter_Title</Title>
+        <Description>%CoreStackRouter_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/Router_Small" />
+            <Icon Size="Large" Path="Gui/Router_Large" />
+        </Icons>
+    </GuiElement>
+
 
 <!-- Game Variables -->
+	<GuiElement Name="ExploredMoons">
+        <Title>%ExploredMoonsVar</Title>
+    </GuiElement>
+    <GuiElement Name="DevelopedMoons">
+        <Title>%DevelopedMoonsVar</Title>
+    </GuiElement>
     <GuiElement Name="WebAnchors">
         <Title>%WebAnchorsVar</Title>
     </GuiElement>
@@ -218,6 +261,49 @@
     
 	
 <!-- Reductions -->
+	<!-- Cloaked Orbs -->
+    <GuiElement Name="Reduction_CloakedOrb_I1">
+        <Title>%Reduction_CloakedOrb_Title</Title>
+        <Description>%Reduction_CloakedOrb_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/CloakedOrb_Small" />
+            <Icon Size="Large" Path="Gui/CloakedOrb_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="Reduction_CloakedOrb_D1">
+        <Title>%Reduction_CloakedOrb_Title</Title>
+        <Description>%Reduction_CloakedOrb_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/CloakedOrb_Small" />
+            <Icon Size="Large" Path="Gui/CloakedOrb_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="Reduction_CloakedOrb_S1">
+        <Title>%Reduction_CloakedOrb_Title</Title>
+        <Description>%Reduction_CloakedOrb_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/CloakedOrb_Small" />
+            <Icon Size="Large" Path="Gui/CloakedOrb_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="Reduction_CloakedOrb_FIDS1">
+        <Title>%Reduction_CloakedOrb_Title</Title>
+        <Description>%Reduction_CloakedOrb_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/CloakedOrb_Small" />
+            <Icon Size="Large" Path="Gui/CloakedOrb_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>
+
+
+	<!-- Moons -->
     <GuiElement Name="Reduction_Moon_SmSingA1">
         <Title>%Reduction_ExploreMoon_Title</Title>
         <Description>%Reduction_ExploreMoon_Desc</Description>
@@ -258,6 +344,25 @@
         </Icons>
     </GuiElement>
     <GuiElement Name="Reduction_Moon_MdSingA2">
+        <Title>%Reduction_DevelopMoon_Title</Title>
+        <Description>%Reduction_DevelopMoon_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="PlanetAnomaly25Small" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly25Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="Reduction_Moon_MdSingE1">
+        <Title>%Reduction_ExploreMoon_Title</Title>
+        <Description>%Reduction_ExploreMoon_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="PlanetAnomaly25Small" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly25Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="Reduction_Moon_MdSingE2">
         <Title>%Reduction_DevelopMoon_Title</Title>
         <Description>%Reduction_DevelopMoon_Desc</Description>
         <Icons>
@@ -865,9 +970,6 @@
         </Icons>
     </GuiElement>
 
-
-
-
     <GuiElement Name="Reduction_Moon_LgBinaryC1_TD">
         <Title>%Reduction_ExploreMoons_Title</Title>
         <Description>%Reduction_ExploreMoons_Desc</Description>
@@ -1176,8 +1278,8 @@
     </GuiElement>
 
     <GuiElement Name="Reduction_Moon_MdSingD1_TM">
-        <Title>%Reduction_ExploreMoons_Title</Title>
-        <Description>%Reduction_ExploreMoons_Desc</Description>
+        <Title>%Reduction_ExploreMoon_Title</Title>
+        <Description>%Reduction_ExploreMoon_Desc</Description>
         <Icons>
             <Icon Size="Small" Path="PlanetAnomaly25Small" />
             <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly25Large" />
@@ -1211,6 +1313,82 @@
             <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
         </Icons>
     </GuiElement>
+    
+    <GuiElement Name="Reduction_Moon_SmSingD1_TN">
+        <Title>%Reduction_ExploreMoon_Title</Title>
+        <Description>%Reduction_ExploreMoon_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="PlanetAnomaly25Small" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly25Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="Reduction_Moon_SmSingD2_TN">
+        <Title>%Reduction_RestoreTemple_Title</Title>
+        <Description>%Reduction_RestoreTemple_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/MoonTempleE_Small" />
+            <Icon Size="Large" Path="Gui/MoonTempleE_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="Reduction_Moon_SmSingD3_3-4_TN">
+        <Title>%Reduction_TN_ConvertTo4_Title</Title>
+        <Description>%Reduction_TN_ConvertTo4_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/MoonTempleR_Small" />
+            <Icon Size="Large" Path="Gui/MoonTempleR_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="Reduction_Moon_SmSingD3_3-5_TN">
+        <Title>%Reduction_TN_ConvertTo5_Title</Title>
+        <Description>%Reduction_TN_ConvertTo5_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/MoonTempleR_Small" />
+            <Icon Size="Large" Path="Gui/MoonTempleR_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="Reduction_Moon_SmSingD3_4-3_TN">
+        <Title>%Reduction_TN_ConvertTo3_Title</Title>
+        <Description>%Reduction_TN_ConvertTo3_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/MoonTempleR_Small" />
+            <Icon Size="Large" Path="Gui/MoonTempleR_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="Reduction_Moon_SmSingD3_4-5_TN">
+        <Title>%Reduction_TN_ConvertTo5_Title</Title>
+        <Description>%Reduction_TN_ConvertTo5_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/MoonTempleR_Small" />
+            <Icon Size="Large" Path="Gui/MoonTempleR_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="Reduction_Moon_SmSingD3_5-3_TN">
+        <Title>%Reduction_TN_ConvertTo3_Title</Title>
+        <Description>%Reduction_TN_ConvertTo3_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/MoonTempleR_Small" />
+            <Icon Size="Large" Path="Gui/MoonTempleR_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="Reduction_Moon_SmSingD3_5-4_TN">
+        <Title>%Reduction_TN_ConvertTo4_Title</Title>
+        <Description>%Reduction_TN_ConvertTo4_Desc</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/MoonTempleR_Small" />
+            <Icon Size="Large" Path="Gui/MoonTempleR_Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>
+
+
+<!-- Other -->
   
     <GuiElement Name="Reduction_Ring_A">
         <Title>%Reduction_Ring_Title</Title>

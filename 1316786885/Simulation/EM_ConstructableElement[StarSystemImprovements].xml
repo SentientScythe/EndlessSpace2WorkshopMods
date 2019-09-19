@@ -1,19 +1,43 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/IndustryConstructibleElement.xsd">
 
-	<StarSystemImprovementDefinition Name="LunarColonies" SubCategory="SubCategoryPopulation" ScoreProvider="StarSystemImprovementBuilt">
-        <SupervisorGain Name="Food"       Weight="0.25"  />
-        <SupervisorGain Name="Industry"   Weight="0.25"  />
-        <SupervisorGain Name="Science"    Weight="0.25"  />
-        <SupervisorGain Name="Dust"       Weight="0.25"  />
+    <!-- Hide Moonbase Alpha -->
+    <StarSystemImprovementDefinition Name="StarSystemImprovementMoonExploitation1" SubCategory="SubCategoryScience" ScoreProvider="StarSystemImprovementBuilt">
+        <PathPrerequisite       Inverted="false"    Flags="Prerequisite,Discard">Moon_Fake</PathPrerequisite>
+    </StarSystemImprovementDefinition>
+
+    <StarSystemImprovementDefinition Name="LunarInfrastructure" SubCategory="SubCategoryFIDS" ScoreProvider="StarSystemImprovementBuilt">
+    	<AIGain RessourceName="FoodGain"/>
+    	<AIGain RessourceName="IndustryGain"/>
+    	<AIGain RessourceName="DustGain"/>
+    	<AIGain RessourceName="ScienceGain"/>
+        <SupervisorGain Name="Food" Weight=".4" />
+         <SupervisorGain Name="Industry" Weight=".5" />
+        <SupervisorGain Name="Dust" Weight=".2" />
+        <SupervisorGain Name="Science" Weight=".5" />
         <Tags>NoBailiff</Tags>
-        <Cost ResourceName="SystemProduction">2240</Cost>
+        <Cost ResourceName="SystemProduction">420</Cost>
         <PathPrerequisite       Inverted="false"    Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
         <PathPrerequisite       Inverted="false"    Flags="Prerequisite,Discard">ColonizedStarSystemStateColony/PlanetMoon</PathPrerequisite>
-        <PathPrerequisite       Inverted="true"     Flags="Prerequisite,Discard">ClassColonizedStarSystem/LunarColonies,!FastForwardedImprovement</PathPrerequisite>
-        <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">Technology_LunarColonies</TechnologyPrerequisite>
-        <SimulationDescriptorReference Name="LunarColonies" />
-        <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage4Normal" />
+        <PathPrerequisite       Inverted="true"     Flags="Prerequisite,Discard">ClassColonizedStarSystem/LunarInfrastructure,!FastForwardedImprovement</PathPrerequisite>
+        <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">Technology_LunarInfrastructure</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="LunarInfrastructure" />
+        <PopulationEvent Name="PopulationPoliticalEventBuildingConstructionIndustry1"/>
+    </StarSystemImprovementDefinition>
+
+    <StarSystemImprovementDefinition Name="LunarDataNetwork" SubCategory="SubCategoryScience" ScoreProvider="StarSystemImprovementBuilt">
+    	<AIGain RessourceName="ScienceGain"/>
+        <SupervisorGain Name="Science" Weight="1" />
+        <Cost ResourceName="SystemProduction">1120</Cost>
+        <PathPrerequisite       Inverted="false"    Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite       Inverted="false"    Flags="Prerequisite,Discard">ColonizedStarSystemStateColony/PlanetMoon</PathPrerequisite>
+        <PathPrerequisite       Inverted="true"     Flags="Prerequisite,Discard">ClassColonizedStarSystem/LunarDataNetwork,!FastForwardedImprovement</PathPrerequisite>
+        <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">Technology_LunarDataNetwork</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="LunarDataNetwork" />
+        <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage3Normal" />
+        <SimulationDescriptorReference Name="ScienceConstruction" />
+        <SimulationDescriptorReference Name="IsScienceBuilding" />
+        <PopulationEvent Name="PopulationPoliticalEventScienceBuildingConstruction1"/>
     </StarSystemImprovementDefinition>
 
 	<StarSystemImprovementDefinition Name="LunarTourism" SubCategory="SubCategoryDust" ScoreProvider="StarSystemImprovementBuilt">
@@ -33,21 +57,24 @@
         <PopulationEvent Name="PopulationPoliticalEventBuildingConstructionDust1"/>
     </StarSystemImprovementDefinition>
     
-    <!-- Replaced Moonbase Alpha  >  Lunar Data Network -->
-    <StarSystemImprovementDefinition Name="StarSystemImprovementMoonExploitation1" SubCategory="SubCategoryScience" ScoreProvider="StarSystemImprovementBuilt">
-    	<AIGain RessourceName="ScienceGain"/>
-        <SupervisorGain Name="Science" />
-        <Cost ResourceName="SystemProduction">1120</Cost>
+	<StarSystemImprovementDefinition Name="LunarColonies" SubCategory="SubCategoryPopulation" ScoreProvider="StarSystemImprovementBuilt">
+        <SupervisorGain Name="Food"       Weight="0.25"  />
+        <SupervisorGain Name="Industry"   Weight="0.25"  />
+        <SupervisorGain Name="Science"    Weight="0.25"  />
+        <SupervisorGain Name="Dust"       Weight="0.25"  />
+        <Tags>NoBailiff</Tags>
+        <Cost ResourceName="SystemProduction">2240</Cost>
         <PathPrerequisite       Inverted="false"    Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
         <PathPrerequisite       Inverted="false"    Flags="Prerequisite,Discard">ColonizedStarSystemStateColony/PlanetMoon</PathPrerequisite>
-        <PathPrerequisite       Inverted="true"     Flags="Prerequisite,Discard">ClassColonizedStarSystem/StarSystemImprovementMoonExploitation1,!FastForwardedImprovement</PathPrerequisite>
-        <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">Technology_LunarDataNetwork</TechnologyPrerequisite>
-        <SimulationDescriptorReference Name="StarSystemImprovementMoonExploitation1" />
-        <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage3Normal" />
-        <SimulationDescriptorReference Name="ScienceConstruction" />
-        <SimulationDescriptorReference Name="IsScienceBuilding" />
-        <PopulationEvent Name="PopulationPoliticalEventScienceBuildingConstruction1"/>
-    </StarSystemImprovementDefinition>
+        <InterpreterPrerequisite Inverted="false"   Flags="Prerequisite,Discard">Path(Context,@ColonizedStarSystemStateColony/MoonTemple)
+         or Path(Context,@ColonizedStarSystemStateColony/DevelopedMoon) 
+         or Path(Context,@ColonizedStarSystemStateColony/DevelopedMoon2)
+         or Path(Context,@ColonizedStarSystemStateColony/DevelopedMoon3)</InterpreterPrerequisite>
+        <PathPrerequisite       Inverted="true"     Flags="Prerequisite,Discard">ClassColonizedStarSystem/LunarColonies,!FastForwardedImprovement</PathPrerequisite>
+        <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">Technology_LunarColonies</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="LunarColonies" />
+        <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage4Normal" />
+    </StarSystemImprovementDefinition>    
 
 
 <!-- Vodyani -->
@@ -56,7 +83,7 @@
 		<AIGain RessourceName="IndustryGain"/>
 		<SupervisorGain Name="Industry"	  Weight="0.5"  />
         <SupervisorGain Name="Dust"       Weight="0.5"  />
-        <Cost ResourceName="SystemProduction">1120</Cost>
+        <Cost ResourceName="SystemProduction">560</Cost>
         <PathPrerequisite       Inverted="false"    Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
         <PathPrerequisite       Inverted="false"    Flags="Prerequisite,Discard">ColonizedStarSystemStateColony/PlanetMoon</PathPrerequisite>
         <PathPrerequisite       Inverted="true"     Flags="Prerequisite,Discard">ClassColonizedStarSystem/MoonExploitation,!FastForwardedImprovement</PathPrerequisite>
@@ -66,6 +93,7 @@
         <SimulationDescriptorReference Name="IsIndustryBuilding" />
         <PopulationEvent Name="PopulationPoliticalEventBuildingConstructionIndustry1"/>
     </StarSystemImprovementDefinition>
+    
 	<!-- Hunter Guilds -->
 	<StarSystemImprovementDefinition Name="HunterGuilds" SubCategory="SubCategoryVampirilis" ScoreProvider="StarSystemImprovementBuilt">
 		<AIGain RessourceName="ScienceGain"/>
@@ -83,6 +111,76 @@
         <SimulationDescriptorReference Name="HunterGuilds" />
         <PopulationEvent Name="PopulationPoliticalEventBuildingConstructionInfluence1"/>
     </StarSystemImprovementDefinition>
+    
+<!-- Umbral Choir -->
+	<!-- Lunar Sanctuaries -->
+    <StarSystemImprovementDefinition Name="LunarSanctuaries" SubCategory="SubCategoryUmbralChoir" ScoreProvider="StarSystemImprovementBuilt">
+    	<AIGain RessourceName="ScienceGain"/>
+    	<AIGain RessourceName="IndustryGain"/>
+        <SupervisorGain Name="Science"  Weight=".5" />
+        <SupervisorGain Name="Industry" Weight=".5" />
+        <Cost ResourceName="SystemProduction">560</Cost>
+        <PathPrerequisite       Inverted="false"    Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite       Inverted="false"    Flags="Prerequisite,Discard">./ClassEmpire/ClassColonizedStarSystem/PlanetMoon</PathPrerequisite>
+		<PathPrerequisite       Inverted="false"	Flags="Prerequisite,Discard,UnlockAvailability,Faction,AffinityGameplayTechnologyUmbralChoir">../ClassEmpire,AffinityGameplayUmbralChoir</PathPrerequisite>         
+        <PathPrerequisite       Inverted="true"     Flags="Prerequisite,Discard">ClassColonizedStarSystem/LunarSanctuaries,!FastForwardedImprovement</PathPrerequisite>
+        <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">TechnologyMoonExploration</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="LunarSanctuaries" />
+        <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage2Normal" />
+        <SimulationDescriptorReference Name="ScienceConstruction" />
+        <SimulationDescriptorReference Name="IsScienceBuilding" />
+        <SimulationDescriptorReference Name="IsIndustryBuilding" />
+        <PopulationEvent Name="PopulationPoliticalEventBuildingConstructionIndustry1"/>
+    </StarSystemImprovementDefinition>
+    
+    <!-- Extremophile Research: Changed tech requirement -->
+    <StarSystemImprovementDefinition Name="StarSystemImprovementMoonExploitation1UmbralChoir" SubCategory="SubCategoryScience" ScoreProvider="StarSystemImprovementBuilt">
+        <SupervisorGain Name="Science" />
+        <Tags>NoBailiff</Tags>
+        <Cost ResourceName="SystemProduction">1120</Cost>
+        <PathPrerequisite       Inverted="false"    Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite       Inverted="false"    Flags="Prerequisite,Discard">ColonizedStarSystemStateColony/PlanetAnomaly</PathPrerequisite>
+        <PathPrerequisite       Inverted="true"     Flags="Prerequisite,Discard">ClassColonizedStarSystem/StarSystemImprovementMoonExploitation1UmbralChoir,!FastForwardedImprovement</PathPrerequisite>
+        <PathPrerequisite       Inverted="false"    Flags="Prerequisite,Discard,UnlockAvailability,Faction,AffinityGameplayTechnologyUmbralChoir">../ClassEmpire,AffinityGameplayUmbralChoir</PathPrerequisite>        
+        <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">TechnologyPopulation1</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="StarSystemImprovementMoonExploitation1UmbralChoir" />
+        <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage3Normal" />
+        <SimulationDescriptorReference Name="ScienceConstruction" />
+        <PopulationEvent Name="PopulationPoliticalEventBuildingConstructionIndustry1"/>
+    </StarSystemImprovementDefinition>
+	
+	<!-- Infiltration Gateway -->
+    <StarSystemImprovementDefinition Name="EndlessTechInfiltration" SubCategory="SubCategoryUmbralChoir" ScoreProvider="StarSystemImprovementBuilt">
+    	<AIGain RessourceName="ScienceGain"/>
+        <SupervisorGain Name="Science"  Weight=".5" />
+        <Cost ResourceName="SystemProduction">1120</Cost>
+        <PathPrerequisite       Inverted="false"    Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite       Inverted="true"     Flags="Prerequisite,Discard">ClassColonizedStarSystem/EndlessTechInfiltration,!FastForwardedImprovement</PathPrerequisite>
+        <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">Technology_EndlessTechInfiltration</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="EndlessTechInfiltration" />
+        <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage3Normal" />
+        <SimulationDescriptorReference Name="ScienceConstruction" />
+        <SimulationDescriptorReference Name="IsScienceBuilding" />
+        <PopulationEvent Name="PopulationPoliticalEventBuildingConstructionScience1"/>
+    </StarSystemImprovementDefinition>
+    
+    <!-- Revised: Lunar Suburbs -->
+    <StarSystemImprovementDefinition Name="StarSystemImprovementPopulationSlot2" SubCategory="SubCategoryPopulation" ScoreProvider="StarSystemImprovementBuilt">
+        <SupervisorGain Name="Population"     />
+        <Cost ResourceName="SystemProduction">4480</Cost>
+        <PathPrerequisite                            Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
+        <PathPrerequisite       Inverted="true"      Flags="Prerequisite,Discard">ClassColonizedStarSystem/StarSystemImprovementPopulationSlot2,!FastForwardedImprovement</PathPrerequisite>
+        <InterpreterPrerequisite Inverted="false"   Flags="Prerequisite,Discard">Path(Context,@ColonizedStarSystemStateColony/DevelopedMoon) 
+         or Path(Context,@ColonizedStarSystemStateColony/DevelopedMoon2)
+         or Path(Context,@ColonizedStarSystemStateColony/DevelopedMoon3)</InterpreterPrerequisite>
+        <PathPrerequisite       Inverted="true"      Flags="Prerequisite,Discard,UnlockAvailability,Faction,AffinityGameplayTechnologyUmbralChoir">../ClassEmpire,AffinityGameplayUmbralChoir</PathPrerequisite>
+        <PathPrerequisite       Inverted="true"      Flags="Prerequisite,Discard,UnlockAvailability,Faction,AffinityGameplayTechnologyUmbralChoir">../ClassEmpire,AffinityGameplayVampirilis</PathPrerequisite>
+        <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">TechnologyPopulationSlots</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="StarSystemImprovementPopulationSlot2" />
+        <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage5Normal" />
+        <PopulationEvent Name="PopulationPoliticalEventBuildingConstructionPopulationSlot1"/>
+    </StarSystemImprovementDefinition>
+
     
     
 <!-- Temple Granted Improvements -->
@@ -400,6 +498,20 @@
         <SimulationDescriptorReference Name="IsIndustryBuilding" />
         <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage3Normal" />
         <PopulationEvent Name="PopulationPoliticalEventBuildingConstructionIndustry1"/>
+    </StarSystemImprovementDefinition>
+
+    <StarSystemImprovementDefinition Name="CoreStackRouter" SubCategory="SubCategoryHacking" ScoreProvider="StarSystemImprovementBuilt">
+        <Cost ResourceName="SystemProduction">560</Cost>
+        <Cost ResourceName="Strategic6" Instant="true">1</Cost>
+        <!-- Must have -->
+        <PathPrerequisite       Inverted="false"    Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
+		<PathPrerequisite       Inverted="false"	Flags="Prerequisite,Discard">../ClassEmpire/ClassColonizedStarSystem/ET_N</PathPrerequisite>         
+		<!-- Must not have -->
+		<PathPrerequisite       Inverted="true"		Flags="Prerequisite,Discard">ClassColonizedStarSystem/ET_N,!FastForwardedImprovement</PathPrerequisite>         
+        <PathPrerequisite       Inverted="true"     Flags="Prerequisite,Discard">ClassColonizedStarSystem/CoreStackRouter,!FastForwardedImprovement</PathPrerequisite>
+        <SimulationDescriptorReference Name="CoreStackRouter" />
+        <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage3Normal" />
+        <PopulationEvent Name="PopulationPoliticalEventBuildingConstructionDust1"/>
     </StarSystemImprovementDefinition>
 
     

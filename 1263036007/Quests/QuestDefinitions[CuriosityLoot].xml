@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/QuestDefinition.xsd">
+
+
+    <!-- ######################################################  ATMOSPHERIC ######################################################### -->
+    <!-- ######################################################  ATMOSPHERIC ######################################################### -->
+    <!-- ######################################################  ATMOSPHERIC ######################################################### -->
+
+    <QuestDefinition Name="SpawnCuriosity_Loot_Atmospheric_Era4" Category="General" SubCategory="">
+
+        <!--============ TAGS ============-->
+        <Tags>Hidden, BeginTurn</Tags>
+
+        <QuestContextMulti/>
+
+        <RepetitionRules  NumberOfOccurrencesPerGame="1"
+                          NumberOfOccurrencesPerEmpire="0"
+                          NumberOfConcurrentInstances="0"/>
+
+        <!--============ VARIABLES ============-->
+        <Vars>
+            <Var VarName="$LivingEmpires" IsGlobal="true">
+                <From Source="$Participants"/>
+            </Var>
+
+            <Var VarName="$CuriosityDefinition" StringValue="Curiosity_Loot_Atmospheric_Era4"/>
+
+            <Var VarName="$CountCuriosities" IsGlobal="true">
+                <Count>
+                    <From Source="$Constellations.$StarSystems.$Planets.$Curiosities"/>
+                </Count>
+            </Var>
+               
+            <Var VarName="$AllPlanets">
+                <Randomize>
+                    <From Source="$Constellations.$StarSystems.$Planets"/>
+                </Randomize>
+            </Var>
+
+            <InterpretedVar VarName="$Count">
+                <Expression>Ceil($(CountCuriosities)*0.092)</Expression>
+            </InterpretedVar>
+        </Vars>
+
+        <Steps>
+            <!--============ STEP 1 ============-->
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="Step1_Objective1">
+                        <Sequence>
+                            <Action_SpawnCuriosity>
+                                <Input_Planets VarName="$AllPlanets"/>
+                                <Input_Count VarName="$Count"/>
+                                <Input_CuriosityDefinition VarName="$CuriosityDefinition"/>
+                            </Action_SpawnCuriosity>
+                            <Action_ChooseOutcome Name="Outcome1"/>
+                        </Sequence>
+                        <Outcome Name="Outcome1">
+                            <Triggers Weight="1">                              
+                                <QuestTrigger>
+                                    <Tags>SpawnCuriosity_Loot_Atmospheric_Era3</Tags>
+                                    <QuestContextMulti ParticipantsVarName="$LivingEmpires"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+
+    </QuestDefinition>
+
+    <QuestDefinition Name="SpawnCuriosity_Loot_Atmospheric_Era3" Category="General" SubCategory="">
+
+        <!--============ TAGS ============-->
+        <Tags>Hidden, SpawnCuriosity_Loot_Atmospheric_Era3</Tags>
+
+        <QuestContextMulti/>
+
+        <RepetitionRules  NumberOfOccurrencesPerGame="1"
+                          NumberOfOccurrencesPerEmpire="0"
+                          NumberOfConcurrentInstances="0"/>
+
+        <!--============ VARIABLES ============-->
+        <Vars>
+            <Var VarName="$LivingEmpires" IsGlobal="true"/>
+
+            <Var VarName="$CuriosityDefinition" StringValue="Curiosity_Loot_Atmospheric_Era3"/>
+
+            <Var VarName="$CountCuriosities" IsGlobal="true"/>
+               
+            <Var VarName="$AllPlanets">
+                <Randomize>
+                    <From Source="$Constellations.$StarSystems.$Planets"/>
+                </Randomize>
+            </Var>
+
+            <InterpretedVar VarName="$Count">
+                <Expression>Ceil($(CountCuriosities)*0.066)</Expression>
+            </InterpretedVar>
+        </Vars>
+
+        <Steps>
+            <!--============ STEP 1 ============-->
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="Step1_Objective1">
+                        <Sequence>
+                            <Action_SpawnCuriosity>
+                                <Input_Planets VarName="$AllPlanets"/>
+                                <Input_Count VarName="$Count"/>
+                                <Input_CuriosityDefinition VarName="$CuriosityDefinition"/>
+                            </Action_SpawnCuriosity>
+                            <Action_ChooseOutcome Name="Outcome1"/>
+                        </Sequence>
+                        <Outcome Name="Outcome1">
+                            <Triggers Weight="1">                              
+                                <QuestTrigger>
+                                    <Tags>SpawnCuriosity_Loot_Atmospheric_Era2</Tags>
+                                    <QuestContextMulti ParticipantsVarName="$LivingEmpires"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+
+    </QuestDefinition>
+
+    <QuestDefinition Name="SpawnCuriosity_Loot_Atmospheric_Era2" Category="General" SubCategory="">
+
+        <!--============ TAGS ============-->
+        <Tags>Hidden, SpawnCuriosity_Loot_Atmospheric_Era2</Tags>
+
+        <QuestContextMulti/>
+
+        <RepetitionRules  NumberOfOccurrencesPerGame="1"
+                          NumberOfOccurrencesPerEmpire="0"
+                          NumberOfConcurrentInstances="0"/>
+
+        <!--============ VARIABLES ============-->
+        <Vars>
+            <Var VarName="$LivingEmpires" IsGlobal="true"/>
+
+            <Var VarName="$CuriosityDefinition" StringValue="Curiosity_Loot_Atmospheric_Era2"/>
+
+            <Var VarName="$CountCuriosities" IsGlobal="true"/>
+               
+            <Var VarName="$AllPlanets">
+                <Randomize>
+                    <From Source="$Constellations.$StarSystems.$Planets"/>
+                </Randomize>
+            </Var>
+
+            <InterpretedVar VarName="$Count">
+                <Expression>Ceil($(CountCuriosities)*0.042)</Expression>
+            </InterpretedVar>
+        </Vars>
+
+        <Steps>
+            <!--============ STEP 1 ============-->
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="Step1_Objective1">
+                        <Sequence>
+                            <Action_SpawnCuriosity>
+                                <Input_Planets VarName="$AllPlanets"/>
+                                <Input_Count VarName="$Count"/>
+                                <Input_CuriosityDefinition VarName="$CuriosityDefinition"/>
+                            </Action_SpawnCuriosity>
+                            <Action_ChooseOutcome Name="Outcome1"/>
+                        </Sequence>
+                        <Outcome Name="Outcome1">
+                            <Triggers Weight="1">                              
+                                <QuestTrigger>
+                                    <Tags>SpawnCuriosity_Loot_Lifeform_Era4</Tags>
+                                    <QuestContextMulti ParticipantsVarName="$LivingEmpires"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+
+    </QuestDefinition>
+
+    <!-- ##########################################################  LIFEFORM  ###################################################################### -->
+    <!-- ##########################################################  LIFEFORM  ###################################################################### -->
+    <!-- ##########################################################  LIFEFORM  ###################################################################### -->
+
+    <QuestDefinition Name="SpawnCuriosity_Loot_Lifeform_Era4" Category="General" SubCategory="">
+
+        <!--============ TAGS ============-->
+        <Tags>Hidden, SpawnCuriosity_Loot_Lifeform_Era4</Tags>
+
+        <QuestContextMulti/>
+
+        <RepetitionRules  NumberOfOccurrencesPerGame="1"
+                          NumberOfOccurrencesPerEmpire="0"
+                          NumberOfConcurrentInstances="0"/>
+
+        <!--============ VARIABLES ============-->
+        <Vars>
+            <Var VarName="$LivingEmpires" IsGlobal="true"/>
+
+            <Var VarName="$CuriosityDefinition" StringValue="Curiosity_Loot_Lifeform_Era4"/>
+
+            <Var VarName="$CountCuriosities" IsGlobal="true"/>
+               
+            <Var VarName="$AllPlanets">
+                <Randomize>
+                    <From Source="$Constellations.$StarSystems.$Planets"/>
+                </Randomize>
+            </Var>
+
+            <InterpretedVar VarName="$Count">
+                <Expression>Ceil($(CountCuriosities)*0.092)</Expression>
+            </InterpretedVar>
+        </Vars>
+
+        <Steps>
+            <!--============ STEP 1 ============-->
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="Step1_Objective1">
+                        <Sequence>
+                            <Action_SpawnCuriosity>
+                                <Input_Planets VarName="$AllPlanets"/>
+                                <Input_Count VarName="$Count"/>
+                                <Input_CuriosityDefinition VarName="$CuriosityDefinition"/>
+                            </Action_SpawnCuriosity>
+                            <Action_ChooseOutcome Name="Outcome1"/>
+                        </Sequence>
+                        <Outcome Name="Outcome1">
+                            <Triggers Weight="1">                              
+                                <QuestTrigger>
+                                    <Tags>SpawnCuriosity_Loot_Lifeform_Era3</Tags>
+                                    <QuestContextMulti ParticipantsVarName="$LivingEmpires"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+
+    </QuestDefinition>
+
+    <QuestDefinition Name="SpawnCuriosity_Loot_Lifeform_Era3" Category="General" SubCategory="">
+
+        <!--============ TAGS ============-->
+        <Tags>Hidden, SpawnCuriosity_Loot_Lifeform_Era3</Tags>
+
+        <QuestContextMulti/>
+
+        <RepetitionRules  NumberOfOccurrencesPerGame="1"
+                          NumberOfOccurrencesPerEmpire="0"
+                          NumberOfConcurrentInstances="0"/>
+
+        <!--============ VARIABLES ============-->
+        <Vars>
+            <Var VarName="$LivingEmpires" IsGlobal="true"/>
+
+            <Var VarName="$CuriosityDefinition" StringValue="Curiosity_Loot_Lifeform_Era3"/>
+
+            <Var VarName="$CountCuriosities" IsGlobal="true"/>
+               
+            <Var VarName="$AllPlanets">
+                <Randomize>
+                    <From Source="$Constellations.$StarSystems.$Planets"/>
+                </Randomize>
+            </Var>
+
+            <InterpretedVar VarName="$Count">
+                <Expression>Ceil($(CountCuriosities)*0.066)</Expression>
+            </InterpretedVar>
+        </Vars>
+
+        <Steps>
+            <!--============ STEP 1 ============-->
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="Step1_Objective1">
+                        <Sequence>
+                            <Action_SpawnCuriosity>
+                                <Input_Planets VarName="$AllPlanets"/>
+                                <Input_Count VarName="$Count"/>
+                                <Input_CuriosityDefinition VarName="$CuriosityDefinition"/>
+                            </Action_SpawnCuriosity>
+                            <Action_ChooseOutcome Name="Outcome1"/>
+                        </Sequence>
+                        <Outcome Name="Outcome1">
+                            <Triggers Weight="1">                              
+                                <QuestTrigger>
+                                    <Tags>SpawnCuriosity_Loot_Lifeform_Era2</Tags>
+                                    <QuestContextMulti ParticipantsVarName="$LivingEmpires"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+
+    </QuestDefinition>
+
+    <QuestDefinition Name="SpawnCuriosity_Loot_Lifeform_Era2" Category="General" SubCategory="">
+
+        <!--============ TAGS ============-->
+        <Tags>Hidden, SpawnCuriosity_Loot_Lifeform_Era2</Tags>
+
+        <QuestContextMulti/>
+
+        <RepetitionRules  NumberOfOccurrencesPerGame="1"
+                          NumberOfOccurrencesPerEmpire="0"
+                          NumberOfConcurrentInstances="0"/>
+
+        <!--============ VARIABLES ============-->
+        <Vars>
+            <Var VarName="$LivingEmpires" IsGlobal="true"/>
+
+            <Var VarName="$CuriosityDefinition" StringValue="Curiosity_Loot_Lifeform_Era2"/>
+
+            <Var VarName="$CountCuriosities" IsGlobal="true"/>
+               
+            <Var VarName="$AllPlanets">
+                <Randomize>
+                    <From Source="$Constellations.$StarSystems.$Planets"/>
+                </Randomize>
+            </Var>
+
+            <InterpretedVar VarName="$Count">
+                <Expression>Ceil($(CountCuriosities)*0.042)</Expression>
+            </InterpretedVar>
+        </Vars>
+
+        <Steps>
+            <!--============ STEP 1 ============-->
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="Step1_Objective1">
+                        <Sequence>
+                            <Action_SpawnCuriosity>
+                                <Input_Planets VarName="$AllPlanets"/>
+                                <Input_Count VarName="$Count"/>
+                                <Input_CuriosityDefinition VarName="$CuriosityDefinition"/>
+                            </Action_SpawnCuriosity>
+                            <Action_ChooseOutcome Name="Outcome1"/>
+                        </Sequence>
+                        <Outcome Name="Outcome1">
+                            <Triggers Weight="1">                              
+                                <QuestTrigger>
+                                    <Tags>SpawnCuriosity_Loot_Ruins_Era4</Tags>
+                                    <QuestContextMulti ParticipantsVarName="$LivingEmpires"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+
+    </QuestDefinition>
+
+    <!-- #########################################################  RUINS ##################################################################### -->
+    <!-- #########################################################  RUINS ##################################################################### -->
+    <!-- #########################################################  RUINS ##################################################################### -->
+
+
+    <QuestDefinition Name="SpawnCuriosity_Loot_Ruins_Era4" Category="General" SubCategory="">
+
+        <!--============ TAGS ============-->
+        <Tags>Hidden, SpawnCuriosity_Loot_Ruins_Era4</Tags>
+
+        <QuestContextMulti/>
+
+        <RepetitionRules  NumberOfOccurrencesPerGame="1"
+                          NumberOfOccurrencesPerEmpire="0"
+                          NumberOfConcurrentInstances="0"/>
+
+        <!--============ VARIABLES ============-->
+        <Vars>
+            <Var VarName="$LivingEmpires" IsGlobal="true"/>
+
+            <Var VarName="$CuriosityDefinition" StringValue="Curiosity_Loot_Ruins_Era4"/>
+
+            <Var VarName="$CountCuriosities" IsGlobal="true"/>
+               
+            <Var VarName="$AllPlanets">
+                <Randomize>
+                    <From Source="$Constellations.$StarSystems.$Planets"/>
+                </Randomize>
+            </Var>
+
+            <InterpretedVar VarName="$Count">
+                <Expression>Ceil($(CountCuriosities)*0.092)</Expression>
+            </InterpretedVar>
+        </Vars>
+
+        <Steps>
+            <!--============ STEP 1 ============-->
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="Step1_Objective1">
+                        <Sequence>
+                            <Action_SpawnCuriosity>
+                                <Input_Planets VarName="$AllPlanets"/>
+                                <Input_Count VarName="$Count"/>
+                                <Input_CuriosityDefinition VarName="$CuriosityDefinition"/>
+                            </Action_SpawnCuriosity>
+                            <Action_ChooseOutcome Name="Outcome1"/>
+                        </Sequence>
+                        <Outcome Name="Outcome1">
+                            <Triggers Weight="1">                              
+                                <QuestTrigger>
+                                    <Tags>SpawnCuriosity_Loot_Ruins_Era3</Tags>
+                                    <QuestContextMulti ParticipantsVarName="$LivingEmpires"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+
+    </QuestDefinition>
+
+    <QuestDefinition Name="SpawnCuriosity_Loot_Ruins_Era3" Category="General" SubCategory="">
+
+        <!--============ TAGS ============-->
+        <Tags>Hidden, SpawnCuriosity_Loot_Ruins_Era3</Tags>
+
+        <QuestContextMulti/>
+
+        <RepetitionRules  NumberOfOccurrencesPerGame="1"
+                          NumberOfOccurrencesPerEmpire="0"
+                          NumberOfConcurrentInstances="0"/>
+
+        <!--============ VARIABLES ============-->
+        <Vars>
+            <Var VarName="$LivingEmpires" IsGlobal="true"/>
+
+            <Var VarName="$CuriosityDefinition" StringValue="Curiosity_Loot_Ruins_Era3"/>
+
+            <Var VarName="$CountCuriosities" IsGlobal="true"/>
+               
+            <Var VarName="$AllPlanets">
+                <Randomize>
+                    <From Source="$Constellations.$StarSystems.$Planets"/>
+                </Randomize>
+            </Var>
+
+            <InterpretedVar VarName="$Count">
+                <Expression>Ceil($(CountCuriosities)*0.066)</Expression>
+            </InterpretedVar>
+        </Vars>
+
+        <Steps>
+            <!--============ STEP 1 ============-->
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="Step1_Objective1">
+                        <Sequence>
+                            <Action_SpawnCuriosity>
+                                <Input_Planets VarName="$AllPlanets"/>
+                                <Input_Count VarName="$Count"/>
+                                <Input_CuriosityDefinition VarName="$CuriosityDefinition"/>
+                            </Action_SpawnCuriosity>
+                            <Action_ChooseOutcome Name="Outcome1"/>
+                        </Sequence>
+                        <Outcome Name="Outcome1">
+                            <Triggers Weight="1">                              
+                                <QuestTrigger>
+                                    <Tags>SpawnCuriosity_Loot_Ruins_Era2</Tags>
+                                    <QuestContextMulti ParticipantsVarName="$LivingEmpires"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+
+    </QuestDefinition>
+
+    <QuestDefinition Name="SpawnCuriosity_Loot_Ruins_Era2" Category="General" SubCategory="">
+
+        <!--============ TAGS ============-->
+        <Tags>Hidden, SpawnCuriosity_Loot_Ruins_Era2</Tags>
+
+        <QuestContextMulti/>
+
+        <RepetitionRules  NumberOfOccurrencesPerGame="1"
+                          NumberOfOccurrencesPerEmpire="0"
+                          NumberOfConcurrentInstances="0"/>
+
+        <!--============ VARIABLES ============-->
+        <Vars>
+            <Var VarName="$LivingEmpires" IsGlobal="true"/>
+
+            <Var VarName="$CuriosityDefinition" StringValue="Curiosity_Loot_Ruins_Era2"/>
+
+            <Var VarName="$CountCuriosities" IsGlobal="true"/>
+               
+            <Var VarName="$AllPlanets">
+                <Randomize>
+                    <From Source="$Constellations.$StarSystems.$Planets"/>
+                </Randomize>
+            </Var>
+
+            <InterpretedVar VarName="$Count">
+                <Expression>Ceil($(CountCuriosities)*0.042)</Expression>
+            </InterpretedVar>
+        </Vars>
+
+        <Steps>
+            <!--============ STEP 1 ============-->
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="Step1_Objective1">
+                        <Sequence>
+                            <Action_SpawnCuriosity>
+                                <Input_Planets VarName="$AllPlanets"/>
+                                <Input_Count VarName="$Count"/>
+                                <Input_CuriosityDefinition VarName="$CuriosityDefinition"/>
+                            </Action_SpawnCuriosity>
+                            <Action_ChooseOutcome Name="Outcome1"/>
+                        </Sequence>
+                        <Outcome Name="Outcome1">
+                            <Triggers Weight="1">                              
+                                <QuestTrigger>
+                                    <Tags>SpawnCuriosity_Loot_Signal_Era4</Tags>
+                                    <QuestContextMulti ParticipantsVarName="$LivingEmpires"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+
+    </QuestDefinition>
+
+    <!-- ########################################################  SIGNAL ###################################################################### -->
+    <!-- ########################################################  SIGNAL ###################################################################### -->
+    <!-- ########################################################  SIGNAL ###################################################################### -->
+
+    <QuestDefinition Name="SpawnCuriosity_Loot_Signal_Era4" Category="General" SubCategory="">
+
+        <!--============ TAGS ============-->
+        <Tags>Hidden, SpawnCuriosity_Loot_Signal_Era4</Tags>
+
+        <QuestContextMulti/>
+
+        <RepetitionRules  NumberOfOccurrencesPerGame="1"
+                          NumberOfOccurrencesPerEmpire="0"
+                          NumberOfConcurrentInstances="0"/>
+
+        <!--============ VARIABLES ============-->
+        <Vars>
+            <Var VarName="$LivingEmpires" IsGlobal="true"/>
+
+            <Var VarName="$CuriosityDefinition" StringValue="Curiosity_Loot_Signal_Era4"/>
+
+            <Var VarName="$CountCuriosities" IsGlobal="true"/>
+               
+            <Var VarName="$AllPlanets">
+                <Randomize>
+                    <From Source="$Constellations.$StarSystems.$Planets"/>
+                </Randomize>
+            </Var>
+
+            <InterpretedVar VarName="$Count">
+                <Expression>Ceil($(CountCuriosities)*0.092)</Expression>
+            </InterpretedVar>
+        </Vars>
+
+        <Steps>
+            <!--============ STEP 1 ============-->
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="Step1_Objective1">
+                        <Sequence>
+                            <Action_SpawnCuriosity>
+                                <Input_Planets VarName="$AllPlanets"/>
+                                <Input_Count VarName="$Count"/>
+                                <Input_CuriosityDefinition VarName="$CuriosityDefinition"/>
+                            </Action_SpawnCuriosity>
+                            <Action_ChooseOutcome Name="Outcome1"/>
+                        </Sequence>
+                        <Outcome Name="Outcome1">
+                            <Triggers Weight="1">                              
+                                <QuestTrigger>
+                                    <Tags>SpawnCuriosity_Loot_Signal_Era3</Tags>
+                                    <QuestContextMulti ParticipantsVarName="$LivingEmpires"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+
+    </QuestDefinition>
+
+    <QuestDefinition Name="SpawnCuriosity_Loot_Signal_Era3" Category="General" SubCategory="">
+
+        <!--============ TAGS ============-->
+        <Tags>Hidden, SpawnCuriosity_Loot_Signal_Era3</Tags>
+
+        <QuestContextMulti/>
+
+        <RepetitionRules  NumberOfOccurrencesPerGame="1"
+                          NumberOfOccurrencesPerEmpire="0"
+                          NumberOfConcurrentInstances="0"/>
+
+        <!--============ VARIABLES ============-->
+        <Vars>
+            <Var VarName="$LivingEmpires" IsGlobal="true"/>
+
+            <Var VarName="$CuriosityDefinition" StringValue="Curiosity_Loot_Signal_Era3"/>
+
+            <Var VarName="$CountCuriosities" IsGlobal="true"/>
+               
+            <Var VarName="$AllPlanets">
+                <Randomize>
+                    <From Source="$Constellations.$StarSystems.$Planets"/>
+                </Randomize>
+            </Var>
+
+            <InterpretedVar VarName="$Count">
+                <Expression>Ceil($(CountCuriosities)*0.066)</Expression>
+            </InterpretedVar>
+        </Vars>
+
+        <Steps>
+            <!--============ STEP 1 ============-->
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="Step1_Objective1">
+                        <Sequence>
+                            <Action_SpawnCuriosity>
+                                <Input_Planets VarName="$AllPlanets"/>
+                                <Input_Count VarName="$Count"/>
+                                <Input_CuriosityDefinition VarName="$CuriosityDefinition"/>
+                            </Action_SpawnCuriosity>
+                            <Action_ChooseOutcome Name="Outcome1"/>
+                        </Sequence>
+                        <Outcome Name="Outcome1">
+                            <Triggers Weight="1">                              
+                                <QuestTrigger>
+                                    <Tags>SpawnCuriosity_Loot_Signal_Era2</Tags>
+                                    <QuestContextMulti ParticipantsVarName="$LivingEmpires"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+
+    </QuestDefinition>
+
+    <QuestDefinition Name="SpawnCuriosity_Loot_Signal_Era2" Category="General" SubCategory="">
+
+        <!--============ TAGS ============-->
+        <Tags>Hidden, SpawnCuriosity_Loot_Signal_Era2</Tags>
+
+        <QuestContextMulti/>
+
+        <RepetitionRules  NumberOfOccurrencesPerGame="1"
+                          NumberOfOccurrencesPerEmpire="0"
+                          NumberOfConcurrentInstances="0"/>
+
+        <!--============ VARIABLES ============-->
+        <Vars>
+            <Var VarName="$LivingEmpires" IsGlobal="true"/>
+
+            <Var VarName="$CuriosityDefinition" StringValue="Curiosity_Loot_Signal_Era2"/>
+
+            <Var VarName="$CountCuriosities" IsGlobal="true"/>
+               
+            <Var VarName="$AllPlanets">
+                <Randomize>
+                    <From Source="$Constellations.$StarSystems.$Planets"/>
+                </Randomize>
+            </Var>
+
+            <InterpretedVar VarName="$Count">
+                <Expression>Ceil($(CountCuriosities)*0.042)</Expression>
+            </InterpretedVar>
+        </Vars>
+
+        <Steps>
+            <!--============ STEP 1 ============-->
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="Step1_Objective1">
+                        <Sequence>
+                            <Action_SpawnCuriosity>
+                                <Input_Planets VarName="$AllPlanets"/>
+                                <Input_Count VarName="$Count"/>
+                                <Input_CuriosityDefinition VarName="$CuriosityDefinition"/>
+                            </Action_SpawnCuriosity>
+                            <Action_ChooseOutcome Name="Outcome1"/>
+                        </Sequence>
+                        <Outcome Name="Outcome1">
+                            <Triggers Weight="1">                              
+                                <QuestTrigger>
+                                    <Tags>SpawnCuriosity_Loot_Underground_Era4</Tags>
+                                    <QuestContextMulti ParticipantsVarName="$LivingEmpires"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+
+    </QuestDefinition>
+
+    <!-- ################################################ UNDERGROUND ################################################################### -->
+    <!-- ################################################ UNDERGROUND ################################################################### -->
+    <!-- ################################################ UNDERGROUND ################################################################### -->
+
+    <QuestDefinition Name="SpawnCuriosity_Loot_Underground_Era4" Category="General" SubCategory="">
+
+        <!--============ TAGS ============-->
+        <Tags>Hidden, SpawnCuriosity_Loot_Underground_Era4</Tags>
+
+        <QuestContextMulti/>
+
+        <RepetitionRules  NumberOfOccurrencesPerGame="1"
+                          NumberOfOccurrencesPerEmpire="0"
+                          NumberOfConcurrentInstances="0"/>
+
+        <!--============ VARIABLES ============-->
+        <Vars>
+            <Var VarName="$LivingEmpires" IsGlobal="true"/>
+
+            <Var VarName="$CuriosityDefinition" StringValue="Curiosity_Loot_Underground_Era4"/>
+
+            <Var VarName="$CountCuriosities" IsGlobal="true"/>
+               
+            <Var VarName="$AllPlanets">
+                <Randomize>
+                    <From Source="$Constellations.$StarSystems.$Planets"/>
+                </Randomize>
+            </Var>
+
+            <InterpretedVar VarName="$Count">
+                <Expression>Ceil($(CountCuriosities)*0.092)</Expression>
+            </InterpretedVar>
+        </Vars>
+
+        <Steps>
+            <!--============ STEP 1 ============-->
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="Step1_Objective1">
+                        <Sequence>
+                            <Action_SpawnCuriosity>
+                                <Input_Planets VarName="$AllPlanets"/>
+                                <Input_Count VarName="$Count"/>
+                                <Input_CuriosityDefinition VarName="$CuriosityDefinition"/>
+                            </Action_SpawnCuriosity>
+                            <Action_ChooseOutcome Name="Outcome1"/>
+                        </Sequence>
+                        <Outcome Name="Outcome1">
+                            <Triggers Weight="1">                              
+                                <QuestTrigger>
+                                    <Tags>SpawnCuriosity_Loot_Underground_Era3</Tags>
+                                    <QuestContextMulti ParticipantsVarName="$LivingEmpires"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+
+    </QuestDefinition>
+
+    <QuestDefinition Name="SpawnCuriosity_Loot_Underground_Era3" Category="General" SubCategory="">
+
+        <!--============ TAGS ============-->
+        <Tags>Hidden, SpawnCuriosity_Loot_Underground_Era3</Tags>
+
+        <QuestContextMulti/>
+
+        <RepetitionRules  NumberOfOccurrencesPerGame="1"
+                          NumberOfOccurrencesPerEmpire="0"
+                          NumberOfConcurrentInstances="0"/>
+
+        <!--============ VARIABLES ============-->
+        <Vars>
+            <Var VarName="$LivingEmpires" IsGlobal="true"/>
+
+            <Var VarName="$CuriosityDefinition" StringValue="Curiosity_Loot_Underground_Era3"/>
+
+            <Var VarName="$CountCuriosities" IsGlobal="true"/>
+               
+            <Var VarName="$AllPlanets">
+                <Randomize>
+                    <From Source="$Constellations.$StarSystems.$Planets"/>
+                </Randomize>
+            </Var>
+
+            <InterpretedVar VarName="$Count">
+                <Expression>Ceil($(CountCuriosities)*0.066)</Expression>
+            </InterpretedVar>
+        </Vars>
+
+        <Steps>
+            <!--============ STEP 1 ============-->
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="Step1_Objective1">
+                        <Sequence>
+                            <Action_SpawnCuriosity>
+                                <Input_Planets VarName="$AllPlanets"/>
+                                <Input_Count VarName="$Count"/>
+                                <Input_CuriosityDefinition VarName="$CuriosityDefinition"/>
+                            </Action_SpawnCuriosity>
+                            <Action_ChooseOutcome Name="Outcome1"/>
+                        </Sequence>
+                        <Outcome Name="Outcome1">
+                            <Triggers Weight="1">                              
+                                <QuestTrigger>
+                                    <Tags>SpawnCuriosity_Loot_Underground_Era2</Tags>
+                                    <QuestContextMulti ParticipantsVarName="$LivingEmpires"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+
+    </QuestDefinition>
+
+    <QuestDefinition Name="SpawnCuriosity_Loot_Underground_Era2" Category="General" SubCategory="">
+
+        <!--============ TAGS ============-->
+        <Tags>Hidden, SpawnCuriosity_Loot_Underground_Era2</Tags>
+
+        <QuestContextMulti/>
+
+        <RepetitionRules  NumberOfOccurrencesPerGame="1"
+                          NumberOfOccurrencesPerEmpire="0"
+                          NumberOfConcurrentInstances="0"/>
+
+        <!--============ VARIABLES ============-->
+        <Vars>
+            <Var VarName="$LivingEmpires" IsGlobal="true"/>
+
+            <Var VarName="$CuriosityDefinition" StringValue="Curiosity_Loot_Underground_Era2"/>
+
+            <Var VarName="$CountCuriosities" IsGlobal="true"/>
+               
+            <Var VarName="$AllPlanets">
+                <Randomize>
+                    <From Source="$Constellations.$StarSystems.$Planets"/>
+                </Randomize>
+            </Var>
+
+            <InterpretedVar VarName="$Count">
+                <Expression>Ceil($(CountCuriosities)*0.042)</Expression>
+            </InterpretedVar>
+        </Vars>
+
+        <Steps>
+            <!--============ STEP 1 ============-->
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="Step1_Objective1">
+                        <Sequence>
+                            <Action_SpawnCuriosity>
+                                <Input_Planets VarName="$AllPlanets"/>
+                                <Input_Count VarName="$Count"/>
+                                <Input_CuriosityDefinition VarName="$CuriosityDefinition"/>
+                            </Action_SpawnCuriosity>
+                            <Action_Message Message="CuriosityLoot">
+                                <Input_Empires VarName="$LivingEmpires"/>
+                            </Action_Message>
+                            <!--<Action_ChooseOutcome Name="Outcome1"/>-->
+                        </Sequence>
+                        <!--<Outcome Name="Outcome1">
+                            <Triggers Weight="1">                              
+                                <QuestTrigger>
+                                    <Tags>nani</Tags>
+                                    <QuestContextMulti ParticipantsVarName="$LivingEmpires"/>
+                                </QuestTrigger>
+                            </Triggers>
+                        </Outcome>-->
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+
+    </QuestDefinition>
+
+
+
+</Datatable>

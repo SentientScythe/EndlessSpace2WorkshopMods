@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="Documentation/Schemas/Amplitude.Unity.Runtime.RuntimeModule.xsd">
 
-	<RuntimeModule Name="CuriosityLoot" Type="Extension" Version="0.2">
+	<RuntimeModule Name="CuriosityLoot" Type="Extension" Version="0.41">
 
         <Title>More Loot</Title>
-        <Description>Adds about 3 times the normal Curiosity Loot, but spreads it out over all 4 Expedition Power Levels.  This gives more chances at ship modules, battle cards, and buildings mid to late game.  No changes were made to the loot drop lists.  The mod "Research Curiosity Awards" is recommended for modified loot drop lists.
+        <Description>This mod Doubles the number of curiosities in a galaxy.
+
+The curiosites aren't added by altering any of the galaxy generating files.  Instead they are added after a game has been launched using hidden quests.  This allows for more precise control of curiosities added and ensures that this mod will not interefere with other mods.
+  
+Most of the curiosities offer more chances at mid to late game ship modules, battle cards, buildings, and populations.  The amount of curiosites added is dependent on the total number of curiosities in the galaxy when the game launches.  As a result, the game setting slider "Curiosity Frequency" will have a larger effect on the number of curiosities.  
 		
-		This mod also adds a custom faction trait at no cost that gives the player one of every Luxury available in the galaxy so they can plan accordingly.  It is available in the "start modifiers" filter.</Description>
+DISTRIBUTION OF LOOT CURIOSITIES ADDED
+46% Expedition Power 4
+33% Expedition Power 3
+21% Expedition Power 2</Description>
         
 		<Author>tygart</Author>
         
@@ -14,42 +21,42 @@
 
         <PreviewImageFile>CuriosityLoot.png</PreviewImageFile>
 
-		<ReleaseNotes>checked for V1.3.3 S5 Gold-Public no changes to mod</ReleaseNotes>
+		<ReleaseNotes>Updated for V1.4.9
+-removed the 10% strategic deposit curiosites and replaced with 10% more loot curiosites
+</ReleaseNotes>
         <!-- Available tags: AI, Art, Buildings, Gameplay, Improvements, MajorFactions, Maps, MinorFactions, Multiplayer, Other, Resources, Technologies, Units. -->
         <Tags>Gameplay,Resources</Tags>
 
 		<Plugins>
-
 			<DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass">
 				<ExtraTypes>
 					<ExtraType DataType="Amplitude.Unity.Gui.ExtendedGuiElement, Assembly-CSharp-firstpass" />
+					<ExtraType DataType="QuestGuiElement, Assembly-CSharp" />
 				</ExtraTypes>
 				<FilePath>Gui/GuiElements[CuriosityLoot].xml</FilePath>
 			</DatabasePlugin>
 
-			<DatabasePlugin DataType="GameSettingDefinition, Assembly-CSharp">
-				<ExtraTypes>
-					<ExtraType DataType="WorldSettingDefinition, Assembly-CSharp"/>
-				</ExtraTypes>
-				<FilePath>Settings/WorldSettingDefinitions.xml</FilePath>
-			</DatabasePlugin>				
-
-			<DatabasePlugin DataType="GalaxyGeneratorWeightTableDefinition, Assembly-CSharp">
-				<FilePath>GalaxyGenerator/WeightTableDefinitions.xml</FilePath>
+			<DatabasePlugin DataType="QuestDefinition, Assembly-CSharp">              
+				<Overrides>
+					<Override Name="Prerequisites" DataType="Amplitude.Query.Xml.XmlQueryPrerequisites, Assembly-CSharp-firstpass">
+						<ExtraType Name="FilterConstellationByDistance" DataType="QuestFilterConstellationByDistance, Assembly-CSharp" />
+						<ExtraType Name="FilterSystemByStatus" DataType="QuestFilterSystemByStatus, Assembly-CSharp" />
+						<ExtraType Name="FilterSystemByDistance" DataType="QuestFilterSystemByDistance, Assembly-CSharp" />
+						<ExtraType Name="FilterSystemByCuriosity" DataType="QuestFilterSystemByCuriosity, Assembly-CSharp" />
+						<ExtraType Name="FilterPlanetByCuriosity" DataType="QuestFilterPlanetByCuriosity, Assembly-CSharp" />
+						<ExtraType Name="FilterShipDesignByModule" DataType="QuestFilterShipDesignByModule, Assembly-CSharp" />
+						<ExtraType Name="FilterByStringValue" DataType="QuestFilterByStringValue, Assembly-CSharp" />
+						<ExtraType Name="IsNot" DataType="QuestFilterDifferentEntity, Assembly-CSharp" />
+					</Override>
+					<Override Name="Sorter" DataType="Amplitude.Query.Xml.XmlQuerySorter, Assembly-CSharp-firstpass">
+						<ExtraType Name="SortConstellationByDistance" DataType="QuestSorterConstellationByDistance, Assembly-CSharp" />
+						<ExtraType Name="SortSystemByDistance" DataType="QuestSorterSystemByDistance, Assembly-CSharp" />
+					</Override>
+				</Overrides>
+				<FilePath>Quests/QuestDefinitions[CuriosityLoot].xml</FilePath>              
 			</DatabasePlugin>
 
-			<DatabasePlugin DataType="FactionTrait, Assembly-CSharp" Priority="20" >
-				<ExtraTypes>
-					<ExtraType DataType="FactionAffinity, Assembly-CSharp" />
-				</ExtraTypes>
-				<FilePath>Simulation/FactionTraits[CuriosityLoot].xml</FilePath>
-			</DatabasePlugin>
-
-			<DatabasePlugin DataType="Amplitude.Unity.Simulation.SimulationDescriptor, Assembly-CSharp-firstpass">
-				<FilePath>Simulation/SimulationDescriptors[CuriosityLoot].xml</FilePath>
-			</DatabasePlugin>
-
-            <LocalizationPlugin DefaultLanguage="english">
+			<LocalizationPlugin DefaultLanguage="english">
                 <Directory>Localization</Directory>
             </LocalizationPlugin>
 			

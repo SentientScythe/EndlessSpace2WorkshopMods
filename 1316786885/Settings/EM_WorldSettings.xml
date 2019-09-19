@@ -26,7 +26,7 @@
             <KeyValuePair Key="StrategicResourceRareQuantity">2</KeyValuePair>
             <KeyValuePair Key="AnomaliesVisibleQuantity">53</KeyValuePair> <!-- 40 -->
             <KeyValuePair Key="AnomaliesQuantity">20</KeyValuePair>
-            <KeyValuePair Key="WondersMaxQuantity">3</KeyValuePair> <!-- 3-->
+            <KeyValuePair Key="WondersMaxQuantity">5</KeyValuePair> <!-- 1 -->
             <KeyValuePair Key="LootQuantity">30</KeyValuePair>
         </ItemDefinition>
         <ItemDefinition Name="Small">
@@ -52,7 +52,7 @@
             <KeyValuePair Key="StrategicResourceRareQuantity">4</KeyValuePair>
             <KeyValuePair Key="AnomaliesVisibleQuantity">70</KeyValuePair> <!-- 52 -->
             <KeyValuePair Key="AnomaliesQuantity">32</KeyValuePair>
-            <KeyValuePair Key="WondersMaxQuantity">5</KeyValuePair> <!-- 2 -->
+            <KeyValuePair Key="WondersMaxQuantity">8</KeyValuePair> <!-- 2 -->
             <KeyValuePair Key="LootQuantity">50</KeyValuePair>
         </ItemDefinition>
         <ItemDefinition Name="Normal">
@@ -78,7 +78,7 @@
             <KeyValuePair Key="StrategicResourceRareQuantity">7</KeyValuePair>
             <KeyValuePair Key="AnomaliesVisibleQuantity">105</KeyValuePair> <!-- 64 -->
             <KeyValuePair Key="AnomaliesQuantity">44</KeyValuePair>
-            <KeyValuePair Key="WondersMaxQuantity">7</KeyValuePair> <!-- 3 -->
+            <KeyValuePair Key="WondersMaxQuantity">9</KeyValuePair> <!-- 3 -->
             <KeyValuePair Key="LootQuantity">75</KeyValuePair>
         </ItemDefinition>
         <ItemDefinition Name="Large">
@@ -104,7 +104,7 @@
             <KeyValuePair Key="StrategicResourceRareQuantity">9</KeyValuePair>
             <KeyValuePair Key="AnomaliesVisibleQuantity">140</KeyValuePair> <!-- 76 -->
             <KeyValuePair Key="AnomaliesQuantity">56</KeyValuePair>
-            <KeyValuePair Key="WondersMaxQuantity">8</KeyValuePair> <!-- 4 -->
+            <KeyValuePair Key="WondersMaxQuantity">10</KeyValuePair> <!-- 4 -->
             <KeyValuePair Key="LootQuantity">100</KeyValuePair>
         </ItemDefinition>
         <ItemDefinition Name="Huge">
@@ -130,7 +130,7 @@
             <KeyValuePair Key="StrategicResourceRareQuantity">12</KeyValuePair>
             <KeyValuePair Key="AnomaliesVisibleQuantity">175</KeyValuePair> <!-- 88 -->
             <KeyValuePair Key="AnomaliesQuantity">68</KeyValuePair>
-            <KeyValuePair Key="WondersMaxQuantity">10</KeyValuePair> <!-- 6 -->
+            <KeyValuePair Key="WondersMaxQuantity">12</KeyValuePair> <!-- 6 -->
             <KeyValuePair Key="LootQuantity">125</KeyValuePair>
         </ItemDefinition>        
         <ItemDefinition Name="Colossal">
@@ -156,7 +156,7 @@
             <KeyValuePair Key="StrategicResourceRareQuantity">14</KeyValuePair>
             <KeyValuePair Key="AnomaliesVisibleQuantity">210</KeyValuePair> <!-- 100 -->
             <KeyValuePair Key="AnomaliesQuantity">80</KeyValuePair>
-            <KeyValuePair Key="WondersMaxQuantity">13</KeyValuePair> <!-- 8 -->
+            <KeyValuePair Key="WondersMaxQuantity">14</KeyValuePair> <!-- 8 -->
             <KeyValuePair Key="LootQuantity">150</KeyValuePair>
         </ItemDefinition>        
         <ItemDefinition Name="Gigantic">

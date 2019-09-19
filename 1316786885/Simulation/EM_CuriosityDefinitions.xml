@@ -1,6 +1,69 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/CuriosityDefinition.xsd">
     
+<!-- Cloaked Orbs -->
+     <CuriosityDefinition Name="Curiosity_CloakedOrb_I1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="3" DiscoverOnColonization="false" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+        	<TechnologyPrerequisite Flags="Visibility">Technology_OrbDetection</TechnologyPrerequisite>
+        	<InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 3</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="CloakedOrb_I1"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_CloakedOrb"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+    
+     <CuriosityDefinition Name="Curiosity_CloakedOrb_D1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="3" DiscoverOnColonization="false" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+        	<TechnologyPrerequisite Flags="Visibility">Technology_OrbDetection</TechnologyPrerequisite>
+        	<InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 3</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="CloakedOrb_D1"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_CloakedOrb"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+    
+     <CuriosityDefinition Name="Curiosity_CloakedOrb_S1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="3" DiscoverOnColonization="false" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+        	<TechnologyPrerequisite Flags="Visibility">Technology_OrbDetection</TechnologyPrerequisite>
+        	<InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 3</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="CloakedOrb_S1"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_CloakedOrb"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+    
+     <CuriosityDefinition Name="Curiosity_CloakedOrb_FIDS1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="3" DiscoverOnColonization="false" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+        	<TechnologyPrerequisite Flags="Visibility">Technology_OrbDetection</TechnologyPrerequisite>
+        	<InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 3</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="CloakedOrb_FIDS1"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_CloakedOrb"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+
+<!-- Moons -->
     <CuriosityDefinition Name="Curiosity_Moon_SmSingA1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
                          Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
         <VisibilityPrerequisites>
@@ -10,7 +73,7 @@
             <Anomaly Name="Moon_SmSingA1"/>
         </PlanetAnomalyEffect>
         <DroplistEffect>
-            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+            <Droplist Name="CuriosityDroplist_SmallMoon"/>
         </DroplistEffect>
         <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
     </CuriosityDefinition>
@@ -24,7 +87,7 @@
             <Anomaly Name="Moon_SmSingB1"/>
         </PlanetAnomalyEffect>
         <DroplistEffect>
-            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+            <Droplist Name="CuriosityDroplist_SmallMoon"/>
         </DroplistEffect>
         <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
     </CuriosityDefinition>
@@ -39,7 +102,21 @@
             <Anomaly Name="Moon_MdSingA1"/>
         </PlanetAnomalyEffect>
         <DroplistEffect>
-            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+            <Droplist Name="CuriosityDroplist_DefaultMoon"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+    <CuriosityDefinition Name="Curiosity_Moon_MdSingE1" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="Moon_MdSingE1"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_DefaultMoon"/>
         </DroplistEffect>
         <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
     </CuriosityDefinition>
@@ -53,7 +130,7 @@
             <Anomaly Name="Moon_MdSingB1"/>
         </PlanetAnomalyEffect>
         <DroplistEffect>
-            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+            <Droplist Name="CuriosityDroplist_DefaultMoon"/>
         </DroplistEffect>
         <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
     </CuriosityDefinition>
@@ -68,7 +145,7 @@
             <Anomaly Name="Moon_LgSingA1"/>
         </PlanetAnomalyEffect>
         <DroplistEffect>
-            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+            <Droplist Name="CuriosityDroplist_DefaultMoon"/>
         </DroplistEffect>
         <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
     </CuriosityDefinition>
@@ -83,7 +160,7 @@
             <Anomaly Name="Moon_BinaryA1"/>
         </PlanetAnomalyEffect>
         <DroplistEffect>
-            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+            <Droplist Name="CuriosityDroplist_DefaultMoon"/>
         </DroplistEffect>
         <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
     </CuriosityDefinition>
@@ -97,7 +174,7 @@
             <Anomaly Name="Moon_BinaryB1"/>
         </PlanetAnomalyEffect>
         <DroplistEffect>
-            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+            <Droplist Name="CuriosityDroplist_DefaultMoon"/>
         </DroplistEffect>
         <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
     </CuriosityDefinition>
@@ -111,7 +188,7 @@
             <Anomaly Name="Moon_BinaryC1"/>
         </PlanetAnomalyEffect>
         <DroplistEffect>
-            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+            <Droplist Name="CuriosityDroplist_DefaultMoon"/>
         </DroplistEffect>
         <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
     </CuriosityDefinition>
@@ -126,7 +203,7 @@
             <Anomaly Name="Moon_LgBinaryA1"/>
         </PlanetAnomalyEffect>
         <DroplistEffect>
-            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+            <Droplist Name="CuriosityDroplist_DefaultMoon"/>
         </DroplistEffect>
         <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
     </CuriosityDefinition>
@@ -140,7 +217,7 @@
             <Anomaly Name="Moon_LgBinaryB1"/>
         </PlanetAnomalyEffect>
         <DroplistEffect>
-            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+            <Droplist Name="CuriosityDroplist_DefaultMoon"/>
         </DroplistEffect>
         <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
     </CuriosityDefinition>
@@ -155,7 +232,7 @@
             <Anomaly Name="Moon_VolcanicA1"/>
         </PlanetAnomalyEffect>
         <DroplistEffect>
-            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+            <Droplist Name="CuriosityDroplist_DefaultMoon"/>
         </DroplistEffect>
         <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
     </CuriosityDefinition>
@@ -169,7 +246,7 @@
             <Anomaly Name="Moon_VolcanicB1"/>
         </PlanetAnomalyEffect>
         <DroplistEffect>
-            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+            <Droplist Name="CuriosityDroplist_DefaultMoon"/>
         </DroplistEffect>
         <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
     </CuriosityDefinition>
@@ -184,7 +261,7 @@
             <Anomaly Name="Moon_FrozenA1"/>
         </PlanetAnomalyEffect>
         <DroplistEffect>
-            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+            <Droplist Name="CuriosityDroplist_FrozenMoon"/>
         </DroplistEffect>
         <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
     </CuriosityDefinition>
@@ -198,7 +275,7 @@
             <Anomaly Name="Moon_FrozenB1"/>
         </PlanetAnomalyEffect>
         <DroplistEffect>
-            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+            <Droplist Name="CuriosityDroplist_FrozenMoon"/>
         </DroplistEffect>
         <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
     </CuriosityDefinition>
@@ -212,7 +289,7 @@
             <Anomaly Name="Moon_FrozenC1"/>
         </PlanetAnomalyEffect>
         <DroplistEffect>
-            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+            <Droplist Name="CuriosityDroplist_FrozenMoon"/>
         </DroplistEffect>
         <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
     </CuriosityDefinition>
@@ -227,7 +304,7 @@
             <Anomaly Name="Moon_FertileA1"/>
         </PlanetAnomalyEffect>
         <DroplistEffect>
-            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+            <Droplist Name="CuriosityDroplist_DefaultMoon"/>
         </DroplistEffect>
         <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
     </CuriosityDefinition>
@@ -241,7 +318,7 @@
             <Anomaly Name="Moon_FertileB1"/>
         </PlanetAnomalyEffect>
         <DroplistEffect>
-            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+            <Droplist Name="CuriosityDroplist_DefaultMoon"/>
         </DroplistEffect>
         <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
     </CuriosityDefinition>
@@ -255,7 +332,7 @@
             <Anomaly Name="Moon_FertileC1"/>
         </PlanetAnomalyEffect>
         <DroplistEffect>
-            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+            <Droplist Name="CuriosityDroplist_DefaultMoon"/>
         </DroplistEffect>
         <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
     </CuriosityDefinition>
@@ -270,7 +347,7 @@
             <Anomaly Name="Moon_MultiA1"/>
         </PlanetAnomalyEffect>
         <DroplistEffect>
-            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+            <Droplist Name="CuriosityDroplist_DefaultMoon"/>
         </DroplistEffect>
         <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
     </CuriosityDefinition>
@@ -284,7 +361,7 @@
             <Anomaly Name="Moon_MultiB1"/>
         </PlanetAnomalyEffect>
         <DroplistEffect>
-            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+            <Droplist Name="CuriosityDroplist_DefaultMoon"/>
         </DroplistEffect>
         <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
     </CuriosityDefinition>
@@ -298,7 +375,7 @@
             <Anomaly Name="Moon_MultiC1"/>
         </PlanetAnomalyEffect>
         <DroplistEffect>
-            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+            <Droplist Name="CuriosityDroplist_DefaultMoon"/>
         </DroplistEffect>
         <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
     </CuriosityDefinition>
@@ -312,10 +389,10 @@
             <Anomaly Name="Moon_MultiD1"/>
         </PlanetAnomalyEffect>
         <DroplistEffect>
-            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+            <Droplist Name="CuriosityDroplist_DefaultMoon"/>
         </DroplistEffect>
         <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
     </CuriosityDefinition>
-
+    
 
 </Datatable>

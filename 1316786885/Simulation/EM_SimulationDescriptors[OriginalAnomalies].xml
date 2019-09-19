@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
      
-     <!-- changed to have each add to anomaly count -->
+     <!--
+     Changed to have each add to anomaly count - needed to change how anomalies are counted so moons don't add to standard anomaly count
+     Some endless wonders add to EndlessTech count for Infiltration Gateway
+     -->
      
         <!-- ANOMALIES -->
     <SimulationDescriptor Name="PlanetAnomalyAcademy" Type="PlanetAnomaly" >
@@ -12,12 +15,14 @@
 
     <SimulationDescriptor Name="PlanetAnomalyEndlessWonder1" Type="PlanetAnomaly" >
         <Modifier TargetProperty="PlanetRawScience"  Operation="Addition" Value="5" Path="ClassPlanet" />
+        <Modifier TargetProperty="EndlessTech" Value=".5" Operation="Addition" Path="../ClassEmpire/ClassColonizedStarSystem/EndlessTechInfiltration" TooltipHidden="true"/>
 		<Modifier TargetProperty="AnomalyCount" Value="1" Operation="Addition" Path="ClassPlanet" TooltipHidden="true"/>
     </SimulationDescriptor>
 
     <SimulationDescriptor Name="PlanetAnomalyEndlessWonder2" Type="PlanetAnomaly" >
         <Modifier TargetProperty="PlanetRawScience"  Operation="Addition" Value="3" Path="ClassPlanet" />
         <Modifier TargetProperty="PlanetRawDust"     Operation="Addition" Value="2" Path="ClassPlanet" />
+        <Modifier TargetProperty="EndlessTech" Value=".5" Operation="Addition" Path="../ClassEmpire/ClassColonizedStarSystem/EndlessTechInfiltration" TooltipHidden="true"/>
 		<Modifier TargetProperty="AnomalyCount" Value="1" Operation="Addition" Path="ClassPlanet" TooltipHidden="true"/>
     </SimulationDescriptor>
 
@@ -490,6 +495,7 @@
     <SimulationDescriptor Name="PlanetAnomalyNaturalWonder4" Type="PlanetAnomaly">
         <Modifier       TargetProperty="RawMaximumPopulation"   Value="2"           Operation="Addition" Path="ClassPlanet" />
         <Modifier       TargetProperty="MaximumSystemManpower"  Value="500"         Operation="Addition" Path="./ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="EndlessTech" Value=".5" Operation="Addition" Path="../ClassEmpire/ClassColonizedStarSystem/EndlessTechInfiltration" TooltipHidden="true"/>
 		<Modifier TargetProperty="AnomalyCount" Value="1" Operation="Addition" Path="ClassPlanet" TooltipHidden="true"/>
     </SimulationDescriptor>
 
@@ -519,8 +525,69 @@
         <BinaryModifier     TargetProperty="MaximumSystemManpower"  Operation="Addition" Left="10"      BinaryOperation="Multiplication" Right="$(Population)" Path="./ClassColonizedStarSystem/ClassColonizedPlanet" />
 		<Modifier TargetProperty="AnomalyCount" Value="1" Operation="Addition" Path="ClassPlanet" TooltipHidden="true"/>
     </SimulationDescriptor>
-
-
     
-   
+    <!-- DLC 3 -->
+    <!-- Artificial Life -->
+    <SimulationDescriptor Name="PlanetAnomaly50" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetRawFood"        Value="3" Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetRawScience"     Value="2" Operation="Addition" Path="ClassPlanet"/>
+		<Modifier TargetProperty="AnomalyCount" Value="1" Operation="Addition" Path="ClassPlanet" TooltipHidden="true"/>
+    </SimulationDescriptor>
+    
+    <!-- Dust Accretor -->
+    <SimulationDescriptor Name="PlanetAnomaly51" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetRawDust"        Value="4" Operation="Addition" Path="ClassPlanet"/>
+		<Modifier TargetProperty="AnomalyCount" Value="1" Operation="Addition" Path="ClassPlanet" TooltipHidden="true"/>
+    </SimulationDescriptor>
+    
+    <!-- Flickering Matter -->
+    <SimulationDescriptor Name="PlanetAnomaly52" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetRawScience"     Value="2" Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="PlanetRawIndustry"    Value="-1" Operation="Addition" Path="ClassPlanet"/>
+		<Modifier TargetProperty="AnomalyCount" Value="1" Operation="Addition" Path="ClassPlanet" TooltipHidden="true"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="PlanetAnomaly52Reduced" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetRawScience"     Value="2" Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="ReducedAnomalyCount"  Value="1" Operation="Addition" Path="ClassPlanet" TooltipHidden="true"/>
+		<Modifier TargetProperty="AnomalyCount" Value="1" Operation="Addition" Path="ClassPlanet" TooltipHidden="true"/>
+    </SimulationDescriptor>
+
+    <!-- Pseudo-Atmosphere -->
+    <SimulationDescriptor Name="PlanetAnomaly53" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetRawPrestige"    Value="1"   Operation="Addition" Path="ClassPlanet"/>
+        <BinaryModifier TargetProperty="Happiness"      Operation="Addition" Left="+1" BinaryOperation="Multiplication" Right="$(Population)"/>
+        <Modifier TargetProperty="HappinessRaw"         Operation="Addition" Value="+1" TooltipHidden="true" />
+        <Modifier TargetProperty="PlanetRawScience"     Value="-2"  Operation="Addition" Path="ClassPlanet"/>
+		<Modifier TargetProperty="AnomalyCount" Value="1" Operation="Addition" Path="ClassPlanet" TooltipHidden="true"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="PlanetAnomaly53Reduced" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetRawPrestige"    Value="1"   Operation="Addition" Path="ClassPlanet"/>
+        <BinaryModifier TargetProperty="Happiness"      Operation="Addition" Left="+1" BinaryOperation="Multiplication" Right="$(Population)"/>
+        <Modifier TargetProperty="HappinessRaw"         Operation="Addition" Value="+1" TooltipHidden="true" />
+        <Modifier TargetProperty="ReducedAnomalyCount"  Value="1" Operation="Addition" Path="ClassPlanet" TooltipHidden="true"/>
+		<Modifier TargetProperty="AnomalyCount" Value="1" Operation="Addition" Path="ClassPlanet" TooltipHidden="true"/>
+    </SimulationDescriptor>
+
+    <!-- Low-Quality Foundations -->
+    <SimulationDescriptor Name="PlanetAnomaly54" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="PlanetRawFIDS"        Value="-1"       Operation="Addition" Path="ClassPlanet"/>
+		<Modifier TargetProperty="AnomalyCount" Value="1" Operation="Addition" Path="ClassPlanet" TooltipHidden="true"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="PlanetAnomaly54Reduced" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="ReducedAnomalyCount"  Value="1" Operation="Addition" Path="ClassPlanet" TooltipHidden="true"/>
+		<Modifier TargetProperty="AnomalyCount" Value="1" Operation="Addition" Path="ClassPlanet" TooltipHidden="true"/>
+    </SimulationDescriptor>
+
+    <!-- Uninhabitable Area -->
+    <SimulationDescriptor Name="PlanetAnomaly55" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="RawMaximumPopulation"  Value="-1"       Operation="Addition" Path="ClassPlanet"/>
+        <Modifier TargetProperty="HappinessRaw"          Value="-2"       Operation="Addition" Path="ClassPlanet"/>
+		<Modifier TargetProperty="AnomalyCount" Value="1" Operation="Addition" Path="ClassPlanet" TooltipHidden="true"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="PlanetAnomaly55Reduced" Type="PlanetAnomaly" >
+        <Modifier TargetProperty="ReducedAnomalyCount"  Value="1" Operation="Addition" Path="ClassPlanet" TooltipHidden="true"/>
+		<Modifier TargetProperty="AnomalyCount" Value="1" Operation="Addition" Path="ClassPlanet" TooltipHidden="true"/>
+    </SimulationDescriptor>
+
+
 </Datatable>

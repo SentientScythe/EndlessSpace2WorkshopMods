@@ -1,15 +1,15 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
 
-	<ExtendedGuiElement Name="LuxuryInGalaxy">
-		<Title>%LuxuryInGalaxyTitle</Title>
-		<Description>%LuxuryInGalaxyDescription</Description>
-		<Icons>
-			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-		</Icons>
-		<TooltipElement>
-			<EffectOverride>%LuxuryInGalaxyEffect</EffectOverride>
-		</TooltipElement>
-	</ExtendedGuiElement>
     
+    <GuiElement Name="CuriosityLoot">
+        <Title>%NotificationCuriosityLootTitle</Title>
+        <Description>%NotificationCuriosityLootDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="NotificationRebellionSmall" />
+            <Icon Size="Medium" Path="Bitmaps/Dynamic/Notifications/NotificationRebellionMedium" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Notifications/NotificationCuriosityDiscoveredLargeLoot" />
+        </Icons>
+    </GuiElement>
+ 
 </Datatable>

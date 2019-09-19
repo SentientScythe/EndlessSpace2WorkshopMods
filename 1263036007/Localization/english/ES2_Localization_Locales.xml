@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../../Documentation/Schemas/Amplitude.Unity.Localization.LocalizationDatatableElement.xsd">
 
-	<LocalizationPair Name="%LuxuryInGalaxyTitle">Luxuries Available in Galaxy</LocalizationPair>
-	<LocalizationPair Name="%LuxuryInGalaxyDescription">Luxuries Available in Galaxy</LocalizationPair>
-	<LocalizationPair Name="%LuxuryInGalaxyEffect">This adds one of every Luxury available in the galaxy so players can plan accordingly.  View them in the marketplace.</LocalizationPair>
+	<!--mod info-->
+	<LocalizationPair Name="%NotificationCuriosityLootTitle">More Loot Mod</LocalizationPair>
+  	<LocalizationPair Name="%NotificationCuriosityLootDescription">Curiosities Successfully Added</LocalizationPair>
 
 </Datatable>

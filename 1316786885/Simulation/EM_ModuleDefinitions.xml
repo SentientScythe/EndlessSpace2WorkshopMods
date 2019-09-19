@@ -13,6 +13,20 @@
             <SimulationDescriptorReference Name="ModuleSupportMoonExploration1"/>
         </CategorizedSimulationDescriptors>
     </SupportModule>
+        
+    <SupportModule Name="ModuleOrbEngineProbe" Family="ExplorationStrategic4" Level="1">
+        <Cost ResourceName="SystemProduction">80</Cost>
+        <Cost ResourceName="Strategic4" Instant="true">2</Cost>
+        <InterpreterPrerequisite Flags="Edition">Path(Context, @ShipRoleExploration) or Path(Context, @ShipRoleHero)</InterpreterPrerequisite>
+        <PathPrerequisite Flags="UnlockAvailability,Edition" Inverted="false">../ClassEmpire/ClassColonizedStarSystem/CloakedOrb_S2</PathPrerequisite>
+        <SimulationDescriptorReference Name="ClassModuleSupport"/>
+        <SimulationDescriptorReference Name="ClassModuleExplorerAndHeroShipOnly"/>        
+        <CategorizedSimulationDescriptors Category="CategoryExploration">
+            <SimulationDescriptorReference Name="ModuleSupportExploration"/>
+            <SimulationDescriptorReference Name="ModuleOrbEngineProbe"/>
+        </CategorizedSimulationDescriptors>
+    </SupportModule>
+
 
     
 </Datatable>

@@ -9,6 +9,7 @@
         <EncounterEntityReference Name="PlanetAnomaly07"/>
         <GeneratorInfo>
             <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
             <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
             <PlanetFilterNot>PlanetAnomalyRing</PlanetFilterNot>
         </GeneratorInfo>
@@ -21,9 +22,156 @@
         <EncounterEntityReference Name="PlanetAnomaly08"/>
         <GeneratorInfo>
             <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
             <PlanetFilterNot>PlanetGameplayTypeGas</PlanetFilterNot>
             <PlanetFilterNot>PlanetAnomalyRing</PlanetFilterNot>
         </GeneratorInfo>
+    </AnomalyDefinition>
+    
+    
+<!-- Cloaked Orbs -->
+    <AnomalyDefinition Name="CloakedOrb_I1" Quality="Moon">
+        <SimulationDescriptorReference Name="CloakedOrb_I1"/>
+        <SimulationDescriptorReference Name="CloakedOrb"/>
+        <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="PlanetAnomaly25"/>
+        <EncounterEntityReference Name="PlanetAnomaly25"/>
+        <GeneratorInfo>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot> <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_FIDS1</PlanetFilterNot>  
+            <PlanetFilterNot>Curiosity_Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_FrozenA1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_FIDS1</PlanetFilterNot>
+          	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingE1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
+        	<PlanetFilterNot>Moon_LgSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryC1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_LgBinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicA1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_FrozenA1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenB1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenC1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_FertileA1</PlanetFilterNot> <PlanetFilterNot>Moon_FertileB1</PlanetFilterNot> <PlanetFilterNot>Moon_FertileC1</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiA1</PlanetFilterNot> <PlanetFilterNot>Moon_MultiB1</PlanetFilterNot> <PlanetFilterNot>Moon_MultiC1</PlanetFilterNot> <PlanetFilterNot>Moon_MultiD1</PlanetFilterNot>
+			<PlanetFilterNot>Moon_SmSingC1_TA</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingC1_TB</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryD1_TC</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryC1_TD</PlanetFilterNot>
+			<PlanetFilterNot>Moon_VolcanicC1_TE</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenD1_TF</PlanetFilterNot> <PlanetFilterNot>Moon_FertileD1_TG</PlanetFilterNot>
+			<PlanetFilterNot>Moon_FertileE1_TH</PlanetFilterNot> <PlanetFilterNot>Moon_MultiE1_TI</PlanetFilterNot> <PlanetFilterNot>Moon_MultiF1_TJ</PlanetFilterNot> <PlanetFilterNot>Moon_LgSingB1_TK</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingD1_TN</PlanetFilterNot>
+        </GeneratorInfo>
+    </AnomalyDefinition>
+    <AnomalyDefinition Name="CloakedOrb_I2" Quality="Moon">
+        <SimulationDescriptorReference Name="CloakedOrb_I2"/>
+        <SimulationDescriptorReference Name="CloakedOrb"/>
+        <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="PlanetAnomaly25"/>
+        <EncounterEntityReference Name="PlanetAnomaly25"/>
+        <GeneratorInfo/>
+    </AnomalyDefinition>
+
+    <AnomalyDefinition Name="CloakedOrb_D1" Quality="Moon">
+        <SimulationDescriptorReference Name="CloakedOrb_D1"/>
+        <SimulationDescriptorReference Name="CloakedOrb"/>
+        <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="PlanetAnomaly25"/>
+        <EncounterEntityReference Name="PlanetAnomaly25"/>
+        <GeneratorInfo>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot> <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_FIDS1</PlanetFilterNot>  
+            <PlanetFilterNot>Curiosity_Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_FrozenA1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_FIDS1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingE1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
+        	<PlanetFilterNot>Moon_LgSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryC1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_LgBinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicA1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_FrozenA1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenB1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenC1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_FertileA1</PlanetFilterNot> <PlanetFilterNot>Moon_FertileB1</PlanetFilterNot> <PlanetFilterNot>Moon_FertileC1</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiA1</PlanetFilterNot> <PlanetFilterNot>Moon_MultiB1</PlanetFilterNot> <PlanetFilterNot>Moon_MultiC1</PlanetFilterNot> <PlanetFilterNot>Moon_MultiD1</PlanetFilterNot>
+			<PlanetFilterNot>Moon_SmSingC1_TA</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingC1_TB</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryD1_TC</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryC1_TD</PlanetFilterNot>
+			<PlanetFilterNot>Moon_VolcanicC1_TE</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenD1_TF</PlanetFilterNot> <PlanetFilterNot>Moon_FertileD1_TG</PlanetFilterNot>
+			<PlanetFilterNot>Moon_FertileE1_TH</PlanetFilterNot> <PlanetFilterNot>Moon_MultiE1_TI</PlanetFilterNot> <PlanetFilterNot>Moon_MultiF1_TJ</PlanetFilterNot> <PlanetFilterNot>Moon_LgSingB1_TK</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingD1_TN</PlanetFilterNot>
+        </GeneratorInfo>
+    </AnomalyDefinition>
+    <AnomalyDefinition Name="CloakedOrb_D2" Quality="Moon">
+        <SimulationDescriptorReference Name="CloakedOrb_D2"/>
+        <SimulationDescriptorReference Name="CloakedOrb"/>
+        <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="PlanetAnomaly25"/>
+        <EncounterEntityReference Name="PlanetAnomaly25"/>
+        <GeneratorInfo/>
+    </AnomalyDefinition>
+
+    <AnomalyDefinition Name="CloakedOrb_S1" Quality="Moon">
+        <SimulationDescriptorReference Name="CloakedOrb_S1"/>
+        <SimulationDescriptorReference Name="CloakedOrb"/>
+        <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="PlanetAnomaly25"/>
+        <EncounterEntityReference Name="PlanetAnomaly25"/>
+        <GeneratorInfo>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot> <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_FIDS1</PlanetFilterNot>  
+            <PlanetFilterNot>Curiosity_Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_FrozenA1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_FIDS1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingE1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
+        	<PlanetFilterNot>Moon_LgSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryC1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_LgBinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicA1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_FrozenA1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenB1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenC1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_FertileA1</PlanetFilterNot> <PlanetFilterNot>Moon_FertileB1</PlanetFilterNot> <PlanetFilterNot>Moon_FertileC1</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiA1</PlanetFilterNot> <PlanetFilterNot>Moon_MultiB1</PlanetFilterNot> <PlanetFilterNot>Moon_MultiC1</PlanetFilterNot> <PlanetFilterNot>Moon_MultiD1</PlanetFilterNot>
+			<PlanetFilterNot>Moon_SmSingC1_TA</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingC1_TB</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryD1_TC</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryC1_TD</PlanetFilterNot>
+			<PlanetFilterNot>Moon_VolcanicC1_TE</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenD1_TF</PlanetFilterNot> <PlanetFilterNot>Moon_FertileD1_TG</PlanetFilterNot>
+			<PlanetFilterNot>Moon_FertileE1_TH</PlanetFilterNot> <PlanetFilterNot>Moon_MultiE1_TI</PlanetFilterNot> <PlanetFilterNot>Moon_MultiF1_TJ</PlanetFilterNot> <PlanetFilterNot>Moon_LgSingB1_TK</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingD1_TN</PlanetFilterNot>
+        </GeneratorInfo>
+    </AnomalyDefinition>
+    <AnomalyDefinition Name="CloakedOrb_S2" Quality="Moon">
+        <SimulationDescriptorReference Name="CloakedOrb_S2"/>
+        <SimulationDescriptorReference Name="CloakedOrb"/>
+        <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="PlanetAnomaly25"/>
+        <EncounterEntityReference Name="PlanetAnomaly25"/>
+        <GeneratorInfo/>
+    </AnomalyDefinition>
+
+    <AnomalyDefinition Name="CloakedOrb_FIDS1" Quality="Moon">
+        <SimulationDescriptorReference Name="CloakedOrb_FIDS1"/>
+        <SimulationDescriptorReference Name="CloakedOrb"/>
+        <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="PlanetAnomaly25"/>
+        <EncounterEntityReference Name="PlanetAnomaly25"/>
+        <GeneratorInfo>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot> <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_FIDS1</PlanetFilterNot>  
+            <PlanetFilterNot>Curiosity_Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_FrozenA1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_FIDS1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingE1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
+        	<PlanetFilterNot>Moon_LgSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryC1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_LgBinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicA1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_FrozenA1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenB1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenC1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_FertileA1</PlanetFilterNot> <PlanetFilterNot>Moon_FertileB1</PlanetFilterNot> <PlanetFilterNot>Moon_FertileC1</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiA1</PlanetFilterNot> <PlanetFilterNot>Moon_MultiB1</PlanetFilterNot> <PlanetFilterNot>Moon_MultiC1</PlanetFilterNot> <PlanetFilterNot>Moon_MultiD1</PlanetFilterNot>
+			<PlanetFilterNot>Moon_SmSingC1_TA</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingC1_TB</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryD1_TC</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryC1_TD</PlanetFilterNot>
+			<PlanetFilterNot>Moon_VolcanicC1_TE</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenD1_TF</PlanetFilterNot> <PlanetFilterNot>Moon_FertileD1_TG</PlanetFilterNot>
+			<PlanetFilterNot>Moon_FertileE1_TH</PlanetFilterNot> <PlanetFilterNot>Moon_MultiE1_TI</PlanetFilterNot> <PlanetFilterNot>Moon_MultiF1_TJ</PlanetFilterNot> <PlanetFilterNot>Moon_LgSingB1_TK</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingD1_TN</PlanetFilterNot>
+        </GeneratorInfo>
+    </AnomalyDefinition>
+    <AnomalyDefinition Name="CloakedOrb_FIDS2" Quality="Moon">
+        <SimulationDescriptorReference Name="CloakedOrb_FIDS2"/>
+        <SimulationDescriptorReference Name="CloakedOrb"/>
+        <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="PlanetAnomaly25"/>
+        <EncounterEntityReference Name="PlanetAnomaly25"/>
+        <GeneratorInfo/>
     </AnomalyDefinition>
 
 
@@ -34,9 +182,14 @@
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo>
-            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot> <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_FIDS1</PlanetFilterNot> 
             <PlanetFilterNot>Curiosity_Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_FrozenA1</PlanetFilterNot>
-        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
+            <PlanetFilterNot>CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_FIDS1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingE1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
         	<PlanetFilterNot>Moon_LgSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryC1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_LgBinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicA1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicB1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_FrozenA1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenB1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenC1</PlanetFilterNot>
@@ -45,12 +198,13 @@
 			<PlanetFilterNot>Moon_SmSingC1_TA</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingC1_TB</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryD1_TC</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryC1_TD</PlanetFilterNot>
 			<PlanetFilterNot>Moon_VolcanicC1_TE</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenD1_TF</PlanetFilterNot> <PlanetFilterNot>Moon_FertileD1_TG</PlanetFilterNot>
 			<PlanetFilterNot>Moon_FertileE1_TH</PlanetFilterNot> <PlanetFilterNot>Moon_MultiE1_TI</PlanetFilterNot> <PlanetFilterNot>Moon_MultiF1_TJ</PlanetFilterNot> <PlanetFilterNot>Moon_LgSingB1_TK</PlanetFilterNot>
-			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingD1_TN</PlanetFilterNot>
         </GeneratorInfo>
     </AnomalyDefinition>
     <AnomalyDefinition Name="Moon_SmSingA2" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_SmSingA2"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -62,9 +216,14 @@
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo>
-            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot> <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_FIDS1</PlanetFilterNot> 
             <PlanetFilterNot>Curiosity_Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_FrozenA1</PlanetFilterNot>
-        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
+            <PlanetFilterNot>CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_FIDS1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingE1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
         	<PlanetFilterNot>Moon_LgSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryC1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_LgBinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicA1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicB1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_FrozenA1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenB1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenC1</PlanetFilterNot>
@@ -73,12 +232,13 @@
 			<PlanetFilterNot>Moon_SmSingC1_TA</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingC1_TB</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryD1_TC</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryC1_TD</PlanetFilterNot>
 			<PlanetFilterNot>Moon_VolcanicC1_TE</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenD1_TF</PlanetFilterNot> <PlanetFilterNot>Moon_FertileD1_TG</PlanetFilterNot>
 			<PlanetFilterNot>Moon_FertileE1_TH</PlanetFilterNot> <PlanetFilterNot>Moon_MultiE1_TI</PlanetFilterNot> <PlanetFilterNot>Moon_MultiF1_TJ</PlanetFilterNot> <PlanetFilterNot>Moon_LgSingB1_TK</PlanetFilterNot>
-			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingD1_TN</PlanetFilterNot>
         </GeneratorInfo>
     </AnomalyDefinition>
     <AnomalyDefinition Name="Moon_SmSingB2" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_SmSingB2"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -86,6 +246,8 @@
     <AnomalyDefinition Name="Moon_SmSingB3" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_SmSingB3"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="DevelopedMoon"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -98,9 +260,14 @@
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo>
-            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot> <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_FIDS1</PlanetFilterNot> 
             <PlanetFilterNot>Curiosity_Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_FrozenA1</PlanetFilterNot>
-        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
+            <PlanetFilterNot>CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_FIDS1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingE1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
         	<PlanetFilterNot>Moon_LgSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryC1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_LgBinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicA1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicB1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_FrozenA1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenB1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenC1</PlanetFilterNot>
@@ -109,12 +276,13 @@
 			<PlanetFilterNot>Moon_SmSingC1_TA</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingC1_TB</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryD1_TC</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryC1_TD</PlanetFilterNot>
 			<PlanetFilterNot>Moon_VolcanicC1_TE</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenD1_TF</PlanetFilterNot> <PlanetFilterNot>Moon_FertileD1_TG</PlanetFilterNot>
 			<PlanetFilterNot>Moon_FertileE1_TH</PlanetFilterNot> <PlanetFilterNot>Moon_MultiE1_TI</PlanetFilterNot> <PlanetFilterNot>Moon_MultiF1_TJ</PlanetFilterNot> <PlanetFilterNot>Moon_LgSingB1_TK</PlanetFilterNot>
-			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingD1_TN</PlanetFilterNot>
         </GeneratorInfo>
     </AnomalyDefinition>
     <AnomalyDefinition Name="Moon_MdSingA2" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_MdSingA2"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -122,6 +290,51 @@
     <AnomalyDefinition Name="Moon_MdSingA3" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_MdSingA3"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="DevelopedMoon"/>
+        <SimulationDescriptorReference Name="PlanetAnomaly25"/>
+        <EncounterEntityReference Name="PlanetAnomaly25"/>
+        <GeneratorInfo/>
+    </AnomalyDefinition>
+
+    <AnomalyDefinition Name="Moon_MdSingE1" Quality="Moon">
+        <SimulationDescriptorReference Name="Moon_MdSingE1"/>
+        <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="PlanetAnomaly25"/>
+        <EncounterEntityReference Name="PlanetAnomaly25"/>
+        <GeneratorInfo>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot> <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_FIDS1</PlanetFilterNot> 
+            <PlanetFilterNot>Curiosity_Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_FrozenA1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_FIDS1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingE1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
+        	<PlanetFilterNot>Moon_LgSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryC1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_LgBinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicA1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_FrozenA1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenB1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenC1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_FertileA1</PlanetFilterNot> <PlanetFilterNot>Moon_FertileB1</PlanetFilterNot> <PlanetFilterNot>Moon_FertileC1</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiA1</PlanetFilterNot> <PlanetFilterNot>Moon_MultiB1</PlanetFilterNot> <PlanetFilterNot>Moon_MultiC1</PlanetFilterNot> <PlanetFilterNot>Moon_MultiD1</PlanetFilterNot>
+			<PlanetFilterNot>Moon_SmSingC1_TA</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingC1_TB</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryD1_TC</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryC1_TD</PlanetFilterNot>
+			<PlanetFilterNot>Moon_VolcanicC1_TE</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenD1_TF</PlanetFilterNot> <PlanetFilterNot>Moon_FertileD1_TG</PlanetFilterNot>
+			<PlanetFilterNot>Moon_FertileE1_TH</PlanetFilterNot> <PlanetFilterNot>Moon_MultiE1_TI</PlanetFilterNot> <PlanetFilterNot>Moon_MultiF1_TJ</PlanetFilterNot> <PlanetFilterNot>Moon_LgSingB1_TK</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingD1_TN</PlanetFilterNot>
+        </GeneratorInfo>
+    </AnomalyDefinition>
+    <AnomalyDefinition Name="Moon_MdSingE2" Quality="Moon">
+        <SimulationDescriptorReference Name="Moon_MdSingE2"/>
+        <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="PlanetAnomaly25"/>
+        <EncounterEntityReference Name="PlanetAnomaly25"/>
+        <GeneratorInfo/>
+    </AnomalyDefinition>
+    <AnomalyDefinition Name="Moon_MdSingE3" Quality="Moon">
+        <SimulationDescriptorReference Name="Moon_MdSingE3"/>
+        <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="DevelopedMoon"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -133,9 +346,14 @@
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo>
-            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot> <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_FIDS1</PlanetFilterNot> 
             <PlanetFilterNot>Curiosity_Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_FrozenA1</PlanetFilterNot>
-        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
+            <PlanetFilterNot>CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_FIDS1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingE1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
         	<PlanetFilterNot>Moon_LgSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryC1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_LgBinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicA1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicB1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_FrozenA1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenB1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenC1</PlanetFilterNot>
@@ -144,12 +362,13 @@
 			<PlanetFilterNot>Moon_SmSingC1_TA</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingC1_TB</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryD1_TC</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryC1_TD</PlanetFilterNot>
 			<PlanetFilterNot>Moon_VolcanicC1_TE</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenD1_TF</PlanetFilterNot> <PlanetFilterNot>Moon_FertileD1_TG</PlanetFilterNot>
 			<PlanetFilterNot>Moon_FertileE1_TH</PlanetFilterNot> <PlanetFilterNot>Moon_MultiE1_TI</PlanetFilterNot> <PlanetFilterNot>Moon_MultiF1_TJ</PlanetFilterNot> <PlanetFilterNot>Moon_LgSingB1_TK</PlanetFilterNot>
-			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingD1_TN</PlanetFilterNot>
         </GeneratorInfo>
     </AnomalyDefinition>
     <AnomalyDefinition Name="Moon_MdSingB2" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_MdSingB2"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -157,6 +376,8 @@
     <AnomalyDefinition Name="Moon_MdSingB3" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_MdSingB3"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="DevelopedMoon"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -169,9 +390,14 @@
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo>
-            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot> <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_FIDS1</PlanetFilterNot> 
             <PlanetFilterNot>Curiosity_Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_FrozenA1</PlanetFilterNot>
-        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
+            <PlanetFilterNot>CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_FIDS1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingE1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
         	<PlanetFilterNot>Moon_LgSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryC1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_LgBinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicA1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicB1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_FrozenA1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenB1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenC1</PlanetFilterNot>
@@ -180,12 +406,13 @@
 			<PlanetFilterNot>Moon_SmSingC1_TA</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingC1_TB</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryD1_TC</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryC1_TD</PlanetFilterNot>
 			<PlanetFilterNot>Moon_VolcanicC1_TE</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenD1_TF</PlanetFilterNot> <PlanetFilterNot>Moon_FertileD1_TG</PlanetFilterNot>
 			<PlanetFilterNot>Moon_FertileE1_TH</PlanetFilterNot> <PlanetFilterNot>Moon_MultiE1_TI</PlanetFilterNot> <PlanetFilterNot>Moon_MultiF1_TJ</PlanetFilterNot> <PlanetFilterNot>Moon_LgSingB1_TK</PlanetFilterNot>
-			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingD1_TN</PlanetFilterNot>
         </GeneratorInfo>
     </AnomalyDefinition>
     <AnomalyDefinition Name="Moon_LgSingA2" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_LgSingA2"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -193,6 +420,8 @@
     <AnomalyDefinition Name="Moon_LgSingA3" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_LgSingA3"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="DevelopedMoon"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -205,9 +434,14 @@
         <SimulationDescriptorReference Name="PlanetAnomaly26"/>
         <EncounterEntityReference Name="PlanetAnomaly26"/>
         <GeneratorInfo>
-            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot> <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_FIDS1</PlanetFilterNot> 
             <PlanetFilterNot>Curiosity_Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_FrozenA1</PlanetFilterNot>
-        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
+            <PlanetFilterNot>CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_FIDS1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingE1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
         	<PlanetFilterNot>Moon_LgSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryC1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_LgBinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicA1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicB1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_FrozenA1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenB1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenC1</PlanetFilterNot>
@@ -216,12 +450,13 @@
 			<PlanetFilterNot>Moon_SmSingC1_TA</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingC1_TB</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryD1_TC</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryC1_TD</PlanetFilterNot>
 			<PlanetFilterNot>Moon_VolcanicC1_TE</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenD1_TF</PlanetFilterNot> <PlanetFilterNot>Moon_FertileD1_TG</PlanetFilterNot>
 			<PlanetFilterNot>Moon_FertileE1_TH</PlanetFilterNot> <PlanetFilterNot>Moon_MultiE1_TI</PlanetFilterNot> <PlanetFilterNot>Moon_MultiF1_TJ</PlanetFilterNot> <PlanetFilterNot>Moon_LgSingB1_TK</PlanetFilterNot>
-			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingD1_TN</PlanetFilterNot>
         </GeneratorInfo>
     </AnomalyDefinition>
     <AnomalyDefinition Name="Moon_BinaryA2" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_BinaryA2"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon2"/>
         <SimulationDescriptorReference Name="PlanetAnomaly26"/>
         <EncounterEntityReference Name="PlanetAnomaly26"/>
         <GeneratorInfo/>
@@ -229,6 +464,8 @@
     <AnomalyDefinition Name="Moon_BinaryA3" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_BinaryA3"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon2"/>
+        <SimulationDescriptorReference Name="DevelopedMoon2"/>
         <SimulationDescriptorReference Name="PlanetAnomaly26"/>
         <EncounterEntityReference Name="PlanetAnomaly26"/>
         <GeneratorInfo/>
@@ -240,9 +477,14 @@
         <SimulationDescriptorReference Name="PlanetAnomaly26"/>
         <EncounterEntityReference Name="PlanetAnomaly26"/>
         <GeneratorInfo>
-            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot> <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_FIDS1</PlanetFilterNot> 
             <PlanetFilterNot>Curiosity_Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_FrozenA1</PlanetFilterNot>
-        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
+            <PlanetFilterNot>CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_FIDS1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingE1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
         	<PlanetFilterNot>Moon_LgSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryC1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_LgBinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicA1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicB1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_FrozenA1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenB1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenC1</PlanetFilterNot>
@@ -251,12 +493,13 @@
 			<PlanetFilterNot>Moon_SmSingC1_TA</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingC1_TB</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryD1_TC</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryC1_TD</PlanetFilterNot>
 			<PlanetFilterNot>Moon_VolcanicC1_TE</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenD1_TF</PlanetFilterNot> <PlanetFilterNot>Moon_FertileD1_TG</PlanetFilterNot>
 			<PlanetFilterNot>Moon_FertileE1_TH</PlanetFilterNot> <PlanetFilterNot>Moon_MultiE1_TI</PlanetFilterNot> <PlanetFilterNot>Moon_MultiF1_TJ</PlanetFilterNot> <PlanetFilterNot>Moon_LgSingB1_TK</PlanetFilterNot>
-			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingD1_TN</PlanetFilterNot>
         </GeneratorInfo>
     </AnomalyDefinition>
     <AnomalyDefinition Name="Moon_BinaryB2" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_BinaryB2"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon2"/>
         <SimulationDescriptorReference Name="PlanetAnomaly26"/>
         <EncounterEntityReference Name="PlanetAnomaly26"/>
         <GeneratorInfo/>
@@ -264,6 +507,8 @@
     <AnomalyDefinition Name="Moon_BinaryB3" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_BinaryB3"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon2"/>
+        <SimulationDescriptorReference Name="DevelopedMoon2"/>
         <SimulationDescriptorReference Name="PlanetAnomaly26"/>
         <EncounterEntityReference Name="PlanetAnomaly26"/>
         <GeneratorInfo/>
@@ -275,9 +520,14 @@
         <SimulationDescriptorReference Name="PlanetAnomaly26"/>
         <EncounterEntityReference Name="PlanetAnomaly26"/>
         <GeneratorInfo>
-            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot> <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_FIDS1</PlanetFilterNot> 
             <PlanetFilterNot>Curiosity_Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_FrozenA1</PlanetFilterNot>
-        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
+            <PlanetFilterNot>CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_FIDS1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingE1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
         	<PlanetFilterNot>Moon_LgSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryC1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_LgBinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicA1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicB1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_FrozenA1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenB1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenC1</PlanetFilterNot>
@@ -286,12 +536,13 @@
 			<PlanetFilterNot>Moon_SmSingC1_TA</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingC1_TB</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryD1_TC</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryC1_TD</PlanetFilterNot>
 			<PlanetFilterNot>Moon_VolcanicC1_TE</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenD1_TF</PlanetFilterNot> <PlanetFilterNot>Moon_FertileD1_TG</PlanetFilterNot>
 			<PlanetFilterNot>Moon_FertileE1_TH</PlanetFilterNot> <PlanetFilterNot>Moon_MultiE1_TI</PlanetFilterNot> <PlanetFilterNot>Moon_MultiF1_TJ</PlanetFilterNot> <PlanetFilterNot>Moon_LgSingB1_TK</PlanetFilterNot>
-			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingD1_TN</PlanetFilterNot>
         </GeneratorInfo>
     </AnomalyDefinition>
     <AnomalyDefinition Name="Moon_BinaryC2" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_BinaryC2"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon2"/>
         <SimulationDescriptorReference Name="PlanetAnomaly26"/>
         <EncounterEntityReference Name="PlanetAnomaly26"/>
         <GeneratorInfo/>
@@ -299,6 +550,8 @@
     <AnomalyDefinition Name="Moon_BinaryC3" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_BinaryC3"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon2"/>
+        <SimulationDescriptorReference Name="DevelopedMoon2"/>
         <SimulationDescriptorReference Name="PlanetAnomaly26"/>
         <EncounterEntityReference Name="PlanetAnomaly26"/>
         <GeneratorInfo/>
@@ -311,9 +564,14 @@
         <SimulationDescriptorReference Name="PlanetAnomaly26"/>
         <EncounterEntityReference Name="PlanetAnomaly26"/>
         <GeneratorInfo>
-            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot> <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_FIDS1</PlanetFilterNot> 
             <PlanetFilterNot>Curiosity_Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_FrozenA1</PlanetFilterNot>
-        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
+            <PlanetFilterNot>CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_FIDS1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingE1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
         	<PlanetFilterNot>Moon_LgSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryC1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_LgBinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicA1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicB1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_FrozenA1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenB1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenC1</PlanetFilterNot>
@@ -322,12 +580,13 @@
 			<PlanetFilterNot>Moon_SmSingC1_TA</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingC1_TB</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryD1_TC</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryC1_TD</PlanetFilterNot>
 			<PlanetFilterNot>Moon_VolcanicC1_TE</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenD1_TF</PlanetFilterNot> <PlanetFilterNot>Moon_FertileD1_TG</PlanetFilterNot>
 			<PlanetFilterNot>Moon_FertileE1_TH</PlanetFilterNot> <PlanetFilterNot>Moon_MultiE1_TI</PlanetFilterNot> <PlanetFilterNot>Moon_MultiF1_TJ</PlanetFilterNot> <PlanetFilterNot>Moon_LgSingB1_TK</PlanetFilterNot>
-			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingD1_TN</PlanetFilterNot>
         </GeneratorInfo>
     </AnomalyDefinition>
     <AnomalyDefinition Name="Moon_LgBinaryA2" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_LgBinaryA2"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon2"/>
         <SimulationDescriptorReference Name="PlanetAnomaly26"/>
         <EncounterEntityReference Name="PlanetAnomaly26"/>
         <GeneratorInfo/>
@@ -335,6 +594,8 @@
     <AnomalyDefinition Name="Moon_LgBinaryA3" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_LgBinaryA3"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon2"/>
+        <SimulationDescriptorReference Name="DevelopedMoon2"/>
         <SimulationDescriptorReference Name="PlanetAnomaly26"/>
         <EncounterEntityReference Name="PlanetAnomaly26"/>
         <GeneratorInfo/>
@@ -346,9 +607,14 @@
         <SimulationDescriptorReference Name="PlanetAnomaly26"/>
         <EncounterEntityReference Name="PlanetAnomaly26"/>
         <GeneratorInfo>
-            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot> <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_FIDS1</PlanetFilterNot> 
             <PlanetFilterNot>Curiosity_Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_FrozenA1</PlanetFilterNot>
-        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
+            <PlanetFilterNot>CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_FIDS1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingE1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
         	<PlanetFilterNot>Moon_LgSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryC1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_LgBinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicA1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicB1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_FrozenA1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenB1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenC1</PlanetFilterNot>
@@ -357,12 +623,13 @@
 			<PlanetFilterNot>Moon_SmSingC1_TA</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingC1_TB</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryD1_TC</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryC1_TD</PlanetFilterNot>
 			<PlanetFilterNot>Moon_VolcanicC1_TE</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenD1_TF</PlanetFilterNot> <PlanetFilterNot>Moon_FertileD1_TG</PlanetFilterNot>
 			<PlanetFilterNot>Moon_FertileE1_TH</PlanetFilterNot> <PlanetFilterNot>Moon_MultiE1_TI</PlanetFilterNot> <PlanetFilterNot>Moon_MultiF1_TJ</PlanetFilterNot> <PlanetFilterNot>Moon_LgSingB1_TK</PlanetFilterNot>
-			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingD1_TN</PlanetFilterNot>
         </GeneratorInfo>
     </AnomalyDefinition>
     <AnomalyDefinition Name="Moon_LgBinaryB2" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_LgBinaryB2"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon2"/>
         <SimulationDescriptorReference Name="PlanetAnomaly26"/>
         <EncounterEntityReference Name="PlanetAnomaly26"/>
         <GeneratorInfo/>
@@ -370,6 +637,8 @@
     <AnomalyDefinition Name="Moon_LgBinaryB3" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_LgBinaryB3"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon2"/>
+        <SimulationDescriptorReference Name="DevelopedMoon2"/>
         <SimulationDescriptorReference Name="PlanetAnomaly26"/>
         <EncounterEntityReference Name="PlanetAnomaly26"/>
         <GeneratorInfo/>
@@ -382,9 +651,14 @@
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo>
-            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot> <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_FIDS1</PlanetFilterNot> 
             <PlanetFilterNot>Curiosity_Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_FrozenA1</PlanetFilterNot>
-        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
+            <PlanetFilterNot>CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_FIDS1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingE1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
         	<PlanetFilterNot>Moon_LgSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryC1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_LgBinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicA1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicB1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_FrozenA1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenB1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenC1</PlanetFilterNot>
@@ -393,12 +667,13 @@
 			<PlanetFilterNot>Moon_SmSingC1_TA</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingC1_TB</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryD1_TC</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryC1_TD</PlanetFilterNot>
 			<PlanetFilterNot>Moon_VolcanicC1_TE</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenD1_TF</PlanetFilterNot> <PlanetFilterNot>Moon_FertileD1_TG</PlanetFilterNot>
 			<PlanetFilterNot>Moon_FertileE1_TH</PlanetFilterNot> <PlanetFilterNot>Moon_MultiE1_TI</PlanetFilterNot> <PlanetFilterNot>Moon_MultiF1_TJ</PlanetFilterNot> <PlanetFilterNot>Moon_LgSingB1_TK</PlanetFilterNot>
-			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingD1_TN</PlanetFilterNot>
         </GeneratorInfo>
     </AnomalyDefinition>
     <AnomalyDefinition Name="Moon_VolcanicA2" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_VolcanicA2"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -406,6 +681,8 @@
     <AnomalyDefinition Name="Moon_VolcanicA3" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_VolcanicA3"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="DevelopedMoon"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -417,9 +694,14 @@
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo>
-            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot> <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_FIDS1</PlanetFilterNot> 
             <PlanetFilterNot>Curiosity_Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_FrozenA1</PlanetFilterNot>
-        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
+            <PlanetFilterNot>CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_FIDS1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingE1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
         	<PlanetFilterNot>Moon_LgSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryC1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_LgBinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicA1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicB1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_FrozenA1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenB1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenC1</PlanetFilterNot>
@@ -428,12 +710,13 @@
 			<PlanetFilterNot>Moon_SmSingC1_TA</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingC1_TB</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryD1_TC</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryC1_TD</PlanetFilterNot>
 			<PlanetFilterNot>Moon_VolcanicC1_TE</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenD1_TF</PlanetFilterNot> <PlanetFilterNot>Moon_FertileD1_TG</PlanetFilterNot>
 			<PlanetFilterNot>Moon_FertileE1_TH</PlanetFilterNot> <PlanetFilterNot>Moon_MultiE1_TI</PlanetFilterNot> <PlanetFilterNot>Moon_MultiF1_TJ</PlanetFilterNot> <PlanetFilterNot>Moon_LgSingB1_TK</PlanetFilterNot>
-			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingD1_TN</PlanetFilterNot>
         </GeneratorInfo>
     </AnomalyDefinition>
     <AnomalyDefinition Name="Moon_VolcanicB2" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_VolcanicB2"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -441,6 +724,8 @@
     <AnomalyDefinition Name="Moon_VolcanicB3" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_VolcanicB3"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="DevelopedMoon"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -453,9 +738,14 @@
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo>
-            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot> <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_FIDS1</PlanetFilterNot> 
             <PlanetFilterNot>Curiosity_Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_FrozenA1</PlanetFilterNot>
-        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
+            <PlanetFilterNot>CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_FIDS1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingE1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
         	<PlanetFilterNot>Moon_LgSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryC1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_LgBinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicA1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicB1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_FrozenA1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenB1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenC1</PlanetFilterNot>
@@ -464,12 +754,14 @@
 			<PlanetFilterNot>Moon_SmSingC1_TA</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingC1_TB</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryD1_TC</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryC1_TD</PlanetFilterNot>
 			<PlanetFilterNot>Moon_VolcanicC1_TE</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenD1_TF</PlanetFilterNot> <PlanetFilterNot>Moon_FertileD1_TG</PlanetFilterNot>
 			<PlanetFilterNot>Moon_FertileE1_TH</PlanetFilterNot> <PlanetFilterNot>Moon_MultiE1_TI</PlanetFilterNot> <PlanetFilterNot>Moon_MultiF1_TJ</PlanetFilterNot> <PlanetFilterNot>Moon_LgSingB1_TK</PlanetFilterNot>
-			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingD1_TN</PlanetFilterNot>
         </GeneratorInfo>
     </AnomalyDefinition>
     <AnomalyDefinition Name="Moon_FrozenA2" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_FrozenA2"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="DevelopedMoon"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -481,9 +773,14 @@
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo>
-            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot> <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_FIDS1</PlanetFilterNot> 
             <PlanetFilterNot>Curiosity_Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_FrozenA1</PlanetFilterNot>
-        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
+            <PlanetFilterNot>CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_FIDS1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingE1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
         	<PlanetFilterNot>Moon_LgSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryC1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_LgBinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicA1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicB1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_FrozenA1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenB1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenC1</PlanetFilterNot>
@@ -492,12 +789,13 @@
 			<PlanetFilterNot>Moon_SmSingC1_TA</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingC1_TB</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryD1_TC</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryC1_TD</PlanetFilterNot>
 			<PlanetFilterNot>Moon_VolcanicC1_TE</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenD1_TF</PlanetFilterNot> <PlanetFilterNot>Moon_FertileD1_TG</PlanetFilterNot>
 			<PlanetFilterNot>Moon_FertileE1_TH</PlanetFilterNot> <PlanetFilterNot>Moon_MultiE1_TI</PlanetFilterNot> <PlanetFilterNot>Moon_MultiF1_TJ</PlanetFilterNot> <PlanetFilterNot>Moon_LgSingB1_TK</PlanetFilterNot>
-			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingD1_TN</PlanetFilterNot>
         </GeneratorInfo>
     </AnomalyDefinition>
     <AnomalyDefinition Name="Moon_FrozenB2" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_FrozenB2"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -505,6 +803,8 @@
     <AnomalyDefinition Name="Moon_FrozenB3" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_FrozenB3"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="DevelopedMoon"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -516,9 +816,14 @@
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo>
-            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot> <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_FIDS1</PlanetFilterNot> 
             <PlanetFilterNot>Curiosity_Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_FrozenA1</PlanetFilterNot>
-        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
+            <PlanetFilterNot>CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_FIDS1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingE1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
         	<PlanetFilterNot>Moon_LgSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryC1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_LgBinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicA1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicB1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_FrozenA1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenB1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenC1</PlanetFilterNot>
@@ -527,12 +832,13 @@
 			<PlanetFilterNot>Moon_SmSingC1_TA</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingC1_TB</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryD1_TC</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryC1_TD</PlanetFilterNot>
 			<PlanetFilterNot>Moon_VolcanicC1_TE</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenD1_TF</PlanetFilterNot> <PlanetFilterNot>Moon_FertileD1_TG</PlanetFilterNot>
 			<PlanetFilterNot>Moon_FertileE1_TH</PlanetFilterNot> <PlanetFilterNot>Moon_MultiE1_TI</PlanetFilterNot> <PlanetFilterNot>Moon_MultiF1_TJ</PlanetFilterNot> <PlanetFilterNot>Moon_LgSingB1_TK</PlanetFilterNot>
-			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingD1_TN</PlanetFilterNot>
         </GeneratorInfo>
     </AnomalyDefinition>
     <AnomalyDefinition Name="Moon_FrozenC2" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_FrozenC2"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -540,6 +846,8 @@
     <AnomalyDefinition Name="Moon_FrozenC3" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_FrozenC3"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="DevelopedMoon"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -552,9 +860,14 @@
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo>
-            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot> <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_FIDS1</PlanetFilterNot> 
             <PlanetFilterNot>Curiosity_Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_FrozenA1</PlanetFilterNot>
-        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
+            <PlanetFilterNot>CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_FIDS1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingE1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
         	<PlanetFilterNot>Moon_LgSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryC1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_LgBinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicA1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicB1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_FrozenA1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenB1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenC1</PlanetFilterNot>
@@ -563,12 +876,13 @@
 			<PlanetFilterNot>Moon_SmSingC1_TA</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingC1_TB</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryD1_TC</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryC1_TD</PlanetFilterNot>
 			<PlanetFilterNot>Moon_VolcanicC1_TE</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenD1_TF</PlanetFilterNot> <PlanetFilterNot>Moon_FertileD1_TG</PlanetFilterNot>
 			<PlanetFilterNot>Moon_FertileE1_TH</PlanetFilterNot> <PlanetFilterNot>Moon_MultiE1_TI</PlanetFilterNot> <PlanetFilterNot>Moon_MultiF1_TJ</PlanetFilterNot> <PlanetFilterNot>Moon_LgSingB1_TK</PlanetFilterNot>
-			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingD1_TN</PlanetFilterNot>
         </GeneratorInfo>
     </AnomalyDefinition>
     <AnomalyDefinition Name="Moon_FertileA2" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_FertileA2"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -576,6 +890,8 @@
     <AnomalyDefinition Name="Moon_FertileA3" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_FertileA3"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="DevelopedMoon"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -587,9 +903,14 @@
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo>
-            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot> <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_FIDS1</PlanetFilterNot> 
             <PlanetFilterNot>Curiosity_Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_FrozenA1</PlanetFilterNot>
-        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
+            <PlanetFilterNot>CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_FIDS1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingE1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
         	<PlanetFilterNot>Moon_LgSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryC1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_LgBinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicA1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicB1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_FrozenA1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenB1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenC1</PlanetFilterNot>
@@ -598,12 +919,13 @@
 			<PlanetFilterNot>Moon_SmSingC1_TA</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingC1_TB</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryD1_TC</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryC1_TD</PlanetFilterNot>
 			<PlanetFilterNot>Moon_VolcanicC1_TE</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenD1_TF</PlanetFilterNot> <PlanetFilterNot>Moon_FertileD1_TG</PlanetFilterNot>
 			<PlanetFilterNot>Moon_FertileE1_TH</PlanetFilterNot> <PlanetFilterNot>Moon_MultiE1_TI</PlanetFilterNot> <PlanetFilterNot>Moon_MultiF1_TJ</PlanetFilterNot> <PlanetFilterNot>Moon_LgSingB1_TK</PlanetFilterNot>
-			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingD1_TN</PlanetFilterNot>
         </GeneratorInfo>
     </AnomalyDefinition>
     <AnomalyDefinition Name="Moon_FertileB2" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_FertileB2"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -611,6 +933,8 @@
     <AnomalyDefinition Name="Moon_FertileB3" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_FertileB3"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="DevelopedMoon"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -622,9 +946,14 @@
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo>
-            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot> <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_FIDS1</PlanetFilterNot> 
             <PlanetFilterNot>Curiosity_Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_FrozenA1</PlanetFilterNot>
-        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
+            <PlanetFilterNot>CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_FIDS1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingE1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
         	<PlanetFilterNot>Moon_LgSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryC1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_LgBinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicA1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicB1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_FrozenA1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenB1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenC1</PlanetFilterNot>
@@ -633,12 +962,13 @@
 			<PlanetFilterNot>Moon_SmSingC1_TA</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingC1_TB</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryD1_TC</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryC1_TD</PlanetFilterNot>
 			<PlanetFilterNot>Moon_VolcanicC1_TE</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenD1_TF</PlanetFilterNot> <PlanetFilterNot>Moon_FertileD1_TG</PlanetFilterNot>
 			<PlanetFilterNot>Moon_FertileE1_TH</PlanetFilterNot> <PlanetFilterNot>Moon_MultiE1_TI</PlanetFilterNot> <PlanetFilterNot>Moon_MultiF1_TJ</PlanetFilterNot> <PlanetFilterNot>Moon_LgSingB1_TK</PlanetFilterNot>
-			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingD1_TN</PlanetFilterNot>
         </GeneratorInfo>
     </AnomalyDefinition>
     <AnomalyDefinition Name="Moon_FertileC2" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_FertileC2"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -646,6 +976,8 @@
     <AnomalyDefinition Name="Moon_FertileC3" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_FertileC3"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="DevelopedMoon"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -658,9 +990,14 @@
         <SimulationDescriptorReference Name="PlanetAnomaly27"/>
         <EncounterEntityReference Name="PlanetAnomaly27"/>
         <GeneratorInfo>
-            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot> <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_FIDS1</PlanetFilterNot> 
             <PlanetFilterNot>Curiosity_Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_FrozenA1</PlanetFilterNot>
-        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
+            <PlanetFilterNot>CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_FIDS1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingE1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
         	<PlanetFilterNot>Moon_LgSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryC1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_LgBinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicA1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicB1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_FrozenA1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenB1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenC1</PlanetFilterNot>
@@ -669,12 +1006,13 @@
 			<PlanetFilterNot>Moon_SmSingC1_TA</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingC1_TB</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryD1_TC</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryC1_TD</PlanetFilterNot>
 			<PlanetFilterNot>Moon_VolcanicC1_TE</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenD1_TF</PlanetFilterNot> <PlanetFilterNot>Moon_FertileD1_TG</PlanetFilterNot>
 			<PlanetFilterNot>Moon_FertileE1_TH</PlanetFilterNot> <PlanetFilterNot>Moon_MultiE1_TI</PlanetFilterNot> <PlanetFilterNot>Moon_MultiF1_TJ</PlanetFilterNot> <PlanetFilterNot>Moon_LgSingB1_TK</PlanetFilterNot>
-			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingD1_TN</PlanetFilterNot>
         </GeneratorInfo>
     </AnomalyDefinition>
     <AnomalyDefinition Name="Moon_MultiA2" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_MultiA2"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon3"/>
         <SimulationDescriptorReference Name="PlanetAnomaly27"/>
         <EncounterEntityReference Name="PlanetAnomaly27"/>
         <GeneratorInfo/>
@@ -682,6 +1020,8 @@
     <AnomalyDefinition Name="Moon_MultiA3" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_MultiA3"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon3"/>
+        <SimulationDescriptorReference Name="DevelopedMoon3"/>
         <SimulationDescriptorReference Name="PlanetAnomaly27"/>
         <EncounterEntityReference Name="PlanetAnomaly27"/>
         <GeneratorInfo/>
@@ -693,9 +1033,14 @@
         <SimulationDescriptorReference Name="PlanetAnomaly27"/>
         <EncounterEntityReference Name="PlanetAnomaly27"/>
         <GeneratorInfo>
-            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot> <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_FIDS1</PlanetFilterNot> 
             <PlanetFilterNot>Curiosity_Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_FrozenA1</PlanetFilterNot>
-        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
+            <PlanetFilterNot>CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_FIDS1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingE1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
         	<PlanetFilterNot>Moon_LgSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryC1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_LgBinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicA1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicB1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_FrozenA1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenB1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenC1</PlanetFilterNot>
@@ -704,12 +1049,13 @@
 			<PlanetFilterNot>Moon_SmSingC1_TA</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingC1_TB</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryD1_TC</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryC1_TD</PlanetFilterNot>
 			<PlanetFilterNot>Moon_VolcanicC1_TE</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenD1_TF</PlanetFilterNot> <PlanetFilterNot>Moon_FertileD1_TG</PlanetFilterNot>
 			<PlanetFilterNot>Moon_FertileE1_TH</PlanetFilterNot> <PlanetFilterNot>Moon_MultiE1_TI</PlanetFilterNot> <PlanetFilterNot>Moon_MultiF1_TJ</PlanetFilterNot> <PlanetFilterNot>Moon_LgSingB1_TK</PlanetFilterNot>
-			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingD1_TN</PlanetFilterNot>
         </GeneratorInfo>
     </AnomalyDefinition>
     <AnomalyDefinition Name="Moon_MultiB2" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_MultiB2"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon3"/>
         <SimulationDescriptorReference Name="PlanetAnomaly27"/>
         <EncounterEntityReference Name="PlanetAnomaly27"/>
         <GeneratorInfo/>
@@ -717,6 +1063,8 @@
     <AnomalyDefinition Name="Moon_MultiB3" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_MultiB3"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon3"/>
+        <SimulationDescriptorReference Name="DevelopedMoon3"/>
         <SimulationDescriptorReference Name="PlanetAnomaly27"/>
         <EncounterEntityReference Name="PlanetAnomaly27"/>
         <GeneratorInfo/>
@@ -728,9 +1076,14 @@
         <SimulationDescriptorReference Name="PlanetAnomaly27"/>
         <EncounterEntityReference Name="PlanetAnomaly27"/>
         <GeneratorInfo>
-            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot> <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_FIDS1</PlanetFilterNot> 
             <PlanetFilterNot>Curiosity_Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_FrozenA1</PlanetFilterNot>
-        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
+            <PlanetFilterNot>CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_FIDS1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingE1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
         	<PlanetFilterNot>Moon_LgSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryC1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_LgBinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicA1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicB1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_FrozenA1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenB1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenC1</PlanetFilterNot>
@@ -739,12 +1092,13 @@
 			<PlanetFilterNot>Moon_SmSingC1_TA</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingC1_TB</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryD1_TC</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryC1_TD</PlanetFilterNot>
 			<PlanetFilterNot>Moon_VolcanicC1_TE</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenD1_TF</PlanetFilterNot> <PlanetFilterNot>Moon_FertileD1_TG</PlanetFilterNot>
 			<PlanetFilterNot>Moon_FertileE1_TH</PlanetFilterNot> <PlanetFilterNot>Moon_MultiE1_TI</PlanetFilterNot> <PlanetFilterNot>Moon_MultiF1_TJ</PlanetFilterNot> <PlanetFilterNot>Moon_LgSingB1_TK</PlanetFilterNot>
-			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingD1_TN</PlanetFilterNot>
         </GeneratorInfo>
     </AnomalyDefinition>
     <AnomalyDefinition Name="Moon_MultiC2" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_MultiC2"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon3"/>
         <SimulationDescriptorReference Name="PlanetAnomaly27"/>
         <EncounterEntityReference Name="PlanetAnomaly27"/>
         <GeneratorInfo/>
@@ -752,6 +1106,8 @@
     <AnomalyDefinition Name="Moon_MultiC3" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_MultiC3"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon3"/>
+        <SimulationDescriptorReference Name="DevelopedMoon3"/>
         <SimulationDescriptorReference Name="PlanetAnomaly27"/>
         <EncounterEntityReference Name="PlanetAnomaly27"/>
         <GeneratorInfo/>
@@ -763,9 +1119,14 @@
         <SimulationDescriptorReference Name="PlanetAnomaly27"/>
         <EncounterEntityReference Name="PlanetAnomaly27"/>
         <GeneratorInfo>
-            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot> <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_FIDS1</PlanetFilterNot> 
             <PlanetFilterNot>Curiosity_Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_FrozenA1</PlanetFilterNot>
-        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
+            <PlanetFilterNot>CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_FIDS1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingE1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
         	<PlanetFilterNot>Moon_LgSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryC1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_LgBinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicA1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicB1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_FrozenA1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenB1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenC1</PlanetFilterNot>
@@ -774,12 +1135,13 @@
 			<PlanetFilterNot>Moon_SmSingC1_TA</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingC1_TB</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryD1_TC</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryC1_TD</PlanetFilterNot>
 			<PlanetFilterNot>Moon_VolcanicC1_TE</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenD1_TF</PlanetFilterNot> <PlanetFilterNot>Moon_FertileD1_TG</PlanetFilterNot>
 			<PlanetFilterNot>Moon_FertileE1_TH</PlanetFilterNot> <PlanetFilterNot>Moon_MultiE1_TI</PlanetFilterNot> <PlanetFilterNot>Moon_MultiF1_TJ</PlanetFilterNot> <PlanetFilterNot>Moon_LgSingB1_TK</PlanetFilterNot>
-			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingD1_TN</PlanetFilterNot>
         </GeneratorInfo>
     </AnomalyDefinition>
     <AnomalyDefinition Name="Moon_MultiD2" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_MultiD2"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon3"/>
         <SimulationDescriptorReference Name="PlanetAnomaly27"/>
         <EncounterEntityReference Name="PlanetAnomaly27"/>
         <GeneratorInfo/>
@@ -787,12 +1149,15 @@
     <AnomalyDefinition Name="Moon_MultiD3" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_MultiD3"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon3"/>
+        <SimulationDescriptorReference Name="DevelopedMoon3"/>
         <SimulationDescriptorReference Name="PlanetAnomaly27"/>
         <EncounterEntityReference Name="PlanetAnomaly27"/>
         <GeneratorInfo/>
     </AnomalyDefinition>
 
     
+<!-- Temples -->
     
     <AnomalyDefinition Name="Moon_SmSingC1_TA" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_SmSingC1_TA"/>
@@ -801,9 +1166,14 @@
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo>
-            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot> <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_FIDS1</PlanetFilterNot> 
             <PlanetFilterNot>Curiosity_Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_FrozenA1</PlanetFilterNot>
-        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
+            <PlanetFilterNot>CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_FIDS1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingE1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
         	<PlanetFilterNot>Moon_LgSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryC1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_LgBinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicA1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicB1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_FrozenA1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenB1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenC1</PlanetFilterNot>
@@ -812,12 +1182,14 @@
 			<PlanetFilterNot>Moon_SmSingC1_TA</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingC1_TB</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryD1_TC</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryC1_TD</PlanetFilterNot>
 			<PlanetFilterNot>Moon_VolcanicC1_TE</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenD1_TF</PlanetFilterNot> <PlanetFilterNot>Moon_FertileD1_TG</PlanetFilterNot>
 			<PlanetFilterNot>Moon_FertileE1_TH</PlanetFilterNot> <PlanetFilterNot>Moon_MultiE1_TI</PlanetFilterNot> <PlanetFilterNot>Moon_MultiF1_TJ</PlanetFilterNot> <PlanetFilterNot>Moon_LgSingB1_TK</PlanetFilterNot>
-			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingD1_TN</PlanetFilterNot>
         </GeneratorInfo>
     </AnomalyDefinition>
     <AnomalyDefinition Name="Moon_SmSingC2_TA" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_SmSingC2_TA"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -826,6 +1198,8 @@
         <SimulationDescriptorReference Name="Moon_SmSingC3_TA"/>
         <SimulationDescriptorReference Name="ET_A" />
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -834,6 +1208,8 @@
         <SimulationDescriptorReference Name="Moon_SmSingC4_TA"/>
         <SimulationDescriptorReference Name="ET_A" />
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -846,9 +1222,14 @@
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo>
-            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot> <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_FIDS1</PlanetFilterNot> 
             <PlanetFilterNot>Curiosity_Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_FrozenA1</PlanetFilterNot>
-        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
+            <PlanetFilterNot>CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_FIDS1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingE1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
         	<PlanetFilterNot>Moon_LgSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryC1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_LgBinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicA1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicB1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_FrozenA1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenB1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenC1</PlanetFilterNot>
@@ -857,12 +1238,14 @@
 			<PlanetFilterNot>Moon_SmSingC1_TA</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingC1_TB</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryD1_TC</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryC1_TD</PlanetFilterNot>
 			<PlanetFilterNot>Moon_VolcanicC1_TE</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenD1_TF</PlanetFilterNot> <PlanetFilterNot>Moon_FertileD1_TG</PlanetFilterNot>
 			<PlanetFilterNot>Moon_FertileE1_TH</PlanetFilterNot> <PlanetFilterNot>Moon_MultiE1_TI</PlanetFilterNot> <PlanetFilterNot>Moon_MultiF1_TJ</PlanetFilterNot> <PlanetFilterNot>Moon_LgSingB1_TK</PlanetFilterNot>
-			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingD1_TN</PlanetFilterNot>
         </GeneratorInfo>
     </AnomalyDefinition>
     <AnomalyDefinition Name="Moon_MdSingC2_TB" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_MdSingC2_TB"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -870,6 +1253,8 @@
     <AnomalyDefinition Name="Moon_MdSingC3_TB" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_MdSingC3_TB"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -877,6 +1262,8 @@
     <AnomalyDefinition Name="Moon_MdSingC4_E_TB" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_MdSingC4_E_TB"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -885,6 +1272,8 @@
         <SimulationDescriptorReference Name="Moon_MdSingC4_S_TB"/>
         <SimulationDescriptorReference Name="ET_B_S" />
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -893,6 +1282,8 @@
         <SimulationDescriptorReference Name="Moon_MdSingC5_ES_TB"/>
         <SimulationDescriptorReference Name="ET_B_S" />
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -905,9 +1296,14 @@
         <SimulationDescriptorReference Name="PlanetAnomaly26"/>
         <EncounterEntityReference Name="PlanetAnomaly26"/>
         <GeneratorInfo>
-            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot> <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_FIDS1</PlanetFilterNot> 
             <PlanetFilterNot>Curiosity_Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_FrozenA1</PlanetFilterNot>
-        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
+            <PlanetFilterNot>CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_FIDS1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingE1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
         	<PlanetFilterNot>Moon_LgSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryC1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_LgBinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicA1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicB1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_FrozenA1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenB1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenC1</PlanetFilterNot>
@@ -916,12 +1312,14 @@
 			<PlanetFilterNot>Moon_SmSingC1_TA</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingC1_TB</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryD1_TC</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryC1_TD</PlanetFilterNot>
 			<PlanetFilterNot>Moon_VolcanicC1_TE</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenD1_TF</PlanetFilterNot> <PlanetFilterNot>Moon_FertileD1_TG</PlanetFilterNot>
 			<PlanetFilterNot>Moon_FertileE1_TH</PlanetFilterNot> <PlanetFilterNot>Moon_MultiE1_TI</PlanetFilterNot> <PlanetFilterNot>Moon_MultiF1_TJ</PlanetFilterNot> <PlanetFilterNot>Moon_LgSingB1_TK</PlanetFilterNot>
-			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingD1_TN</PlanetFilterNot>
         </GeneratorInfo>
     </AnomalyDefinition>
     <AnomalyDefinition Name="Moon_BinaryD2_TC" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_BinaryD2_TC"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon2"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly26"/>
         <EncounterEntityReference Name="PlanetAnomaly26"/>
         <GeneratorInfo/>
@@ -930,6 +1328,8 @@
         <SimulationDescriptorReference Name="Moon_BinaryD3_TC"/>
         <SimulationDescriptorReference Name="ET_C" />
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon2"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly26"/>
         <EncounterEntityReference Name="PlanetAnomaly26"/>
         <GeneratorInfo/>
@@ -938,6 +1338,8 @@
         <SimulationDescriptorReference Name="Moon_BinaryD4_TC"/>
         <SimulationDescriptorReference Name="ET_C" />
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon2"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly26"/>
         <EncounterEntityReference Name="PlanetAnomaly26"/>
         <GeneratorInfo/>
@@ -946,6 +1348,8 @@
         <SimulationDescriptorReference Name="Moon_BinaryD5_TC"/>
         <SimulationDescriptorReference Name="ET_C" />
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon2"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly26"/>
         <EncounterEntityReference Name="PlanetAnomaly26"/>
         <GeneratorInfo/>
@@ -954,6 +1358,8 @@
         <SimulationDescriptorReference Name="Moon_BinaryD6_TC"/>
         <SimulationDescriptorReference Name="ET_C" />
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon2"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly26"/>
         <EncounterEntityReference Name="PlanetAnomaly26"/>
         <GeneratorInfo/>
@@ -962,6 +1368,8 @@
         <SimulationDescriptorReference Name="Moon_BinaryD7_TC"/>
         <SimulationDescriptorReference Name="ET_C" />
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon2"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly26"/>
         <EncounterEntityReference Name="PlanetAnomaly26"/>
         <GeneratorInfo/>
@@ -970,6 +1378,8 @@
         <SimulationDescriptorReference Name="Moon_BinaryD8_TC"/>
         <SimulationDescriptorReference Name="ET_C" />
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon2"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly26"/>
         <EncounterEntityReference Name="PlanetAnomaly26"/>
         <GeneratorInfo/>
@@ -982,9 +1392,14 @@
         <SimulationDescriptorReference Name="PlanetAnomaly26"/>
         <EncounterEntityReference Name="PlanetAnomaly26"/>
         <GeneratorInfo>
-            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot> <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_FIDS1</PlanetFilterNot> 
             <PlanetFilterNot>Curiosity_Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_FrozenA1</PlanetFilterNot>
-        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
+            <PlanetFilterNot>CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_FIDS1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingE1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
         	<PlanetFilterNot>Moon_LgSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryC1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_LgBinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicA1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicB1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_FrozenA1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenB1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenC1</PlanetFilterNot>
@@ -993,12 +1408,14 @@
 			<PlanetFilterNot>Moon_SmSingC1_TA</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingC1_TB</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryD1_TC</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryC1_TD</PlanetFilterNot>
 			<PlanetFilterNot>Moon_VolcanicC1_TE</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenD1_TF</PlanetFilterNot> <PlanetFilterNot>Moon_FertileD1_TG</PlanetFilterNot>
 			<PlanetFilterNot>Moon_FertileE1_TH</PlanetFilterNot> <PlanetFilterNot>Moon_MultiE1_TI</PlanetFilterNot> <PlanetFilterNot>Moon_MultiF1_TJ</PlanetFilterNot> <PlanetFilterNot>Moon_LgSingB1_TK</PlanetFilterNot>
-			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingD1_TN</PlanetFilterNot>
         </GeneratorInfo>
     </AnomalyDefinition>
     <AnomalyDefinition Name="Moon_LgBinaryC2_TD" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_LgBinaryC2_TD"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon2"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly26"/>
         <EncounterEntityReference Name="PlanetAnomaly26"/>
         <GeneratorInfo/>
@@ -1007,6 +1424,8 @@
         <SimulationDescriptorReference Name="Moon_LgBinaryC3_TD"/>
      	<SimulationDescriptorReference Name="ET_D" />
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon2"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly26"/>
         <EncounterEntityReference Name="PlanetAnomaly26"/>
         <GeneratorInfo/>
@@ -1015,6 +1434,8 @@
         <SimulationDescriptorReference Name="Moon_LgBinaryC4_TD"/>
      	<SimulationDescriptorReference Name="ET_D" />
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon2"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly26"/>
         <EncounterEntityReference Name="PlanetAnomaly26"/>
         <GeneratorInfo/>
@@ -1027,9 +1448,14 @@
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo>
-            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot> <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_FIDS1</PlanetFilterNot> 
             <PlanetFilterNot>Curiosity_Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_FrozenA1</PlanetFilterNot>
-        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
+            <PlanetFilterNot>CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_FIDS1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingE1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
         	<PlanetFilterNot>Moon_LgSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryC1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_LgBinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicA1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicB1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_FrozenA1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenB1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenC1</PlanetFilterNot>
@@ -1038,12 +1464,14 @@
 			<PlanetFilterNot>Moon_SmSingC1_TA</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingC1_TB</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryD1_TC</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryC1_TD</PlanetFilterNot>
 			<PlanetFilterNot>Moon_VolcanicC1_TE</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenD1_TF</PlanetFilterNot> <PlanetFilterNot>Moon_FertileD1_TG</PlanetFilterNot>
 			<PlanetFilterNot>Moon_FertileE1_TH</PlanetFilterNot> <PlanetFilterNot>Moon_MultiE1_TI</PlanetFilterNot> <PlanetFilterNot>Moon_MultiF1_TJ</PlanetFilterNot> <PlanetFilterNot>Moon_LgSingB1_TK</PlanetFilterNot>
-			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingD1_TN</PlanetFilterNot>
         </GeneratorInfo>
     </AnomalyDefinition>
     <AnomalyDefinition Name="Moon_VolcanicC2_TE" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_VolcanicC2_TE"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -1051,6 +1479,8 @@
     <AnomalyDefinition Name="Moon_VolcanicC3_TE" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_VolcanicC3_TE"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -1059,6 +1489,8 @@
         <SimulationDescriptorReference Name="Moon_VolcanicC4_S_TE"/>
      	<SimulationDescriptorReference Name="ET_E" />
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -1066,6 +1498,8 @@
     <AnomalyDefinition Name="Moon_VolcanicC4_T_TE" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_VolcanicC4_T_TE"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -1074,6 +1508,8 @@
         <SimulationDescriptorReference Name="Moon_VolcanicC4_ST_TE"/>
      	<SimulationDescriptorReference Name="ET_E" />
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -1087,9 +1523,14 @@
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo>
-            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot> <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_FIDS1</PlanetFilterNot> 
             <PlanetFilterNot>Curiosity_Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_FrozenA1</PlanetFilterNot>
-        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
+            <PlanetFilterNot>CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_FIDS1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingE1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
         	<PlanetFilterNot>Moon_LgSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryC1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_LgBinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicA1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicB1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_FrozenA1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenB1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenC1</PlanetFilterNot>
@@ -1098,12 +1539,14 @@
 			<PlanetFilterNot>Moon_SmSingC1_TA</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingC1_TB</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryD1_TC</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryC1_TD</PlanetFilterNot>
 			<PlanetFilterNot>Moon_VolcanicC1_TE</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenD1_TF</PlanetFilterNot> <PlanetFilterNot>Moon_FertileD1_TG</PlanetFilterNot>
 			<PlanetFilterNot>Moon_FertileE1_TH</PlanetFilterNot> <PlanetFilterNot>Moon_MultiE1_TI</PlanetFilterNot> <PlanetFilterNot>Moon_MultiF1_TJ</PlanetFilterNot> <PlanetFilterNot>Moon_LgSingB1_TK</PlanetFilterNot>
-			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingD1_TN</PlanetFilterNot>
         </GeneratorInfo>
     </AnomalyDefinition>
     <AnomalyDefinition Name="Moon_FrozenD2_TF" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_FrozenD2_TF"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -1112,6 +1555,8 @@
         <SimulationDescriptorReference Name="Moon_FrozenD3_TF"/>
         <SimulationDescriptorReference Name="ET_F"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -1120,6 +1565,8 @@
         <SimulationDescriptorReference Name="Moon_FrozenD4_TF"/>
         <SimulationDescriptorReference Name="ET_F"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -1132,9 +1579,14 @@
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo>
-            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot> <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_FIDS1</PlanetFilterNot> 
             <PlanetFilterNot>Curiosity_Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_FrozenA1</PlanetFilterNot>
-        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
+            <PlanetFilterNot>CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_FIDS1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingE1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
         	<PlanetFilterNot>Moon_LgSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryC1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_LgBinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicA1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicB1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_FrozenA1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenB1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenC1</PlanetFilterNot>
@@ -1143,13 +1595,14 @@
 			<PlanetFilterNot>Moon_SmSingC1_TA</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingC1_TB</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryD1_TC</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryC1_TD</PlanetFilterNot>
 			<PlanetFilterNot>Moon_VolcanicC1_TE</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenD1_TF</PlanetFilterNot> <PlanetFilterNot>Moon_FertileD1_TG</PlanetFilterNot>
 			<PlanetFilterNot>Moon_FertileE1_TH</PlanetFilterNot> <PlanetFilterNot>Moon_MultiE1_TI</PlanetFilterNot> <PlanetFilterNot>Moon_MultiF1_TJ</PlanetFilterNot> <PlanetFilterNot>Moon_LgSingB1_TK</PlanetFilterNot>
-			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingD1_TN</PlanetFilterNot>
         </GeneratorInfo>
     </AnomalyDefinition>
     <AnomalyDefinition Name="Moon_FertileD2_TG" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_FertileD2_TG"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
-        <SimulationDescriptorReference Name="PlanetFertileMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -1158,6 +1611,8 @@
         <SimulationDescriptorReference Name="Moon_FertileD3_TG"/>
         <SimulationDescriptorReference Name="ET_G" />
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -1166,6 +1621,8 @@
         <SimulationDescriptorReference Name="Moon_FertileD4_TG"/>
         <SimulationDescriptorReference Name="ET_G" />
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -1178,9 +1635,14 @@
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo>
-            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot> <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_FIDS1</PlanetFilterNot> 
             <PlanetFilterNot>Curiosity_Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_FrozenA1</PlanetFilterNot>
-        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
+            <PlanetFilterNot>CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_FIDS1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingE1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
         	<PlanetFilterNot>Moon_LgSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryC1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_LgBinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicA1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicB1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_FrozenA1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenB1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenC1</PlanetFilterNot>
@@ -1189,12 +1651,14 @@
 			<PlanetFilterNot>Moon_SmSingC1_TA</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingC1_TB</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryD1_TC</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryC1_TD</PlanetFilterNot>
 			<PlanetFilterNot>Moon_VolcanicC1_TE</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenD1_TF</PlanetFilterNot> <PlanetFilterNot>Moon_FertileD1_TG</PlanetFilterNot>
 			<PlanetFilterNot>Moon_FertileE1_TH</PlanetFilterNot> <PlanetFilterNot>Moon_MultiE1_TI</PlanetFilterNot> <PlanetFilterNot>Moon_MultiF1_TJ</PlanetFilterNot> <PlanetFilterNot>Moon_LgSingB1_TK</PlanetFilterNot>
-			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingD1_TN</PlanetFilterNot>
         </GeneratorInfo>
     </AnomalyDefinition>
     <AnomalyDefinition Name="Moon_FertileE2_TH" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_FertileE2_TH"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -1203,6 +1667,8 @@
         <SimulationDescriptorReference Name="Moon_FertileE3_TH"/>
         <SimulationDescriptorReference Name="ET_H" />
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -1211,6 +1677,8 @@
         <SimulationDescriptorReference Name="Moon_FertileE4_TH"/>
         <SimulationDescriptorReference Name="ET_H" />
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -1223,9 +1691,14 @@
         <SimulationDescriptorReference Name="PlanetAnomaly27"/>
         <EncounterEntityReference Name="PlanetAnomaly27"/>
         <GeneratorInfo>
-            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot> <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_FIDS1</PlanetFilterNot> 
             <PlanetFilterNot>Curiosity_Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_FrozenA1</PlanetFilterNot>
-        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
+            <PlanetFilterNot>CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_FIDS1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingE1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
         	<PlanetFilterNot>Moon_LgSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryC1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_LgBinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicA1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicB1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_FrozenA1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenB1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenC1</PlanetFilterNot>
@@ -1234,12 +1707,14 @@
 			<PlanetFilterNot>Moon_SmSingC1_TA</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingC1_TB</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryD1_TC</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryC1_TD</PlanetFilterNot>
 			<PlanetFilterNot>Moon_VolcanicC1_TE</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenD1_TF</PlanetFilterNot> <PlanetFilterNot>Moon_FertileD1_TG</PlanetFilterNot>
 			<PlanetFilterNot>Moon_FertileE1_TH</PlanetFilterNot> <PlanetFilterNot>Moon_MultiE1_TI</PlanetFilterNot> <PlanetFilterNot>Moon_MultiF1_TJ</PlanetFilterNot> <PlanetFilterNot>Moon_LgSingB1_TK</PlanetFilterNot>
-			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingD1_TN</PlanetFilterNot>
         </GeneratorInfo>
     </AnomalyDefinition>
     <AnomalyDefinition Name="Moon_MultiE2_TI" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_MultiE2_TI"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon3"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly27"/>
         <EncounterEntityReference Name="PlanetAnomaly27"/>
         <GeneratorInfo/>
@@ -1247,6 +1722,8 @@
     <AnomalyDefinition Name="Moon_MultiE3_TI" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_MultiE3_TI"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon3"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly27"/>
         <EncounterEntityReference Name="PlanetAnomaly27"/>
         <GeneratorInfo/>
@@ -1254,6 +1731,8 @@
     <AnomalyDefinition Name="Moon_MultiE4_TI" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_MultiE4_TI"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon3"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly27"/>
         <EncounterEntityReference Name="PlanetAnomaly27"/>
         <GeneratorInfo/>
@@ -1266,9 +1745,14 @@
         <SimulationDescriptorReference Name="PlanetAnomaly27"/>
         <EncounterEntityReference Name="PlanetAnomaly27"/>
         <GeneratorInfo>
-            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot> <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_FIDS1</PlanetFilterNot> 
             <PlanetFilterNot>Curiosity_Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_FrozenA1</PlanetFilterNot>
-        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
+            <PlanetFilterNot>CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_FIDS1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingE1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
         	<PlanetFilterNot>Moon_LgSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryC1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_LgBinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicA1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicB1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_FrozenA1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenB1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenC1</PlanetFilterNot>
@@ -1277,12 +1761,14 @@
 			<PlanetFilterNot>Moon_SmSingC1_TA</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingC1_TB</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryD1_TC</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryC1_TD</PlanetFilterNot>
 			<PlanetFilterNot>Moon_VolcanicC1_TE</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenD1_TF</PlanetFilterNot> <PlanetFilterNot>Moon_FertileD1_TG</PlanetFilterNot>
 			<PlanetFilterNot>Moon_FertileE1_TH</PlanetFilterNot> <PlanetFilterNot>Moon_MultiE1_TI</PlanetFilterNot> <PlanetFilterNot>Moon_MultiF1_TJ</PlanetFilterNot> <PlanetFilterNot>Moon_LgSingB1_TK</PlanetFilterNot>
-			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingD1_TN</PlanetFilterNot>
         </GeneratorInfo>
     </AnomalyDefinition>
     <AnomalyDefinition Name="Moon_MultiF2_TJ" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_MultiF2_TJ"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon3"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly27"/>
         <EncounterEntityReference Name="PlanetAnomaly27"/>
         <GeneratorInfo/>
@@ -1290,6 +1776,8 @@
     <AnomalyDefinition Name="Moon_MultiF3_TJ" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_MultiF3_TJ"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon3"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly27"/>
         <EncounterEntityReference Name="PlanetAnomaly27"/>
         <GeneratorInfo/>
@@ -1297,6 +1785,8 @@
     <AnomalyDefinition Name="Moon_MultiF4_TJ" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_MultiF4_TJ"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon3"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly27"/>
         <EncounterEntityReference Name="PlanetAnomaly27"/>
         <GeneratorInfo/>
@@ -1309,9 +1799,14 @@
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo>
-            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot> <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_FIDS1</PlanetFilterNot> 
             <PlanetFilterNot>Curiosity_Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_FrozenA1</PlanetFilterNot>
-        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
+            <PlanetFilterNot>CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_FIDS1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingE1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
         	<PlanetFilterNot>Moon_LgSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryC1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_LgBinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicA1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicB1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_FrozenA1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenB1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenC1</PlanetFilterNot>
@@ -1320,12 +1815,14 @@
 			<PlanetFilterNot>Moon_SmSingC1_TA</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingC1_TB</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryD1_TC</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryC1_TD</PlanetFilterNot>
 			<PlanetFilterNot>Moon_VolcanicC1_TE</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenD1_TF</PlanetFilterNot> <PlanetFilterNot>Moon_FertileD1_TG</PlanetFilterNot>
 			<PlanetFilterNot>Moon_FertileE1_TH</PlanetFilterNot> <PlanetFilterNot>Moon_MultiE1_TI</PlanetFilterNot> <PlanetFilterNot>Moon_MultiF1_TJ</PlanetFilterNot> <PlanetFilterNot>Moon_LgSingB1_TK</PlanetFilterNot>
-			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingD1_TN</PlanetFilterNot>
         </GeneratorInfo>
     </AnomalyDefinition>
     <AnomalyDefinition Name="Moon_LgSingB2_TK" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_LgSingB2_TK"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -1333,6 +1830,8 @@
     <AnomalyDefinition Name="Moon_LgSingB3_TK" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_LgSingB3_TK"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -1340,6 +1839,8 @@
     <AnomalyDefinition Name="Moon_LgSingB4_TK" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_LgSingB4_TK"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -1348,6 +1849,8 @@
         <SimulationDescriptorReference Name="Moon_LgSingB5_TK"/>
         <SimulationDescriptorReference Name="ET_K"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -1356,6 +1859,8 @@
         <SimulationDescriptorReference Name="Moon_LgSingB6_TK"/>
         <SimulationDescriptorReference Name="ET_K"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -1374,9 +1879,14 @@
         <SimulationDescriptorReference Name="PlanetAnomaly27"/>
         <EncounterEntityReference Name="PlanetAnomaly27"/>
         <GeneratorInfo>
-            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot> <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_FIDS1</PlanetFilterNot> 
             <PlanetFilterNot>Curiosity_Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_FrozenA1</PlanetFilterNot>
-        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
+            <PlanetFilterNot>CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_FIDS1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingE1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
         	<PlanetFilterNot>Moon_LgSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryC1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_LgBinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicA1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicB1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_FrozenA1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenB1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenC1</PlanetFilterNot>
@@ -1385,12 +1895,14 @@
 			<PlanetFilterNot>Moon_SmSingC1_TA</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingC1_TB</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryD1_TC</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryC1_TD</PlanetFilterNot>
 			<PlanetFilterNot>Moon_VolcanicC1_TE</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenD1_TF</PlanetFilterNot> <PlanetFilterNot>Moon_FertileD1_TG</PlanetFilterNot>
 			<PlanetFilterNot>Moon_FertileE1_TH</PlanetFilterNot> <PlanetFilterNot>Moon_MultiE1_TI</PlanetFilterNot> <PlanetFilterNot>Moon_MultiF1_TJ</PlanetFilterNot> <PlanetFilterNot>Moon_LgSingB1_TK</PlanetFilterNot>
-			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingD1_TN</PlanetFilterNot>
         </GeneratorInfo>
     </AnomalyDefinition>
     <AnomalyDefinition Name="Moon_MultiG2_TL" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_MultiG2_TL"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon3"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly27"/>
         <EncounterEntityReference Name="PlanetAnomaly27"/>
         <GeneratorInfo/>
@@ -1399,6 +1911,8 @@
         <SimulationDescriptorReference Name="Moon_MultiG3_TL"/>
         <SimulationDescriptorReference Name="ET_L" />
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon3"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly27"/>
         <EncounterEntityReference Name="PlanetAnomaly27"/>
         <GeneratorInfo/>
@@ -1407,6 +1921,8 @@
         <SimulationDescriptorReference Name="Moon_MultiG4_TL"/>
         <SimulationDescriptorReference Name="ET_L" />
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon3"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly27"/>
         <EncounterEntityReference Name="PlanetAnomaly27"/>
         <GeneratorInfo/>
@@ -1419,9 +1935,14 @@
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo>
-            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot> <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_FIDS1</PlanetFilterNot> 
             <PlanetFilterNot>Curiosity_Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_FrozenA1</PlanetFilterNot>
-        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
+            <PlanetFilterNot>CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_FIDS1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingE1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
         	<PlanetFilterNot>Moon_LgSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryC1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_LgBinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicA1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicB1</PlanetFilterNot>
         	<PlanetFilterNot>Moon_FrozenA1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenB1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenC1</PlanetFilterNot>
@@ -1430,12 +1951,14 @@
 			<PlanetFilterNot>Moon_SmSingC1_TA</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingC1_TB</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryD1_TC</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryC1_TD</PlanetFilterNot>
 			<PlanetFilterNot>Moon_VolcanicC1_TE</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenD1_TF</PlanetFilterNot> <PlanetFilterNot>Moon_FertileD1_TG</PlanetFilterNot>
 			<PlanetFilterNot>Moon_FertileE1_TH</PlanetFilterNot> <PlanetFilterNot>Moon_MultiE1_TI</PlanetFilterNot> <PlanetFilterNot>Moon_MultiF1_TJ</PlanetFilterNot> <PlanetFilterNot>Moon_LgSingB1_TK</PlanetFilterNot>
-			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingD1_TN</PlanetFilterNot>
         </GeneratorInfo>
     </AnomalyDefinition>
     <AnomalyDefinition Name="Moon_MdSingD2_TM" Quality="Moon">
         <SimulationDescriptorReference Name="Moon_MdSingD2_TM"/>
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -1444,6 +1967,8 @@
         <SimulationDescriptorReference Name="Moon_MdSingD3_TM"/>
         <SimulationDescriptorReference Name="ET_M" />
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -1452,6 +1977,8 @@
         <SimulationDescriptorReference Name="Moon_MdSingD4_TM"/>
         <SimulationDescriptorReference Name="ET_M" />
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
@@ -1460,10 +1987,79 @@
         <SimulationDescriptorReference Name="Moon_MdSingD5_TM"/>
         <SimulationDescriptorReference Name="ET_M" />
         <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
         <SimulationDescriptorReference Name="PlanetAnomaly25"/>
         <EncounterEntityReference Name="PlanetAnomaly25"/>
         <GeneratorInfo/>
     </AnomalyDefinition>
+    
+    <AnomalyDefinition Name="Moon_SmSingD1_TN" Quality="Moon">
+        <SimulationDescriptorReference Name="Moon_SmSingD1_TN"/>
+        <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="UndiscoveredMoonTemple"/>
+        <SimulationDescriptorReference Name="PlanetAnomaly25"/>
+        <EncounterEntityReference Name="PlanetAnomaly25"/>
+        <GeneratorInfo>
+            <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot> <PlanetFilterNot>PlanetTypeFake</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>Curiosity_CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>Curiosity_CloakedOrb_FIDS1</PlanetFilterNot>  
+            <PlanetFilterNot>Curiosity_Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_SmSingB1</PlanetFilterNot> <PlanetFilterNot>Curiosity_Moon_FrozenA1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_I1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_D1</PlanetFilterNot>
+            <PlanetFilterNot>CloakedOrb_S1</PlanetFilterNot> <PlanetFilterNot>CloakedOrb_FIDS1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_SmSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_MdSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingE1</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingB1</PlanetFilterNot> 
+        	<PlanetFilterNot>Moon_LgSingA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryC1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_LgBinaryA1</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryB1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicA1</PlanetFilterNot> <PlanetFilterNot>Moon_VolcanicB1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_FrozenA1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenB1</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenC1</PlanetFilterNot>
+        	<PlanetFilterNot>Moon_FertileA1</PlanetFilterNot> <PlanetFilterNot>Moon_FertileB1</PlanetFilterNot> <PlanetFilterNot>Moon_FertileC1</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiA1</PlanetFilterNot> <PlanetFilterNot>Moon_MultiB1</PlanetFilterNot> <PlanetFilterNot>Moon_MultiC1</PlanetFilterNot> <PlanetFilterNot>Moon_MultiD1</PlanetFilterNot>
+			<PlanetFilterNot>Moon_SmSingC1_TA</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingC1_TB</PlanetFilterNot> <PlanetFilterNot>Moon_BinaryD1_TC</PlanetFilterNot> <PlanetFilterNot>Moon_LgBinaryC1_TD</PlanetFilterNot>
+			<PlanetFilterNot>Moon_VolcanicC1_TE</PlanetFilterNot> <PlanetFilterNot>Moon_FrozenD1_TF</PlanetFilterNot> <PlanetFilterNot>Moon_FertileD1_TG</PlanetFilterNot>
+			<PlanetFilterNot>Moon_FertileE1_TH</PlanetFilterNot> <PlanetFilterNot>Moon_MultiE1_TI</PlanetFilterNot> <PlanetFilterNot>Moon_MultiF1_TJ</PlanetFilterNot> <PlanetFilterNot>Moon_LgSingB1_TK</PlanetFilterNot>
+			<PlanetFilterNot>Moon_MultiG1_TL</PlanetFilterNot> <PlanetFilterNot>Moon_MdSingD1_TM</PlanetFilterNot> <PlanetFilterNot>Moon_SmSingD1_TN</PlanetFilterNot>
+        </GeneratorInfo>
+    </AnomalyDefinition>
+    <AnomalyDefinition Name="Moon_SmSingD2_TN" Quality="Moon">
+        <SimulationDescriptorReference Name="Moon_SmSingD2_TN"/>
+        <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
+        <SimulationDescriptorReference Name="PlanetAnomaly25"/>
+        <EncounterEntityReference Name="PlanetAnomaly25"/>
+        <GeneratorInfo/>
+    </AnomalyDefinition>
+    <AnomalyDefinition Name="Moon_SmSingD3_TN" Quality="Moon">
+        <SimulationDescriptorReference Name="Moon_SmSingD3_TN"/>
+        <SimulationDescriptorReference Name="ET_N"/>
+        <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
+        <SimulationDescriptorReference Name="PlanetAnomaly25"/>
+        <EncounterEntityReference Name="PlanetAnomaly25"/>
+        <GeneratorInfo/>
+    </AnomalyDefinition>
+    <AnomalyDefinition Name="Moon_SmSingD4_TN" Quality="Moon">
+        <SimulationDescriptorReference Name="Moon_SmSingD4_TN"/>
+        <SimulationDescriptorReference Name="ET_N"/>
+        <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
+        <SimulationDescriptorReference Name="PlanetAnomaly25"/>
+        <EncounterEntityReference Name="PlanetAnomaly25"/>
+        <GeneratorInfo/>
+    </AnomalyDefinition>
+    <AnomalyDefinition Name="Moon_SmSingD5_TN" Quality="Moon">
+        <SimulationDescriptorReference Name="Moon_SmSingD5_TN"/>
+        <SimulationDescriptorReference Name="ET_N"/>
+        <SimulationDescriptorReference Name="PlanetMoon"/>
+        <SimulationDescriptorReference Name="ExploredMoon"/>
+        <SimulationDescriptorReference Name="MoonTemple"/>
+        <SimulationDescriptorReference Name="PlanetAnomaly25"/>
+        <EncounterEntityReference Name="PlanetAnomaly25"/>
+        <GeneratorInfo/>
+    </AnomalyDefinition>
+
 
 
     
