@@ -19,7 +19,7 @@
 		<!--No Rebellion-->
 	</SimulationDescriptor>
 
-	<!-- sets luxury cost to 0-->
+	<!--Sets Luxury Cost to 0-->
 	<SimulationDescriptor Name="SandboxFreeSystemDevelopment" Type="FactionTrait">
 		<Modifier TargetProperty="RecipeCostReduction" Operation="Percent" Value="-1.0" Path="ClassEmpire"/>
 		<!--Free System Development-->
@@ -45,78 +45,81 @@
 	<SimulationDescriptor Name="SandboxSuperMoney100" Type="FactionTrait">
 		<Modifier TargetProperty="SystemMoney" Operation="Percent" Value="1.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxSuperMoney200" Type="FactionTrait">
-		<Modifier TargetProperty="SystemMoney" Operation="Percent" Value="2.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
+	<SimulationDescriptor Name="SandboxSuperMoney300" Type="FactionTrait">
+		<Modifier TargetProperty="SystemMoney" Operation="Percent" Value="3.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxSuperMoney400" Type="FactionTrait">
-		<Modifier TargetProperty="SystemMoney" Operation="Percent" Value="4.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
+	<SimulationDescriptor Name="SandboxSuperMoney700" Type="FactionTrait">
+		<Modifier TargetProperty="SystemMoney" Operation="Percent" Value="7.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxSuperMoney800" Type="FactionTrait">
-		<Modifier TargetProperty="SystemMoney" Operation="Percent" Value="8.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
+	<SimulationDescriptor Name="SandboxSuperMoney1500" Type="FactionTrait">
+		<Modifier TargetProperty="SystemMoney" Operation="Percent" Value="15.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
 	</SimulationDescriptor>
 
 	<!--Increases System Industry Output by X%-->
 	<SimulationDescriptor Name="SandboxSuperIndustry100" Type="FactionTrait">
 		<Modifier TargetProperty="SystemProduction" Operation="Percent" Value="1.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxSuperIndustry200" Type="FactionTrait">
-		<Modifier TargetProperty="SystemProduction" Operation="Percent" Value="2.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
+	<SimulationDescriptor Name="SandboxSuperIndustry300" Type="FactionTrait">
+		<Modifier TargetProperty="SystemProduction" Operation="Percent" Value="3.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxSuperIndustry400" Type="FactionTrait">
-		<Modifier TargetProperty="SystemProduction" Operation="Percent" Value="4.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
+	<SimulationDescriptor Name="SandboxSuperIndustry700" Type="FactionTrait">
+		<Modifier TargetProperty="SystemProduction" Operation="Percent" Value="7.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxSuperIndustry800" Type="FactionTrait">
-		<Modifier TargetProperty="SystemProduction" Operation="Percent" Value="8.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
+	<SimulationDescriptor Name="SandboxSuperIndustry1500" Type="FactionTrait">
+		<Modifier TargetProperty="SystemProduction" Operation="Percent" Value="15.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
 	</SimulationDescriptor>
 
 	<!--Increases System Food Output by X%-->
 	<SimulationDescriptor Name="SandboxSuperFood100" Type="FactionTrait">
 		<Modifier TargetProperty="SystemGrowth" Operation="Percent" Value="1.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxSuperFood200" Type="FactionTrait">
-		<Modifier TargetProperty="SystemGrowth" Operation="Percent" Value="2.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
+	<SimulationDescriptor Name="SandboxSuperFood300" Type="FactionTrait">
+		<Modifier TargetProperty="SystemGrowth" Operation="Percent" Value="3.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxSuperFood400" Type="FactionTrait">
-		<Modifier TargetProperty="SystemGrowth" Operation="Percent" Value="4.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
+	<SimulationDescriptor Name="SandboxSuperFood700" Type="FactionTrait">
+		<Modifier TargetProperty="SystemGrowth" Operation="Percent" Value="7.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxSuperFood800" Type="FactionTrait">
-		<Modifier TargetProperty="SystemGrowth" Operation="Percent" Value="8.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
+	<SimulationDescriptor Name="SandboxSuperFood1500" Type="FactionTrait">
+		<Modifier TargetProperty="SystemGrowth" Operation="Percent" Value="15.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
 	</SimulationDescriptor>
 
 	<!--Increases System Science Output by X%-->
 	<SimulationDescriptor Name="SandboxSuperScience100" Type="FactionTrait">
 		<Modifier TargetProperty="SystemResearch" Operation="Percent" Value="1.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxSuperScience200" Type="FactionTrait">
-		<Modifier TargetProperty="SystemResearch" Operation="Percent" Value="2.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
+	<SimulationDescriptor Name="SandboxSuperScience300" Type="FactionTrait">
+		<Modifier TargetProperty="SystemResearch" Operation="Percent" Value="3.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxSuperScience400" Type="FactionTrait">
-		<Modifier TargetProperty="SystemResearch" Operation="Percent" Value="4.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
+	<SimulationDescriptor Name="SandboxSuperScience700" Type="FactionTrait">
+		<Modifier TargetProperty="SystemResearch" Operation="Percent" Value="7.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxSuperScience800" Type="FactionTrait">
-		<Modifier TargetProperty="SystemResearch" Operation="Percent" Value="8.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
+	<SimulationDescriptor Name="SandboxSuperScience1500" Type="FactionTrait">
+		<Modifier TargetProperty="SystemResearch" Operation="Percent" Value="15.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
 	</SimulationDescriptor>
 
 	<!--Increases System Influence Output by X%-->
 	<SimulationDescriptor Name="SandboxSuperInfluence100" Type="FactionTrait">
 		<Modifier TargetProperty="SystemEmpirePoint" Operation="Percent" Value="1.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxSuperInfluence200" Type="FactionTrait">
-		<Modifier TargetProperty="SystemEmpirePoint" Operation="Percent" Value="2.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
+	<SimulationDescriptor Name="SandboxSuperInfluence300" Type="FactionTrait">
+		<Modifier TargetProperty="SystemEmpirePoint" Operation="Percent" Value="3.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxSuperInfluence400" Type="FactionTrait">
-		<Modifier TargetProperty="SystemEmpirePoint" Operation="Percent" Value="4.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
+	<SimulationDescriptor Name="SandboxSuperInfluence700" Type="FactionTrait">
+		<Modifier TargetProperty="SystemEmpirePoint" Operation="Percent" Value="7.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxSuperInfluence800" Type="FactionTrait">
-		<Modifier TargetProperty="SystemEmpirePoint" Operation="Percent" Value="8.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
+	<SimulationDescriptor Name="SandboxSuperInfluence1500" Type="FactionTrait">
+		<Modifier TargetProperty="SystemEmpirePoint" Operation="Percent" Value="15.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
 	</SimulationDescriptor>
 
 	<!--Increases System happiness by X-->
-	<SimulationDescriptor Name="SandboxSuperHappy32" Type="FactionTrait">
-		<Modifier TargetProperty="Happiness" Operation="Addition" Value="32" Path="ClassEmpire/ClassColonizedStarSystem"/>
+	<SimulationDescriptor Name="SandboxSuperHappy64" Type="FactionTrait">
+		<Modifier TargetProperty="Happiness" Operation="Addition" Value="64" Path="ClassEmpire/ClassColonizedStarSystem"/>
 	</SimulationDescriptor>
 	<SimulationDescriptor Name="SandboxSuperHappy128" Type="FactionTrait">
 		<Modifier TargetProperty="Happiness" Operation="Addition" Value="128" Path="ClassEmpire/ClassColonizedStarSystem"/>
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="SandboxSuperHappy256" Type="FactionTrait">
+		<Modifier TargetProperty="Happiness" Operation="Addition" Value="256" Path="ClassEmpire/ClassColonizedStarSystem"/>
 	</SimulationDescriptor>
 	<SimulationDescriptor Name="SandboxSuperHappy512" Type="FactionTrait">
 		<Modifier TargetProperty="Happiness" Operation="Addition" Value="512" Path="ClassEmpire/ClassColonizedStarSystem"/>
@@ -148,10 +151,6 @@
 	</SimulationDescriptor>
 
 	<!--Increases Ship Movement-->
-	<SimulationDescriptor Name="SandboxFastShips1" Type="FactionTrait">
-		<Modifier TargetProperty="MaximumMovement" Operation="Addition" Value="1" Path="ClassEmpire/ClassGarrison/ClassShip"/>
-		<Modifier TargetProperty="MaximumMovement" Operation="Addition" Value="1" Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip" TooltipHidden="false"/>
-	</SimulationDescriptor>
 	<SimulationDescriptor Name="SandboxFastShips4" Type="FactionTrait">
 		<Modifier TargetProperty="MaximumMovement" Operation="Addition" Value="4" Path="ClassEmpire/ClassGarrison/ClassShip"/>
 		<Modifier TargetProperty="MaximumMovement" Operation="Addition" Value="4" Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip" TooltipHidden="false"/>
@@ -164,96 +163,103 @@
 		<Modifier TargetProperty="MaximumMovement" Operation="Addition" Value="64" Path="ClassEmpire/ClassGarrison/ClassShip"/>
 		<Modifier TargetProperty="MaximumMovement" Operation="Addition" Value="64" Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip" TooltipHidden="false"/>
 	</SimulationDescriptor>
+	<SimulationDescriptor Name="SandboxFastShips256" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumMovement" Operation="Addition" Value="256" Path="ClassEmpire/ClassGarrison/ClassShip"/>
+		<Modifier TargetProperty="MaximumMovement" Operation="Addition" Value="256" Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip" TooltipHidden="false"/>
+	</SimulationDescriptor>
 
 	<!--Increases Ship probes-->
-	<SimulationDescriptor Name="SandboxExtraProbes1" Type="FactionTrait">
-		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="1" Path="ClassEmpire/ClassGarrison/ClassShip,ShipRoleExploration"/>
-		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="1" Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip,ShipRoleExploration" TooltipHidden="false"/>
+	<SimulationDescriptor Name="SandboxExtraProbes8" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="8" Path="ClassEmpire/ClassGarrison/ClassShip,ShipRoleExploration"/>
+		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="8" Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip,ShipRoleExploration" TooltipHidden="false"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxExtraProbes4" Type="FactionTrait">
-		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="4" Path="ClassEmpire/ClassGarrison/ClassShip,ShipRoleExploration"/>
-		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="4" Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip,ShipRoleExploration" TooltipHidden="false"/>
+	<SimulationDescriptor Name="SandboxExtraProbes32" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="32" Path="ClassEmpire/ClassGarrison/ClassShip,ShipRoleExploration"/>
+		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="32" Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip,ShipRoleExploration" TooltipHidden="false"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxExtraProbes16" Type="FactionTrait">
-		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="16" Path="ClassEmpire/ClassGarrison/ClassShip,ShipRoleExploration"/>
-		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="16" Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip,ShipRoleExploration" TooltipHidden="false"/>
+	<SimulationDescriptor Name="SandboxExtraProbes128" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="128" Path="ClassEmpire/ClassGarrison/ClassShip,ShipRoleExploration"/>
+		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="128" Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip,ShipRoleExploration" TooltipHidden="false"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxExtraProbes64" Type="FactionTrait">
-		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="64" Path="ClassEmpire/ClassGarrison/ClassShip,ShipRoleExploration"/>
-		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="64" Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip,ShipRoleExploration" TooltipHidden="false"/>
+	<SimulationDescriptor Name="SandboxExtraProbes512" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="512" Path="ClassEmpire/ClassGarrison/ClassShip,ShipRoleExploration"/>
+		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="512" Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip,ShipRoleExploration" TooltipHidden="false"/>
 	</SimulationDescriptor>
 
 	<!--Gives XP, reduces Cost, and heals Heros-->
-	<SimulationDescriptor Name="SandboxSuperHeros2" Type="FactionTrait">
-		<Modifier TargetProperty="ExperiencePerTurn" Operation="Addition" Value="2" Path="ClassEmpire/ClassGarrison/ClassHero"/>
-		<Modifier TargetProperty="ExperiencePerTurn" Operation="Addition" Value="2" Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="false"/>
-	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxSuperHeros8" Type="FactionTrait">
-		<Modifier TargetProperty="HealthPerTurn" Operation="Percent" Value="0.25" Path="ClassEmpire/ClassHero"/>
-		<Modifier TargetProperty="Upkeep" Operation="Percent" Value="-0.25" Path="ClassEmpire/ClassGarrison/ClassHero"/>
-		<Modifier TargetProperty="Upkeep" Operation="Percent" Value="-0.25" Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="false"/>
-		<Modifier TargetProperty="ExperiencePerTurn" Operation="Addition" Value="8" Path="ClassEmpire/ClassGarrison/ClassHero"/>
-		<Modifier TargetProperty="ExperiencePerTurn" Operation="Addition" Value="8" Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="false"/>
-	</SimulationDescriptor>
 	<SimulationDescriptor Name="SandboxSuperHeros32" Type="FactionTrait">
-		<Modifier TargetProperty="HealthPerTurn" Operation="Percent" Value="0.5" Path="ClassEmpire/ClassHero"/>
+		<Modifier TargetProperty="HealthPerTurn" Operation="Percent" Value="1.0" Path="ClassEmpire/ClassHero"/>
 		<Modifier TargetProperty="Upkeep" Operation="Percent" Value="-0.5" Path="ClassEmpire/ClassGarrison/ClassHero"/>
 		<Modifier TargetProperty="Upkeep" Operation="Percent" Value="-0.5" Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="false"/>
 		<Modifier TargetProperty="ExperiencePerTurn" Operation="Addition" Value="32" Path="ClassEmpire/ClassGarrison/ClassHero"/>
 		<Modifier TargetProperty="ExperiencePerTurn" Operation="Addition" Value="32" Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="false"/>
 	</SimulationDescriptor>
+	<SimulationDescriptor Name="SandboxSuperHeros64" Type="FactionTrait">
+		<Modifier TargetProperty="HealthPerTurn" Operation="Percent" Value="3.0" Path="ClassEmpire/ClassHero"/>
+		<Modifier TargetProperty="Upkeep" Operation="Percent" Value="-0.75" Path="ClassEmpire/ClassGarrison/ClassHero"/>
+		<Modifier TargetProperty="Upkeep" Operation="Percent" Value="-0.75" Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="false"/>
+		<Modifier TargetProperty="ExperiencePerTurn" Operation="Addition" Value="64" Path="ClassEmpire/ClassGarrison/ClassHero"/>
+		<Modifier TargetProperty="ExperiencePerTurn" Operation="Addition" Value="64" Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="false"/>
+	</SimulationDescriptor>
 	<SimulationDescriptor Name="SandboxSuperHeros128" Type="FactionTrait">
-		<Modifier TargetProperty="HealthPerTurn" Operation="Percent" Value="1.0" Path="ClassEmpire/ClassHero"/>
-		<Modifier TargetProperty="Upkeep" Operation="Percent" Value="-1" Path="ClassEmpire/ClassGarrison/ClassHero"/>
-		<Modifier TargetProperty="Upkeep" Operation="Percent" Value="-1" Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="false"/>
+		<Modifier TargetProperty="HealthPerTurn" Operation="Percent" Value="7.0" Path="ClassEmpire/ClassHero"/>
+		<Modifier TargetProperty="Upkeep" Operation="Percent" Value="-0.875" Path="ClassEmpire/ClassGarrison/ClassHero"/>
+		<Modifier TargetProperty="Upkeep" Operation="Percent" Value="-0.875" Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="false"/>
 		<Modifier TargetProperty="ExperiencePerTurn" Operation="Addition" Value="128" Path="ClassEmpire/ClassGarrison/ClassHero"/>
 		<Modifier TargetProperty="ExperiencePerTurn" Operation="Addition" Value="128" Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="false"/>
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="SandboxSuperHeros256" Type="FactionTrait">
+		<Modifier TargetProperty="HealthPerTurn" Operation="Percent" Value="15.0" Path="ClassEmpire/ClassHero"/>
+		<Modifier TargetProperty="Upkeep" Operation="Percent" Value="-0.9375" Path="ClassEmpire/ClassGarrison/ClassHero"/>
+		<Modifier TargetProperty="Upkeep" Operation="Percent" Value="-0.9375" Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="false"/>
+		<Modifier TargetProperty="ExperiencePerTurn" Operation="Addition" Value="256" Path="ClassEmpire/ClassGarrison/ClassHero"/>
+		<Modifier TargetProperty="ExperiencePerTurn" Operation="Addition" Value="256" Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="false"/>
 	</SimulationDescriptor>
 
 	<!--Increases Ship Health-->
 	<SimulationDescriptor Name="SandboxHealthyShips100" Type="FactionTrait">
 		<Modifier TargetProperty="MaximumHealth" Operation="Percent" Value="1.0" Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection,ClassSectionCore"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxHealthyShip200" Type="FactionTrait">
-		<Modifier TargetProperty="MaximumHealth" Operation="Percent" Value="2.0" Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection,ClassSectionCore"/>
+	<SimulationDescriptor Name="SandboxHealthyShips300" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumHealth" Operation="Percent" Value="3.0" Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection,ClassSectionCore"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxHealthyShips400" Type="FactionTrait">
-		<Modifier TargetProperty="MaximumHealth" Operation="Percent" Value="4.0" Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection,ClassSectionCore"/>
+	<SimulationDescriptor Name="SandboxHealthyShips700" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumHealth" Operation="Percent" Value="7.0" Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection,ClassSectionCore"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxHealthyShips800" Type="FactionTrait">
-		<Modifier TargetProperty="MaximumHealth" Operation="Percent" Value="8.0" Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection,ClassSectionCore"/>
+	<SimulationDescriptor Name="SandboxHealthyShips1500" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumHealth" Operation="Percent" Value="15.0" Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection,ClassSectionCore"/>
 	</SimulationDescriptor>
 
 	<!--Increases Ship Damage-->
 	<SimulationDescriptor Name="SandboxDeadlyShips100" Type="FactionTrait">
 		<Modifier TargetProperty="Damage" Operation="Percent" Value="1.0" Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection/ClassModule,ClassModuleWeapon"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxDeadlyShips200" Type="FactionTrait">
-		<Modifier TargetProperty="Damage" Operation="Percent" Value="2.0" Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection/ClassModule,ClassModuleWeapon"/>
+	<SimulationDescriptor Name="SandboxDeadlyShips300" Type="FactionTrait">
+		<Modifier TargetProperty="Damage" Operation="Percent" Value="3.0" Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection/ClassModule,ClassModuleWeapon"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxDeadlyShips400" Type="FactionTrait">
-		<Modifier TargetProperty="Damage" Operation="Percent" Value="4.0" Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection/ClassModule,ClassModuleWeapon"/>
+	<SimulationDescriptor Name="SandboxDeadlyShips700" Type="FactionTrait">
+		<Modifier TargetProperty="Damage" Operation="Percent" Value="7.0" Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection/ClassModule,ClassModuleWeapon"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxDeadlyShips800" Type="FactionTrait">
-		<Modifier TargetProperty="Damage" Operation="Percent" Value="8.0" Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection/ClassModule,ClassModuleWeapon"/>
+	<SimulationDescriptor Name="SandboxDeadlyShips1500" Type="FactionTrait">
+		<Modifier TargetProperty="Damage" Operation="Percent" Value="15.0" Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection/ClassModule,ClassModuleWeapon"/>
 	</SimulationDescriptor>
 
 	<!--Decreases Ship Build Cost-->
-	<SimulationDescriptor Name="SandboxCheapShips25" Type="FactionTrait">
-		<Modifier TargetProperty="ShipProductionCostReduction" Operation="Addition" Value="-0.25" Path="ClassEmpire/ClassColonizedStarSystem" Priority="-5"/>
-		<Modifier TargetProperty="ColonyShipProductionCostReduction" Operation="Addition" Value="-0.25" Path="ClassEmpire/ClassColonizedStarSystem" Priority="-5" TooltipHidden="false"/>
-	</SimulationDescriptor>
 	<SimulationDescriptor Name="SandboxCheapShips50" Type="FactionTrait">
-		<Modifier TargetProperty="ShipProductionCostReduction" Operation="Addition" Value="-0.50" Path="ClassEmpire/ClassColonizedStarSystem" Priority="-5"/>
-		<Modifier TargetProperty="ColonyShipProductionCostReduction" Operation="Addition" Value="-0.50" Path="ClassEmpire/ClassColonizedStarSystem" Priority="-5" TooltipHidden="false"/>
+		<Modifier TargetProperty="ShipProductionCostReduction" Operation="Addition" Value="-0.5" Path="ClassEmpire/ClassColonizedStarSystem" Priority="-5"/>
+		<Modifier TargetProperty="ColonyShipProductionCostReduction" Operation="Addition" Value="-0.5" Path="ClassEmpire/ClassColonizedStarSystem" Priority="-5" TooltipHidden="false"/>
 	</SimulationDescriptor>
 	<SimulationDescriptor Name="SandboxCheapShips75" Type="FactionTrait">
 		<Modifier TargetProperty="ShipProductionCostReduction" Operation="Addition" Value="-0.75" Path="ClassEmpire/ClassColonizedStarSystem" Priority="-5"/>
 		<Modifier TargetProperty="ColonyShipProductionCostReduction" Operation="Addition" Value="-0.75" Path="ClassEmpire/ClassColonizedStarSystem" Priority="-5" TooltipHidden="false"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxCheapShips100" Type="FactionTrait">
-		<Modifier TargetProperty="ShipProductionCostReduction" Operation="Addition" Value="-1.0" Path="ClassEmpire/ClassColonizedStarSystem" Priority="-5"/>
-		<Modifier TargetProperty="ColonyShipProductionCostReduction" Operation="Addition" Value="-1.0" Path="ClassEmpire/ClassColonizedStarSystem" Priority="-5" TooltipHidden="false"/>
+	<SimulationDescriptor Name="SandboxCheapShips88" Type="FactionTrait">
+		<Modifier TargetProperty="ShipProductionCostReduction" Operation="Addition" Value="-0.875" Path="ClassEmpire/ClassColonizedStarSystem" Priority="-5"/>
+		<Modifier TargetProperty="ColonyShipProductionCostReduction" Operation="Addition" Value="-0.875" Path="ClassEmpire/ClassColonizedStarSystem" Priority="-5" TooltipHidden="false"/>
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="SandboxCheapShips94" Type="FactionTrait">
+		<Modifier TargetProperty="ShipProductionCostReduction" Operation="Addition" Value="-0.9375" Path="ClassEmpire/ClassColonizedStarSystem" Priority="-5"/>
+		<Modifier TargetProperty="ColonyShipProductionCostReduction" Operation="Addition" Value="-0.9375" Path="ClassEmpire/ClassColonizedStarSystem" Priority="-5" TooltipHidden="false"/>
 	</SimulationDescriptor>
 
 	<!--Increases Infantry Damage + Health-->
@@ -262,125 +268,127 @@
 		<Modifier TargetProperty="InfantryMaxDamages" Operation="Percent" Value="1.0" Path="ClassEmpire"/>
 		<Modifier TargetProperty="InfantryMaxHealth" Operation="Percent" Value="1.0" Path="ClassEmpire"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxSuperInfantry200" Type="FactionTrait">
-		<Modifier TargetProperty="InfantryMinDamages" Operation="Percent" Value="2.0" Path="ClassEmpire"/>
-		<Modifier TargetProperty="InfantryMaxDamages" Operation="Percent" Value="2.0" Path="ClassEmpire"/>
-		<Modifier TargetProperty="InfantryMaxHealth" Operation="Percent" Value="2.0" Path="ClassEmpire"/>
+	<SimulationDescriptor Name="SandboxSuperInfantry300" Type="FactionTrait">
+		<Modifier TargetProperty="InfantryMinDamages" Operation="Percent" Value="3.0" Path="ClassEmpire"/>
+		<Modifier TargetProperty="InfantryMaxDamages" Operation="Percent" Value="3.0" Path="ClassEmpire"/>
+		<Modifier TargetProperty="InfantryMaxHealth" Operation="Percent" Value="3.0" Path="ClassEmpire"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxSuperInfantry400" Type="FactionTrait">
-		<Modifier TargetProperty="InfantryMinDamages" Operation="Percent" Value="4.0" Path="ClassEmpire"/>
-		<Modifier TargetProperty="InfantryMaxDamages" Operation="Percent" Value="4.0" Path="ClassEmpire"/>
-		<Modifier TargetProperty="InfantryMaxHealth" Operation="Percent" Value="4.0" Path="ClassEmpire"/>
-	</SimulationDescriptor>d
-	<SimulationDescriptor Name="SandboxSuperInfantry800" Type="FactionTrait">
-		<Modifier TargetProperty="InfantryMinDamages" Operation="Percent" Value="8.0" Path="ClassEmpire"/>
-		<Modifier TargetProperty="InfantryMaxDamages" Operation="Percent" Value="8.0" Path="ClassEmpire"/>
-		<Modifier TargetProperty="InfantryMaxHealth" Operation="Percent" Value="8.0" Path="ClassEmpire"/>
+	<SimulationDescriptor Name="SandboxSuperInfantry700" Type="FactionTrait">
+		<Modifier TargetProperty="InfantryMinDamages" Operation="Percent" Value="7.0" Path="ClassEmpire"/>
+		<Modifier TargetProperty="InfantryMaxDamages" Operation="Percent" Value="7.0" Path="ClassEmpire"/>
+		<Modifier TargetProperty="InfantryMaxHealth" Operation="Percent" Value="7.0" Path="ClassEmpire"/>
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="SandboxSuperInfantry1500" Type="FactionTrait">
+		<Modifier TargetProperty="InfantryMinDamages" Operation="Percent" Value="15.0" Path="ClassEmpire"/>
+		<Modifier TargetProperty="InfantryMaxDamages" Operation="Percent" Value="15.0" Path="ClassEmpire"/>
+		<Modifier TargetProperty="InfantryMaxHealth" Operation="Percent" Value="15.0" Path="ClassEmpire"/>
 	</SimulationDescriptor>
 
 	<!--Increases Manpower Cap-->
 	<SimulationDescriptor Name="SandboxManpowerStock100" Type="FactionTrait">
 		<Modifier TargetProperty="MaximumEmpireManpowerStock" Operation="Percent" Value="1.0" Path="ClassEmpire"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxManpowerStock200" Type="FactionTrait">
-		<Modifier TargetProperty="MaximumEmpireManpowerStock" Operation="Percent" Value="2.0" Path="ClassEmpire"/>
+	<SimulationDescriptor Name="SandboxManpowerStock300" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumEmpireManpowerStock" Operation="Percent" Value="3.0" Path="ClassEmpire"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxManpowerStock400" Type="FactionTrait">
-		<Modifier TargetProperty="MaximumEmpireManpowerStock" Operation="Percent" Value="4.0" Path="ClassEmpire"/>
+	<SimulationDescriptor Name="SandboxManpowerStock700" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumEmpireManpowerStock" Operation="Percent" Value="7.0" Path="ClassEmpire"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxManpowerStock800" Type="FactionTrait">
-		<Modifier TargetProperty="MaximumEmpireManpowerStock" Operation="Percent" Value="8.0" Path="ClassEmpire"/>
+	<SimulationDescriptor Name="SandboxManpowerStock1500" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumEmpireManpowerStock" Operation="Percent" Value="15.0" Path="ClassEmpire"/>
 	</SimulationDescriptor>
 
 	<!--Increases Fleet Size-->
 	<SimulationDescriptor Name="SandboxSuperFleets4" Type="FactionTrait">
 		<Modifier TargetProperty="MaximumCommandPoints" Operation="Addition" Value="4" Path="ClassEmpire"/>
+		<Modifier TargetProperty="GarrisonMoneyUpkeep" Operation="Percent" Value="-0.5" Path="ClassEmpire//ClassGarrison/ClassShip"/>
 	</SimulationDescriptor>
 	<SimulationDescriptor Name="SandboxSuperFleets8" Type="FactionTrait">
 		<Modifier TargetProperty="MaximumCommandPoints" Operation="Addition" Value="8" Path="ClassEmpire"/>
-		<Modifier TargetProperty="GarrisonMoneyUpkeep" Operation="Percent" Value="-0.25" Path="ClassEmpire//ClassGarrison/ClassShip"/>
+		<Modifier TargetProperty="GarrisonMoneyUpkeep" Operation="Percent" Value="-0.75" Path="ClassEmpire//ClassGarrison/ClassShip"/>
 	</SimulationDescriptor>
 	<SimulationDescriptor Name="SandboxSuperFleets16" Type="FactionTrait">
 		<Modifier TargetProperty="MaximumCommandPoints" Operation="Addition" Value="16" Path="ClassEmpire"/>
-		<Modifier TargetProperty="GarrisonMoneyUpkeep" Operation="Percent" Value="-0.5" Path="ClassEmpire//ClassGarrison/ClassShip"/>
+		<Modifier TargetProperty="GarrisonMoneyUpkeep" Operation="Percent" Value="-0.875" Path="ClassEmpire//ClassGarrison/ClassShip"/>
 	</SimulationDescriptor>
 	<SimulationDescriptor Name="SandboxSuperFleets32" Type="FactionTrait">
 		<Modifier TargetProperty="MaximumCommandPoints" Operation="Addition" Value="32" Path="ClassEmpire"/>
-		<Modifier TargetProperty="GarrisonMoneyUpkeep" Operation="Percent" Value="-1.0" Path="ClassEmpire//ClassGarrison/ClassShip"/>
+		<Modifier TargetProperty="GarrisonMoneyUpkeep" Operation="Percent" Value="-0.9375" Path="ClassEmpire//ClassGarrison/ClassShip"/>
 	</SimulationDescriptor>
 
 	<!--Increases Trading Subsidiaries Amount-->
-	<SimulationDescriptor Name="SandboxSuperSubsidiaries4" Type="FactionTrait">
-		<Modifier TargetProperty="MaximumNumberOfTradingCompanySubsidiaries" Operation="Addition" Value="4" Path="ClassEmpire" TooltipHidden="false" />
+	<SimulationDescriptor Name="SandboxSuperSubsidiaries2" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumNumberOfTradingCompanySubsidiaries" Operation="Addition" Value="2" Path="ClassEmpire" TooltipHidden="false" />
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxSuperSubsidiaries16" Type="FactionTrait">
-		<Modifier TargetProperty="MaximumNumberOfTradingCompanySubsidiaries" Operation="Addition" Value="16" Path="ClassEmpire" TooltipHidden="false" />
+	<SimulationDescriptor Name="SandboxSuperSubsidiaries8" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumNumberOfTradingCompanySubsidiaries" Operation="Addition" Value="8" Path="ClassEmpire" TooltipHidden="false" />
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxSuperSubsidiaries64" Type="FactionTrait">
-		<Modifier TargetProperty="MaximumNumberOfTradingCompanySubsidiaries" Operation="Addition" Value="64" Path="ClassEmpire" TooltipHidden="false" />
+	<SimulationDescriptor Name="SandboxSuperSubsidiaries32" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumNumberOfTradingCompanySubsidiaries" Operation="Addition" Value="32" Path="ClassEmpire" TooltipHidden="false" />
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxSuperSubsidiaries256" Type="FactionTrait">
-		<Modifier TargetProperty="MaximumNumberOfTradingCompanySubsidiaries" Operation="Addition" Value="256" Path="ClassEmpire" TooltipHidden="false" />
+	<SimulationDescriptor Name="SandboxSuperSubsidiaries128" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumNumberOfTradingCompanySubsidiaries" Operation="Addition" Value="128" Path="ClassEmpire" TooltipHidden="false" />
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxSuperSubsidiaries1024" Type="FactionTrait">
-		<Modifier TargetProperty="MaximumNumberOfTradingCompanySubsidiaries" Operation="Addition" Value="1024" Path="ClassEmpire" TooltipHidden="false" />
+	<SimulationDescriptor Name="SandboxSuperSubsidiaries512" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumNumberOfTradingCompanySubsidiaries" Operation="Addition" Value="512" Path="ClassEmpire" TooltipHidden="false" />
 	</SimulationDescriptor>
 
 	<!--Increases Trading Company Profit-->
 	<SimulationDescriptor Name="SandboxSuperTrading100" Type="FactionTrait">
 		<Modifier TargetProperty="TradingRouteIncomeModifier" Operation="Percent" Value="1.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
-	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxSuperTrading200" Type="FactionTrait">
-		<Modifier TargetProperty="TradingRouteIncomeModifier" Operation="Percent" Value="2.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
-		<Modifier TargetProperty="TradingCompanyLevelUpMultiplier" Operation="Percent" Value="-0.25" Path="ClassEmpire/ClassTradingCompany" TooltipHidden="true"/>
-	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxSuperTrading400" Type="FactionTrait">
-		<Modifier TargetProperty="TradingRouteIncomeModifier" Operation="Percent" Value="4.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
 		<Modifier TargetProperty="TradingCompanyLevelUpMultiplier" Operation="Percent" Value="-0.5" Path="ClassEmpire/ClassTradingCompany" TooltipHidden="true"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxSuperTrading800" Type="FactionTrait">
-		<Modifier TargetProperty="TradingRouteIncomeModifier" Operation="Percent" Value="8.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
-		<Modifier TargetProperty="TradingCompanyLevelUpMultiplier" Operation="Percent" Value="-1.0" Path="ClassEmpire/ClassTradingCompany" TooltipHidden="true"/>
+	<SimulationDescriptor Name="SandboxSuperTrading300" Type="FactionTrait">
+		<Modifier TargetProperty="TradingRouteIncomeModifier" Operation="Percent" Value="3.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
+		<Modifier TargetProperty="TradingCompanyLevelUpMultiplier" Operation="Percent" Value="-0.75" Path="ClassEmpire/ClassTradingCompany" TooltipHidden="true"/>
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="SandboxSuperTrading700" Type="FactionTrait">
+		<Modifier TargetProperty="TradingRouteIncomeModifier" Operation="Percent" Value="7.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
+		<Modifier TargetProperty="TradingCompanyLevelUpMultiplier" Operation="Percent" Value="-0.875" Path="ClassEmpire/ClassTradingCompany" TooltipHidden="true"/>
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="SandboxSuperTrading1500" Type="FactionTrait">
+		<Modifier TargetProperty="TradingRouteIncomeModifier" Operation="Percent" Value="15.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
+		<Modifier TargetProperty="TradingCompanyLevelUpMultiplier" Operation="Percent" Value="-0.9375" Path="ClassEmpire/ClassTradingCompany" TooltipHidden="true"/>
 	</SimulationDescriptor>
 
 	<!--Add Strategic Resources-->
-	<SimulationDescriptor Name="SandboxStrategicResource16" Type="FactionTrait"/>
-	<SimulationDescriptor Name="SandboxStrategicResource62" Type="FactionTrait"/>
+	<SimulationDescriptor Name="SandboxStrategicResource125" Type="FactionTrait"/>
 	<SimulationDescriptor Name="SandboxStrategicResource250" Type="FactionTrait"/>
+	<SimulationDescriptor Name="SandboxStrategicResource500" Type="FactionTrait"/>
 	<SimulationDescriptor Name="SandboxStrategicResource999" Type="FactionTrait"/>
 
 	<!--Add Strategic Resource Gain-->
 	<SimulationDescriptor Name="SandboxStrategicResourceGain100" Type="FactionTrait">
 		<Modifier TargetProperty="ResourceBonus" Operation="Percent" Value="1.0" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet/ClassResourceDeposit,ResourceTypeStrategic"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxStrategicResourceGain200" Type="FactionTrait">
-		<Modifier TargetProperty="ResourceBonus" Operation="Percent" Value="2.0" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet/ClassResourceDeposit,ResourceTypeStrategic"/>
+	<SimulationDescriptor Name="SandboxStrategicResourceGain300" Type="FactionTrait">
+		<Modifier TargetProperty="ResourceBonus" Operation="Percent" Value="3.0" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet/ClassResourceDeposit,ResourceTypeStrategic"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxStrategicResourceGain400" Type="FactionTrait">
-		<Modifier TargetProperty="ResourceBonus" Operation="Percent" Value="4.0" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet/ClassResourceDeposit,ResourceTypeStrategic"/>
+	<SimulationDescriptor Name="SandboxStrategicResourceGain700" Type="FactionTrait">
+		<Modifier TargetProperty="ResourceBonus" Operation="Percent" Value="7.0" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet/ClassResourceDeposit,ResourceTypeStrategic"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxStrategicResourceGain800" Type="FactionTrait">
-		<Modifier TargetProperty="ResourceBonus" Operation="Percent" Value="8.0" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet/ClassResourceDeposit,ResourceTypeStrategic"/>
+	<SimulationDescriptor Name="SandboxStrategicResourceGain1500" Type="FactionTrait">
+		<Modifier TargetProperty="ResourceBonus" Operation="Percent" Value="15.0" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet/ClassResourceDeposit,ResourceTypeStrategic"/>
 	</SimulationDescriptor>
 
 	<!--Add Luxury Resources-->
-	<SimulationDescriptor Name="SandboxLuxuryResource16" Type="FactionTrait"/>
-	<SimulationDescriptor Name="SandboxLuxuryResource62" Type="FactionTrait"/>
+	<SimulationDescriptor Name="SandboxLuxuryResource125" Type="FactionTrait"/>
 	<SimulationDescriptor Name="SandboxLuxuryResource250" Type="FactionTrait"/>
+	<SimulationDescriptor Name="SandboxLuxuryResource500" Type="FactionTrait"/>
 	<SimulationDescriptor Name="SandboxLuxuryResource999" Type="FactionTrait"/>
 
 	<!--Add Luxury Resource Gain-->
+	<SimulationDescriptor Name="SandboxLuxuryResourceGain50" Type="FactionTrait">
+		<Modifier TargetProperty="ResourceBonus" Operation="Percent" Value="0.5" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet/ClassResourceDeposit,ResourceTypeLuxury"/>
+	</SimulationDescriptor>
 	<SimulationDescriptor Name="SandboxLuxuryResourceGain100" Type="FactionTrait">
 		<Modifier TargetProperty="ResourceBonus" Operation="Percent" Value="1.0" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet/ClassResourceDeposit,ResourceTypeLuxury"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxLuxuryResourceGain200" Type="FactionTrait">
-		<Modifier TargetProperty="ResourceBonus" Operation="Percent" Value="2.0" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet/ClassResourceDeposit,ResourceTypeLuxury"/>
+	<SimulationDescriptor Name="SandboxLuxuryResourceGain500" Type="FactionTrait">
+		<Modifier TargetProperty="ResourceBonus" Operation="Percent" Value="5.0" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet/ClassResourceDeposit,ResourceTypeLuxury"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxLuxuryResourceGain400" Type="FactionTrait">
-		<Modifier TargetProperty="ResourceBonus" Operation="Percent" Value="4.0" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet/ClassResourceDeposit,ResourceTypeLuxury"/>
-	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxLuxuryResourceGain800" Type="FactionTrait">
-		<Modifier TargetProperty="ResourceBonus" Operation="Percent" Value="8.0" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet/ClassResourceDeposit,ResourceTypeLuxury"/>
+	<SimulationDescriptor Name="SandboxLuxuryResourceGain1000" Type="FactionTrait">
+		<Modifier TargetProperty="ResourceBonus" Operation="Percent" Value="10.0" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet/ClassResourceDeposit,ResourceTypeLuxury"/>
 	</SimulationDescriptor>
 
 	<!--Add Juggernaut Limit-->
@@ -416,6 +424,25 @@
 		<Modifier TargetProperty="UnclampedNetEmpireHonor" Operation="Addition" Value="100" Priority="3" Path="ClassEmpire" />
 	</SimulationDescriptor>
 
+	<SimulationDescriptor Name="SandboxTechs" Type="FactionTrait">
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="SandboxHacks1" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumHackingOperationsCount" Value="8" Operation="Addition" Path="ClassEmpire"/>
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="SandboxHacks2" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumHackingOperationsCount" Value="16" Operation="Addition" Path="ClassEmpire"/>
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="SandboxHacks3" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumHackingOperationsCount" Value="32" Operation="Addition" Path="ClassEmpire"/>
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="SandboxHacks4" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumHackingOperationsCount" Value="64" Operation="Addition" Path="ClassEmpire"/>
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="SandboxHacks5" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumHackingOperationsCount" Value="128" Operation="Addition" Path="ClassEmpire"/>
+	</SimulationDescriptor>
+
 	<!--########################################-->
 	<!--###  Backwards Compatibility Traits  ###-->
 	<!--########################################-->
@@ -441,28 +468,28 @@
 	<SimulationDescriptor Name="SandboxSuperInfluence" Type="FactionTrait">
 		<Modifier TargetProperty="SystemEmpirePoint" Operation="Percent" Value="1.0" Path="ClassEmpire/ClassColonizedStarSystem"/>
 		<!--Tons Of influence-->
-	</SimulationDescriptor>	
+	</SimulationDescriptor>
 	<SimulationDescriptor Name="SandboxSuperHappy" Type="FactionTrait">
 		<Modifier TargetProperty="Happiness" Operation="Addition" Value="1000" Path="ClassEmpire/ClassColonizedStarSystem"/>
 		<!--Super Happy-->
-	</SimulationDescriptor>	
+	</SimulationDescriptor>
 	<SimulationDescriptor Name="SandboxSpaciousPlanets" Type="FactionTrait">
 		<Modifier TargetProperty="RawMaximumPopulation" Operation="Addition" Value="20" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
-	</SimulationDescriptor>	
+	</SimulationDescriptor>
 	<SimulationDescriptor Name="SandboxLargeEmpires" Type="FactionTrait">
 		<Modifier TargetProperty="OverPopulationPenaltiesReduction" Value="-1.00" Operation="Addition" Path="ClassEmpire/ClassColonizedStarSystem"/>
 		<!--No over-expansion penalty-->
-	</SimulationDescriptor>	
+	</SimulationDescriptor>
 	<SimulationDescriptor Name="SandboxFastShips" Type="FactionTrait">
 		<Modifier TargetProperty="MaximumMovement" Operation="Addition" Value="10000" Path="ClassEmpire/ClassGarrison/ClassShip"/>
 		<Modifier TargetProperty="MaximumMovement" Operation="Addition" Value="10000" Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip" TooltipHidden="false"/>
 		<!--Super fast ships-->
-	</SimulationDescriptor>	
+	</SimulationDescriptor>
 	<SimulationDescriptor Name="SandboxExtraProbes" Type="FactionTrait">
 		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="100" Path="ClassEmpire/ClassGarrison/ClassShip,ShipRoleExploration"/>
 		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="100" Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip,ShipRoleExploration" TooltipHidden="false"/>
 		<!--Tons of probes-->
-	</SimulationDescriptor>	
+	</SimulationDescriptor>
 	<SimulationDescriptor Name="SandboxSuperHeros" Type="FactionTrait">
 		<Modifier TargetProperty="HealthPerTurn" Operation="Percent" Value="1.0" Path="ClassEmpire/ClassHero"/>
 		<!--quick hero heal-->
@@ -472,30 +499,30 @@
 		<Modifier TargetProperty="ExperiencePerTurn" Operation="Addition" Value="100" Path="ClassEmpire/ClassGarrison/ClassHero"/>
 		<Modifier TargetProperty="ExperiencePerTurn" Operation="Addition" Value="100" Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="false"/>
 		<!--Smart Heros-->
-	</SimulationDescriptor>	
+	</SimulationDescriptor>
 	<SimulationDescriptor Name="SandboxHealthyShips" Type="FactionTrait">
 		<Modifier TargetProperty="ShipHealth" Operation="Percent" Value="1.0" Path="../ClassEmpire/ClassGarrison/ClassShip"/>
 		<!--Ship Health-->
-	</SimulationDescriptor>	
+	</SimulationDescriptor>
 	<SimulationDescriptor Name="SandboxDeadlyShips" Type="FactionTrait">
 		<Modifier TargetProperty="Damage" Operation="Percent" Value="1.0" Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection/ClassModule,ClassModuleWeapon"/>
 		<!--Ship Weapon damage-->
-	</SimulationDescriptor>	
+	</SimulationDescriptor>
 	<SimulationDescriptor Name="SandboxCheapShips" Type="FactionTrait">
 		<Modifier TargetProperty="ShipProductionCostReduction" Operation="Addition" Value="-1.0" Path="ClassEmpire/ClassColonizedStarSystem" Priority="-5"/>
 		<Modifier TargetProperty="ColonyShipProductionCostReduction" Operation="Addition" Value="-1.0" Path="ClassEmpire/ClassColonizedStarSystem" Priority="-5" TooltipHidden="false"/>
 		<!--Free ships-->
-	</SimulationDescriptor>	
+	</SimulationDescriptor>
 	<SimulationDescriptor Name="SandboxSuperInfantry" Type="FactionTrait">
 		<Modifier TargetProperty="InfantryMinDamages" Operation="Percent" Value="1.0" Path="ClassEmpire"/>
 		<Modifier TargetProperty="InfantryMaxDamages" Operation="Percent" Value="1.0" Path="ClassEmpire"/>
 		<Modifier TargetProperty="InfantryMaxHealth" Operation="Percent" Value="1.0" Path="ClassEmpire"/>
 		<!--super soldiers-->
-	</SimulationDescriptor>	
+	</SimulationDescriptor>
 	<SimulationDescriptor Name="SandboxManpowerStock" Type="FactionTrait">
 		<Modifier TargetProperty="MaximumEmpireManpowerStock" Operation="Percent" Value="1.0" Path="ClassEmpire"/>
 		<!--super manpower stock-->
-	</SimulationDescriptor>	
+	</SimulationDescriptor>
 	<SimulationDescriptor Name="SandboxSuperFleets" Type="FactionTrait">
 		<Modifier TargetProperty="MaximumCommandPoints" Operation="Addition" Value="100" Path="ClassEmpire"/>
 		<Modifier TargetProperty="GarrisonMoneyUpkeep" Operation="Percent" Value="-1.0" Path="ClassEmpire//ClassGarrison/ClassShip"/>
@@ -507,13 +534,13 @@
 		<Modifier TargetProperty="BonusPopulationFIDSI" Operation="Addition" Value="10" Priority="-3" Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassPlanet/ClassPopulationPlanetModifiersTraitSandboxPrimaryFIDSI,ClassPopulation"/>
 	</SimulationDescriptor>
 	<SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitSandboxPrimaryFIDSI" Type="ClassPopulationPlanet">
-		<Modifier       TargetProperty="BonusPopulationFIDSI" Operation="Addition" Value="10" Path="ClassPopulation"/>
+		<Modifier TargetProperty="BonusPopulationFIDSI" Operation="Addition" Value="10" Path="ClassPopulation"/>
 	</SimulationDescriptor>
 
 	<SimulationDescriptor Name="WithPopulationPlanetModifiersTraitSandboxSecondaryFIDSI" Type="WithPopulationPlanet">
 		<Modifier TargetProperty="BonusPopulationFIDSI" Operation="Addition" Value="10" Priority="-3" Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassPlanet/ClassPopulationPlanetModifiersTraitSandboxSecondaryFIDSI,ClassPopulation"/>
 	</SimulationDescriptor>
 	<SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitSandboxSecondaryFIDSI" Type="ClassPopulationPlanet">
-		<Modifier       TargetProperty="BonusPopulationFIDSI" Operation="Addition" Value="10" Path="ClassPopulation"/>
+		<Modifier TargetProperty="BonusPopulationFIDSI" Operation="Addition" Value="10" Path="ClassPopulation"/>
 	</SimulationDescriptor>
 </Datatable>
