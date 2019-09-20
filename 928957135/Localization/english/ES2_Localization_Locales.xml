@@ -10,50 +10,51 @@
 
 	<!--No Law Upkeep-->
 	<LocalizationPair Name="%SandboxFreeLawsTitle">Sandbox: Free Laws and Elections</LocalizationPair>
-	<LocalizationPair Name="%SandboxFreeLawsDescription">Removes influence cost for law upkeep and election actions.</LocalizationPair>
+	<LocalizationPair Name="%SandboxFreeLawsDescription">Removes influence cost for law upkeep and election actions</LocalizationPair>
 
 	<!--Freezes Rebellion-->
 	<LocalizationPair Name="%SandboxNoRebellionTitle">Sandbox: No Rebellion</LocalizationPair>
-	<LocalizationPair Name="%SandboxNoRebellionDescription">Completely hamstrings those rebel scum.</LocalizationPair>
+	<LocalizationPair Name="%SandboxNoRebellionDescription">Hamstring those rebel scum.</LocalizationPair>
 
 	<!--Increases System Dust Output by X%-->
 	<LocalizationPair Name="%SandboxSuperMoney100Title">Sandbox: Dust +100%</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperMoney200Title">Sandbox: Dust +200%</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperMoney400Title">Sandbox: Dust +400%</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperMoney800Title">Sandbox: Dust +800%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperMoney300Title">Sandbox: Dust +300%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperMoney700Title">Sandbox: Dust +700%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperMoney1500Title">Sandbox: Dust +1500%</LocalizationPair>
 	<LocalizationPair Name="%SandboxSuperMoneyDescription">Dust really does grow on trees...</LocalizationPair>
 
 	<!--Increases System Industry Output by X%-->
 	<LocalizationPair Name="%SandboxSuperIndustry100Title">Sandbox: Industry +100%</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperIndustry200Title">Sandbox: Industry +200%</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperIndustry400Title">Sandbox: Industry +400%</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperIndustry800Title">Sandbox: Industry +800%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperIndustry300Title">Sandbox: Industry +300%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperIndustry700Title">Sandbox: Industry +700%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperIndustry1500Title">Sandbox: Industry +1500%</LocalizationPair>
 	<LocalizationPair Name="%SandboxSuperIndustryDescription">Spin the wheels of progress faster!</LocalizationPair>
 
 	<!--Increases System Food Output by X%-->
 	<LocalizationPair Name="%SandboxSuperFood100Title">Sandbox: Food +100%</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperFood200Title">Sandbox: Food +200%</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperFood400Title">Sandbox: Food +400%</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperFood800Title">Sandbox: Food +800%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperFood300Title">Sandbox: Food +300%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperFood700Title">Sandbox: Food +700%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperFood1500Title">Sandbox: Food +1500%</LocalizationPair>
 	<LocalizationPair Name="%SandboxSuperFoodDescription">A plentiful bounty for all!</LocalizationPair>
 
 	<!--Increases System Science Output by X%-->
 	<LocalizationPair Name="%SandboxSuperScience100Title">Sandbox: Science +100%</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperScience200Title">Sandbox: Science +200%</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperScience400Title">Sandbox: Science +400%</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperScience800Title">Sandbox: Science +800%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperScience300Title">Sandbox: Science +300%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperScience700Title">Sandbox: Science +700%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperScience1500Title">Sandbox: Science +1500%</LocalizationPair>
 	<LocalizationPair Name="%SandboxSuperScienceDescription">Science bitch!</LocalizationPair>
 
 	<!--Increases System Influence Output by X%-->
 	<LocalizationPair Name="%SandboxSuperInfluence100Title">Sandbox: Influence +100%</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperInfluence200Title">Sandbox: Influence +200%</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperInfluence400Title">Sandbox: Influence +400%</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperInfluence800Title">Sandbox: Influence +800%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperInfluence300Title">Sandbox: Influence +300%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperInfluence700Title">Sandbox: Influence +700%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperInfluence1500Title">Sandbox: Influence +1500%</LocalizationPair>
 	<LocalizationPair Name="%SandboxSuperInfluenceDescription">Grease those palms.</LocalizationPair>
 
 	<!--Increases System happiness by X-->
-	<LocalizationPair Name="%SandboxSuperHappy32Title">Sandbox: System Happiness +32</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperHappy64Title">Sandbox: System Happiness +64</LocalizationPair>
 	<LocalizationPair Name="%SandboxSuperHappy128Title">Sandbox: System Happiness +128</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperHappy256Title">Sandbox: System Happiness +256</LocalizationPair>
 	<LocalizationPair Name="%SandboxSuperHappy512Title">Sandbox: System Happiness +512</LocalizationPair>
 	<LocalizationPair Name="%SandboxSuperHappyDescription">Make everyone super happy!</LocalizationPair>
 
@@ -75,59 +76,59 @@
 	<LocalizationPair Name="%SandboxFreeSystemDevelopmentDescription">Removes the Luxury cost from colony development</LocalizationPair>
 
 	<!--Increases Ship Movement-->
-	<LocalizationPair Name="%SandboxFastShips1Title">Sandbox: Ship Movement Points +1</LocalizationPair>
 	<LocalizationPair Name="%SandboxFastShips4Title">Sandbox: Ship Movement Points +4</LocalizationPair>
 	<LocalizationPair Name="%SandboxFastShips16Title">Sandbox: Ship Movement Points +16</LocalizationPair>
 	<LocalizationPair Name="%SandboxFastShips64Title">Sandbox: Ship Movement Points +64</LocalizationPair>
-	<LocalizationPair Name="%SandboxFastShipsDescription">Gotta go faster!</LocalizationPair>
+	<LocalizationPair Name="%SandboxFastShips256Title">Sandbox: Ship Movement Points +256</LocalizationPair>
+	<LocalizationPair Name="%SandboxFastShipsDescription">Gotta go fast!</LocalizationPair>
 
 	<!--Increases Ship probes-->
-	<LocalizationPair Name="%SandboxExtraProbes1Title">Sandbox: Ship Probes +2</LocalizationPair>
-	<LocalizationPair Name="%SandboxExtraProbes4Title">Sandbox: Ship Probes +8</LocalizationPair>
-	<LocalizationPair Name="%SandboxExtraProbes16Title">Sandbox: Ship Probes +32</LocalizationPair>
-	<LocalizationPair Name="%SandboxExtraProbes64Title">Sandbox: Ship Probes +128</LocalizationPair>
+	<LocalizationPair Name="%SandboxExtraProbes8Title">Sandbox: Ship Probes +8</LocalizationPair>
+	<LocalizationPair Name="%SandboxExtraProbes32Title">Sandbox: Ship Probes +32</LocalizationPair>
+	<LocalizationPair Name="%SandboxExtraProbes128Title">Sandbox: Ship Probes +128</LocalizationPair>
+	<LocalizationPair Name="%SandboxExtraProbes512Title">Sandbox: Ship Probes +512</LocalizationPair>
 	<LocalizationPair Name="%SandboxExtraProbesDescription">More of the good kind of probe.</LocalizationPair>
 
 	<!--Gives XP, reduces Cost, and heals Heros-->
-	<LocalizationPair Name="%SandboxSuperHeros2Title">Sandbox: Super Heroes +2XP per turn</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperHeros8Title">Sandbox: Super Heroes +8XP per turn</LocalizationPair>
 	<LocalizationPair Name="%SandboxSuperHeros32Title">Sandbox: Super Heroes +32XP per turn</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperHeros128Title">Sandbox: Super Heroes +128XP per turn</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperHerosDescription">Cheaper, healthier and more "super" heroes.</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperHeros64Title">Sandbox: Super Heros +64XP per turn</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperHeros128Title">Sandbox: Super Heros +128XP per turn</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperHeros256Title">Sandbox: Super Heros +256XP per turn</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperHerosDescription">Cheaper, healthier, more "super" heroes.</LocalizationPair>
 
 	<!--Increases Ship Health-->
 	<LocalizationPair Name="%SandboxHealthyShips100Title">Sandbox: Ship Health +100%</LocalizationPair>
-	<LocalizationPair Name="%SandboxHealthyShips200Title">Sandbox: Ship Health +200%</LocalizationPair>
-	<LocalizationPair Name="%SandboxHealthyShips400Title">Sandbox: Ship Health +400%</LocalizationPair>
-	<LocalizationPair Name="%SandboxHealthyShips800Title">Sandbox: Ship Health +800%</LocalizationPair>
+	<LocalizationPair Name="%SandboxHealthyShips300Title">Sandbox: Ship Health +300%</LocalizationPair>
+	<LocalizationPair Name="%SandboxHealthyShips700Title">Sandbox: Ship Health +700%</LocalizationPair>
+	<LocalizationPair Name="%SandboxHealthyShips1500Title">Sandbox: Ship Health +1500%</LocalizationPair>
 	<LocalizationPair Name="%SandboxHealthyShipsDescription">Tougher ships.</LocalizationPair>
 
 	<!--Increases Ship Damage-->
 	<LocalizationPair Name="%SandboxDeadlyShips100Title">Sandbox: Ship Weapon Damage +100%</LocalizationPair>
-	<LocalizationPair Name="%SandboxDeadlyShips200Title">Sandbox: Ship Weapon Damage +200%</LocalizationPair>
-	<LocalizationPair Name="%SandboxDeadlyShips400Title">Sandbox: Ship Weapon Damage +400%</LocalizationPair>
-	<LocalizationPair Name="%SandboxDeadlyShips800Title">Sandbox: Ship Weapon Damage +800%</LocalizationPair>
+	<LocalizationPair Name="%SandboxDeadlyShips300Title">Sandbox: Ship Weapon Damage +300%</LocalizationPair>
+	<LocalizationPair Name="%SandboxDeadlyShips700Title">Sandbox: Ship Weapon Damage +700%</LocalizationPair>
+	<LocalizationPair Name="%SandboxDeadlyShips1500Title">Sandbox: Ship Weapon Damage +1500%</LocalizationPair>
 	<LocalizationPair Name="%SandboxDeadlyShipsDescription">Stronger ships.</LocalizationPair>
 
 	<!--Decreases Ship Build Cost-->
-	<LocalizationPair Name="%SandboxCheapShips25Title">Sandbox: Ship Costs -25%</LocalizationPair>
 	<LocalizationPair Name="%SandboxCheapShips50Title">Sandbox: Ship Costs -50%</LocalizationPair>
 	<LocalizationPair Name="%SandboxCheapShips75Title">Sandbox: Ship Costs -75%</LocalizationPair>
-	<LocalizationPair Name="%SandboxCheapShips100Title">Sandbox: Ship Costs -100%</LocalizationPair>
+	<LocalizationPair Name="%SandboxCheapShips88Title">Sandbox: Ship Costs -88%</LocalizationPair>
+	<LocalizationPair Name="%SandboxCheapShips94Title">Sandbox: Ship Costs -94%</LocalizationPair>
 	<LocalizationPair Name="%SandboxCheapShipsDescription">Subsidize those ships!</LocalizationPair>
 
 	<!--Increases Infantry Damage + Health-->
 	<LocalizationPair Name="%SandboxSuperInfantry100Title">Sandbox: Infantry Health and Damage +100%</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperInfantry200Title">Sandbox: Infantry Health and Damage +200%</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperInfantry400Title">Sandbox: Infantry Health and Damage +400%</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperInfantry800Title">Sandbox: Infantry Health and Damage +800%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperInfantry300Title">Sandbox: Infantry Health and Damage +300%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperInfantry700Title">Sandbox: Infantry Health and Damage +700%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperInfantry1500Title">Sandbox: Infantry Health and Damage +1500%</LocalizationPair>
 	<LocalizationPair Name="%SandboxSuperInfantryDescription">Nothing like a good ol' super soldier program!</LocalizationPair>
 
 	<!--Increases Manpower Cap-->
 	<LocalizationPair Name="%SandboxManpowerStock100Title">Sandbox: Manpower Capacity +100%</LocalizationPair>
-	<LocalizationPair Name="%SandboxManpowerStock200Title">Sandbox: Manpower Capacity +200%</LocalizationPair>
-	<LocalizationPair Name="%SandboxManpowerStock400Title">Sandbox: Manpower Capacity +400%</LocalizationPair>
-	<LocalizationPair Name="%SandboxManpowerStock800Title">Sandbox: Manpower Capacity +800%</LocalizationPair>
+	<LocalizationPair Name="%SandboxManpowerStock300Title">Sandbox: Manpower Capacity +300%</LocalizationPair>
+	<LocalizationPair Name="%SandboxManpowerStock700Title">Sandbox: Manpower Capacity +500%</LocalizationPair>
+	<LocalizationPair Name="%SandboxManpowerStock1500Title">Sandbox: Manpower Capacity +1500%</LocalizationPair>
 	<LocalizationPair Name="%SandboxManpowerStockDescription">Bigger barracks and gargantuan garrisons!</LocalizationPair>
 
 	<!--Increases Fleet Size-->
@@ -138,46 +139,46 @@
 	<LocalizationPair Name="%SandboxSuperFleetsDescription">Super-sized fleets at a fraction of the cost!</LocalizationPair>
 
 	<!--Increases Trading Subsidiaries Amount-->
-	<LocalizationPair Name="%SandboxSuperSubsidiaries4Title">Sandbox: Trade Subsidiaries +4</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperSubsidiaries16Title">Sandbox: Trade Subsidiaries +16</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperSubsidiaries64Title">Sandbox: Trade Subsidiaries +64</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperSubsidiaries256Title">Sandbox: Trade Subsidiaries +256</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperSubsidiaries1024Title">Sandbox: Trade Subsidiaries +1024</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperSubsidiaries2Title">Sandbox: Trade Subsidiaries +2</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperSubsidiaries8Title">Sandbox: Trade Subsidiaries +8</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperSubsidiaries32Title">Sandbox: Trade Subsidiaries +32</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperSubsidiaries128Title">Sandbox: Trade Subsidiaries +128</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperSubsidiaries512Title">Sandbox: Trade Subsidiaries +512</LocalizationPair>
 	<LocalizationPair Name="%SandboxSuperSubsidiariesDescription">Increase maximum allowed trade subsidiaries.</LocalizationPair>
 
 	<!--Increases Trading Company Profit-->
 	<LocalizationPair Name="%SandboxSuperTrading100Title">Sandbox: Trading Company Leveling and Profit +100%</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperTrading200Title">Sandbox: Trading Company Leveling and Profit +200%</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperTrading400Title">Sandbox: Trading Company Leveling and Profit +400%</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperTrading800Title">Sandbox: Trading Company Leveling and Profit +800%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperTrading300Title">Sandbox: Trading Company Leveling and Profit +300%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperTrading700Title">Sandbox: Trading Company Leveling and Profit +700%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperTrading1500Title">Sandbox: Trading Company Leveling and Profit +1500%</LocalizationPair>
 	<LocalizationPair Name="%SandboxSuperTradingDescription">Increases trading company leveling and profit.</LocalizationPair>
 
 	<!--Add Strategic Resources-->
-	<LocalizationPair Name="%SandboxStrategicResource16Title">Sandbox: Begin with 16 of Each Strategic Resource</LocalizationPair>
-	<LocalizationPair Name="%SandboxStrategicResource62Title">Sandbox: Begin with 62 of Each Strategic Resource</LocalizationPair>
+	<LocalizationPair Name="%SandboxStrategicResource125Title">Sandbox: Begin with 125 of Each Strategic Resource</LocalizationPair>
 	<LocalizationPair Name="%SandboxStrategicResource250Title">Sandbox: Begin with 250 of Each Strategic Resource</LocalizationPair>
+	<LocalizationPair Name="%SandboxStrategicResource500Title">Sandbox: Begin with 500 of Each Strategic Resource</LocalizationPair>
 	<LocalizationPair Name="%SandboxStrategicResource999Title">Sandbox: Begin with 999 of Each Strategic Resource</LocalizationPair>
 	<LocalizationPair Name="%SandboxStrategicResourceDescription">Start with each strategic resource.</LocalizationPair>
 
 	<!--Add Strategic Resource Gain-->
 	<LocalizationPair Name="%SandboxStrategicResourceGain100Title">Sandbox: +100% Resources on all Strategic Deposits</LocalizationPair>
-	<LocalizationPair Name="%SandboxStrategicResourceGain200Title">Sandbox: +200% Resources on all Strategic Deposits</LocalizationPair>
-	<LocalizationPair Name="%SandboxStrategicResourceGain400Title">Sandbox: +400% Resources on all Strategic Deposits</LocalizationPair>
-	<LocalizationPair Name="%SandboxStrategicResourceGain800Title">Sandbox: +800% Resources on all Strategic Deposits</LocalizationPair>
+	<LocalizationPair Name="%SandboxStrategicResourceGain300Title">Sandbox: +300% Resources on all Strategic Deposits</LocalizationPair>
+	<LocalizationPair Name="%SandboxStrategicResourceGain700Title">Sandbox: +700% Resources on all Strategic Deposits</LocalizationPair>
+	<LocalizationPair Name="%SandboxStrategicResourceGain1500Title">Sandbox: +1500% Resources on all Strategic Deposits</LocalizationPair>
 	<LocalizationPair Name="%SandboxStrategicResourceGainDescription">Mine more mythical metals!</LocalizationPair>
 
 	<!--Add Luxury Resources-->
-	<LocalizationPair Name="%SandboxLuxuryResource16Title">Sandbox: Begin with 16 of Each Luxury Resource</LocalizationPair>
-	<LocalizationPair Name="%SandboxLuxuryResource62Title">Sandbox: Begin with 62 of Each Luxury Resource</LocalizationPair>
+	<LocalizationPair Name="%SandboxLuxuryResource125Title">Sandbox: Begin with 125 of Each Luxury Resource</LocalizationPair>
 	<LocalizationPair Name="%SandboxLuxuryResource250Title">Sandbox: Begin with 250 of Each Luxury Resource</LocalizationPair>
+	<LocalizationPair Name="%SandboxLuxuryResource500Title">Sandbox: Begin with 500 of Each Luxury Resource</LocalizationPair>
 	<LocalizationPair Name="%SandboxLuxuryResource999Title">Sandbox: Begin with 999 of Each Luxury Resource</LocalizationPair>
-	<LocalizationPair Name="%SandboxLuxuryResourceDescription">Start with each luxury resource.</LocalizationPair>
+	<LocalizationPair Name="%SandboxLuxuryResourceDescription">Starts You Off with Some Each Luxury Resource </LocalizationPair>
 
 	<!--Add Luxury Resource Gain-->
 	<LocalizationPair Name="%SandboxLuxuryResourceGain100Title">Sandbox: +100% Resources on all Luxury Deposits</LocalizationPair>
-	<LocalizationPair Name="%SandboxLuxuryResourceGain200Title">Sandbox: +200% Resources on all Luxury Deposits</LocalizationPair>
-	<LocalizationPair Name="%SandboxLuxuryResourceGain400Title">Sandbox: +400% Resources on all Luxury Deposits</LocalizationPair>
-	<LocalizationPair Name="%SandboxLuxuryResourceGain800Title">Sandbox: +800% Resources on all Luxury Deposits</LocalizationPair>
+	<LocalizationPair Name="%SandboxLuxuryResourceGain300Title">Sandbox: +300% Resources on all Luxury Deposits</LocalizationPair>
+	<LocalizationPair Name="%SandboxLuxuryResourceGain700Title">Sandbox: +700% Resources on all Luxury Deposits</LocalizationPair>
+	<LocalizationPair Name="%SandboxLuxuryResourceGain1500Title">Sandbox: +1500% Resources on all Luxury Deposits</LocalizationPair>
 	<LocalizationPair Name="%SandboxLuxuryResourceGainDescription">Live in the lap of luxury!</LocalizationPair>
 
 	<!--Add Juggernaut Limit-->
@@ -194,11 +195,23 @@
 
 	<!--Shield System-->
 	<LocalizationPair Name="%SandboxSystemShield2Title">Sandbox: Shield All Systems</LocalizationPair>
-	<LocalizationPair Name="%SandboxSystemShield2Description">All owned systems have immunity to Obliterator fire. </LocalizationPair>
+	<LocalizationPair Name="%SandboxSystemShield2Description">All owned systems have immunity to Obliterator fire.</LocalizationPair>
 
 	<!--Honour-->
 	<LocalizationPair Name="%SandboxHonourTitle">Sandbox: Super Honourable</LocalizationPair>
 	<LocalizationPair Name="%SandboxHonourDescription">Start with max honour and gain 100 honour / turn.</LocalizationPair>
+	
+	<!--Tech unlocks-->
+	<LocalizationPair Name="%SandboxTechs01Title">Sandbox: Unlock All Era 1 Tech</LocalizationPair>
+	<LocalizationPair Name="%SandboxTechs01Description">Start with all Era 1 tech.</LocalizationPair>
+	<LocalizationPair Name="%SandboxTechs02Title">Sandbox: Unlock All Era 2 Tech</LocalizationPair>
+	<LocalizationPair Name="%SandboxTechs02Description">Start with all Era 2 and below tech.</LocalizationPair>
+	<LocalizationPair Name="%SandboxTechs03Title">Sandbox: Unlock All Era 3 Tech</LocalizationPair>
+	<LocalizationPair Name="%SandboxTechs03Description">Start with all Era 3 and below tech.</LocalizationPair>
+	<LocalizationPair Name="%SandboxTechs04Title">Sandbox: Unlock All Era 4 Tech</LocalizationPair>
+	<LocalizationPair Name="%SandboxTechs04Description">Start with all Era 4 and below tech.</LocalizationPair>
+	<LocalizationPair Name="%SandboxTechs05Title">Sandbox: Unlock All Era 5 Tech</LocalizationPair>
+	<LocalizationPair Name="%SandboxTechs05Description">Start with all Era 5 and below tech.</LocalizationPair>
 
 	<!--########################################-->
 	<!--###          Hero  Traits            ###-->
@@ -291,8 +304,8 @@
 	<LocalizationPair Name="%SandboxHeroTimeLords07Description">[TBD] TimeLords 07 description</LocalizationPair>
 	<LocalizationPair Name="%SandboxHeroTimeLords08Title">Give Hero: [TBD] TimeLords 08</LocalizationPair>
 	<LocalizationPair Name="%SandboxHeroTimeLords08Description">[TBD] TimeLords 08 description</LocalizationPair>
-
-	<!-- Minor Faction Heroes -->
+  
+  <!-- Minor Faction Heroes -->
 	<LocalizationPair Name="%SandboxHeroBenthys01Title">Give Hero: Nelly "Shaken" Sira Ninpere</LocalizationPair>
 	<LocalizationPair Name="%SandboxHeroBenthys01Description">So great is Ninpere's knowledge of luxuries that even the most indulgent of the Lumeris listen rather than speak when she is talking. Notable primarily for her expertise in drinks and particularly cocktails, she was given the honorary rank of "Sira" for not only creating the most expensive cocktail ever known, but also the most accessible across diverse species and the most-nearly-but-not-quite-lethal. When one adds to this her encyclopedic knowledge of perfumes, flavors, organic chemistry, food processing, and fine dining, it is clear why her opinions and presence are sought at the finest establishments across the galaxy (it is a secret known only to her that this exceptional talent is due to an impetuous over-sampling of Dust-based drinks). Regardless, Ninpere’s knowledge and her agreeable company are both in great demand.</LocalizationPair>
 	<LocalizationPair Name="%SandboxHeroBots01Title">Give Hero: EPISTIS "Madein" 20910</LocalizationPair>
@@ -325,8 +338,8 @@
 	<LocalizationPair Name="%SandboxHeroRemnant01Description">Entrusted by the Remnant leader, Belcus Akad-Talar, to scout the rest of the system after the order of cyborg assassins awoke from their long hibernation, Kalin was exploring a remote windswept tower on a nearby planet when its connection to the hive-mind was severed. Whether this was due to Dust storms, computational failure, or sabotage was unclear, but the result was that Kalin was suddenly alone with its buried past. Overwhelming memories of tracking marks across ghost-worlds, hiding in the holds of interstellar vessels, and killing under myriad suns flashed through its silicon mind. On that day, the one-time assassin vowed to learn everything it could about its history, and set off the stars. Alone.</LocalizationPair>
 	<LocalizationPair Name="%SandboxHeroPulsos01Title">Give Hero: Caxalxsixox Druse</LocalizationPair>
 	<LocalizationPair Name="%SandboxHeroPulsos01Description">The Pulsos are led by Caxalxsixox, who as leader volunteered to travel among the other races of the galaxy to better understand their nature. Analyzing their tools and societies to understand more of the powers and possibilities contained in Dust, Caxalxsixox fulfills a lonely if important role. Regardless, while the leader travels, soaking up knowledge and transmitting it back to the Pulsos using their innate mastery of quantum coupling, the others bask in the data stream that Caxalxsixox creates, forever recording and studying.</LocalizationPair>
-
-	<!-- Hidden (Quest) Heroes -->
+  
+  <!-- Hidden (Quest) Heroes -->
 	<LocalizationPair Name="%SandboxQuestHeroEndless01Title">Give Hero: Reyaryn Cious</LocalizationPair>
 	<LocalizationPair Name="%SandboxQuestHeroEndless01Description">Discovered by Cravers in the heart of an ancient Craver vessel, buried and dormant, Reyaryn is one of the galaxy's oldest survivors. Largely silent on matters of the past, nobody knows exactly what sort of life Reyaryn led at the time of the Endless, or what brought his virtual self to be embedded in an industrial-purpose exosuit. What is known is that Reyaryn is a powerful presence wherever he goes, seemingly possessed with an uncanny ability to predict the next move of friends and enemies alike. As to a weakness, some whisper that he is afraid of visiting the original Endless homeworld . . .</LocalizationPair>
 	<LocalizationPair Name="%SandboxQuestHeroEndless02Title">Give Hero: Tiaych Zhilleaq</LocalizationPair>
@@ -365,11 +378,11 @@
 	<LocalizationPair Name="%SandboxHeroPirateLeader01Description">A rough character from a rough culture, Gurk’Zvar would have been a hard case even if his drunken stepfather had not named him Fluffpetal. A name like that in Gnashast society made bullying a daily occurrence throughout his youth. Before he learned anything else, Gurk'Zvar learned how to win fights or talk his way out of them. Showing a lot more smarts than his parents, Gurk'Zvar figured out that more friends and more people who owe you favors translated into more clout on the streets. From gang leader to mob boss was relatively straightforward, and once he took his first trip off-planet it was clear that nothing short of ruling his own pirate empire would be enough for this bright and belligerent personality.</LocalizationPair>
 	<LocalizationPair Name="%SandboxHeroHaroshems02Title">Give Hero: Karv Jezet</LocalizationPair>
 	<LocalizationPair Name="%SandboxHeroHaroshems02Description">Dangerously foolhardy for a Haroshem, Jezet was eager to get off-world into a galaxy where he would be seen as "normal". His first trip, however, included a near crash, a pirate raid, and the discovery of a stolen hoard of Endless loot. Rather than dissuading him, this succession of events only made Jezet happier with his life choices. While he breezed through the Academy thanks to his eidetic memory, most of his knowledge (and increasing cynicism) comes from banging around the corners of the galaxy where wiser heroes would never be seen, in the company of people that wiser heroes would run away from.</LocalizationPair>
-
+	
 	<!--SandboxHeroAllVanilla-->
 	<LocalizationPair Name="%SandboxHeroAllVanillaTitle">Give All Vanilla Heroes #a50008#Warning: Will cause notification spam all game!#REVERT#</LocalizationPair>
 	<LocalizationPair Name="%SandboxHeroAllVanillaDescription">Adds all 66 Vanilla Heroes</LocalizationPair>
-
+	
 	<!--Vaulter Heroes-->
 	<LocalizationPair Name="%SandboxHeroVaulters01Title">Give Hero:#ED9900#[Vaulter DLC]#REVERT# Petrov Jutka</LocalizationPair>
 	<LocalizationPair Name="%SandboxHeroVaulters01Description">Another ghost from a long line of ghosts, Jutka always had an uncanny knack for infiltration and ambush operations. A natural warrior and unpredictable commander, her troops have a history of success and survival that make her the envy of friend and foe. While some say it must be in her genes, given her famous great-grandmother, Judit, her grueling training and relentless drive should also be taken into account when explaining her phenomenal success.</LocalizationPair>
@@ -383,7 +396,7 @@
 	<LocalizationPair Name="%SandboxHeroSistersOfMercy01Description">Parcha had both the doom and the honor to leave Auriga and cross the stars when the Vaulters repaired the Argosy and departed. She travels with her family heirloom, the Book of the Kjrtys, an ancient tome filled with proverbs, anecdotes, and prayers. Whatever shadows or demons lurk behind the emotions that provoke a given situation, the Book is intended to provide her with the clarity of absolutes to deal with the problem. She discovered, however, that multiple layers of sentience, culture, and civilization impose far more complexity than her simple philosophical training provided. In search of greater answers, she visited the Academy and became one of the very few non-Dust-enhanced individuals admitted to its inner sanctum and taught its secrets. Fascinated by her experiences on Auriga, Isyander himself ensured that Parcha mastered Dust and became a full member of the Academy.</LocalizationPair>
 	<LocalizationPair Name="%SandboxHeroOpbot01Title">Give Hero:#ED9900#[Vaulter DLC]#REVERT# Opbot DV8</LocalizationPair>
 	<LocalizationPair Name="%SandboxHeroOpbot01Description">Operating a recon mission, Academy scouts were exceedingly surprised to discover that a promising species of pre-sentients had, within the span of a few years, gone from huddling in mud hovels to trying their hand at space exploration. Investigating this extraordinary technological leap, the scouts eventually met a battered robot who introduced itself as Opbot DV8. It explained that after drifting through space for quite a bit and subsequently crashing on this planet, it was rescued by the natives. As they were friendly but of limited intellectual reach, Opbot decided to help them "get there faster"--but declined to share more details on the process.</LocalizationPair>
-
+	
 	<!-- Untold Tales DLC Heroes -->
 	<LocalizationPair Name="%SandboxHeroSowers01Title">Give Hero:#73B7C0#[Untold Tales]#REVERT# G0d3I Builder.v87</LocalizationPair>
 	<LocalizationPair Name="%SandboxHeroSowers01Description">Unlike most Sower machines who focus on little more than the mechanics of the job, G0d3I was fascinated by the bigger picture behind the infrastructure programs. Who were their Endless masters? What did they plan for these cities? What greater purpose did they serve? After a period of study and reflection, G0d3I undertook several upgrade cycles, deliberately evolving its core function from passive learning to active operations. In this new guise, G0d3I now puts theory into practice, offering administrative services for client civilizations while still reporting its insights to the Academy.</LocalizationPair>
@@ -393,7 +406,7 @@
 	<LocalizationPair Name="%SandboxHeroSefaloros01Description">Never content to stay with its shoal, Ooblart grew up a curious, mischievous individual constantly drifting into deep waters and exploring the exotic minerals of the depths. This inquisitiveness, allied with an instinct to create, led Ooblart to become one of the Sefaloros' most celebrated marine architects, designing many stunning structures that bridged the gap between ocean and air in ingenious ways. In turn, this flourishing of supra-ocean construction helped ignite the species' spacefaring nature, and it was no surprise when Ooblart became one of the pioneers of off-planet installations. Today, Ooblart works for the Academy, seeking--and inspiring--more conceptually groundbreaking structures.</LocalizationPair>
 	<LocalizationPair Name="%SandboxHeroGalvrans01Title">Give Hero:#73B7C0#[Untold Tales]#REVERT# Chancellor Alazne Matul</LocalizationPair>
 	<LocalizationPair Name="%SandboxHeroGalvrans01Description">While Alazne was originally driven by a desire to understand the world around her, she quickly learned that she could leverage her skills better by leading teams and thus having more minds working in parallel on the same problem. Rising through the ranks of research labs and public institutes, she was appointed to lead a delegation to Harrow when Isyander made contact with the Galvran. She came back...different, and driven even intensely to study and understand. Her recently acquired habit of wandering empty halls at night, whispering to unseen entities, has not reduced her overall effectiveness. </LocalizationPair>
-
+	
 	<!-- Supremacy Heroes -->
 	<LocalizationPair Name="%SandboxHeroMajorHisshos01Title">Give Hero:#DC0902#[Supremacy]#REVERT# Kogewa Brightblade</LocalizationPair>
 	<LocalizationPair Name="%SandboxHeroMajorHisshos01Description">Brightblade is a highly decorated warrior, famous not only for strategy and tactics but also for sheer battlefield ferocity. A leader as much as a fighter, he was a natural choice when the time came to appoint a new leader to the Order of the Black Eagle. This elite school and military unit has thrived under his command, as he leads rigorously and remorselessly by example and from the front. Blunt, gruff, short-tempered, and impatient, his followers--whether they thrive or die--are eager and proud to serve beneath him.</LocalizationPair>
@@ -411,11 +424,35 @@ She is known behind her back as "Iceridge" for her implacable and emotionless ap
 - Should I be destroyed, that is Divine Will executing its remorseless winnowing of the weak, and that would be a good thing as it means I am unworthy to live
 - Should I be ennobled, it will be clear that I am a chosen of the Divine Will and it is therefore my duty to reach this state and execute that will
 While fellow pupils and even employers find their fanaticism somewhat odd, they don't worry too much as Goktok delivers results along with their sermons.</LocalizationPair>
-
+	
 	<!-- Vinyl Hero -->
 	<LocalizationPair Name="%SandboxHeroHarmony01Title">Give Hero:#57ABCA#[Vinyl]#REVERT# FES2 Reflects</LocalizationPair>
 	<LocalizationPair Name="%SandboxHeroHarmony01Description">The thing that separates Reflects from its kin and species could best be described as "fatalism". While other elements of the Harmony may rail and fight against Dust, seeking to avoid or lessen its disturbance of their senses, Reflects simply accepted Dust as a new part of its reality and moved on. The desire to understand Dust led it to the Academy, where curious scientists and philosophers were as eager to study this mineral specimen as it was to study their wisdom and ways. 
 As a Dust-infused Hero, Reflects has accepted its rupture from the resonances and frequencies that the Harmony relied on to seek the Core. To fill the gap in its essence that no longer echoes and vibrates, it has become obsessed with music and musicology. According to Academy experts, Reflects is now, arguably, the greatest living expert on the creative exploitation of frequencies in the range of 1 to 100k Hz.</LocalizationPair>
+	<LocalizationPair Name="%SandboxHeroBasryxo01Title">Give Hero: Fore Sagazh Jabble</LocalizationPair>
+	<LocalizationPair Name="%SandboxHeroBasryxo01Description">Growing up, Jabble never quite had the wit and the reflexes to match their curiosity. Adolescence was one long series of accidents and hospitalizations as Jabble wandered into places they shouldn’t have and pulled on levers with large “Do Not Touch” signs. Finally, one day, fate turned against them, and Jabble found their way into a discarded engine core that had been used for testing a highly radioactive Dust-enhanced ramscoop. Assaulted by the forces that shape the boundaries of space-time, a wiser being might have died of terror and relentless perspective. Jabble simply thought, “Wow, cool”, and passed out. Upon awakening it was clear that they were no longer the same creature, but would have continued their carefree existence had not an explorer ship sent by Ighszraasz the Distrustful arrived to study the planet. Awed by the Academy and the incredible amount of neat stuff to check out, Jabble became a happy member of the society of Heroes.</LocalizationPair>
+	<LocalizationPair Name="%SandboxHeroUmbralChoir01Title">Give Hero:#57C8D6#[Penumbra]#REVERT# Sila Minor</LocalizationPair>
+	<LocalizationPair Name="%SandboxHeroUmbralChoir01Description">A harmony of the Umbral Choir that found itself exploring the supernovaed shell of a spent star, Sila would've remained a resonating echo of the whole if not for coming across the husk of a long-dead Lost. Seared by the trapped Dust, Sila experienced a severing from the mind gestalt, as well as a partial manifestation into the physical realm. Overwhelmed, but heightened to the sensitivities of the galaxy's currents of Dust, Sila discovered the shattered Harrow system, where it watched the machinations of Isyander and his Academy. Not the only one watching though, Sila was first ensnared before proving its innocence to Anaxagoras and Ay Seer 1.2Gado, after which it was given license to roam and learn on behalf of the Academy.</LocalizationPair>
+	<LocalizationPair Name="%SandboxHeroUmbralChoir02Title">Give Hero:#57C8D6#[Penumbra]#REVERT# Fasol Staccato</LocalizationPair>
+	<LocalizationPair Name="%SandboxHeroUmbralChoir02Description">A gentle echo in the majesty which is the symphony of the Umbral Choir, Fasol's sundering from the overmind came when it infiltrated a Craver warship as it undertook a hyperspace jump. Alone in the hive-like network of the vessel's central nervous system, Fasol was terrified on two distinct planes. First, the wrenching, disorienting separation from its collective, but secondly, being in the presence of such a species of ceaseless violence. Most likely Fasol would've perished, but for the Craver's cargo--a vital stock of Dust that permeated into the wraith's ethereal form, transforming it into a cognitive powerhouse. Somehow, with a potent message of peace, Fasol flipped the Craver crew from insatiable warfarers to committed pacifists. While Fasol continues its mission of non-violence, the Craver vessel is rumored to have found sanctuary on a Pilgrim research world.</LocalizationPair>
+	<LocalizationPair Name="%SandboxHeroUmbralChoir03Title">Give Hero:#57C8D6#[Penumbra]#REVERT# Lare Fermata</LocalizationPair>
+	<LocalizationPair Name="%SandboxHeroUmbralChoir03Description">If there was any echo which might've been suspected to harbor desires of emancipation and independence from the Umbral Choir collective, Lare would've been a good bet. A refrain with aggressive tendencies, during the Choir's early forays through the galaxy, Lare often infiltrated other species' logical systems in a manner that frequently led to fear and conflict (one example being the Rydha Skirmish between Horatio and Choir fleets, leading to the Horatio Commander's famous words: "Monsters from other realms do exist--and they must be beautified!"). Lare's freedom arrived after it annihilated a Hissho Kestrel-class vessel carrying Endless Dust relics.</LocalizationPair>
+	<LocalizationPair Name="%SandboxHeroUmbralChoir04Title">Give Hero:#57C8D6#[Penumbra]#REVERT# Miredo Sharp</LocalizationPair>
+	<LocalizationPair Name="%SandboxHeroUmbralChoir04Description">Miredo's liberation from the Umbral Choir collective came during a clandestine visit to the Sophon homeworld, Hekim. Unbeknownst to the Choir, infiltrating the Sophon's primary computer network put Miredo figuratively face-to-face with the galaxy's most sophisticated AI, ENFER. Inside ENFER's silicon citadel, a tremendous battle of wits ensued encompassing logic, physics, and theology. Miredo eventually lost, and might've been consigned to the digital trash, but for ENFER's mercy. Admiring the wraith's diverse talents, ENFER felt the galaxy would be a lesser place without the deep thinker and set it free from the mind gestalt through a controlled exposure to Dust.</LocalizationPair>
+	<LocalizationPair Name="%SandboxHeroUmbralChoir05Title">Give Hero:#57C8D6#[Penumbra]#REVERT# Imane Kryv</LocalizationPair>
+	<LocalizationPair Name="%SandboxHeroUmbralChoir05Description">A descendent of the great Kryv family line, Imane grew up constantly reminded of the accomplishments of her famous forebears, most notably Deona Kryv, one of the Pilgrim's original founders. A contrarian by heart, Imane rebuffed the expectations that came with her name, and spurned her political connections. Instead, she headed for the fringes of Pilgrim space, where she pursued unlikely Endless relics with a cast of eccentric or washed-up adventurers. Even here, away from the piety of the Pilgrim's inner worlds, she still found her faith tested, and increasingly experimented with cybernetic augmentations in an effort to discover meaning in her life. Although she didn't know it at the time, the most significant event in her life came when she made first contact with the intergalactic creature known as the Umbral Choir.</LocalizationPair>
+	<LocalizationPair Name="%SandboxHeroTemplars01Title">Give Hero:#B4C3BC#[Awakening]#REVERT# Morya Kupas</LocalizationPair>
+	<LocalizationPair Name="%SandboxHeroTemplars01Description">It is unlikely that there is a living Nakalim who has not heard of Kupas. Perhaps the oldest living Nakalim, her role as warrior for the church of Sobra has kept her going through generations of exploration and discovery of relics of the Lost and the Endless. In broadcasts, archaeological digs, and batlefields, she carries her faith like a weapon. For centuries her heart has burned with the injustice and outrage of the Day of the Blasphemy; the day that the Lost were first drawn to the Lodestones and butchered. A fearless, driven, stressful superior officer, she will not stop until the Lost return.</LocalizationPair>
+	<LocalizationPair Name="%SandboxHeroTemplars02Title">Give Hero:#B4C3BC#[Awakening]#REVERT# Panako Nakatug</LocalizationPair>
+	<LocalizationPair Name="%SandboxHeroTemplars02Description">Born ages ago when the empire was at its apogee, Nakatung's service in the security forces of the Remembrance of Sobra church and later for the empire gained him fame as well as a fearsome reputation for precision and perfection. Enhanced by Dust over a period of decades due to his proximity to relics, his evolution into a Hero was a surprise even to himself. Eagerly accepting study at the Academy--an organization whose existence was predicted by the Sobratic Prophecies--he carried his attention to detail and relentless pursuit of perfection into his new role. Often fooled by his ancient and corrupt person, his colleagues soon learn Nakatung is a keen-eyed taskmaster.</LocalizationPair>
+	<LocalizationPair Name="%SandboxHeroTemplars03Title">Give Hero:#B4C3BC#[Awakening]#REVERT# Nakatuon</LocalizationPair>
+	<LocalizationPair Name="%SandboxHeroTemplars03Description">Having passed millennia of hibernation in solo contemplation of the most efficient ways of committing assassination, Nakatuan was thoroughly disoriented when, upon awakening, it found its mind coupled to all the other Remnants in existence. Their new purpose, as defined by Belcus Akad-Talar, was to build a better galaxy for the most deserving species—a contradiction to everything it believed. Roaming from system to system, it pondered. Surely if the Remnants’ creators, the Endless, had made them killing machines, then that is what they should remain? Unless… unless this change of purpose meant that the Endless were perhaps not the benevolent overlords they had seemed to be. Nakatuan was still trying to make up its mind when it came across a Nakalim evangelical mission. They helped it understand this new view of the world and how things came to be, and now, Nakatuan has adjusted its mission to coincide with that of its new friends…</LocalizationPair>
+	<LocalizationPair Name="%SandboxHeroTemplars04Title">Give Hero:#B4C3BC#[Awakening]#REVERT# Yr Mel Kara</LocalizationPair>
+	<LocalizationPair Name="%SandboxHeroTemplars04Description">As many Kal'Tik'Ma explorers, Mel began her life hunting for their lost home planet--covertly, not overtly. After all, who would pay to fund hopeless expeditions to lost stars? With time and experience she saw more, did more, and learned more, becoming Dust-enhanced by accident while seeking ancient Endless star charts in an abandoned asteroid outpost. Still, the sense of loss never left her. Meeting the Nakalim, who sympathized with her plight, she grew over time to adopt their religion and become a fervent believer. After all, to hope that the gods return seems to be as unlikely an event as to hope to find a dead planet around a ruined star... Though Mel is now a seeker of greater things, she still hopes to find, one day, within the wisdom of the relics, a key to the past of her people.</LocalizationPair>
+	<LocalizationPair Name="%SandboxHeroTemplars05Title">Give Hero:#B4C3BC#[Awakening]#REVERT# Templar Hero Name 5</LocalizationPair>
+	<LocalizationPair Name="%SandboxHeroTemplars05Description">Yes, that's their name</LocalizationPair>
+	<LocalizationPair Name="%SandboxHeroOraculars01Title">Give Hero:#B4C3BC#[Awakening]#REVERT# Abayanoryd</LocalizationPair>
+	<LocalizationPair Name="%SandboxHeroOraculars01Description">Like many Xirmsala, Abayanorad was born with a simple name, "Ya". With time and schooling, with the development of their skills and sensitivity, Ya became Baya, then Bayano, then Abayano. After ascending to the state of Dust enhancement, they selected the honorific ending "-ryd", which indicates a dedication to pacific study of the culture of the Lost. As with any academic, Abayanoryd seeks to share knowledge as much as amass it, and frequently travels the starlanes teaching and learning.</LocalizationPair>
 
 	<!-- Population Traits -->
 	<LocalizationPair Name="%PopulationModifiersTraitSandboxPrimaryFIDSITitle">Sandbox: +10 FIDSI</LocalizationPair>
