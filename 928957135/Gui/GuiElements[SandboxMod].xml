@@ -856,35 +856,35 @@
     </GuiElement>
 	<GuiElement Name="SandboxHacks1">
         <Title>%SandboxHacks01Title</Title>
-        <Description>%SandboxHacks01Description</Description>
+        <Description>%SandboxHacksDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
 	<GuiElement Name="SandboxHacks2">
         <Title>%SandboxHacks02Title</Title>
-        <Description>%SandboxHacks02Description</Description>
+        <Description>%SandboxHacksDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
 	<GuiElement Name="SandboxHacks3">
         <Title>%SandboxHacks03Title</Title>
-        <Description>%SandboxHacks03Description</Description>
+        <Description>%SandboxHacksDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
 	<GuiElement Name="SandboxHacks4">
         <Title>%SandboxHacks04Title</Title>
-        <Description>%SandboxHacks04Description</Description>
+        <Description>%SandboxHacksDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
 	<GuiElement Name="SandboxHacks5">
         <Title>%SandboxHacks05Title</Title>
-        <Description>%SandboxHacks05Description</Description>
+        <Description>%SandboxHacksDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
