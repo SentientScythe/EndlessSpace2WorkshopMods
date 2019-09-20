@@ -213,6 +213,14 @@
 	<LocalizationPair Name="%SandboxTechs05Title">Sandbox: Unlock All Era 5 Tech</LocalizationPair>
 	<LocalizationPair Name="%SandboxTechs05Description">Start with all Era 5 and below tech.</LocalizationPair>
 
+	<!--Hacking-->
+	<LocalizationPair Name="%SandboxHacks01Title">Sandbox: Hacking Ops +8</LocalizationPair>
+	<LocalizationPair Name="%SandboxHacks02Title">Sandbox: Hacking Ops +16</LocalizationPair>
+	<LocalizationPair Name="%SandboxHacks03Title">Sandbox: Hacking Ops +32</LocalizationPair>
+	<LocalizationPair Name="%SandboxHacks04Title">Sandbox: Hacking Ops +64</LocalizationPair>
+	<LocalizationPair Name="%SandboxHacks05Title">Sandbox: Hacking Ops +128</LocalizationPair>
+	<LocalizationPair Name="%SandboxHacksDescription">Hackerman</LocalizationPair>
+
 	<!--########################################-->
 	<!--###          Hero  Traits            ###-->
 	<!--########################################-->
