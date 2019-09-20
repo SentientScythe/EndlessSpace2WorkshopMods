@@ -172,7 +172,7 @@
 	<LocalizationPair Name="%SandboxLuxuryResource250Title">Sandbox: Begin with 250 of Each Luxury Resource</LocalizationPair>
 	<LocalizationPair Name="%SandboxLuxuryResource500Title">Sandbox: Begin with 500 of Each Luxury Resource</LocalizationPair>
 	<LocalizationPair Name="%SandboxLuxuryResource999Title">Sandbox: Begin with 999 of Each Luxury Resource</LocalizationPair>
-	<LocalizationPair Name="%SandboxLuxuryResourceDescription">Starts You Off with Some Each Luxury Resource </LocalizationPair>
+	<LocalizationPair Name="%SandboxLuxuryResourceDescription">Start with each luxury resource.</LocalizationPair>
 
 	<!--Add Luxury Resource Gain-->
 	<LocalizationPair Name="%SandboxLuxuryResourceGain100Title">Sandbox: +100% Resources on all Luxury Deposits</LocalizationPair>

@@ -448,13 +448,6 @@
     </GuiElement>
 	
 	<!--Decreases Ship Build Cost-->
-	<GuiElement Name="SandboxCheapShips25">
-        <Title>%SandboxCheapShips25Title</Title>
-        <Description>%SandboxCheapShipsDescription</Description>
-        <Icons>
-            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-        </Icons>
-    </GuiElement>
 	<GuiElement Name="SandboxCheapShips50">
         <Title>%SandboxCheapShips50Title</Title>
         <Description>%SandboxCheapShipsDescription</Description>
@@ -469,8 +462,15 @@
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-	<GuiElement Name="SandboxCheapShips100">
-        <Title>%SandboxCheapShips100Title</Title>
+	<GuiElement Name="SandboxCheapShips88">
+        <Title>%SandboxCheapShips88Title</Title>
+        <Description>%SandboxCheapShipsDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	<GuiElement Name="SandboxCheapShips94">
+        <Title>%SandboxCheapShips94Title</Title>
         <Description>%SandboxCheapShipsDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />

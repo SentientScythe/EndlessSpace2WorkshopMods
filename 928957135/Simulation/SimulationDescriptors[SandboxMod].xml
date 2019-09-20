@@ -378,17 +378,17 @@
 	<SimulationDescriptor Name="SandboxLuxuryResource999" Type="FactionTrait"/>
 
 	<!--Add Luxury Resource Gain-->
-	<SimulationDescriptor Name="SandboxLuxuryResourceGain50" Type="FactionTrait">
-		<Modifier TargetProperty="ResourceBonus" Operation="Percent" Value="0.5" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet/ClassResourceDeposit,ResourceTypeLuxury"/>
-	</SimulationDescriptor>
 	<SimulationDescriptor Name="SandboxLuxuryResourceGain100" Type="FactionTrait">
 		<Modifier TargetProperty="ResourceBonus" Operation="Percent" Value="1.0" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet/ClassResourceDeposit,ResourceTypeLuxury"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxLuxuryResourceGain500" Type="FactionTrait">
-		<Modifier TargetProperty="ResourceBonus" Operation="Percent" Value="5.0" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet/ClassResourceDeposit,ResourceTypeLuxury"/>
+	<SimulationDescriptor Name="SandboxLuxuryResourceGain300" Type="FactionTrait">
+		<Modifier TargetProperty="ResourceBonus" Operation="Percent" Value="3.0" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet/ClassResourceDeposit,ResourceTypeLuxury"/>
 	</SimulationDescriptor>
-	<SimulationDescriptor Name="SandboxLuxuryResourceGain1000" Type="FactionTrait">
-		<Modifier TargetProperty="ResourceBonus" Operation="Percent" Value="10.0" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet/ClassResourceDeposit,ResourceTypeLuxury"/>
+	<SimulationDescriptor Name="SandboxLuxuryResourceGain700" Type="FactionTrait">
+		<Modifier TargetProperty="ResourceBonus" Operation="Percent" Value="7.0" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet/ClassResourceDeposit,ResourceTypeLuxury"/>
+	</SimulationDescriptor>
+	<SimulationDescriptor Name="SandboxLuxuryResourceGain1500" Type="FactionTrait">
+		<Modifier TargetProperty="ResourceBonus" Operation="Percent" Value="15.0" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet/ClassResourceDeposit,ResourceTypeLuxury"/>
 	</SimulationDescriptor>
 
 	<!--Add Juggernaut Limit-->
@@ -493,8 +493,8 @@
 	<SimulationDescriptor Name="SandboxSuperHeros" Type="FactionTrait">
 		<Modifier TargetProperty="HealthPerTurn" Operation="Percent" Value="1.0" Path="ClassEmpire/ClassHero"/>
 		<!--quick hero heal-->
-		<Modifier TargetProperty="Upkeep" Operation="Percent" Value="-1" Path="ClassEmpire/ClassGarrison/ClassHero"/>
-		<Modifier TargetProperty="Upkeep" Operation="Percent" Value="-1" Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="false"/>
+		<Modifier TargetProperty="Upkeep" Operation="Percent" Value="0" Path="ClassEmpire/ClassGarrison/ClassHero"/>
+		<Modifier TargetProperty="Upkeep" Operation="Percent" Value="0" Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="false"/>
 		<!--Free Heros-->
 		<Modifier TargetProperty="ExperiencePerTurn" Operation="Addition" Value="100" Path="ClassEmpire/ClassGarrison/ClassHero"/>
 		<Modifier TargetProperty="ExperiencePerTurn" Operation="Addition" Value="100" Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="false"/>
