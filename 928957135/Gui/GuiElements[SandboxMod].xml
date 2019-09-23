@@ -236,22 +236,29 @@
     </GuiElement>
 	
 	<!--Increases Planet Slots by X-->
-	<GuiElement Name="SandboxSpaciousPlanets4">
+	<GuiElement Name="SandboxSpaciousPlanets1">
+        <Title>%SandboxSpaciousPlanets1Title</Title>
+        <Description>%SandboxSpaciousPlanetsDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	<GuiElement Name="SandboxSpaciousPlanets2">
+        <Title>%SandboxSpaciousPlanets2Title</Title>
+        <Description>%SandboxSpaciousPlanetsDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+	<GuiElement Name="SandboxSpaciousPlanets3">
+        <Title>%SandboxSpaciousPlanets3Title</Title>
+        <Description>%SandboxSpaciousPlanetsDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="SandboxSpaciousPlanets4">
         <Title>%SandboxSpaciousPlanets4Title</Title>
-        <Description>%SandboxSpaciousPlanetsDescription</Description>
-        <Icons>
-            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-        </Icons>
-    </GuiElement>
-	<GuiElement Name="SandboxSpaciousPlanets8">
-        <Title>%SandboxSpaciousPlanets8Title</Title>
-        <Description>%SandboxSpaciousPlanetsDescription</Description>
-        <Icons>
-            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-        </Icons>
-    </GuiElement>
-	<GuiElement Name="SandboxSpaciousPlanets16">
-        <Title>%SandboxSpaciousPlanets16Title</Title>
         <Description>%SandboxSpaciousPlanetsDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
@@ -596,13 +603,6 @@
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-	<GuiElement Name="SandboxSuperSubsidiaries512">
-        <Title>%SandboxSuperSubsidiaries512Title</Title>
-        <Description>%SandboxSuperSubsidiariesDescription</Description>
-        <Icons>
-            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-        </Icons>
-    </GuiElement>
 	
 	<!--Increases Trading Company Profit-->
 	<GuiElement Name="SandboxSuperTrading100">
@@ -783,13 +783,6 @@
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-	<GuiElement Name="SandboxMaximumJuggernauts512">
-        <Title>%SandboxMaximumJuggernauts512Title</Title>
-        <Description>%SandboxMaximumJuggernautsDescription</Description>
-        <Icons>
-            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-        </Icons>
-    </GuiElement>
 	
 	<!--No Juggernaut Upkeep-->
 	<GuiElement Name="SandboxNoJuggernautUpkeep">
@@ -877,13 +870,6 @@
     </GuiElement>
 	<GuiElement Name="SandboxHacks4">
         <Title>%SandboxHacks04Title</Title>
-        <Description>%SandboxHacksDescription</Description>
-        <Icons>
-            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-        </Icons>
-    </GuiElement>
-	<GuiElement Name="SandboxHacks5">
-        <Title>%SandboxHacks05Title</Title>
         <Description>%SandboxHacksDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />

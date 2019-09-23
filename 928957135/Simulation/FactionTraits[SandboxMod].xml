@@ -122,14 +122,17 @@
 	</FactionTrait>
 
 	<!--Increases Planet Slots by X-->
-	<FactionTrait Name="SandboxSpaciousPlanets4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSpaciousPlanets" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	<FactionTrait Name="SandboxSpaciousPlanets1" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSpaciousPlanets" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSpaciousPlanets1"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxSpaciousPlanets2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSpaciousPlanets" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSpaciousPlanets2"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxSpaciousPlanets3" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSpaciousPlanets" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSpaciousPlanets3"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxSpaciousPlanets4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSpaciousPlanets" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<SimulationDescriptorReference Name="SandboxSpaciousPlanets4"/>
-	</FactionTrait>
-	<FactionTrait Name="SandboxSpaciousPlanets8" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSpaciousPlanets" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSpaciousPlanets8"/>
-	</FactionTrait>
-	<FactionTrait Name="SandboxSpaciousPlanets16" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSpaciousPlanets" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSpaciousPlanets16"/>
 	</FactionTrait>
 
 	<!--Increases Overcolonization Threshold -->
@@ -284,9 +287,6 @@
 	</FactionTrait>
 	<FactionTrait Name="SandboxSuperSubsidiaries128" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperSubsidiaries" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<SimulationDescriptorReference Name="SandboxSuperSubsidiaries128"/>
-	</FactionTrait>
-	<FactionTrait Name="SandboxSuperSubsidiaries512" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperSubsidiaries" Family="FactionTraitFamilyStartModifiers" Level="5" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperSubsidiaries512"/>
 	</FactionTrait>
 
 	<!--Increases Trading Company Profit-->
@@ -492,9 +492,6 @@
 	<FactionTrait Name="SandboxMaximumJuggernauts128" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxMaximumJuggernauts" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<SimulationDescriptorReference Name="SandboxMaximumJuggernauts128"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxMaximumJuggernauts512" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxMaximumJuggernauts" Family="FactionTraitFamilyStartModifiers" Level="5" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxMaximumJuggernauts512"/>
-	</FactionTrait>
 
 	<!--No Juggernaut Upkeep-->
 	<FactionTrait Name="SandboxNoJuggernautUpkeep" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxNoJuggernautUpkeep" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
@@ -610,9 +607,6 @@
 	</FactionTrait>
 	<FactionTrait Name="SandboxHacks4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="FactionTraitSandboxHacks" Family="FactionTraitFamilyStartingTechnologies" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<SimulationDescriptorReference Name="SandboxHacks4"/>
-	</FactionTrait>
-	<FactionTrait Name="SandboxHacks5" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="FactionTraitSandboxHacks" Family="FactionTraitFamilyStartingTechnologies" Level="5" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxHacks5"/>
 	</FactionTrait>
 
     <!--#################################-->

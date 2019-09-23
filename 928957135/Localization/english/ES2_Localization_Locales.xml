@@ -52,23 +52,24 @@
 	<LocalizationPair Name="%SandboxSuperInfluenceDescription">Grease those palms.</LocalizationPair>
 
 	<!--Increases System happiness by X-->
-	<LocalizationPair Name="%SandboxSuperHappy64Title">Sandbox: System Happiness +64</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperHappy128Title">Sandbox: System Happiness +128</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperHappy256Title">Sandbox: System Happiness +256</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperHappy512Title">Sandbox: System Happiness +512</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperHappy64Title">Sandbox: System Happiness +100%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperHappy128Title">Sandbox: System Happiness +300%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperHappy256Title">Sandbox: System Happiness +700%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperHappy512Title">Sandbox: System Happiness +1500%</LocalizationPair>
 	<LocalizationPair Name="%SandboxSuperHappyDescription">Make everyone super happy!</LocalizationPair>
 
 	<!--Increases Planet Slots by X-->
-	<LocalizationPair Name="%SandboxSpaciousPlanets4Title">Sandbox: Planet Slots +4</LocalizationPair>
-	<LocalizationPair Name="%SandboxSpaciousPlanets8Title">Sandbox: Planet Slots +8</LocalizationPair>
-	<LocalizationPair Name="%SandboxSpaciousPlanets16Title">Sandbox: Planet Slots +16</LocalizationPair>
+	<LocalizationPair Name="%SandboxSpaciousPlanets1Title">Sandbox: Planet Slots +100%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSpaciousPlanets2Title">Sandbox: Planet Slots +300%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSpaciousPlanets3Title">Sandbox: Planet Slots +700%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSpaciousPlanets4Title">Sandbox: Planet Slots +1500%</LocalizationPair>
 	<LocalizationPair Name="%SandboxSpaciousPlanetsDescription">Increase population slots.</LocalizationPair>
 
 	<!--Increases OverColonization Threshold -->
-	<LocalizationPair Name="%SandboxLargeEmpires4Title">Sandbox: System Colonization Limit +4</LocalizationPair>
-	<LocalizationPair Name="%SandboxLargeEmpires16Title">Sandbox: System Colonization Limit +16</LocalizationPair>
-	<LocalizationPair Name="%SandboxLargeEmpires64Title">Sandbox: System Colonization Limit +64</LocalizationPair>
-	<LocalizationPair Name="%SandboxLargeEmpires256Title">Sandbox: System Colonization Limit +256</LocalizationPair>
+	<LocalizationPair Name="%SandboxLargeEmpires4Title">Sandbox: System Colonization Limit +100%</LocalizationPair>
+	<LocalizationPair Name="%SandboxLargeEmpires16Title">Sandbox: System Colonization Limit +300%</LocalizationPair>
+	<LocalizationPair Name="%SandboxLargeEmpires64Title">Sandbox: System Colonization Limit +700%</LocalizationPair>
+	<LocalizationPair Name="%SandboxLargeEmpires256Title">Sandbox: System Colonization Limit +1500%</LocalizationPair>
 	<LocalizationPair Name="%SandboxLargeEmpiresDescription">Allows for huge empires</LocalizationPair>
 
 	<!-- sets luxury cost to 0-->
@@ -76,24 +77,24 @@
 	<LocalizationPair Name="%SandboxFreeSystemDevelopmentDescription">Removes the Luxury cost from colony development</LocalizationPair>
 
 	<!--Increases Ship Movement-->
-	<LocalizationPair Name="%SandboxFastShips4Title">Sandbox: Ship Movement Points +4</LocalizationPair>
-	<LocalizationPair Name="%SandboxFastShips16Title">Sandbox: Ship Movement Points +16</LocalizationPair>
-	<LocalizationPair Name="%SandboxFastShips64Title">Sandbox: Ship Movement Points +64</LocalizationPair>
-	<LocalizationPair Name="%SandboxFastShips256Title">Sandbox: Ship Movement Points +256</LocalizationPair>
+	<LocalizationPair Name="%SandboxFastShips4Title">Sandbox: Ship Movement Points +100%</LocalizationPair>
+	<LocalizationPair Name="%SandboxFastShips16Title">Sandbox: Ship Movement Points +300%</LocalizationPair>
+	<LocalizationPair Name="%SandboxFastShips64Title">Sandbox: Ship Movement Points +700%</LocalizationPair>
+	<LocalizationPair Name="%SandboxFastShips256Title">Sandbox: Ship Movement Points +1500%</LocalizationPair>
 	<LocalizationPair Name="%SandboxFastShipsDescription">Gotta go fast!</LocalizationPair>
 
 	<!--Increases Ship probes-->
-	<LocalizationPair Name="%SandboxExtraProbes8Title">Sandbox: Ship Probes +8</LocalizationPair>
-	<LocalizationPair Name="%SandboxExtraProbes32Title">Sandbox: Ship Probes +32</LocalizationPair>
-	<LocalizationPair Name="%SandboxExtraProbes128Title">Sandbox: Ship Probes +128</LocalizationPair>
-	<LocalizationPair Name="%SandboxExtraProbes512Title">Sandbox: Ship Probes +512</LocalizationPair>
+	<LocalizationPair Name="%SandboxExtraProbes8Title">Sandbox: Ship Probes +100%</LocalizationPair>
+	<LocalizationPair Name="%SandboxExtraProbes32Title">Sandbox: Ship Probes +300%</LocalizationPair>
+	<LocalizationPair Name="%SandboxExtraProbes128Title">Sandbox: Ship Probes +700%</LocalizationPair>
+	<LocalizationPair Name="%SandboxExtraProbes512Title">Sandbox: Ship Probes +1500%</LocalizationPair>
 	<LocalizationPair Name="%SandboxExtraProbesDescription">More of the good kind of probe.</LocalizationPair>
 
 	<!--Gives XP, reduces Cost, and heals Heros-->
-	<LocalizationPair Name="%SandboxSuperHeros32Title">Sandbox: Super Heroes +32XP per turn</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperHeros64Title">Sandbox: Super Heros +64XP per turn</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperHeros128Title">Sandbox: Super Heros +128XP per turn</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperHeros256Title">Sandbox: Super Heros +256XP per turn</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperHeros32Title">Sandbox: Super Heroes +100% XP per turn</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperHeros64Title">Sandbox: Super Heros +300% XP per turn</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperHeros128Title">Sandbox: Super Heros +700% XP per turn</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperHeros256Title">Sandbox: Super Heros +1500% XP per turn</LocalizationPair>
 	<LocalizationPair Name="%SandboxSuperHerosDescription">Cheaper, healthier, more "super" heroes.</LocalizationPair>
 
 	<!--Increases Ship Health-->
@@ -132,18 +133,17 @@
 	<LocalizationPair Name="%SandboxManpowerStockDescription">Bigger barracks and gargantuan garrisons!</LocalizationPair>
 
 	<!--Increases Fleet Size-->
-	<LocalizationPair Name="%SandboxSuperFleets4Title">Sandbox: Fleet Size +4</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperFleets8Title">Sandbox: Fleet Size +8</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperFleets16Title">Sandbox: Fleet Size +16</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperFleets32Title">Sandbox: Fleet Size +32</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperFleets4Title">Sandbox: Fleet Size +100%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperFleets8Title">Sandbox: Fleet Size +300%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperFleets16Title">Sandbox: Fleet Size +700%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperFleets32Title">Sandbox: Fleet Size +1500%</LocalizationPair>
 	<LocalizationPair Name="%SandboxSuperFleetsDescription">Super-sized fleets at a fraction of the cost!</LocalizationPair>
 
 	<!--Increases Trading Subsidiaries Amount-->
-	<LocalizationPair Name="%SandboxSuperSubsidiaries2Title">Sandbox: Trade Subsidiaries +2</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperSubsidiaries8Title">Sandbox: Trade Subsidiaries +8</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperSubsidiaries32Title">Sandbox: Trade Subsidiaries +32</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperSubsidiaries128Title">Sandbox: Trade Subsidiaries +128</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperSubsidiaries512Title">Sandbox: Trade Subsidiaries +512</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperSubsidiaries2Title">Sandbox: Trade Subsidiaries +100%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperSubsidiaries8Title">Sandbox: Trade Subsidiaries +300%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperSubsidiaries32Title">Sandbox: Trade Subsidiaries +700%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperSubsidiaries128Title">Sandbox: Trade Subsidiaries +1500%</LocalizationPair>
 	<LocalizationPair Name="%SandboxSuperSubsidiariesDescription">Increase maximum allowed trade subsidiaries.</LocalizationPair>
 
 	<!--Increases Trading Company Profit-->
@@ -182,11 +182,10 @@
 	<LocalizationPair Name="%SandboxLuxuryResourceGainDescription">Live in the lap of luxury!</LocalizationPair>
 
 	<!--Add Juggernaut Limit-->
-	<LocalizationPair Name="%SandboxMaximumJuggernauts2Title">Sandbox: +2 To Behemoth Limit</LocalizationPair>
-	<LocalizationPair Name="%SandboxMaximumJuggernauts8Title">Sandbox: +8 To Behemoth Limit</LocalizationPair>
-	<LocalizationPair Name="%SandboxMaximumJuggernauts32Title">Sandbox: +32 To Behemoth Limit</LocalizationPair>
-	<LocalizationPair Name="%SandboxMaximumJuggernauts128Title">Sandbox: +128 To Behemoth Limit</LocalizationPair>
-	<LocalizationPair Name="%SandboxMaximumJuggernauts512Title">Sandbox: +512 To Behemoth Limit</LocalizationPair>
+	<LocalizationPair Name="%SandboxMaximumJuggernauts2Title">Sandbox: +100% To Behemoth Limit</LocalizationPair>
+	<LocalizationPair Name="%SandboxMaximumJuggernauts8Title">Sandbox: +300% To Behemoth Limit</LocalizationPair>
+	<LocalizationPair Name="%SandboxMaximumJuggernauts32Title">Sandbox: +700% To Behemoth Limit</LocalizationPair>
+	<LocalizationPair Name="%SandboxMaximumJuggernauts128Title">Sandbox: +1500% To Behemoth Limit</LocalizationPair>
 	<LocalizationPair Name="%SandboxMaximumJuggernautsDescription">Nothing better than bountiful behemoths!</LocalizationPair>
 
 	<!--No Juggernaut Upkeep-->
@@ -214,11 +213,10 @@
 	<LocalizationPair Name="%SandboxTechs05Description">Start with all Era 5 and below tech.</LocalizationPair>
 
 	<!--Hacking-->
-	<LocalizationPair Name="%SandboxHacks01Title">Sandbox: Hacking Ops +8</LocalizationPair>
-	<LocalizationPair Name="%SandboxHacks02Title">Sandbox: Hacking Ops +16</LocalizationPair>
-	<LocalizationPair Name="%SandboxHacks03Title">Sandbox: Hacking Ops +32</LocalizationPair>
-	<LocalizationPair Name="%SandboxHacks04Title">Sandbox: Hacking Ops +64</LocalizationPair>
-	<LocalizationPair Name="%SandboxHacks05Title">Sandbox: Hacking Ops +128</LocalizationPair>
+	<LocalizationPair Name="%SandboxHacks01Title">Sandbox: Hacking Ops +100%</LocalizationPair>
+	<LocalizationPair Name="%SandboxHacks02Title">Sandbox: Hacking Ops +300%</LocalizationPair>
+	<LocalizationPair Name="%SandboxHacks03Title">Sandbox: Hacking Ops +700%</LocalizationPair>
+	<LocalizationPair Name="%SandboxHacks04Title">Sandbox: Hacking Ops +1500%</LocalizationPair>
 	<LocalizationPair Name="%SandboxHacksDescription">Hackerman</LocalizationPair>
 
 	<!--########################################-->
