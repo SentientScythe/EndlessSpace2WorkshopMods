@@ -131,7 +131,7 @@
 	<FactionTrait Name="SandboxSpaciousPlanets3" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSpaciousPlanets" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<SimulationDescriptorReference Name="SandboxSpaciousPlanets3"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxSpaciousPlanets4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSpaciousPlanets" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	<FactionTrait Name="SandboxSpaciousPlanets4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSpaciousPlanets" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<SimulationDescriptorReference Name="SandboxSpaciousPlanets4"/>
 	</FactionTrait>
 
