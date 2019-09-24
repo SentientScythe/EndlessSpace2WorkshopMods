@@ -18,37 +18,37 @@
 
 	<!--Increases System Dust Output by X%-->
 	<LocalizationPair Name="%SandboxSuperMoney100Title">Sandbox: Dust +100%</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperMoney300Title">Sandbox: Dust +300%</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperMoney700Title">Sandbox: Dust +700%</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperMoney1500Title">Sandbox: Dust +1500%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperMoney300Title">Sandbox: Dust +700%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperMoney700Title">Sandbox: Dust +3 100%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperMoney1500Title">Sandbox: Dust +12 700%</LocalizationPair>
 	<LocalizationPair Name="%SandboxSuperMoneyDescription">Dust really does grow on trees...</LocalizationPair>
 
 	<!--Increases System Industry Output by X%-->
 	<LocalizationPair Name="%SandboxSuperIndustry100Title">Sandbox: Industry +100%</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperIndustry300Title">Sandbox: Industry +300%</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperIndustry700Title">Sandbox: Industry +700%</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperIndustry1500Title">Sandbox: Industry +1500%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperIndustry300Title">Sandbox: Industry +700%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperIndustry700Title">Sandbox: Industry +3 100%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperIndustry1500Title">Sandbox: Industry +12 700%</LocalizationPair>
 	<LocalizationPair Name="%SandboxSuperIndustryDescription">Spin the wheels of progress faster!</LocalizationPair>
 
 	<!--Increases System Food Output by X%-->
 	<LocalizationPair Name="%SandboxSuperFood100Title">Sandbox: Food +100%</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperFood300Title">Sandbox: Food +300%</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperFood700Title">Sandbox: Food +700%</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperFood1500Title">Sandbox: Food +1500%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperFood300Title">Sandbox: Food +700%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperFood700Title">Sandbox: Food +3 100%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperFood1500Title">Sandbox: Food +12 700%</LocalizationPair>
 	<LocalizationPair Name="%SandboxSuperFoodDescription">A plentiful bounty for all!</LocalizationPair>
 
 	<!--Increases System Science Output by X%-->
 	<LocalizationPair Name="%SandboxSuperScience100Title">Sandbox: Science +100%</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperScience300Title">Sandbox: Science +300%</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperScience700Title">Sandbox: Science +700%</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperScience1500Title">Sandbox: Science +1500%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperScience300Title">Sandbox: Science +700%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperScience700Title">Sandbox: Science +3 100%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperScience1500Title">Sandbox: Science +12 700%</LocalizationPair>
 	<LocalizationPair Name="%SandboxSuperScienceDescription">Science bitch!</LocalizationPair>
 
 	<!--Increases System Influence Output by X%-->
 	<LocalizationPair Name="%SandboxSuperInfluence100Title">Sandbox: Influence +100%</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperInfluence300Title">Sandbox: Influence +300%</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperInfluence700Title">Sandbox: Influence +700%</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperInfluence1500Title">Sandbox: Influence +1500%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperInfluence300Title">Sandbox: Influence +700%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperInfluence700Title">Sandbox: Influence +3 100%</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperInfluence1500Title">Sandbox: Influence +12 700%</LocalizationPair>
 	<LocalizationPair Name="%SandboxSuperInfluenceDescription">Grease those palms.</LocalizationPair>
 
 	<!--Increases System happiness by X-->
@@ -78,23 +78,23 @@
 
 	<!--Increases Ship Movement-->
 	<LocalizationPair Name="%SandboxFastShips4Title">Sandbox: Ship Movement Points +100%</LocalizationPair>
-	<LocalizationPair Name="%SandboxFastShips16Title">Sandbox: Ship Movement Points +300%</LocalizationPair>
-	<LocalizationPair Name="%SandboxFastShips64Title">Sandbox: Ship Movement Points +700%</LocalizationPair>
-	<LocalizationPair Name="%SandboxFastShips256Title">Sandbox: Ship Movement Points +1500%</LocalizationPair>
+	<LocalizationPair Name="%SandboxFastShips16Title">Sandbox: Ship Movement Points +700%</LocalizationPair>
+	<LocalizationPair Name="%SandboxFastShips64Title">Sandbox: Ship Movement Points +3 100%</LocalizationPair>
+	<LocalizationPair Name="%SandboxFastShips256Title">Sandbox: Ship Movement Points +12 700%</LocalizationPair>
 	<LocalizationPair Name="%SandboxFastShipsDescription">Gotta go fast!</LocalizationPair>
 
 	<!--Increases Ship probes-->
 	<LocalizationPair Name="%SandboxExtraProbes8Title">Sandbox: Ship Probes +100%</LocalizationPair>
-	<LocalizationPair Name="%SandboxExtraProbes32Title">Sandbox: Ship Probes +300%</LocalizationPair>
-	<LocalizationPair Name="%SandboxExtraProbes128Title">Sandbox: Ship Probes +700%</LocalizationPair>
-	<LocalizationPair Name="%SandboxExtraProbes512Title">Sandbox: Ship Probes +1500%</LocalizationPair>
+	<LocalizationPair Name="%SandboxExtraProbes32Title">Sandbox: Ship Probes +700%</LocalizationPair>
+	<LocalizationPair Name="%SandboxExtraProbes128Title">Sandbox: Ship Probes +3 100%</LocalizationPair>
+	<LocalizationPair Name="%SandboxExtraProbes512Title">Sandbox: Ship Probes +12 700%</LocalizationPair>
 	<LocalizationPair Name="%SandboxExtraProbesDescription">More of the good kind of probe.</LocalizationPair>
 
 	<!--Gives XP, reduces Cost, and heals Heros-->
 	<LocalizationPair Name="%SandboxSuperHeros32Title">Sandbox: Super Heroes +100% XP per turn</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperHeros64Title">Sandbox: Super Heros +300% XP per turn</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperHeros128Title">Sandbox: Super Heros +700% XP per turn</LocalizationPair>
-	<LocalizationPair Name="%SandboxSuperHeros256Title">Sandbox: Super Heros +1500% XP per turn</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperHeros64Title">Sandbox: Super Heros +700% XP per turn</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperHeros128Title">Sandbox: Super Heros +3 100% XP per turn</LocalizationPair>
+	<LocalizationPair Name="%SandboxSuperHeros256Title">Sandbox: Super Heros +12 700% XP per turn</LocalizationPair>
 	<LocalizationPair Name="%SandboxSuperHerosDescription">Cheaper, healthier, more "super" heroes.</LocalizationPair>
 
 	<!--Increases Ship Health-->
@@ -162,9 +162,9 @@
 
 	<!--Add Strategic Resource Gain-->
 	<LocalizationPair Name="%SandboxStrategicResourceGain100Title">Sandbox: +100% Resources on all Strategic Deposits</LocalizationPair>
-	<LocalizationPair Name="%SandboxStrategicResourceGain300Title">Sandbox: +300% Resources on all Strategic Deposits</LocalizationPair>
-	<LocalizationPair Name="%SandboxStrategicResourceGain700Title">Sandbox: +700% Resources on all Strategic Deposits</LocalizationPair>
-	<LocalizationPair Name="%SandboxStrategicResourceGain1500Title">Sandbox: +1500% Resources on all Strategic Deposits</LocalizationPair>
+	<LocalizationPair Name="%SandboxStrategicResourceGain300Title">Sandbox: +700% Resources on all Strategic Deposits</LocalizationPair>
+	<LocalizationPair Name="%SandboxStrategicResourceGain700Title">Sandbox: +3 100% Resources on all Strategic Deposits</LocalizationPair>
+	<LocalizationPair Name="%SandboxStrategicResourceGain1500Title">Sandbox: +12 700% Resources on all Strategic Deposits</LocalizationPair>
 	<LocalizationPair Name="%SandboxStrategicResourceGainDescription">Mine more mythical metals!</LocalizationPair>
 
 	<!--Add Luxury Resources-->
@@ -176,9 +176,9 @@
 
 	<!--Add Luxury Resource Gain-->
 	<LocalizationPair Name="%SandboxLuxuryResourceGain100Title">Sandbox: +100% Resources on all Luxury Deposits</LocalizationPair>
-	<LocalizationPair Name="%SandboxLuxuryResourceGain300Title">Sandbox: +300% Resources on all Luxury Deposits</LocalizationPair>
-	<LocalizationPair Name="%SandboxLuxuryResourceGain700Title">Sandbox: +700% Resources on all Luxury Deposits</LocalizationPair>
-	<LocalizationPair Name="%SandboxLuxuryResourceGain1500Title">Sandbox: +1500% Resources on all Luxury Deposits</LocalizationPair>
+	<LocalizationPair Name="%SandboxLuxuryResourceGain300Title">Sandbox: +700% Resources on all Luxury Deposits</LocalizationPair>
+	<LocalizationPair Name="%SandboxLuxuryResourceGain700Title">Sandbox: +3 100% Resources on all Luxury Deposits</LocalizationPair>
+	<LocalizationPair Name="%SandboxLuxuryResourceGain1500Title">Sandbox: +12 700% Resources on all Luxury Deposits</LocalizationPair>
 	<LocalizationPair Name="%SandboxLuxuryResourceGainDescription">Live in the lap of luxury!</LocalizationPair>
 
 	<!--Add Juggernaut Limit-->
@@ -461,5 +461,5 @@ As a Dust-infused Hero, Reflects has accepted its rupture from the resonances an
 	<LocalizationPair Name="%SandboxHeroOraculars01Description">Like many Xirmsala, Abayanorad was born with a simple name, "Ya". With time and schooling, with the development of their skills and sensitivity, Ya became Baya, then Bayano, then Abayano. After ascending to the state of Dust enhancement, they selected the honorific ending "-ryd", which indicates a dedication to pacific study of the culture of the Lost. As with any academic, Abayanoryd seeks to share knowledge as much as amass it, and frequently travels the starlanes teaching and learning.</LocalizationPair>
 
 	<!-- Population Traits -->
-	<LocalizationPair Name="%PopulationModifiersTraitSandboxPrimaryFIDSITitle">Sandbox: +10 FIDSI</LocalizationPair>
+	<LocalizationPair Name="%PopulationModifiersTraitSandboxPrimaryFIDSITitle">Sandbox: +100% FIDSI</LocalizationPair>
 </Datatable>
