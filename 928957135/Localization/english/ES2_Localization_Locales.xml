@@ -17,67 +17,67 @@
 	<LocalizationPair Name="%SandboxNoRebellionDescription">Hamstring those rebel scum.</LocalizationPair>
 
 	<!--Luxury Resources used in Star System Upgrades-->
-	<LocalizationPair Name="%SandboxLuxuryConnoisseurs1Title">Sandbox: </LocalizationPair>
-	<LocalizationPair Name="%SandboxLuxuryConnoisseurs2Title">Sandbox: </LocalizationPair>
-	<LocalizationPair Name="%SandboxLuxuryConnoisseurs3Title">Sandbox: </LocalizationPair>
-	<LocalizationPair Name="%SandboxLuxuryConnoisseurs4Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxLuxuryConnoisseurs1Title">Sandbox: Luxury Connoisseurs I</LocalizationPair>
+	<LocalizationPair Name="%SandboxLuxuryConnoisseurs2Title">Sandbox: Luxury Connoisseurs II</LocalizationPair>
+	<LocalizationPair Name="%SandboxLuxuryConnoisseurs3Title">Sandbox: Luxury Connoisseurs III</LocalizationPair>
+	<LocalizationPair Name="%SandboxLuxuryConnoisseurs4Title">Sandbox: Luxury Connoisseurs IV</LocalizationPair>
 	<LocalizationPair Name="%SandboxLuxuryConnoisseursDescription">You are the 1%</LocalizationPair>
 
 	<!--Law Upkeep and Election Action Costs-->
-	<LocalizationPair Name="%SandboxAceSenators1Title">Sandbox: </LocalizationPair>
-	<LocalizationPair Name="%SandboxAceSenators2Title">Sandbox: </LocalizationPair>
-	<LocalizationPair Name="%SandboxAceSenators3Title">Sandbox: </LocalizationPair>
-	<LocalizationPair Name="%SandboxAceSenators4Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxAceSenators1Title">Sandbox: Ace Senators I</LocalizationPair>
+	<LocalizationPair Name="%SandboxAceSenators2Title">Sandbox: Ace Senators II</LocalizationPair>
+	<LocalizationPair Name="%SandboxAceSenators3Title">Sandbox: Ace Senators III</LocalizationPair>
+	<LocalizationPair Name="%SandboxAceSenators4Title">Sandbox: Ace Senators IV</LocalizationPair>
 	<LocalizationPair Name="%SandboxAceSenatorsDescription">Silvertongued senators.</LocalizationPair>
 
 	<!--Reduced Disapproval from Representatives not in Senate-->
-	<LocalizationPair Name="%SandboxSmoothTalkers1Title">Sandbox: </LocalizationPair>
-	<LocalizationPair Name="%SandboxSmoothTalkers2Title">Sandbox: </LocalizationPair>
-	<LocalizationPair Name="%SandboxSmoothTalkers3Title">Sandbox: </LocalizationPair>
-	<LocalizationPair Name="%SandboxSmoothTalkers4Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxSmoothTalkers1Title">Sandbox: Smooth Talkers I</LocalizationPair>
+	<LocalizationPair Name="%SandboxSmoothTalkers2Title">Sandbox: Smooth Talkers II</LocalizationPair>
+	<LocalizationPair Name="%SandboxSmoothTalkers3Title">Sandbox: Smooth Talkers III</LocalizationPair>
+	<LocalizationPair Name="%SandboxSmoothTalkers4Title">Sandbox: Smooth Talkers IV</LocalizationPair>
 	<LocalizationPair Name="%SandboxSmoothTalkersDescription">Talk your way out of a paper bag.</LocalizationPair>
 
 	<!--Decrease Growth needed in each step-->
-	<LocalizationPair Name="%SandboxGrowth1Title">Sandbox: </LocalizationPair>
-	<LocalizationPair Name="%SandboxGrowth2Title">Sandbox: </LocalizationPair>
-	<LocalizationPair Name="%SandboxGrowth3Title">Sandbox: </LocalizationPair>
-	<LocalizationPair Name="%SandboxGrowth4Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxGrowth1Title">Sandbox: Growth I</LocalizationPair>
+	<LocalizationPair Name="%SandboxGrowth2Title">Sandbox: Growth II</LocalizationPair>
+	<LocalizationPair Name="%SandboxGrowth3Title">Sandbox: Growth III</LocalizationPair>
+	<LocalizationPair Name="%SandboxGrowth4Title">Sandbox: Growth IV</LocalizationPair>
 	<LocalizationPair Name="%SandboxGrowthDescription">They grow up so fast.</LocalizationPair>
 
-	<LocalizationPair Name="%SandboxEmpireResearch1Title">Sandbox: </LocalizationPair>
-	<LocalizationPair Name="%SandboxEmpireResearch2Title">Sandbox: </LocalizationPair>
-	<LocalizationPair Name="%SandboxEmpireResearch3Title">Sandbox: </LocalizationPair>
-	<LocalizationPair Name="%SandboxEmpireResearch4Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxEmpireResearch1Title">Sandbox: Empire Research I</LocalizationPair>
+	<LocalizationPair Name="%SandboxEmpireResearch2Title">Sandbox: Empire Research II</LocalizationPair>
+	<LocalizationPair Name="%SandboxEmpireResearch3Title">Sandbox: Empire Research III</LocalizationPair>
+	<LocalizationPair Name="%SandboxEmpireResearch4Title">Sandbox: Empire Research IV</LocalizationPair>
 	<LocalizationPair Name="%SandboxEmpireResearchDescription">Know it all, yesterday.</LocalizationPair>
 
-	<LocalizationPair Name="%SandboxDiplomacy1Title">Sandbox: </LocalizationPair>
-	<LocalizationPair Name="%SandboxDiplomacy2Title">Sandbox: </LocalizationPair>
-	<LocalizationPair Name="%SandboxDiplomacy3Title">Sandbox: </LocalizationPair>
-	<LocalizationPair Name="%SandboxDiplomacy4Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxDiplomacy1Title">Sandbox: Diplomacy I</LocalizationPair>
+	<LocalizationPair Name="%SandboxDiplomacy2Title">Sandbox: Diplomacy II</LocalizationPair>
+	<LocalizationPair Name="%SandboxDiplomacy3Title">Sandbox: Diplomacy III</LocalizationPair>
+	<LocalizationPair Name="%SandboxDiplomacy4Title">Sandbox: Diplomacy IV</LocalizationPair>
 	<LocalizationPair Name="%SandboxDiplomacyDescription">Increase diplomatic effectiveness.</LocalizationPair>
 
-	<LocalizationPair Name="%SandboxGamers1Title">Sandbox: </LocalizationPair>
-	<LocalizationPair Name="%SandboxGamers2Title">Sandbox: </LocalizationPair>
-	<LocalizationPair Name="%SandboxGamers3Title">Sandbox: </LocalizationPair>
-	<LocalizationPair Name="%SandboxGamers4Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxGamers1Title">Sandbox: Gamers I</LocalizationPair>
+	<LocalizationPair Name="%SandboxGamers2Title">Sandbox: Gamers II</LocalizationPair>
+	<LocalizationPair Name="%SandboxGamers3Title">Sandbox: Gamers III</LocalizationPair>
+	<LocalizationPair Name="%SandboxGamers4Title">Sandbox: Gamers IV</LocalizationPair>
 	<LocalizationPair Name="%SandboxGamersDescription">War is just a game.</LocalizationPair>
 
-	<LocalizationPair Name="%SandboxWonderBuilders1Title">Sandbox: </LocalizationPair>
-	<LocalizationPair Name="%SandboxWonderBuilders2Title">Sandbox: </LocalizationPair>
-	<LocalizationPair Name="%SandboxWonderBuilders3Title">Sandbox: </LocalizationPair>
-	<LocalizationPair Name="%SandboxWonderBuilders4Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxWonderBuilders1Title">Sandbox: Wonder Builders I</LocalizationPair>
+	<LocalizationPair Name="%SandboxWonderBuilders2Title">Sandbox: Wonder Builders II</LocalizationPair>
+	<LocalizationPair Name="%SandboxWonderBuilders3Title">Sandbox: Wonder Builders III</LocalizationPair>
+	<LocalizationPair Name="%SandboxWonderBuilders4Title">Sandbox: Wonder Builders IV</LocalizationPair>
 	<LocalizationPair Name="%SandboxWonderBuildersDescription">Why work hard for wonders?</LocalizationPair>
 
-	<LocalizationPair Name="%SandboxBigBrother1Title">Sandbox: </LocalizationPair>
-	<LocalizationPair Name="%SandboxBigBrother2Title">Sandbox: </LocalizationPair>
-	<LocalizationPair Name="%SandboxBigBrother3Title">Sandbox: </LocalizationPair>
-	<LocalizationPair Name="%SandboxBigBrother4Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxBigBrother1Title">Sandbox: Big Brother I</LocalizationPair>
+	<LocalizationPair Name="%SandboxBigBrother2Title">Sandbox: Big Brother II</LocalizationPair>
+	<LocalizationPair Name="%SandboxBigBrother3Title">Sandbox: Big Brother III</LocalizationPair>
+	<LocalizationPair Name="%SandboxBigBrother4Title">Sandbox: Big Brother IV</LocalizationPair>
 	<LocalizationPair Name="%SandboxBigBrotherDescription">1984</LocalizationPair>
 
-	<LocalizationPair Name="%SandboxBuilders1Title">Sandbox: </LocalizationPair>
-	<LocalizationPair Name="%SandboxBuilders2Title">Sandbox: </LocalizationPair>
-	<LocalizationPair Name="%SandboxBuilders3Title">Sandbox: </LocalizationPair>
-	<LocalizationPair Name="%SandboxBuilders4Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxBuilders1Title">Sandbox: Builder I</LocalizationPair>
+	<LocalizationPair Name="%SandboxBuilders2Title">Sandbox: Builder II</LocalizationPair>
+	<LocalizationPair Name="%SandboxBuilders3Title">Sandbox: Builder III</LocalizationPair>
+	<LocalizationPair Name="%SandboxBuilders4Title">Sandbox: Builder IV</LocalizationPair>
 	<LocalizationPair Name="%SandboxBuildersDescription">Bob the Builder can indeed build it.</LocalizationPair>
 
 	<!--Increases System Dust Output by X%-->
