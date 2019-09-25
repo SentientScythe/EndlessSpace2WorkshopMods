@@ -576,15 +576,31 @@
 
 	<SimulationDescriptor Name="SandboxHacks1" Type="FactionTrait">
 		<Modifier TargetProperty="MaximumHackingOperationsCount" Value="1" Operation="Percent" Path="ClassEmpire"/>
+		<Modifier TargetProperty="MaximumEmpireProcessingPowerStock" Operation="Percent" Value="1" Path="ClassEmpire"/>
+		<Modifier TargetProperty="HackingNodeSpeed" Value="1" Operation="Percent" Path="ClassEmpire"/>
+		<Modifier TargetProperty="HackingWarpSpeed" Value="1" Operation="Percent" Path="ClassEmpire" TooltipHidden="true"/>
+		<Modifier TargetProperty="HackingNonWarpSpeed" Value="1" Operation="Percent" Path="ClassEmpire" TooltipHidden="true"/>
 	</SimulationDescriptor>
 	<SimulationDescriptor Name="SandboxHacks2" Type="FactionTrait">
 		<Modifier TargetProperty="MaximumHackingOperationsCount" Value="3" Operation="Percent" Path="ClassEmpire"/>
+		<Modifier TargetProperty="MaximumEmpireProcessingPowerStock" Operation="Percent" Value="3" Path="ClassEmpire"/>
+		<Modifier TargetProperty="HackingNodeSpeed" Value="3" Operation="Percent" Path="ClassEmpire"/>
+		<Modifier TargetProperty="HackingWarpSpeed" Value="3" Operation="Percent" Path="ClassEmpire" TooltipHidden="true"/>
+		<Modifier TargetProperty="HackingNonWarpSpeed" Value="3" Operation="Percent" Path="ClassEmpire" TooltipHidden="true"/>
 	</SimulationDescriptor>
 	<SimulationDescriptor Name="SandboxHacks3" Type="FactionTrait">
 		<Modifier TargetProperty="MaximumHackingOperationsCount" Value="7" Operation="Percent" Path="ClassEmpire"/>
+		<Modifier TargetProperty="MaximumEmpireProcessingPowerStock" Operation="Percent" Value="7" Path="ClassEmpire"/>
+		<Modifier TargetProperty="HackingNodeSpeed" Value="7" Operation="Percent" Path="ClassEmpire"/>
+		<Modifier TargetProperty="HackingWarpSpeed" Value="7" Operation="Percent" Path="ClassEmpire" TooltipHidden="true"/>
+		<Modifier TargetProperty="HackingNonWarpSpeed" Value="7" Operation="Percent" Path="ClassEmpire" TooltipHidden="true"/>
 	</SimulationDescriptor>
 	<SimulationDescriptor Name="SandboxHacks4" Type="FactionTrait">
 		<Modifier TargetProperty="MaximumHackingOperationsCount" Value="15" Operation="Percent" Path="ClassEmpire"/>
+		<Modifier TargetProperty="MaximumEmpireProcessingPowerStock" Operation="Percent" Value="15" Path="ClassEmpire"/>
+		<Modifier TargetProperty="HackingNodeSpeed" Value="15" Operation="Percent" Path="ClassEmpire"/>
+		<Modifier TargetProperty="HackingWarpSpeed" Value="15" Operation="Percent" Path="ClassEmpire" TooltipHidden="true"/>
+		<Modifier TargetProperty="HackingNonWarpSpeed" Value="15" Operation="Percent" Path="ClassEmpire" TooltipHidden="true"/>
 	</SimulationDescriptor>
 
 	<!--########################################-->
