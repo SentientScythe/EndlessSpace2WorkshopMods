@@ -20,6 +20,141 @@
 	<!--###  Leveled Traits  ###-->
 	<!--########################-->
 
+	<!--Luxury Resources used in Star System Upgrades-->
+	<FactionTrait Name="SandboxLuxuryConnoisseurs1" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="SandboxLuxuryConnoisseurs" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxLuxuryConnoisseurs1"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxLuxuryConnoisseurs2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="SandboxLuxuryConnoisseurs" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxLuxuryConnoisseurs2"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxLuxuryConnoisseurs3" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="SandboxLuxuryConnoisseurs" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxLuxuryConnoisseurs3"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxLuxuryConnoisseurs4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="SandboxLuxuryConnoisseurs" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxLuxuryConnoisseurs4"/>
+	</FactionTrait>
+
+	<!--Law Upkeep and Election Action Costs-->
+	<FactionTrait Name="SandboxAceSenators1" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="SandboxAceSenators" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxAceSenators1"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxAceSenators2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="SandboxAceSenators" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxAceSenators2"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxAceSenators3" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="SandboxAceSenators" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxAceSenators3"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxAceSenators4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="SandboxAceSenators" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxAceSenators4"/>
+	</FactionTrait>
+
+	<!--Reduced Disapproval from Representatives not in Senate-->
+	<FactionTrait Name="SandboxSmoothTalkers1" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="SandboxSmoothTalkers" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSmoothTalkers1"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxSmoothTalkers2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="SandboxSmoothTalkers" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSmoothTalkers2"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxSmoothTalkers3" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="SandboxSmoothTalkers" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSmoothTalkers3"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxSmoothTalkers4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="SandboxSmoothTalkers" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSmoothTalkers4"/>
+	</FactionTrait>
+
+	<!--Decrease Growth needed in each step-->
+	<FactionTrait Name="SandboxGrowth1" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="SandboxGrowth" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxGrowth1"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxGrowth2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="SandboxGrowth" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxGrowth2"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxGrowth3" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="SandboxGrowth" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxGrowth3"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxGrowth4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="SandboxGrowth" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxGrowth4"/>
+	</FactionTrait>
+
+	<FactionTrait Name="SandboxEmpireResearch1" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="SandboxEmpireResearch" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxEmpireResearch1"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxEmpireResearch2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="SandboxEmpireResearch" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxEmpireResearch2"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxEmpireResearch3" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="SandboxEmpireResearch" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxEmpireResearch3"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxEmpireResearch4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="SandboxEmpireResearch" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxEmpireResearch4"/>
+	</FactionTrait>
+
+	<FactionTrait Name="SandboxDiplomacy1" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="SandboxDiplomacy" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxDiplomacy1"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxDiplomacy2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="SandboxDiplomacy" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxDiplomacy2"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxDiplomacy3" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="SandboxDiplomacy" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxDiplomacy3"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxDiplomacy4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="SandboxDiplomacy" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxDiplomacy4"/>
+	</FactionTrait>
+
+	<FactionTrait Name="SandboxGamers1" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="SandboxGamers" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxGamers1"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxGamers2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="SandboxGamers" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxGamers2"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxGamers3" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="SandboxGamers" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxGamers3"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxGamers4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="SandboxGamers" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxGamers4"/>
+	</FactionTrait>
+
+	<FactionTrait Name="SandboxWonderBuilders1" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="SandboxWonderBuilders" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxWonderBuilders1"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxWonderBuilders2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="SandboxWonderBuilders" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxWonderBuilders2"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxWonderBuilders3" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="SandboxWonderBuilders" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxWonderBuilders3"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxWonderBuilders4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="SandboxWonderBuilders" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxWonderBuilders4"/>
+	</FactionTrait>
+
+	<!--Better Minor Faction Diplomacy-->
+	<FactionTrait Name="SandboxBigBrother1" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="SandboxBigBrother" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxBigBrother1"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxBigBrother2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="SandboxBigBrother" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxBigBrother2"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxBigBrother3" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="SandboxBigBrother" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxBigBrother3"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxBigBrother4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="SandboxBigBrother" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxBigBrother4"/>
+	</FactionTrait>
+
+	<FactionTrait Name="SandboxBuilders1" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="SandboxBuilders" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxBuilders1"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxBuilders2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="SandboxBuilders" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxBuilders2"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxBuilders3" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="SandboxBuilders" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxBuilders3"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxBuilders4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="SandboxBuilders" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxBuilders4"/>
+	</FactionTrait>
+
 	<!--Gives Extra Trait Points to Spend-->
 	<FactionTrait Name="SandboxExtraTraitPoints512" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxExtraTraitPoints" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="-512" IgnoreForTraitsCount="true">
 		<SimulationDescriptorReference Name="SandboxExtraTraitPoints512"/>
@@ -512,88 +647,88 @@
 
 	<!--Tech unlocks-->
 	<FactionTrait Name="SandboxTechs01" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="FactionTraitSandboxTechs" Family="FactionTraitFamilyStartingTechnologies" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionEconomyAndTrade1"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionEmpireDevelopment1"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionMilitary1"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionScienceAndExploration1"/>
-
-        <SimulationDescriptorReference Name="SandboxTechs"/>
-    </FactionTrait>
-
-	<FactionTrait Name="SandboxTechs02" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="FactionTraitSandboxTechs" Family="FactionTraitFamilyStartingTechnologies" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionEconomyAndTrade1"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionEmpireDevelopment1"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionMilitary1"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionScienceAndExploration1"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionEconomyAndTrade2"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionEmpireDevelopment2"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionMilitary2"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionScienceAndExploration2"/>
-
-        <SimulationDescriptorReference Name="SandboxTechs"/>
-    </FactionTrait>
-
-	<FactionTrait Name="SandboxTechs03" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="FactionTraitSandboxTechs" Family="FactionTraitFamilyStartingTechnologies" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionEconomyAndTrade1"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionEmpireDevelopment1"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionMilitary1"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionScienceAndExploration1"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionEconomyAndTrade2"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionEmpireDevelopment2"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionMilitary2"/>
-		<Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionEconomyAndTrade3"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionEmpireDevelopment3"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionMilitary3"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionScienceAndExploration3"/>
-
-        <SimulationDescriptorReference Name="SandboxTechs"/>
-    </FactionTrait>
-
-	<FactionTrait Name="SandboxTechs04" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="FactionTraitSandboxTechs" Family="FactionTraitFamilyStartingTechnologies" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionEconomyAndTrade1"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionEmpireDevelopment1"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionMilitary1"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionScienceAndExploration1"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionEconomyAndTrade2"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionEmpireDevelopment2"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionMilitary2"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionScienceAndExploration2"/>
-		<Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionEconomyAndTrade3"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionEmpireDevelopment3"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionMilitary3"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionScienceAndExploration3"/>
-		<Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionEconomyAndTrade4"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionEmpireDevelopment4"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionMilitary4"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionScienceAndExploration4"/>
-
-        <SimulationDescriptorReference Name="SandboxTechs"/>
-    </FactionTrait>
-
-	<FactionTrait Name="SandboxTechs05" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="FactionTraitSandboxTechs" Family="FactionTraitFamilyStartingTechnologies" Level="5" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionEconomyAndTrade1"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionEmpireDevelopment1"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionMilitary1"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionScienceAndExploration1"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionEconomyAndTrade2"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionEmpireDevelopment2"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionMilitary2"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionScienceAndExploration2"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionEconomyAndTrade3"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionEmpireDevelopment3"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionMilitary3"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionScienceAndExploration3"/>
-		<Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionEconomyAndTrade4"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionEmpireDevelopment4"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionMilitary4"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionScienceAndExploration4"/>
-		<Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionEconomyAndTrade5"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionEmpireDevelopment5"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionMilitary5"/>
-        <Command Name="UnlockTechnologyStage"                Arguments="TechnologyStageDefinitionScienceAndExploration5"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionEconomyAndTrade1"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionEmpireDevelopment1"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionMilitary1"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionScienceAndExploration1"/>
 
 		<SimulationDescriptorReference Name="SandboxTechs"/>
-    </FactionTrait>
+	</FactionTrait>
+
+	<FactionTrait Name="SandboxTechs02" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="FactionTraitSandboxTechs" Family="FactionTraitFamilyStartingTechnologies" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionEconomyAndTrade1"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionEmpireDevelopment1"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionMilitary1"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionScienceAndExploration1"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionEconomyAndTrade2"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionEmpireDevelopment2"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionMilitary2"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionScienceAndExploration2"/>
+
+		<SimulationDescriptorReference Name="SandboxTechs"/>
+	</FactionTrait>
+
+	<FactionTrait Name="SandboxTechs03" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="FactionTraitSandboxTechs" Family="FactionTraitFamilyStartingTechnologies" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionEconomyAndTrade1"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionEmpireDevelopment1"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionMilitary1"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionScienceAndExploration1"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionEconomyAndTrade2"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionEmpireDevelopment2"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionMilitary2"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionEconomyAndTrade3"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionEmpireDevelopment3"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionMilitary3"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionScienceAndExploration3"/>
+
+		<SimulationDescriptorReference Name="SandboxTechs"/>
+	</FactionTrait>
+
+	<FactionTrait Name="SandboxTechs04" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="FactionTraitSandboxTechs" Family="FactionTraitFamilyStartingTechnologies" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionEconomyAndTrade1"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionEmpireDevelopment1"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionMilitary1"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionScienceAndExploration1"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionEconomyAndTrade2"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionEmpireDevelopment2"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionMilitary2"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionScienceAndExploration2"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionEconomyAndTrade3"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionEmpireDevelopment3"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionMilitary3"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionScienceAndExploration3"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionEconomyAndTrade4"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionEmpireDevelopment4"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionMilitary4"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionScienceAndExploration4"/>
+
+		<SimulationDescriptorReference Name="SandboxTechs"/>
+	</FactionTrait>
+
+	<FactionTrait Name="SandboxTechs05" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="FactionTraitSandboxTechs" Family="FactionTraitFamilyStartingTechnologies" Level="5" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionEconomyAndTrade1"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionEmpireDevelopment1"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionMilitary1"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionScienceAndExploration1"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionEconomyAndTrade2"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionEmpireDevelopment2"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionMilitary2"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionScienceAndExploration2"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionEconomyAndTrade3"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionEmpireDevelopment3"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionMilitary3"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionScienceAndExploration3"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionEconomyAndTrade4"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionEmpireDevelopment4"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionMilitary4"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionScienceAndExploration4"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionEconomyAndTrade5"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionEmpireDevelopment5"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionMilitary5"/>
+		<Command Name="UnlockTechnologyStage" Arguments="TechnologyStageDefinitionScienceAndExploration5"/>
+
+		<SimulationDescriptorReference Name="SandboxTechs"/>
+	</FactionTrait>
 
 	<!--Hacks-->
 	<FactionTrait Name="SandboxHacks1" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="FactionTraitSandboxHacks" Family="FactionTraitFamilyStartingTechnologies" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
@@ -609,96 +744,96 @@
 		<SimulationDescriptorReference Name="SandboxHacks4"/>
 	</FactionTrait>
 
-    <!--#################################-->
+	<!--#################################-->
 	<!--###  MinorPopulations Traits  ###-->
 	<!--#################################-->
 
 	<!-- MinorPopulations Unlocked-->
-    <FactionTrait Name="FactionTraitMinorAmoeba" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartAmoeba" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
-        <Command Name="AddMinorPopulation" Arguments="AffinityAmoeba,1" Priority="100"/>
-        <SimulationDescriptorReference Name="FactionTraitMinorAmoeba"/>
-        <Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
-    </FactionTrait>
-    <FactionTrait Name="FactionTraitMinorBenthys" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartBenthys" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="10">
-        <Command Name="AddMinorPopulation" Arguments="AffinityBenthys,1" Priority="100"/>
-        <SimulationDescriptorReference Name="FactionTraitMinorBenthys"/>
+	<FactionTrait Name="FactionTraitMinorAmoeba" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartAmoeba" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
+		<Command Name="AddMinorPopulation" Arguments="AffinityAmoeba,1" Priority="100"/>
+		<SimulationDescriptorReference Name="FactionTraitMinorAmoeba"/>
 		<Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
-    </FactionTrait>
-    <FactionTrait Name="FactionTraitMinorBots" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartBots" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="10">
-        <Command Name="AddMinorPopulation" Arguments="AffinityBots,1" Priority="100"/>
-        <SimulationDescriptorReference Name="FactionTraitMinorBots"/>
-        <Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
-    </FactionTrait>
-    <FactionTrait Name="FactionTraitMinorDeuyivans" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartDeuyivans" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="10">
-        <Command Name="AddMinorPopulation" Arguments="AffinityDeuyivans,1" Priority="100"/>
-        <SimulationDescriptorReference Name="FactionTraitMinorDeuyivans"/>
-        <Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
-    </FactionTrait>
-    <FactionTrait Name="FactionTraitMinorHaroshems" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartHaroshems" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="10">
-        <Command Name="AddMinorPopulation" Arguments="AffinityHaroshems,1" Priority="100"/>
-        <SimulationDescriptorReference Name="FactionTraitMinorHaroshems"/>
-        <Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
-    </FactionTrait>
-    <FactionTrait Name="FactionTraitMinorHisshos" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartHisshos" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
-        <Command Name="AddMinorPopulation" Arguments="AffinityHisshos,1" Priority="100"/>
-        <SimulationDescriptorReference Name="FactionTraitMinorHisshos"/>
-        <Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
-    </FactionTrait>
-    <FactionTrait Name="FactionTraitMinorMavros" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartMavros" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="10">
-        <Command Name="AddMinorPopulation" Arguments="AffinityMavros,1" Priority="100"/>
-        <SimulationDescriptorReference Name="FactionTraitMinorMavros"/>
-        <Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
-    </FactionTrait>
-    <FactionTrait Name="FactionTraitMinorPilgrims" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartPilgrims" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
-        <Command Name="AddMinorPopulation" Arguments="AffinityPilgrims,1" Priority="100"/>
-        <SimulationDescriptorReference Name="FactionTraitMinorPilgrims"/>
-        <Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
-    </FactionTrait>
-    <FactionTrait Name="FactionTraitMinorZvali" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartZvali" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="10">
-        <Command Name="AddMinorPopulation" Arguments="AffinityZvali,1" Priority="100"/>
-        <SimulationDescriptorReference Name="FactionTraitMinorZvali"/>
-        <Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
-    </FactionTrait>
-    <FactionTrait Name="FactionTraitMinorTikanans" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartTikanan" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
-        <Command Name="AddMinorPopulation" Arguments="AffinityTikanans,1" Priority="100"/>
-        <SimulationDescriptorReference Name="FactionTraitMinorTikanans"/>
-        <Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
-    </FactionTrait>
-    <FactionTrait Name="FactionTraitMinorGnashasts" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartGnashasts" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
-        <Command Name="AddMinorPopulation" Arguments="AffinityGnashasts,1" Priority="100"/>
-        <SimulationDescriptorReference Name="FactionTraitMinorGnashasts"/>
+	</FactionTrait>
+	<FactionTrait Name="FactionTraitMinorBenthys" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartBenthys" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="10">
+		<Command Name="AddMinorPopulation" Arguments="AffinityBenthys,1" Priority="100"/>
+		<SimulationDescriptorReference Name="FactionTraitMinorBenthys"/>
 		<Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
-    </FactionTrait>
-    <FactionTrait Name="FactionTraitMinorEyders" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartEyders" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="10">
-        <Command Name="AddMinorPopulation" Arguments="AffinityEyders,1" Priority="100"/>
-        <SimulationDescriptorReference Name="FactionTraitMinorEyders"/>
-        <Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
-    </FactionTrait>
-    <FactionTrait Name="FactionTraitMinorNiris" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartNiris" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="10">
-        <Command Name="AddMinorPopulation" Arguments="AffinityNiris,1" Priority="-100"/>
-        <SimulationDescriptorReference Name="FactionTraitMinorNiris"/>
-        <Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
-    </FactionTrait>
-    <FactionTrait Name="FactionTraitMinorBhagabas" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartBhagabas" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
-        <Command Name="AddMinorPopulation" Arguments="AffinityBhagabas,1" Priority="100"/>
-        <SimulationDescriptorReference Name="FactionTraitMinorBhagabas"/>
-        <Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
-    </FactionTrait>
-    <FactionTrait Name="FactionTraitMinorRemnant" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartRemnant" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
-        <Command Name="AddMinorPopulation" Arguments="AffinityRemnant,1" Priority="100"/>
-        <SimulationDescriptorReference Name="FactionTraitMinorRemnant"/>
+	</FactionTrait>
+	<FactionTrait Name="FactionTraitMinorBots" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartBots" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="10">
+		<Command Name="AddMinorPopulation" Arguments="AffinityBots,1" Priority="100"/>
+		<SimulationDescriptorReference Name="FactionTraitMinorBots"/>
 		<Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
-    </FactionTrait>
-    <FactionTrait Name="FactionTraitMinorPulsos" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartPulsos" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
-        <Command Name="AddMinorPopulation" Arguments="AffinityPulsos,1" Priority="100"/>
-        <SimulationDescriptorReference Name="FactionTraitMinorPulsos"/>
+	</FactionTrait>
+	<FactionTrait Name="FactionTraitMinorDeuyivans" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartDeuyivans" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="10">
+		<Command Name="AddMinorPopulation" Arguments="AffinityDeuyivans,1" Priority="100"/>
+		<SimulationDescriptorReference Name="FactionTraitMinorDeuyivans"/>
 		<Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
-    </FactionTrait>
+	</FactionTrait>
+	<FactionTrait Name="FactionTraitMinorHaroshems" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartHaroshems" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="10">
+		<Command Name="AddMinorPopulation" Arguments="AffinityHaroshems,1" Priority="100"/>
+		<SimulationDescriptorReference Name="FactionTraitMinorHaroshems"/>
+		<Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
+	</FactionTrait>
+	<FactionTrait Name="FactionTraitMinorHisshos" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartHisshos" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
+		<Command Name="AddMinorPopulation" Arguments="AffinityHisshos,1" Priority="100"/>
+		<SimulationDescriptorReference Name="FactionTraitMinorHisshos"/>
+		<Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
+	</FactionTrait>
+	<FactionTrait Name="FactionTraitMinorMavros" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartMavros" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="10">
+		<Command Name="AddMinorPopulation" Arguments="AffinityMavros,1" Priority="100"/>
+		<SimulationDescriptorReference Name="FactionTraitMinorMavros"/>
+		<Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
+	</FactionTrait>
+	<FactionTrait Name="FactionTraitMinorPilgrims" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartPilgrims" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
+		<Command Name="AddMinorPopulation" Arguments="AffinityPilgrims,1" Priority="100"/>
+		<SimulationDescriptorReference Name="FactionTraitMinorPilgrims"/>
+		<Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
+	</FactionTrait>
+	<FactionTrait Name="FactionTraitMinorZvali" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartZvali" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="10">
+		<Command Name="AddMinorPopulation" Arguments="AffinityZvali,1" Priority="100"/>
+		<SimulationDescriptorReference Name="FactionTraitMinorZvali"/>
+		<Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
+	</FactionTrait>
+	<FactionTrait Name="FactionTraitMinorTikanans" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartTikanan" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
+		<Command Name="AddMinorPopulation" Arguments="AffinityTikanans,1" Priority="100"/>
+		<SimulationDescriptorReference Name="FactionTraitMinorTikanans"/>
+		<Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
+	</FactionTrait>
+	<FactionTrait Name="FactionTraitMinorGnashasts" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartGnashasts" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
+		<Command Name="AddMinorPopulation" Arguments="AffinityGnashasts,1" Priority="100"/>
+		<SimulationDescriptorReference Name="FactionTraitMinorGnashasts"/>
+		<Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
+	</FactionTrait>
+	<FactionTrait Name="FactionTraitMinorEyders" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartEyders" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="10">
+		<Command Name="AddMinorPopulation" Arguments="AffinityEyders,1" Priority="100"/>
+		<SimulationDescriptorReference Name="FactionTraitMinorEyders"/>
+		<Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
+	</FactionTrait>
+	<FactionTrait Name="FactionTraitMinorNiris" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartNiris" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="10">
+		<Command Name="AddMinorPopulation" Arguments="AffinityNiris,1" Priority="-100"/>
+		<SimulationDescriptorReference Name="FactionTraitMinorNiris"/>
+		<Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
+	</FactionTrait>
+	<FactionTrait Name="FactionTraitMinorBhagabas" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartBhagabas" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
+		<Command Name="AddMinorPopulation" Arguments="AffinityBhagabas,1" Priority="100"/>
+		<SimulationDescriptorReference Name="FactionTraitMinorBhagabas"/>
+		<Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
+	</FactionTrait>
+	<FactionTrait Name="FactionTraitMinorRemnant" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartRemnant" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
+		<Command Name="AddMinorPopulation" Arguments="AffinityRemnant,1" Priority="100"/>
+		<SimulationDescriptorReference Name="FactionTraitMinorRemnant"/>
+		<Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
+	</FactionTrait>
+	<FactionTrait Name="FactionTraitMinorPulsos" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartPulsos" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
+		<Command Name="AddMinorPopulation" Arguments="AffinityPulsos,1" Priority="100"/>
+		<SimulationDescriptorReference Name="FactionTraitMinorPulsos"/>
+		<Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
+	</FactionTrait>
 	<FactionTrait Name="FactionTraitMinorGreenman" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartGreenman" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="10">
-        <Command Name="AddMinorPopulation" Arguments="AffinityGreenman,1" Priority="100"/>
-        <SimulationDescriptorReference Name="FactionTraitMinorGreenman"/>
-        <Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
-    </FactionTrait>
+		<Command Name="AddMinorPopulation" Arguments="AffinityGreenman,1" Priority="100"/>
+		<SimulationDescriptorReference Name="FactionTraitMinorGreenman"/>
+		<Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
+	</FactionTrait>
 	<FactionTrait Name="FactionTraitMinorSistersOfMercy" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartSistersOfMercy" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
 		<Command Name="AddMinorPopulation" Arguments="AffinitySistersOfMercy,1" Priority="100"/>
 		<SimulationDescriptorReference Name="FactionTraitMinorSistersOfMercy"/>
@@ -708,42 +843,42 @@
 		<Command Name="AddMinorPopulation" Arguments="AffinitySowers,1" Priority="100"/>
 		<SimulationDescriptorReference Name="FactionTraitMinorSowers"/>
 		<Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
-  </FactionTrait>
-    <FactionTrait Name="FactionTraitMinorKalTikMas" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartKalTikMas" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
-        <Command Name="AddMinorPopulation" Arguments="AffinityKalTikMas,1" Priority="100"/>
-        <SimulationDescriptorReference Name="FactionTraitMinorKalTikMas"/>
-        <Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
-    </FactionTrait>
-    <FactionTrait Name="FactionTraitMinorSefaloros" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartSefaloros" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
-        <Command Name="AddMinorPopulation" Arguments="AffinitySefaloros,1" Priority="100"/>
-        <SimulationDescriptorReference Name="FactionTraitMinorSefaloros"/>
-        <Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
-    </FactionTrait>
-    <FactionTrait Name="FactionTraitMinorGalvrans" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartGalvrans" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
-        <Command Name="AddMinorPopulation" Arguments="AffinityGalvrans,1" Priority="100"/>
-        <SimulationDescriptorReference Name="FactionTraitMinorGalvrans"/>
-        <Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
-    </FactionTrait>
+	</FactionTrait>
+	<FactionTrait Name="FactionTraitMinorKalTikMas" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartKalTikMas" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
+		<Command Name="AddMinorPopulation" Arguments="AffinityKalTikMas,1" Priority="100"/>
+		<SimulationDescriptorReference Name="FactionTraitMinorKalTikMas"/>
+		<Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
+	</FactionTrait>
+	<FactionTrait Name="FactionTraitMinorSefaloros" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartSefaloros" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
+		<Command Name="AddMinorPopulation" Arguments="AffinitySefaloros,1" Priority="100"/>
+		<SimulationDescriptorReference Name="FactionTraitMinorSefaloros"/>
+		<Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
+	</FactionTrait>
+	<FactionTrait Name="FactionTraitMinorGalvrans" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartGalvrans" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
+		<Command Name="AddMinorPopulation" Arguments="AffinityGalvrans,1" Priority="100"/>
+		<SimulationDescriptorReference Name="FactionTraitMinorGalvrans"/>
+		<Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
+	</FactionTrait>
 	<FactionTrait Name="FactionTraitMinorHarmony" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartHarmony" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
-        <Command Name="AddMinorPopulation" Arguments="AffinityHarmony,1" Priority="100"/>
-        <SimulationDescriptorReference Name="FactionTraitMinorHarmony"/>
-        <Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
-    </FactionTrait>
+		<Command Name="AddMinorPopulation" Arguments="AffinityHarmony,1" Priority="100"/>
+		<SimulationDescriptorReference Name="FactionTraitMinorHarmony"/>
+		<Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
+	</FactionTrait>
 	<FactionTrait Name="FactionTraitMinorIllo" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartIllo" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
-        <Command Name="AddMinorPopulation" Arguments="AffinityIllo,1" Priority="100"/>
-        <SimulationDescriptorReference Name="FactionTraitMinorIllo"/>
-        <Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
-    </FactionTrait>
+		<Command Name="AddMinorPopulation" Arguments="AffinityIllo,1" Priority="100"/>
+		<SimulationDescriptorReference Name="FactionTraitMinorIllo"/>
+		<Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
+	</FactionTrait>
 	<FactionTrait Name="FactionTraitMinorMinorHacking" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartMinorHacking" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
-        <Command Name="AddMinorPopulation" Arguments="AffinityMinorHacking,1" Priority="100"/>
-        <SimulationDescriptorReference Name="FactionTraitMinorMinorHacking"/>
-        <Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
-    </FactionTrait>
+		<Command Name="AddMinorPopulation" Arguments="AffinityMinorHacking,1" Priority="100"/>
+		<SimulationDescriptorReference Name="FactionTraitMinorMinorHacking"/>
+		<Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
+	</FactionTrait>
 	<FactionTrait Name="FactionTraitMinorBasryxo" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartPulsos" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
-        <Command Name="AddMinorPopulation" Arguments="AffinityBasryxo,1" Priority="100"/>
-        <SimulationDescriptorReference Name="FactionTraitMinorBasryxo"/>
-        <Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
-    </FactionTrait>
+		<Command Name="AddMinorPopulation" Arguments="AffinityBasryxo,1" Priority="100"/>
+		<SimulationDescriptorReference Name="FactionTraitMinorBasryxo"/>
+		<Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
+	</FactionTrait>
 	<FactionTrait Name="FactionTraitMinorMinorOraculars" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartOraculars" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
 		<Command Name="AddMinorPopulation" Arguments="AffinityMinorOraculars,1" Priority="100"/>
 		<SimulationDescriptorReference Name="FactionTraitMinorMinorOraculars"/>
@@ -814,213 +949,213 @@
 	<!--########################################-->
 
 	<!-- Major Faction Heroes -->
-    <FactionTrait Name="SandboxHeroSophons01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroSophons01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	<FactionTrait Name="SandboxHeroSophons01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroSophons01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroSophons01"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroSophons02" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroSophons02" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroSophons02" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroSophons02" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroSophons02"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroSophons03" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroSophons03" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroSophons03" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroSophons03" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroSophons03"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroSophons04" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroSophons04" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroSophons04" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroSophons04" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroSophons04"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroSophons05" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroSophons05" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroSophons05" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroSophons05" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroSophons05"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroTerrans01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroTerrans01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroTerrans01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroTerrans01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroTerrans01"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroTerrans02" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroTerrans02" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroTerrans02" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroTerrans02" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroTerrans02"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroTerrans03" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroTerrans03" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroTerrans03" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroTerrans03" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroTerrans03"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroTerrans04" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroTerrans04" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroTerrans04" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroTerrans04" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroTerrans04"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroTerrans05" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroTerrans05" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroTerrans05" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroTerrans05" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroTerrans05"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroHoratio01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroHoratio01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroHoratio01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroHoratio01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroHoratio01"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroHoratio02" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroHoratio02" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroHoratio02" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroHoratio02" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroHoratio02"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroHoratio03" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroHoratio03" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroHoratio03" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroHoratio03" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroHoratio03"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroHoratio04" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroHoratio04" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroHoratio04" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroHoratio04" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroHoratio04"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroTimeLords01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroTimeLords01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroTimeLords01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroTimeLords01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroTimeLords01"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroTimeLords02" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroTimeLords02" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroTimeLords02" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroTimeLords02" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroTimeLords02"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroTimeLords03" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroTimeLords03" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroTimeLords03" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroTimeLords03" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroTimeLords03"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroTimeLords04" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroTimeLords04" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroTimeLords04" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroTimeLords04" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroTimeLords04"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroUnfallen01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroUnfallen01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroUnfallen01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroUnfallen01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroUnfallen01"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroUnfallen02" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroUnfallen02" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroUnfallen02" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroUnfallen02" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroUnfallen02"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroUnfallen03" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroUnfallen03" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroUnfallen03" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroUnfallen03" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroUnfallen03"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroUnfallen04" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroUnfallen04" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroUnfallen04" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroUnfallen04" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroUnfallen04"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroCravers01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroCravers01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroCravers01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroCravers01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroCravers01"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroCravers02" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroCravers02" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroCravers02" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroCravers02" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroCravers02"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroCravers03" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroCravers03" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroCravers03" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroCravers03" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroCravers03"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroCravers04" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroCravers04" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroCravers04" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroCravers04" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroCravers04"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroCraversPrime" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroCraversPrime" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroCraversPrime" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroCraversPrime" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroCraversPrime"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroVenetians01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroVenetians01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroVenetians01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroVenetians01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroVenetians01"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroVenetians02" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroVenetians02" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroVenetians02" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroVenetians02" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroVenetians02"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroVenetians03" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroVenetians03" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroVenetians03" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroVenetians03" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroVenetians03"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroVenetians04" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroVenetians04" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroVenetians04" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroVenetians04" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroVenetians04"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroVenetians05" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroVenetians05" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroVenetians05" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroVenetians05" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroVenetians05"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroVampirilis01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroVampirilis01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroVampirilis01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroVampirilis01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroVampirilis01"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroVampirilis02" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroVampirilis02" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroVampirilis02" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroVampirilis02" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroVampirilis02"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroVampirilis03" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroVampirilis03" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroVampirilis03" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroVampirilis03" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroVampirilis03"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroVampirilis04" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroVampirilis04" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroVampirilis04" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroVampirilis04" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroVampirilis04"/>
-    </FactionTrait>
+	</FactionTrait>
 
 	<!-- Minor Faction Heroes -->
-    <FactionTrait Name="SandboxHeroAmoeba01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroAmoeba01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	<FactionTrait Name="SandboxHeroAmoeba01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroAmoeba01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroAmoeba01"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroBenthys01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroBenthys01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroBenthys01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroBenthys01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroBenthys01"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroBots01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroBots01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroBots01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroBots01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroBots01"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroDeuyivans01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroDeuyivans01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroDeuyivans01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroDeuyivans01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroDeuyivans01"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroHaroshems01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroHaroshems01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroHaroshems01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroHaroshems01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroHaroshems01"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroHisshos01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroHisshos01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroHisshos01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroHisshos01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroHisshos01"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroMavros01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroMavros01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroMavros01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroMavros01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroMavros01"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroPilgrims01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroPilgrims01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroPilgrims01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroPilgrims01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroPilgrims01"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroZvali01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroZvali01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroZvali01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroZvali01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroZvali01"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroTikanans01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroTikanans01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroTikanans01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroTikanans01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroTikanans01"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroGnashasts01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroGnashasts01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroGnashasts01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroGnashasts01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroGnashasts01"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroEyders01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroEyders01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroEyders01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroEyders01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroEyders01"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroNiris01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroNiris01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroNiris01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroNiris01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroNiris01"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroBhagabas01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroBhagabas01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroBhagabas01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroBhagabas01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroBhagabas01"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroRemnant01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroRemnant01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroRemnant01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroRemnant01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroRemnant01"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroPulsos01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroPulsos01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroPulsos01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroPulsos01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroPulsos01"/>
-    </FactionTrait>
+	</FactionTrait>
 
 	<!-- Hidden (Quest) Heroes -->
-    <FactionTrait Name="SandboxQuestHeroEndless01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxQuestHeroEndless01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	<FactionTrait Name="SandboxQuestHeroEndless01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxQuestHeroEndless01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="QuestHeroEndless01"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxQuestHeroEndless02" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxQuestHeroEndless02" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxQuestHeroEndless02" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxQuestHeroEndless02" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="QuestHeroEndless02"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroTerransQuest01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroTerransQuest01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroTerransQuest01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroTerransQuest01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroTerransQuest01"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroTerransQuest02" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroTerransQuest02" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroTerransQuest02" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroTerransQuest02" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroTerransQuest02"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroTerransQuest03" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroTerransQuest03" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroTerransQuest03" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroTerransQuest03" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroTerransQuest03"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroQuestHoratio04" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroQuestHoratio04" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroQuestHoratio04" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroQuestHoratio04" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroQuestHoratio04"/>
-    </FactionTrait>
-    <FactionTrait Name="SandboxHeroQuestVirus01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroQuestVirus01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	</FactionTrait>
+	<FactionTrait Name="SandboxHeroQuestVirus01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroQuestVirus01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroQuestVirus01"/>
-    </FactionTrait>
+	</FactionTrait>
 	<FactionTrait Name="SandboxHeroPirate01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroPirate01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroPirate01"/>
-    </FactionTrait>
+	</FactionTrait>
 
 	<!-- Additional Heroes -->
 	<FactionTrait Name="SandboxHeroGreenman01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroGreenman01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroGreenman01"/>
-    </FactionTrait>
+	</FactionTrait>
 	<FactionTrait Name="SandboxHeroGreenman02" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroGreenman02" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroGreenman02"/>
-    </FactionTrait>
+	</FactionTrait>
 	<FactionTrait Name="SandboxHeroBurraTechseeker01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroBurraTechseeker01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroBurraTechseeker01"/>
-    </FactionTrait>
+	</FactionTrait>
 	<FactionTrait Name="SandboxHeroAmoeba02" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroAmoeba02" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroAmoeba02"/>
-    </FactionTrait>
+	</FactionTrait>
 	<FactionTrait Name="SandboxHeroArchivist01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroArchivist01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroArchivist01"/>
 	</FactionTrait>
 	<FactionTrait Name="SandboxHeroPirateLeader01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroPirateLeader01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroPirateLeader01"/>
-    </FactionTrait>
+	</FactionTrait>
 	<FactionTrait Name="SandboxHeroHaroshems02" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroHaroshems02" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroHaroshems02"/>
-    </FactionTrait>
+	</FactionTrait>
 	<FactionTrait Name="SandboxHeroAllVanilla" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategoryHeroALLVanilla" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<!-- Major Faction Heroes -->
 		<Command Name="RecruitHero" Arguments="HeroSophons01"/>
@@ -1096,99 +1231,99 @@
 		<Command Name="RecruitHero" Arguments="HeroArchivist01"/>
 		<Command Name="RecruitHero" Arguments="HeroPirateLeader01"/>
 		<Command Name="RecruitHero" Arguments="HeroHaroshems02"/>
-    </FactionTrait>
+	</FactionTrait>
 
 	<!-- Vaulter Heroes -->
 	<FactionTrait Name="SandboxHeroVaulters01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroVaulters01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroVaulters01"/>
-    </FactionTrait>
+	</FactionTrait>
 	<FactionTrait Name="SandboxHeroVaulters02" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroVaulters02" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroVaulters02"/>
-    </FactionTrait>
+	</FactionTrait>
 	<FactionTrait Name="SandboxHeroVaulters03" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroVaulters03" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroVaulters03"/>
-    </FactionTrait>
+	</FactionTrait>
 	<FactionTrait Name="SandboxHeroVaulters04" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroVaulters04" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroVaulters04"/>
-    </FactionTrait>
+	</FactionTrait>
 	<FactionTrait Name="SandboxHeroSistersOfMercy01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroSistersOfMercy01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroSistersOfMercy01"/>
-    </FactionTrait>
+	</FactionTrait>
 	<FactionTrait Name="SandboxHeroOpbot01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroOpbot01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroOpbot01"/>
-    </FactionTrait>
+	</FactionTrait>
 
 	<!-- Untold Tales Heroes -->
 	<FactionTrait Name="SandboxHeroSowers01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroSowers01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroSowers01"/>
-    </FactionTrait>
+	</FactionTrait>
 	<FactionTrait Name="SandboxHeroKalTikMas01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroKalTikMas01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroKalTikMas01"/>
-    </FactionTrait>
+	</FactionTrait>
 	<FactionTrait Name="SandboxHeroSefaloros01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroSefaloros01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroSefaloros01"/>
-    </FactionTrait>
+	</FactionTrait>
 	<FactionTrait Name="SandboxHeroGalvrans01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroGalvrans01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroGalvrans01"/>
-    </FactionTrait>
+	</FactionTrait>
 
 	<!-- Supremacy Heroes -->
 	<FactionTrait Name="SandboxHeroMajorHisshos01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroMajorHisshos01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroMajorHisshos01"/>
-    </FactionTrait>
+	</FactionTrait>
 	<FactionTrait Name="SandboxHeroMajorHisshos02" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroMajorHisshos02" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroMajorHisshos02"/>
-    </FactionTrait>
+	</FactionTrait>
 	<FactionTrait Name="SandboxHeroMajorHisshos03" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroMajorHisshos03" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroMajorHisshos03"/>
-    </FactionTrait>
+	</FactionTrait>
 	<FactionTrait Name="SandboxHeroMajorHisshos04" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroMajorHisshos04" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroMajorHisshos04"/>
-    </FactionTrait>
+	</FactionTrait>
 	<FactionTrait Name="SandboxHeroIllo01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroIllo01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroIllo01"/>
-    </FactionTrait>
+	</FactionTrait>
 
 	<!-- Vinyl Hero -->
 	<FactionTrait Name="SandboxHeroHarmony01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroHarmony01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroHarmony01"/>
-    </FactionTrait>
+	</FactionTrait>
 	<FactionTrait Name="SandboxHeroBasryxo01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroBasryxo01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroBasryxo01"/>
-    </FactionTrait>
+	</FactionTrait>
 	<FactionTrait Name="SandboxHeroUmbralChoir01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroUmbralChoir01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroUmbralChoir01"/>
-    </FactionTrait>
+	</FactionTrait>
 	<FactionTrait Name="SandboxHeroUmbralChoir02" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroUmbralChoir02" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroUmbralChoir02"/>
-    </FactionTrait>
+	</FactionTrait>
 	<FactionTrait Name="SandboxHeroUmbralChoir03" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroUmbralChoir03" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroUmbralChoir03"/>
-    </FactionTrait>
+	</FactionTrait>
 	<FactionTrait Name="SandboxHeroUmbralChoir04" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroUmbralChoir04" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroUmbralChoir04"/>
-    </FactionTrait>
+	</FactionTrait>
 	<FactionTrait Name="SandboxHeroUmbralChoir05" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroUmbralChoir05" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroUmbralChoir05"/>
-    </FactionTrait>
+	</FactionTrait>
 	<FactionTrait Name="SandboxHeroTemplars01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroTemplars01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroTemplars01"/>
-    </FactionTrait>
+	</FactionTrait>
 	<FactionTrait Name="SandboxHeroTemplars02" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroTemplars02" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroTemplars02"/>
-    </FactionTrait>
+	</FactionTrait>
 	<FactionTrait Name="SandboxHeroTemplars03" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroTemplars03" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroTemplars03"/>
-    </FactionTrait>
+	</FactionTrait>
 	<FactionTrait Name="SandboxHeroTemplars04" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroTemplars04" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroTemplars04"/>
-    </FactionTrait>
+	</FactionTrait>
 
 	<!-- Unused? -->
 	<FactionTrait Name="SandboxHeroTemplars05" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroTemplars05" Family="FactionTraitFamilyHeroes" Hidden="true" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroTemplars05"/>
-    </FactionTrait>
+	</FactionTrait>
 	<FactionTrait Name="SandboxHeroOraculars01" SubCategory="FactionTrait" TraitCategory="TraitCategoryHeroes" TraitSubCategory="TraitSubCategorySandboxHeroOraculars01" Family="FactionTraitFamilyHeroes" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<Command Name="RecruitHero" Arguments="HeroOraculars01"/>
-    </FactionTrait>
+	</FactionTrait>
 </Datatable>
