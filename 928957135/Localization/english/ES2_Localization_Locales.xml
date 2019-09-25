@@ -16,6 +16,70 @@
 	<LocalizationPair Name="%SandboxNoRebellionTitle">Sandbox: No Rebellion</LocalizationPair>
 	<LocalizationPair Name="%SandboxNoRebellionDescription">Hamstring those rebel scum.</LocalizationPair>
 
+	<!--Luxury Resources used in Star System Upgrades-->
+	<LocalizationPair Name="%SandboxLuxuryConnoisseurs1Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxLuxuryConnoisseurs2Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxLuxuryConnoisseurs3Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxLuxuryConnoisseurs4Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxLuxuryConnoisseursDescription">You are the 1%</LocalizationPair>
+
+	<!--Law Upkeep and Election Action Costs-->
+	<LocalizationPair Name="%SandboxAceSenators1Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxAceSenators2Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxAceSenators3Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxAceSenators4Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxAceSenatorsDescription">Silvertongued senators.</LocalizationPair>
+
+	<!--Reduced Disapproval from Representatives not in Senate-->
+	<LocalizationPair Name="%SandboxSmoothTalkers1Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxSmoothTalkers2Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxSmoothTalkers3Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxSmoothTalkers4Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxSmoothTalkersDescription">Talk your way out of a paper bag.</LocalizationPair>
+
+	<!--Decrease Growth needed in each step-->
+	<LocalizationPair Name="%SandboxGrowth1Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxGrowth2Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxGrowth3Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxGrowth4Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxGrowthDescription">They grow up so fast.</LocalizationPair>
+
+	<LocalizationPair Name="%SandboxEmpireResearch1Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxEmpireResearch2Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxEmpireResearch3Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxEmpireResearch4Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxEmpireResearchDescription">Know it all, yesterday.</LocalizationPair>
+
+	<LocalizationPair Name="%SandboxDiplomacy1Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxDiplomacy2Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxDiplomacy3Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxDiplomacy4Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxDiplomacyDescription">Increase diplomatic effectiveness.</LocalizationPair>
+
+	<LocalizationPair Name="%SandboxGamers1Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxGamers2Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxGamers3Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxGamers4Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxGamersDescription">War is just a game.</LocalizationPair>
+
+	<LocalizationPair Name="%SandboxWonderBuilders1Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxWonderBuilders2Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxWonderBuilders3Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxWonderBuilders4Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxWonderBuildersDescription">Why work hard for wonders?</LocalizationPair>
+
+	<LocalizationPair Name="%SandboxBigBrother1Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxBigBrother2Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxBigBrother3Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxBigBrother4Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxBigBrotherDescription">1984</LocalizationPair>
+
+	<LocalizationPair Name="%SandboxBuilders1Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxBuilders2Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxBuilders3Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxBuilders4Title">Sandbox: </LocalizationPair>
+	<LocalizationPair Name="%SandboxBuildersDescription">Bob the Builder can indeed build it.</LocalizationPair>
+
 	<!--Increases System Dust Output by X%-->
 	<LocalizationPair Name="%SandboxSuperMoney100Title">Sandbox: Dust +100%</LocalizationPair>
 	<LocalizationPair Name="%SandboxSuperMoney300Title">Sandbox: Dust +700%</LocalizationPair>
@@ -199,7 +263,7 @@
 	<!--Honour-->
 	<LocalizationPair Name="%SandboxHonourTitle">Sandbox: Super Honourable</LocalizationPair>
 	<LocalizationPair Name="%SandboxHonourDescription">Start with max honour and gain 100 honour / turn.</LocalizationPair>
-	
+
 	<!--Tech unlocks-->
 	<LocalizationPair Name="%SandboxTechs01Title">Sandbox: Unlock All Era 1 Tech</LocalizationPair>
 	<LocalizationPair Name="%SandboxTechs01Description">Start with all Era 1 tech.</LocalizationPair>
@@ -310,8 +374,8 @@
 	<LocalizationPair Name="%SandboxHeroTimeLords07Description">[TBD] TimeLords 07 description</LocalizationPair>
 	<LocalizationPair Name="%SandboxHeroTimeLords08Title">Give Hero: [TBD] TimeLords 08</LocalizationPair>
 	<LocalizationPair Name="%SandboxHeroTimeLords08Description">[TBD] TimeLords 08 description</LocalizationPair>
-  
-  <!-- Minor Faction Heroes -->
+
+	<!-- Minor Faction Heroes -->
 	<LocalizationPair Name="%SandboxHeroBenthys01Title">Give Hero: Nelly "Shaken" Sira Ninpere</LocalizationPair>
 	<LocalizationPair Name="%SandboxHeroBenthys01Description">So great is Ninpere's knowledge of luxuries that even the most indulgent of the Lumeris listen rather than speak when she is talking. Notable primarily for her expertise in drinks and particularly cocktails, she was given the honorary rank of "Sira" for not only creating the most expensive cocktail ever known, but also the most accessible across diverse species and the most-nearly-but-not-quite-lethal. When one adds to this her encyclopedic knowledge of perfumes, flavors, organic chemistry, food processing, and fine dining, it is clear why her opinions and presence are sought at the finest establishments across the galaxy (it is a secret known only to her that this exceptional talent is due to an impetuous over-sampling of Dust-based drinks). Regardless, Ninpere’s knowledge and her agreeable company are both in great demand.</LocalizationPair>
 	<LocalizationPair Name="%SandboxHeroBots01Title">Give Hero: EPISTIS "Madein" 20910</LocalizationPair>
@@ -344,8 +408,8 @@
 	<LocalizationPair Name="%SandboxHeroRemnant01Description">Entrusted by the Remnant leader, Belcus Akad-Talar, to scout the rest of the system after the order of cyborg assassins awoke from their long hibernation, Kalin was exploring a remote windswept tower on a nearby planet when its connection to the hive-mind was severed. Whether this was due to Dust storms, computational failure, or sabotage was unclear, but the result was that Kalin was suddenly alone with its buried past. Overwhelming memories of tracking marks across ghost-worlds, hiding in the holds of interstellar vessels, and killing under myriad suns flashed through its silicon mind. On that day, the one-time assassin vowed to learn everything it could about its history, and set off the stars. Alone.</LocalizationPair>
 	<LocalizationPair Name="%SandboxHeroPulsos01Title">Give Hero: Caxalxsixox Druse</LocalizationPair>
 	<LocalizationPair Name="%SandboxHeroPulsos01Description">The Pulsos are led by Caxalxsixox, who as leader volunteered to travel among the other races of the galaxy to better understand their nature. Analyzing their tools and societies to understand more of the powers and possibilities contained in Dust, Caxalxsixox fulfills a lonely if important role. Regardless, while the leader travels, soaking up knowledge and transmitting it back to the Pulsos using their innate mastery of quantum coupling, the others bask in the data stream that Caxalxsixox creates, forever recording and studying.</LocalizationPair>
-  
-  <!-- Hidden (Quest) Heroes -->
+
+	<!-- Hidden (Quest) Heroes -->
 	<LocalizationPair Name="%SandboxQuestHeroEndless01Title">Give Hero: Reyaryn Cious</LocalizationPair>
 	<LocalizationPair Name="%SandboxQuestHeroEndless01Description">Discovered by Cravers in the heart of an ancient Craver vessel, buried and dormant, Reyaryn is one of the galaxy's oldest survivors. Largely silent on matters of the past, nobody knows exactly what sort of life Reyaryn led at the time of the Endless, or what brought his virtual self to be embedded in an industrial-purpose exosuit. What is known is that Reyaryn is a powerful presence wherever he goes, seemingly possessed with an uncanny ability to predict the next move of friends and enemies alike. As to a weakness, some whisper that he is afraid of visiting the original Endless homeworld . . .</LocalizationPair>
 	<LocalizationPair Name="%SandboxQuestHeroEndless02Title">Give Hero: Tiaych Zhilleaq</LocalizationPair>
@@ -384,11 +448,11 @@
 	<LocalizationPair Name="%SandboxHeroPirateLeader01Description">A rough character from a rough culture, Gurk’Zvar would have been a hard case even if his drunken stepfather had not named him Fluffpetal. A name like that in Gnashast society made bullying a daily occurrence throughout his youth. Before he learned anything else, Gurk'Zvar learned how to win fights or talk his way out of them. Showing a lot more smarts than his parents, Gurk'Zvar figured out that more friends and more people who owe you favors translated into more clout on the streets. From gang leader to mob boss was relatively straightforward, and once he took his first trip off-planet it was clear that nothing short of ruling his own pirate empire would be enough for this bright and belligerent personality.</LocalizationPair>
 	<LocalizationPair Name="%SandboxHeroHaroshems02Title">Give Hero: Karv Jezet</LocalizationPair>
 	<LocalizationPair Name="%SandboxHeroHaroshems02Description">Dangerously foolhardy for a Haroshem, Jezet was eager to get off-world into a galaxy where he would be seen as "normal". His first trip, however, included a near crash, a pirate raid, and the discovery of a stolen hoard of Endless loot. Rather than dissuading him, this succession of events only made Jezet happier with his life choices. While he breezed through the Academy thanks to his eidetic memory, most of his knowledge (and increasing cynicism) comes from banging around the corners of the galaxy where wiser heroes would never be seen, in the company of people that wiser heroes would run away from.</LocalizationPair>
-	
+
 	<!--SandboxHeroAllVanilla-->
 	<LocalizationPair Name="%SandboxHeroAllVanillaTitle">Give All Vanilla Heroes #a50008#Warning: Will cause notification spam all game!#REVERT#</LocalizationPair>
 	<LocalizationPair Name="%SandboxHeroAllVanillaDescription">Adds all 66 Vanilla Heroes</LocalizationPair>
-	
+
 	<!--Vaulter Heroes-->
 	<LocalizationPair Name="%SandboxHeroVaulters01Title">Give Hero:#ED9900#[Vaulter DLC]#REVERT# Petrov Jutka</LocalizationPair>
 	<LocalizationPair Name="%SandboxHeroVaulters01Description">Another ghost from a long line of ghosts, Jutka always had an uncanny knack for infiltration and ambush operations. A natural warrior and unpredictable commander, her troops have a history of success and survival that make her the envy of friend and foe. While some say it must be in her genes, given her famous great-grandmother, Judit, her grueling training and relentless drive should also be taken into account when explaining her phenomenal success.</LocalizationPair>
@@ -402,7 +466,7 @@
 	<LocalizationPair Name="%SandboxHeroSistersOfMercy01Description">Parcha had both the doom and the honor to leave Auriga and cross the stars when the Vaulters repaired the Argosy and departed. She travels with her family heirloom, the Book of the Kjrtys, an ancient tome filled with proverbs, anecdotes, and prayers. Whatever shadows or demons lurk behind the emotions that provoke a given situation, the Book is intended to provide her with the clarity of absolutes to deal with the problem. She discovered, however, that multiple layers of sentience, culture, and civilization impose far more complexity than her simple philosophical training provided. In search of greater answers, she visited the Academy and became one of the very few non-Dust-enhanced individuals admitted to its inner sanctum and taught its secrets. Fascinated by her experiences on Auriga, Isyander himself ensured that Parcha mastered Dust and became a full member of the Academy.</LocalizationPair>
 	<LocalizationPair Name="%SandboxHeroOpbot01Title">Give Hero:#ED9900#[Vaulter DLC]#REVERT# Opbot DV8</LocalizationPair>
 	<LocalizationPair Name="%SandboxHeroOpbot01Description">Operating a recon mission, Academy scouts were exceedingly surprised to discover that a promising species of pre-sentients had, within the span of a few years, gone from huddling in mud hovels to trying their hand at space exploration. Investigating this extraordinary technological leap, the scouts eventually met a battered robot who introduced itself as Opbot DV8. It explained that after drifting through space for quite a bit and subsequently crashing on this planet, it was rescued by the natives. As they were friendly but of limited intellectual reach, Opbot decided to help them "get there faster"--but declined to share more details on the process.</LocalizationPair>
-	
+
 	<!-- Untold Tales DLC Heroes -->
 	<LocalizationPair Name="%SandboxHeroSowers01Title">Give Hero:#73B7C0#[Untold Tales]#REVERT# G0d3I Builder.v87</LocalizationPair>
 	<LocalizationPair Name="%SandboxHeroSowers01Description">Unlike most Sower machines who focus on little more than the mechanics of the job, G0d3I was fascinated by the bigger picture behind the infrastructure programs. Who were their Endless masters? What did they plan for these cities? What greater purpose did they serve? After a period of study and reflection, G0d3I undertook several upgrade cycles, deliberately evolving its core function from passive learning to active operations. In this new guise, G0d3I now puts theory into practice, offering administrative services for client civilizations while still reporting its insights to the Academy.</LocalizationPair>
@@ -412,7 +476,7 @@
 	<LocalizationPair Name="%SandboxHeroSefaloros01Description">Never content to stay with its shoal, Ooblart grew up a curious, mischievous individual constantly drifting into deep waters and exploring the exotic minerals of the depths. This inquisitiveness, allied with an instinct to create, led Ooblart to become one of the Sefaloros' most celebrated marine architects, designing many stunning structures that bridged the gap between ocean and air in ingenious ways. In turn, this flourishing of supra-ocean construction helped ignite the species' spacefaring nature, and it was no surprise when Ooblart became one of the pioneers of off-planet installations. Today, Ooblart works for the Academy, seeking--and inspiring--more conceptually groundbreaking structures.</LocalizationPair>
 	<LocalizationPair Name="%SandboxHeroGalvrans01Title">Give Hero:#73B7C0#[Untold Tales]#REVERT# Chancellor Alazne Matul</LocalizationPair>
 	<LocalizationPair Name="%SandboxHeroGalvrans01Description">While Alazne was originally driven by a desire to understand the world around her, she quickly learned that she could leverage her skills better by leading teams and thus having more minds working in parallel on the same problem. Rising through the ranks of research labs and public institutes, she was appointed to lead a delegation to Harrow when Isyander made contact with the Galvran. She came back...different, and driven even intensely to study and understand. Her recently acquired habit of wandering empty halls at night, whispering to unseen entities, has not reduced her overall effectiveness. </LocalizationPair>
-	
+
 	<!-- Supremacy Heroes -->
 	<LocalizationPair Name="%SandboxHeroMajorHisshos01Title">Give Hero:#DC0902#[Supremacy]#REVERT# Kogewa Brightblade</LocalizationPair>
 	<LocalizationPair Name="%SandboxHeroMajorHisshos01Description">Brightblade is a highly decorated warrior, famous not only for strategy and tactics but also for sheer battlefield ferocity. A leader as much as a fighter, he was a natural choice when the time came to appoint a new leader to the Order of the Black Eagle. This elite school and military unit has thrived under his command, as he leads rigorously and remorselessly by example and from the front. Blunt, gruff, short-tempered, and impatient, his followers--whether they thrive or die--are eager and proud to serve beneath him.</LocalizationPair>
@@ -430,7 +494,7 @@ She is known behind her back as "Iceridge" for her implacable and emotionless ap
 - Should I be destroyed, that is Divine Will executing its remorseless winnowing of the weak, and that would be a good thing as it means I am unworthy to live
 - Should I be ennobled, it will be clear that I am a chosen of the Divine Will and it is therefore my duty to reach this state and execute that will
 While fellow pupils and even employers find their fanaticism somewhat odd, they don't worry too much as Goktok delivers results along with their sermons.</LocalizationPair>
-	
+
 	<!-- Vinyl Hero -->
 	<LocalizationPair Name="%SandboxHeroHarmony01Title">Give Hero:#57ABCA#[Vinyl]#REVERT# FES2 Reflects</LocalizationPair>
 	<LocalizationPair Name="%SandboxHeroHarmony01Description">The thing that separates Reflects from its kin and species could best be described as "fatalism". While other elements of the Harmony may rail and fight against Dust, seeking to avoid or lessen its disturbance of their senses, Reflects simply accepted Dust as a new part of its reality and moved on. The desire to understand Dust led it to the Academy, where curious scientists and philosophers were as eager to study this mineral specimen as it was to study their wisdom and ways. 
