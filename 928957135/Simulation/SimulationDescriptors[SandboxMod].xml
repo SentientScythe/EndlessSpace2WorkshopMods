@@ -289,20 +289,36 @@
 
 	<!--Increases Ship probes-->
 	<SimulationDescriptor Name="SandboxSuperProbes1" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="1" Path="ClassEmpire/ClassGarrison/ClassShip,ShipRoleExploration" TooltipHidden="true"/>
+		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="1" Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip,ShipRoleExploration" TooltipHidden="true"/>
 		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Percent" Value="1" Path="ClassEmpire/ClassGarrison/ClassShip,ShipRoleExploration"/>
 		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Percent" Value="1" Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip,ShipRoleExploration" TooltipHidden="true"/>
+		<Modifier TargetProperty="ProbeSpeed" Operation="Percent" Value="1" Path="ClassEmpire"/>
+		<Modifier TargetProperty="ProbeVisionRange" Operation="Percent" Value="1" Path="ClassEmpire"/>
 	</SimulationDescriptor>
 	<SimulationDescriptor Name="SandboxSuperProbes2" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="1" Path="ClassEmpire/ClassGarrison/ClassShip,ShipRoleExploration" TooltipHidden="true"/>
+		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="1" Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip,ShipRoleExploration" TooltipHidden="true"/>
 		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Percent" Value="7" Path="ClassEmpire/ClassGarrison/ClassShip,ShipRoleExploration"/>
 		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Percent" Value="7" Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip,ShipRoleExploration" TooltipHidden="true"/>
+		<Modifier TargetProperty="ProbeSpeed" Operation="Percent" Value="3" Path="ClassEmpire"/>
+		<Modifier TargetProperty="ProbeVisionRange" Operation="Percent" Value="3" Path="ClassEmpire"/>
 	</SimulationDescriptor>
 	<SimulationDescriptor Name="SandboxSuperProbes3" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="1" Path="ClassEmpire/ClassGarrison/ClassShip,ShipRoleExploration" TooltipHidden="true"/>
+		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="1" Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip,ShipRoleExploration" TooltipHidden="true"/>
 		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Percent" Value="31" Path="ClassEmpire/ClassGarrison/ClassShip,ShipRoleExploration"/>
 		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Percent" Value="31" Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip,ShipRoleExploration" TooltipHidden="true"/>
+		<Modifier TargetProperty="ProbeSpeed" Operation="Percent" Value="7" Path="ClassEmpire"/>
+		<Modifier TargetProperty="ProbeVisionRange" Operation="Percent" Value="7" Path="ClassEmpire"/>
 	</SimulationDescriptor>
 	<SimulationDescriptor Name="SandboxSuperProbes4" Type="FactionTrait">
+		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="1" Path="ClassEmpire/ClassGarrison/ClassShip,ShipRoleExploration" TooltipHidden="true"/>
+		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Addition" Value="1" Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip,ShipRoleExploration" TooltipHidden="true"/>
 		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Percent" Value="127" Path="ClassEmpire/ClassGarrison/ClassShip,ShipRoleExploration"/>
 		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Percent" Value="127" Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip,ShipRoleExploration" TooltipHidden="true"/>
+		<Modifier TargetProperty="ProbeSpeed" Operation="Percent" Value="15" Path="ClassEmpire"/>
+		<Modifier TargetProperty="ProbeVisionRange" Operation="Percent" Value="15" Path="ClassEmpire"/>
 	</SimulationDescriptor>
 
 	<!--Gives XP, reduces Cost, and heals Heros-->
