@@ -291,26 +291,18 @@
 	<SimulationDescriptor Name="SandboxSuperProbes1" Type="FactionTrait">
 		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Percent" Value="1" Path="ClassEmpire/ClassGarrison/ClassShip,ShipRoleExploration"/>
 		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Percent" Value="1" Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip,ShipRoleExploration" TooltipHidden="true"/>
-		<Modifier TargetProperty="Speed" Operation="Percent" Value="1" Path="ClassEmpire/ClassProbe"/>
-		<Modifier TargetProperty="VisionRange" Operation="Percent" Value="1" Path="ClassEmpire/ClassProbe"/>
 	</SimulationDescriptor>
 	<SimulationDescriptor Name="SandboxSuperProbes2" Type="FactionTrait">
 		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Percent" Value="7" Path="ClassEmpire/ClassGarrison/ClassShip,ShipRoleExploration"/>
 		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Percent" Value="7" Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip,ShipRoleExploration" TooltipHidden="true"/>
-		<Modifier TargetProperty="Speed" Operation="Percent" Value="7" Path="ClassEmpire/ClassProbe"/>
-		<Modifier TargetProperty="VisionRange" Operation="Percent" Value="7" Path="ClassEmpire/ClassProbe"/>
 	</SimulationDescriptor>
 	<SimulationDescriptor Name="SandboxSuperProbes3" Type="FactionTrait">
 		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Percent" Value="31" Path="ClassEmpire/ClassGarrison/ClassShip,ShipRoleExploration"/>
 		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Percent" Value="31" Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip,ShipRoleExploration" TooltipHidden="true"/>
-		<Modifier TargetProperty="Speed" Operation="Percent" Value="31" Path="ClassEmpire/ClassProbe"/>
-		<Modifier TargetProperty="VisionRange" Operation="Percent" Value="31" Path="ClassEmpire/ClassProbe"/>
 	</SimulationDescriptor>
 	<SimulationDescriptor Name="SandboxSuperProbes4" Type="FactionTrait">
 		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Percent" Value="127" Path="ClassEmpire/ClassGarrison/ClassShip,ShipRoleExploration"/>
 		<Modifier TargetProperty="MaximumShipProbeStock" Operation="Percent" Value="127" Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip,ShipRoleExploration" TooltipHidden="true"/>
-		<Modifier TargetProperty="Speed" Operation="Percent" Value="127" Path="ClassEmpire/ClassProbe"/>
-		<Modifier TargetProperty="VisionRange" Operation="Percent" Value="127" Path="ClassEmpire/ClassProbe"/>
 	</SimulationDescriptor>
 
 	<!--Gives XP, reduces Cost, and heals Heros-->
