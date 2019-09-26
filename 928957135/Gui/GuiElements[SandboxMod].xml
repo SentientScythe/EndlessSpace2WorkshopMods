@@ -1,55 +1,37 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
     <!--Gives Extra Trait Points to Spend-->
-    <GuiElement Name="SandboxExtraTraitPoints512">
-        <Title>%SandboxExtraTraitPoints512Title</Title>
+    <GuiElement Name="SandboxExtraTraitPoints1">
+        <Title>%SandboxExtraTraitPoints1Title</Title>
         <Description>%SandboxExtraTraitPointsDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxExtraTraitPoints1024">
-        <Title>%SandboxExtraTraitPoints1024Title</Title>
+    <GuiElement Name="SandboxExtraTraitPoints2">
+        <Title>%SandboxExtraTraitPoints2Title</Title>
         <Description>%SandboxExtraTraitPointsDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxExtraTraitPoints2048">
-        <Title>%SandboxExtraTraitPoints2048Title</Title>
+    <GuiElement Name="SandboxExtraTraitPoints3">
+        <Title>%SandboxExtraTraitPoints3Title</Title>
         <Description>%SandboxExtraTraitPointsDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxExtraTraitPoints4096">
-        <Title>%SandboxExtraTraitPoints4096Title</Title>
+    <GuiElement Name="SandboxExtraTraitPoints4">
+        <Title>%SandboxExtraTraitPoints4Title</Title>
         <Description>%SandboxExtraTraitPointsDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxExtraTraitPoints8192">
-        <Title>%SandboxExtraTraitPoints8192Title</Title>
+    <GuiElement Name="SandboxExtraTraitPoints5">
+        <Title>%SandboxExtraTraitPoints5Title</Title>
         <Description>%SandboxExtraTraitPointsDescription</Description>
-        <Icons>
-            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-        </Icons>
-    </GuiElement>
-
-    <!--No Law Upkeep-->
-    <GuiElement Name="SandboxFreeLaws">
-        <Title>%SandboxFreeLawsTitle</Title>
-        <Description>%SandboxFreeLawsDescription</Description>
-        <Icons>
-            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-        </Icons>
-    </GuiElement>
-
-    <!--Freezes Rebellion-->
-    <GuiElement Name="SandboxNoRebellion">
-        <Title>%SandboxNoRebellionTitle</Title>
-        <Description>%SandboxNoRebellionDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
@@ -351,29 +333,29 @@
     </GuiElement>
 
     <!--Increases System Dust Output by X%-->
-    <GuiElement Name="SandboxSuperMoney100">
-        <Title>%SandboxSuperMoney100Title</Title>
+    <GuiElement Name="SandboxSuperMoney1">
+        <Title>%SandboxSuperMoney1Title</Title>
         <Description>%SandboxSuperMoneyDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxSuperMoney300">
-        <Title>%SandboxSuperMoney300Title</Title>
+    <GuiElement Name="SandboxSuperMoney2">
+        <Title>%SandboxSuperMoney2Title</Title>
         <Description>%SandboxSuperMoneyDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxSuperMoney700">
-        <Title>%SandboxSuperMoney700Title</Title>
+    <GuiElement Name="SandboxSuperMoney3">
+        <Title>%SandboxSuperMoney3Title</Title>
         <Description>%SandboxSuperMoneyDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxSuperMoney1500">
-        <Title>%SandboxSuperMoney1500Title</Title>
+    <GuiElement Name="SandboxSuperMoney4">
+        <Title>%SandboxSuperMoney4Title</Title>
         <Description>%SandboxSuperMoneyDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
@@ -381,29 +363,29 @@
     </GuiElement>
 
     <!--Increases System Industry Output by X%-->
-    <GuiElement Name="SandboxSuperIndustry100">
-        <Title>%SandboxSuperIndustry100Title</Title>
+    <GuiElement Name="SandboxSuperIndustry1">
+        <Title>%SandboxSuperIndustry1Title</Title>
         <Description>%SandboxSuperIndustryDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxSuperIndustry300">
-        <Title>%SandboxSuperIndustry300Title</Title>
+    <GuiElement Name="SandboxSuperIndustry2">
+        <Title>%SandboxSuperIndustry2Title</Title>
         <Description>%SandboxSuperIndustryDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxSuperIndustry700">
-        <Title>%SandboxSuperIndustry700Title</Title>
+    <GuiElement Name="SandboxSuperIndustry3">
+        <Title>%SandboxSuperIndustry3Title</Title>
         <Description>%SandboxSuperIndustryDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxSuperIndustry1500">
-        <Title>%SandboxSuperIndustry1500Title</Title>
+    <GuiElement Name="SandboxSuperIndustry4">
+        <Title>%SandboxSuperIndustry4Title</Title>
         <Description>%SandboxSuperIndustryDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
@@ -411,29 +393,29 @@
     </GuiElement>
 
     <!--Increases System Food Output by X%-->
-    <GuiElement Name="SandboxSuperFood100">
-        <Title>%SandboxSuperFood100Title</Title>
+    <GuiElement Name="SandboxSuperFood1">
+        <Title>%SandboxSuperFood1Title</Title>
         <Description>%SandboxSuperFoodDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxSuperFood300">
-        <Title>%SandboxSuperFood300Title</Title>
+    <GuiElement Name="SandboxSuperFood2">
+        <Title>%SandboxSuperFood2Title</Title>
         <Description>%SandboxSuperFoodDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxSuperFood700">
-        <Title>%SandboxSuperFood700Title</Title>
+    <GuiElement Name="SandboxSuperFood3">
+        <Title>%SandboxSuperFood3Title</Title>
         <Description>%SandboxSuperFoodDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxSuperFood1500">
-        <Title>%SandboxSuperFood1500Title</Title>
+    <GuiElement Name="SandboxSuperFood4">
+        <Title>%SandboxSuperFood4Title</Title>
         <Description>%SandboxSuperFoodDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
@@ -441,29 +423,29 @@
     </GuiElement>
 
     <!--Increases System Science Output by X%-->
-    <GuiElement Name="SandboxSuperScience100">
-        <Title>%SandboxSuperScience100Title</Title>
+    <GuiElement Name="SandboxSuperScience1">
+        <Title>%SandboxSuperScience1Title</Title>
         <Description>%SandboxSuperScienceDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxSuperScience300">
-        <Title>%SandboxSuperScience300Title</Title>
+    <GuiElement Name="SandboxSuperScience2">
+        <Title>%SandboxSuperScience2Title</Title>
         <Description>%SandboxSuperScienceDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxSuperScience700">
-        <Title>%SandboxSuperScience700Title</Title>
+    <GuiElement Name="SandboxSuperScience3">
+        <Title>%SandboxSuperScience3Title</Title>
         <Description>%SandboxSuperScienceDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxSuperScience1500">
-        <Title>%SandboxSuperScience1500Title</Title>
+    <GuiElement Name="SandboxSuperScience4">
+        <Title>%SandboxSuperScience4Title</Title>
         <Description>%SandboxSuperScienceDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
@@ -471,29 +453,29 @@
     </GuiElement>
 
     <!--Increases System Influence Output by X%-->
-    <GuiElement Name="SandboxSuperInfluence100">
-        <Title>%SandboxSuperInfluence100Title</Title>
+    <GuiElement Name="SandboxSuperInfluence1">
+        <Title>%SandboxSuperInfluence1Title</Title>
         <Description>%SandboxSuperInfluenceDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxSuperInfluence300">
-        <Title>%SandboxSuperInfluence300Title</Title>
+    <GuiElement Name="SandboxSuperInfluence2">
+        <Title>%SandboxSuperInfluence2Title</Title>
         <Description>%SandboxSuperInfluenceDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxSuperInfluence700">
-        <Title>%SandboxSuperInfluence700Title</Title>
+    <GuiElement Name="SandboxSuperInfluence3">
+        <Title>%SandboxSuperInfluence3Title</Title>
         <Description>%SandboxSuperInfluenceDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxSuperInfluence1500">
-        <Title>%SandboxSuperInfluence1500Title</Title>
+    <GuiElement Name="SandboxSuperInfluence4">
+        <Title>%SandboxSuperInfluence4Title</Title>
         <Description>%SandboxSuperInfluenceDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
@@ -501,29 +483,29 @@
     </GuiElement>
 
     <!--Increases System happiness by X-->
-    <GuiElement Name="SandboxSuperHappy64">
-        <Title>%SandboxSuperHappy64Title</Title>
+    <GuiElement Name="SandboxSuperHappy1">
+        <Title>%SandboxSuperHappy1Title</Title>
         <Description>%SandboxSuperHappyDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxSuperHappy128">
-        <Title>%SandboxSuperHappy128Title</Title>
+    <GuiElement Name="SandboxSuperHappy2">
+        <Title>%SandboxSuperHappy2Title</Title>
         <Description>%SandboxSuperHappyDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxSuperHappy256">
-        <Title>%SandboxSuperHappy256Title</Title>
+    <GuiElement Name="SandboxSuperHappy3">
+        <Title>%SandboxSuperHappy3Title</Title>
         <Description>%SandboxSuperHappyDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxSuperHappy512">
-        <Title>%SandboxSuperHappy512Title</Title>
+    <GuiElement Name="SandboxSuperHappy4">
+        <Title>%SandboxSuperHappy4Title</Title>
         <Description>%SandboxSuperHappyDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
@@ -561,6 +543,27 @@
     </GuiElement>
 
     <!--Increases OverColonization Threshold -->
+    <GuiElement Name="SandboxLargeEmpires1">
+        <Title>%SandboxLargeEmpires1Title</Title>
+        <Description>%SandboxLargeEmpiresDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="SandboxLargeEmpires2">
+        <Title>%SandboxLargeEmpires2Title</Title>
+        <Description>%SandboxLargeEmpiresDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="SandboxLargeEmpires3">
+        <Title>%SandboxLargeEmpires3Title</Title>
+        <Description>%SandboxLargeEmpiresDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
     <GuiElement Name="SandboxLargeEmpires4">
         <Title>%SandboxLargeEmpires4Title</Title>
         <Description>%SandboxLargeEmpiresDescription</Description>
@@ -568,38 +571,29 @@
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxLargeEmpires16">
-        <Title>%SandboxLargeEmpires16Title</Title>
-        <Description>%SandboxLargeEmpiresDescription</Description>
-        <Icons>
-            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-        </Icons>
-    </GuiElement>
-    <GuiElement Name="SandboxLargeEmpires64">
-        <Title>%SandboxLargeEmpires64Title</Title>
-        <Description>%SandboxLargeEmpiresDescription</Description>
-        <Icons>
-            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-        </Icons>
-    </GuiElement>
-    <GuiElement Name="SandboxLargeEmpires256">
-        <Title>%SandboxLargeEmpires256Title</Title>
-        <Description>%SandboxLargeEmpiresDescription</Description>
-        <Icons>
-            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-        </Icons>
-    </GuiElement>
-
-    <!-- sets luxury cost to 0-->
-    <GuiElement Name="SandboxFreeSystemDevelopment">
-        <Title>%SandboxFreeSystemDevelopmentTitle</Title>
-        <Description>%SandboxFreeSystemDevelopmentDescription</Description>
-        <Icons>
-            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-        </Icons>
-    </GuiElement>
 
     <!--Increases Ship Movement-->
+    <GuiElement Name="SandboxFastShips1">
+        <Title>%SandboxFastShips1Title</Title>
+        <Description>%SandboxFastShipsDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="SandboxFastShips2">
+        <Title>%SandboxFastShips2Title</Title>
+        <Description>%SandboxFastShipsDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="SandboxFastShips3">
+        <Title>%SandboxFastShips3Title</Title>
+        <Description>%SandboxFastShipsDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
     <GuiElement Name="SandboxFastShips4">
         <Title>%SandboxFastShips4Title</Title>
         <Description>%SandboxFastShipsDescription</Description>
@@ -607,52 +601,31 @@
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxFastShips16">
-        <Title>%SandboxFastShips16Title</Title>
-        <Description>%SandboxFastShipsDescription</Description>
-        <Icons>
-            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-        </Icons>
-    </GuiElement>
-    <GuiElement Name="SandboxFastShips64">
-        <Title>%SandboxFastShips64Title</Title>
-        <Description>%SandboxFastShipsDescription</Description>
-        <Icons>
-            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-        </Icons>
-    </GuiElement>
-    <GuiElement Name="SandboxFastShips256">
-        <Title>%SandboxFastShips256Title</Title>
-        <Description>%SandboxFastShipsDescription</Description>
-        <Icons>
-            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-        </Icons>
-    </GuiElement>
 
     <!--Increases Ship probes-->
-    <GuiElement Name="SandboxExtraProbes8">
-        <Title>%SandboxExtraProbes8Title</Title>
+    <GuiElement Name="SandboxExtraProbes1">
+        <Title>%SandboxExtraProbes1Title</Title>
         <Description>%SandboxExtraProbesDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxExtraProbes32">
-        <Title>%SandboxExtraProbes32Title</Title>
+    <GuiElement Name="SandboxExtraProbes2">
+        <Title>%SandboxExtraProbes2Title</Title>
         <Description>%SandboxExtraProbesDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxExtraProbes128">
-        <Title>%SandboxExtraProbes128Title</Title>
+    <GuiElement Name="SandboxExtraProbes3">
+        <Title>%SandboxExtraProbes3Title</Title>
         <Description>%SandboxExtraProbesDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxExtraProbes512">
-        <Title>%SandboxExtraProbes512Title</Title>
+    <GuiElement Name="SandboxExtraProbes4">
+        <Title>%SandboxExtraProbes4Title</Title>
         <Description>%SandboxExtraProbesDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
@@ -660,29 +633,29 @@
     </GuiElement>
 
     <!--Gives XP, reduces Cost, and heals Heros-->
-    <GuiElement Name="SandboxSuperHeros32">
-        <Title>%SandboxSuperHeros32Title</Title>
+    <GuiElement Name="SandboxSuperHeros1">
+        <Title>%SandboxSuperHeros1Title</Title>
         <Description>%SandboxSuperHerosDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxSuperHeros64">
-        <Title>%SandboxSuperHeros64Title</Title>
+    <GuiElement Name="SandboxSuperHeros2">
+        <Title>%SandboxSuperHeros2Title</Title>
         <Description>%SandboxSuperHerosDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxSuperHeros128">
-        <Title>%SandboxSuperHeros128Title</Title>
+    <GuiElement Name="SandboxSuperHeros3">
+        <Title>%SandboxSuperHeros3Title</Title>
         <Description>%SandboxSuperHerosDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxSuperHeros256">
-        <Title>%SandboxSuperHeros256Title</Title>
+    <GuiElement Name="SandboxSuperHeros4">
+        <Title>%SandboxSuperHeros4Title</Title>
         <Description>%SandboxSuperHerosDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
@@ -690,29 +663,29 @@
     </GuiElement>
 
     <!--Increases Ship Health-->
-    <GuiElement Name="SandboxHealthyShips100">
-        <Title>%SandboxHealthyShips100Title</Title>
+    <GuiElement Name="SandboxHealthyShips1">
+        <Title>%SandboxHealthyShips1Title</Title>
         <Description>%SandboxHealthyShipsDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxHealthyShips300">
-        <Title>%SandboxHealthyShips300Title</Title>
+    <GuiElement Name="SandboxHealthyShips2">
+        <Title>%SandboxHealthyShips2Title</Title>
         <Description>%SandboxHealthyShipsDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxHealthyShips700">
-        <Title>%SandboxHealthyShips700Title</Title>
+    <GuiElement Name="SandboxHealthyShips3">
+        <Title>%SandboxHealthyShips3Title</Title>
         <Description>%SandboxHealthyShipsDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxHealthyShips1500">
-        <Title>%SandboxHealthyShips1500Title</Title>
+    <GuiElement Name="SandboxHealthyShips4">
+        <Title>%SandboxHealthyShips4Title</Title>
         <Description>%SandboxHealthyShipsDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
@@ -720,29 +693,29 @@
     </GuiElement>
 
     <!--Increases Ship Damage-->
-    <GuiElement Name="SandboxDeadlyShips100">
-        <Title>%SandboxDeadlyShips100Title</Title>
+    <GuiElement Name="SandboxDeadlyShips1">
+        <Title>%SandboxDeadlyShips1Title</Title>
         <Description>%SandboxDeadlyShipsDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxDeadlyShips300">
-        <Title>%SandboxDeadlyShips300Title</Title>
+    <GuiElement Name="SandboxDeadlyShips2">
+        <Title>%SandboxDeadlyShips2Title</Title>
         <Description>%SandboxDeadlyShipsDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxDeadlyShips700">
-        <Title>%SandboxDeadlyShips700Title</Title>
+    <GuiElement Name="SandboxDeadlyShips3">
+        <Title>%SandboxDeadlyShips3Title</Title>
         <Description>%SandboxDeadlyShipsDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxDeadlyShips1500">
-        <Title>%SandboxDeadlyShips1500Title</Title>
+    <GuiElement Name="SandboxDeadlyShips4">
+        <Title>%SandboxDeadlyShips4Title</Title>
         <Description>%SandboxDeadlyShipsDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
@@ -750,29 +723,29 @@
     </GuiElement>
 
     <!--Decreases Ship Build Cost-->
-    <GuiElement Name="SandboxCheapShips50">
-        <Title>%SandboxCheapShips50Title</Title>
+    <GuiElement Name="SandboxCheapShips1">
+        <Title>%SandboxCheapShips1Title</Title>
         <Description>%SandboxCheapShipsDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxCheapShips75">
-        <Title>%SandboxCheapShips75Title</Title>
+    <GuiElement Name="SandboxCheapShips2">
+        <Title>%SandboxCheapShips2Title</Title>
         <Description>%SandboxCheapShipsDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxCheapShips88">
-        <Title>%SandboxCheapShips88Title</Title>
+    <GuiElement Name="SandboxCheapShips3">
+        <Title>%SandboxCheapShips3Title</Title>
         <Description>%SandboxCheapShipsDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxCheapShips94">
-        <Title>%SandboxCheapShips94Title</Title>
+    <GuiElement Name="SandboxCheapShips4">
+        <Title>%SandboxCheapShips4Title</Title>
         <Description>%SandboxCheapShipsDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
@@ -780,29 +753,29 @@
     </GuiElement>
 
     <!--Increases Infantry Damage + Health-->
-    <GuiElement Name="SandboxSuperInfantry100">
-        <Title>%SandboxSuperInfantry100Title</Title>
+    <GuiElement Name="SandboxSuperInfantry1">
+        <Title>%SandboxSuperInfantry1Title</Title>
         <Description>%SandboxSuperInfantryDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxSuperInfantry300">
-        <Title>%SandboxSuperInfantry300Title</Title>
+    <GuiElement Name="SandboxSuperInfantry2">
+        <Title>%SandboxSuperInfantry2Title</Title>
         <Description>%SandboxSuperInfantryDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxSuperInfantry700">
-        <Title>%SandboxSuperInfantry700Title</Title>
+    <GuiElement Name="SandboxSuperInfantry3">
+        <Title>%SandboxSuperInfantry3Title</Title>
         <Description>%SandboxSuperInfantryDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxSuperInfantry1500">
-        <Title>%SandboxSuperInfantry1500Title</Title>
+    <GuiElement Name="SandboxSuperInfantry4">
+        <Title>%SandboxSuperInfantry4Title</Title>
         <Description>%SandboxSuperInfantryDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
@@ -810,29 +783,29 @@
     </GuiElement>
 
     <!--Increases Manpower Cap-->
-    <GuiElement Name="SandboxManpowerStock100">
-        <Title>%SandboxManpowerStock100Title</Title>
+    <GuiElement Name="SandboxManpowerStock1">
+        <Title>%SandboxManpowerStock1Title</Title>
         <Description>%SandboxManpowerStockDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxManpowerStock300">
-        <Title>%SandboxManpowerStock300Title</Title>
+    <GuiElement Name="SandboxManpowerStock2">
+        <Title>%SandboxManpowerStock2Title</Title>
         <Description>%SandboxManpowerStockDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxManpowerStock700">
-        <Title>%SandboxManpowerStock700Title</Title>
+    <GuiElement Name="SandboxManpowerStock3">
+        <Title>%SandboxManpowerStock3Title</Title>
         <Description>%SandboxManpowerStockDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxManpowerStock1500">
-        <Title>%SandboxManpowerStock1500Title</Title>
+    <GuiElement Name="SandboxManpowerStock4">
+        <Title>%SandboxManpowerStock4Title</Title>
         <Description>%SandboxManpowerStockDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
@@ -840,6 +813,27 @@
     </GuiElement>
 
     <!--Increases Fleet Size-->
+    <GuiElement Name="SandboxSuperFleets1">
+        <Title>%SandboxSuperFleets1Title</Title>
+        <Description>%SandboxSuperFleetsDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="SandboxSuperFleets2">
+        <Title>%SandboxSuperFleets2Title</Title>
+        <Description>%SandboxSuperFleetsDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="SandboxSuperFleets3">
+        <Title>%SandboxSuperFleets3Title</Title>
+        <Description>%SandboxSuperFleetsDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
     <GuiElement Name="SandboxSuperFleets4">
         <Title>%SandboxSuperFleets4Title</Title>
         <Description>%SandboxSuperFleetsDescription</Description>
@@ -847,29 +841,15 @@
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxSuperFleets8">
-        <Title>%SandboxSuperFleets8Title</Title>
-        <Description>%SandboxSuperFleetsDescription</Description>
-        <Icons>
-            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-        </Icons>
-    </GuiElement>
-    <GuiElement Name="SandboxSuperFleets16">
-        <Title>%SandboxSuperFleets16Title</Title>
-        <Description>%SandboxSuperFleetsDescription</Description>
-        <Icons>
-            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-        </Icons>
-    </GuiElement>
-    <GuiElement Name="SandboxSuperFleets32">
-        <Title>%SandboxSuperFleets32Title</Title>
-        <Description>%SandboxSuperFleetsDescription</Description>
-        <Icons>
-            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-        </Icons>
-    </GuiElement>
 
     <!--Increases Trading Subsidiaries Amount-->
+    <GuiElement Name="SandboxSuperSubsidiaries1">
+        <Title>%SandboxSuperSubsidiaries1Title</Title>
+        <Description>%SandboxSuperSubsidiariesDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
     <GuiElement Name="SandboxSuperSubsidiaries2">
         <Title>%SandboxSuperSubsidiaries2Title</Title>
         <Description>%SandboxSuperSubsidiariesDescription</Description>
@@ -877,22 +857,15 @@
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxSuperSubsidiaries8">
-        <Title>%SandboxSuperSubsidiaries8Title</Title>
+    <GuiElement Name="SandboxSuperSubsidiaries3">
+        <Title>%SandboxSuperSubsidiaries3Title</Title>
         <Description>%SandboxSuperSubsidiariesDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxSuperSubsidiaries32">
-        <Title>%SandboxSuperSubsidiaries32Title</Title>
-        <Description>%SandboxSuperSubsidiariesDescription</Description>
-        <Icons>
-            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-        </Icons>
-    </GuiElement>
-    <GuiElement Name="SandboxSuperSubsidiaries128">
-        <Title>%SandboxSuperSubsidiaries128Title</Title>
+    <GuiElement Name="SandboxSuperSubsidiaries4">
+        <Title>%SandboxSuperSubsidiaries4Title</Title>
         <Description>%SandboxSuperSubsidiariesDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
@@ -900,29 +873,29 @@
     </GuiElement>
 
     <!--Increases Trading Company Profit-->
-    <GuiElement Name="SandboxSuperTrading100">
-        <Title>%SandboxSuperTrading100Title</Title>
+    <GuiElement Name="SandboxSuperTrading1">
+        <Title>%SandboxSuperTrading1Title</Title>
         <Description>%SandboxSuperTradingDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxSuperTrading300">
-        <Title>%SandboxSuperTrading300Title</Title>
+    <GuiElement Name="SandboxSuperTrading2">
+        <Title>%SandboxSuperTrading2Title</Title>
         <Description>%SandboxSuperTradingDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxSuperTrading700">
-        <Title>%SandboxSuperTrading700Title</Title>
+    <GuiElement Name="SandboxSuperTrading3">
+        <Title>%SandboxSuperTrading3Title</Title>
         <Description>%SandboxSuperTradingDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxSuperTrading1500">
-        <Title>%SandboxSuperTrading1500Title</Title>
+    <GuiElement Name="SandboxSuperTrading4">
+        <Title>%SandboxSuperTrading4Title</Title>
         <Description>%SandboxSuperTradingDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
@@ -930,29 +903,29 @@
     </GuiElement>
 
     <!--Add Strategic Resources-->
-    <GuiElement Name="SandboxStrategicResource125">
-        <Title>%SandboxStrategicResource125Title</Title>
+    <GuiElement Name="SandboxStrategicResource1">
+        <Title>%SandboxStrategicResource1Title</Title>
         <Description>%SandboxStrategicResourceDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxStrategicResource250">
-        <Title>%SandboxStrategicResource250Title</Title>
+    <GuiElement Name="SandboxStrategicResource2">
+        <Title>%SandboxStrategicResource2Title</Title>
         <Description>%SandboxStrategicResourceDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxStrategicResource500">
-        <Title>%SandboxStrategicResource500Title</Title>
+    <GuiElement Name="SandboxStrategicResource3">
+        <Title>%SandboxStrategicResource3Title</Title>
         <Description>%SandboxStrategicResourceDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxStrategicResource999">
-        <Title>%SandboxStrategicResource999Title</Title>
+    <GuiElement Name="SandboxStrategicResource4">
+        <Title>%SandboxStrategicResource4Title</Title>
         <Description>%SandboxStrategicResourceDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
@@ -960,29 +933,29 @@
     </GuiElement>
 
     <!--Add Strategic Resource Gain-->
-    <GuiElement Name="SandboxStrategicResourceGain100">
-        <Title>%SandboxStrategicResourceGain100Title</Title>
+    <GuiElement Name="SandboxStrategicResourceGain1">
+        <Title>%SandboxStrategicResourceGain1Title</Title>
         <Description>%SandboxStrategicResourceGainDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxStrategicResourceGain300">
-        <Title>%SandboxStrategicResourceGain300Title</Title>
+    <GuiElement Name="SandboxStrategicResourceGain2">
+        <Title>%SandboxStrategicResourceGain2Title</Title>
         <Description>%SandboxStrategicResourceGainDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxStrategicResourceGain700">
-        <Title>%SandboxStrategicResourceGain700Title</Title>
+    <GuiElement Name="SandboxStrategicResourceGain3">
+        <Title>%SandboxStrategicResourceGain3Title</Title>
         <Description>%SandboxStrategicResourceGainDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxStrategicResourceGain1500">
-        <Title>%SandboxStrategicResourceGain1500Title</Title>
+    <GuiElement Name="SandboxStrategicResourceGain4">
+        <Title>%SandboxStrategicResourceGain4Title</Title>
         <Description>%SandboxStrategicResourceGainDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
@@ -990,29 +963,29 @@
     </GuiElement>
 
     <!--Add Luxury Resources-->
-    <GuiElement Name="SandboxLuxuryResource125">
-        <Title>%SandboxLuxuryResource125Title</Title>
+    <GuiElement Name="SandboxLuxuryResource1">
+        <Title>%SandboxLuxuryResource1Title</Title>
         <Description>%SandboxLuxuryResourceDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxLuxuryResource250">
-        <Title>%SandboxLuxuryResource250Title</Title>
+    <GuiElement Name="SandboxLuxuryResource2">
+        <Title>%SandboxLuxuryResource2Title</Title>
         <Description>%SandboxLuxuryResourceDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxLuxuryResource500">
-        <Title>%SandboxLuxuryResource500Title</Title>
+    <GuiElement Name="SandboxLuxuryResource3">
+        <Title>%SandboxLuxuryResource3Title</Title>
         <Description>%SandboxLuxuryResourceDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxLuxuryResource999">
-        <Title>%SandboxLuxuryResource999Title</Title>
+    <GuiElement Name="SandboxLuxuryResource4">
+        <Title>%SandboxLuxuryResource4Title</Title>
         <Description>%SandboxLuxuryResourceDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
@@ -1020,29 +993,29 @@
     </GuiElement>
 
     <!--Add Luxury Resource Gain-->
-    <GuiElement Name="SandboxLuxuryResourceGain100">
-        <Title>%SandboxLuxuryResourceGain100Title</Title>
+    <GuiElement Name="SandboxLuxuryResourceGain1">
+        <Title>%SandboxLuxuryResourceGain1Title</Title>
         <Description>%SandboxLuxuryResourceGainDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxLuxuryResourceGain300">
-        <Title>%SandboxLuxuryResourceGain300Title</Title>
+    <GuiElement Name="SandboxLuxuryResourceGain2">
+        <Title>%SandboxLuxuryResourceGain2Title</Title>
         <Description>%SandboxLuxuryResourceGainDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxLuxuryResourceGain700">
-        <Title>%SandboxLuxuryResourceGain700Title</Title>
+    <GuiElement Name="SandboxLuxuryResourceGain3">
+        <Title>%SandboxLuxuryResourceGain3Title</Title>
         <Description>%SandboxLuxuryResourceGainDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxLuxuryResourceGain1500">
-        <Title>%SandboxLuxuryResourceGain1500Title</Title>
+    <GuiElement Name="SandboxLuxuryResourceGain4">
+        <Title>%SandboxLuxuryResourceGain4Title</Title>
         <Description>%SandboxLuxuryResourceGainDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
@@ -1050,6 +1023,13 @@
     </GuiElement>
 
     <!--Add Juggernaut Limit-->
+    <GuiElement Name="SandboxMaximumJuggernauts1">
+        <Title>%SandboxMaximumJuggernauts1Title</Title>
+        <Description>%SandboxMaximumJuggernautsDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
     <GuiElement Name="SandboxMaximumJuggernauts2">
         <Title>%SandboxMaximumJuggernauts2Title</Title>
         <Description>%SandboxMaximumJuggernautsDescription</Description>
@@ -1057,50 +1037,16 @@
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxMaximumJuggernauts8">
-        <Title>%SandboxMaximumJuggernauts8Title</Title>
+    <GuiElement Name="SandboxMaximumJuggernauts3">
+        <Title>%SandboxMaximumJuggernauts3Title</Title>
         <Description>%SandboxMaximumJuggernautsDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxMaximumJuggernauts32">
-        <Title>%SandboxMaximumJuggernauts32Title</Title>
+    <GuiElement Name="SandboxMaximumJuggernauts4">
+        <Title>%SandboxMaximumJuggernauts4Title</Title>
         <Description>%SandboxMaximumJuggernautsDescription</Description>
-        <Icons>
-            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-        </Icons>
-    </GuiElement>
-    <GuiElement Name="SandboxMaximumJuggernauts128">
-        <Title>%SandboxMaximumJuggernauts128Title</Title>
-        <Description>%SandboxMaximumJuggernautsDescription</Description>
-        <Icons>
-            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-        </Icons>
-    </GuiElement>
-
-    <!--No Juggernaut Upkeep-->
-    <GuiElement Name="SandboxNoJuggernautUpkeep">
-        <Title>%SandboxNoJuggernautUpkeepTitle</Title>
-        <Description>%SandboxNoJuggernautUpkeepDescription</Description>
-        <Icons>
-            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-        </Icons>
-    </GuiElement>
-
-    <!--Shield System-->
-    <GuiElement Name="SandboxSystemShield2">
-        <Title>%SandboxSystemShield2Title</Title>
-        <Description>%SandboxSystemShield2Description</Description>
-        <Icons>
-            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-        </Icons>
-    </GuiElement>
-
-    <!--Honour-->
-    <GuiElement Name="SandboxHonour">
-        <Title>%SandboxHonourTitle</Title>
-        <Description>%SandboxHonourDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
@@ -1142,6 +1088,7 @@
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
+
     <GuiElement Name="SandboxHacks1">
         <Title>%SandboxHacks01Title</Title>
         <Description>%SandboxHacksDescription</Description>
@@ -1166,6 +1113,64 @@
     <GuiElement Name="SandboxHacks4">
         <Title>%SandboxHacks04Title</Title>
         <Description>%SandboxHacksDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="SandboxReducedInflation1">
+        <Title>%SandboxReducedInflation1Title</Title>
+        <Description>%SandboxReducedInflationDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="SandboxReducedInflation2">
+        <Title>%SandboxReducedInflation2Title</Title>
+        <Description>%SandboxReducedInflationDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="SandboxReducedInflation3">
+        <Title>%SandboxReducedInflation3Title</Title>
+        <Description>%SandboxReducedInflationDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="SandboxReducedInflation4">
+        <Title>%SandboxReducedInflation4Title</Title>
+        <Description>%SandboxReducedInflationDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="SandboxReducedTaxes1">
+        <Title>%SandboxReducedTaxes1Title</Title>
+        <Description>%SandboxReducedTaxesDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="SandboxReducedTaxes2">
+        <Title>%SandboxReducedTaxes2Title</Title>
+        <Description>%SandboxReducedTaxesDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="SandboxReducedTaxes3">
+        <Title>%SandboxReducedTaxes3Title</Title>
+        <Description>%SandboxReducedTaxesDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="SandboxReducedTaxes4">
+        <Title>%SandboxReducedTaxes4Title</Title>
+        <Description>%SandboxReducedTaxesDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>

@@ -1,21 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
-	<!--#######################-->
-	<!--###  Single Traits  ###-->
-	<!--#######################-->
-
-	<FactionTrait Name="SandboxFreeLaws" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandbox2" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxFreeLaws"/>
-	</FactionTrait>
-
-	<FactionTrait Name="SandboxNoRebellion" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandbox3" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxNoRebellion"/>
-	</FactionTrait>
-
-	<FactionTrait Name="SandboxFreeSystemDevelopment" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandbox12" Family="FactionTraitFamilyStartModifiers" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxFreeSystemDevelopment"/>
-	</FactionTrait>
-
 	<!--########################-->
 	<!--###  Leveled Traits  ###-->
 	<!--########################-->
@@ -156,104 +140,104 @@
 	</FactionTrait>
 
 	<!--Gives Extra Trait Points to Spend-->
-	<FactionTrait Name="SandboxExtraTraitPoints512" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxExtraTraitPoints" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="-512" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxExtraTraitPoints512"/>
+	<FactionTrait Name="SandboxExtraTraitPoints1" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxExtraTraitPoints" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="-512" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxExtraTraitPoints1"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxExtraTraitPoints1024" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxExtraTraitPoints" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="-1024" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxExtraTraitPoints1024"/>
+	<FactionTrait Name="SandboxExtraTraitPoints2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxExtraTraitPoints" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="-1024" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxExtraTraitPoints2"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxExtraTraitPoints2048" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxExtraTraitPoints" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="-2048" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxExtraTraitPoints2048"/>
+	<FactionTrait Name="SandboxExtraTraitPoints3" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxExtraTraitPoints" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="-2048" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxExtraTraitPoints3"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxExtraTraitPoints4096" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxExtraTraitPoints" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="-4096" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxExtraTraitPoints4096"/>
+	<FactionTrait Name="SandboxExtraTraitPoints4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxExtraTraitPoints" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="-4096" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxExtraTraitPoints4"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxExtraTraitPoints8192" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxExtraTraitPoints" Family="FactionTraitFamilyStartModifiers" Level="5" Hidden="false" Custom="true" Cost="-8192" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxExtraTraitPoints8192"/>
+	<FactionTrait Name="SandboxExtraTraitPoints5" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxExtraTraitPoints" Family="FactionTraitFamilyStartModifiers" Level="5" Hidden="false" Custom="true" Cost="-8192" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxExtraTraitPoints5"/>
 	</FactionTrait>
 
 	<!--Increases System Dust Output by X%-->
-	<FactionTrait Name="SandboxSuperMoney100" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperMoney" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperMoney100"/>
+	<FactionTrait Name="SandboxSuperMoney1" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperMoney" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperMoney1"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxSuperMoney300" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperMoney" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperMoney300"/>
+	<FactionTrait Name="SandboxSuperMoney2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperMoney" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperMoney2"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxSuperMoney700" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperMoney" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperMoney700"/>
+	<FactionTrait Name="SandboxSuperMoney3" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperMoney" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperMoney3"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxSuperMoney1500" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperMoney" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperMoney1500"/>
+	<FactionTrait Name="SandboxSuperMoney4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperMoney" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperMoney4"/>
 	</FactionTrait>
 
 	<!--Increases System Industry Output by X%-->
-	<FactionTrait Name="SandboxSuperIndustry100" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperIndustry" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperIndustry100"/>
+	<FactionTrait Name="SandboxSuperIndustry1" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperIndustry" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperIndustry1"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxSuperIndustry300" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperIndustry" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperIndustry300"/>
+	<FactionTrait Name="SandboxSuperIndustry2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperIndustry" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperIndustry2"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxSuperIndustry700" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperIndustry" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperIndustry700"/>
+	<FactionTrait Name="SandboxSuperIndustry3" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperIndustry" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperIndustry3"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxSuperIndustry1500" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperIndustry" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperIndustry1500"/>
+	<FactionTrait Name="SandboxSuperIndustry4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperIndustry" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperIndustry4"/>
 	</FactionTrait>
 
 	<!--Increases System Food Output by X%-->
-	<FactionTrait Name="SandboxSuperFood100" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperFood" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperFood100"/>
+	<FactionTrait Name="SandboxSuperFood1" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperFood" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperFood1"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxSuperFood300" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperFood" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperFood300"/>
+	<FactionTrait Name="SandboxSuperFood2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperFood" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperFood2"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxSuperFood700" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperFood" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperFood700"/>
+	<FactionTrait Name="SandboxSuperFood3" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperFood" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperFood3"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxSuperFood1500" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperFood" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperFood1500"/>
+	<FactionTrait Name="SandboxSuperFood4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperFood" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperFood4"/>
 	</FactionTrait>
 
 	<!--Increases System Science Output by X%-->
-	<FactionTrait Name="SandboxSuperScience100" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperScience" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperScience100"/>
+	<FactionTrait Name="SandboxSuperScience1" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperScience" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperScience1"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxSuperScience300" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperScience" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperScience300"/>
+	<FactionTrait Name="SandboxSuperScience2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperScience" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperScience2"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxSuperScience700" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperScience" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperScience700"/>
+	<FactionTrait Name="SandboxSuperScience3" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperScience" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperScience3"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxSuperScience1500" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperScience" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperScience1500"/>
+	<FactionTrait Name="SandboxSuperScience4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperScience" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperScience4"/>
 	</FactionTrait>
 
 	<!--Increases System Influence Output by X%-->
-	<FactionTrait Name="SandboxSuperInfluence100" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperInfluence" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperInfluence100"/>
+	<FactionTrait Name="SandboxSuperInfluence1" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperInfluence" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperInfluence1"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxSuperInfluence300" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperInfluence" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperInfluence300"/>
+	<FactionTrait Name="SandboxSuperInfluence2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperInfluence" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperInfluence2"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxSuperInfluence700" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperInfluence" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperInfluence700"/>
+	<FactionTrait Name="SandboxSuperInfluence3" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperInfluence" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperInfluence3"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxSuperInfluence1500" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperInfluence" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperInfluence1500"/>
+	<FactionTrait Name="SandboxSuperInfluence4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperInfluence" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperInfluence4"/>
 	</FactionTrait>
 
 	<!--Increases System happiness by X-->
-	<FactionTrait Name="SandboxSuperHappy64" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperHappy" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperHappy64"/>
+	<FactionTrait Name="SandboxSuperHappy1" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperHappy" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperHappy1"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxSuperHappy128" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperHappy" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperHappy128"/>
+	<FactionTrait Name="SandboxSuperHappy2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperHappy" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperHappy2"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxSuperHappy256" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperHappy" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperHappy256"/>
+	<FactionTrait Name="SandboxSuperHappy3" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperHappy" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperHappy3"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxSuperHappy512" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperHappy" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperHappy512"/>
+	<FactionTrait Name="SandboxSuperHappy4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperHappy" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperHappy4"/>
 	</FactionTrait>
 
 	<!--Increases Planet Slots by X-->
@@ -271,176 +255,176 @@
 	</FactionTrait>
 
 	<!--Increases Overcolonization Threshold -->
-	<FactionTrait Name="SandboxLargeEmpires4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxLargeEmpires" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	<FactionTrait Name="SandboxLargeEmpires1" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxLargeEmpires" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxLargeEmpires1"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxLargeEmpires2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxLargeEmpires" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxLargeEmpires2"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxLargeEmpires3" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxLargeEmpires" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxLargeEmpires3"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxLargeEmpires4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxLargeEmpires" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<SimulationDescriptorReference Name="SandboxLargeEmpires4"/>
-	</FactionTrait>
-	<FactionTrait Name="SandboxLargeEmpires16" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxLargeEmpires" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxLargeEmpires16"/>
-	</FactionTrait>
-	<FactionTrait Name="SandboxLargeEmpires64" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxLargeEmpires" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxLargeEmpires64"/>
-	</FactionTrait>
-	<FactionTrait Name="SandboxLargeEmpires256" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxLargeEmpires" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxLargeEmpires256"/>
 	</FactionTrait>
 
 	<!--Increases Ship Movement-->
-	<FactionTrait Name="SandboxFastShips4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxFastShips" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	<FactionTrait Name="SandboxFastShips1" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxFastShips" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxFastShips1"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxFastShips2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxFastShips" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxFastShips2"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxFastShips3" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxFastShips" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxFastShips3"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxFastShips4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxFastShips" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<SimulationDescriptorReference Name="SandboxFastShips4"/>
-	</FactionTrait>
-	<FactionTrait Name="SandboxFastShips16" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxFastShips" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxFastShips16"/>
-	</FactionTrait>
-	<FactionTrait Name="SandboxFastShips64" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxFastShips" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxFastShips64"/>
-	</FactionTrait>
-	<FactionTrait Name="SandboxFastShips256" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxFastShips" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxFastShips256"/>
 	</FactionTrait>
 
 	<!--Increases Ship probes-->
-	<FactionTrait Name="SandboxExtraProbes8" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxExtraProbes" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxExtraProbes8"/>
+	<FactionTrait Name="SandboxExtraProbes1" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxExtraProbes" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxExtraProbes1"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxExtraProbes32" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxExtraProbes" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxExtraProbes32"/>
+	<FactionTrait Name="SandboxExtraProbes2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxExtraProbes" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxExtraProbes2"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxExtraProbes128" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxExtraProbes" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxExtraProbes128"/>
+	<FactionTrait Name="SandboxExtraProbes3" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxExtraProbes" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxExtraProbes3"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxExtraProbes512" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxExtraProbes" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxExtraProbes512"/>
+	<FactionTrait Name="SandboxExtraProbes4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxExtraProbes" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxExtraProbes4"/>
 	</FactionTrait>
 
 	<!--Gives XP, reduces Cost, and heals Heros-->
-	<FactionTrait Name="SandboxSuperHeros32" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperHeros" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperHeros32"/>
+	<FactionTrait Name="SandboxSuperHeros1" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperHeros" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperHeros1"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxSuperHeros64" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperHeros" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperHeros64"/>
+	<FactionTrait Name="SandboxSuperHeros2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperHeros" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperHeros2"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxSuperHeros128" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperHeros" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperHeros128"/>
+	<FactionTrait Name="SandboxSuperHeros3" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperHeros" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperHeros3"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxSuperHeros256" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperHeros" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperHeros256"/>
+	<FactionTrait Name="SandboxSuperHeros4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperHeros" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperHeros4"/>
 	</FactionTrait>
 
 	<!--Increases Ship Health-->
-	<FactionTrait Name="SandboxHealthyShips100" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxHealthyShips" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxHealthyShips100"/>
+	<FactionTrait Name="SandboxHealthyShips1" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxHealthyShips" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxHealthyShips1"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxHealthyShips300" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxHealthyShips" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxHealthyShips300"/>
+	<FactionTrait Name="SandboxHealthyShips2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxHealthyShips" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxHealthyShips2"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxHealthyShips700" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxHealthyShips" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxHealthyShips700"/>
+	<FactionTrait Name="SandboxHealthyShips3" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxHealthyShips" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxHealthyShips3"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxHealthyShips1500" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxHealthyShips" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxHealthyShips1500"/>
+	<FactionTrait Name="SandboxHealthyShips4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxHealthyShips" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxHealthyShips4"/>
 	</FactionTrait>
 
 	<!--Increases Ship Damage-->
-	<FactionTrait Name="SandboxDeadlyShips100" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxDeadlyShips" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxDeadlyShips100"/>
+	<FactionTrait Name="SandboxDeadlyShips1" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxDeadlyShips" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxDeadlyShips1"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxDeadlyShips300" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxDeadlyShips" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxDeadlyShips300"/>
+	<FactionTrait Name="SandboxDeadlyShips2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxDeadlyShips" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxDeadlyShips2"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxDeadlyShips700" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxDeadlyShips" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxDeadlyShips700"/>
+	<FactionTrait Name="SandboxDeadlyShips3" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxDeadlyShips" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxDeadlyShips3"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxDeadlyShips1500" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxDeadlyShips" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxDeadlyShips1500"/>
+	<FactionTrait Name="SandboxDeadlyShips4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxDeadlyShips" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxDeadlyShips4"/>
 	</FactionTrait>
 
 	<!--Decreases Ship Build Cost-->
-	<FactionTrait Name="SandboxCheapShips50" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxCheapShips" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxCheapShips50"/>
+	<FactionTrait Name="SandboxCheapShips1" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxCheapShips" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxCheapShips1"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxCheapShips75" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxCheapShips" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxCheapShips75"/>
+	<FactionTrait Name="SandboxCheapShips2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxCheapShips" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxCheapShips2"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxCheapShips88" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxCheapShips" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxCheapShips88"/>
+	<FactionTrait Name="SandboxCheapShips3" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxCheapShips" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxCheapShips3"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxCheapShips94" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxCheapShips" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxCheapShips94"/>
+	<FactionTrait Name="SandboxCheapShips4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxCheapShips" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxCheapShips4"/>
 	</FactionTrait>
 
 	<!--Increases Infantry Damage + Health-->
-	<FactionTrait Name="SandboxSuperInfantry100" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperInfantry" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperInfantry100"/>
+	<FactionTrait Name="SandboxSuperInfantry1" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperInfantry" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperInfantry1"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxSuperInfantry300" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperInfantry" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperInfantry300"/>
+	<FactionTrait Name="SandboxSuperInfantry2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperInfantry" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperInfantry2"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxSuperInfantry700" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperInfantry" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperInfantry700"/>
+	<FactionTrait Name="SandboxSuperInfantry3" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperInfantry" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperInfantry3"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxSuperInfantry1500" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperInfantry" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperInfantry1500"/>
+	<FactionTrait Name="SandboxSuperInfantry4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperInfantry" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperInfantry4"/>
 	</FactionTrait>
 
 	<!--Increases Manpower Cap-->
-	<FactionTrait Name="SandboxManpowerStock100" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxManpowerStock" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxManpowerStock100"/>
+	<FactionTrait Name="SandboxManpowerStock1" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxManpowerStock" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxManpowerStock1"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxManpowerStock300" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxManpowerStock" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxManpowerStock300"/>
+	<FactionTrait Name="SandboxManpowerStock2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxManpowerStock" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxManpowerStock2"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxManpowerStock700" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxManpowerStock" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxManpowerStock700"/>
+	<FactionTrait Name="SandboxManpowerStock3" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxManpowerStock" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxManpowerStock3"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxManpowerStock1500" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxManpowerStock" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxManpowerStock1500"/>
+	<FactionTrait Name="SandboxManpowerStock4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxManpowerStock" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxManpowerStock4"/>
 	</FactionTrait>
 
 	<!--Increases Fleet Size-->
-	<FactionTrait Name="SandboxSuperFleets4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperFleets" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	<FactionTrait Name="SandboxSuperFleets1" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperFleets" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperFleets1"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxSuperFleets2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperFleets" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperFleets2"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxSuperFleets3" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperFleets" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperFleets3"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxSuperFleets4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperFleets" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<SimulationDescriptorReference Name="SandboxSuperFleets4"/>
-	</FactionTrait>
-	<FactionTrait Name="SandboxSuperFleets8" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperFleets" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperFleets8"/>
-	</FactionTrait>
-	<FactionTrait Name="SandboxSuperFleets16" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperFleets" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperFleets16"/>
-	</FactionTrait>
-	<FactionTrait Name="SandboxSuperFleets32" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperFleets" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperFleets32"/>
 	</FactionTrait>
 
 	<!--Increases Trading Subsidiaries Amount-->
-	<FactionTrait Name="SandboxSuperSubsidiaries2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperSubsidiaries" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	<FactionTrait Name="SandboxSuperSubsidiaries1" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperSubsidiaries" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperSubsidiaries1"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxSuperSubsidiaries2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperSubsidiaries" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<SimulationDescriptorReference Name="SandboxSuperSubsidiaries2"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxSuperSubsidiaries8" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperSubsidiaries" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperSubsidiaries8"/>
+	<FactionTrait Name="SandboxSuperSubsidiaries3" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperSubsidiaries" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperSubsidiaries3"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxSuperSubsidiaries32" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperSubsidiaries" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperSubsidiaries32"/>
-	</FactionTrait>
-	<FactionTrait Name="SandboxSuperSubsidiaries128" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperSubsidiaries" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperSubsidiaries128"/>
+	<FactionTrait Name="SandboxSuperSubsidiaries4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperSubsidiaries" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperSubsidiaries4"/>
 	</FactionTrait>
 
 	<!--Increases Trading Company Profit-->
-	<FactionTrait Name="SandboxSuperTrading100" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperTrading" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperTrading100"/>
+	<FactionTrait Name="SandboxSuperTrading1" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperTrading" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperTrading1"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxSuperTrading300" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperTrading" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperTrading300"/>
+	<FactionTrait Name="SandboxSuperTrading2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperTrading" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperTrading2"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxSuperTrading700" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperTrading" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperTrading700"/>
+	<FactionTrait Name="SandboxSuperTrading3" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperTrading" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperTrading3"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxSuperTrading1500" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperTrading" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSuperTrading1500"/>
+	<FactionTrait Name="SandboxSuperTrading4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSuperTrading" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxSuperTrading4"/>
 	</FactionTrait>
 
 	<!--Add Strategic Resources-->
-	<FactionTrait Name="SandboxStrategicResource125" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxStrategicResource" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxStrategicResource125"/>
+	<FactionTrait Name="SandboxStrategicResource1" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxStrategicResource" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxStrategicResource1"/>
 		<Command Name="TransferResources" Arguments="Strategic1,125"/>
 		<Command Name="TransferResources" Arguments="Strategic2,125"/>
 		<Command Name="TransferResources" Arguments="Strategic3,125"/>
@@ -448,8 +432,8 @@
 		<Command Name="TransferResources" Arguments="Strategic5,125"/>
 		<Command Name="TransferResources" Arguments="Strategic6,125"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxStrategicResource250" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxStrategicResource" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxStrategicResource250"/>
+	<FactionTrait Name="SandboxStrategicResource2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxStrategicResource" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxStrategicResource2"/>
 		<Command Name="TransferResources" Arguments="Strategic1,250"/>
 		<Command Name="TransferResources" Arguments="Strategic2,250"/>
 		<Command Name="TransferResources" Arguments="Strategic3,250"/>
@@ -457,8 +441,8 @@
 		<Command Name="TransferResources" Arguments="Strategic5,250"/>
 		<Command Name="TransferResources" Arguments="Strategic6,250"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxStrategicResource500" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxStrategicResource" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxStrategicResource500"/>
+	<FactionTrait Name="SandboxStrategicResource3" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxStrategicResource" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxStrategicResource3"/>
 		<Command Name="TransferResources" Arguments="Strategic1,500"/>
 		<Command Name="TransferResources" Arguments="Strategic2,500"/>
 		<Command Name="TransferResources" Arguments="Strategic3,500"/>
@@ -466,8 +450,8 @@
 		<Command Name="TransferResources" Arguments="Strategic5,500"/>
 		<Command Name="TransferResources" Arguments="Strategic6,500"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxStrategicResource999" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxStrategicResource" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxStrategicResource999"/>
+	<FactionTrait Name="SandboxStrategicResource4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxStrategicResource" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxStrategicResource4"/>
 		<Command Name="TransferResources" Arguments="Strategic1,999"/>
 		<Command Name="TransferResources" Arguments="Strategic2,999"/>
 		<Command Name="TransferResources" Arguments="Strategic3,999"/>
@@ -477,22 +461,22 @@
 	</FactionTrait>
 
 	<!--Add Strategic Resource Gain-->
-	<FactionTrait Name="SandboxStrategicResourceGain100" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxStrategicResourceGain" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxStrategicResourceGain100"/>
+	<FactionTrait Name="SandboxStrategicResourceGain1" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxStrategicResourceGain" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxStrategicResourceGain1"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxStrategicResourceGain300" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxStrategicResourceGain" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxStrategicResourceGain300"/>
+	<FactionTrait Name="SandboxStrategicResourceGain2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxStrategicResourceGain" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxStrategicResourceGain2"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxStrategicResourceGain700" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxStrategicResourceGain" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxStrategicResourceGain700"/>
+	<FactionTrait Name="SandboxStrategicResourceGain3" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxStrategicResourceGain" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxStrategicResourceGain3"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxStrategicResourceGain1500" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxStrategicResourceGain" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxStrategicResourceGain1500"/>
+	<FactionTrait Name="SandboxStrategicResourceGain4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxStrategicResourceGain" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxStrategicResourceGain4"/>
 	</FactionTrait>
 
 	<!--Add Luxury Resources-->
-	<FactionTrait Name="SandboxLuxuryResource125" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxLuxuryResource" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxLuxuryResource125"/>
+	<FactionTrait Name="SandboxLuxuryResource1" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxLuxuryResource" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxLuxuryResource1"/>
 		<Command Name="TransferResources" Arguments="Luxury1,125"/>
 		<Command Name="TransferResources" Arguments="Luxury2,125"/>
 		<Command Name="TransferResources" Arguments="Luxury3,125"/>
@@ -518,8 +502,8 @@
 		<Command Name="TransferResources" Arguments="Luxury23,125"/>
 		<Command Name="TransferResources" Arguments="Luxury24,125"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxLuxuryResource250" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxLuxuryResource" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxLuxuryResource250"/>
+	<FactionTrait Name="SandboxLuxuryResource2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxLuxuryResource" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxLuxuryResource2"/>
 		<Command Name="TransferResources" Arguments="Luxury1,250"/>
 		<Command Name="TransferResources" Arguments="Luxury2,250"/>
 		<Command Name="TransferResources" Arguments="Luxury3,250"/>
@@ -545,8 +529,8 @@
 		<Command Name="TransferResources" Arguments="Luxury23,250"/>
 		<Command Name="TransferResources" Arguments="Luxury24,250"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxLuxuryResource500" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxLuxuryResource" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxLuxuryResource500"/>
+	<FactionTrait Name="SandboxLuxuryResource3" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxLuxuryResource" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxLuxuryResource3"/>
 		<Command Name="TransferResources" Arguments="Luxury1,500"/>
 		<Command Name="TransferResources" Arguments="Luxury2,500"/>
 		<Command Name="TransferResources" Arguments="Luxury3,500"/>
@@ -572,8 +556,8 @@
 		<Command Name="TransferResources" Arguments="Luxury23,500"/>
 		<Command Name="TransferResources" Arguments="Luxury24,500"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxLuxuryResource999" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxLuxuryResource" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxLuxuryResource999"/>
+	<FactionTrait Name="SandboxLuxuryResource4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxLuxuryResource" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxLuxuryResource4"/>
 		<Command Name="TransferResources" Arguments="Luxury1,999"/>
 		<Command Name="TransferResources" Arguments="Luxury2,999"/>
 		<Command Name="TransferResources" Arguments="Luxury3,999"/>
@@ -600,49 +584,32 @@
 		<Command Name="TransferResources" Arguments="Luxury24,999"/>
 	</FactionTrait>
 
-	<!--Add Luxury Resource Gain-->
-	<FactionTrait Name="SandboxLuxuryResourceGain100" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxLuxuryResourceGain" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxLuxuryResourceGain100"/>
+	<!--Increase Luxury Resource Gain-->
+	<FactionTrait Name="SandboxLuxuryResourceGain1" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxLuxuryResourceGain" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxLuxuryResourceGain1"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxLuxuryResourceGain300" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxLuxuryResourceGain" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxLuxuryResourceGain300"/>
+	<FactionTrait Name="SandboxLuxuryResourceGain2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxLuxuryResourceGain" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxLuxuryResourceGain2"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxLuxuryResourceGain700" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxLuxuryResourceGain" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxLuxuryResourceGain700"/>
+	<FactionTrait Name="SandboxLuxuryResourceGain3" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxLuxuryResourceGain" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxLuxuryResourceGain3"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxLuxuryResourceGain1500" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxLuxuryResourceGain" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxLuxuryResourceGain1500"/>
+	<FactionTrait Name="SandboxLuxuryResourceGain4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxLuxuryResourceGain" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxLuxuryResourceGain4"/>
 	</FactionTrait>
 
-	<!--Add Juggernaut Limit-->
-	<FactionTrait Name="SandboxMaximumJuggernauts2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxMaximumJuggernauts" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+	<!--Increase Juggernaut Limit-->
+	<FactionTrait Name="SandboxMaximumJuggernauts1" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxMaximumJuggernauts" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxMaximumJuggernauts1"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxMaximumJuggernauts2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxMaximumJuggernauts" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<SimulationDescriptorReference Name="SandboxMaximumJuggernauts2"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxMaximumJuggernauts8" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxMaximumJuggernauts" Family="FactionTraitFamilyStartModifiers" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxMaximumJuggernauts8"/>
+	<FactionTrait Name="SandboxMaximumJuggernauts3" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxMaximumJuggernauts" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxMaximumJuggernauts3"/>
 	</FactionTrait>
-	<FactionTrait Name="SandboxMaximumJuggernauts32" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxMaximumJuggernauts" Family="FactionTraitFamilyStartModifiers" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxMaximumJuggernauts32"/>
-	</FactionTrait>
-	<FactionTrait Name="SandboxMaximumJuggernauts128" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxMaximumJuggernauts" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxMaximumJuggernauts128"/>
-	</FactionTrait>
-
-	<!--No Juggernaut Upkeep-->
-	<FactionTrait Name="SandboxNoJuggernautUpkeep" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxNoJuggernautUpkeep" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxNoJuggernautUpkeep"/>
-	</FactionTrait>
-
-	<!--Shield System-->
-	<FactionTrait Name="SandboxSystemShield2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxSystemShield" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<SimulationDescriptorReference Name="SandboxSystemShield2"/>
-	</FactionTrait>
-
-	<!--Honour-->
-	<FactionTrait Name="SandboxHonour" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxHonour" Family="FactionTraitFamilyStartModifiers" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
-		<Command Name="TransferResources" Arguments="EmpireHonor,100"/>
-		<SimulationDescriptorReference Name="SandboxHonour"/>
-		<Prerequisites>AffinityGameplayMajorHisshos</Prerequisites>
+	<FactionTrait Name="SandboxMaximumJuggernauts4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="TraitSubCategorySandboxMaximumJuggernauts" Family="FactionTraitFamilyStartModifiers" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxMaximumJuggernauts4"/>
 	</FactionTrait>
 
 	<!--Tech unlocks-->
@@ -742,6 +709,32 @@
 	</FactionTrait>
 	<FactionTrait Name="SandboxHacks4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="FactionTraitSandboxHacks" Family="FactionTraitFamilyStartingTechnologies" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
 		<SimulationDescriptorReference Name="SandboxHacks4"/>
+	</FactionTrait>
+
+	<FactionTrait Name="SandboxReducedInflation1" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="FactionTraitSandboxReducedInflation" Family="FactionTraitFamilyStartingTechnologies" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxReducedInflation1"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxReducedInflation2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="FactionTraitSandboxReducedInflation" Family="FactionTraitFamilyStartingTechnologies" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxReducedInflation2"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxReducedInflation3" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="FactionTraitSandboxReducedInflation" Family="FactionTraitFamilyStartingTechnologies" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxReducedInflation3"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxReducedInflation4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="FactionTraitSandboxReducedInflation" Family="FactionTraitFamilyStartingTechnologies" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxReducedInflation4"/>
+	</FactionTrait>
+
+	<FactionTrait Name="SandboxReducedTaxes1" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="FactionTraitSandboxReducedTaxes" Family="FactionTraitFamilyStartingTechnologies" Level="1" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxReducedTaxes1"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxReducedTaxes2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="FactionTraitSandboxReducedTaxes" Family="FactionTraitFamilyStartingTechnologies" Level="2" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxReducedTaxes2"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxReducedTaxes3" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="FactionTraitSandboxReducedTaxes" Family="FactionTraitFamilyStartingTechnologies" Level="3" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxReducedTaxes3"/>
+	</FactionTrait>
+	<FactionTrait Name="SandboxReducedTaxes4" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartModifiers" TraitSubCategory="FactionTraitSandboxReducedTaxes" Family="FactionTraitFamilyStartingTechnologies" Level="4" Hidden="false" Custom="true" Cost="0" IgnoreForTraitsCount="true">
+		<SimulationDescriptorReference Name="SandboxReducedTaxes4"/>
 	</FactionTrait>
 
 	<!--#################################-->
