@@ -603,30 +603,30 @@
     </GuiElement>
 
     <!--Increases Ship probes-->
-    <GuiElement Name="SandboxExtraProbes1">
-        <Title>%SandboxExtraProbes1Title</Title>
-        <Description>%SandboxExtraProbesDescription</Description>
+    <GuiElement Name="SandboxSuperProbes1">
+        <Title>%SandboxSuperProbes1Title</Title>
+        <Description>%SandboxSuperProbesDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxExtraProbes2">
-        <Title>%SandboxExtraProbes2Title</Title>
-        <Description>%SandboxExtraProbesDescription</Description>
+    <GuiElement Name="SandboxSuperProbes2">
+        <Title>%SandboxSuperProbes2Title</Title>
+        <Description>%SandboxSuperProbesDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxExtraProbes3">
-        <Title>%SandboxExtraProbes3Title</Title>
-        <Description>%SandboxExtraProbesDescription</Description>
+    <GuiElement Name="SandboxSuperProbes3">
+        <Title>%SandboxSuperProbes3Title</Title>
+        <Description>%SandboxSuperProbesDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
     </GuiElement>
-    <GuiElement Name="SandboxExtraProbes4">
-        <Title>%SandboxExtraProbes4Title</Title>
-        <Description>%SandboxExtraProbesDescription</Description>
+    <GuiElement Name="SandboxSuperProbes4">
+        <Title>%SandboxSuperProbes4Title</Title>
+        <Description>%SandboxSuperProbesDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
         </Icons>
