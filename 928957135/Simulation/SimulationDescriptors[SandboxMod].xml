@@ -521,8 +521,7 @@
 		<Modifier TargetProperty="MaximumJuggernauts" Operation="Percent" Value="15" Path="ClassEmpire"/>
 	</SimulationDescriptor>
 
-	<SimulationDescriptor Name="SandboxTechs" Type="FactionTrait">
-	</SimulationDescriptor>
+	<SimulationDescriptor Name="SandboxTechs" Type="FactionTrait"/>
 
 	<SimulationDescriptor Name="SandboxHacks1" Type="FactionTrait">
 		<Modifier TargetProperty="MaximumHackingOperationsCount" Value="1" Operation="Percent" Path="ClassEmpire"/>
