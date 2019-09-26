@@ -234,7 +234,7 @@
 	<LocalizationPair Name="%SandboxLuxuryResourceGainDescription">Live in the lap of luxury!</LocalizationPair>
 
 	<!--Add Juggernaut Limit-->
-	<LocalizationPair Name="%SandboxMaximumJuggernauts2Title">Sandbox: More Behemoths I</LocalizationPair>
+	<LocalizationPair Name="%SandboxMaximumJuggernauts1Title">Sandbox: More Behemoths I</LocalizationPair>
 	<LocalizationPair Name="%SandboxMaximumJuggernauts2Title">Sandbox: More Behemoths II</LocalizationPair>
 	<LocalizationPair Name="%SandboxMaximumJuggernauts3Title">Sandbox: More Behemoths III</LocalizationPair>
 	<LocalizationPair Name="%SandboxMaximumJuggernauts4Title">Sandbox: More Behemoths IV</LocalizationPair>
